@@ -532,7 +532,7 @@
     "href": "pages/general/cover-letter-one-page.html#fast-routes-pick-one",
     "title": "Read Me First",
     "section": "Fast routes (pick one)",
-    "text": "Fast routes (pick one)\n\nFor the research programme’s purpose — Manifesto (what the five papers are actually for, and why theory is not the opposite of action).\nFor the 60-second read — the three points below cover the case if the application letter went unread.\nFor the full written argument — Full glory cover letter: Full Glory Cover Letter.\nFor profile fit and methods in one screen — Short CV.\nFor full background depth — Full Glory CV.\nFor the research programme — Research Portfolio (five papers; theory, empirics, welfare foundation, methodological self-audit).\nFor the two papers that matter most to NEF — Policy argument: Breaking the Benchmark. Empirical anchor: Fiscal Capture.\nFor how the work was actually done — Behind the build: the verification-first method and the manual hours behind it (the video is only the tip of the iceberg).",
+    "text": "Fast routes (pick one)\n\nFor the research programme’s purpose — Manifesto (what the five papers are actually for, and why theory is not the opposite of action).\nFor the 60-second read — the three points below cover the case if the application letter went unread.\nFor the full written argument — Full glory cover letter: Full Glory Cover Letter.\nFor profile fit and methods in one screen — Short CV.\nFor full background depth — Full Glory CV.\nFor the research programme — Research Portfolio (five papers; theory, empirics, welfare foundation, methodological self-audit).\nFor the two papers that matter most to NEF — Policy argument: Breaking the Benchmark. Empirical anchor: Fiscal Capture.\nFor what it actually took — the craft behind the programme: a verification-first method built and run by hand over tens of thousands of hours; the machine never marks its own homework (the video is only the tip of the iceberg).",
     "crumbs": [
       "Home",
       "General",
@@ -827,7 +827,7 @@
     "href": "index.html#general",
     "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
     "section": "General",
-    "text": "General\n\nResearch Built to Change Things (Manifesto)\nRead Me First\nShort CV\nFull Glory CV\nExtended Cover Letter (Full Glory)\nSubmitted Application Letter (1 Page)\nResearch Portfolio\nHow This Was Actually Built"
+    "text": "General\n\nResearch Built to Change Things (Manifesto)\nRead Me First\nShort CV\nFull Glory CV\nExtended Cover Letter (Full Glory)\nSubmitted Application Letter (1 Page)\nResearch Portfolio\nThe Tools Are Everywhere Now. The Judgment Isn’t."
   },
   {
     "objectID": "index.html#blogs",
@@ -1194,13 +1194,13 @@
   {
     "objectID": "pages/general/research-os-video.html",
     "href": "pages/general/research-os-video.html",
-    "title": "How This Was Actually Built",
+    "title": "The Tools Are Everywhere Now. The Judgment Isn’t.",
     "section": "",
-    "text": "Carlos Galindo Escajeda · June 2026\nWhat the video shows is the tip of the iceberg — and the iceberg is human.\nThe system in this screen-capture was not handed to me by a machine. It was constructed over tens of thousands of hours of human work — mathematics, econometrics, problem-solving, and manual data handling accumulated since long before generative tools existed — and it runs with a human on the loop at high capacity. The AI is an instrument held under that governance: cross-examined by other models under a lock so that none marks its own homework, checked against primary sources, and never permitted to author a judgment. Every load-bearing claim is verified, survives logged adversarial challenge, or is explicitly flagged open.\nThis is the same verification-first discipline the cover letter describes — shown rather than asserted.\n\n  \n  Your browser can't play embedded video —\n  open the MP4 directly.\n\nWhat you are not seeing. A few minutes of screen capture stand in for a process measured in years: hand-built FRB/US scenario work, STATA and microsimulation craft, derivations worked out by hand, and data cleaned and reconciled row by row. The tooling compresses the keystrokes; it does not supply the judgment, the theory, or the responsibility for being right. That part is human — and it is the part the role is for.\n→ Why the programme exists: Manifesto → The five papers, with reading order: Research Portfolio\n\n\n\n Back to top",
+    "text": "Carlos Galindo Escajeda · June 2026\nWhat the video shows is the tip of the iceberg — built and run by hand, over tens of thousands of hours, with the machine kept on a short leash.\nIf your first instinct on seeing AI anywhere near research is suspicion, keep it — that instinct is the whole point. What is now cheap is producing text and code; anyone can do that. What is scarce is making a machine’s output survive a referee trying to destroy it: reconciling it with primary sources, holding it to a theorem, and throwing it out when it fails. That is judgment, and no tool supplies it.\nI built this apparatus and I run it at high capacity, with a human on the loop at every load-bearing step. It stands on tens of thousands of hours of mathematics, econometrics, problem-solving, and manual data handling — accumulated since long before generative tools existed. The AI sits under that hand: cross-examined by other models under a lock so none marks its own homework, checked against primary sources, and never permitted to author a conclusion. Every claim that carries weight is verified, survives logged adversarial challenge, or is flagged open. That is the verification-first discipline the cover letter describes — shown, not asserted.\n\n  \n  Your browser can't play embedded video —\n  open the MP4 directly.\n\nWhat you are not seeing. A few minutes of capture stand in for work measured in years: hand-built FRB/US scenario reconstruction, STATA and microsimulation craft, derivations worked through by hand, data cleaned and reconciled row by row. The tooling compresses the keystrokes. It does not supply the theory, the judgment, or the responsibility for being right — and that is precisely the part the role is for.\n→ Why the programme exists: Manifesto → The five papers, with reading order: Research Portfolio\n\n\n\n Back to top",
     "crumbs": [
       "Home",
       "General",
-      "How it was built (video)"
+      "What it actually took (video)"
     ]
   },
   {
