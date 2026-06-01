@@ -29,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../pages/general/cover-letter-one-page.html" rel="next">
+<link href="../../pages/general/research-os-video.html" rel="next">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../custom.css">
 </head>
@@ -148,6 +177,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../pages/general/manifesto.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Manifesto</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/research-os-video.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">▶ Watch: How I Used AI</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -314,17 +349,17 @@ ul.task-list li input[type="checkbox"] {
 
 <p><em>Carlos Galindo Escajeda · June 2026</em></p>
 <hr>
-<blockquote class="blockquote">
-<p>“The philosophers have only interpreted the world in various ways; the point is to change it.” — <strong>KHM</strong>, <em>Theses on Feuerbach</em> (Thesis XI), 1845.</p>
-</blockquote>
-<p>Most economic research ends at the journal page. At best, it merely interprets housing and other crises in various ways; the point of this programme is to help change or alleviate them—the point is to help change the material world, for good!</p>
+<p>Academic economics that ends at the journal page has reproduced the discipline and left the world alone. That is not what this programme is.</p>
 <p>Every paper here was built backwards from a single question: what would you actually need — proven, verifiable, and resistant to the strongest attack that can be mounted against it — to justify a specific intervention in Britain’s housing market? The goal is not to describe the problem. The point is to change it.</p>
 <p>Five papers turned out to be required.</p>
+<blockquote class="blockquote">
+<p>▶ <strong>Want to see how it was built, not just read it?</strong> <a href="research-os-video.html">Watch the AI-governed research process</a> — adversarial, verification-first, deliberately not one-click.</p>
+</blockquote>
 <hr>
 <section id="the-orthodox-veto-is-not-decisive.-the-market-it-assumes-does-not-exist." class="level2">
 <h2 class="anchored" data-anchor-id="the-orthodox-veto-is-not-decisive.-the-market-it-assumes-does-not-exist.">The Orthodox Veto Is Not Decisive. The Market It Assumes Does Not Exist.</h2>
 <p>The obstacle to rent regulation in Britain is not merely political. It is a single economic argument deployed as a conversation-stopper: <em>rent controls choke supply and harm the people they protect</em>. The argument sounds like settled science. It is not.</p>
-<p>The textbook conclusion holds inside a competitive rental market defined by elastic supply, many landlords, and prices that track the real cost of shelter. Britain’s private rented sector (PRS) has systematically failed these conditions since the 1988 Housing Act. Supply is highly inelastic — planning restrictions have throttled new build for decades. The 1988 deregulation stripped tenant security and bargaining power. Buy-to-let (BTL) lending turned dwellings into leveraged financial instruments whose prices capitalize expected rent — rising when rent growth expectations rise or discount rates fall — and so move with credit conditions alongside, and against, the real cost of housing people. A home in this market operates simultaneously as shelter, an investment asset, credit collateral, and a fiscal conduit routing housing benefit into landlord yields.</p>
+<p>The textbook conclusion holds inside a competitive rental market defined by elastic supply, many landlords, and prices that track the real cost of shelter. Britain’s private rented sector (PRS) has systematically failed these conditions since the 1988 Housing Act. Supply is highly inelastic — planning restrictions have throttled new build for decades. The 1988 deregulation stripped tenant security and bargaining power. Buy-to-let (BTL) lending turned dwellings into leveraged financial instruments whose prices capitalize expected rent through <span class="math inline">\(P = R/(r - g_R)\)</span> and so move with credit conditions alongside, and against, the real cost of housing people. A home in this market operates simultaneously as shelter, an investment asset, credit collateral, and a fiscal conduit routing housing benefit into landlord yields.</p>
 <p>When competitive conditions fail across multiple margins simultaneously, the Lipsey-Lancaster general theorem of the second best establishes that removing one distortion — or relying on supply deregulation alone — does not guarantee a welfare improvement. Neither deregulation nor regulation carries a presumptive welfare warrant.</p>
 <p>What the result actually establishes: the competitive-market veto is not decisive. It does not prove the brake is automatically optimal; it removes the argument that the brake is presumptively wrong. The affirmative case for the brake is then made by structural evidence and materialist welfare theory — which is what the remaining papers do.</p>
 <p>Doing nothing is not a neutral return to a healthy market. It is a political choice to leave a deliberately engineered, broken system in place.</p>
@@ -821,8 +856,8 @@ ul.task-list li input[type="checkbox"] {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../pages/general/cover-letter-one-page.html" class="pagination-link" aria-label="Read Me First">
-        <span class="nav-page-text">Read Me First</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../pages/general/research-os-video.html" class="pagination-link" aria-label="▶ Watch: How I Used AI">
+        <span class="nav-page-text">▶ Watch: How I Used AI</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
