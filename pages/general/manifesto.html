@@ -70,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../custom.css">
 </head>
@@ -350,7 +321,7 @@ window.Quarto = {
 <section id="the-orthodox-veto-is-not-decisive.-the-market-it-assumes-does-not-exist." class="level2">
 <h2 class="anchored" data-anchor-id="the-orthodox-veto-is-not-decisive.-the-market-it-assumes-does-not-exist.">The Orthodox Veto Is Not Decisive. The Market It Assumes Does Not Exist.</h2>
 <p>The obstacle to rent regulation in Britain is not merely political. It is a single economic argument deployed as a conversation-stopper: <em>rent controls choke supply and harm the people they protect</em>. The argument sounds like settled science. It is not.</p>
-<p>The textbook conclusion holds inside a competitive rental market defined by elastic supply, many landlords, and prices that track the real cost of shelter. Britain’s private rented sector (PRS) has systematically failed these conditions since the 1988 Housing Act. Supply is highly inelastic — planning restrictions have throttled new build for decades. The 1988 deregulation stripped tenant security and bargaining power. Buy-to-let (BTL) lending turned dwellings into leveraged financial instruments whose prices capitalize expected rent through <span class="math inline">\(P = R/(r - g_R)\)</span> and so move with credit conditions alongside, and against, the real cost of housing people. A home in this market operates simultaneously as shelter, an investment asset, credit collateral, and a fiscal conduit routing housing benefit into landlord yields.</p>
+<p>The textbook conclusion holds inside a competitive rental market defined by elastic supply, many landlords, and prices that track the real cost of shelter. Britain’s private rented sector (PRS) has systematically failed these conditions since the 1988 Housing Act. Supply is highly inelastic — planning restrictions have throttled new build for decades. The 1988 deregulation stripped tenant security and bargaining power. Buy-to-let (BTL) lending turned dwellings into leveraged financial instruments whose prices capitalize expected rent — rising when rent growth expectations rise or discount rates fall — and so move with credit conditions alongside, and against, the real cost of housing people. A home in this market operates simultaneously as shelter, an investment asset, credit collateral, and a fiscal conduit routing housing benefit into landlord yields.</p>
 <p>When competitive conditions fail across multiple margins simultaneously, the Lipsey-Lancaster general theorem of the second best establishes that removing one distortion — or relying on supply deregulation alone — does not guarantee a welfare improvement. Neither deregulation nor regulation carries a presumptive welfare warrant.</p>
 <p>What the result actually establishes: the competitive-market veto is not decisive. It does not prove the brake is automatically optimal; it removes the argument that the brake is presumptively wrong. The affirmative case for the brake is then made by structural evidence and materialist welfare theory — which is what the remaining papers do.</p>
 <p>Doing nothing is not a neutral return to a healthy market. It is a political choice to leave a deliberately engineered, broken system in place.</p>
