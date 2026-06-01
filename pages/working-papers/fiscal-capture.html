@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.13">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Fiscal Capture in the UK PRS – Carlos Galindo Escajeda - NEF Housing Research Package</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../pages/working-papers/rent-reproduction.html" rel="next">
+<link href="../../pages/working-papers/breaking-the-benchmark.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ac077c1e730dfeb5e42400639d17284e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-43081d808c96cc46af55a3a816ae9eed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Carlos Galindo Escajeda - NEF Housing Research Package</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/working-papers/breaking-the-benchmark.html">Working Papers</a></li><li class="breadcrumb-item"><a href="../../pages/working-papers/fiscal-capture.html">Fiscal Capture in the UK PRS</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">General</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/cover-letter-master.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cover Letter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/cover-letter-one-page.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extended Cover Letter (One Page)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/abstracts-dossier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Abstracts Dossier</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/programme-architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Programme Architecture</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Blogs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/blogs/lha-explainer-blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LHA Explainer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/blogs/lpn-explainer-blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LPN Explainer</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Working Papers</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/breaking-the-benchmark.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Breaking the Benchmark</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/fiscal-capture.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Fiscal Capture in the UK PRS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/rent-reproduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rent as Reproduction Cost</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/labor-power-numeraire.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Labor Power as Numeraire</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/progressing-problemshift.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Progressing Problemshift</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#fiscal-capture-in-the-uk-private-rented-sector-evidence-from-two-lha-policy-events" id="toc-fiscal-capture-in-the-uk-private-rented-sector-evidence-from-two-lha-policy-events" class="nav-link active" data-scroll-target="#fiscal-capture-in-the-uk-private-rented-sector-evidence-from-two-lha-policy-events">Fiscal Capture in the UK Private Rented Sector: Evidence from Two LHA Policy Events</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">1. Introduction</a></li>
+  <li><a href="#institutional-background" id="toc-institutional-background" class="nav-link" data-scroll-target="#institutional-background">2. Institutional Background</a>
+  <ul class="collapse">
+  <li><a href="#the-lha-policy-timeline" id="toc-the-lha-policy-timeline" class="nav-link" data-scroll-target="#the-lha-policy-timeline">2.1 The LHA Policy Timeline</a></li>
+  <li><a href="#why-the-re-freeze-coefficient-is-attenuated" id="toc-why-the-re-freeze-coefficient-is-attenuated" class="nav-link" data-scroll-target="#why-the-re-freeze-coefficient-is-attenuated">2.2 Why the Re-freeze Coefficient is Attenuated</a></li>
+  </ul></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">3. Data</a>
+  <ul class="collapse">
+  <li><a href="#rent-outcome-variable" id="toc-rent-outcome-variable" class="nav-link" data-scroll-target="#rent-outcome-variable">3.1 Rent Outcome Variable</a></li>
+  <li><a href="#lha-intensity-treatment-exposure" id="toc-lha-intensity-treatment-exposure" class="nav-link" data-scroll-target="#lha-intensity-treatment-exposure">3.2 LHA Intensity (Treatment Exposure)</a></li>
+  <li><a href="#controls" id="toc-controls" class="nav-link" data-scroll-target="#controls">3.3 Controls</a></li>
+  <li><a href="#migration-restriction-sample-r7" id="toc-migration-restriction-sample-r7" class="nav-link" data-scroll-target="#migration-restriction-sample-r7">3.4 Migration Restriction Sample (R7)</a></li>
+  </ul></li>
+  <li><a href="#empirical-design" id="toc-empirical-design" class="nav-link" data-scroll-target="#empirical-design">4. Empirical Design</a>
+  <ul class="collapse">
+  <li><a href="#specification" id="toc-specification" class="nav-link" data-scroll-target="#specification">4.1 Specification</a></li>
+  <li><a href="#two-event-specification" id="toc-two-event-specification" class="nav-link" data-scroll-target="#two-event-specification">4.2 Two-Event Specification</a></li>
+  <li><a href="#identification-assumptions" id="toc-identification-assumptions" class="nav-link" data-scroll-target="#identification-assumptions">4.3 Identification Assumptions</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">5. Results</a>
+  <ul class="collapse">
+  <li><a href="#primary-specification" id="toc-primary-specification" class="nav-link" data-scroll-target="#primary-specification">5.1 Primary Specification</a></li>
+  <li><a href="#two-event-specification-1" id="toc-two-event-specification-1" class="nav-link" data-scroll-target="#two-event-specification-1">5.2 Two-Event Specification</a></li>
+  <li><a href="#the-mechanistic-isolator-r20" id="toc-the-mechanistic-isolator-r20" class="nav-link" data-scroll-target="#the-mechanistic-isolator-r20">5.3 The Mechanistic Isolator (R20)</a></li>
+  </ul></li>
+  <li><a href="#robustness" id="toc-robustness" class="nav-link" data-scroll-target="#robustness">6. Robustness</a>
+  <ul class="collapse">
+  <li><a href="#specification-robustness-26-specification-directional-sweep" id="toc-specification-robustness-26-specification-directional-sweep" class="nav-link" data-scroll-target="#specification-robustness-26-specification-directional-sweep">6.1 Specification Robustness — 26-Specification Directional Sweep</a></li>
+  <li><a href="#conservative-sample-restriction-r7" id="toc-conservative-sample-restriction-r7" class="nav-link" data-scroll-target="#conservative-sample-restriction-r7">6.2 Conservative Sample Restriction (R7)</a></li>
+  <li><a href="#wage-control-sensitivity-r21" id="toc-wage-control-sensitivity-r21" class="nav-link" data-scroll-target="#wage-control-sensitivity-r21">6.3 Wage Control Sensitivity (R21)</a></li>
+  <li><a href="#bedroom-stability-r17" id="toc-bedroom-stability-r17" class="nav-link" data-scroll-target="#bedroom-stability-r17">6.4 Bedroom Stability (R17)</a></li>
+  </ul></li>
+  <li><a href="#structural-interpretation" id="toc-structural-interpretation" class="nav-link" data-scroll-target="#structural-interpretation">7. Structural Interpretation</a>
+  <ul class="collapse">
+  <li><a href="#two-lenses-on-the-same-coefficient" id="toc-two-lenses-on-the-same-coefficient" class="nav-link" data-scroll-target="#two-lenses-on-the-same-coefficient">7.1 Two Lenses on the Same Coefficient</a></li>
+  <li><a href="#why-the-standard-account-is-insufficient" id="toc-why-the-standard-account-is-insufficient" class="nav-link" data-scroll-target="#why-the-standard-account-is-insufficient">7.2 Why the Standard Account is Insufficient</a></li>
+  <li><a href="#the-r7-evidence-under-both-lenses" id="toc-the-r7-evidence-under-both-lenses" class="nav-link" data-scroll-target="#the-r7-evidence-under-both-lenses">7.3 The R7 Evidence Under Both Lenses</a></li>
+  <li><a href="#the-attenuation-mechanism-and-r3" id="toc-the-attenuation-mechanism-and-r3" class="nav-link" data-scroll-target="#the-attenuation-mechanism-and-r3">7.4 The Attenuation Mechanism and R3</a></li>
+  <li><a href="#implications-for-fiscal-policy-evaluation" id="toc-implications-for-fiscal-policy-evaluation" class="nav-link" data-scroll-target="#implications-for-fiscal-policy-evaluation">7.5 Implications for Fiscal Policy Evaluation</a></li>
+  </ul></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">8. Limitations</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">9. Conclusion</a></li>
+  <li><a href="#appendix-a-full-robustness-table" id="toc-appendix-a-full-robustness-table" class="nav-link" data-scroll-target="#appendix-a-full-robustness-table">Appendix A — Full Robustness Table</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/working-papers/breaking-the-benchmark.html">Working Papers</a></li><li class="breadcrumb-item"><a href="../../pages/working-papers/fiscal-capture.html">Fiscal Capture in the UK PRS</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Fiscal Capture in the UK PRS</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<blockquote class="blockquote">
+<p>Source file: papers_NEF/NEF_cg_jh_2026b_lha_fiscal_capture.md</p>
+</blockquote>
+<!-- NEF-MIRROR-AUTOGEN — DO NOT EDIT BY HAND. Rendered Markdown generated from the canonical paper by scripts/sync_nef_papers.py, with an NEF-targeted abstract. Edit the paper in papers/ and its NEF abstract in nef_abstracts/<stem>.md, then re-run the sync. -->
+<section id="fiscal-capture-in-the-uk-private-rented-sector-evidence-from-two-lha-policy-events" class="level1">
+<h1>Fiscal Capture in the UK Private Rented Sector: Evidence from Two LHA Policy Events</h1>
+<p>Carlos Galindo Escajeda, Julio Huato June 1, 2026</p>
+<!-- ============================================================ -->
+<!-- STATUS: COMPLETE DRAFT v0.10 — 2026-05-28                   -->
+<!-- Source: PAYLOAD_R3.md v3.20 (empirical record)              -->
+<!-- Pipeline: NEF_EMPIRICS/LHA_DiD_Complete_Project/lha_did/    -->
+<!-- Primary results: 04_robustness.py; outputs/tables/          -->
+<!-- CRITICAL: Do NOT change empirical results without re-running -->
+<!--            04_robustness.py first.                           -->
+<!-- ============================================================ -->
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>This is the empirical pillar of the case NEF makes: evidence that the state’s reliance on Local Housing Allowance (LHA) partly subsidises landlords rather than protecting tenants. Using a difference-in-differences design across 290 English local authorities (2019–2024) — built from ONS private-rent indices, DWP Stat-Xplore caseloads, MHCLG dwelling-stock estimates and NOMIS wage and claimant data — it exploits two natural experiments: the April 2020 LHA uplift to the 30th percentile and the April 2021 re-freeze. If LHA acts as a binding yield floor, rent growth in high-LHA-intensity areas should accelerate at the uplift and decelerate at the re-freeze. Across 26 specifications the directional signature is consistent with capture in every case, with zero sign reversals. The paper is candid about magnitude: downward nominal rigidity and tenant lock-in attenuate the re-freeze response, so the headline estimate is reported deliberately as a conservative lower bound, with larger effects in the windows that isolate the mechanism more cleanly. For NEF’s advocacy the implication is concrete: because a real share of any LHA increase is absorbed into rents, raising or unfreezing LHA without a rent ceiling partly funds landlord yields — so a ceiling is a necessary complement to benefit reform, not an alternative to it. The distinguishing demographic test (whether captured areas also show slower household formation) is identified as the next empirical step, not claimed here.</p>
+<p><strong>JEL Classification:</strong> C23, R21, R38, H53</p>
+<p><strong>Keywords:</strong> fiscal capture; Local Housing Allowance; housing benefit; private rented sector; difference-in-differences; Labor-Power as Numéraire; yield floor; UK housing policy</p>
+<hr>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">1. Introduction</h2>
+<p>The UK Local Housing Allowance transfers public funds to low-income households to help cover private rents. Whether that transfer reaches tenants or is instead captured by landlords through rent inflation — the benefit-incidence question — is the central empirical question of this paper, and its answer has direct implications for how LHA expenditure should be evaluated as fiscal policy. Prior work establishes that landlord capture is substantial. Gibbons and Manning (2006) find that 60–67% of UK housing benefit accrues to landlords rather than tenants; Brewer et al.&nbsp;(2014) confirm rent reductions in binding local authorities following the 2011–12 LHA reforms. The international incidence literature establishes the same pattern: Susin (2002) finds US rent vouchers raise rents for all low-income households; Fack (2006) estimates that 78 cents of every euro of French housing benefit is absorbed in higher rents; Collinson and Ganong (2018) show that uniform voucher generosity transmits to landlords rather than tenants. Yet the standard account — landlords know their tenants’ maximum benefit and price accordingly — does not explain why this behaviour persists in the face of competition. The persistence of LHA-anchored pricing requires a structural mechanism linking LHA rates to the reproduction costs of the benefit-dependent tenant class.</p>
+<p>The UK LHA policy of 2016–24 generates two exogenous policy events that allow direct identification of fiscal capture. In April 2016, LHA was frozen at 2015–16 cash levels, progressively unbinding the floor as market rents rose. In April 2020, the government temporarily restored LHA to the 30th percentile of local market rents. In April 2021, LHA was re-frozen at these uplifted levels while market rents continued to rise. These events create directionally opposite, testable predictions: if LHA operates as a binding yield floor, areas with higher LHA intensity should see rent growth <em>accelerate</em> at the uplift (the floor rises) and <em>decelerate</em> at the re-freeze (the floor is held below rising market rents). The two tests are not symmetrically powered. The uplift test (<span class="math inline">\(\hat{\beta}_{\text{up}} &gt; 0\)</span>) is the higher-powered identifier because rents adjust readily to upward floor changes. The re-freeze test (<span class="math inline">\(\hat{\beta}_{\text{fr}} &lt; 0\)</span>) is subject to two attenuation mechanisms — downward nominal rigidity and tenant lock-in — so a near-zero estimate is consistent with genuine fiscal capture; a significantly negative estimate constitutes strong evidence.</p>
+<p>We quantify the LHA incidence across 290 England local authorities, exploiting both events in a difference-in-differences design. The treatment variable — LHA intensity, measured as housing benefit and Universal Credit private rented sector caseload as a share of private rental stock in 2018–19 — is pre-period and predetermined with respect to both policy events. The design uses region-by-quarter fixed effects to absorb common shocks, entity fixed effects to absorb time-invariant LA characteristics, and the NOMIS claimant count and ASHE 10th-percentile wage as time-varying controls. The 10th-percentile wage is structurally required under the LPN framework as the outside option of the benefit-dependent tenant class; we use the 10th percentile rather than the median wage for this reason.</p>
+<p>The primary inferential claim is robust directional consistency: across 26 fiscal capture specifications varying the estimation window, spatial controls, bedroom composition, and outlier treatment, every point estimate for <span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span> is negative with zero sign reversals. No single methodological choice — window, density control, bedroom specification, or outlier treatment — reverses the sign. This pattern, spanning four methodologically distinct classes of specification choice, constitutes structural triangulation rather than frequentist multiplicity. The COVID-window restriction (2020-Q2–2024-Q1), which identifies the predicted fiscal-capture reversal by using the uplift period as the comparison baseline, yields <span class="math inline">\(\hat{\beta}_{\text{fr}} = -0.0498\)</span> (<span class="math inline">\(p = 0.0033\)</span>); after additionally stripping post-COVID urban demand recovery via a density control, the mechanistic isolator yields <span class="math inline">\(\hat{\beta}_{\text{fr}} = -0.0675\)</span> (<span class="math inline">\(p = 0.0001\)</span>). The baseline primary specification yields <span class="math inline">\(\hat{\beta}_{\text{fr}} = -0.0174\)</span> (<span class="math inline">\(p = 0.142\)</span>), attenuated by construction (§2.2); it provides a lower bound. The R4 placebo (<span class="math inline">\(p = 0.562\)</span>, 2015–2019) supports parallel trends. A conservative sample restriction excluding high net in-migration local authorities yields <span class="math inline">\(\hat{\beta} = -0.0195\)</span> (<span class="math inline">\(p = 0.119\)</span>, 261 LAs), confirming the mechanism is not purely compositional.</p>
+<p>Two features of the design are worth noting upfront. First, the primary specification is underpowered by construction: downward nominal rigidity and tenant lock-in attenuate <span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span> precisely when fiscal capture is real, so the primary spec provides a lower bound on the effect. The COVID-window restriction and density-controlled estimates are better-powered. Second, the 26 specifications share the same 290-LA cross-section and are therefore not statistically independent. We interpret the zero-sign-reversal pattern as <em>specification robustness</em> — evidence that the negative sign is not an artefact of any particular window, control set, or functional form — rather than as 26 independent frequentist tests.</p>
+<p>Beyond the fiscal capture evidence, the paper contributes a structural interpretation grounded in the Labor-Power as Numéraire (LPN) framework of Huato and Galindo (2026c). Under LPN, LHA functions as a reproduction subsidy maintaining the non-housing consumption base of benefit-dependent households along the labor-power balanced growth path. Its freeze is therefore not merely a policy choice; it is a structural compression of the demographic reproduction capacity of high-intensity local authorities. This interpretation generates an additional, distinguishable prediction: binding LAs should show not only decelerated rent growth but also slower household formation and population growth relative to non-binding areas. Testing those demographic predictions is outside the scope of this paper and is the subject of ongoing work (Huato–Galindo 2026a).</p>
+<p>The paper proceeds as follows. Section 2 describes the institutional background. Section 3 describes the data. Section 4 presents the empirical design. Section 5 reports the main results. Section 6 presents robustness specifications. Section 7 develops the LPN structural interpretation. Section 8 discusses limitations. Section 9 concludes.</p>
+<hr>
+</section>
+<section id="institutional-background" class="level2">
+<h2 class="anchored" data-anchor-id="institutional-background">2. Institutional Background</h2>
+<section id="the-lha-policy-timeline" class="level3">
+<h3 class="anchored" data-anchor-id="the-lha-policy-timeline">2.1 The LHA Policy Timeline</h3>
+<!-- VERIFIED FACTS — do not modify without checking primary sources -->
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Event</th>
+<th>Direction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>April 2016</td>
+<td>LHA frozen at 2015–16 cash levels</td>
+<td>Freeze</td>
+</tr>
+<tr class="even">
+<td>April 2020</td>
+<td>LHA raised to 30th percentile of local market rents</td>
+<td><strong>Uplift</strong></td>
+</tr>
+<tr class="odd">
+<td>April 2021</td>
+<td>LHA re-frozen at April 2020 cash levels</td>
+<td><strong>Re-freeze</strong></td>
+</tr>
+<tr class="even">
+<td>April 2024</td>
+<td>LHA re-linked to 30th percentile</td>
+<td>Re-uplift</td>
+</tr>
+<tr class="odd">
+<td>April 2025</td>
+<td>LHA frozen again</td>
+<td>Re-freeze</td>
+</tr>
+</tbody>
+</table>
+<p>The 2020 uplift and 2021 re-freeze create directionally opposite, testable fiscal capture predictions. If LHA operates as a binding yield floor, areas with higher LHA intensity should see rent growth <em>accelerate</em> at the uplift (floor rises) and <em>decelerate</em> at the re-freeze (floor held below rising market rents).</p>
+<p>The mechanism through which LHA anchors rents operates at the level of the 152 Broad Rental Market Areas (BRMAs) into which England is divided. Within each BRMA, LHA is set at (or, during freeze periods, below) the 30th percentile of local market rents for each bedroom category, with the intention of giving benefit-dependent households access to at least the lower third of local rental supply. When LHA reaches the 30th percentile it anchors the lower bound of the active letting market: landlords with properties at or near the BRMA-level LHA rate face a soft yield floor when renting to housing benefit or Universal Credit claimants, because tenants’ housing cost allowances cap at that level. Properties priced above the LHA rate are effectively inaccessible to benefit-dependent households; properties at or below it constitute the relevant sub-market for this tenant class. The LHA rate therefore functions as a local price signal — not a legal ceiling, but a hard constraint on the budgets of a substantial share of private renters in binding BRMAs.</p>
+<p>Benefit-dependent households are concentrated at the lower end of the private rental stock. In our sample, LHA intensity — housing benefit and Universal Credit private rented sector caseload as a share of the private rental stock — averages 4.4% across 294 local authorities, but is distributed unevenly: the top decile reaches intensities above 8%, concentrated in coastal towns, post-industrial northern districts, and selected inner-London boroughs outside the highest-rent BRMAs. In high-intensity local authorities, the LHA anchor price represents a larger fraction of the active letting market and landlords face stronger incentives to price at or near the maximum allowance. The expected fiscal capture signal — differential rent growth between high-intensity and low-intensity local authorities, correlated with the LHA policy cycle — is therefore most visible at the upper end of the lha_intensity distribution, and it is precisely this contrast that the difference-in-differences design exploits.</p>
+<p>Prior evidence on LHA incidence establishes the underlying phenomenon but is limited in one specific respect. Gibbons and Manning (2006), examining the 1990s restructuring of UK housing benefit, and Brewer et al.&nbsp;(2014), examining the 2011–12 LHA reforms that introduced per-room rates, extended the Shared Accommodation Rate to the under-35s, and capped allowances at the 30th percentile for the first time, both identify substantial landlord capture. Both studies test only the downward rent response to a cut or freeze; neither has access to a subsequent uplift event. This paper addresses that gap by using the April 2020 uplift as a quasi-experimental baseline for the April 2021 re-freeze, permitting identification of the directional reversal — accelerated rent growth at the uplift followed by decelerated rent growth at the re-freeze in high-intensity local authorities — that is the definitive test of the yield-floor mechanism.</p>
+</section>
+<section id="why-the-re-freeze-coefficient-is-attenuated" class="level3">
+<h3 class="anchored" data-anchor-id="why-the-re-freeze-coefficient-is-attenuated">2.2 Why the Re-freeze Coefficient is Attenuated</h3>
+<!-- Critical to include to pre-empt "why is β_fr so small?" -->
+<p>The re-freeze test (<span class="math inline">\(\hat{\beta}_{\text{fr}} &lt; 0\)</span>) is subject to two attenuation mechanisms absent from the uplift test. First, downward nominal rigidity: landlords resist cutting rents below existing levels even when the LHA yield floor recedes. Second, tenant lock-in: sitting tenants in high-LHA-intensity areas face moving costs that suppress re-negotiation during periods of general rent inflation. A near-zero <span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span> is therefore consistent with genuine fiscal capture; a significantly negative estimate constitutes strong evidence.</p>
+<p>These attenuation mechanisms have a direct implication for the specification hierarchy in this paper. The primary specification (R1), which uses the full 2019-Q1 to 2024-Q1 window with the entire pre-2021-Q3 period as the comparison baseline, is most severely affected: the comparison window includes the 2019–2020 pre-uplift period, during which rent dynamics in high-intensity areas were already shaped by the ongoing 2016 freeze, compressing the measured contrast. The COVID-window restriction (R3) mitigates this by opening the window at 2020-Q2 — the start of the uplift — so that the comparison baseline captures rent growth during the uplift period itself. This identifies the reversal from accelerated rent growth at the uplift to decelerated growth at the re-freeze, partially bypassing both attenuation mechanisms: landlords who adjusted rents upward at the uplift do not face the same downward nominal rigidity when the floor is subsequently held fixed while market rents continue rising. R3 is therefore the better-powered specification for the fiscal capture reversal test; R1 provides a conservative lower bound. The full specification hierarchy is discussed in §5 and §6.</p>
+<hr>
+</section>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">3. Data</h2>
+<section id="rent-outcome-variable" class="level3">
+<h3 class="anchored" data-anchor-id="rent-outcome-variable">3.1 Rent Outcome Variable</h3>
+<p><strong>ONS Price Index of Private Rents (PIPR):</strong> LA-level median private rents (2-bedroom), 294 England local authorities, January 2015 – March 2024 (Q1 2015 – Q1 2024). Source: ONS. Succeeded VOA PRMS following its discontinuation in March 2024.</p>
+<div id="tbl-desc" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-desc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1
+</figcaption>
+<div aria-describedby="tbl-desc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p>Table&nbsp;1: Descriptive statistics. Rent observations are LA-quarter cells, 2019-Q1 to 2024-Q1, 294 England LAs with PIPR coverage; regression sample drops to 290 after NOMIS/ASHE coverage requirement. LHA intensity rows are LA-level observations. Rent in nominal £/month.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 9%">
+<col style="width: 8%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th style="text-align: right;"><span class="math inline">\(N\)</span></th>
+<th style="text-align: right;">Mean</th>
+<th style="text-align: right;">SD</th>
+<th style="text-align: right;">Min</th>
+<th style="text-align: right;">p25</th>
+<th style="text-align: right;">Median</th>
+<th style="text-align: right;">p75</th>
+<th style="text-align: right;">Max</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Monthly 2-bed rent, £ (PIPR)</td>
+<td style="text-align: right;">6,174</td>
+<td style="text-align: right;">850</td>
+<td style="text-align: right;">357</td>
+<td style="text-align: right;">417</td>
+<td style="text-align: right;">594</td>
+<td style="text-align: right;">741</td>
+<td style="text-align: right;">1,013</td>
+<td style="text-align: right;">3,008</td>
+</tr>
+<tr class="even">
+<td>LHA intensity, 2018–19 avg.</td>
+<td style="text-align: right;">294</td>
+<td style="text-align: right;">0.044</td>
+<td style="text-align: right;">0.026</td>
+<td style="text-align: right;">0.002</td>
+<td style="text-align: right;">0.026</td>
+<td style="text-align: right;">0.037</td>
+<td style="text-align: right;">0.055</td>
+<td style="text-align: right;">0.177</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="lha-intensity-treatment-exposure" class="level3">
+<h3 class="anchored" data-anchor-id="lha-intensity-treatment-exposure">3.2 LHA Intensity (Treatment Exposure)</h3>
+<p><strong>lha_intensity</strong> = (HB households + UC-PRS households) / PRS stock, by LA, averaged 2018–19.</p>
+<ul>
+<li><strong>HB caseload:</strong> DWP Stat-Xplore, 296 England LAs, Jan 2015–Mar 2024, CHD-harmonised.</li>
+<li><strong>UC-PRS caseload:</strong> DWP Stat-Xplore, 294 LAs, Aug 2015–Mar 2024.</li>
+<li><strong>PRS stock denominator:</strong> MHCLG Live Table 100, 294 LAs, 2018–19 average. Dwelling stock denominator (not household count); addresses size confound.</li>
+</ul>
+</section>
+<section id="controls" class="level3">
+<h3 class="anchored" data-anchor-id="controls">3.3 Controls</h3>
+<ul>
+<li><strong>NOMIS Claimant Count:</strong> Quarterly unemployment rate by LA, 290 LAs.</li>
+<li><strong>ASHE 10th Percentile Wages (p10_weekly_wage):</strong> Annual ASHE item=6, expanded to quarterly via regional-year median. Benefit-dependent private renters are concentrated in the p10–p25 range of local wage distributions; the 10th-percentile wage therefore targets the labour-market conditions of the relevant tenant class more precisely than the median. The LPN framework formalises this targeting decision: the 10th percentile is the structural outside option of the benefit-dependent tenant class — a theoretical primitive, not a post-hoc empirical choice. Robustness without this control (R21) shows the fiscal capture coefficient changes by 0.5% when p10 is excluded (§6.3). Limitations of the annual frequency are noted in §8.</li>
+<li><strong>BRMA boundaries:</strong> 152 England BRMAs; used for BRMA-level clustering sensitivity (R22).</li>
+</ul>
+</section>
+<section id="migration-restriction-sample-r7" class="level3">
+<h3 class="anchored" data-anchor-id="migration-restriction-sample-r7">3.4 Migration Restriction Sample (R7)</h3>
+<p><strong>ONS MYE Components of Population Change (MYEB3):</strong> LAD-level net internal migration, 2018 and 2019. Top-decile excluded: 30 LAs with net in-migration <span class="math inline">\(\geq\)</span> +1,703 persons/yr. Conservative sample restriction: 261 LAs remain.</p>
+<hr>
+</section>
+</section>
+<section id="empirical-design" class="level2">
+<h2 class="anchored" data-anchor-id="empirical-design">4. Empirical Design</h2>
+<section id="specification" class="level3">
+<h3 class="anchored" data-anchor-id="specification">4.1 Specification</h3>
+<p>The primary specification is a within-LA difference-in-differences estimator:</p>
+<p><span class="math display">\[\Delta\log(\text{rent})_{it} = \alpha_i + \lambda_t + \beta_1 (\text{lha\_intensity}_i \times \text{freeze}_t) + \mathbf{X}_{it}'\boldsymbol{\gamma} + \varepsilon_{it}\]</span></p>
+<p>where <span class="math inline">\(\text{freeze}_t = \mathbf{1}[t \geq \text{2021-Q3}]\)</span>, <span class="math inline">\(\alpha_i\)</span> are LA fixed effects, <span class="math inline">\(\lambda_t\)</span> are region-by-quarter fixed effects absorbing common shocks, and <span class="math inline">\(\mathbf{X}_{it}\)</span> includes the quarterly unemployment rate and log 10th-percentile weekly wage. Standard errors clustered at the LA level.</p>
+<p>The treatment variable lha_intensity is pre-period (2018–19 average), eliminating reverse-causality concerns. The freeze indicator is interacted with continuous lha_intensity rather than a binary binding indicator to exploit full intensity variation.</p>
+</section>
+<section id="two-event-specification" class="level3">
+<h3 class="anchored" data-anchor-id="two-event-specification">4.2 Two-Event Specification</h3>
+<p>The two-event specification simultaneously estimates the uplift and re-freeze effects:</p>
+<p><span class="math display">\[\Delta\log(\text{rent})_{it} = \alpha_i + \lambda_t + \beta_{\text{up}} (\text{lha\_intensity}_i \times \text{uplift}_t) + \beta_{\text{fr}} (\text{lha\_intensity}_i \times \text{freeze}_t) + \mathbf{X}_{it}'\boldsymbol{\gamma} + \varepsilon_{it}\]</span></p>
+<p>where <span class="math inline">\(\text{uplift}_t = \mathbf{1}[2020\text{-Q2} \leq t \leq 2021\text{-Q2}]\)</span> covers the 2020 restoration period and <span class="math inline">\(\text{freeze}_t = \mathbf{1}[t \geq 2021\text{-Q3}]\)</span> is the re-freeze indicator from §4.1. Fiscal capture predicts <span class="math inline">\(\beta_{\text{up}} &gt; 0\)</span> (rent acceleration when the floor rises) and <span class="math inline">\(\beta_{\text{fr}} &lt; 0\)</span> (rent deceleration when the floor is held fixed below rising market rents). The single-event specification in §4.1 omits the uplift dummy, folding the 2020-Q2–2021-Q2 uplift quarters into the comparison baseline.</p>
+</section>
+<section id="identification-assumptions" class="level3">
+<h3 class="anchored" data-anchor-id="identification-assumptions">4.3 Identification Assumptions</h3>
+<p><strong>Parallel trends:</strong> In the absence of the LHA policy events, rent growth in high-intensity and low-intensity LAs would have followed parallel trends. The R4 placebo test (<span class="math inline">\(\hat{\beta}_1\)</span>, 2015–2019, fake treatment 2018-Q1: <span class="math inline">\(p=0.562\)</span>) supports this assumption.</p>
+<p><strong>Pre-treatment intensity exogeneity:</strong> lha_intensity measured in 2018–19, before the April 2020 uplift event. The intensity measure is predetermined with respect to the treatment.</p>
+<p><strong>No anticipation:</strong> LHA re-freeze announced at Autumn Statement 2020; the 2021-Q3 indicator incorporates a one-quarter implementation lag.</p>
+<hr>
+</section>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">5. Results</h2>
+<section id="primary-specification" class="level3">
+<h3 class="anchored" data-anchor-id="primary-specification">5.1 Primary Specification</h3>
+<p>The table below reports five illustrative specifications; the full 26-specification directional sweep is in Appendix A (<a href="#tbl-robustness" class="quarto-xref">Table&nbsp;2</a>). The primary specification (R1) provides a lower bound; R3 and R20 are better-powered (§2.2).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Specification</th>
+<th><span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span></th>
+<th>SE</th>
+<th><span class="math inline">\(p\)</span></th>
+<th><span class="math inline">\(N_\text{LA}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R1 Primary (2019-Q1–2024-Q1)</td>
+<td>-0.0174</td>
+<td>0.01184</td>
+<td>0.142</td>
+<td>290</td>
+</tr>
+<tr class="even">
+<td>R3 COVID window (2020-Q2–2024-Q1)</td>
+<td>-0.0498</td>
+<td>0.01690</td>
+<td>0.0033</td>
+<td>290</td>
+</tr>
+<tr class="odd">
+<td>R15 Density × Freeze (bounding)</td>
+<td>-0.0351</td>
+<td>0.01296</td>
+<td>0.0068</td>
+<td>290</td>
+</tr>
+<tr class="even">
+<td><strong>R20 R3 + Density (mechanistic isolator)</strong></td>
+<td><strong>-0.0675</strong></td>
+<td><strong>0.01742</strong></td>
+<td><strong>0.0001</strong></td>
+<td>290</td>
+</tr>
+<tr class="odd">
+<td>R4 Placebo (2015–2019, fake 2018-Q1)</td>
+<td>+0.0085</td>
+<td>0.01461</td>
+<td>0.562</td>
+<td>290</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="two-event-specification-1" class="level3">
+<h3 class="anchored" data-anchor-id="two-event-specification-1">5.2 Two-Event Specification</h3>
+<p><span class="math inline">\(\hat{\beta}_{\text{up}} = +0.0205\)</span> (SE=0.0151, <span class="math inline">\(p=0.174\)</span>); <span class="math inline">\(\hat{\beta}_{\text{fr}} = -0.0095\)</span> (SE=0.0138, <span class="math inline">\(p=0.492\)</span>). Joint Wald <span class="math inline">\(\chi^2(2) = 4.35\)</span> (<span class="math inline">\(p=0.114\)</span>, <span class="math inline">\(H_0: \beta_{\text{fr}}=0\ \text{and}\ \beta_{\text{up}}=0\)</span>). Both signs correct; jointly suggestive.</p>
+<p>The uplift coefficient is directionally consistent (<span class="math inline">\(\beta_{\text{up}} &gt; 0\)</span>) but imprecise in the 4-quarter window. The re-freeze coefficient is attenuated (see §2.2) but survives in the COVID-window restriction (R3) and density-controlled specifications (R15, R20).</p>
+</section>
+<section id="the-mechanistic-isolator-r20" class="level3">
+<h3 class="anchored" data-anchor-id="the-mechanistic-isolator-r20">5.3 The Mechanistic Isolator (R20)</h3>
+<p>R20 combines the COVID-window restriction (R3: uses the 2020-Q2 uplift period as baseline, providing the cleanest identification of the re-freeze reversal) with the density control (R15: strips urban demand recovery attenuation). The result, <span class="math inline">\(\hat{\beta} = -0.0675\)</span> (<span class="math inline">\(p=0.0001\)</span>), represents the density-adjusted, uplift-baseline estimate. It is post-hoc exploratory (added v3.16 in response to adversarial challenge); it is not the primary specification. It demonstrates the R3 result is density-robust by a wide margin.</p>
+<div id="fig-event-study" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-event-study-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p><img src="../NEF_EMPIRICS/LHA_DiD_Complete_Project/lha_did/outputs/figures/event_study.png" style="width:90.0%" data-fig-align="center" class="figure-img"></p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-event-study-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Figure&nbsp;1: Event study: period-by-period coefficients from interacting lha_intensity with quarter dummies, normalised to the quarter immediately before the 2021-Q3 re-freeze. The flat pre-trend and post-freeze decline support the fiscal capture prediction and parallel trends assumption.
+</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+</section>
+<section id="robustness" class="level2">
+<h2 class="anchored" data-anchor-id="robustness">6. Robustness</h2>
+<section id="specification-robustness-26-specification-directional-sweep" class="level3">
+<h3 class="anchored" data-anchor-id="specification-robustness-26-specification-directional-sweep">6.1 Specification Robustness — 26-Specification Directional Sweep</h3>
+<p>Across the 26 fiscal capture specifications varying the estimation window (Temporal), density controls and geographic clustering (Spatial), bedroom composition (Compositional), and outlier treatment and measurement (Measurement), <span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span> is negative with zero sign reversals. The Appendix A table contains 28 rows in total; the two excluded from this count are R4 (identification check, positive coefficient expected and confirmed) and R12a (binary binding threshold, near-zero by construction — an absorption diagnostic, not a fiscal capture test).</p>
+<p>This directional consistency demonstrates the result is not an artifact of any single methodological choice. The 26 fiscal capture specifications are <em>methodologically</em> orthogonal (spanning four distinct classes of specification choice) but not statistically independent (all share the 290-LA cross-section and therefore share unobserved spatial error structure). We interpret the sweep as specification robustness, not as 26 independent pieces of frequentist evidence.</p>
+<p><strong>Statistical disclosure (FWER):</strong> The pre-specified family of 16 tests (R1–R15 plus R7) is reported for completeness. At <span class="math inline">\(\alpha/16 = 0.003125\)</span>, R3 (<span class="math inline">\(p = 0.0033\)</span>) narrowly fails strict Bonferroni correction. We do not claim frequentist significance for any individual specification and rest the primary inference on the 26-specification directional sweep.</p>
+</section>
+<section id="conservative-sample-restriction-r7" class="level3">
+<h3 class="anchored" data-anchor-id="conservative-sample-restriction-r7">6.2 Conservative Sample Restriction (R7)</h3>
+<p>Excluding the top decile of net in-migration LAs (30 LAs; threshold <span class="math inline">\(\geq\)</span> +1,703 persons/yr) yields <span class="math inline">\(\hat{\beta} = -0.0195\)</span> (SE=0.0125, <span class="math inline">\(p=0.119\)</span>) on 261 LAs — more negative than R1. Fiscal capture is not purely compositional; the effect operates in non-displacement areas. Under the LPN framework, displacement <em>is</em> the dominant mechanism in high-migration areas; R7 survival confirms the yield-floor mechanism operates independently.</p>
+</section>
+<section id="wage-control-sensitivity-r21" class="level3">
+<h3 class="anchored" data-anchor-id="wage-control-sensitivity-r21">6.3 Wage Control Sensitivity (R21)</h3>
+<p>Excluding p10 wages: <span class="math inline">\(\hat{\beta} = -0.0182\)</span> vs R1 <span class="math inline">\(\hat{\beta} = -0.0174\)</span> (<span class="math inline">\(\Delta\beta = 0.0008\)</span>, 0.5%). The fiscal capture coefficient absorbs virtually nothing from the wage control. Under the LPN framework, the 10th-percentile wage is a theoretical primitive — the outside option of the benefit-dependent tenant class — and its inclusion is axiomatic, not empirically contingent. A 0.5% coefficient shift is inconsistent with meaningful endogeneity: if p10 were absorbing the LHA policy shock as a mediator or collider, the divergence between R1 and R21 would need to be substantial relative to the main coefficient. The empirical insulation confirms that the theoretical endogeneity concern is inert at the scale of the 290-LA cross-section.</p>
+</section>
+<section id="bedroom-stability-r17" class="level3">
+<h3 class="anchored" data-anchor-id="bedroom-stability-r17">6.4 Bedroom Stability (R17)</h3>
+<p>All four bedroom categories (1–4 bed) yield <span class="math inline">\(\hat{\beta} \approx -0.016\)</span> to <span class="math inline">\(-0.019\)</span>, sign-consistent and nearly identical in magnitude. The 2-bedroom primary specification is not cherry-picked.</p>
+<hr>
+</section>
+</section>
+<section id="structural-interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="structural-interpretation">7. Structural Interpretation</h2>
+<section id="two-lenses-on-the-same-coefficient" class="level3">
+<h3 class="anchored" data-anchor-id="two-lenses-on-the-same-coefficient">7.1 Two Lenses on the Same Coefficient</h3>
+<p>The standard fiscal capture account and the LPN reproduction account agree on the empirical prediction — <span class="math inline">\(\hat{\beta}_{\text{fr}} &lt; 0\)</span> in binding local authorities — but diverge on the mechanism, the welfare interpretation, and the policy prescription.</p>
+<p><strong>Lens 1 — Standard fiscal capture.</strong> Under the standard account, LHA in binding areas acts as a price floor: landlords in the housing benefit sub-market set rents at or near the maximum allowance, knowing tenants’ budgets are constrained at that level. When LHA is frozen and market rents rise, the floor progressively unbinds from below — LHA can no longer support rents at the market level — and rent growth in binding areas slows relative to non-binding areas. <em>Welfare interpretation:</em> LHA is distortionary; it transfers public funds from general revenues to private landlord yields rather than to tenant welfare. The DiD finding of <span class="math inline">\(\hat{\beta}_{\text{fr}} &lt; 0\)</span> is evidence of that distortion. <em>Policy implication:</em> redirect LHA funding away from cash subsidies and toward bricks-and-mortar supply investment that bypasses the capitalization channel.</p>
+<p><strong>Lens 2 — LPN reproduction compression.</strong> Under the LPN framework of Huato and Galindo (2026c), housing costs are not a generic consumption expenditure; they are inputs to the reproduction of labor power. The reproduction function <span class="math inline">\(N_{t+1} = Be^{\eta_t}N_t^{1-\gamma}C_t^{\gamma}\)</span> requires that <span class="math inline">\(C_t\)</span> be interpreted as <em>non-housing</em> consumption <span class="math inline">\((1 - s_t)Y_t\)</span>, where <span class="math inline">\(s_t\)</span> is the rent share. LHA in binding areas acts as a <em>reproduction subsidy</em>: it maintains the non-housing consumption base <span class="math inline">\(C_t\)</span> of benefit-dependent households at a level consistent with demographic reproduction along the balanced growth path. When LHA is frozen, the effective subsidy falls in real terms as market rents rise above the frozen level, compressing household reproduction capacity. Rent growth slows in binding areas not only because the yield floor recedes but because the demand base — household formation, driven by demographic reproduction — contracts. <em>Welfare interpretation:</em> LHA is necessary but insufficient. Its freeze has adverse demographic consequences in high-intensity areas. <em>Policy implication:</em> a reproduction-consistent rent ceiling plus reformed LHA: the ceiling reduces the rent share <span class="math inline">\(s_t\)</span> toward the LPD-optimal minimum; reformed LHA (decoupled from market rents) supplements household consumption capacity directly.</p>
+</section>
+<section id="why-the-standard-account-is-insufficient" class="level3">
+<h3 class="anchored" data-anchor-id="why-the-standard-account-is-insufficient">7.2 Why the Standard Account is Insufficient</h3>
+<p>The two lenses are <em>observationally equivalent at the level of the rent-growth coefficient.</em> The DiD finding of <span class="math inline">\(\hat{\beta}_{\text{fr}} &lt; 0\)</span> is consistent with both. They diverge sharply in their predictions on outcomes outside rent growth.</p>
+<p>The standard fiscal capture story predicts only rent-level effects. It has no prediction for population growth, household formation, or landlord exit rates conditional on rent levels. The LPN account predicts all three: high-LHA-intensity local authorities should show slower household formation and population growth relative to non-binding areas after the 2021 re-freeze, independently of the rent growth deceleration. Testing these demographic predictions requires the ONS mid-year population estimates and MHCLG household formation data at the local authority level, matched to the same 290-LA panel. That test is outside the scope of this paper (see Huato–Galindo 2026a for the theoretical derivation).</p>
+</section>
+<section id="the-r7-evidence-under-both-lenses" class="level3">
+<h3 class="anchored" data-anchor-id="the-r7-evidence-under-both-lenses">7.3 The R7 Evidence Under Both Lenses</h3>
+<p>The conservative sample restriction (R7) is informative about the mechanism even without the demographic test. Excluding the top decile of net in-migration local authorities — areas where LPN displacement is the dominant mechanism — the coefficient strengthens: <span class="math inline">\(\hat{\beta} = -0.0195\)</span> versus <span class="math inline">\(\hat{\beta} = -0.0174\)</span> in the full sample. Under the standard account, this is unremarkable: displacement-prone and non-displacement areas should show equally strong fiscal capture if the mechanism is purely a yield floor. Under the LPN account, R7 <em>survival</em> means the yield-floor mechanism operates <em>independently of displacement</em> in low-migration areas — fiscal capture is systemic, not merely a compositional artefact of tenant turnover. R7 <em>failure</em> would have implied that the mechanism operates primarily through the displacement channel. We observe survival: the yield-floor mechanism is structurally embedded in the non-displacement subsample.</p>
+</section>
+<section id="the-attenuation-mechanism-and-r3" class="level3">
+<h3 class="anchored" data-anchor-id="the-attenuation-mechanism-and-r3">7.4 The Attenuation Mechanism and R3</h3>
+<p>The LPN account provides a specific prediction about the attenuation of <span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span> in the primary specification. Downward nominal rigidity and tenant lock-in are not frictions that disappear over time; they are structural features of the low-income rental market. LHA-dependent tenants face high moving costs, limited alternative supply, and weak outside options — precisely the conditions the LPN framework formalizes through the binding reproduction constraint. The COVID-window restriction (R3) partially addresses attenuation by using the 2020-Q2 to 2021-Q1 uplift period as the comparison baseline: this identifies the predicted <em>reversal</em> from accelerated rent growth at the uplift to decelerated growth at the re-freeze in high-intensity areas. That reversal — the precise fiscal-capture prediction when LHA functions as a binding yield floor that is first raised and then held fixed — is what R3 estimates, and it yields <span class="math inline">\(\hat{\beta}_{\text{fr}} = -0.0498\)</span> (<span class="math inline">\(p = 0.0033\)</span>).</p>
+</section>
+<section id="implications-for-fiscal-policy-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="implications-for-fiscal-policy-evaluation">7.5 Implications for Fiscal Policy Evaluation</h3>
+<p>The standard framework for evaluating housing benefit in the UK public finance literature asks whether LHA expenditure achieves its stated purpose of sustaining housing access for low-income households. The fiscal capture evidence implies a partial negative answer: a substantial share of the transfer is absorbed in higher rents rather than retained in tenant welfare, so the benefit is diluted in transmission. From this vantage point, the appropriate fiscal policy response is benefit redesign — tighter caps, direct payment reform, or supply-side investment that bypasses the capitalization channel.</p>
+<p>The LPN account identifies a deeper difficulty with this framing. If LHA functions as a reproduction subsidy — maintaining the non-housing consumption base of benefit-dependent households at a level consistent with demographic reproduction — then evaluating it as a rent-payment mechanism misidentifies its structural role. A benefit-incidence calculation finding 60–67% landlord capture (Gibbons and Manning 2006) implies not only that tenants receive roughly 33–40 pence per pound of LHA; it implies that the reproduction subsidy is 60–67% ineffective in sustaining the consumption base it is designed to protect, and that this effective subsidy rate has been declining in real terms throughout the 2021–24 re-freeze as market rents rose above the frozen allowance. The fiscal policy question is not only how much of the transfer is capitalized, but how much reproduction capacity is sustained per pound of LHA expenditure, and the answer to the latter has been deteriorating continuously since 2021.</p>
+<p>This reframing shifts the appropriate metric for fiscal evaluation. If the policy goal is reproduction-capacity maintenance rather than rent-payment sufficiency, the relevant benchmark is not whether LHA covers the 30th percentile of local market rents — a distribution that is itself partly inflated by prior capitalization cycles — but whether LHA, net of landlord capture, sustains the non-housing consumption floor for benefit-dependent households at or above the reproduction-consistent minimum. LHA policy that periodically re-links to the 30th percentile does not reduce the rent share; it resets the baseline for the next capitalization cycle. The April 2024 re-linking and the April 2025 re-freeze confirm this cycle is structurally embedded in the current design (Bangham et al.&nbsp;2026). Both theoretical lenses reach the same negative verdict: LHA reform cannot be assessed solely on its rate-setting rules. The standard account demands assessment on the incidence-adjusted net transfer to tenant welfare; the LPN account extends this to the net transfer to tenant reproduction capacity. On both metrics, a benefit that is periodically uplifted only to be immediately re-frozen provides no durable improvement.</p>
+<hr>
+</section>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">8. Limitations</h2>
+<ol type="1">
+<li><p><strong>Statistical power:</strong> The primary specification is underpowered. A 12-quarter post-freeze window is short relative to the adjustment horizon; downward nominal rigidity further attenuates <span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span>. R3 (COVID-window) and R20 (R3+density) provide better-powered estimates.</p></li>
+<li><p><strong>Post-2021 austerity confound:</strong> General fiscal tightening in high-deprivation local authorities after 2021 is correlated with lha_intensity through the deprivation channel. If austerity reduced housing demand in high-intensity areas, it could produce <span class="math inline">\(\hat{\beta}_{\text{fr}} &lt; 0\)</span> through a demand channel unrelated to the LHA yield floor. Three pieces of evidence run against this confounder. First, the COVID-window restriction (R3: 2020-Q2–2024-Q1) uses the 2020 fiscal-stimulus period as the comparison baseline; under the austerity hypothesis, R3 should be <em>weaker</em> than R1 (because the comparison window includes peak stimulus). Instead R3 (<span class="math inline">\(\hat{\beta} = -0.0498\)</span>) is nearly three times larger than R1 (<span class="math inline">\(\hat{\beta} = -0.0174\)</span>), consistent with the uplift-to-re-freeze reversal mechanism rather than with an austerity demand channel. Second, the R4 placebo (2015–2019, covering the initial 2016 freeze and significant austerity) yields <span class="math inline">\(\hat{\beta} = +0.0085\)</span> (<span class="math inline">\(p = 0.562\)</span>): high-intensity areas show no negative rent growth in the first austerity wave, which would not be expected if deprivation-correlated demand compression were the mechanism. Third, Region×Quarter fixed effects absorb common regional fiscal shocks; residual within-region lha_intensity variation would need to be driven by LA-specific austerity heterogeneity <em>beyond</em> regional trends to confound the estimate. A full rebuttal would require quarterly LA-level public expenditure data, which remains a limitation of this analysis.</p></li>
+<li><p><strong>R20 post-hoc status:</strong> The mechanistic isolator (R20) was added in response to adversarial challenge, not pre-specified. It is corroborating, not primary.</p></li>
+<li><p><strong>p10 wage endogeneity:</strong> ASHE annual frequency precludes formal empirical resolution of the collider question. The R21 sensitivity (§6.3) provides partial empirical insulation: the 0.5% coefficient shift when p10 is excluded is inconsistent with meaningful mediation or over-absorption of the LHA treatment shock. PAYE RTI (monthly) remains the preferred upgrade for formal resolution.</p></li>
+</ol>
+<hr>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">9. Conclusion</h2>
+<p>The UK Local Housing Allowance provides a rare natural experiment for identifying fiscal capture: two policy events with directionally opposite predictions in a difference-in-differences framework that uses pre-period intensity variation across 290 local authorities. The empirical pattern is consistent with the fiscal capture prediction across every combination of estimation window, spatial control, bedroom composition, and outlier treatment we examine. The directional signature — decelerated rent growth in binding areas at the re-freeze, consistent with the predicted reversal from the uplift baseline — holds in 26 fiscal capture specifications with zero sign reversals.</p>
+<p>The primary specification is underpowered by construction. Downward nominal rigidity and tenant lock-in attenuate the re-freeze coefficient exactly when fiscal capture is real, so <span class="math inline">\(\hat{\beta}_{\text{fr}} = -0.0174\)</span> (<span class="math inline">\(p = 0.142\)</span>) is best interpreted as a lower bound on the underlying effect. The COVID-window restriction, which identifies the directional reversal more sharply, yields <span class="math inline">\(\hat{\beta}_{\text{fr}} = -0.0498\)</span> (<span class="math inline">\(p = 0.0033\)</span>). After additionally stripping post-COVID urban demand recovery attenuation via a density interaction, the mechanistic isolator yields <span class="math inline">\(\hat{\beta}_{\text{fr}} = -0.0675\)</span> (<span class="math inline">\(p = 0.0001\)</span>). The conservative sample restriction excluding high net in-migration local authorities produces a more negative coefficient than the full-sample estimate, confirming that fiscal capture is not purely compositional: the yield-floor mechanism operates in areas without significant displacement pressure.</p>
+<p>These results are consistent with both the standard fiscal capture account and the LPN reproduction account. The two accounts are observationally equivalent at the level of rent-growth coefficients; they diverge on whether LHA is distortionary (standard account) or structurally necessary (LPN account). The distinguishing empirical test — whether binding local authorities show slower household formation and population growth relative to non-binding areas after the 2021 re-freeze — is outside the scope of this paper and is the subject of ongoing work.</p>
+<p>For policy, the results confirm that the 2021–24 LHA re-freeze progressively reduced the effective transfer to benefit-dependent households: as market rents rose above the frozen allowance, the share of LHA retained in tenant welfare — rather than capitalized by landlords — declined continuously. Under the LPN account, this constitutes erosion of the reproduction subsidy that LHA provides to benefit-dependent households in the private rented sector. The April 2024 re-linking, itself frozen again in April 2025, has merely reset the cycle. Under either theoretical lens — fiscal capture or reproduction compression — LHA policy that bounces between temporary uplifts and persistent freezes is structurally inadequate (Bangham et al.&nbsp;2026). The LPN account implies the additional prescription: a reproduction-consistent rent ceiling that reduces the rent share toward the LPD-optimal minimum (characterized formally in Huato and Galindo 2026c), not merely a periodic re-linking of the benefit rate to an already overinflated market rent distribution.</p>
+<hr>
+</section>
+<section id="appendix-a-full-robustness-table" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-a-full-robustness-table">Appendix A — Full Robustness Table</h2>
+<p>All fiscal capture specifications use continuous lha_intensity interacted with <span class="math inline">\(\text{freeze}_t\)</span>. R4 is an identification check (placebo, expected <span class="math inline">\(\hat{\beta} \approx 0\)</span>). R12 (binary threshold) replaces continuous lha_intensity with a binding indicator; near-zero result is an absorption diagnostic, not a sign reversal in the continuous-intensity sense. R18 (HB-only proxy) is supplementary: UC caseload truncation degrades precision. R5 (1-bed PIPR) and R6 (3-bed PIPR) were not estimated.</p>
+<div id="tbl-robustness" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-robustness-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2
+</figcaption>
+<div aria-describedby="tbl-robustness-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p>Table&nbsp;2: Full robustness specification table. <span class="math inline">\(\hat{\beta}\)</span> = coefficient on lha_intensity <span class="math inline">\(\times\)</span> freeze. Cat codes: T=Temporal; ID=Identification check; S=Spatial; Cv=Coverage; Ot=Outlier; Wt=Weighting; Ms=Measurement (binary); Co=Compositional; Sa=Sample restriction; Se=Sensitivity; MI=Mechanistic isolator (post-hoc exploratory); Su=Supplementary. Bold <span class="math inline">\(p\)</span>-values pass <span class="math inline">\(p &lt; 0.05\)</span>. All fiscal capture specs are negative (zero sign reversals). SE clustered at LA level except R22 (BRMA). Source: pipeline v3.17.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Specification</th>
+<th style="text-align: center;">Cat</th>
+<th style="text-align: right;"><span class="math inline">\(\hat{\beta}\)</span></th>
+<th style="text-align: right;">SE</th>
+<th style="text-align: right;"><span class="math inline">\(p\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(N_{LA}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">R1 Primary, 2019-Q1 to 2024-Q1</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: right;">-0.0174</td>
+<td style="text-align: right;">0.0118</td>
+<td style="text-align: right;">0.142</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R2 Region trends + quarter FE</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: right;">-0.0174</td>
+<td style="text-align: right;">0.0118</td>
+<td style="text-align: right;">0.142</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R3 COVID window, 2020-Q2 to 2024-Q1</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: right;"><strong>-0.0498</strong></td>
+<td style="text-align: right;">0.0169</td>
+<td style="text-align: right;"><strong>0.003</strong></td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R13 Clean pre-period (drop COVID uplift)</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: right;">-0.0161</td>
+<td style="text-align: right;">0.0143</td>
+<td style="text-align: right;">0.260</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R14 Freeze start 2021-Q2, no impl. lag</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: right;">-0.0138</td>
+<td style="text-align: right;">0.0105</td>
+<td style="text-align: right;">0.189</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R25 Extended window, 2019-Q1 to 2025-Q1</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: right;">-0.0160</td>
+<td style="text-align: right;">0.0109</td>
+<td style="text-align: right;">0.142</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R4 Placebo, fake 2018-Q1 treat., 2015-2019</td>
+<td style="text-align: center;">ID</td>
+<td style="text-align: right;">+0.0085</td>
+<td style="text-align: right;">0.0146</td>
+<td style="text-align: right;">0.562</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R15 R1 + log-density x freeze</td>
+<td style="text-align: center;">S</td>
+<td style="text-align: right;"><strong>-0.0351</strong></td>
+<td style="text-align: right;">0.0130</td>
+<td style="text-align: right;"><strong>0.007</strong></td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R19 Non-param. density (decile x qtr FE)</td>
+<td style="text-align: center;">S</td>
+<td style="text-align: right;"><strong>-0.0302</strong></td>
+<td style="text-align: right;">0.0120</td>
+<td style="text-align: right;"><strong>0.012</strong></td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R22 R3 + BRMA-level clustering</td>
+<td style="text-align: center;">S</td>
+<td style="text-align: right;"><strong>-0.0498</strong></td>
+<td style="text-align: right;">0.0145</td>
+<td style="text-align: right;"><strong>0.001</strong></td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R8 Drop LAs with more than 2 missing qtrs</td>
+<td style="text-align: center;">Cv</td>
+<td style="text-align: right;">-0.0174</td>
+<td style="text-align: right;">0.0118</td>
+<td style="text-align: right;">0.142</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R9 Drop high-HMO LAs</td>
+<td style="text-align: center;">Cv</td>
+<td style="text-align: right;">-0.0174</td>
+<td style="text-align: right;">0.0118</td>
+<td style="text-align: right;">0.142</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R10 Winsorise log-rent change 1-99 pct</td>
+<td style="text-align: center;">Ot</td>
+<td style="text-align: right;">-0.0184</td>
+<td style="text-align: right;">0.0097</td>
+<td style="text-align: right;">0.057</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R11 WLS, PRS stock weights</td>
+<td style="text-align: center;">Wt</td>
+<td style="text-align: right;">-0.0067</td>
+<td style="text-align: right;">0.0136</td>
+<td style="text-align: right;">0.621</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R12a Binding 80 pct threshold, binary</td>
+<td style="text-align: center;">Ms</td>
+<td style="text-align: right;">+0.0005</td>
+<td style="text-align: right;">0.0131</td>
+<td style="text-align: right;">0.969</td>
+<td style="text-align: right;">230</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R12b Binding 90 pct threshold, binary</td>
+<td style="text-align: center;">Ms</td>
+<td style="text-align: right;">-0.0011</td>
+<td style="text-align: right;">0.0182</td>
+<td style="text-align: right;">0.950</td>
+<td style="text-align: right;">70</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R16 Multi-bedroom, LA x bed entity FE</td>
+<td style="text-align: center;">Co</td>
+<td style="text-align: right;">-0.0021</td>
+<td style="text-align: right;">0.0123</td>
+<td style="text-align: right;">0.867</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R17: 1-bed PIPR</td>
+<td style="text-align: center;">Co</td>
+<td style="text-align: right;">-0.0182</td>
+<td style="text-align: right;">0.0133</td>
+<td style="text-align: right;">0.171</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R17: 2-bed PIPR</td>
+<td style="text-align: center;">Co</td>
+<td style="text-align: right;">-0.0161</td>
+<td style="text-align: right;">0.0134</td>
+<td style="text-align: right;">0.231</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R17: 3-bed PIPR</td>
+<td style="text-align: center;">Co</td>
+<td style="text-align: right;">-0.0166</td>
+<td style="text-align: right;">0.0135</td>
+<td style="text-align: right;">0.218</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R17: 4-bed PIPR</td>
+<td style="text-align: center;">Co</td>
+<td style="text-align: right;">-0.0184</td>
+<td style="text-align: right;">0.0137</td>
+<td style="text-align: right;">0.180</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R7 Drop top-decile in-migration LAs</td>
+<td style="text-align: center;">Sa</td>
+<td style="text-align: right;">-0.0195</td>
+<td style="text-align: right;">0.0125</td>
+<td style="text-align: right;">0.119</td>
+<td style="text-align: right;">261</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R21 No p10 wage control</td>
+<td style="text-align: center;">Se</td>
+<td style="text-align: right;">-0.0182</td>
+<td style="text-align: right;">0.0119</td>
+<td style="text-align: right;">0.124</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R20 R3 + log-density x freeze, mech. isolator</td>
+<td style="text-align: center;">MI</td>
+<td style="text-align: right;"><strong>-0.0675</strong></td>
+<td style="text-align: right;">0.0174</td>
+<td style="text-align: right;"><strong>0.0001</strong></td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R18: 1-bed HB-only intensity (suppl.)</td>
+<td style="text-align: center;">Su</td>
+<td style="text-align: right;">-0.0405</td>
+<td style="text-align: right;">0.0355</td>
+<td style="text-align: right;">0.254</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R18: 2-bed HB-only intensity (suppl.)</td>
+<td style="text-align: center;">Su</td>
+<td style="text-align: right;">-0.0467</td>
+<td style="text-align: right;">0.0490</td>
+<td style="text-align: right;">0.340</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R18: 3-bed HB-only intensity (suppl.)</td>
+<td style="text-align: center;">Su</td>
+<td style="text-align: right;">-0.0682</td>
+<td style="text-align: right;">0.0696</td>
+<td style="text-align: right;">0.327</td>
+<td style="text-align: right;">290</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R18: 4-bed HB-only intensity (suppl.)</td>
+<td style="text-align: center;">Su</td>
+<td style="text-align: right;">-0.0617</td>
+<td style="text-align: right;">0.1548</td>
+<td style="text-align: right;">0.690</td>
+<td style="text-align: right;">290</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<hr>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Bangham, G., Brown, G., Harris, M. and Sood, J. (2026). A Modern System for Fair Rents. New Economics Foundation, London. Available at: https://neweconomics.org/2026/05/a-modern-system-for-fair-rents</p>
+<p>Brewer, M., Emmerson, C., Hood, A. and Joyce, R. (2014). Econometric analysis of the impacts of Local Housing Allowance reforms on existing claimants. DWP Research Report No.&nbsp;871. Department for Work and Pensions, London.</p>
+<p>Collinson, R. and Ganong, P. (2018). How do changes in housing voucher design affect rent and neighborhood quality? <em>American Economic Journal: Economic Policy</em>, 10(2), 62–89.</p>
+<p>Fack, G. (2006). Are housing benefit an effective way to redistribute income? Evidence from a natural experiment in France. <em>Labour Economics</em>, 13(6), 747–771.</p>
+<p>Gibbons, S. and Manning, A. (2006). The incidence of UK housing benefit: Evidence from the 1990s reforms. <em>Journal of Public Economics</em>, 90(4–5), 799–822.</p>
+<p>Susin, S. (2002). Rent vouchers and the price of low-income housing. <em>Journal of Public Economics</em>, 83(1), 109–152.</p>
+<p>Huato, J. and Galindo, C. (2026c). Labor Power as Numéraire: A Materialist Theory of Value, Risk, and Capitalist Finance. Working paper v8.35.</p>
+<p>Huato, J. and Galindo, C. (2026a). Rent as Reproduction Cost: Labor-Power Dynamics, Buy-to-Let Mispricing, and Fiscal Capture in the UK Private Rented Sector. Working paper v0.22.</p>
+<p><strong>Data sources</strong></p>
+<p>Department for Work and Pensions (2024). Housing Benefit claimants by local authority and number of bedrooms. DWP Stat-Xplore [database]. 296 England local authorities, January 2015 – March 2024. Accessed May 2026.</p>
+<p>Department for Work and Pensions (2024). Universal Credit households with housing cost element — private rented sector — by local authority. DWP Stat-Xplore [database]. 294 England local authorities, August 2015 – March 2024. Accessed May 2026.</p>
+<p>Ministry of Housing, Communities and Local Government (2024). Live Table 100: Dwelling stock estimates by tenure and local authority district. MHCLG Housing Statistics. 294 England local authorities, 2018–19 average private rented sector stock. Accessed May 2026.</p>
+<p>Office for National Statistics (2024). Price Index of Private Rents (PIPR): monthly median rents by local authority and number of bedrooms. 294 England local authorities, January 2015 – March 2024. Accessed May 2026.</p>
+<p>Office for National Statistics, via NOMIS (2024a). Claimant Count by local authority: NM_162_1. 290 England local authorities, quarterly proportion of residents aged 16–64, 2015–2024. Accessed May 2026 via nomisweb.co.uk.</p>
+<p>Office for National Statistics, via NOMIS (2024b). Annual Survey of Hours and Earnings (ASHE), 10th percentile weekly gross pay by local authority: NM_30_1 item=6. 290 England local authorities, 2015–2024. Accessed May 2026 via nomisweb.co.uk.</p>
+<p>Office for National Statistics (2024). Mid-year population estimates: components of population change, local authority district level (MYEB3). Net internal migration 2018–2019. Accessed May 2026 via ons.gov.uk.</p>
+<p>Urban Big Data Centre (2024). Local Housing Allowance Rates, England v2.1 (2012–2025). 152 Broad Rental Market Areas. Accessed May 2026 via data.ubdc.ac.uk.</p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../pages/working-papers/breaking-the-benchmark.html" class="pagination-link" aria-label="Breaking the Benchmark">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Breaking the Benchmark</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../pages/working-papers/rent-reproduction.html" class="pagination-link" aria-label="Rent as Reproduction Cost">
+        <span class="nav-page-text">Rent as Reproduction Cost</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

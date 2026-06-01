@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.13">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Programme Architecture – Carlos Galindo Escajeda - NEF Housing Research Package</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../pages/blogs/lha-explainer-blog.html" rel="next">
+<link href="../../pages/general/abstracts-dossier.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ac077c1e730dfeb5e42400639d17284e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-43081d808c96cc46af55a3a816ae9eed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Carlos Galindo Escajeda - NEF Housing Research Package</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/general/cover-letter-master.html">General</a></li><li class="breadcrumb-item"><a href="../../pages/general/programme-architecture.html">Programme Architecture</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">General</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/cover-letter-master.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cover Letter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/cover-letter-one-page.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extended Cover Letter (One Page)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/abstracts-dossier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Abstracts Dossier</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/programme-architecture.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Programme Architecture</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Blogs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/blogs/lha-explainer-blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LHA Explainer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/blogs/lpn-explainer-blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LPN Explainer</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Working Papers</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/breaking-the-benchmark.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Breaking the Benchmark</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/fiscal-capture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fiscal Capture in the UK PRS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/rent-reproduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rent as Reproduction Cost</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/labor-power-numeraire.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Labor Power as Numeraire</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/progressing-problemshift.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Progressing Problemshift</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#programme-architecture-nef-public-hiring-package" id="toc-programme-architecture-nef-public-hiring-package" class="nav-link active" data-scroll-target="#programme-architecture-nef-public-hiring-package">Programme Architecture — NEF Public Hiring Package</a>
+  <ul class="collapse">
+  <li><a href="#objective" id="toc-objective" class="nav-link" data-scroll-target="#objective">Objective</a></li>
+  <li><a href="#governing-decision" id="toc-governing-decision" class="nav-link" data-scroll-target="#governing-decision">Governing Decision</a></li>
+  <li><a href="#public-audience" id="toc-public-audience" class="nav-link" data-scroll-target="#public-audience">Public Audience</a></li>
+  <li><a href="#required-public-surfaces" id="toc-required-public-surfaces" class="nav-link" data-scroll-target="#required-public-surfaces">Required Public Surfaces</a>
+  <ul class="collapse">
+  <li><a href="#layer-1-entry" id="toc-layer-1-entry" class="nav-link" data-scroll-target="#layer-1-entry">Layer 1: Entry</a></li>
+  <li><a href="#layer-2-fast-persuasion" id="toc-layer-2-fast-persuasion" class="nav-link" data-scroll-target="#layer-2-fast-persuasion">Layer 2: Fast persuasion</a></li>
+  <li><a href="#layer-3-deeper-foundation" id="toc-layer-3-deeper-foundation" class="nav-link" data-scroll-target="#layer-3-deeper-foundation">Layer 3: Deeper foundation</a></li>
+  </ul></li>
+  <li><a href="#current-state-audit" id="toc-current-state-audit" class="nav-link" data-scroll-target="#current-state-audit">Current State Audit</a></li>
+  <li><a href="#content-selection-rule" id="toc-content-selection-rule" class="nav-link" data-scroll-target="#content-selection-rule">Content Selection Rule</a>
+  <ul class="collapse">
+  <li><a href="#include" id="toc-include" class="nav-link" data-scroll-target="#include">Include</a></li>
+  <li><a href="#exclude" id="toc-exclude" class="nav-link" data-scroll-target="#exclude">Exclude</a></li>
+  </ul></li>
+  <li><a href="#reading-path-design" id="toc-reading-path-design" class="nav-link" data-scroll-target="#reading-path-design">Reading Path Design</a></li>
+  <li><a href="#render-matrix" id="toc-render-matrix" class="nav-link" data-scroll-target="#render-matrix">Render Matrix</a></li>
+  <li><a href="#recommended-publication-architecture" id="toc-recommended-publication-architecture" class="nav-link" data-scroll-target="#recommended-publication-architecture">Recommended Publication Architecture</a></li>
+  <li><a href="#export-rule-from-this-repo" id="toc-export-rule-from-this-repo" class="nav-link" data-scroll-target="#export-rule-from-this-repo">Export Rule From This Repo</a></li>
+  <li><a href="#release-order" id="toc-release-order" class="nav-link" data-scroll-target="#release-order">Release Order</a></li>
+  <li><a href="#acceptance-criteria" id="toc-acceptance-criteria" class="nav-link" data-scroll-target="#acceptance-criteria">Acceptance Criteria</a></li>
+  <li><a href="#immediate-next-build-tasks" id="toc-immediate-next-build-tasks" class="nav-link" data-scroll-target="#immediate-next-build-tasks">Immediate Next Build Tasks</a></li>
+  <li><a href="#strategic-note" id="toc-strategic-note" class="nav-link" data-scroll-target="#strategic-note">Strategic Note</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/general/cover-letter-master.html">General</a></li><li class="breadcrumb-item"><a href="../../pages/general/programme-architecture.html">Programme Architecture</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Programme Architecture</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<blockquote class="blockquote">
+<p>Source file: docs/PROGRAMME_ARCHITECTURE.md</p>
+</blockquote>
+<section id="programme-architecture-nef-public-hiring-package" class="level1">
+<h1>Programme Architecture — NEF Public Hiring Package</h1>
+<p>Date: 2026-06-01 Purpose: define the minimum coherent public package for presenting the housing research programme to NEF as a hiring case rather than as a raw research dump.</p>
+<section id="objective" class="level2">
+<h2 class="anchored" data-anchor-id="objective">Objective</h2>
+<p>Turn the existing NEF-facing material into one public-facing package that a hiring reader can navigate in one sitting:</p>
+<ol type="1">
+<li>understand the policy claim,</li>
+<li>see that it is backed by real empirical and theoretical work,</li>
+<li>inspect as much depth as they want without getting lost in internal process,</li>
+<li>come away with a clear picture of role-fit.</li>
+</ol>
+</section>
+<section id="governing-decision" class="level2">
+<h2 class="anchored" data-anchor-id="governing-decision">Governing Decision</h2>
+<p>Do <strong>not</strong> publish this repository directly as the public package.</p>
+<p>This repository contains internal review ledgers, adversarial packets, operating-layer notes, archived drafts, and other material that is useful for research production but wrong for a hiring-facing public surface. The correct approach is a <strong>separate curated public repository</strong> whose content is exported from the canonical sources here.</p>
+</section>
+<section id="public-audience" class="level2">
+<h2 class="anchored" data-anchor-id="public-audience">Public Audience</h2>
+<p>The package must work for three overlapping readers:</p>
+<ol type="1">
+<li>NEF hiring panel members deciding whether the candidate is worth interviewing.</li>
+<li>NEF researchers who may want to inspect the analytical depth behind the application.</li>
+<li>Policy-adjacent readers who will only read one landing page, one blog post, or one abstract page.</li>
+</ol>
+<p>The package therefore needs a strict reading gradient from shortest to deepest.</p>
+</section>
+<section id="required-public-surfaces" class="level2">
+<h2 class="anchored" data-anchor-id="required-public-surfaces">Required Public Surfaces</h2>
+<p>The public package should contain exactly these layers.</p>
+<section id="layer-1-entry" class="level3">
+<h3 class="anchored" data-anchor-id="layer-1-entry">Layer 1: Entry</h3>
+<ul>
+<li>Landing page: one-screen overview of who Carlos is, what the programme does, and where to start.</li>
+<li>Cover letter page: the application letter as a readable web page, not just a file attachment.</li>
+<li>Abstracts dossier: one page that summarizes the five-paper programme and routes readers to the full texts.</li>
+</ul>
+</section>
+<section id="layer-2-fast-persuasion" class="level3">
+<h3 class="anchored" data-anchor-id="layer-2-fast-persuasion">Layer 2: Fast persuasion</h3>
+<ul>
+<li>Housing policy paper: <em>Breaking the Benchmark</em>.</li>
+<li>Empirical paper: <em>Fiscal Capture in the UK Private Rented Sector</em>.</li>
+<li>One or two public explainers/blog posts written in accessible register.</li>
+</ul>
+<p>These are the highest-yield surfaces for NEF hiring purposes.</p>
+</section>
+<section id="layer-3-deeper-foundation" class="level3">
+<h3 class="anchored" data-anchor-id="layer-3-deeper-foundation">Layer 3: Deeper foundation</h3>
+<ul>
+<li><em>Rent as Reproduction Cost</em>.</li>
+<li><em>Labor Power as Numéraire</em>.</li>
+<li><em>A Progressing Problemshift</em>.</li>
+</ul>
+<p>These should be available, but not forced on a first-pass reader.</p>
+</section>
+</section>
+<section id="current-state-audit" class="level2">
+<h2 class="anchored" data-anchor-id="current-state-audit">Current State Audit</h2>
+<p>As of 2026-06-01, the package fragments are real but not yet assembled.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Surface</th>
+<th>Current source</th>
+<th>Current status</th>
+<th>Needed for public package</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cover letter</td>
+<td><code>src/drafts/NEF_COVER_LETTER_MASTERPIECE.md</code></td>
+<td>Exists as md + html</td>
+<td>Keep, but present as a first-class page</td>
+</tr>
+<tr class="even">
+<td>Abstracts dossier</td>
+<td><code>papers_NEF/abstracts/INDEX.md</code></td>
+<td>Exists; now strengthened as guided intake page</td>
+<td>Render to html and place near landing page</td>
+</tr>
+<tr class="odd">
+<td>NEF mirror papers</td>
+<td><code>papers_NEF/NEF_*.md</code></td>
+<td>All five exist in markdown</td>
+<td>Render all five to html</td>
+</tr>
+<tr class="even">
+<td>Canonical papers</td>
+<td><code>papers/*.qmd</code></td>
+<td>All five exist; html only confirmed for benchmark and LPN</td>
+<td>Add deterministic html render path for all five</td>
+</tr>
+<tr class="odd">
+<td>Blogs</td>
+<td><code>blog/*.qmd</code></td>
+<td>LHA and LPN explainer sources exist</td>
+<td>Render selected blogs to html</td>
+</tr>
+<tr class="even">
+<td>Integrated package map</td>
+<td>none previously</td>
+<td>Missing before this document</td>
+<td>Required</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="content-selection-rule" class="level2">
+<h2 class="anchored" data-anchor-id="content-selection-rule">Content Selection Rule</h2>
+<p>The public repo should be selective.</p>
+<section id="include" class="level3">
+<h3 class="anchored" data-anchor-id="include">Include</h3>
+<ul>
+<li>Cover letter.</li>
+<li>Landing page.</li>
+<li>Abstracts dossier.</li>
+<li>Full HTML versions of the five papers.</li>
+<li>PDF downloads for the five papers.</li>
+<li>One LHA empirical explainer.</li>
+<li>One LPN or welfare-framework explainer only if it helps rather than intimidates.</li>
+</ul>
+</section>
+<section id="exclude" class="level3">
+<h3 class="anchored" data-anchor-id="exclude">Exclude</h3>
+<ul>
+<li><code>external_review_*</code></li>
+<li><code>_temp_agent/</code></li>
+<li><code>_backups/</code></li>
+<li>internal ledgers, stale prompts, model-lock notes, handoffs, and operating diagnostics</li>
+<li>archived drafts and superseded packets</li>
+<li>any file whose main purpose is process rather than argument</li>
+</ul>
+</section>
+</section>
+<section id="reading-path-design" class="level2">
+<h2 class="anchored" data-anchor-id="reading-path-design">Reading Path Design</h2>
+<p>The public site should give readers three explicit routes.</p>
+<ol type="1">
+<li><strong>Two-minute route:</strong> landing page -&gt; cover letter -&gt; abstracts dossier.</li>
+<li><strong>Policy route:</strong> landing page -&gt; <em>Breaking the Benchmark</em> -&gt; <em>Fiscal Capture</em> -&gt; selected blog.</li>
+<li><strong>Deep theory route:</strong> landing page -&gt; <em>Rent as Reproduction Cost</em> -&gt; <em>Labor Power as Numéraire</em> -&gt; <em>A Progressing Problemshift</em>.</li>
+</ol>
+<p>This avoids the current problem where good material exists but the order of entry is implicit.</p>
+</section>
+<section id="render-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="render-matrix">Render Matrix</h2>
+<p>Minimum HTML outputs required for a first public release:</p>
+<ol type="1">
+<li><code>index.html</code> — landing page.</li>
+<li><code>cover-letter.html</code> — rendered NEF cover letter.</li>
+<li><code>abstracts/index.html</code> — rendered abstracts dossier.</li>
+<li><code>papers/breaking-the-benchmark.html</code></li>
+<li><code>papers/fiscal-capture.html</code></li>
+<li><code>papers/rent-as-reproduction-cost.html</code></li>
+<li><code>papers/labor-power-as-numeraire.html</code></li>
+<li><code>papers/progressing-problemshift.html</code></li>
+<li><code>blogs/lha-benefit-capture.html</code></li>
+<li>optional: <code>blogs/lpn-explainer.html</code></li>
+</ol>
+<p>Every paper page should also expose a PDF download link.</p>
+</section>
+<section id="recommended-publication-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-publication-architecture">Recommended Publication Architecture</h2>
+<p>Use a dedicated Quarto website in a separate public repository.</p>
+<p>Recommended shape:</p>
+<pre class="text"><code>public-nef-package/
+  _quarto.yml
+  index.qmd
+  cover-letter.qmd
+  abstracts/
+    index.qmd
+  papers/
+    breaking-the-benchmark.qmd
+    fiscal-capture.qmd
+    rent-as-reproduction-cost.qmd
+    labor-power-as-numeraire.qmd
+    progressing-problemshift.qmd
+  blogs/
+    lha-benefit-capture.qmd
+    lpn-explainer.qmd
+  assets/
+    pdf/</code></pre>
+<p>Why a separate repo:</p>
+<ul>
+<li>cleaner public history,</li>
+<li>no risk of leaking internal review material,</li>
+<li>simpler GitHub Pages deployment,</li>
+<li>easier to maintain a professional front door.</li>
+</ul>
+</section>
+<section id="export-rule-from-this-repo" class="level2">
+<h2 class="anchored" data-anchor-id="export-rule-from-this-repo">Export Rule From This Repo</h2>
+<p>This repository remains the canonical authoring environment.</p>
+<ul>
+<li><code>papers/*.qmd</code> remain the manuscript SSOT.</li>
+<li><code>blog/*.qmd</code> remain the explainer SSOT.</li>
+<li><code>nef_abstracts/*.md</code> remain the abstract SSOT.</li>
+<li><code>papers_NEF/</code> remains a generated staging layer, not the final public site.</li>
+</ul>
+<p>The public repo should be updated by exporting curated content from those canonical sources, not by hand-editing copies after publication.</p>
+</section>
+<section id="release-order" class="level2">
+<h2 class="anchored" data-anchor-id="release-order">Release Order</h2>
+<p>The highest-value release sequence is:</p>
+<ol type="1">
+<li>landing page,</li>
+<li>cover letter,</li>
+<li>abstracts dossier,</li>
+<li>policy paper html,</li>
+<li>fiscal-capture html,</li>
+<li>one blog post,</li>
+<li>remaining theory papers.</li>
+</ol>
+<p>This sequence gets the hiring-facing argument live early, without waiting for the deepest theory surfaces to become the entry point.</p>
+</section>
+<section id="acceptance-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="acceptance-criteria">Acceptance Criteria</h2>
+<p>The package is ready for publication only when all of the following are true:</p>
+<ol type="1">
+<li>Every link on the cover letter resolves.</li>
+<li>The abstracts dossier links to all five full papers.</li>
+<li>All five papers have public html pages and downloadable pdfs.</li>
+<li>The landing page makes the reading order explicit.</li>
+<li>No internal-review or operating-layer file is reachable from the public navigation.</li>
+<li>The first screen makes clear why this package is relevant to NEF specifically.</li>
+</ol>
+</section>
+<section id="immediate-next-build-tasks" class="level2">
+<h2 class="anchored" data-anchor-id="immediate-next-build-tasks">Immediate Next Build Tasks</h2>
+<ol type="1">
+<li>Create the separate public repository skeleton.</li>
+<li>Add a Quarto website config and landing page.</li>
+<li>Convert the cover letter and abstracts dossier into site pages.</li>
+<li>Render missing html pages for the three papers that currently lack them.</li>
+<li>Select and render the one or two blog posts that sharpen the hiring case.</li>
+<li>Add a small deployment script or task that exports the public package deterministically.</li>
+</ol>
+</section>
+<section id="strategic-note" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-note">Strategic Note</h2>
+<p>For NEF hiring purposes, the package should foreground the housing policy and empirical papers, not the full heterodox architecture. The theory should remain available as proof of depth, but the public entry sequence should start with practical policy relevance and quantitative evidence.</p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../pages/general/abstracts-dossier.html" class="pagination-link" aria-label="Abstracts Dossier">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Abstracts Dossier</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../pages/blogs/lha-explainer-blog.html" class="pagination-link" aria-label="LHA Explainer">
+        <span class="nav-page-text">LHA Explainer</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

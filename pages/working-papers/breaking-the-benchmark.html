@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.13">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Breaking the Benchmark – Carlos Galindo Escajeda - NEF Housing Research Package</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../pages/working-papers/fiscal-capture.html" rel="next">
+<link href="../../pages/blogs/lpn-explainer-blog.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ac077c1e730dfeb5e42400639d17284e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-43081d808c96cc46af55a3a816ae9eed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Carlos Galindo Escajeda - NEF Housing Research Package</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/working-papers/breaking-the-benchmark.html">Working Papers</a></li><li class="breadcrumb-item"><a href="../../pages/working-papers/breaking-the-benchmark.html">Breaking the Benchmark</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">General</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/cover-letter-master.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cover Letter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/cover-letter-one-page.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extended Cover Letter (One Page)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/abstracts-dossier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Abstracts Dossier</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/programme-architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Programme Architecture</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Blogs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/blogs/lha-explainer-blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LHA Explainer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/blogs/lpn-explainer-blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LPN Explainer</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Working Papers</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/breaking-the-benchmark.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Breaking the Benchmark</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/fiscal-capture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fiscal Capture in the UK PRS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/rent-reproduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rent as Reproduction Cost</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/labor-power-numeraire.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Labor Power as Numeraire</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/progressing-problemshift.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Progressing Problemshift</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#breaking-the-benchmark-emergency-rent-regulation-in-a-financialised-uk-housing-market" id="toc-breaking-the-benchmark-emergency-rent-regulation-in-a-financialised-uk-housing-market" class="nav-link active" data-scroll-target="#breaking-the-benchmark-emergency-rent-regulation-in-a-financialised-uk-housing-market">Breaking the Benchmark: Emergency Rent Regulation in a Financialised UK Housing Market</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#the-uk-prs-demonstrably-fails-the-competitive-benchmark" id="toc-the-uk-prs-demonstrably-fails-the-competitive-benchmark" class="nav-link" data-scroll-target="#the-uk-prs-demonstrably-fails-the-competitive-benchmark">1. The UK PRS Demonstrably Fails the Competitive Benchmark</a></li>
+  <li><a href="#the-textbook-critique-is-valid-only-where-its-assumptions-hold" id="toc-the-textbook-critique-is-valid-only-where-its-assumptions-hold" class="nav-link" data-scroll-target="#the-textbook-critique-is-valid-only-where-its-assumptions-hold">2. The Textbook Critique Is Valid Only Where Its Assumptions Hold</a></li>
+  <li><a href="#rent-prices-a-quadruple-object-shelter-asset-collateral-and-fiscal-conduit" id="toc-rent-prices-a-quadruple-object-shelter-asset-collateral-and-fiscal-conduit" class="nav-link" data-scroll-target="#rent-prices-a-quadruple-object-shelter-asset-collateral-and-fiscal-conduit">3. Rent Prices a Quadruple Object: Shelter, Asset, Collateral, and Fiscal Conduit</a>
+  <ul class="collapse">
+  <li><a href="#capping-rent-growth-as-macro-prudential-de-risking" id="toc-capping-rent-growth-as-macro-prudential-de-risking" class="nav-link" data-scroll-target="#capping-rent-growth-as-macro-prudential-de-risking">Capping Rent Growth as Macro-Prudential De-Risking</a></li>
+  <li><a href="#land-as-fictitious-capital" id="toc-land-as-fictitious-capital" class="nav-link" data-scroll-target="#land-as-fictitious-capital">Land as Fictitious Capital</a></li>
+  </ul></li>
+  <li><a href="#each-nef-design-element-targets-a-specific-failure-mechanism" id="toc-each-nef-design-element-targets-a-specific-failure-mechanism" class="nav-link" data-scroll-target="#each-nef-design-element-targets-a-specific-failure-mechanism">4. Each NEF Design Element Targets a Specific Failure Mechanism</a>
+  <ul class="collapse">
+  <li><a href="#how-the-design-closes-the-documented-failure-channels" id="toc-how-the-design-closes-the-documented-failure-channels" class="nav-link" data-scroll-target="#how-the-design-closes-the-documented-failure-channels">How the Design Closes the Documented Failure Channels</a></li>
+  <li><a href="#residual-costs-the-design-does-not-eliminate" id="toc-residual-costs-the-design-does-not-eliminate" class="nav-link" data-scroll-target="#residual-costs-the-design-does-not-eliminate">Residual Costs the Design Does Not Eliminate</a></li>
+  </ul></li>
+  <li><a href="#second-best-symmetry-removes-the-orthodox-veto" id="toc-second-best-symmetry-removes-the-orthodox-veto" class="nav-link" data-scroll-target="#second-best-symmetry-removes-the-orthodox-veto">5. Second-Best Symmetry Removes the Orthodox Veto</a>
+  <ul class="collapse">
+  <li><a href="#the-ontological-disconnect-object-mismatch-not-rhetoric" id="toc-the-ontological-disconnect-object-mismatch-not-rhetoric" class="nav-link" data-scroll-target="#the-ontological-disconnect-object-mismatch-not-rhetoric">The Ontological Disconnect: Object Mismatch, Not Rhetoric</a></li>
+  <li><a href="#lipsey-lancaster-governs-when-first-best-conditions-fail" id="toc-lipsey-lancaster-governs-when-first-best-conditions-fail" class="nav-link" data-scroll-target="#lipsey-lancaster-governs-when-first-best-conditions-fail">Lipsey-Lancaster Governs When First-Best Conditions Fail</a></li>
+  <li><a href="#three-policy-conclusions-symmetric-across-intervention-and-inaction" id="toc-three-policy-conclusions-symmetric-across-intervention-and-inaction" class="nav-link" data-scroll-target="#three-policy-conclusions-symmetric-across-intervention-and-inaction">Three Policy Conclusions, Symmetric Across Intervention and Inaction</a></li>
+  <li><a href="#the-three-impaired-margins-p1-p2-p3" id="toc-the-three-impaired-margins-p1-p2-p3" class="nav-link" data-scroll-target="#the-three-impaired-margins-p1-p2-p3">The Three Impaired Margins (P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub>)</a></li>
+  <li><a href="#yield-compression-dissolves-fictitious-value-not-productive-capacity" id="toc-yield-compression-dissolves-fictitious-value-not-productive-capacity" class="nav-link" data-scroll-target="#yield-compression-dissolves-fictitious-value-not-productive-capacity">Yield Compression Dissolves Fictitious Value, Not Productive Capacity</a></li>
+  <li><a href="#the-political-economy-blocking-condition-and-the-case-for-temporariness" id="toc-the-political-economy-blocking-condition-and-the-case-for-temporariness" class="nav-link" data-scroll-target="#the-political-economy-blocking-condition-and-the-case-for-temporariness">The Political-Economy Blocking Condition and the Case for Temporariness</a></li>
+  <li><a href="#why-a-growth-ceiling-dominates-a-level-freeze" id="toc-why-a-growth-ceiling-dominates-a-level-freeze" class="nav-link" data-scroll-target="#why-a-growth-ceiling-dominates-a-level-freeze">Why a Growth Ceiling Dominates a Level Freeze</a></li>
+  </ul></li>
+  <li><a href="#three-structural-drivers-require-a-three-axis-response-brake-build-capture" id="toc-three-structural-drivers-require-a-three-axis-response-brake-build-capture" class="nav-link" data-scroll-target="#three-structural-drivers-require-a-three-axis-response-brake-build-capture">6. Three Structural Drivers Require a Three-Axis Response: Brake, Build, Capture</a></li>
+  <li><a href="#credible-temporariness-requires-pre-committed-statutory-exit-criteria" id="toc-credible-temporariness-requires-pre-committed-statutory-exit-criteria" class="nav-link" data-scroll-target="#credible-temporariness-requires-pre-committed-statutory-exit-criteria">7. Credible Temporariness Requires Pre-Committed Statutory Exit Criteria</a></li>
+  <li><a href="#conclusion-calibrate-policy-to-the-market-that-exists" id="toc-conclusion-calibrate-policy-to-the-market-that-exists" class="nav-link" data-scroll-target="#conclusion-calibrate-policy-to-the-market-that-exists">8. Conclusion: Calibrate Policy to the Market That Exists</a>
+  <ul class="collapse">
+  <li><a href="#the-competitive-conditions-do-not-hold-here" id="toc-the-competitive-conditions-do-not-hold-here" class="nav-link" data-scroll-target="#the-competitive-conditions-do-not-hold-here">The Competitive Conditions Do Not Hold Here</a></li>
+  <li><a href="#what-lipsey-lancaster-settles-and-what-it-leaves-open" id="toc-what-lipsey-lancaster-settles-and-what-it-leaves-open" class="nav-link" data-scroll-target="#what-lipsey-lancaster-settles-and-what-it-leaves-open">What Lipsey-Lancaster Settles and What It Leaves Open</a></li>
+  <li><a href="#why-the-nef-design-fits-the-failures-identified" id="toc-why-the-nef-design-fits-the-failures-identified" class="nav-link" data-scroll-target="#why-the-nef-design-fits-the-failures-identified">Why the NEF Design Fits the Failures Identified</a></li>
+  <li><a href="#the-forward-empirical-programme-three-parameters-still-unmeasured" id="toc-the-forward-empirical-programme-three-parameters-still-unmeasured" class="nav-link" data-scroll-target="#the-forward-empirical-programme-three-parameters-still-unmeasured">The Forward Empirical Programme: Three Parameters Still Unmeasured</a></li>
+  <li><a href="#inapplicable-theorems-not-mistaken-economics" id="toc-inapplicable-theorems-not-mistaken-economics" class="nav-link" data-scroll-target="#inapplicable-theorems-not-mistaken-economics">Inapplicable Theorems, Not Mistaken Economics</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/working-papers/breaking-the-benchmark.html">Working Papers</a></li><li class="breadcrumb-item"><a href="../../pages/working-papers/breaking-the-benchmark.html">Breaking the Benchmark</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Breaking the Benchmark</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<blockquote class="blockquote">
+<p>Source file: papers_NEF/NEF_cg_2026_btl_benchmark.md</p>
+</blockquote>
+<!-- NEF-MIRROR-AUTOGEN — DO NOT EDIT BY HAND. Rendered Markdown generated from the canonical paper by scripts/sync_nef_papers.py, with an NEF-targeted abstract. Edit the paper in papers/ and its NEF abstract in nef_abstracts/<stem>.md, then re-run the sync. -->
+<section id="breaking-the-benchmark-emergency-rent-regulation-in-a-financialised-uk-housing-market" class="level1">
+<h1>Breaking the Benchmark: Emergency Rent Regulation in a Financialised UK Housing Market</h1>
+<p>Carlos Galindo Escajeda June 1, 2026</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>For forty years a single sentence has ended the rent-control debate before it begins: <em>price controls choke off supply.</em> The conclusion is sound — but only inside a textbook market: one with supply that expands when demand rises, many landlords competing for tenants, and rents that track the cost of providing a home. Britain’s private rented sector has not been that market since the 1980s, and this paper shows it cannot be judged as if it were.</p>
+<p>It has instead been engineered into a financial asset class. Planning has throttled new supply for decades; the 1988 Act stripped away tenant protections; and buy-to-let lending turned homes into leveraged collateral whose price now tracks credit conditions, not the cost of shelter. A home in this market is four things at once — somewhere to live, an investment asset, security for a loan, and a pipe carrying housing benefit into landlord yields. The rent a tenant pays is the cash flow on all four.</p>
+<p>That shifts the burden of proof, and it does so using the economic mainstream’s own tool. The second-best theorem (Lipsey–Lancaster) establishes that once a market is this distorted, deregulation forfeits its claim to be the safe, neutral default — <em>exactly as much as</em> regulation forfeits any claim to be automatically optimal. The orthodox veto cuts both ways. Doing nothing is not a return to a healthy market; it is a choice to leave a broken one in place.</p>
+<p>On that footing the paper defends NEF’s emergency brake — and hardens it. Two design features are not details but the line between working and failing: the ban on resetting rents between tenancies, which shuts the eviction-and-reset loophole that wrecked San Francisco’s controls; and pre-committed, statutory exit criteria, which give the market the predictability that Scotland’s open-ended freeze destroyed. The argument is deliberately honest about limits — it prices the real costs (longer waits for new renters, the risk of a disorderly landlord exit) and treats them as things to be managed, not wished away.</p>
+<p>The claim is not that the brake is perfect. It is that the case against it has collapsed, and the case for it — as the first move in a wider build-and-capture programme, not a substitute for one — is the strongest available for the housing market Britain actually has.</p>
+</section>
+<section id="the-uk-prs-demonstrably-fails-the-competitive-benchmark" class="level2">
+<h2 class="anchored" data-anchor-id="the-uk-prs-demonstrably-fails-the-competitive-benchmark">1. The UK PRS Demonstrably Fails the Competitive Benchmark</h2>
+<p>England’s private rented sector does not merely deviate from the competitive benchmark; it violates that benchmark’s own conditions — measurably, persistently, and on every margin that matters. This is the decisive point, and it is empirical rather than historical: the standard textbook case against rent regulation loses its authority here not because the case is internally flawed, but because the competitive conditions it presupposes are demonstrably absent in the market that actually exists.</p>
+<p>The social result is plain. Private rents are still rising across every English region, and low-income renters are carrying an intolerable burden. NEF (2026) reports that the lowest-income quintile is now spending 48.5 percent of net income on housing costs. The private rented sector also doubled in scale over the last generation, rising from roughly 10 percent of English households in 2000 to just over 20 percent by 2016-17. That growth was not the neutral expansion of a competitive service market. It was the expansion of an investable asset class.</p>
+<p>The analytical case against the competitive benchmark rests on three specific, documented failures — summarised below and established formally in Section 5.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Competitive assumption</th>
+<th>UK PRS reality</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Elastic supply (P<sub>1</sub>)</td>
+<td>Inelastic, politically constrained supply; a persistent price–construction-cost wedge</td>
+<td>Barker (2004); Hilber and Vermeulen (2016)</td>
+</tr>
+<tr class="even">
+<td>Competitive price formation (P<sub>2</sub>)</td>
+<td>Search costs, information asymmetry, and weak tenant bargaining can sustain above-competitive rents (magnitude uncalibrated; see §5)</td>
+<td>Arnott (1995)</td>
+</tr>
+<tr class="odd">
+<td>Use-value pricing (P<sub>3</sub>)</td>
+<td>Rent capitalised as leveraged financial collateral via <span class="math inline">\(P = R/(r-g_R)\)</span>, rather than priced at the cost of providing shelter</td>
+<td>Jordà, Schularick and Taylor (2016); Bank of England (2022); Mian and Sufi (2014)</td>
+</tr>
+</tbody>
+</table>
+<p>None of these is a marginal imperfection; each violates a load-bearing assumption of the model invoked against regulation. These failures also have a history — and the history matters, not as proof that the market is uncompetitive (a market can be deliberately built and still be competitive) but as the explanation of why the failures are structural and politically difficult to unwind. Three political decisions built the present system.</p>
+<p>First, the Housing Act 1988 dismantled the old regulatory settlement. It removed fair-rent protection and security of tenure, introduced assured shorthold tenancies, and turned private renting into a market organised around landlord price-setting power and easy tenant displacement. The point was not simply to liberalise exchange. It was to create a sector that could reliably deliver rental income and capital gains to property owners.</p>
+<p>Second, the arrival of buy-to-let lending in 1996 activated that new legal structure with leverage. Credit no longer followed housing need alone; it was routed into rental property as an investment strategy. Landlords were able to scale portfolios on the basis of anticipated rent streams, and the PRS expanded accordingly. This was the decisive shift from a deregulated rental sector to a financialised one.</p>
+<p>Third, the post-2008 low-rate environment inflated the asset side of the market. When housing is priced as a capitalised claim on future rent, lower interest rates drive up asset values even before any underlying housing service improves. The result was a rate-sensitive landlord class rewarded by capital appreciation, not a competitive field of providers disciplined by easy entry and price competition.</p>
+<p>These three phases explain how the present system arose, and why its distortions are structural rather than transient: they are written into statute, leverage, and the asset price, not the residue of a passing shock. But the history is not, by itself, the case against the competitive benchmark — a market can be deliberately made and still be competitive. What disqualifies the benchmark here is not that the market was constructed but that its competitive preconditions are demonstrably absent: supply is inelastic, price formation is shaped by search and bargaining asymmetry, and prices are driven by credit and capitalisation rather than by the cost of providing shelter. Section 5 documents each of these failures directly. The construction story then does two further jobs, neither of which is the demonstration itself: it explains why the failures persist, and it shifts the burden of justification onto whoever would leave a deliberately engineered distortion in place. The theorems tied to the competitive benchmark do not decide this case — not because the market was made, but because the conditions those theorems require do not hold.</p>
+<p>That is the Ontological Disconnect at the heart of the debate. It is not a slogan about moral outrage. It is a scope claim about analytical object mismatch. The usual objections to rent regulation model housing as a current-service market whose price emerges from competitive supply, competitive entry, and roughly symmetric bargaining. The UK PRS instead prices a quadruple object: shelter, capitalised asset, credit collateral, and fiscal transmission channel. Land is scarce and monopoly-like, supply is politically restricted, prices are shaped by financialisation, and tenants do not meet landlords on equal footing. A benchmark built for the one-object case cannot simply be carried over to the four-object case without first showing that those other roles are separable. They are not. The correct policy question is therefore not whether regulation departs from a competitive ideal. It is which interventions best discipline a market that has already been engineered away from that ideal.</p>
+<p>On that question, the answer is straightforward. A no-vacancy-decontrol emergency brake is justified because it interrupts the upward ratchet in a market whose current price path has no claim to competitive legitimacy.</p>
+</section>
+<section id="the-textbook-critique-is-valid-only-where-its-assumptions-hold" class="level2">
+<h2 class="anchored" data-anchor-id="the-textbook-critique-is-valid-only-where-its-assumptions-hold">2. The Textbook Critique Is Valid Only Where Its Assumptions Hold</h2>
+<p>The standard welfare-economics critique of rent ceilings is coherent inside its own world. In a genuinely competitive rental market, a binding ceiling can misallocate units, reduce mobility, compress supply, and create losses outside the group of protected incumbents. Those mechanisms are real. They are simply not dispositive for the UK PRS, because the UK PRS is not the kind of market the textbook model describes.</p>
+<p>That distinction matters. If policymakers import the textbook objection without first testing whether its underlying assumptions hold, they smuggle in the conclusion. They treat the existing rent level as though it were already the outcome of competitive discipline, when in fact it is the outcome of deregulated tenure law, leverage-fuelled landlord entry, planning constraint, and asset-price inflation. That is analytically indefensible.</p>
+<p>The four textbook mechanisms can be stated briefly.</p>
+<p>First, a ceiling can disrupt the usual marginal conditions of exchange. Second, it can produce lock-in by making protected tenants reluctant to move. Third, it can induce landlords to withdraw supply if expected returns fall below acceptable levels. Fourth, it can redistribute gains to current tenants while imposing losses on outsiders. None of this is controversial. The problem is that these mechanisms do not answer the prior question: what kind of market is being regulated?</p>
+<p>The best-known empirical warning comes from Diamond, McQuade, and Qian’s (2019) study of San Francisco. That case is important, but it is also routinely misused. San Francisco combined strict control during tenancy with vacancy decontrol at turnover. That design created a powerful incentive to remove tenants and reset rents upward. It is therefore evidence against vacancy-decontrol systems and decontrol cliffs. It is not a universal case against all forms of rent regulation. To cite it as a complete verdict on the NEF design is to ignore the central design difference.</p>
+<p>The NEF proposal matters precisely because it removes that reset incentive. A no-vacancy-decontrol brake blocks the most damaging ratchet mechanism identified in the strongest quasi-experimental evidence. That does not make the policy costless. It does mean the most common attempt to dismiss it on textbook grounds fails at the first serious comparison.</p>
+<p>The same point applies to supply withdrawal. A competitive-model prediction about exit assumes a margin of easy reallocation and a price that was competitively formed in the first place. The UK PRS does not offer that setting. England’s housing system is already constrained by planning restrictions, land monopoly, and financialised pricing. Hilber and Vermeulen (2016) provide England-specific evidence that regulatory constraints materially raise house prices. In other words, the market is already operating inside a distorted supply regime. It is not a first-best baseline onto which policy is now adding distortion from outside.</p>
+<p>Once multiple distortions are already in place, the first-best presumption collapses. That is the core practical meaning of the second-best insight. Where supply is constrained, land values are capitalised, and credit conditions are shaping demand and pricing, policymakers cannot assume that removing one intervention or blocking any new intervention will restore efficiency. In this setting, refusing to regulate is also a choice inside a distorted system.</p>
+<p>This is why the pre-1988 history is not an argument for passivity today. The earlier collapse of the PRS under older forms of control shows that design matters. It does not prove that every contemporary control is self-defeating. It proves that policymakers must reject crude freezes, avoid vacancy-decontrol cliffs, and pair tenant protection with supply expansion and institutional reform. NEF’s emergency brake does exactly that. It is not a return to a failed past settlement. It is a targeted response to a different market structure.</p>
+<p>The correct policy conclusion is therefore firm. The standard textbook critique remains a useful warning about what can go wrong under badly designed controls in genuinely competitive settings. It is not a veto on action in the UK PRS. The UK PRS sits outside the scope conditions that would make those objections decisive.</p>
+</section>
+<section id="rent-prices-a-quadruple-object-shelter-asset-collateral-and-fiscal-conduit" class="level2">
+<h2 class="anchored" data-anchor-id="rent-prices-a-quadruple-object-shelter-asset-collateral-and-fiscal-conduit">3. Rent Prices a Quadruple Object: Shelter, Asset, Collateral, and Fiscal Conduit</h2>
+<p>Housing policy fails when it treats rent as a simple payment for current shelter. In the UK PRS, rent is also the income stream backing an asset and the cash flow supporting leveraged balance sheets. That is why conventional rent-flow analysis keeps missing the object it is supposed to govern.</p>
+<p>Housing is, first, shelter. That is the immediate welfare issue. People need secure access to a home, and the present system is extracting too much income from tenants for that basic need.</p>
+<p>Housing is, second, a capitalised asset. The relevant price logic is not just current construction cost; it is the capitalisation of expected future rent. In its simplest form, the relationship is <span class="math inline">\(P = R/r\)</span>; in a growth setting, <span class="math inline">\(P = R/(r - g_R)\)</span> — where <span class="math inline">\(R\)</span> denotes the total expected rental income flow, of which the ground-rent component (the surplus above competitive building returns, in the Harvey/Haila framework below) is the fictitious-capital element driving over-capitalisation. All terms are expressed in real units on a common horizon, and the finite-capitalisation condition requires <span class="math inline">\(r &gt; g_R\)</span>. When rates fall or expected rent growth rises, asset values surge. That is exactly why the post-2008 period rewarded landlords so heavily. The market was not simply allocating housing services. It was repricing a financial asset.</p>
+<p>The transmission sequence is two-step rather than circular: expected rent-growth and discount-rate shifts reprice assets first; pass-through to observed contractual rents then operates through the candidate P<sub>2</sub> frictions (search, bargaining, and turnover dynamics).</p>
+<p>Housing is, third, collateral. Buy-to-let transformed rental property into a levered position tied directly to mortgage conditions. Credit expansion could therefore inflate demand for rental property without any corresponding improvement in the supply of homes. That is one reason the UK PRS cannot be analysed as a clean market for current housing services. Its pricing dynamics are inseparable from the credit system.</p>
+<p>Once those three roles are recognised together, the policy implication is immediate. Rising rents are not just a symptom of short supply. They are also the cash-flow expression of a financial structure that converts access to shelter into a tradable claim on future income. In that setting, the emergency brake is not an arbitrary interference with a neutral price. It is a direct intervention against a pipeline that runs from tenant income to capitalised landlord wealth.</p>
+<p>This is where the standard objection fails most clearly. It treats rent as if it were simply the price of a current service and therefore assumes that restricting rent growth mainly disrupts current allocation. But when rent also anchors asset values and leveraged expectations, restricting rent growth does something else as well: it limits the pace at which the financial side of the housing system can feed on the shelter side. That is not a side issue. It is the central policy problem.</p>
+<p>The UK debate often separates affordability from financialisation as though one were a short-run social question and the other a long-run structural one. In reality they are the same process viewed from different ends. The tenant experiences it as unaffordable rent. The landlord and lender experience it as yield, capital gain, and collateral value. A serious policy response has to break that connection.</p>
+<p>That is why the NEF emergency brake is justified on more than humanitarian grounds, although the humanitarian grounds are already sufficient. It is justified because the state is confronting a market in which the price of shelter has been subordinated to the valuation of assets. A growth ceiling with no vacancy decontrol is the correct immediate instrument for interrupting that dynamic while broader reforms are built.</p>
+<p>The broader reform package remains essential. Supply must expand. Land-value gains must be captured rather than gifted to owners. The PRS data system must be strengthened so that quality, geography, and compliance shape the next stage of fair-rents policy. But none of those requirements weakens the case for the brake. They clarify why the brake is the first move inside a wider restructuring rather than a substitute for it.</p>
+<p>Finally, and most tentatively, housing functions as a <strong>fiscal transmission mechanism</strong>. Housing benefit and rent support increasingly route public funds into private landlord yields rather than alleviating tenant distress. The direction of this channel is clear; its precise UK magnitude at the PRS level is the least empirically mature of the four roles and belongs in the forward research programme rather than as a fully calibrated load-bearing claim.</p>
+<section id="capping-rent-growth-as-macro-prudential-de-risking" class="level3">
+<h3 class="anchored" data-anchor-id="capping-rent-growth-as-macro-prudential-de-risking">Capping Rent Growth as Macro-Prudential De-Risking</h3>
+<p>The emergency brake’s macro-financial implications extend beyond tenant affordability. By capping expected rental growth at the lower of CPI or 2 percent, the policy directly compresses the speculative component embedded in the capitalisation formula <span class="math inline">\(P = R/(r - g_R)\)</span>. When landlords and lenders can no longer project perpetual real yield escalation, the speculative premium on existing BTL assets is compressed. This is a mechanism-direction claim — the UK BTL-specific magnitude is uncalibrated — but the direction is not in doubt: the policy is a deliberate macro-prudential intervention, not merely a side-effect.</p>
+<p>The post-2008 BTL expansion, financed overwhelmingly through interest-only mortgages (Bank of England 2022, Box B), invites a Minskyan reading (Minsky 1986): positions that were hedge finance under rising asset prices risk becoming speculative, and, for the most leveraged cohort, Ponzi, once interest-rate normalisation or rent-growth constraints materialise. This is an analytical characterisation of the cohort’s exposure, not a claim that the progression has been empirically certified. The NEF design can support more orderly deleveraging by removing the expectation of infinite <span class="math inline">\(g_R\)</span>. In doing so, it can reduce the probability of a disorderly correction triggered by refinancing failures or mass exit. The brake therefore functions as a financial-stability instrument that protects the banking system’s exposure to the PRS collateral pool while simultaneously addressing the shelter crisis. Central banks and macro-prudential authorities have a direct institutional interest in this outcome, independent of distributional considerations.</p>
+</section>
+<section id="land-as-fictitious-capital" class="level3">
+<h3 class="anchored" data-anchor-id="land-as-fictitious-capital">Land as Fictitious Capital</h3>
+<p>This asset-form analysis connects explicitly with the political economy of financialisation. Polanyi (1944, ch.&nbsp;6) identifies land as a “fictitious commodity” — not produced for market exchange but treated as one — providing the institutional foundation for Harvey’s (1982) analysis of ground rent as fictitious capital: land prices are capitalised future rent streams acutely sensitive to financial conditions rather than to the physical cost of shelter. Haila (2016) extends this to urban housing markets: housing asset prices are determined by anticipated rental yields capitalised through the financial system, circulating as self-expanding wealth without directly producing new housing services. In this tradition, urban land is understood primarily as a bearer of interest-bearing fictitious capital rather than merely physical shelter. It means that high rents do not primarily function to call forth new supply; instead, they function to service debt on an inflated land price. In a competitive market, financing costs would compress landlord yields rather than raise contractual rents; the transmission from inflated asset prices into higher rents therefore operates through the candidate P<sub>2</sub> frictions — search costs and bargaining asymmetries — rather than through debt-service pass-through alone.</p>
+</section>
+</section>
+<section id="each-nef-design-element-targets-a-specific-failure-mechanism" class="level2">
+<h2 class="anchored" data-anchor-id="each-nef-design-element-targets-a-specific-failure-mechanism">4. Each NEF Design Element Targets a Specific Failure Mechanism</h2>
+<p>The New Economics Foundation’s <em>A Modern System for Fair Rents</em> (2026) is a direct and well-targeted response to the specific institutional failures documented in sections 1–3. Its central innovation — prohibiting vacancy decontrol and capping annual rent increases at the lower of CPI or 2 percent — is not generic price-control advocacy. Each design element targets a specific failure mechanism.</p>
+<section id="how-the-design-closes-the-documented-failure-channels" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-design-closes-the-documented-failure-channels">How the Design Closes the Documented Failure Channels</h3>
+<p><strong>No-vacancy-decontrol closes the eviction jackpot.</strong> Vacancy decontrol was the dominant mechanism in Diamond et al.’s San Francisco evidence: the opportunity to reset rents to market on tenancy turnover created a direct financial incentive to displace sitting tenants. Under the NEF design, that turnover-reset incentive is extinguished. Rents cannot reset at tenancy boundaries. The incentive to evict in order to capture accumulated controlled-rent arrears disappears. This design difference is not incidental — it directly closes the primary supply-withdrawal channel that the best available quasi-experimental evidence documents. Standard invocations of Diamond et al.&nbsp;(2019) as a refutation of the NEF proposal therefore miss the point: the 1994 San Francisco design was structurally different in the one respect that produced the result those invocations cite.</p>
+<p><strong>The growth ceiling preserves current cash flows while ending escalation.</strong> A level freeze — freezing rents at their current nominal level — would compress landlord cash flows immediately, triggering exit among the highly leveraged buy-to-let landlords documented in section 3. The NEF design instead caps the trajectory of future rent growth without making current net yields immediately negative. Diamond and Mirrlees (1971) established that in second-best environments, production efficiency should be preserved where it can be. On the new-construction margin, the NEF’s new-build exemption preserves the Paretian participation condition for new supply. On the existing-stock margin, the growth-ceiling structure rather than level-freeze design is the instrument that preserves that condition for currently profitable landlords while eliminating the escalation channel that has driven affordability collapse. These are not compromises that weaken the proposal; they are design features that make it more durable and more defensible.</p>
+<p><strong>The new-build exemption protects the supply margin that matters most.</strong> Landlords considering investment in new residential construction are exempt from the growth ceiling during an initial period. This preserves the competitive supply participation constraint at the margin where new housing is actually created, addressing one of the central first-best critiques without sacrificing the ceiling’s core function.</p>
+</section>
+<section id="residual-costs-the-design-does-not-eliminate" class="level3">
+<h3 class="anchored" data-anchor-id="residual-costs-the-design-does-not-eliminate">Residual Costs the Design Does Not Eliminate</h3>
+<p>Honesty about residual costs strengthens rather than undermines the case for the brake. These costs do not reinstate the standard textbook objection — that objection is disqualified by the market’s structural failures — but they are genuine, and managing them is part of responsible implementation.</p>
+<p><strong>Conversion and exit risk on the existing stock.</strong> The growth ceiling will compress expected yield trajectories for highly leveraged landlords. Some of those landlords, whose projected net yields fall below refinancing thresholds over the cap horizon, face exit incentives even under the no-vacancy-decontrol design. Scottish policy material and sector evidence summarized by NEF (2026) indicates landlord uncertainty and investment pauses under a harder freeze design; the NEF design may attenuate but does not eliminate that pressure. Managing this risk requires a credible terminal buyer for exiting stock — social housing authorities, community land trusts, or local authorities — that can absorb exit flows without displacing incumbent tenants. NEF’s social and community acquisition framework identifies the mechanism. Securing adequate capitalization for it is the primary implementation challenge, not a theoretical refutation of the brake.</p>
+<p><strong>The new-entrant queue.</strong> The no-vacancy-decontrol design is optimized for incumbent tenants. Households newly entering the rental market face longer expected search times as tenure duration extends and unit turnover falls. This is a genuine intra-renter allocative efficiency cost — reduced matching between households and units — that the policy accepts intentionally because the stabilisation gains for incumbents outweigh it. It is a smaller harm than the current affordability crisis imposes on the same new entrants in an unregulated market with 48.5 percent housing-cost-to-income burdens. But it should be acknowledged and mitigated through expanding the overall supply of affordable units — the supply axis addressed in section 6.</p>
+<p><strong>Houses in Multiple Occupation (HMOs).</strong> The no-vacancy-decontrol rule is framed around whole-property tenancies, but a substantial share of low-income private renting occurs in Houses in Multiple Occupation, where rooms are let separately and turn over independently. For the rule to bind where it matters most, it must apply at the individual room-let boundary, so that room-by-room turnover cannot reset rents to market for the most vulnerable renters. The precise legal and operational specification of this room-level application is an area for further work.</p>
+<p><strong>Tenure-conversion arbitrage.</strong> A growth ceiling on long-term residential tenancies sharpens the relative attraction of uncapped uses, giving some landlords an incentive to shift stock into short-term and holiday lets that sit outside the regime. This is a genuine leakage channel, and its scale will depend on local short-let demand and the regulatory treatment of conversions. Containing it is a question of where the regime’s boundary is drawn — the legal and operational specification of that boundary is an area for further work, alongside the wider short-let regulation already under debate.</p>
+<p><strong>Non-price margin migration.</strong> The strongest orthodox objection that survives the Ontological Disconnect is that suppressed rent growth may migrate into non-price margins: stricter tenant screening, maintenance shading, reduced unit quality, and slower labour-market mobility. This objection does not rely on the competitive benchmark — it only requires that adjustment reappears through routes other than contractual rent. It cannot be dismissed. It must be managed. The no-vacancy-decontrol design already removes the primary price-evasion route the literature documents — eviction-and-reset, which circumvents the cap by resetting contractual rent at turnover. The remaining exposure is to non-price margins proper — quality shading and screening tightening, which require active compliance infrastructure: minimum condition standards, mandatory periodic inspections, and a functioning PRS database that makes quality visible to regulators, tenants, and courts. These requirements are not add-ons to the brake. They are preconditions for it working as intended. Without them, the brake controls price while distortions flow elsewhere. With them, the brake closes the dominant adjustment margins that rent growth suppression would otherwise reopen.</p>
+<p><strong>The temporariness requirement.</strong> A brake whose justification rests on the temporary blockage of first-best instruments must operate under exit discipline. Section 7 specifies pre-committed, measurable exit criteria. That requirement is not an admission of weakness; it is a condition of institutional credibility. A well-specified temporary instrument is categorically different from a permanent price freeze, and the distinction matters both for investment expectations and for the political-economy critique that emergency instruments tend to harden.</p>
+<p>These residual costs are real. They are also the costs of governing a market that has been institutionally engineered over three decades to transfer wealth from renters to leveraged asset-holders. The brake imposes managed adjustment costs on a distorted market. The alternative — allowing the distortion to persist — imposes those costs continuously and without time limit on the households least able to bear them.</p>
+<hr>
+</section>
+</section>
+<section id="second-best-symmetry-removes-the-orthodox-veto" class="level2">
+<h2 class="anchored" data-anchor-id="second-best-symmetry-removes-the-orthodox-veto">5. Second-Best Symmetry Removes the Orthodox Veto</h2>
+<section id="the-ontological-disconnect-object-mismatch-not-rhetoric" class="level3">
+<h3 class="anchored" data-anchor-id="the-ontological-disconnect-object-mismatch-not-rhetoric">The Ontological Disconnect: Object Mismatch, Not Rhetoric</h3>
+<p>The standard economic objections to rent regulation share a common logical structure: they assume competitive conditions hold and then demonstrate that a binding price ceiling produces efficiency losses. These objections are internally valid — within their domain. That domain is a market with elastic supply at the margin, competitive price formation, and credit-market conditions that price housing at its use-value. The UK private rented sector meets none of these conditions. This is not a question of degree. It is a structural fact established by the institutional history in section 1 and the evidence reviewed in sections 2 and 3.</p>
+<p>The logical consequence is narrower but decisive: the canonical competitive-efficiency objection is not dispositive here. A theorem proved within a set of assumptions cannot govern a situation where those assumptions fail. Invoking the textbook efficiency case against rent regulation in the UK PRS is not a conservative application of economic analysis; it is a misapplication of economic analysis to a market the models were not designed to describe. The burden of proof runs the other way: anyone deploying competitive welfare theorems against the NEF brake must first demonstrate that the UK PRS satisfies the competitive conditions on which those theorems depend. No such demonstration has been made, because the conditions are demonstrably absent.</p>
+<p>This is the Ontological Disconnect. Stated this way, it is an analytical category rather than a rhetorical flourish: a mismatch between the one-object benchmark the orthodox theorem governs and the quadruple-object market the UK PRS has become. That is what shifts the terms of the policy debate.</p>
+</section>
+<section id="lipsey-lancaster-governs-when-first-best-conditions-fail" class="level3">
+<h3 class="anchored" data-anchor-id="lipsey-lancaster-governs-when-first-best-conditions-fail">Lipsey-Lancaster Governs When First-Best Conditions Fail</h3>
+<p>This is not a rejection of welfare economics but a move within it: Lipsey-Lancaster and Diamond-Mirrlees are the theorems that govern precisely when first-best scope conditions fail — which is the condition the Ontological Disconnect establishes for the UK PRS. Invoking them is therefore not selective use of the neoclassical toolkit; it is using that toolkit in the domain for which it was designed.</p>
+<p>Lipsey and Lancaster’s general theorem of the second best (1956) establishes the formal welfare consequence. When one Paretian optimality condition cannot be satisfied, the second-best welfare optimum is not generally achieved by satisfying all the remaining conditions. Applied to the UK PRS, where the supply margin (P<sub>1</sub>) is demonstrably impaired by planning restrictions and the credit-market margin (P<sub>3</sub>) is demonstrably impaired by leveraged BTL financialization, the theorem blocks any presumption that restoring a single remaining first-best margin achieves the constrained optimum. In particular, it blocks the standard single-axis presumption that supply deregulation alone is the correct and sufficient policy response.</p>
+<p>The P<sub>1</sub> violation is structurally grounded: Barker (2004) and Hilber and Vermeulen (2016) establish that planning restrictions produce a persistent price-construction-cost wedge. The P<sub>3</sub> violation is macrofinancially grounded: Jordà, Schularick, and Taylor (2016, hereafter JST) document the broader mortgage-credit mechanism across 17 advanced economies, and the UK BTL expansion traced in section 1 is the domestic instantiation. These two violations are structurally grounded and empirically supported — not speculative hypotheses. P<sub>1</sub> is documented to a high degree of certainty; P<sub>3</sub>’s macrofinancial mechanism is robustly evidenced internationally, with the UK BTL expansion as its domestic instantiation, though the precise UK-specific credit-channel magnitude remains an important calibration object. The welfare analysis therefore rests on confirmed, not speculative, ground.</p>
+<p>A third margin — P<sub>2</sub>, the question of whether search frictions and bargaining power give landlords persistent transaction-level pricing power above competitive rent — would strengthen the efficiency case further. The 1988 Act removed fair-rent regulation without addressing the search frictions that Arnott (1995) identifies as the mechanism through which thin rental markets sustain above-competitive prices. The evidence for P<sub>2</sub> as a persistent feature of the post-1988 UK PRS is strong in qualitative terms; its quantitative calibration — the measured markup above competitive rent attributable to search lock-in — remains an important empirical gap. The non-exclusion result — that the brake cannot be dismissed on competitive efficiency grounds — is robust under P<sub>1</sub> and P<sub>3</sub> alone. This robustness does not contradict the asset-form transmission channel of section 3: P<sub>2</sub> governs the <em>magnitude</em> by which inflated asset prices pass into contractual rents, whereas non-exclusion is a welfare-symmetry claim about the competitive baseline that holds whatever that transmission magnitude proves to be. P<sub>2</sub> calibration, when completed, will determine whether the case can move beyond non-exclusion to a stronger positive efficiency claim.</p>
+<p>The referee’s one-way-valve objection is correct about the symmetry of the theorem, and that symmetry strengthens rather than weakens the paper. If Lipsey-Lancaster does not allow this manuscript to infer that the brake is automatically optimal, it equally forbids the orthodox inference that supply deregulation, voucherization, or any other single-axis repair is automatically sufficient. The theorem removes privilege from every isolated margin. Its most damaging implication for orthodoxy is therefore negative but powerful: once P<sub>1</sub> and P<sub>3</sub> are jointly impaired, no critic can demand a solved constrained optimization problem from the brake while continuing to treat supply-only deregulation as the default benchmark exempt from that same burden.</p>
+</section>
+<section id="three-policy-conclusions-symmetric-across-intervention-and-inaction" class="level3">
+<h3 class="anchored" data-anchor-id="three-policy-conclusions-symmetric-across-intervention-and-inaction">Three Policy Conclusions, Symmetric Across Intervention and Inaction</h3>
+<p>Under the confirmed P<sub>1</sub>-P<sub>3</sub> impairments, three bounded conclusions follow.</p>
+<p><strong>First: single-axis supply reform cannot be presumed sufficient.</strong> The L-L theorem does not merely raise doubt about supply-only reform. It establishes that under simultaneous P<sub>1</sub> and P<sub>3</sub> violations, restoring competitive supply conditions at the margin does not generally reach the constrained welfare optimum. Supply expansion is necessary and must be pursued vigorously — section 6 develops why. But it does not substitute for addressing the credit-market and asset-form distortions that have decoupled UK housing prices from their use-value, and it cannot be presumed to pass welfare gains to tenants before capitalisation dynamics capture those gains in land values.</p>
+<p><strong>Second: the theorem’s symmetry is devastating for the orthodox case.</strong> If critics insist that the paper may not infer the optimality of the brake without solving the full constrained optimization problem, that same insistence prevents treating supply-side deregulation as the self-validating default. Once P<sub>1</sub> and P<sub>3</sub> are jointly impaired, the competitive benchmark no longer carries a first-best presumption in either direction. No critic can demand precise econometric calibration of margin violations before regulating while continuing to treat the unregulated, financially engineered market as a safe, self-evidently neutral baseline. The constrained optimum is unsolved in both directions — and that equivalence is fatal to the orthodox presumption.</p>
+<p><strong>Third: the competitive presumption is neutralised, and the institutional-construction argument shifts the burden.</strong> The welfare analysis establishes symmetry: once P<sub>1</sub> and P<sub>3</sub> are jointly impaired, neither intervention nor non-intervention carries a default efficiency warrant. What shifts the justificatory burden further is the separate institutional-construction argument: the financialised PRS is not a natural equilibrium but a deliberate policy artefact — a set of statutory decisions with names, dates, and parliamentary records. Leaving that construction unremedied is not neutrality; it is the continued endorsement of a distorted allocation mechanism. The burden therefore runs to the unremedied distortion, not to the intervention.</p>
+</section>
+<section id="the-three-impaired-margins-p1-p2-p3" class="level3">
+<h3 class="anchored" data-anchor-id="the-three-impaired-margins-p1-p2-p3">The Three Impaired Margins (P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub>)</h3>
+<p><strong>P<sub>1</sub> (competitive supply):</strong> Planning restrictions have blocked competitive supply at the margin for decades. Barker (2004) identifies regulatory and institutional supply constraints — not physical land scarcity — as the central driver of England’s housing shortfall. Hilber and Vermeulen (2016) establish that tighter regulatory restrictiveness makes house prices more sensitive to earnings differentials, producing a persistent and growing price-construction-cost wedge. In high-demand English markets, a substantial fraction of what tenants pay is not a return on the physical cost of providing housing; it is the capitalised value of planning-restricted land scarcity. That scarcity is not natural. It is the accumulation of planning decisions across decades, each of which transferred value from current and future renters to existing landowners and buy-to-let investors.</p>
+<p><strong>P<sub>2</sub> (competitive price formation):</strong> The 1988 Housing Act removed both rent regulation and the security of tenure that had given tenants bargaining power. In a market with high moving costs, long-term tenancy relationships, and information asymmetries about property quality and alternatives, individual landlords retain short-run pricing power above the competitive level. Arnott (1995) formalizes the mechanism: search costs and bilateral bargaining support above-competitive rents in thin markets. The 1988 Act did not create those frictions, but it removed the institutional corrective that had been containing them. The resulting margin between competitive rent and actual rent is real. Its precise magnitude — the critical calibration object for fine-grained welfare comparison — remains unmeasured in UK data, and the PRS database pilot programme NEF proposes is the right instrument to generate that measurement. But the existence of the margin is not in empirical doubt.</p>
+<p><strong>P<sub>3</sub> (credit-market efficiency):</strong> The buy-to-let expansion documented in section 1 did not simply increase the supply of rental units. It reconfigured housing as a leveraged financial asset, with prices determined by the capitalisation formula <span class="math inline">\(P = R/(r-g_R)\)</span> under credit conditions that drove the denominator toward zero after 2008. Bank of England (2022, Box B) documents that approximately 85 percent of outstanding BTL mortgages issued by major UK banks are interest-only, leaving the cohort acutely exposed to interest-rate normalisation; absent offsetting rent rises or sales, the Bank projected that the share of BTL mortgagors with interest-coverage ratios below the 125 percent industry standard would climb from 3 percent at end-2022 to around one-fifth by end-2025. JST (2016) establish the broader macro-financial mechanism: mortgage credit expansion systematically inflates asset prices and deepens post-boom recessions across 17 advanced economies. Mian and Sufi (2014), studying US household mortgage leverage, establish at mechanism-analogy level that leveraged mortgage borrowing inflates housing asset prices above fundamentals during credit expansions, and balance-sheet deleveraging — not financial intermediation failure — drives the post-boom demand collapse, confirming that leveraged-credit housing investment creates asset-price dynamics structurally decoupled from underlying housing services. The UK PRS is a domestic instance of this international pattern, not a housing-specific idiosyncrasy.</p>
+<p>The same mechanism that impairs P<sub>3</sub> also creates the policy lever the brake exploits. Because asset prices capitalise expected rent growth, any credible commitment to cap <span class="math inline">\(g_R\)</span> produces an immediate re-pricing of the existing stock. This re-pricing is not an exogenous shock; it is the endogenous correction of the fictitious-capital premium that planning restrictions and cheap credit have jointly capitalised.</p>
+</section>
+<section id="yield-compression-dissolves-fictitious-value-not-productive-capacity" class="level3">
+<h3 class="anchored" data-anchor-id="yield-compression-dissolves-fictitious-value-not-productive-capacity">Yield Compression Dissolves Fictitious Value, Not Productive Capacity</h3>
+<p>Under the confirmed P<sub>1</sub>–P<sub>3</sub> impairments, the “costs” imposed on leveraged landlords by the growth ceiling must be evaluated symmetrically with the costs already imposed on tenants by the unremedied distortions. The ground-rent component of current rents is the capitalised value of policy-induced scarcity and credit-fuelled demand, not a return to the marginal cost of providing housing services. Compression of that component is therefore better understood as the dissolution of an unsustainable claim than as the destruction of productive value — a distinction whose quantitative weight turns on the ground-rent share, which remains to be estimated (see §8). Diamond-Mirrlees production-efficiency logic still applies: the design preserves current cash flows for viable landlords while eliminating the escalation channel that would otherwise amplify the P<sub>3</sub> distortion. The symmetry result is thus reinforced: both the brake and the status quo impose second-best losses; the question is which set of losses is smaller and more remediable once the political-economy blocking condition is acknowledged.</p>
+</section>
+<section id="the-political-economy-blocking-condition-and-the-case-for-temporariness" class="level3">
+<h3 class="anchored" data-anchor-id="the-political-economy-blocking-condition-and-the-case-for-temporariness">The Political-Economy Blocking Condition and the Case for Temporariness</h3>
+<p>The political-economy blocking condition on first-best instruments — homeowner opposition to supply expansion, fiscal resistance to targeted transfers, regulatory inertia on BTL leverage — operates outside the Lipsey-Lancaster welfare structure but shapes the constrained feasible set. It explains why the brake is an appropriate emergency instrument within that feasible set now, and why it must be temporary.</p>
+<p>The instruments that would address P<sub>1</sub>-P<sub>3</sub> directly — aggressive upzoning at nationally significant scale, BTL leverage restriction, land value taxation — have faced structural political resistance for decades. That resistance is not permanent; it is contingent on the current political settlement. As housing politics shifts, as fiscal space reopens, and as the evidence base accumulates, the case for first-best reform strengthens. When P<sub>1</sub>-P<sub>3</sub> are durably addressed, the emergency rationale for the brake lapses with them.</p>
+<p>The political-economy blocking condition therefore has two implications. For the immediate term, it establishes that the brake is an appropriate instrument within the politically constrained feasible set: the best currently available response to confirmed market failures, not a second-best compromise between economic correctness and political convenience. For the medium term, it establishes that the brake requires pre-committed exit criteria that are insulated from the same political-economy capture that has blocked first-best reform. Section 7 specifies those criteria. The requirement for a credible exit path is not a concession to critics; it is the institutional design condition that prevents an emergency instrument from hardening into a permanent ceiling.</p>
+</section>
+<section id="why-a-growth-ceiling-dominates-a-level-freeze" class="level3">
+<h3 class="anchored" data-anchor-id="why-a-growth-ceiling-dominates-a-level-freeze">Why a Growth Ceiling Dominates a Level Freeze</h3>
+<p>Within the second-best framework established above, Diamond and Mirrlees (1971) provide a design principle that supports preferring the NEF growth-ceiling design over a level freeze where avoidable productive-capacity losses are at stake. Production efficiency should be preserved where it can be, even in second-best environments. A level freeze makes current net yields immediately negative for leveraged landlords and triggers immediate participation-constraint failure at the existing-stock margin. The NEF growth ceiling compresses the trajectory of expected future yields without making current returns immediately negative — it exerts prospective financial pressure rather than immediate cash-flow pressure. This distinction is not cosmetic: it is the design difference between a ceiling that maintains current productive capacity while preventing further extraction, and one that triggers the exit dynamics reported in the Scottish experience as summarized by NEF (2026) and implied by the Diamond et al.&nbsp;mechanism. This use of Diamond-Mirrlees is a design analogy about avoiding avoidable capacity destruction, not a direct ranking theorem for the full policy package. On that bounded basis, the NEF design is consistent with the Diamond-Mirrlees principle that production efficiency should be preserved where it can be — at both the new-supply margin (via the new-build exemption) and, within the existing stock, by reducing incentives for physical withdrawal and under-maintenance — while still delivering the affordability relief that is the brake’s distributional purpose.</p>
+<hr>
+</section>
+</section>
+<section id="three-structural-drivers-require-a-three-axis-response-brake-build-capture" class="level2">
+<h2 class="anchored" data-anchor-id="three-structural-drivers-require-a-three-axis-response-brake-build-capture">6. Three Structural Drivers Require a Three-Axis Response: Brake, Build, Capture</h2>
+<p>The housing crisis will not be solved by a single instrument. It has three structural drivers and it therefore needs a three-axis response.</p>
+<p>The first axis is the emergency brake. The second is supply expansion. The third is land-value capture. These are not rival worldviews competing for ownership of the problem. They are complementary responses to different parts of the same distorted system.</p>
+<p>The supply axis is indispensable. England’s housing market is constrained by planning restrictions and a weak building response. The England-specific findings of Hilber and Vermeulen (2016) make the point clearly: when regulation blocks supply, prices rise above construction-cost benchmarks and scarcity rents accumulate. Any serious programme has to build more homes and make it easier to do so.</p>
+<p>But supply-only politics is not enough. In a financialised land market, some of the gains from liberalisation will capitalise into land values unless the state actively captures them. Upzoning without land-value capture can enrich landowners before it helps tenants. That is why a credible housing programme cannot stop at planning reform. It must also use public capture mechanisms so that planning gains return to the public rather than being absorbed as private windfalls.</p>
+<p>The brake is the third necessary element because supply reform takes time and land reform is politically contested. Tenants cannot wait for a multi-year build-out while rents continue to ratchet upward in the existing stock. The emergency brake is therefore not a distraction from structural reform. It is the instrument that prevents further damage while the structural reforms are made real.</p>
+<p>This is also why the Scottish lesson, as summarized by NEF (2026), has to be read properly. Scotland did not prove that rent regulation is futile. It showed the danger of designing emergency controls around uncertainty, discretionary renewal, and unstable investor expectations. The implication is not retreat but redesign: no vacancy decontrol, statutory monitoring, and pre-specified exit rules. The design lesson strengthens the case for a disciplined brake; it does not undermine it.</p>
+<p>On this point the advocacy position should be explicit. The NEF emergency brake is the right immediate policy. It should be defended as the justified response to an emergency in a market that does not meet competitive conditions. It should then be paired with a build-and-capture programme that attacks the supply and land-rent sides of the crisis. Brake without build would be incomplete. Build without brake would leave tenants exposed. Build without capture would hand public value to landowners. The programme has to do all three.</p>
+<p>This is the practical translation of the second-best logic. When several distortions coexist, there is no warrant for pretending that one clean reform can restore order by itself. A serious government acts across the constrained set it actually faces. In housing, that means immediate rent stabilisation, accelerated supply, and active capture of land-value gains.</p>
+</section>
+<section id="credible-temporariness-requires-pre-committed-statutory-exit-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="credible-temporariness-requires-pre-committed-statutory-exit-criteria">7. Credible Temporariness Requires Pre-Committed Statutory Exit Criteria</h2>
+<p>The emergency brake should be introduced confidently and defended unapologetically. It should also be temporary. That combination is not a contradiction. It is the only serious way to govern an emergency instrument in a structurally distorted market.</p>
+<p>The brake is justified now because the UK PRS is imposing intolerable costs inside a market that fails the competitive benchmark. But the brake is not an end state. Its role is to stop the upward ratchet while the underlying conditions are changed. That means its sunset cannot be left to ministerial discretion or ad hoc political bargaining. If exit is discretionary, markets will speculate on decontrol, investors will price in reversals, and tenants will be left inside the same unstable politics that made the crisis possible.</p>
+<p>Temporary policy therefore has to be rule-bound. The brake should remain in force until three public conditions are met.</p>
+<p>First, affordability must materially improve for low-income renters. A defensible statutory trigger is that the housing-cost burden of private renters in the bottom income quintile falls below 30 percent for two consecutive annual releases of the Department for Work and Pensions’ Households Below Average Income (HBAI) statistics.</p>
+<p>Second, supply restoration must be visible in physical completions, not just promises. A credible threshold — aligned with the scale of supply expansion identified in Barker (2004) and consistent with subsequent cross-party estimates to address the supply gap — is sustained net housing completions above 300,000 per year in England across consecutive years, as measured by the official net additional dwellings statistics. The new-build exemption and the three-axis build-and-capture programme are designed precisely so the brake does not endogenously suppress the completions required to trigger its own exit: by preserving the participation constraint for new supply and pursuing supply expansion and land-value capture in parallel, the programme avoids the endogeneity trap in which a ceiling converts from a temporary instrument into a structural freeze.</p>
+<p>Third, the successor fair-rents system must be operational in real places, with functioning data, quality standards, and administrative rules. The brake should end into a governed transition, not into a regulatory vacuum.</p>
+<p>Those criteria do two jobs at once. They make the policy temporary, and they make temporary status believable. Without measurable exit conditions, an emergency brake can harden into a permanent insider settlement. Without an emergency brake, tenants carry the cost of waiting for reforms that the political system has repeatedly delayed. The correct answer is neither permanent freeze nor passive patience. It is statutory stabilisation with statutory off-ramps.</p>
+<p>This is also why discretionary renewal is the wrong model. Scotland showed what happens when a time-limited control sits under repeated political bargaining. Everyone begins pricing the next political decision. That is bad for tenants, bad for investment discipline, and bad for policy credibility. The English model should instead front-load credibility: legislate the brake, legislate the monitoring regime, and legislate the exit path at the same time.</p>
+<p>A clean transition matters. If affordability improves before completions fully recover, the brake can move into a pre-announced glidepath rather than collapse into a sudden decontrol shock. If the fair-rents system is ready sooner in some areas than others, transition can proceed where the institutional capacity exists. The principle is simple: stability for tenants, predictability for the sector, and no cliff-edge reset in landlord pricing power.</p>
+<p>The key point is political as well as technical. Exit criteria should be tied to observed social outcomes and institutional readiness, not to the hope that the market will correct itself if regulation steps aside. The market has already shown what it does when left to its current structure. The state should not abandon control until replacement institutions are in place and the emergency conditions have genuinely eased.</p>
+<p>That is the proper temporality for the NEF emergency brake. Introduce it now because the case for intervention is already overwhelming. Bind it to transparent exit conditions because emergency power should not become routine. Use the breathing space it creates to build more homes, capture land-value gains, and install the permanent fair-rents system that the current market has made necessary.</p>
+</section>
+<section id="conclusion-calibrate-policy-to-the-market-that-exists" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-calibrate-policy-to-the-market-that-exists">8. Conclusion: Calibrate Policy to the Market That Exists</h2>
+<section id="the-competitive-conditions-do-not-hold-here" class="level3">
+<h3 class="anchored" data-anchor-id="the-competitive-conditions-do-not-hold-here">The Competitive Conditions Do Not Hold Here</h3>
+<p>Debates about housing policy in Britain have long been conducted on false terms. The standard efficiency objection to rent regulation — that price ceilings reduce supply, misallocate units, and harm future renters — is presented as though it were a finding about the UK private rented sector specifically. It is not. It is a theorem about competitive markets in the abstract. Whether that theorem applies to a given market depends on whether that market satisfies the conditions from which the theorem is derived.</p>
+<p>The UK private rented sector was institutionally engineered, across three deliberate phases between 1988 and 2008, to be a leveraged financial asset market rather than a competitive rental market. The 1988 Act abolished fair rents and security of tenure, creating an investable asset class. The 1996 BTL mortgage product activated that asset class through leveraged debt, driving PRS’s share of English households from 10 to 20 percent in sixteen years. Post-2008 monetary policy compressed the discount rate toward zero — narrowing the <span class="math inline">\(r - g_R\)</span> gap in the denominator — inflating capitalised land values non-linearly through the <span class="math inline">\(P = R/(r-g_R)\)</span> relationship and rewarding existing landlords with capital gains while making housing progressively inaccessible to new renters. None of this was the outcome of an equilibrating market process; it was the cumulative result of deliberate, documented policy choices.</p>
+<p>These choices explain how the market reached its present form; they do not, on their own, establish that it is uncompetitive — a market can be deliberately built and still satisfy the competitive conditions. The decisive point is separate, and Section 5 documents it directly: the competitive conditions the standard welfare theorems assume are not met here. Supply is inelastic, because planning restrictions have blocked new construction for decades. Price formation is not well described by the competitive model, because the removal of fair-rent regulation left tenants exposed to search frictions, information asymmetries, and bargaining weakness that can give landlords pricing power above competitive levels (the magnitude of which remains uncalibrated; see §5). Credit markets have driven housing prices away from use-value, because the BTL expansion treated rental income as collateral for leveraged financial investment rather than as compensation for providing shelter.</p>
+<p>These are not minor imperfections. They are the structural conditions that define the market. The standard objections to rent regulation assume those conditions do not hold. Applied to the UK PRS, they are therefore not valid objections — they are inapplicable theorems.</p>
+</section>
+<section id="what-lipsey-lancaster-settles-and-what-it-leaves-open" class="level3">
+<h3 class="anchored" data-anchor-id="what-lipsey-lancaster-settles-and-what-it-leaves-open">What Lipsey-Lancaster Settles and What It Leaves Open</h3>
+<p>The formal welfare consequence follows from Lipsey and Lancaster’s general theorem of the second best. When the Paretian conditions for supply efficiency (P<sub>1</sub>) and credit-market efficiency (P<sub>3</sub>) are simultaneously violated — and both are, in the UK PRS, by documented structural mechanisms — the theorem establishes that restoring one remaining first-best margin in isolation does not generally achieve the constrained welfare optimum. Supply deregulation alone cannot be presumed sufficient. Targeted transfers alone cannot be presumed sufficient. Each single-axis reform leaves the other confirmed violations operative, and no single-axis correction can be presumed to reach the constrained optimum when multiple margins are jointly impaired.</p>
+<p>This is the symmetry result’s contribution: the brake cannot be excluded from efficiency consideration by the competitive objection, whose scope conditions are absent here. The efficiency objection to the brake presupposes the competitive conditions whose absence is the reason the brake is needed in the first place.</p>
+<p>The welfare analysis neutralises the competitive presumption: neither intervention nor non-intervention carries a default efficiency warrant once P<sub>1</sub> and P<sub>3</sub> are jointly impaired. The institutional-construction argument carries the burden shift further: the financialised PRS is a policy artefact, not a natural equilibrium, and leaving it unremedied requires justification. That justification has not been provided.</p>
+</section>
+<section id="why-the-nef-design-fits-the-failures-identified" class="level3">
+<h3 class="anchored" data-anchor-id="why-the-nef-design-fits-the-failures-identified">Why the NEF Design Fits the Failures Identified</h3>
+<p>The New Economics Foundation’s proposal responds directly and appropriately to the failures the analysis has identified.</p>
+<p>The prohibition on vacancy decontrol closes the primary mechanism through which the best available quasi-experimental evidence — Diamond, McQuade, and Qian (2019) — documents landlord supply withdrawal under rent control. The growth ceiling rather than level freeze is consistent with the Diamond-Mirrlees principle of limiting avoidable productive-capacity loss within the existing stock while ending the rent escalation that has produced 48.5 percent housing-cost-to-income burdens for the bottom income quintile. This is a bounded design-consistency claim, not a full ranking theorem. The new-build exemption protects the supply participation constraint at the new-construction margin. The PRS database pilot programme creates the institutional machinery to generate the local data — ground-rent share estimates, yield decompositions, landlord-exit elasticities — needed to refine calibration and specify credible exit criteria.</p>
+<p>These design features are not compromises. They are the features that make the proposal analytically defensible, practically robust, and institutionally sustainable.</p>
+<p>Two genuine costs must be managed honestly. First, the growth ceiling will create exit pressure for highly leveraged landlords whose projected yields fall below refinancing thresholds over the cap horizon. The social and community acquisition framework NEF proposes is the right mechanism to absorb that exit without displacing incumbent tenants; its adequate capitalization is the primary implementation challenge. Second, extending tenure duration and reducing unit turnover will lengthen expected search times for new market entrants — the intra-renter asymmetry between incumbents and the queue. This is a real allocative efficiency cost, intentionally accepted, and it argues for sustained supply expansion as the essential complement to the brake. It does not argue against the brake; in the absence of the brake, those same new entrants face a rental market that already imposes 48.5 percent housing-cost burdens. The brake reduces extraction for incumbents while supply reform addresses the scarcity that creates the queue.</p>
+</section>
+<section id="the-forward-empirical-programme-three-parameters-still-unmeasured" class="level3">
+<h3 class="anchored" data-anchor-id="the-forward-empirical-programme-three-parameters-still-unmeasured">The Forward Empirical Programme: Three Parameters Still Unmeasured</h3>
+<p>Honest advocacy requires stating what the analysis has not yet established. Three empirical objects are needed to move from the structural case for the brake to calibrated welfare comparison across the full range of policy options.</p>
+<p>The ground-rent share — the fraction of UK PRS contractual rent that reflects extraction above competitive building returns — is not currently estimated. It is the decisive parameter for quantifying the anti-financialization channel of the brake and for calibrating the incidence of yield compression between structural ground rent and competitive building returns. The PRS database pilot programme is the right institutional mechanism to generate this estimate.</p>
+<p>Landlord-exit elasticity under the NEF’s specific no-vacancy-decontrol design has not been measured in the UK context. Scottish policy material and sector evidence summarized by NEF (2026) provides only rough bounds; the UK institutional context differs in ways that make direct transfer imperfect. Pilot data will close this gap.</p>
+<p>P<sub>2</sub> calibration — the measured transaction-level markup above competitive rent attributable to search frictions and bargaining weakness — remains an important open question. Its resolution will determine whether the efficiency case for the brake is somewhat stronger or considerably stronger than the structural P<sub>1</sub>-P<sub>3</sub> case already establishes.</p>
+<p>These are gaps in the empirical programme, not gaps in the argument. The structural case for the brake rests on confirmed foundational failures in the UK PRS, not on the resolution of these calibration questions. They are the forward research agenda that will enable progressively better calibration of the policy package, not preconditions that must be met before emergency stabilization can be defended against a restored supply-only presumption.</p>
+</section>
+<section id="inapplicable-theorems-not-mistaken-economics" class="level3">
+<h3 class="anchored" data-anchor-id="inapplicable-theorems-not-mistaken-economics">Inapplicable Theorems, Not Mistaken Economics</h3>
+<p>The housing crisis in Britain is not a market failure in the technical sense of a competitive market with an unfortunate externality. It is the consequence of deliberate institutional choices that created a financialized asset market where a competitive rental market should be. In that market, the standard textbook objections to helping renters simply do not apply — not because economics is wrong, but because the market the objections describe is not the market that exists.</p>
+<p>The NEF emergency brake addresses the market that exists. It targets the right failure mechanisms, adopts design features that distinguish it from the controls whose costs the empirical literature documents, and pairs the brake with supply expansion and institutional pilots that provide the path to first-best reform.</p>
+<p>Britain’s renters do not need to wait for conditions that market design has deliberately prevented from forming. They need solutions calibrated to the market that decades of political choices have actually produced. The analysis in this paper shows why those solutions are not only politically urgent but analytically justified.</p>
+<hr>
+</section>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Arnott, Richard. 1995. “Time for Revisiting the Traditional Theory of Rent Control?” <em>Journal of Real Estate Finance and Economics</em> 11(3): 233–248.</p>
+<p>Bank of England. 2022. <em>Financial Stability Report</em>, December 2022, Box B (“Implications of Mortgage Market Developments for UK Households”). London: Bank of England.</p>
+<p>Barker, Kate. 2004. <em>Review of Housing Supply: Delivering Stability: Securing our Future Housing Needs</em>. London: HM Treasury/HMSO.</p>
+<p>Diamond, Peter A., and James A. Mirrlees. 1971. “Optimal Taxation and Public Production I–II.” <em>American Economic Review</em> 61(1–2): 8–27, 261–278.</p>
+<p>Diamond, Rebecca, Tim McQuade, and Franklin Qian. 2019. “The Effects of Rent Control Expansion on Tenants, Landlords, and Inequality: Evidence from San Francisco.” <em>American Economic Review</em> 109(9): 3365–3394.</p>
+<p>Haila, Anne. 2016. <em>Urban Land Rent: Singapore as a Property State</em>. Oxford: Wiley-Blackwell.</p>
+<p>Harvey, David. 1982. <em>The Limits to Capital</em>. Oxford: Basil Blackwell.</p>
+<p>Hilber, Christian A. L., and Wouter Vermeulen. 2016. “The Impact of Supply Constraints on House Prices in England.” <em>Economic Journal</em> 126(591): 358–405.</p>
+<p>Jordà, Òscar, Moritz Schularick, and Alan M. Taylor. 2016. “The Great Mortgaging: Housing Finance, Crises, and Business Cycles.” <em>Economic Policy</em> 31(85): 107–152.</p>
+<p>Lipsey, Richard G., and Kelvin Lancaster. 1956. “The General Theory of Second Best.” <em>Review of Economic Studies</em> 24(1): 11–32.</p>
+<p>Mian, Atif, and Amir Sufi. 2014. <em>House of Debt</em>. Chicago: University of Chicago Press.</p>
+<p>Minsky, Hyman P. 1986. <em>Stabilizing an Unstable Economy</em>. New Haven: Yale University Press.</p>
+<p>New Economics Foundation (NEF). 2026. <em>A Modern System for Fair Rents</em>. By George Bangham, Josh Emden, Henry Parkes, and Andrew Pendleton. London: New Economics Foundation.</p>
+<p>Polanyi, Karl. 1944. <em>The Great Transformation: The Political and Economic Origins of Our Time</em>. New York: Farrar &amp; Rinehart. [Beacon Press edition, 2001.]</p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../pages/blogs/lpn-explainer-blog.html" class="pagination-link" aria-label="LPN Explainer">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">LPN Explainer</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../pages/working-papers/fiscal-capture.html" class="pagination-link" aria-label="Fiscal Capture in the UK PRS">
+        <span class="nav-page-text">Fiscal Capture in the UK PRS</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

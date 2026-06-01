@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.13">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>A Progressing Problemshift – Carlos Galindo Escajeda - NEF Housing Research Package</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../pages/working-papers/labor-power-numeraire.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ac077c1e730dfeb5e42400639d17284e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-43081d808c96cc46af55a3a816ae9eed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Carlos Galindo Escajeda - NEF Housing Research Package</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/working-papers/breaking-the-benchmark.html">Working Papers</a></li><li class="breadcrumb-item"><a href="../../pages/working-papers/progressing-problemshift.html">A Progressing Problemshift</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">General</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/cover-letter-master.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cover Letter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/cover-letter-one-page.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extended Cover Letter (One Page)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/abstracts-dossier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Abstracts Dossier</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/general/programme-architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Programme Architecture</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Blogs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/blogs/lha-explainer-blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LHA Explainer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/blogs/lpn-explainer-blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LPN Explainer</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Working Papers</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/breaking-the-benchmark.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Breaking the Benchmark</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/fiscal-capture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fiscal Capture in the UK PRS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/rent-reproduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rent as Reproduction Cost</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/labor-power-numeraire.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Labor Power as Numeraire</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../pages/working-papers/progressing-problemshift.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">A Progressing Problemshift</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a-progressing-problemshift-a-lakatosian-rational-reconstruction-of-the-labour-power-as-numéraire-research-programme" id="toc-a-progressing-problemshift-a-lakatosian-rational-reconstruction-of-the-labour-power-as-numéraire-research-programme" class="nav-link active" data-scroll-target="#a-progressing-problemshift-a-lakatosian-rational-reconstruction-of-the-labour-power-as-numéraire-research-programme">A Progressing Problemshift: A Lakatosian Rational Reconstruction of the Labour-Power-as-Numéraire Research Programme</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#introduction-a-programme-and-the-question-of-appraisal" id="toc-introduction-a-programme-and-the-question-of-appraisal" class="nav-link" data-scroll-target="#introduction-a-programme-and-the-question-of-appraisal">1. Introduction — a programme, and the question of appraisal</a></li>
+  <li><a href="#the-lakatosian-apparatus-imported-not-defended" id="toc-the-lakatosian-apparatus-imported-not-defended" class="nav-link" data-scroll-target="#the-lakatosian-apparatus-imported-not-defended">2. The Lakatosian apparatus (imported, not defended)</a></li>
+  <li><a href="#the-hard-core-identified-and-by-design-not-defended" id="toc-the-hard-core-identified-and-by-design-not-defended" class="nav-link" data-scroll-target="#the-hard-core-identified-and-by-design-not-defended">3. The hard core — identified, and (by design) not defended</a></li>
+  <li><a href="#the-protective-belt-four-papers-four-plies" id="toc-the-protective-belt-four-papers-four-plies" class="nav-link" data-scroll-target="#the-protective-belt-four-papers-four-plies">4. The protective belt — four papers, four plies</a></li>
+  <li><a href="#the-positive-heuristic-immanent-critique-with-borrowed-engines" id="toc-the-positive-heuristic-immanent-critique-with-borrowed-engines" class="nav-link" data-scroll-target="#the-positive-heuristic-immanent-critique-with-borrowed-engines">5. The positive heuristic — immanent critique with borrowed engines</a></li>
+  <li><a href="#the-appraisal-theoretically-progressive-non-degenerating-empirically-progressing" id="toc-the-appraisal-theoretically-progressive-non-degenerating-empirically-progressing" class="nav-link" data-scroll-target="#the-appraisal-theoretically-progressive-non-degenerating-empirically-progressing">6. The appraisal — theoretically progressive, non-degenerating, empirically progressing</a>
+  <ul class="collapse">
+  <li><a href="#theoretical-progressivity-a-content-increasing-development-step" id="toc-theoretical-progressivity-a-content-increasing-development-step" class="nav-link" data-scroll-target="#theoretical-progressivity-a-content-increasing-development-step">6.1 Theoretical progressivity: a content-increasing development step</a></li>
+  <li><a href="#non-degeneration-the-core-was-attacked-not-merely-kept" id="toc-non-degeneration-the-core-was-attacked-not-merely-kept" class="nav-link" data-scroll-target="#non-degeneration-the-core-was-attacked-not-merely-kept">6.2 Non-degeneration: the core was attacked, not merely kept</a></li>
+  <li><a href="#empirical-status-corroborated-shared-content-and-the-discriminating-frontier" id="toc-empirical-status-corroborated-shared-content-and-the-discriminating-frontier" class="nav-link" data-scroll-target="#empirical-status-corroborated-shared-content-and-the-discriminating-frontier">6.3 Empirical status: corroborated shared content, and the discriminating frontier</a></li>
+  </ul></li>
+  <li><a href="#the-construction-record-as-bounded-corroboration" id="toc-the-construction-record-as-bounded-corroboration" class="nav-link" data-scroll-target="#the-construction-record-as-bounded-corroboration">7. The construction record as bounded corroboration</a></li>
+  <li><a href="#scope-limits-and-the-conflict-of-interest" id="toc-scope-limits-and-the-conflict-of-interest" class="nav-link" data-scroll-target="#scope-limits-and-the-conflict-of-interest">8. Scope, limits, and the conflict of interest</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">9. Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
+  <ul class="collapse">
+  <li><a href="#methodological" id="toc-methodological" class="nav-link" data-scroll-target="#methodological">Methodological</a></li>
+  <li><a href="#the-reconstructed-programme-working-papers" id="toc-the-reconstructed-programme-working-papers" class="nav-link" data-scroll-target="#the-reconstructed-programme-working-papers">The reconstructed programme (working papers)</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/working-papers/breaking-the-benchmark.html">Working Papers</a></li><li class="breadcrumb-item"><a href="../../pages/working-papers/progressing-problemshift.html">A Progressing Problemshift</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">A Progressing Problemshift</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<blockquote class="blockquote">
+<p>Source file: papers_NEF/NEF_cg_2026_research_programme.md</p>
+</blockquote>
+<!-- NEF-MIRROR-AUTOGEN — DO NOT EDIT BY HAND. Rendered Markdown generated from the canonical paper by scripts/sync_nef_papers.py, with an NEF-targeted abstract. Edit the paper in papers/ and its NEF abstract in nef_abstracts/<stem>.md, then re-run the sync. -->
+<section id="a-progressing-problemshift-a-lakatosian-rational-reconstruction-of-the-labour-power-as-numéraire-research-programme" class="level1">
+<h1>A Progressing Problemshift: A Lakatosian Rational Reconstruction of the Labour-Power-as-Numéraire Research Programme</h1>
+<p>Carlos Galindo Escajeda June 1, 2026</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The economic case for rent regulation that NEF increasingly draws on rests on a body of heterodox theory — a four-paper research programme arguing that Britain’s rented sector is a financialised asset class in which the textbook objection to rent control does not apply. Intellectual armour of that kind is only as good as its rigour. This paper asks, in the mainstream philosophy of science’s <em>own</em> terms, whether the programme behind those policy arguments is sound — and answers with deliberate, defensible restraint rather than advocacy.</p>
+<p>Using the appraisal framework orthodox economists themselves respect — Imre Lakatos’s methodology of scientific research programmes — it reconstructs the four papers as a single programme: one declared foundation (the reproduction of labour power as the measure of value, in place of the standard efficiency criterion), a protective belt of four falsifiable applications, and one method — turning orthodox economics’ own mathematical apparatus against its conclusions. It then asks the question Lakatos’s framework was built to answer: is the programme <em>progressing</em>?</p>
+<p>The verdict is split, and candid about it. The programme is theoretically progressive — under criticism it has replaced free assumptions with tighter, testable restrictions — and non-degenerating: challenged repeatedly, it narrowed its claims rather than inflating them. But the decisive empirical test that would distinguish it from the orthodox account is named, designed, and not yet run. The programme is <em>progressing</em>; it is not yet proven progressive, and it says so.</p>
+<p>For NEF the relevance is direct. The economics it cites in defence of rent regulation is not rhetoric but a programme built to be checked, transparent about exactly where its evidence stops. Work that states its own limits this precisely is the kind that withstands hostile scrutiny in policy debate — and that standard is one this reconstruction both describes and is itself held to.</p>
+</section>
+<section id="introduction-a-programme-and-the-question-of-appraisal" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-a-programme-and-the-question-of-appraisal">1. Introduction — a programme, and the question of appraisal</h2>
+<p>Heterodox research in economics is routinely refused appraisal rather than refuted. Its premises are declared inadmissible at the threshold — too political, too unorthodox in their primitives, insufficiently neutral — and the question of whether a given body of heterodox work is <em>internally progressive or degenerating</em> is never reached.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> This paper takes one recent body of such work and insists on reaching that question.</p>
+<p>The object is a four-paper sequence. A theory paper takes the reproduction of labour power, rather than subjective utility, as the primitive in which value is reckoned, and replaces Pareto efficiency with a criterion it calls Labor-Power Dominance. A structural paper derives, from that criterion, a reproduction-consistent ceiling on rent. An empirical paper studies the capitalisation of a housing subsidy into rents. A policy paper argues that the orthodox objection to rent regulation is inapplicable to the financialised market that actually exists. The four are not four arguments; they are one argument distributed across four artifacts.</p>
+<p>The appraisal question worth asking is not “is the programme true?” Lakatos’s central methodological move was to separate the <em>truth</em> of a research programme from its <em>progressivity</em> — whether, over time, it generates excess content and meets criticism by adding to its explanatory reach rather than by patching anomalies [Lakatos 1970]. A programme’s hard core, on this account, is held immune <em>by the methodological decision of its practitioners</em>; the core is not what gets tested. What gets tested is the protective belt, and the appraisal verdict turns on <em>how the belt is revised under pressure</em>. This paper addresses only that verdict. It is the central discipline of what follows that we never convert the appraisal into an endorsement of the core: showing that a programme develops progressively is not showing that its founding commitment is correct, and the two must not be allowed to bleed into one another.</p>
+<p>The contribution is threefold and modest. First, a rational reconstruction of a heterodox economics programme in explicit Lakatosian terms — uncommon in itself. Second, a reconstruction that is <em>checkable</em>: the programme was developed under a recorded sequence of adversarial review, so the claim “the belt was revised progressively while the core stayed fixed” can be audited against a contemporaneous construction record rather than rested on retrospective narrative. Third, and most important methodologically, a reconstruction that performs the discipline it describes — including by demoting the programme’s own most rhetorically convenient result when that result does not, in fact, discriminate the programme from its rival.</p>
+<p>What this paper is not: it is not a defence of the truth of labour-power-as-numéraire or of Labor-Power Dominance; it is not a claim that the programme’s policy conclusions are correct; and it is not a new criterion of demarcation. Section 2 sets out the Lakatosian apparatus and justifies its selection. Sections 3–5 identify the hard core, the four-ply belt, and the positive heuristic. Section 6 delivers the split appraisal. Section 7 treats the construction record as bounded corroboration. Section 8 states the limits, including the conflict of interest inherent in reconstructing one’s own programme. Section 9 concludes.</p>
+</section>
+<section id="the-lakatosian-apparatus-imported-not-defended" class="level2">
+<h2 class="anchored" data-anchor-id="the-lakatosian-apparatus-imported-not-defended">2. The Lakatosian apparatus (imported, not defended)</h2>
+<p>Lakatos’s methodology of scientific research programmes distinguishes a <em>hard core</em> of central commitments, held immune from refutation by the practitioners’ methodological decision; a <em>protective belt</em> of auxiliary hypotheses that bear the brunt of testing and are revised when anomalies arise; and a <em>positive heuristic</em> that directs how the belt is to be developed [Lakatos 1970]. The unit of appraisal is the programme over time, not the individual paper or the isolated test.</p>
+<p>The crucial feature for what follows is that the core is held immune <em>by decision</em>. This is not a claim that the core is unfalsifiable in principle, nor a licence to believe it; it is a description of how programmes actually allocate the risk of refutation — anomalies are charged to the belt, and the core is protected so long as the practitioners choose to protect it. That choice is itself revisable: practitioners of a degenerating programme do, eventually, abandon their cores. Immunity, then, is a methodological stance, not a dogma, and a programme earns no credit merely for holding a core fixed. It earns credit only if the core is held fixed <em>while the belt does progressive work</em> — and, as Section 6.2 insists, only if the core was genuinely <em>attacked</em> and nonetheless preserved without ad hoc rescue.</p>
+<p>Lakatos’s appraisal criterion is comparative and historical. A problemshift is <em>theoretically progressive</em> if each modification of the belt predicts some novel fact the predecessor did not; it is <em>empirically progressive</em> if some of that excess content is corroborated; and it is <em>degenerating</em> if the belt is revised only to accommodate known anomalies, generating no new testable content [Lakatos 1970]. These are graded, not binary, and they are judged over a development sequence — which is precisely what a documented construction history supplies.</p>
+<p>Why Lakatos here, and not Kuhn or Laudan? Kuhn’s apparatus of paradigms and normal science lacks a fine-grained, within-programme criterion for distinguishing progress from degeneration; it describes the sociology of theory change better than it adjudicates it [Kuhn 1962]. Laudan’s problem-solving model offers an appraisal criterion, but one keyed to a programme’s net problem-solving effectiveness across empirical and conceptual problems — harder to operationalise from a textual record, and less naturally mapped onto a programme with a single declared normative primitive [Laudan 1977]. Lakatos’s core/belt architecture maps directly onto a multi-paper programme built around one ontological commitment with a logged development history. The choice is a scoping decision, defended as such; it is not a claim that Lakatos’s framework is the uniquely correct philosophy of science, and Section 8 records the meta-objection that the framework itself may be ill-suited to economics.</p>
+</section>
+<section id="the-hard-core-identified-and-by-design-not-defended" class="level2">
+<h2 class="anchored" data-anchor-id="the-hard-core-identified-and-by-design-not-defended">3. The hard core — identified, and (by design) not defended</h2>
+<p>The programme has a single, stable hard core, and it is stated as such in the theory paper: value is reckoned in the reproduction of living labour power, and social states are ranked by a criterion of Labor-Power Dominance that <em>replaces</em> Pareto efficiency rather than refining it. The theory paper is explicit that this is a change of primitive — “the materialist primitive is society’s reproductive capacity — not subjective utility” — and that the resulting criterion is incommensurable with the Paretian one: Labor-Power Dominance “is structurally linear (risk-neutral) in expected” labour power and “can rank an allocation as dominant that a Paretian welfare function would reject, and vice versa.” The core is, in short, <em>declared</em> — held out as a chosen primitive, not presented as a neutral default.</p>
+<p>This paper does not defend that choice, and the refusal is principled, not evasive. Within the Lakatosian framework a hard core is held immune by the programme’s methodological decision; it is not the object of test. To demand that the programme empirically <em>prove</em> labour-power-as-numéraire before its development can be appraised is to misunderstand the unit of appraisal — it is to charge to the core a burden the framework assigns to the belt. We therefore claim only two things about the core, both of which are checkable and neither of which is a truth-claim: that it is <em>declared</em>, and that it was <em>kept fixed across the development</em>. The second claim is load-bearing and is established in Section 6.2, where it is shown that the core was kept fixed not by default but under direct and recorded attack.</p>
+<p>A clarification forestalls the obvious objection that immunity is a dogmatic cheat. Immunity is a <em>revisable</em> decision (Section 2): a programme whose core must be rescued ever more elaborately is free to abandon it, and degenerating programmes do. The asymmetry we will draw with orthodoxy in Section 8 is therefore not that this programme has a normative core while orthodoxy does not — every welfare economics fixes a numéraire, which is the foundational normative act — but that this programme <em>declares</em> its core as a choice, whereas the competitive-efficiency benchmark typically operates as an undeclared default. We rest no part of the appraisal on that asymmetry; we note it.</p>
+</section>
+<section id="the-protective-belt-four-papers-four-plies" class="level2">
+<h2 class="anchored" data-anchor-id="the-protective-belt-four-papers-four-plies">4. The protective belt — four papers, four plies</h2>
+<p>The four papers are best read not as four programmes, nor as four independent applications, but as one protective belt of four plies around the Section 3 core. The claim that they form a single belt rather than parallel exercises rests on two observable features, and intellectual honesty requires stating the second one precisely rather than asserting a tidier unity than the texts support.</p>
+<p>First, the four share the core ontology: each takes the reproduction of labour power, not utility, as the primitive against which its object is evaluated. Second, three of them are wired into one explicit citation-dependency structure, with a documented asymmetry for the fourth. The theory paper (2026c) is the hub: the structural paper sources its reproduction function, its stochastic-discount factor, and its maintained assumptions to it, and the empirical paper rests its structural interpretation on it. The structural paper (2026a) and the empirical paper (2026b) are reciprocally wired: the structural paper defers its empirics to the empirical paper, and the empirical paper defers its theoretical derivation back to the structural paper. The policy paper is the exception that must be conceded: it cites <em>none</em> of the other three, and is cited <em>inward</em> by the structural paper (for its supply-inelasticity diagnosis and its treatment of the policy instrument) without citing back. The policy ply therefore belongs to the belt by <em>shared ontology and inward citation only</em>, not by an outward citation of its own — a looser coupling than the theory–structural–empirical triangle, and we do not pretend otherwise. The unit that develops over time is nonetheless the programme: the hub-and-triangle citation structure plus the shared primitive is what makes the four plies one belt rather than four parallel exercises, even with the policy ply attached at one edge rather than woven through.</p>
+<ul>
+<li><strong>Ply 1 — the value theory.</strong> A materialist macro-finance model in which the reproduction of labour power is the primitive, the stochastic discount factor is derived from the Bellman multipliers on reproductive capacity rather than posited, and a closed-form materialist risk premium is obtained (Theorem 4.1, discussed in Section 6). This ply supplies the formal core and the welfare criterion.</li>
+<li><strong>Ply 2 — the structural derivation.</strong> From the dominance criterion, a reproduction-consistent rent ceiling is derived, <em>conditional on a maintained empirical premise</em> that the housing asset is overvalued relative to its reproduction-consistent price. The conditionality is stated in the paper, not concealed.</li>
+<li><strong>Ply 3 — the empirical identification.</strong> A difference-in-differences study of the capitalisation of a housing subsidy into rents, reporting robust directional results across many specifications.</li>
+<li><strong>Ply 4 — the policy defence.</strong> An argument that, in a market whose competitive preconditions are demonstrably absent, the orthodox second-best objection to rent regulation is inapplicable — and, symmetrically, that deregulation enjoys no first-best presumption either.</li>
+</ul>
+<p>The plies exhibit what may be called four honesties: each declares a specific <em>non-result</em> at the exact point where overclaiming would be most tempting. The structural ply declares its overvaluation premise a maintained premise. The empirical ply reports its headline coefficient as a lower bound and concedes an observational equivalence its data cannot break. The policy ply holds its central theorem to its strictly negative form, claiming non-exclusion rather than optimality. The theory ply distinguishes what it proves (a conditional risk-premium theorem) from what it defers (the criterion’s full axiomatics). These honesties are not modesty for its own sake; Section 6 shows they are the evidence of <em>non-degeneration</em>, and must be kept rigorously distinct from the evidence of <em>content-increase</em>, with which a careless reading would conflate them.</p>
+</section>
+<section id="the-positive-heuristic-immanent-critique-with-borrowed-engines" class="level2">
+<h2 class="anchored" data-anchor-id="the-positive-heuristic-immanent-critique-with-borrowed-engines">5. The positive heuristic — immanent critique with borrowed engines</h2>
+<p>The belt is not developed opportunistically. It is developed by a single rule: take an instrument the orthodox tradition trusts, and turn it on the tradition’s own conclusion. This is immanent critique in the strict sense — not an external denunciation of the mainstream from foreign premises, but an internal demonstration that the mainstream’s own apparatus, applied to its own object, yields a conclusion the mainstream disfavours. The theory paper states the strategy without euphemism: it pursues “deliberate methodological immanence,” in which “the same Bellman apparatus that standard macro deploys to establish the efficiency of competitive institutions is here turned to demonstrate that those institutions generate structurally necessary violations of the materialist welfare criterion.” Competitive institutions, in the model, “do not fail … by failing to solve their own Paretian optimization problem but by solving it perfectly.”</p>
+<p>The heuristic is instantiated four times with four borrowed engines:<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> the asset-pricing / perturbation apparatus in the theory ply; the planner’s constrained-optimisation problem in the structural ply; the difference-in-differences design — the workhorse of orthodox programme evaluation — in the empirical ply; and the general theory of the second best together with the Diamond–Mirrlees production-efficiency result in the policy ply. That the heuristic is <em>rule-governed</em> in this way is itself an appraisal-relevant fact: a programme whose belt grows by a stated heuristic is one whose growth can be assessed for excess content, rather than dismissed as post-hoc fitting.</p>
+<p>A standing objection must be registered: does adopting the rival’s apparatus concede the rival’s frame? The programme’s answer is that the indictment targets the institutions the apparatus <em>certifies</em>, not the apparatus’s internal logic — and that inhabiting the frame is precisely what makes the verdict binding rather than question-begging. We report this as the programme’s heuristic and as the source of its dialectical reach; we do not here advance it as a universal method, an ambition Section 8 records as deferred.</p>
+</section>
+<section id="the-appraisal-theoretically-progressive-non-degenerating-empirically-progressing" class="level2">
+<h2 class="anchored" data-anchor-id="the-appraisal-theoretically-progressive-non-degenerating-empirically-progressing">6. The appraisal — theoretically progressive, non-degenerating, empirically progressing</h2>
+<p>We now apply Lakatos’s graded criterion. The verdict is deliberately split into three, because the artifacts support the three components to different degrees, and collapsing them into a single “the programme is progressive” would be the precise auto-goal this paper exists to avoid.</p>
+<section id="theoretical-progressivity-a-content-increasing-development-step" class="level3">
+<h3 class="anchored" data-anchor-id="theoretical-progressivity-a-content-increasing-development-step">6.1 Theoretical progressivity: a content-increasing development step</h3>
+<p>The decisive question under Lakatos is not whether the programme <em>possesses</em> a sharp result — a sharp result shows only that its content is high, not that its development was progressive — but whether a <em>revision of the belt added content under pressure</em>. The programme furnishes one clean, documented instance, and it is best presented as a development step rather than as a founding endowment.</p>
+<p>In an earlier state, the theory ply contained only a <em>conjecture</em> about the demographic component of the risk premium: the second covariance term was identified but its coefficient was unproven and its derivation explicitly deferred. Under subsequent review the conjecture was discharged into a conditional theorem (Theorem 4.1) with a closed-form coefficient and a signed result. The materialist risk premium takes the form <span class="math display">\[
+\mathbb{E}_t[R_{K,t+1}] - R_{f,t} \approx \sigma\gamma\,\operatorname{Cov}_t(\Delta\tilde{c}_{t+1}, R_{K,t+1})
++ (1-\gamma)\,\Omega\,\operatorname{Cov}_t(\Delta n_{t+2}, R_{K,t+1}),
+\]</span> with the demographic-risk coefficient pinned in closed form, <span class="math display">\[
+(1-\gamma)\,\Omega \;=\; -\,\frac{\psi_x\,\xi_\theta}{\gamma\,\varphi_\theta},
+\]</span> where <span class="math inline">\(\psi_x\)</span> is a Bellman curvature elasticity, <span class="math inline">\(\xi_\theta\)</span> the net capital-ratio savings response, <span class="math inline">\(\varphi_\theta\)</span> the consumption response, and <span class="math inline">\(\gamma\)</span> the reproduction elasticity.</p>
+<p>What makes this a <em>content-increasing</em> step, and not an ad hoc rescue, is that the revision <em>removed degrees of freedom</em>. Standard consumption-CAPM can match any observed risk premium by freely calibrating the risk-aversion parameter. The revised belt binds the effective risk price to physical reproduction-technology parameters: the modeller is no longer free to choose it.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> A revision that converts a free parameter into a constrained, in-principle-testable function of named primitives is the structural opposite of a degenerating manoeuvre, which would instead add free parameters to absorb an anomaly. The exhibit, properly stated, is the <em>transition</em> from conjecture to signed theorem; the static theorem alone would not establish progressivity, only high content.</p>
+<p>Two clarifications pre-empt predictable objections. First, this is an appraisal of a <em>logical</em> relation between two public states of an artifact — an earlier draft in which the coefficient was an unproven conjecture, and a later one in which it is a signed closed-form restriction — not a claim about the authors’ psychology or the wall-clock interval between them. In Popper’s terms the relation lives in World 3 (the objective content of the theories), not World 2 (the private process of authoring); that the transition happened quickly, or within a short span of one programme’s development, neither establishes nor undermines it. The objection “this is mere intra-draft editing” is therefore a category error: editing is a World-2 activity, content-increase is a World-3 property, and the second is read off the two artifact-states regardless of how the first proceeded. Second, the restriction is not merely <em>tidier</em>; it <em>forbids more</em>. The conjecture permitted any value of the demographic risk loading; the theorem ties it, by a cross-equation identity, to independently estimable elasticities (<span class="math inline">\(\psi_x,\xi_\theta,\varphi_\theta,\gamma\)</span>), so that ranges of jointly-estimated values which the conjecture allowed are now ruled out. Excess testable content, in the precise Popperian sense of saying more by forbidding more, is exactly what this delivers — whether or not the forbidding has yet been put to data (Section 6.3).</p>
+<p>One scope limit must be stated plainly, on pain of the auto-goal this paper exists to avoid. A single content-increasing step (with one reinforcing internal exhibit) shows that the programme <em>has begun</em> a progressive problemshift; it does not show a <em>track record</em> of repeated such steps, which is what a mature programme accumulates. This is why the paper claims, in its title and throughout, <em>a</em> progressing problemshift — an indefinite article doing deliberate work — and not an established progressive programme. The verdict is “progression underway and non-degenerating,” not “progressivity proven over a development series.”</p>
+<p>A second, purely internal exhibit reinforces the point: in the structural ply, a value-flow separability assumption converts an ambiguous interior optimum into a corner solution that fixes the policy parameter — replacing an indeterminate object with a falsifiable one under explicitly stated maintained assumptions. Again, determinacy increases and modelling freedom decreases.</p>
+<p>It must be stated precisely what this does and does not show. The restriction’s excess content over the <em>orthodox rival</em> (consumption-CAPM cannot generate such a cross-equation tie) discharges the heuristic obligation of Section 5. Its status as a conjecture-to-theorem <em>transition</em> discharges the progressivity obligation of this section. These are two distinct claims about the same artifact and are kept separate; neither is a claim that the restriction is empirically <em>corroborated</em>, which is the subject of Section 6.3.</p>
+</section>
+<section id="non-degeneration-the-core-was-attacked-not-merely-kept" class="level3">
+<h3 class="anchored" data-anchor-id="non-degeneration-the-core-was-attacked-not-merely-kept">6.2 Non-degeneration: the core was attacked, not merely kept</h3>
+<p>A programme is degenerating if it saves its core by proliferating untestable auxiliaries. This programme did the opposite on two counts.</p>
+<p>First, under attack the belt <em>restricted its own claims</em> rather than inflating them. The empirical coefficient was declared a lower bound; the structural overvaluation claim was narrowed to a maintained premise with explicit scope; an observational equivalence was conceded; the policy theorem was held to its negative form. These are <em>retreats</em>, not content-increases, and it would be an auto-goal to count them as progress. Their correct Lakatosian role is different and specific: they show that when the programme met resistance, it responded by honestly <em>restricting scope</em>, not by manufacturing auxiliary hypotheses to rescue an overclaim. That is the signature of non-degeneration.</p>
+<p>Second — and this is what converts “the core was kept fixed” from a triviality into evidence — the core was <em>genuinely attacked</em> and survived without mutation. The construction record and cross-draft comparison document recurrent, direct assaults on the core itself: objections pressing the programme to collapse its dominance criterion back into a Paretian or utilitarian one (recorded variously as the “dual-welfare schism” objection, the “unify-the-planner” demand, and the “schizophrenic planner” objection — each, in effect, an argument that the programme cannot maintain a non-Paretian welfare primitive).<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Each was met by belt revision or by principled refusal — for instance, by showing that the demanded price–quantity duality holds only for a utilitarian objective, which the programme has declined to adopt — and in no case by altering the core. A core that survives sustained attempts to overturn it is <em>preserved under pressure</em>; a core never challenged would be merely <em>retained</em>. The evidence supports the former.</p>
+</section>
+<section id="empirical-status-corroborated-shared-content-and-the-discriminating-frontier" class="level3">
+<h3 class="anchored" data-anchor-id="empirical-status-corroborated-shared-content-and-the-discriminating-frontier">6.3 Empirical status: corroborated shared content, and the discriminating frontier</h3>
+<p>This is the sharpest point in the appraisal, and the one most exposed to an auto-goal. The empirical ply corroborates the programme’s <em>directional</em> prediction (the sign of the fiscal-capture effect) and sharpened its identification under criticism, through a COVID-window restriction and a density-controlled specification. Two demotions are mandatory.</p>
+<p>First, sharper identification of an <em>existing</em> claim is better <em>testing</em>, not excess <em>content</em>; it strengthens confidence in a prediction the programme already made, rather than corroborating a new one. Second, and decisively: the corroborated directional fact is, in the empirical paper’s own words, “observationally equivalent at the level of the rent-growth coefficient”<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> between the programme’s account and the orthodox fiscal-incidence account. A fact that both the programme and its rival predict is <em>shared content</em>, not the rival-beating <em>novel</em> content Lakatos’s empirical progressivity requires. Corroborating it confirms the programme is not refuted on shared ground; it buys the programme nothing <em>over</em> orthodoxy. To present this corroboration as empirical progressivity would be exactly the move the no-auto-goal discipline forbids, and the empirical paper itself is the source that forbids it.</p>
+<p>Where, then, is the programme’s discriminating content? In precisely what is <em>not yet</em> corroborated: the cross-equation restriction of Section 6.1, which makes a prediction consumption-CAPM cannot, and the deferred demographic predictions (differential household formation and population dynamics) that the empirical paper names as the test that <em>would</em> separate the two accounts and explicitly places outside its own scope. This is the programme’s live frontier. Its status is a conjecture awaiting test, and we label it as such.</p>
+<p>Hence the bounded verdict: the programme is theoretically progressive (6.1) and non-degenerating (6.2); its empirical development to date corroborates shared content and sharpens identification, but its rival-beating empirical progressivity is <em>pending</em>, contingent on a registered, falsifiable test. The programme is <em>progressing</em> — its excess content is theoretical and its discriminating empirical test is specified but unrun — which is a defensible Lakatosian status, and a different and weaker claim than “empirically progressive.” A theoretically progressive programme with discriminating corroboration outstanding is permitted by Lakatos and is not degenerating; it is a candidate whose empirical verdict is open.</p>
+<p>Two clarifications keep this verdict honest. First, on Lakatos’s own account empirical corroboration need not be instantaneous for theoretical progressivity to be credited: a programme remains theoretically progressive so long as its heuristic keeps generating novel, testable, degrees-of-freedom-reducing content, even while the apparatus to test that content is still being built (Lakatos 1970). We report the frontier not as a failure of progress but as the precise condition of a theoretically progressive programme whose discriminating predictions are now well-posed for the next empirical step. Second, the observational equivalence does not make the two accounts theoretically equivalent, and Occam’s razor does not favour the rival: the orthodox fiscal-incidence model is not <em>simpler</em>, it is <em>narrower</em> — it predicts the rent-growth coefficient but is structurally silent on demographic reproduction paths and on the cross-equation restriction that pins the effective risk price to physical parameters. Silence on those dimensions is not equivalence. The programme generates additional excess theoretical content the rival cannot produce. This is a wider <em>untested</em> falsifiable frontier, not a superiority verdict: because that excess content is as yet uncorroborated, it does not (and on the no-auto-goal discipline must not) establish that the programme beats its rival — only that it is not redundant with it.</p>
+<p>A symmetric possibility must be granted, because it follows from the same logic and a careful reader will raise it: orthodoxy might simply <em>annex</em> the cross-equation restriction — treat the demographic risk loading as an interesting friction bolted onto an otherwise unchanged consumption-CAPM — while discarding the materialist core that motivated it. This would be no embarrassment to the present claim, and it is worth seeing why. If the restriction is adopted and corroborated, that is the excess content vindicated as content the rival previously lacked, which is Lakatosian progress <em>for the content</em>. What annexation would threaten is the programme’s <em>distinctness</em> — its standing as a separate programme rather than a tributary feeding the mainstream — not its <em>progressivity</em>. Those are different appraisals, and this paper makes only the second. That the programme’s most testable contribution is also the one most liable to absorption by its rival is a fact about its porous boundary, recorded here, not a defect in the progressivity verdict.</p>
+</section>
+</section>
+<section id="the-construction-record-as-bounded-corroboration" class="level2">
+<h2 class="anchored" data-anchor-id="the-construction-record-as-bounded-corroboration">7. The construction record as bounded corroboration</h2>
+<p>This reconstruction has access to something most rational reconstructions lack: a contemporaneous record of the programme’s development, in which the belt revisions of Section 6 and the core-attacks of Section 6.2 were logged as they occurred. The record’s evidential role must be bounded carefully, because a development log is a record of <em>authoring</em>, not of scientific discovery, and Lakatos’s own historiography has been criticised precisely for selective narrative reconstruction.</p>
+<p>We therefore assign the record a strictly secondary role: the published papers are the primary evidence, and the record corroborates only the <em>temporal order</em> of revisions that the papers independently display. The claim is not that the record “lets the appraisal rest on observed history” — that would invite the selective-narrative charge — but that, where the papers show a conjecture in one state and a theorem in a later state, the record corroborates that the second followed the first under documented adversarial pressure rather than being present from the outset. The contribution of the record is <em>checkability</em> by a third party, not historiographic authority.</p>
+<p>The same record makes the programme’s single open seam impossible to overlook, which is itself a mark in the programme’s favour: the deferred demographic test of Section 6.3 is named in the programme’s own papers as the discriminating test it has not run. The frontier is declared, not hidden, and declaring it is part of the appraisal rather than a concession against it.</p>
+</section>
+<section id="scope-limits-and-the-conflict-of-interest" class="level2">
+<h2 class="anchored" data-anchor-id="scope-limits-and-the-conflict-of-interest">8. Scope, limits, and the conflict of interest</h2>
+<p>The reconstruction’s reach is bounded, and stating the bounds is required by the very discipline it appraises.</p>
+<p>First, and most importantly, the appraisal is not a truth-claim about the core. That the programme is theoretically progressing says nothing about whether labour power is the right numéraire or whether Labor-Power Dominance is the right welfare criterion. The framework holds the core immune; the appraisal lives entirely in the belt.</p>
+<p>Second, the most dangerous objection is one this paper cannot refute, only scope honestly. Lakatos’s fullest sense of progress requires a <em>corroborated novel fact</em>; by the programme’s own admission its discriminating predictions are as yet uncorroborated. A determined critic may therefore say that the programme is, at most, theoretically progressive and empirically <em>unappraised</em> — a candidate for a progressive problemshift rather than a confirmed one. We accept this. It is the reason the paper’s title claims a <em>progressing</em> problemshift rather than a <em>progressive</em> one, and the reason the deferred demographic test is presented as the registered commitment whose outcome would settle the question. The objection is converted from a refutation into the programme’s stated research frontier; it is not dissolved.</p>
+<p>Third, the conflict of interest is real: the author is reconstructing a programme he co-authored. Three mitigations are offered, and their sufficiency is left for the reader to judge. (i) The appraisal rests only on checkable artifacts — the published papers, and secondarily the construction record — so a hostile reader can re-run the reconstruction on the same artifacts and reach a different verdict; the appraisal is exposed to exactly that test, and the author actively <em>invites</em> an independent reconstruction as the proper remedy for residual authorial selection. (ii) The paper reports the programme’s open seam (Sections 6.3, 7) rather than only its successes, and demotes the programme’s most convenient empirical result (Section 6.3). (iii) The appraisal criterion is general and applies symmetrically: an orthodox programme that declared its competitive-efficiency core and exposed its belt to the same scrutiny would pass, and a heterodox programme that concealed its core or rescued it ad hoc would fail. We note, without resting the paper on it, that the orthodox competitive benchmark typically operates as an <em>undeclared</em> default — the asymmetry of Section 3; the point is not that orthodoxy lacks a normative numéraire but that its revealed-preference axiomatics derive a utility <em>representation</em> while leaving the <em>choice</em> of Pareto efficiency as the welfare standard as undeclared as ever. A full development of that comparative claim is deferred.</p>
+<p>Fourth, the appraisal is explicitly <em>framework-relative</em>. The verdict “theoretically progressive and non-degenerating” is rendered by Lakatos’s criterion; a different appraisal apparatus could return a different verdict, and we do not hide this. A Laudan problem-solving appraisal, in particular, might be harsher — it would weigh the conceptual problems the programme creates (how to measure reproductive capacity; how to operationalise the dominance criterion) against its problem-solving rate, and a thin early belt could score poorly on that ledger. We choose Lakatos for the scoping reasons of Section 2.4, and concede that the choice is not verdict-neutral; a companion appraisal under a rival framework is legitimate further work, not a threat the present paper must pre-emptively defeat.</p>
+<p>Fifth, and most uncomfortably, the paper’s own transparency can be turned against it. A reviewer disposed to refuse heterodox work appraisal <em>a priori</em> — the disposition Section 1 names — can cite the candid concessions here (the pending empirical test, the single content-increasing step, the conflict of interest) as grounds for rejection, and so use the paper’s honesty as the instrument of the very threshold-refusal it protests. We record this without weaponising it: it would be self-sealing, and therefore a violation of this paper’s own discipline, to treat any rejection as confirmation of the thesis. The honest statement is narrower and falsifiable — that <em>this</em> paper’s disclosures are the kind of material an adversarial reading can use to raise the cost of an honest programme relative to a concealed one. That asymmetry of cost is an observation about the sociology of appraisal, offered as such; nothing in the progressivity verdict depends on it.</p>
+<p>That deferred claim — that a <em>declared</em> normative core, disciplined by a falsifiable belt and an immanent heuristic, is thereby held to a <em>higher</em> evidential standard than a concealed one — is a natural extension of this reconstruction and a more ambitious thesis than the present one. It is flagged as further work precisely so that it does not inflate the bounded claim made here.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">9. Conclusion</h2>
+<p>A four-paper heterodox programme admits a Lakatosian reconstruction as one declared hard core, a four-ply falsifiable belt, and one immanent heuristic; and, judged by Lakatos’s own graded criterion, its development to date is theoretically progressive and non-degenerating, with its rival-beating empirical progressivity specified but pending. None of this asserts the truth of the core or the correctness of the policy.</p>
+<p>The modesty is the result, not a failure of nerve. It is the largest claim the public artifacts support without auto-goaling the programme’s core — and it is enough to do the one thing heterodox work is usually denied: to place the programme in a form where its merits and demerits can be appraised on the evidence, rather than refused at the threshold. Whether that clears the bar for publication is for the reader to judge; we claim only that it is honest. If there is a portable contribution here beyond the single case, it is a small piece of appraisal vocabulary — the distinction between a <em>progressing</em> problemshift (theoretical content-increase under way, discriminating corroboration registered but pending) and an established <em>progressive</em> one — together with a worked demonstration that the distinction can be drawn against checkable artifacts without either inflating the weaker claim into the stronger or retreating into mere description. A reviewer disposed to refuse heterodox work appraisal will find in these pages the materials to do so; a reviewer willing to appraise it will find a programme that has begun to move, by the mainstream philosophy of science’s own criterion, and has said exactly how far. That a body of heterodox economics can be rendered appraisable in those terms at all — against a checkable record, without overclaiming — is the contribution offered here for the reader’s judgement.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<section id="methodological" class="level3">
+<h3 class="anchored" data-anchor-id="methodological">Methodological</h3>
+<p>Kuhn, T. S. 1962. <em>The Structure of Scientific Revolutions</em>. Chicago: University of Chicago Press.</p>
+<p>Lakatos, I. 1970. “Falsification and the Methodology of Scientific Research Programmes.” In <em>Criticism and the Growth of Knowledge</em>, edited by I. Lakatos and A. Musgrave, 91–196. Cambridge: Cambridge University Press.</p>
+<p>Laudan, L. 1977. <em>Progress and Its Problems: Towards a Theory of Scientific Growth</em>. Berkeley: University of California Press.</p>
+</section>
+<section id="the-reconstructed-programme-working-papers" class="level3">
+<h3 class="anchored" data-anchor-id="the-reconstructed-programme-working-papers">The reconstructed programme (working papers)</h3>
+<p>Galindo Escajeda, C. 2026. “Breaking the Benchmark: Emergency Rent Regulation in a Financialised UK Housing Market.” Working paper. [Policy ply; single-authored.]</p>
+<p>Galindo Escajeda, C., and J. Huato. 2026a. “Rent as Reproduction Cost: Labor-Power Dynamics, Buy-to-Let Mispricing, and Fiscal Capture in the UK Private Rented Sector.” Working paper. [Structural ply.]</p>
+<p>Galindo Escajeda, C., and J. Huato. 2026b. “Fiscal Capture in the UK Private Rented Sector: Evidence from Two LHA Policy Events.” Working paper. [Empirical ply.]</p>
+<p>Huato, J., and C. Galindo Escajeda. 2026c. “Labor Power as Numéraire: A Materialist Theory of Value, Risk, and Capitalist Finance.” Working paper. [Theory ply; the programme’s hard core.]</p>
+
+
+</section>
+</section>
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This is a standard complaint in the heterodox-economics methodology literature; the present paper treats it as the motivating premise rather than as an established empirical finding, and does not rest any later claim on it.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Each engine is identifiable in its source paper: the asset-pricing / perturbation apparatus in the theory ply (Huato and Galindo Escajeda 2026c, §4, the Theorem 4.1 risk-premium derivation); the planner’s constrained-optimisation problem in the structural ply (Galindo Escajeda and Huato 2026a, §3 and the value-flow separability assumption A6); the difference-in-differences design in the empirical ply (Galindo Escajeda and Huato 2026b, the DiD specification and its robustness sweep); and the general theory of the second best with Diamond–Mirrlees production efficiency in the policy ply (Galindo Escajeda 2026, the second-best section). Section/numbering references are given only where the source paper carries a stable label; where it does not, the engine is identified by description.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>The “degrees-of-freedom reduction” claim presupposes that <span class="math inline">\(\psi_x, \xi_\theta, \varphi_\theta, \gamma\)</span> are separately identifiable rather than absorbable into a single free constant; that identification is a matter for the theory paper (Huato and Galindo Escajeda 2026c, §4 and Appendix A.2), whose perturbation derivation ties them to reproduction-technology primitives. The present paper assumes that identification and does not re-derive it; a reader who doubts it should contest it there, since if the parameters were jointly unidentified the content-increase claim of this section would weaken accordingly.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>These objections and their resolutions are documented in the programme’s construction record (the changelog and internal referee ledgers), where the “dual-welfare schism”, “unify-the-planner”, and “schizophrenic planner” objections are recorded by those names, together with the responses — chiefly the refusal to re-derive the rent ceiling on a curved/utilitarian objective, since the demanded price–quantity duality holds only for a utilitarian welfare function, which the programme declines to adopt. Per Section 7, that record is corroborating evidence of the temporal sequence, not the primary basis of the appraisal; the substantive refusal is visible in the structural paper’s treatment of the dominance criterion (2026a) itself.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Verbatim from Galindo Escajeda and Huato (2026b): “The two lenses are <em>observationally equivalent at the level of the rent-growth coefficient.</em> The DiD finding of <span class="math inline">\(\hat{\beta}_{\text{fr}} &lt; 0\)</span> is consistent with both. They diverge sharply in their predictions on outcomes outside rent growth.” The empirical paper thus itself declines to read its corroborated coefficient as content that discriminates the programme from the orthodox account.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../pages/working-papers/labor-power-numeraire.html" class="pagination-link" aria-label="Labor Power as Numeraire">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Labor Power as Numeraire</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
