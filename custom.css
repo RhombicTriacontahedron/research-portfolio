@@ -1,0 +1,4 @@
+/* Bold top-level sidebar section headers (General, Blogs, Working Papers) */
+.sidebar-item.sidebar-item-section > .sidebar-item-container > a.sidebar-link {
+    font-weight: 700;
+}
