@@ -387,29 +387,71 @@ document.addEventListener("DOMContentLoaded", function() {
 <p><em>Earlier, pre-AI research — and separate from the five-paper UK housing programme on this site. These two peer-reviewed papers (in Spanish, 2010, with Celina Escajeda and Oscar Galindo) are the early-career work the application refers to: the first time I taught myself survey microdata and the microsimulation literature from a standing start, and carried it through to publication.</em></p>
 <section id="the-question" class="level2">
 <h2 class="anchored" data-anchor-id="the-question">The question</h2>
-<p>In 2010, with two colleagues at the Universidad Autónoma Chapingo, I worked on a question that maps closely onto what NEF does: how is poverty actually distributed across a population, and what would a given policy do to it? The setting was the State of Mexico, the country’s most populous; the raw material was the national household income and expenditure survey (ENIGH 2008) — a complex, stratified, clustered sample of tens of thousands of households.</p>
-</section>
-<section id="paper-1-measuring-before-explaining" class="level2">
-<h2 class="anchored" data-anchor-id="paper-1-measuring-before-explaining">Paper 1 — measuring before explaining</h2>
-<p>The first paper is about getting the measurement right. We built a consumption-based measure of household welfare — net monthly per-capita consumption, deflated to a common price base — on the argument that what people spend is a steadier read on realised welfare than what they report earning. We then compared the State of Mexico with the rest of the country not at a single official poverty line but across a whole range of lines, using stochastic dominance and complex-survey confidence bands. The headline result: a statistically significant excess of urban poverty in the state — between 7 and 13 percentage points above the rest of the country, on the order of 0.9 to 1.9 million more people than you would otherwise expect.</p>
-</section>
-<section id="paper-2-microsimulating-an-anti-poverty-policy" class="level2">
-<h2 class="anchored" data-anchor-id="paper-2-microsimulating-an-anti-poverty-policy">Paper 2 — microsimulating an anti-poverty policy</h2>
-<p>The second paper asks the harder question: if you changed one thing, how much poverty would move? This is microsimulation in the macro-micro tradition (Ravallion, Bourguignon). We estimated a household consumption model, then turned each household’s predicted consumption into a probability of being poor at any given line. With that in hand, you can simulate a policy change — give every household head with no schooling some education, say — recompute the probabilities, and read off the change for each subgroup.</p>
-<p>It is a deliberately first-round, non-behavioural accounting: it holds other behaviour fixed, so it answers “who gains, and by how much, immediately” — and it is honest that the answer only holds for changes small enough not to disturb everything else. The strongest lever by far was the education of the household head: simulating a move from no schooling to some cut the probability of being poor by more than 30% in some subgroups. Other levers — the head’s employment, government transfers, remittances, health, and indigenous status — ranged from roughly 0.5% to 23%, with large differences between groups.</p>
-</section>
-<section id="why-it-is-on-this-site" class="level2">
-<h2 class="anchored" data-anchor-id="why-it-is-on-this-site">Why it is on this site</h2>
-<p>Two reasons. First, it is the earliest version of the craft the application rests on: teaching myself relational survey microdata, complex sampling, and a simulation literature from scratch, and carrying it through to peer review. Second, it predates today’s AI tooling entirely — the method, the judgement, and the mistakes were all done by hand, years before any of these tools existed. It is not part of the five-paper UK housing programme; it is where the habits behind that programme were formed.</p>
-</section>
-<section id="the-full-papers-spanish" class="level2">
-<h2 class="anchored" data-anchor-id="the-full-papers-spanish">The full papers (Spanish)</h2>
-<ul>
-<li><a href="../../papers/escajeda-galindo-2010-poverty-measurement-edomex.pdf">Poverty measurement in the State of Mexico (PDF, Spanish)</a></li>
-<li><a href="../../papers/escajeda-galindo-2010-microsimulation-poverty-edomex.pdf">Microsimulation of anti-poverty policy (PDF, Spanish)</a></li>
-</ul>
+<p>In 2010, with two colleagues at the Universidad Autónoma Chapingo, I took up a question that turns out to be the same one NEF asks about Britain: how is poverty actually distributed across a population, and what would a given policy do to it? The setting was the State of Mexico — the country’s most populous — and the raw material was the national household income and expenditure survey, ENIGH 2008: a large, stratified, clustered sample, with roughly 2,480 of its households falling in the state we cared about.</p>
+<p>The work split into two papers, and they answer two different questions. The first asks how you should <em>measure</em> poverty before you say anything about it — what you count, where you draw the line, and how sure you are. The second asks the harder, policy-facing question: if you could <em>change</em> one thing about a household, how much poverty would move, and for whom? Each gets its own explainer below.</p>
 <hr>
-<p><strong>Read next:</strong> <a href="../../papers/escajeda-galindo-2010-poverty-measurement-edomex.pdf">Measurement paper (PDF)</a> · <a href="../../papers/escajeda-galindo-2010-microsimulation-poverty-edomex.pdf">Microsimulation paper (PDF)</a> · <a href="../general/cv.html">Short CV</a></p>
+</section>
+<section id="explainer-1-measuring-poverty-before-explaining-it" class="level2">
+<h2 class="anchored" data-anchor-id="explainer-1-measuring-poverty-before-explaining-it">Explainer 1 · Measuring poverty before explaining it</h2>
+<p>Before you can argue about whether a place is poor, you have to settle three things that most poverty statistics leave unspoken: what you measure, where you draw the line, and how sure you are of the answer. Almost all of the disagreement in the field hides inside those three choices. This first paper is about getting them right <em>before</em> drawing any conclusion at all — because a finding is only as honest as the choices that produced it.</p>
+<section id="measure-what-people-spend-not-what-they-say-they-earn" class="level3">
+<h3 class="anchored" data-anchor-id="measure-what-people-spend-not-what-they-say-they-earn">Measure what people spend, not what they say they earn</h3>
+<p>We built the welfare measure from consumption — what each household actually spends per person in a month, deflated to a common August-2008 price base — rather than from reported income. That is a deliberate departure from the income-based headlines most poverty debates run on.</p>
+<p>The reasoning is practical and slightly counter-intuitive. Incomes are lumpy, seasonal, and under-reported, especially at the bottom of the distribution, where an informal wage or a bad month never shows up cleanly on a survey form. Spending is steadier: households smooth it across good months and bad, and it tracks the standard of living a family can actually sustain rather than the one a single pay-cycle happens to imply.</p>
+<p>Choosing the ruler is not a technicality — it decides who counts as poor before any policy argument begins. A consumption measure pulls the count toward households whose <em>realised</em> welfare is low, not merely those whose reported income dipped in the survey week. That is precisely the population an anti-poverty policy is trying to reach, and getting it wrong at this step quietly biases everything downstream.</p>
+</section>
+<section id="dont-trust-one-poverty-line-test-every-line-at-once" class="level3">
+<h3 class="anchored" data-anchor-id="dont-trust-one-poverty-line-test-every-line-at-once">Don’t trust one poverty line — test every line at once</h3>
+<p>The usual fight in poverty measurement is over the line. Set it a little higher or lower and the headline number moves, so the argument quietly becomes about the threshold instead of about the place. Mexico’s official CONEVAL lines are one defensible choice among many, and committing to any single number invites the obvious objection that you picked the cut-off that gave you the answer you wanted.</p>
+<p>So we refused the choice. Instead of selecting one line and defending it, we compared the State of Mexico against the rest of the country across the whole continuum of plausible lines, using first-order stochastic dominance. The question stops being “is it poorer at <em>this</em> line?” and becomes “is it poorer at <em>every</em> line at once?” A household is no longer simply poor or not poor by one official verdict; the comparison holds across the entire range a reasonable person might choose.</p>
+<p>That is a stronger claim than any single statistic, and a more honest one. When one distribution dominates another at every threshold, the conclusion no longer depends on where anyone draws the line — which takes the very thing critics usually attack, the cut-off, off the table entirely.</p>
+</section>
+<section id="put-honest-error-bars-on-a-survey-that-isnt-simple" class="level3">
+<h3 class="anchored" data-anchor-id="put-honest-error-bars-on-a-survey-that-isnt-simple">Put honest error bars on a survey that isn’t simple</h3>
+<p>ENIGH is not a simple random sample. It is stratified, clustered, and weighted — built to be efficient and representative, not to make a statistician’s life easy. A standard error computed as though the data were a clean random draw would understate the true uncertainty, sometimes badly, and a poverty gap that looks decisive on paper can dissolve once the design is taken seriously.</p>
+<p>So we carried the survey’s design through the statistics, using Huber linearisation, and reported the result not as a single test but as confidence bands running along the entire range of lines. For any threshold, you can see at a glance whether the gap between the state and the rest of the country is real or within noise. The uncertainty is quantified across the whole comparison, not asserted once at a convenient point — which is the difference between a result you can stand behind and one you merely hope holds.</p>
+</section>
+<section id="the-finding" class="level3">
+<h3 class="anchored" data-anchor-id="the-finding">The finding</h3>
+<p>Across that range, the State of Mexico carried a statistically significant excess of urban poverty — between 7 and 13 percentage points above the rest of the country. In people, that is on the order of 0.9 to 1.9 million more poor than the national pattern alone would predict.</p>
+<p>The width of that band is the honesty: it is what the data genuinely support once you stop pretending the line and the sampling are free choices. But even at its lower edge, the gap is too large, and too stable across every threshold, to be an artefact of where anyone chose to draw the line. The country’s most populous state was carrying a concentration of urban poverty that the national average quietly absorbed and hid — exactly the kind of thing careful measurement is for.</p>
+<hr>
+</section>
+</section>
+<section id="explainer-2-simulating-a-policy-household-by-household" class="level2">
+<h2 class="anchored" data-anchor-id="explainer-2-simulating-a-policy-household-by-household">Explainer 2 · Simulating a policy, household by household</h2>
+<p>Measurement tells you where poverty is. It does not tell you what would move it. The second paper takes the step that matters for policy: building a model you can run experiments on, then asking it what each lever is actually worth — and, crucially, who it reaches.</p>
+<section id="turn-are-you-poor-into-a-probability" class="level3">
+<h3 class="anchored" data-anchor-id="turn-are-you-poor-into-a-probability">Turn “are you poor?” into a probability</h3>
+<p>The move that makes everything else possible is to stop treating poverty as a yes-or-no verdict at a single line. We estimated a model of household consumption from each household’s characteristics — the schooling and employment of the head, transfers, remittances, location, and the rest — fitted to the survey with its design weights, so the better-off and the harder-to-reach both count for the right amount.</p>
+<p>Once you have that model, you can read off, for any household and any line, the <em>probability</em> that it falls below it. A household is no longer simply poor or not poor; it carries a 20% chance, or an 80% chance, of being under a given line — and a policy is whatever shifts that probability.</p>
+<p>The poverty rate of a whole group then becomes the average of those probabilities. That small reframing is what turns a static photograph of poverty into something you can intervene on and re-measure: a model, not just a number.</p>
+</section>
+<section id="change-one-thing-and-recompute-everyone" class="level3">
+<h3 class="anchored" data-anchor-id="change-one-thing-and-recompute-everyone">Change one thing, and recompute everyone</h3>
+<p>With the model in hand, you can simulate. Take every household head with no schooling, give them some, hold everything else fixed, recompute the probabilities, and read off how far poverty falls — for the population as a whole and for each subgroup separately.</p>
+<p>That yields what the paper calls the <em>implicit return</em> of a policy action: the share of existing poverty a given intervention would erase if you could deliver it. It is the same logic the macro-micro literature of Ravallion and Bourguignon uses — push a defined change through household microdata and read the distributional consequence directly, rather than collapsing it into one national average that tells you nothing about who was helped.</p>
+<p>It is a clean accounting, not a forecast. You are not predicting the future of the economy; you are asking the survey itself, household by household, what a specific lever is worth — and getting an answer with a distribution attached.</p>
+</section>
+<section id="be-honest-about-what-it-cant-say" class="level3">
+<h3 class="anchored" data-anchor-id="be-honest-about-what-it-cant-say">Be honest about what it can’t say</h3>
+<p>This is deliberately a first-round, non-behavioural calculation. It holds other behaviour fixed: it does not model the labour market re-adjusting, prices moving, or families changing what they do once the policy lands. So it answers a precise question — “who gains immediately, and by how much” — and it is explicit that the answer only holds for changes small enough not to disturb everything else.</p>
+<p>Naming that boundary is part of the method, not an apology for it. A first-round estimate that is honest about being first-round is more useful than a grand general-equilibrium story whose extra moving parts you can neither see nor check. The discipline — and it is the same discipline the UK housing papers run on — is claiming exactly what the data support, and not one inch more.</p>
+</section>
+<section id="what-actually-moves-the-needle" class="level3">
+<h3 class="anchored" data-anchor-id="what-actually-moves-the-needle">What actually moves the needle</h3>
+<p>The strongest lever by far was the education of the household head. Simulating a move from no schooling to some cut the probability of being poor by more than 30% in some subgroups — a larger effect than any other single change we tested, and robust enough to survive the honest error bars rather than washing out inside them.</p>
+<p>The rest were real but smaller. The head’s employment, government transfers, remittances, the head’s health, and indigenous status each moved poverty by somewhere between roughly 0.5% and 23%, depending heavily on which group you looked at. The heterogeneity was the point, not a nuisance: a lever that barely registers on the national average can be decisive for one subpopulation and almost irrelevant for another. That is precisely the information a policymaker needs in order to target, and precisely the information a single headline number destroys.</p>
+<p>Read those two papers together and the shape of the later work is already there — measure carefully before explaining, test a finding across every threshold, then change one thing and report who it reaches rather than whether it “works” on average.</p>
+</section>
+</section>
+<section id="why-both-papers-are-on-this-site" class="level2">
+<h2 class="anchored" data-anchor-id="why-both-papers-are-on-this-site">Why both papers are on this site</h2>
+<p>Two reasons. First, this is the earliest version of the craft the housing application rests on: teaching myself relational survey microdata, complex sampling, and a simulation literature from scratch, and carrying all of it through to peer review. The instinct on display — measure before you explain, refuse the convenient threshold, change one thing and read off who it helps — is the same instinct behind the UK housing programme, fifteen years on.</p>
+<p>Second, it predates today’s AI tooling entirely. The method, the judgement, and the mistakes were done by hand, years before any of these tools existed. It is not part of the five-paper UK housing programme; it is where the habits behind that programme were formed.</p>
+<hr>
+<p><em>Based on the two REMECAREN working papers (Escajeda, Galindo &amp; Galindo, 2010), in Spanish.</em></p>
+<p><strong>Read next:</strong> <a href="../../papers/escajeda-galindo-2010-poverty-measurement-edomex.pdf">Measurement paper (PDF)</a> · <a href="../../papers/escajeda-galindo-2010-microsimulation-poverty-edomex.pdf">Microsimulation paper (PDF)</a> · <a href="../general/abstracts-dossier.html">Research Portfolio</a> · <a href="../general/manifesto.html">Manifesto</a> · <a href="../general/cover-letter-master.html">Full Glory Cover Letter</a></p>
 
 
 </section>
