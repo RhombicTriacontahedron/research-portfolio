@@ -528,455 +528,87 @@
     ]
   },
   {
-    "objectID": "pages/general/cover-letter-one-page.html",
-    "href": "pages/general/cover-letter-one-page.html",
-    "title": "Read Me First",
+    "objectID": "pages/general/cover-letter-master.html",
+    "href": "pages/general/cover-letter-master.html",
+    "title": "Extended Cover Letter (Full Glory)",
     "section": "",
-    "text": "Carlos Galindo Escajeda · Social Policy Economist / Quantitative Researcher application · 1 June 2026\nOne-line fit. A microsimulation-and-poverty-measurement economist by training, with a decade of macro-finance quantitative practice in between, returning to distributional policy work and ready to bring a verified UK-PRS difference-in-differences design — across 290 English local authorities, 2019–2024 — to NEF’s fair-rents programme from day one.",
+    "text": "Carlos Galindo Escajeda · cgalindito@gmail.com · London, UK · +44 (0) 737-677-1146 Eligible to work in the UK\nDear Recruitment Team,\nReading NEF’s A Modern System for Fair Rents set me reading, then mulling, then following one idea into the next — and that is the honest origin of this application for the Social Policy Economist / Quantitative Researcher position. I did not begin with a grand design, least of all a plan to “correct” NEF. It was closer to self-discovery under a hard time limit: the questions I kept pulling on organically coalesced into five linked papers, and the deeper I dug, the more independent lines of inquiry converged — not on whether to intervene in the UK private rented sector, but on a single genuinely contentious question that I did not go looking for: the durability of the intervention, and how far the case for an emergency brake actually extends toward a permanent fair-rents regime. What follows is who built that, how, and the spirit in which I would want to do it from inside your team.\nThat kind of from-scratch sprint is not new for me — it is how I have worked since long before AI existed, and I have real confidence in it. My first serious research ran exactly this pattern. I was working on poverty and demographic risk in a context very different from the UK — Mexico’s low-income household sector — but the policy question was structurally similar to what NEF works on: how do we distribute the burden and benefit of social risk across the income distribution? That puzzle led me to microsimulate poverty-reduction policy. To do it, I had to teach myself three unfamiliar things at once, from a standing start: how relational databases actually work (well outside the clean tabular data of an econometrics course); how to handle the complex sampling design of SEDESOL’s household survey microdata — researching its structure and the processing gymnastics it demands until I could manipulate and explain it fluidly; and how the Ravallion microsimulation literature operated — estimating a household consumption model, then simulating a policy change to measure how much it shifts each subgroup’s probability of being poor. I did it in under six months, while finishing my master’s degree and writing a thesis on an entirely separate subject — a two-sector overlapping-generations model of household heterogeneity, growth, and convergence between rich and poor — and I learned to program in STATA for the microsimulation work specifically. That poverty work became peer-reviewed publications on poverty measurement and policy simulation. Then I did the part I am proudest of: I packaged the hard-won processing knowledge and gave it away, running 700-plus hours of STATA training so that undergraduates could finally mine survey microdata that had gone under-exploited precisely because it was so hard to process — feeding a stream of undergraduate theses. Multiplying the people around me, not only shipping my own output, is the disposition I would bring to your team.\nFrom there I spent the better part of a decade building quantitative models in macro-finance — emerging-market forecasting, Bayesian time-series and DSGE work, even reverse-engineering parts of the Federal Reserve’s FRB/US model to price scenarios the Fed and the market had missed — at Deutsche Bank, Bank of America, and a global macro fund. Applying to your social-policy team is, for me, a deliberate return to where I began, now with a macro modeller’s toolkit behind it.\nSo read my recent arrival in UK housing policy the right way. Until I saw this posting I was a tourist in it — but “tourist” is how nearly every one of my best projects has begun; it names how I work, not a ceiling on where I reach. Two honest caveats follow.\nFirst: do not read the theoretical papers as me wanting to live in abstraction. I am a firm believer in transforming material reality — that is what drew me to policy in the first place. But I also hold theory and empirical science in high esteem, not as substitutes but as complements: theory disciplines what we ask, empirics answers it, and the two together correct each other. You will find the theoretical papers are about hardening the welfare case for policies NEF already advocates for, grounding them in structural arguments that survive hostile scrutiny. I am not here to replace your policy expertise but to add a particular rigour to it. The arguments that decide housing policy are fought in public against economists trained in the orthodoxy and trusted by government — and they are won on that ground, with those tools. I can argue there: Breaking the Benchmark uses a mainstream second-best result to take apart the standard case against rent control. That is not the only thing I bring, but it is the hardest to find.\nI have written it out in full — what the five papers are actually for, why each paper contributes to a specific intervention rather than to the literature, and why theory and action are not in tension in this work: Manifesto.\nSecond: please do not expect me to recite every line flawlessly across an interview table. Across work this broad and this deep, recall matters less than whether it holds up on the page. What matters is that the work is verifiable — and that it is genuinely original and non-trivial, by orders of magnitude, not a repackaging of the familiar. I can rebuild any part of it on request, and that ability to reconstruct from first principles, rather than to recite, is the capability I would actually bring to your team.\nA brief note on method. Every load-bearing claim in these papers is verified against a primary source, survives adversarial challenge, or is flagged open — the discipline I would bring to NEF. The best evidence that this is real and not rhetorical is the fifth paper, A Progressing Problemshift: it applies mainstream philosophy-of-science standards to my own programme and, against my own immediate advantage, downgrades the strongest-looking verdict from “empirically progressive” to “empirically progressing” because the discriminating test is named but still unrun. That is the reflex I would bring to your team under external scrutiny: ambitious claims, strict boundaries, and transparent uncertainty where evidence has not yet closed the question.\nThe five papers map directly onto your specification.\nEmpirical rigour on large UK datasets. Fiscal Capture in the UK Private Rented Sector is independent, critical panel-data work: a difference-in-differences design across 290 English local authorities (2019–2024), exploiting the April 2020 LHA uplift and April 2021 re-freeze as directionally opposite policy events. Across 26 specifications the signature is consistent with landlord capture, with zero sign reversals — and I report the headline coefficient as a deliberate conservative lower bound, naming the attenuation channels (downward nominal rigidity, tenant lock-in) rather than inflating it.\nChallenging orthodoxy without overreach. Breaking the Benchmark dismantles the “price controls choke off supply” veto by modelling the UK PRS as a structurally distorted quadruple-object market — shelter, capitalised asset, credit collateral, and fiscal conduit at once. Lipsey–Lancaster second-best logic then cuts symmetrically: once the competitive conditions are absent, deregulation forfeits its automatic-efficiency claim exactly as much as regulation does. The paper defends your emergency brake and hardens it — no vacancy decontrol, plus pre-committed statutory exit criteria (sustained ~300,000 net completions, a bottom-quintile cost-burden threshold) that bind it to objective milestones rather than open-ended discretion.\nA welfare foundation aligned with your mission. Building on the materialist value theory Julio Huato develops in his book and in our co-authored paper, Labor Power as Numéraire, I derived a structural companion — Rent as Reproduction Cost — that grounds the argument in the physical reproduction of the working population rather than subjective utility. It reframes high rents as a structural deduction from households’ capacity to sustain and form themselves across generations, turning a CPI-anchored cap from an affordability patch into a structural correction with a coherent welfare rationale.\nThe five abstracts — one for each paper — are collected in the Research Portfolio. If you only wanted the fastest route through the research, I would suggest starting with Breaking the Benchmark, then Fiscal Capture, then Rent as Reproduction Cost. Nothing in this letter depends on your opening them; they are there only if you would like the shape of each argument in a minute rather than a full manuscript.\nIf you prefer a role-mapped profile snapshot before the full research narrative, use the Short CV (and Full Glory CV for complete detail).\nThe one place this process led me into genuinely contentious territory is exactly that durability question. The second-best argument disarms the orthodox veto robustly for the temporary emergency brake — but extending the case to a permanent fair-rents regime is the harder, more contested step, because the emergency rationale lapses as the underlying distortions are addressed, and a durable regime therefore needs a different and more demanding foundation than the brake itself supplies. I did not set out to find that fault line; multiple independent roads led me to it. I flag it not to lecture but because locating precisely where an argument becomes contestable is the most useful thing a defender can do — and because it is the first of many nuances on which I expect your experience to correct and deepen mine.\nThat is the spirit in which I apply: confident in the analytical contribution, but without illusions about how much I still have to learn. That is precisely why I am applying for a relatively junior role — to learn, over time and from seasoned colleagues, the institutional, political, and practical nuances my outside-in work almost certainly underestimates. I agree with your position and want to help strengthen it from within, not argue with it.\nMy toolkit (MATLAB/DYNARE, STATA, Python, R, EViews) and my capacity to deliver work that holds up under scrutiny1 are ready to support NEF’s research priorities immediately. I have already identified the next empirical gaps — ground-rent-share estimation and transaction-level search-friction markups — that NEF’s proposed PRS-database expansion is positioned to close. What I bring is rigour that lowers institutional risk, a housing programme that already shows I can deliver, and a real fit with your mission and a hunger to learn.\nI would welcome the opportunity to discuss how I can support NEF’s mission.\nSincerely,\nCarlos Galindo Escajeda",
     "crumbs": [
       "Home",
-      "Start Here",
-      "Read Me First"
+      "Cover Letters",
+      "Extended Cover Letter (Full Glory)"
     ]
   },
   {
-    "objectID": "pages/general/cover-letter-one-page.html#where-to-start",
-    "href": "pages/general/cover-letter-one-page.html#where-to-start",
-    "title": "Read Me First",
-    "section": "Where to start",
-    "text": "Where to start\n\nRead this first\n\nFull Glory Cover Letter — the full narrative of why I am applying and what the five papers are for.\n\nThe research — fast to deep\n\nFiscal Capture explainer (paper) · Rent-Control Veto explainer (paper) — the two papers that matter most to this application: the evidence, then the policy case.\nResearch Portfolio — all five works in one place: the claim, what is inside, and links to both the explainer and the full paper.\nManifesto — why the work exists.\n\nHow it was built\n\nThe Work Behind the Screen — the craft behind the pages.\n\nAbout the applicant\n\nShort CV — profile fit and methods in one screen.\nFull Glory CV — complete background depth.\nSubmitted Application Letter — the exact one-page letter submitted through the application portal.",
+    "objectID": "pages/general/cover-letter-master.html#footnotes",
+    "href": "pages/general/cover-letter-master.html#footnotes",
+    "title": "Extended Cover Letter (Full Glory)",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nA short video shows some of the method behind these papers. What makes the work hold up is years of prior expertise, built long before any of it ran.↩︎",
     "crumbs": [
       "Home",
-      "Start Here",
-      "Read Me First"
+      "Cover Letters",
+      "Extended Cover Letter (Full Glory)"
     ]
   },
   {
-    "objectID": "pages/general/cover-letter-one-page.html#three-things-nef-should-not-miss",
-    "href": "pages/general/cover-letter-one-page.html#three-things-nef-should-not-miss",
-    "title": "Read Me First",
-    "section": "Three things NEF should not miss",
-    "text": "Three things NEF should not miss\n\nThe quantitative work is already on UK housing data. The empirical anchor is a 26-specification DiD across 290 English local authorities, using the April 2020 LHA uplift and the April 2021 re-freeze as opposite policy shocks. The signature is consistent with landlord capture, with zero sign reversals, and is reported as a conservative lower bound rather than inflated.\nThe policy argument is built to survive the orthodox attack, not merely repeat the activist position. The paper Why the Rent-Control Veto Fails treats the UK PRS as a quadruple-object market — shelter, capitalised asset, credit collateral, and fiscal conduit — and uses second-best logic plus pre-committed exit criteria to defend intervention without pretending the textbook benchmark still governs.\nThe next questions are already mapped to the direction NEF has proposed. The package names specific empirical gaps a PRS-database expansion is positioned to close — ground-rent-share estimation and transaction-level search-friction markups — so the work points at NEF’s own proposed next steps, not at the academic literature.",
-    "crumbs": [
-      "Home",
-      "Start Here",
-      "Read Me First"
-    ]
-  },
-  {
-    "objectID": "pages/general/cover-letter-one-page.html#if-you-only-have-time-for-one-click",
-    "href": "pages/general/cover-letter-one-page.html#if-you-only-have-time-for-one-click",
-    "title": "Read Me First",
-    "section": "If you only have time for one click",
-    "text": "If you only have time for one click\nOpen the Research Portfolio. It puts all five works on one screen — the claim, what each contributes to the policy case, and what is inside — with a link to the plain-English explainer and the full paper for every one.",
-    "crumbs": [
-      "Home",
-      "Start Here",
-      "Read Me First"
-    ]
-  },
-  {
-    "objectID": "pages/general/abstracts-dossier.html",
-    "href": "pages/general/abstracts-dossier.html",
-    "title": "Research Portfolio",
+    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html",
+    "href": "pages/explainers/rent-reproduction-explainer-blog.html",
+    "title": "High Rent Isn’t Just Unaffordable. It’s Structurally Shrinking Britain’s Future.",
     "section": "",
-    "text": "Five papers, one connected argument about UK housing, rent regulation, and the welfare of working households. Each entry gives the claim in plain English, what it contributes to the policy case, and what is technically inside — with links to both the short explainer and the full paper.\nBefore the papers: what the research is actually for — Manifesto.\nSuggested path: read top to bottom — the evidence, the policy case, the welfare rationale, the foundation, and the self-audit.",
-    "crumbs": [
-      "Home",
-      "The Research",
-      "Research Portfolio"
-    ]
-  },
-  {
-    "objectID": "pages/general/abstracts-dossier.html#fiscal-capture-empirical-anchor",
-    "href": "pages/general/abstracts-dossier.html#fiscal-capture-empirical-anchor",
-    "title": "Research Portfolio",
-    "section": "Fiscal Capture — empirical anchor",
-    "text": "Fiscal Capture — empirical anchor\nQuantitative evidence that much of housing benefit is absorbed by landlords rather than tenants.\nPolicy use: any rise in housing support has to be paired with rent regulation, or it leaks into landlord yields instead of reaching the households it was meant for.\nInside: difference-in-differences across 290 local authorities over two opposite LHA events (the April 2020 uplift and the April 2021 re-freeze); 26 specifications, every coefficient negative, zero sign reversals; the headline effect is reported as a conservative lower bound.\nRead the explainer · Read the full paper",
-    "crumbs": [
-      "Home",
-      "The Research",
-      "Research Portfolio"
-    ]
-  },
-  {
-    "objectID": "pages/general/abstracts-dossier.html#why-the-rent-control-veto-fails-clearing-the-ground-for-regulation",
-    "href": "pages/general/abstracts-dossier.html#why-the-rent-control-veto-fails-clearing-the-ground-for-regulation",
-    "title": "Research Portfolio",
-    "section": "Why the Rent-Control Veto Fails — clearing the ground for regulation",
-    "text": "Why the Rent-Control Veto Fails — clearing the ground for regulation\nWhy the textbook “rent control chokes off supply” objection fails in the actual UK market. (Working paper: Breaking the Benchmark.)\nPolicy use: the rebuttal to the standard veto on rent regulation — it defends an emergency rent brake, with no vacancy decontrol and pre-committed statutory exit criteria.\nInside: models the private rented sector as a quadruple-object market (shelter, capitalised asset, credit collateral, fiscal conduit); applies Lipsey–Lancaster second-best logic.\nRead the explainer · Read the full paper",
-    "crumbs": [
-      "Home",
-      "The Research",
-      "Research Portfolio"
-    ]
-  },
-  {
-    "objectID": "pages/general/abstracts-dossier.html#rent-as-reproduction-cost-welfare-rationale",
-    "href": "pages/general/abstracts-dossier.html#rent-as-reproduction-cost-welfare-rationale",
-    "title": "Research Portfolio",
-    "section": "Rent as Reproduction Cost — welfare rationale",
-    "text": "Rent as Reproduction Cost — welfare rationale\nTreats rent as a cost of sustaining the working population across generations, not as ordinary consumption.\nPolicy use: a principled basis for where to set the cap — pegged to reproduction cost (CPI-anchored), not to financialised market rents.\nInside: derives a welfare-optimal rent ceiling consistent with household continuation; conditional on post-2008 buy-to-let overvaluation, market rents exceed it; the result is a scoped first-order perturbation, not a general law.\nRead the explainer · Read the full paper",
-    "crumbs": [
-      "Home",
-      "The Research",
-      "Research Portfolio"
-    ]
-  },
-  {
-    "objectID": "pages/general/abstracts-dossier.html#labor-power-as-numéraire-foundation",
-    "href": "pages/general/abstracts-dossier.html#labor-power-as-numéraire-foundation",
-    "title": "Research Portfolio",
-    "section": "Labor Power as Numéraire — foundation",
-    "text": "Labor Power as Numéraire — foundation\nThe underlying value theory: why competitive markets can systematically fail the people whose labour sustains the economy.\nWhat it secures: the welfare foundation the other arguments rest on — it makes the case structural rather than a value judgment opponents can wave away. Co-authored (Huato and Galindo).\nInside: proposes Labour-Power Dominance as a welfare criterion; shows competitive equilibria fail it under unequal initial wealth even with complete information; derives implications for asset pricing and macro-finance.\nRead the explainer · Read the full paper",
-    "crumbs": [
-      "Home",
-      "The Research",
-      "Research Portfolio"
-    ]
-  },
-  {
-    "objectID": "pages/general/abstracts-dossier.html#a-progressing-problemshift-self-audit",
-    "href": "pages/general/abstracts-dossier.html#a-progressing-problemshift-self-audit",
-    "title": "Research Portfolio",
-    "section": "A Progressing Problemshift — self-audit",
-    "text": "A Progressing Problemshift — self-audit\nA transparent appraisal of the whole body of work: what is established, what is conditional, and what is still open.\nWhat it secures: trustworthy advocacy — it names the one discriminating test still unrun, so the case cannot be ambushed on a hidden weakness.\nInside: a Lakatosian reconstruction of the research programme; the verdict is split and stated plainly — theoretically progressive and non-degenerating, but empirically progressing, not yet progressive, because the discriminating demographic test is named but unrun.\nRead the explainer · Read the full paper",
-    "crumbs": [
-      "Home",
-      "The Research",
-      "Research Portfolio"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html",
-    "href": "pages/explainers/progressing-problemshift-explainer-blog.html",
-    "title": "We Built a Research Programme. Then We Tried to Break It. Here’s What Survived.",
-    "section": "",
-    "text": "Heterodox economics rarely gets a fair hearing. Its premises are dismissed at the threshold — too political, too unconventional, insufficiently neutral — without anyone pausing to ask whether the body of work has actually been developing in a disciplined and progressive way. The question of whether a heterodox programme is internally rigorous — whether it is generating new content rather than papering over anomalies — is simply never reached.\nThis paper insists on reaching that question for a specific four-paper sequence on labour power, housing, and value. Not to endorse it. Not to prove it true. To audit it fairly.",
+    "text": "The standard account of the housing crisis is told in affordability language: rents are too high relative to incomes, and low-income households are squeezed. That framing is accurate. It is also incomplete. This paper argues that what is missing is a theory of what rent actually is — and once you have that theory, the case for a structural response becomes considerably stronger than the affordability story alone provides.\nRent, on this account, is not simply a large line item in the household budget. It is a claim on the material capacity of working households to sustain and reproduce themselves over time. That distinction matters enormously for what policy can justify.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Progressing Problemshift Explainer"
+      "Rent as Reproduction Cost Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#four-papers-one-argument",
-    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#four-papers-one-argument",
-    "title": "We Built a Research Programme. Then We Tried to Break It. Here’s What Survived.",
-    "section": "1. Four Papers, One Argument",
-    "text": "1. Four Papers, One Argument\nThe sequence at stake consists of four pieces that work together as one argument distributed across four different analytical levels.\nA theory paper takes the reproduction of labour power — rather than subjective consumer preferences — as the primitive from which value is reckoned, and replaces the standard welfare criterion of Pareto efficiency with one it calls Labor-Power Dominance. A structural paper derives from that criterion a welfare-consistent ceiling on rent, and identifies the mechanisms by which buy-to-let financialization forces rents above that ceiling. An empirical paper tests, across 290 English local authorities and two natural experiments, whether housing benefit is being captured by landlords rather than reaching tenants. A policy paper argues that the standard economic objection to rent regulation is inapplicable to the market Britain actually has.\nThese are not four separate arguments about related topics. They share a single hard core — the claim that labour power reproduction is the fundamental unit of social value — and address four different implications of that core. Strip out the connecting tissue and each paper becomes weaker. Read together, they constitute a coherent programme.",
+    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#what-a-pound-spent-on-rent-actually-takes",
+    "href": "pages/explainers/rent-reproduction-explainer-blog.html#what-a-pound-spent-on-rent-actually-takes",
+    "title": "High Rent Isn’t Just Unaffordable. It’s Structurally Shrinking Britain’s Future.",
+    "section": "1. What a Pound Spent on Rent Actually Takes",
+    "text": "1. What a Pound Spent on Rent Actually Takes\nWhen a household pays rent, the money that leaves is not like money spent on anything else in the budget. It is not consumed. It does not leave behind a durable good or an enhanced capability. It transfers — from the tenant’s resources for feeding, clothing, and sustaining a family — to the landlord’s income stream.\nEvery pound above the minimum necessary to maintain the landlord’s participation is a pound that cannot go toward nutrition, childcare, education, health, or the basic maintenance of household capacity across generations. In political economy terms: it is a transfer from variable capital — the resources needed to reproduce the capacity to work — to ground rent. The tenant class does not simply get less disposable income. Its material capacity for social reproduction is structurally compressed.\nThis is not rhetorical. It follows from embedding housing costs into the logic of labor power reproduction. Population dynamics — how many workers, in what condition, are available in the next period — depend on the consumption base available for reproduction. When the rent share rises, that base shrinks. The consequence is not just a budget squeeze. It is a structural reduction in the resources available to maintain and renew the working population over time.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Progressing Problemshift Explainer"
+      "Rent as Reproduction Cost Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#the-lakatosian-test-and-why-its-the-right-one",
-    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#the-lakatosian-test-and-why-its-the-right-one",
-    "title": "We Built a Research Programme. Then We Tried to Break It. Here’s What Survived.",
-    "section": "2. The Lakatosian Test — and Why It’s the Right One",
-    "text": "2. The Lakatosian Test — and Why It’s the Right One\nThe philosopher of science Imre Lakatos distinguished between two kinds of research programme development. A degenerating programme, when it faces a challenge, adds an untestable auxiliary hypothesis to patch the anomaly — rescuing the core at the cost of making the programme less falsifiable. A progressing programme, by contrast, responds to challenges by revising its protective belt in ways that reduce the programme’s degrees of freedom and increase its explanatory reach. Genuine progress is measured by whether the belt revision restricts the modeller rather than giving them more room.\nThe paper applies this framework to the four-paper sequence and delivers a deliberately split verdict.\nThe programme is theoretically progressive. The most important revision in the sequence converted an unproven conjecture about demographic risk — introduced to address a specific anomaly in the formal model — into a signed, closed-form restriction tied to four independently observable parameters. That revision did not add flexibility. It subtracted it. The coefficient that had been a free conjecture became derivable from conditions with empirical content. That is the structural opposite of an ad hoc rescue.\nThe programme is non-degenerating. Under recorded attacks on the hard core itself — challenges to the most fundamental commitments — the core was preserved through principled refusal and belt revision, not by inventing new untestable claims. The standard of proof required is that the core stays fixed while the belt absorbs and responds to pressure. That standard was met.\nBut the programme is empirically progressing, not yet empirically progressive. This is the honest part.",
+    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#housing-benefit-pays-the-landlord-not-the-tenant",
+    "href": "pages/explainers/rent-reproduction-explainer-blog.html#housing-benefit-pays-the-landlord-not-the-tenant",
+    "title": "High Rent Isn’t Just Unaffordable. It’s Structurally Shrinking Britain’s Future.",
+    "section": "2. Housing Benefit Pays the Landlord, Not the Tenant",
+    "text": "2. Housing Benefit Pays the Landlord, Not the Tenant\nThe UK government spends over £20 billion a year on housing support. The published rationale is that this money helps low-income tenants afford homes. The empirical record is more troubling.\nGibbons and Manning (2006), using data from the 1990s UK housing benefit reforms, found that between 60% and two-thirds of the value of the benefit accrued to landlords rather than tenants — absorbed through higher rents in areas where benefit recipients were concentrated. DWP’s own econometric analysis of the 2011–12 Local Housing Allowance cuts found statistically significant rent reductions in binding areas: when the government reduced what it would pay, landlords reduced what they charged. The benefit had been functioning as a yield floor, not as an income support.\nThe structural reason for this is not landlord greed. It is that in areas with concentrated benefit-dependent households, the LHA rate tells landlords the maximum their tenants can pay — and the government will pay it. Landlords price to that ceiling because it is rational to do so. The subsidy does not reach the tenant as improved welfare. It reaches the landlord as income. This mechanism — fiscal capture — persists not because landlords are individually dishonest but because the market structure makes it profit-maximizing.\nThe companion empirical paper (Galindo 2026b) tests this directly using two natural experiments from the 2020 uplift and 2021 re-freeze of LHA rates, across 290 English local authorities and 26 analytical specifications. The reproduction-cost framework in this paper provides the structural theory of why fiscal capture is mechanically necessary — not just behaviorally observed.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Progressing Problemshift Explainer"
+      "Rent as Reproduction Cost Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#the-result-that-couldnt-be-claimed-and-why-that-matters",
-    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#the-result-that-couldnt-be-claimed-and-why-that-matters",
-    "title": "We Built a Research Programme. Then We Tried to Break It. Here’s What Survived.",
-    "section": "3. The Result That Couldn’t Be Claimed — and Why That Matters",
-    "text": "3. The Result That Couldn’t Be Claimed — and Why That Matters\nThe highest standard of Lakatosian progress requires not merely corroboration but corroboration of a novel prediction — a result that the programme predicts and its rivals do not, and that the rivals’ alternative account cannot accommodate after the fact.\nThe fiscal capture finding — that housing benefit is captured by landlords rather than reaching tenants — looks at first glance like exactly this kind of result. The reproduction framework predicts it structurally, not just behaviorally. The empirical paper confirms it across 26 different analytical specifications with zero sign reversals. That is an unusually robust finding.\nThe paper’s own methodological discipline required that this result be demoted. The problem is observational equivalence: a simpler behavioral story — landlords follow the LHA rate — predicts the same empirical pattern. The reproduction framework’s prediction is not, in this instance, a genuinely novel prediction that discriminates the programme from its rival. It is shared content. Both the programme and a much simpler story predict fiscal capture.\nThe paper demotes its own strongest-looking result rather than claim credit for it. This is unusual in academic economics, where the incentive runs powerfully in the other direction.\nWhat remains as the genuine discriminating frontier are the programme’s demographic predictions: that binding areas, with higher concentrations of LHA-dependent households, should show differential household formation rates and population dynamics compared with non-binding areas. Those tests are registered, explicitly falsifiable, and still open.",
+    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#buy-to-let-overvaluation-forces-rents-above-the-welfare-minimum",
+    "href": "pages/explainers/rent-reproduction-explainer-blog.html#buy-to-let-overvaluation-forces-rents-above-the-welfare-minimum",
+    "title": "High Rent Isn’t Just Unaffordable. It’s Structurally Shrinking Britain’s Future.",
+    "section": "3. Buy-to-Let Overvaluation Forces Rents Above the Welfare Minimum",
+    "text": "3. Buy-to-Let Overvaluation Forces Rents Above the Welfare Minimum\nPost-2008 financialization pushed buy-to-let asset prices above their fundamental values. That is the empirical premise — motivated by the supply inelasticity, credit expansion, and asset-price inflation documented in the companion policy paper. Conditional on that premise, the implications for rent levels are stark.\nAt inflated prices, debt service on an interest-only mortgage requires a rental income above what would be necessary if the asset were priced at its fundamental value — the price consistent with a landlord earning minimum participation returns at undistorted yields. The difference between current market rents and that welfare-optimal minimum is what the paper calls the demographic externality discount.\nThe tenant class — excluded from buy-to-let ownership by the same capital requirements that enabled landlords to leverage into the market — cannot correct this externality through market participation. There is no mechanism by which tenants can bid the overvaluation back out of the system. The market equilibrium is structurally above the social optimum, and the gap is a necessary consequence of the asset-price inflation that the BTL expansion produced.\nThis is different from a standard affordability argument. It is not that landlords are charging too much by some distributional standard. It is that competitive equilibrium in this market produces rents that exceed the welfare-consistent minimum as a structural consequence of how the market was built.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Progressing Problemshift Explainer"
+      "Rent as Reproduction Cost Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#what-this-means-for-the-hiring-package",
-    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#what-this-means-for-the-hiring-package",
-    "title": "We Built a Research Programme. Then We Tried to Break It. Here’s What Survived.",
-    "section": "4. What This Means for the Hiring Package",
-    "text": "4. What This Means for the Hiring Package\nFor a research role at NEF, the methodological point of this paper is also a practical one. The programme demonstrates its credibility not only by accumulating positive results but by its willingness to demote convenient findings when they do not meet the standard it claims to hold. That discipline is the foundation on which policy recommendations can be trusted.\nA programme that claims to have proven more than it has is politically useful in the short term and fragile under scrutiny. A programme that is explicit about what it has established, what remains open, and what would refute it is the kind of thing that can sustain serious advocacy. The distinction is exactly what the paper makes.\nThe registered discriminating tests also create a forward research agenda. If the demographic predictions are confirmed at scale — differential household formation and population growth in high-intensity binding areas — that would be genuine novel corroboration in the Lakatosian sense. It is an empirically tractable question with data that exist. It is waiting to be answered.\n\nBased on the working paper “A Progressing Problemshift” (2026).\nRead next: Full paper · Research Portfolio · Manifesto · Full Glory Cover Letter",
+    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#a-cpi-ceiling-is-a-structural-correction-not-a-patch",
+    "href": "pages/explainers/rent-reproduction-explainer-blog.html#a-cpi-ceiling-is-a-structural-correction-not-a-patch",
+    "title": "High Rent Isn’t Just Unaffordable. It’s Structurally Shrinking Britain’s Future.",
+    "section": "4. A CPI Ceiling Is a Structural Correction, Not a Patch",
+    "text": "4. A CPI Ceiling Is a Structural Correction, Not a Patch\nThe reproduction framework provides the strongest possible welfare foundation for the NEF emergency brake — stronger than the generic second-best argument in the companion policy paper, which establishes that the orthodox veto is inapplicable but does not identify what rents should be.\nThe LPD-consistent rent is defined precisely: the minimum rent consistent with landlord participation at fundamental — non-inflated — asset prices. A CPI-anchored growth ceiling counteracts the escalating rent-to-income ratio that the overvaluation dynamic generates. It does not freeze rents at an arbitrary level. It prevents further reproduction compression by capping the pace at which rent claims on household resources can grow.\nThis is a structural correction aimed at the reproduction conditions of the working population. It answers the question the affordability framing cannot: not just “are rents too high?” but “what should rents be, as a matter of social welfare?” — and the answer is that the welfare-consistent ceiling is the one that allows landlord participation without the overvaluation premium that financialization has built into the market.\nThe framework additionally predicts that binding areas — those where LHA concentrated benefit-dependent households at high intensity — should show differential household formation and demographic patterns compared with non-binding areas. These discriminating tests remain an open empirical frontier: they are what would distinguish this structural account from a simpler behavioral story about landlords following the LHA rate.\n\nBased on the working paper “Rent as Reproduction Cost” (2026).\nRead next: Full paper · Research Portfolio · Manifesto · Full Glory Cover Letter",
     "crumbs": [
       "Home",
       "Explainers",
-      "Progressing Problemshift Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/lha-explainer-blog.html",
-    "href": "pages/explainers/lha-explainer-blog.html",
-    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
-    "section": "",
-    "text": "The UK government spends over £20 billion a year on housing support. The official claim: this money helps low-income people afford their homes. The empirical reality, now measured with government data across 290 English local authorities and two policy experiments, tells a different story. Much of it ends up with landlords.\nNot through fraud. Not through individual bad actors. Through a structural mechanism that has been embedded in the design of Local Housing Allowance since its introduction — and that two natural experiments, across 26 different analytical methods, now confirm.\nHere is what we found, and what it means.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "LHA Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/lha-explainer-blog.html#the-floor-that-moves-the-ceiling",
-    "href": "pages/explainers/lha-explainer-blog.html#the-floor-that-moves-the-ceiling",
-    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
-    "section": "1. The Floor That Moves the Ceiling",
-    "text": "1. The Floor That Moves the Ceiling\nIn areas where many tenants rely on housing benefit, the Local Housing Allowance (LHA) does not operate as a helping hand. It operates as a price anchor. Landlords set rents at or near the LHA rate because they know two things: that is the maximum their tenants can pay, and the government will pay it.\nThe consequence is fiscal capture: the public transfer that is nominally for tenants structurally accrues to property owners. When the LHA goes up, rents follow. When it is frozen, rent growth slows. The benefit does not improve the tenant’s position — it improves the landlord’s revenue.\nThis is not a new claim. Gibbons and Manning (2006) found that 60–67% of UK housing benefit accrues to landlords rather than tenants, using data from the 1990s reforms. DWP’s own econometric analysis of the 2011–12 LHA cuts confirmed rent reductions in the areas most affected. What has been missing is direct, high-resolution evidence from the most recent policy cycle — and a theory that explains why the mechanism persists even in a nominally competitive rental market.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "LHA Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/lha-explainer-blog.html#parliament-accidentally-ran-two-experiments",
-    "href": "pages/explainers/lha-explainer-blog.html#parliament-accidentally-ran-two-experiments",
-    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
-    "section": "2. Parliament Accidentally Ran Two Experiments",
-    "text": "2. Parliament Accidentally Ran Two Experiments\nGovernments rarely provide economists with clean natural experiments. The 2020–21 LHA policy cycle is a rare exception.\nApril 2020: After years of freezing LHA below market rents, the government restored it to the 30th percentile of local market rents — the largest uprating since 2016. If fiscal capture is real, rents in high-benefit areas should have accelerated immediately. Landlords could charge more because their tenants’ budgets had just expanded.\nApril 2021: LHA was re-frozen at the 2020 cash level, while market rents continued rising. If fiscal capture is real, rent growth in those same areas should have decelerated — the floor was now being held below the rising market, and the yield advantage of binding areas should fade.\nBoth predictions come true in the data. Areas with higher concentrations of LHA-dependent households saw rent growth accelerate at the 2020 uplift and decelerate at the 2021 re-freeze — exactly as the fiscal capture theory predicts, and exactly opposite to what you would observe if LHA were operating as a neutral income support rather than a price anchor.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "LHA Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/lha-explainer-blog.html#we-checked-26-different-ways.-the-answer-was-always-the-same.",
-    "href": "pages/explainers/lha-explainer-blog.html#we-checked-26-different-ways.-the-answer-was-always-the-same.",
-    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
-    "section": "3. We Checked 26 Different Ways. The Answer Was Always the Same.",
-    "text": "3. We Checked 26 Different Ways. The Answer Was Always the Same.\nA single finding can always be dismissed: statistical noise, a convenient choice of time window, a sample that was selected to produce the desired result. We therefore ran 26 different versions of the analysis — varying:\n\nThe time window (different start and end dates, including a version that uses the 2020 uplift period itself as the comparison baseline)\nWhether to control for post-COVID urban density recovery\nWhether to restrict the sample to lower-migration areas\nThe bedroom type (1-bed, 2-bed, 3-bed, 4-bed separately)\nWhether to down-weight large local authorities\nWhether to treat the treatment variable as continuous or as a binary threshold\nThe clustering of standard errors\n\nAcross all 26 analyses — temporal, spatial, compositional, measurement — every single estimated effect points in the same direction. Zero sign reversals. This is not cherry-picking; it is structural consistency. The fiscal capture pattern persists under every analytical lens.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "LHA Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/lha-explainer-blog.html#it-is-not-displacement",
-    "href": "pages/explainers/lha-explainer-blog.html#it-is-not-displacement",
-    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
-    "section": "4. It Is Not Displacement",
-    "text": "4. It Is Not Displacement\nThe most common objection to this kind of finding is that the pattern reflects population displacement, not fiscal capture. As LHA is frozen and real incomes fall, lower-income households move out of high-benefit areas. Rents “slow” because the remaining tenants are wealthier — not because landlords are responding to the LHA rate.\nWe tested this directly. We excluded the 30 English local authorities with the highest rates of net in-migration — the places most likely to be experiencing significant population churn — and re-ran the analysis on the remaining 261 areas. The result did not disappear. It got slightly stronger: the estimated effect is more negative in non-displacement areas than in the full sample.\nFiscal capture is not a displacement artefact. It operates in areas where the population is stable. It is structural, not compositional.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "LHA Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/lha-explainer-blog.html#the-headline-number-is-a-lower-bound",
-    "href": "pages/explainers/lha-explainer-blog.html#the-headline-number-is-a-lower-bound",
-    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
-    "section": "5. The Headline Number Is a Lower Bound",
-    "text": "5. The Headline Number Is a Lower Bound\nThe primary estimate — roughly a 1.7 percentage point reduction in rent growth per unit of LHA intensity — may sound modest. Two features of the study design guarantee it is an underestimate.\nFirst, landlords are reluctant to cut nominal rents even when their LHA floor retreats below the market. This downward nominal rigidity attenuates the measured effect of the re-freeze, particularly in the early quarters after April 2021.\nSecond, in dense urban areas — which are also high-LHA-intensity areas — post-COVID demand for private renting surged for reasons entirely unrelated to LHA policy. This independent demand recovery in binding areas partially masks the rent deceleration from the freeze.\nWhen we strip out both sources of attenuation — by using the 2020 uplift period as the comparison baseline (which identifies the predicted reversal from accelerated growth at the uplift to decelerated growth at the re-freeze) and controlling explicitly for urban density recovery — the estimated effect is roughly four times larger. That is the fiscal capture signal, isolated from the noise.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "LHA Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/lha-explainer-blog.html#the-reproduction-trap",
-    "href": "pages/explainers/lha-explainer-blog.html#the-reproduction-trap",
-    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
-    "section": "6. The Reproduction Trap",
-    "text": "6. The Reproduction Trap\nThe Labor-Power as Numéraire (LPN) framework provides the theoretical grounding for why this mechanism is not merely a market distortion but a structural feature of the UK housing economy.\nHousing costs for benefit-dependent households are not just a consumption expenditure — they are inputs to social reproduction. The capacity to work, to form households, to raise children requires that non-housing consumption — food, childcare, transport, heating — remain above a threshold. LHA in high-benefit areas is not primarily a housing supplement; it is a reproduction subsidy maintaining that threshold.\nWhen LHA is frozen and market rents continue rising, the real value of that subsidy falls. The rent deceleration we measure is not merely landlords receiving slightly less revenue — it is the reproduction constraint tightening on the least economically secure households in England. Households do not simply substitute away from housing; they face compressing capacity across all non-housing necessities simultaneously.\nThe LPN framework predicts that the fiscal capture mechanism should therefore produce demographic consequences — slower household formation, slower population growth — in high-intensity areas after the re-freeze, independently of the rent growth deceleration itself. Testing that prediction is the next step in this research programme.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "LHA Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/lha-explainer-blog.html#what-comes-next",
-    "href": "pages/explainers/lha-explainer-blog.html#what-comes-next",
-    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
-    "section": "What Comes Next",
-    "text": "What Comes Next\nThe finding is clear: LHA cannot be reformed in isolation. As long as housing benefit can be freely capitalised into rents, raising the benefit raises rents, and the net benefit to tenants approaches zero. The Gibbons–Manning finding from 2006 — that the majority of housing benefit flows to landlords — has now been confirmed with updated, high-resolution data across the most recent policy cycle.\nTwo changes are necessary together. First, a rent ceiling calibrated to the LHA rate in binding local authorities — not a blanket national freeze, but a binding constraint on LHA-anchored tenancies that prevents landlords from extracting above the benefit in areas where fiscal capture is confirmed. Second, reformed LHA design that supplements tenant consumption directly rather than subsidising landlord revenue flows through the rent mechanism.\nNeither change is straightforward. Both are politically contested. But the evidence that they are necessary — 290 local authorities, two natural experiments, 26 empirical tests, consistent direction — is now on the table.\nThe housing benefit was designed to help people who cannot afford market rents. The data now says it has been, in large part, helping their landlords instead. That is a political choice. It can be made differently.\n\nRead next: Full paper · Research Portfolio · Manifesto · Full Glory Cover Letter\nBased on the working paper “Fiscal Capture in the UK Private Rented Sector: Evidence from Two LHA Policy Events” (2026). For the full empirical analysis, including robustness specifications and formal results, see the working paper.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "LHA Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html",
-    "href": "pages/earlier-research/poverty-microsimulation-mexico.html",
-    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
-    "section": "",
-    "text": "Earlier, pre-AI research — and separate from the five-paper UK housing programme on this site. These two peer-reviewed papers (in Spanish, 2010, with Celina Escajeda and Oscar Galindo) are the early-career work the application refers to: the first time I taught myself survey microdata and the microsimulation literature from a standing start, and carried it through to publication.",
-    "crumbs": [
-      "Home",
-      "Earlier Research (pre-AI)",
-      "Poverty Microsimulation (Mexico, 2010)"
-    ]
-  },
-  {
-    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#the-question",
-    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#the-question",
-    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
-    "section": "The question",
-    "text": "The question\nIn 2010, with two colleagues at the Universidad Autónoma Chapingo, I took up a question that turns out to be the same one NEF asks about Britain: how is poverty actually distributed across a population, and what would a given policy do to it? The setting was the State of Mexico — the country’s most populous — and the raw material was the national household income and expenditure survey, ENIGH 2008: a large, stratified, clustered sample, with roughly 2,480 of its households falling in the state we cared about.\nThe work split into two papers, and they answer two different questions. The first asks how you should measure poverty before you say anything about it — what you count, where you draw the line, and how sure you are. The second asks the harder, policy-facing question: if you could change one thing about a household, how much poverty would move, and for whom? Each gets its own explainer below.",
-    "crumbs": [
-      "Home",
-      "Earlier Research (pre-AI)",
-      "Poverty Microsimulation (Mexico, 2010)"
-    ]
-  },
-  {
-    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#explainer-1-measuring-poverty-before-explaining-it",
-    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#explainer-1-measuring-poverty-before-explaining-it",
-    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
-    "section": "Explainer 1 · Measuring poverty before explaining it",
-    "text": "Explainer 1 · Measuring poverty before explaining it\nBefore you can argue about whether a place is poor, you have to settle three things that most poverty statistics leave unspoken: what you measure, where you draw the line, and how sure you are of the answer. Almost all of the disagreement in the field hides inside those three choices. This first paper is about getting them right before drawing any conclusion at all — because a finding is only as honest as the choices that produced it.\n\nMeasure what people spend, not what they say they earn\nWe built the welfare measure from consumption — what each household actually spends per person in a month, deflated to a common August-2008 price base — rather than from reported income. That is a deliberate departure from the income-based headlines most poverty debates run on.\nThe reasoning is practical and slightly counter-intuitive. Incomes are lumpy, seasonal, and under-reported, especially at the bottom of the distribution, where an informal wage or a bad month never shows up cleanly on a survey form. Spending is steadier: households smooth it across good months and bad, and it tracks the standard of living a family can actually sustain rather than the one a single pay-cycle happens to imply.\nChoosing the ruler is not a technicality — it decides who counts as poor before any policy argument begins. A consumption measure pulls the count toward households whose realised welfare is low, not merely those whose reported income dipped in the survey week. That is precisely the population an anti-poverty policy is trying to reach, and getting it wrong at this step quietly biases everything downstream.\n\n\nDon’t trust one poverty line — test every line at once\nThe usual fight in poverty measurement is over the line. Set it a little higher or lower and the headline number moves, so the argument quietly becomes about the threshold instead of about the place. Mexico’s official CONEVAL lines are one defensible choice among many, and committing to any single number invites the obvious objection that you picked the cut-off that gave you the answer you wanted.\nSo we refused the choice. Instead of selecting one line and defending it, we compared the State of Mexico against the rest of the country across the whole continuum of plausible lines, using first-order stochastic dominance. The question stops being “is it poorer at this line?” and becomes “is it poorer at every line at once?” A household is no longer simply poor or not poor by one official verdict; the comparison holds across the entire range a reasonable person might choose.\nThat is a stronger claim than any single statistic, and a more honest one. When one distribution dominates another at every threshold, the conclusion no longer depends on where anyone draws the line — which takes the very thing critics usually attack, the cut-off, off the table entirely.\n\n\nPut honest error bars on a survey that isn’t simple\nENIGH is not a simple random sample. It is stratified, clustered, and weighted — built to be efficient and representative, not to make a statistician’s life easy. A standard error computed as though the data were a clean random draw would understate the true uncertainty, sometimes badly, and a poverty gap that looks decisive on paper can dissolve once the design is taken seriously.\nSo we carried the survey’s design through the statistics, using Huber linearisation, and reported the result not as a single test but as confidence bands running along the entire range of lines. For any threshold, you can see at a glance whether the gap between the state and the rest of the country is real or within noise. The uncertainty is quantified across the whole comparison, not asserted once at a convenient point — which is the difference between a result you can stand behind and one you merely hope holds.\n\n\nThe finding\nAcross that range, the State of Mexico carried a statistically significant excess of urban poverty — between 7 and 13 percentage points above the rest of the country. In people, that is on the order of 0.9 to 1.9 million more poor than the national pattern alone would predict.\nThe width of that band is the honesty: it is what the data genuinely support once you stop pretending the line and the sampling are free choices. But even at its lower edge, the gap is too large, and too stable across every threshold, to be an artefact of where anyone chose to draw the line. The country’s most populous state was carrying a concentration of urban poverty that the national average quietly absorbed and hid — exactly the kind of thing careful measurement is for.",
-    "crumbs": [
-      "Home",
-      "Earlier Research (pre-AI)",
-      "Poverty Microsimulation (Mexico, 2010)"
-    ]
-  },
-  {
-    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#explainer-2-simulating-a-policy-household-by-household",
-    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#explainer-2-simulating-a-policy-household-by-household",
-    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
-    "section": "Explainer 2 · Simulating a policy, household by household",
-    "text": "Explainer 2 · Simulating a policy, household by household\nMeasurement tells you where poverty is. It does not tell you what would move it. The second paper takes the step that matters for policy: building a model you can run experiments on, then asking it what each lever is actually worth — and, crucially, who it reaches.\n\nTurn “are you poor?” into a probability\nThe move that makes everything else possible is to stop treating poverty as a yes-or-no verdict at a single line. We estimated a model of household consumption from each household’s characteristics — the schooling and employment of the head, transfers, remittances, location, and the rest — fitted to the survey with its design weights, so the better-off and the harder-to-reach both count for the right amount.\nOnce you have that model, you can read off, for any household and any line, the probability that it falls below it. A household is no longer simply poor or not poor; it carries a 20% chance, or an 80% chance, of being under a given line — and a policy is whatever shifts that probability.\nThe poverty rate of a whole group then becomes the average of those probabilities. That small reframing is what turns a static photograph of poverty into something you can intervene on and re-measure: a model, not just a number.\n\n\nChange one thing, and recompute everyone\nWith the model in hand, you can simulate. Take every household head with no schooling, give them some, hold everything else fixed, recompute the probabilities, and read off how far poverty falls — for the population as a whole and for each subgroup separately.\nThat yields what the paper calls the implicit return of a policy action: the share of existing poverty a given intervention would erase if you could deliver it. It is the same logic the macro-micro literature of Ravallion and Bourguignon uses — push a defined change through household microdata and read the distributional consequence directly, rather than collapsing it into one national average that tells you nothing about who was helped.\nIt is a clean accounting, not a forecast. You are not predicting the future of the economy; you are asking the survey itself, household by household, what a specific lever is worth — and getting an answer with a distribution attached.\n\n\nBe honest about what it can’t say\nThis is deliberately a first-round, non-behavioural calculation. It holds other behaviour fixed: it does not model the labour market re-adjusting, prices moving, or families changing what they do once the policy lands. So it answers a precise question — “who gains immediately, and by how much” — and it is explicit that the answer only holds for changes small enough not to disturb everything else.\nNaming that boundary is part of the method, not an apology for it. A first-round estimate that is honest about being first-round is more useful than a grand general-equilibrium story whose extra moving parts you can neither see nor check. The discipline — and it is the same discipline the UK housing papers run on — is claiming exactly what the data support, and not one inch more.\n\n\nWhat actually moves the needle\nThe strongest lever by far was the education of the household head. Simulating a move from no schooling to some cut the probability of being poor by more than 30% in some subgroups — a larger effect than any other single change we tested, and robust enough to survive the honest error bars rather than washing out inside them.\nThe rest were real but smaller. The head’s employment, government transfers, remittances, the head’s health, and indigenous status each moved poverty by somewhere between roughly 0.5% and 23%, depending heavily on which group you looked at. The heterogeneity was the point, not a nuisance: a lever that barely registers on the national average can be decisive for one subpopulation and almost irrelevant for another. That is precisely the information a policymaker needs in order to target, and precisely the information a single headline number destroys.\nRead those two papers together and the shape of the later work is already there — measure carefully before explaining, test a finding across every threshold, then change one thing and report who it reaches rather than whether it “works” on average.",
-    "crumbs": [
-      "Home",
-      "Earlier Research (pre-AI)",
-      "Poverty Microsimulation (Mexico, 2010)"
-    ]
-  },
-  {
-    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#why-both-papers-are-on-this-site",
-    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#why-both-papers-are-on-this-site",
-    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
-    "section": "Why both papers are on this site",
-    "text": "Why both papers are on this site\nTwo reasons. First, this is the earliest version of the craft the housing application rests on: teaching myself relational survey microdata, complex sampling, and a simulation literature from scratch, and carrying all of it through to peer review. The instinct on display — measure before you explain, refuse the convenient threshold, change one thing and read off who it helps — is the same instinct behind the UK housing programme, fifteen years on.\nSecond, it predates today’s AI tooling entirely. The method, the judgement, and the mistakes were done by hand, years before any of these tools existed. It is not part of the five-paper UK housing programme; it is where the habits behind that programme were formed.\n\nBased on the two REMECAREN working papers (Escajeda, Galindo & Galindo, 2010), in Spanish.\nRead next: Measurement paper (PDF) · Microsimulation paper (PDF) · Research Portfolio · Manifesto · Full Glory Cover Letter",
-    "crumbs": [
-      "Home",
-      "Earlier Research (pre-AI)",
-      "Poverty Microsimulation (Mexico, 2010)"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
-    "section": "",
-    "text": "Five connected papers on UK rent regulation, housing benefit capture, and distributional welfare — with cover letter and CV for the NEF Social Policy Economist role."
-  },
-  {
-    "objectID": "index.html#start-here",
-    "href": "index.html#start-here",
-    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
-    "section": "Start Here",
-    "text": "Start Here\n\nRead Me First\nResearch Built to Change Things (Manifesto)"
-  },
-  {
-    "objectID": "index.html#cover-letters",
-    "href": "index.html#cover-letters",
-    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
-    "section": "Cover Letters",
-    "text": "Cover Letters\n\nSubmitted Application Letter (1 Page)\nExtended Cover Letter (Full Glory)"
-  },
-  {
-    "objectID": "index.html#cv",
-    "href": "index.html#cv",
-    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
-    "section": "CV",
-    "text": "CV\n\nShort CV\nFull Glory CV"
-  },
-  {
-    "objectID": "index.html#the-research",
-    "href": "index.html#the-research",
-    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
-    "section": "The Research",
-    "text": "The Research\n\nResearch Portfolio\nThe Work Behind the Screen"
-  },
-  {
-    "objectID": "index.html#explainers",
-    "href": "index.html#explainers",
-    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
-    "section": "Explainers",
-    "text": "Explainers\n\nLHA Explainer\nRent-Control Veto Explainer\nRent as Reproduction Cost Explainer\nLPN Explainer\nProgressing Problemshift Explainer"
-  },
-  {
-    "objectID": "index.html#working-papers",
-    "href": "index.html#working-papers",
-    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
-    "section": "Working Papers",
-    "text": "Working Papers\n\nWhy the Rent-Control Veto Fails\nFiscal Capture in the UK PRS\nRent as Reproduction Cost\nLabor Power as Numeraire\nA Progressing Problemshift"
-  },
-  {
-    "objectID": "index.html#earlier-research-pre-ai",
-    "href": "index.html#earlier-research-pre-ai",
-    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
-    "section": "Earlier Research (pre-AI)",
-    "text": "Earlier Research (pre-AI)\n\nPoverty Microsimulation (Mexico, 2010)"
-  },
-  {
-    "objectID": "pages/explainers/btl-explainer-blog.html",
-    "href": "pages/explainers/btl-explainer-blog.html",
-    "title": "The Economists Told You Rent Control Would Fail. They Were Measuring the Wrong Market.",
-    "section": "",
-    "text": "The lowest-income fifth of private renters in England is spending 48.5 pence in every pound of net income on housing costs. The standard economic response is: don’t cap rents, build more homes. The argument is familiar. The question this paper asks is simpler and more uncomfortable: is that argument even about the same market we have?\nThe answer is no.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "Rent-Control Veto Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/btl-explainer-blog.html#the-benchmark-has-conditions.-britain-fails-every-one-of-them.",
-    "href": "pages/explainers/btl-explainer-blog.html#the-benchmark-has-conditions.-britain-fails-every-one-of-them.",
-    "title": "The Economists Told You Rent Control Would Fail. They Were Measuring the Wrong Market.",
-    "section": "1. The Benchmark Has Conditions. Britain Fails Every One of Them.",
-    "text": "1. The Benchmark Has Conditions. Britain Fails Every One of Them.\nThe textbook case against rent controls is not wrong. In a genuinely competitive rental market — elastic supply, many competing landlords, prices that reflect demand rather than leverage — a binding rent ceiling can misallocate units, compress new supply, and hurt the very people it was meant to protect.\nThose mechanisms are real. The problem is the small print.\nThe textbook conclusion depends on five conditions holding simultaneously: supply that can expand when demand rises; easy entry for competing landlords; prices that reflect genuine market conditions rather than speculation; housing used primarily as shelter rather than as a leveraged financial asset; and credit markets that are not inflating demand and detaching prices from the cost of providing homes.\nBritain’s private rented sector fails every single one of them. Not marginally — structurally and by design.\nPlanning restrictions have blocked new supply for decades and created a persistent gap between what construction costs and what tenants pay. The Housing Act 1988 stripped tenants of security of tenure and fair-rent protection — not to create a more competitive market, but to build a sector organised around landlord pricing power and easy tenant displacement. The buy-to-let boom, which began with the first interest-only mortgage products in 1996, transformed rental property into a leveraged asset class. By 2022, approximately 85% of outstanding buy-to-let mortgages issued by major UK banks were interest-only — leaving the landlord class structurally dependent on perpetual rent escalation to service debt while sitting on assets inflated by a decade of near-zero interest rates.\nThis is not a neutral market that has organically evolved to its current state. It was built, in three deliberate statutory moves, to function as an investment vehicle. The competitive benchmark was never its operating logic.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "Rent-Control Veto Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/btl-explainer-blog.html#the-san-francisco-study-is-being-applied-to-the-wrong-design",
-    "href": "pages/explainers/btl-explainer-blog.html#the-san-francisco-study-is-being-applied-to-the-wrong-design",
-    "title": "The Economists Told You Rent Control Would Fail. They Were Measuring the Wrong Market.",
-    "section": "2. The San Francisco Study Is Being Applied to the Wrong Design",
-    "text": "2. The San Francisco Study Is Being Applied to the Wrong Design\nThe most frequently invoked empirical evidence against rent regulation is Diamond, McQuade, and Qian’s (2019) study of a 1994 San Francisco measure. It found reduced rental supply, tenant lock-in, and welfare losses. The finding is important. It is also routinely misapplied.\nThe San Francisco system was a vacancy-decontrol system: rents were controlled while a tenancy lasted, but landlords could reset rents to market levels the moment a tenancy ended. That created a direct financial incentive to remove sitting tenants. Landlords had every reason to find ways to displace households in order to recapture the accumulated gap between controlled and market rents. The result was predictable — and measured precisely.\nThe NEF proposal does the opposite. It prohibits vacancy decontrol entirely. Rents cannot reset when a tenancy ends. The eviction jackpot disappears at the architectural level. The specific mechanism that Diamond et al. documented and quantified is blocked by design.\nCiting San Francisco as the verdict on the NEF proposal is not applying the evidence. It is ignoring the one design difference the evidence itself says was decisive.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "Rent-Control Veto Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/btl-explainer-blog.html#rent-prices-a-quadruple-object.-the-standard-model-only-sees-one.",
-    "href": "pages/explainers/btl-explainer-blog.html#rent-prices-a-quadruple-object.-the-standard-model-only-sees-one.",
-    "title": "The Economists Told You Rent Control Would Fail. They Were Measuring the Wrong Market.",
-    "section": "3. Rent Prices a Quadruple Object. The Standard Model Only Sees One.",
-    "text": "3. Rent Prices a Quadruple Object. The Standard Model Only Sees One.\nThe orthodox critique of rent regulation treats rent as the price of a current housing service — supply and demand, allocation and efficiency. That framing describes a market housing never quite was, and certainly is not now.\nIn the UK PRS, rent is simultaneously four things: the price of shelter; the income stream backing a capitalised asset whose value is set by the formula price-equals-rent-over-interest-rate; the cash flow servicing leveraged buy-to-let debt at interest-only terms; and the vehicle by which public housing benefit is transmitted from the state to private landlords rather than remaining with tenants.\nThat quadruple role is not an academic observation. It changes the policy stakes completely. When rent also anchors asset prices and leveraged expectations, capping rent growth does not merely disrupt a competitive allocation. It compresses the speculative premium that has been capitalised into property values since 2008. It interrupts a pipeline that runs from tenant income through landlord cash flows into inflated asset valuations. That pipeline was built by statute. Breaking it is not market interference — there is no competitive equilibrium here to protect.\nThis is the Ontological Disconnect at the heart of the rent control debate. The orthodox argument models housing as a one-object competitive service market. The UK PRS is a four-object financialised asset system. A benchmark designed for the first cannot govern the second without first proving that the four roles are separable. They are not.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "Rent-Control Veto Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/btl-explainer-blog.html#the-emergency-brake-and-the-three-conditions-that-must-come-with-it",
-    "href": "pages/explainers/btl-explainer-blog.html#the-emergency-brake-and-the-three-conditions-that-must-come-with-it",
-    "title": "The Economists Told You Rent Control Would Fail. They Were Measuring the Wrong Market.",
-    "section": "4. The Emergency Brake — and the Three Conditions That Must Come With It",
-    "text": "4. The Emergency Brake — and the Three Conditions That Must Come With It\nThe New Economics Foundation’s proposal caps annual rent increases at the lower of CPI or 2%, with no vacancy decontrol and an exemption for newly built homes. Each element has a structural purpose. The growth ceiling — rather than a level freeze — preserves current landlord cash flows while ending rent escalation, avoiding the immediate exit pressure that Scotland’s harder freeze design produced. The no-vacancy-decontrol clause closes the eviction jackpot. The new-build exemption protects the supply margin that actually creates new housing.\nBut a rent brake alone is not enough. The housing crisis has three structural drivers, and it requires three simultaneous responses.\nSupply must expand. Planning restrictions are not incidental — they are one of the main mechanisms by which scarcity value has been systematically transferred from renters to landowners. England needs to build at scale. The current target of 300,000 net completions per year has never been met; meeting it is a precondition for the brake to be genuinely temporary rather than permanent.\nLand-value gains must be captured. Supply expansion without land-value capture can enrich developers and landowners before it helps tenants. Every major upzoning decision creates a windfall. Public capture mechanisms — whether through planning obligations, community land trusts, or local authority acquisition — are what ensure those gains return to the public rather than being absorbed into the same asset-inflation cycle the brake is trying to interrupt.\nThe brake must have statutory exit criteria. A rent cap whose justification rests on temporary market failure must not harden into a permanent settlement. The paper proposes measurable thresholds: the housing-cost burden of the bottom income quintile falls below 30% for two consecutive annual releases of official statistics; net housing completions in England exceed 300,000 per year; and a functioning successor fair-rents system with real monitoring and quality standards is in place. Pre-committed exit rules do two jobs: they make the brake credible as an emergency instrument rather than a political convenience, and they protect tenants from the revolving discretion that destabilised Scotland’s experiment.\nBritain’s renters are already in the emergency. The question is whether the response matches the market as it actually exists.\n\nBased on the working paper “Why the Rent-Control Veto Fails” (2026).\nRead next: Full paper · Research Portfolio · Manifesto · Full Glory Cover Letter",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "Rent-Control Veto Explainer"
+      "Rent as Reproduction Cost Explainer"
     ]
   },
   {
@@ -1076,99 +708,455 @@
     ]
   },
   {
-    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html",
-    "href": "pages/explainers/rent-reproduction-explainer-blog.html",
-    "title": "High Rent Isn’t Just Unaffordable. It’s Structurally Shrinking Britain’s Future.",
+    "objectID": "pages/explainers/btl-explainer-blog.html",
+    "href": "pages/explainers/btl-explainer-blog.html",
+    "title": "The Economists Told You Rent Control Would Fail. They Were Measuring the Wrong Market.",
     "section": "",
-    "text": "The standard account of the housing crisis is told in affordability language: rents are too high relative to incomes, and low-income households are squeezed. That framing is accurate. It is also incomplete. This paper argues that what is missing is a theory of what rent actually is — and once you have that theory, the case for a structural response becomes considerably stronger than the affordability story alone provides.\nRent, on this account, is not simply a large line item in the household budget. It is a claim on the material capacity of working households to sustain and reproduce themselves over time. That distinction matters enormously for what policy can justify.",
+    "text": "The lowest-income fifth of private renters in England is spending 48.5 pence in every pound of net income on housing costs. The standard economic response is: don’t cap rents, build more homes. The argument is familiar. The question this paper asks is simpler and more uncomfortable: is that argument even about the same market we have?\nThe answer is no.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Rent as Reproduction Cost Explainer"
+      "Rent-Control Veto Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#what-a-pound-spent-on-rent-actually-takes",
-    "href": "pages/explainers/rent-reproduction-explainer-blog.html#what-a-pound-spent-on-rent-actually-takes",
-    "title": "High Rent Isn’t Just Unaffordable. It’s Structurally Shrinking Britain’s Future.",
-    "section": "1. What a Pound Spent on Rent Actually Takes",
-    "text": "1. What a Pound Spent on Rent Actually Takes\nWhen a household pays rent, the money that leaves is not like money spent on anything else in the budget. It is not consumed. It does not leave behind a durable good or an enhanced capability. It transfers — from the tenant’s resources for feeding, clothing, and sustaining a family — to the landlord’s income stream.\nEvery pound above the minimum necessary to maintain the landlord’s participation is a pound that cannot go toward nutrition, childcare, education, health, or the basic maintenance of household capacity across generations. In political economy terms: it is a transfer from variable capital — the resources needed to reproduce the capacity to work — to ground rent. The tenant class does not simply get less disposable income. Its material capacity for social reproduction is structurally compressed.\nThis is not rhetorical. It follows from embedding housing costs into the logic of labor power reproduction. Population dynamics — how many workers, in what condition, are available in the next period — depend on the consumption base available for reproduction. When the rent share rises, that base shrinks. The consequence is not just a budget squeeze. It is a structural reduction in the resources available to maintain and renew the working population over time.",
+    "objectID": "pages/explainers/btl-explainer-blog.html#the-benchmark-has-conditions.-britain-fails-every-one-of-them.",
+    "href": "pages/explainers/btl-explainer-blog.html#the-benchmark-has-conditions.-britain-fails-every-one-of-them.",
+    "title": "The Economists Told You Rent Control Would Fail. They Were Measuring the Wrong Market.",
+    "section": "1. The Benchmark Has Conditions. Britain Fails Every One of Them.",
+    "text": "1. The Benchmark Has Conditions. Britain Fails Every One of Them.\nThe textbook case against rent controls is not wrong. In a genuinely competitive rental market — elastic supply, many competing landlords, prices that reflect demand rather than leverage — a binding rent ceiling can misallocate units, compress new supply, and hurt the very people it was meant to protect.\nThose mechanisms are real. The problem is the small print.\nThe textbook conclusion depends on five conditions holding simultaneously: supply that can expand when demand rises; easy entry for competing landlords; prices that reflect genuine market conditions rather than speculation; housing used primarily as shelter rather than as a leveraged financial asset; and credit markets that are not inflating demand and detaching prices from the cost of providing homes.\nBritain’s private rented sector fails every single one of them. Not marginally — structurally and by design.\nPlanning restrictions have blocked new supply for decades and created a persistent gap between what construction costs and what tenants pay. The Housing Act 1988 stripped tenants of security of tenure and fair-rent protection — not to create a more competitive market, but to build a sector organised around landlord pricing power and easy tenant displacement. The buy-to-let boom, which began with the first interest-only mortgage products in 1996, transformed rental property into a leveraged asset class. By 2022, approximately 85% of outstanding buy-to-let mortgages issued by major UK banks were interest-only — leaving the landlord class structurally dependent on perpetual rent escalation to service debt while sitting on assets inflated by a decade of near-zero interest rates.\nThis is not a neutral market that has organically evolved to its current state. It was built, in three deliberate statutory moves, to function as an investment vehicle. The competitive benchmark was never its operating logic.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Rent as Reproduction Cost Explainer"
+      "Rent-Control Veto Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#housing-benefit-pays-the-landlord-not-the-tenant",
-    "href": "pages/explainers/rent-reproduction-explainer-blog.html#housing-benefit-pays-the-landlord-not-the-tenant",
-    "title": "High Rent Isn’t Just Unaffordable. It’s Structurally Shrinking Britain’s Future.",
-    "section": "2. Housing Benefit Pays the Landlord, Not the Tenant",
-    "text": "2. Housing Benefit Pays the Landlord, Not the Tenant\nThe UK government spends over £20 billion a year on housing support. The published rationale is that this money helps low-income tenants afford homes. The empirical record is more troubling.\nGibbons and Manning (2006), using data from the 1990s UK housing benefit reforms, found that between 60% and two-thirds of the value of the benefit accrued to landlords rather than tenants — absorbed through higher rents in areas where benefit recipients were concentrated. DWP’s own econometric analysis of the 2011–12 Local Housing Allowance cuts found statistically significant rent reductions in binding areas: when the government reduced what it would pay, landlords reduced what they charged. The benefit had been functioning as a yield floor, not as an income support.\nThe structural reason for this is not landlord greed. It is that in areas with concentrated benefit-dependent households, the LHA rate tells landlords the maximum their tenants can pay — and the government will pay it. Landlords price to that ceiling because it is rational to do so. The subsidy does not reach the tenant as improved welfare. It reaches the landlord as income. This mechanism — fiscal capture — persists not because landlords are individually dishonest but because the market structure makes it profit-maximizing.\nThe companion empirical paper (Galindo 2026b) tests this directly using two natural experiments from the 2020 uplift and 2021 re-freeze of LHA rates, across 290 English local authorities and 26 analytical specifications. The reproduction-cost framework in this paper provides the structural theory of why fiscal capture is mechanically necessary — not just behaviorally observed.",
+    "objectID": "pages/explainers/btl-explainer-blog.html#the-san-francisco-study-is-being-applied-to-the-wrong-design",
+    "href": "pages/explainers/btl-explainer-blog.html#the-san-francisco-study-is-being-applied-to-the-wrong-design",
+    "title": "The Economists Told You Rent Control Would Fail. They Were Measuring the Wrong Market.",
+    "section": "2. The San Francisco Study Is Being Applied to the Wrong Design",
+    "text": "2. The San Francisco Study Is Being Applied to the Wrong Design\nThe most frequently invoked empirical evidence against rent regulation is Diamond, McQuade, and Qian’s (2019) study of a 1994 San Francisco measure. It found reduced rental supply, tenant lock-in, and welfare losses. The finding is important. It is also routinely misapplied.\nThe San Francisco system was a vacancy-decontrol system: rents were controlled while a tenancy lasted, but landlords could reset rents to market levels the moment a tenancy ended. That created a direct financial incentive to remove sitting tenants. Landlords had every reason to find ways to displace households in order to recapture the accumulated gap between controlled and market rents. The result was predictable — and measured precisely.\nThe NEF proposal does the opposite. It prohibits vacancy decontrol entirely. Rents cannot reset when a tenancy ends. The eviction jackpot disappears at the architectural level. The specific mechanism that Diamond et al. documented and quantified is blocked by design.\nCiting San Francisco as the verdict on the NEF proposal is not applying the evidence. It is ignoring the one design difference the evidence itself says was decisive.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Rent as Reproduction Cost Explainer"
+      "Rent-Control Veto Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#buy-to-let-overvaluation-forces-rents-above-the-welfare-minimum",
-    "href": "pages/explainers/rent-reproduction-explainer-blog.html#buy-to-let-overvaluation-forces-rents-above-the-welfare-minimum",
-    "title": "High Rent Isn’t Just Unaffordable. It’s Structurally Shrinking Britain’s Future.",
-    "section": "3. Buy-to-Let Overvaluation Forces Rents Above the Welfare Minimum",
-    "text": "3. Buy-to-Let Overvaluation Forces Rents Above the Welfare Minimum\nPost-2008 financialization pushed buy-to-let asset prices above their fundamental values. That is the empirical premise — motivated by the supply inelasticity, credit expansion, and asset-price inflation documented in the companion policy paper. Conditional on that premise, the implications for rent levels are stark.\nAt inflated prices, debt service on an interest-only mortgage requires a rental income above what would be necessary if the asset were priced at its fundamental value — the price consistent with a landlord earning minimum participation returns at undistorted yields. The difference between current market rents and that welfare-optimal minimum is what the paper calls the demographic externality discount.\nThe tenant class — excluded from buy-to-let ownership by the same capital requirements that enabled landlords to leverage into the market — cannot correct this externality through market participation. There is no mechanism by which tenants can bid the overvaluation back out of the system. The market equilibrium is structurally above the social optimum, and the gap is a necessary consequence of the asset-price inflation that the BTL expansion produced.\nThis is different from a standard affordability argument. It is not that landlords are charging too much by some distributional standard. It is that competitive equilibrium in this market produces rents that exceed the welfare-consistent minimum as a structural consequence of how the market was built.",
+    "objectID": "pages/explainers/btl-explainer-blog.html#rent-prices-a-quadruple-object.-the-standard-model-only-sees-one.",
+    "href": "pages/explainers/btl-explainer-blog.html#rent-prices-a-quadruple-object.-the-standard-model-only-sees-one.",
+    "title": "The Economists Told You Rent Control Would Fail. They Were Measuring the Wrong Market.",
+    "section": "3. Rent Prices a Quadruple Object. The Standard Model Only Sees One.",
+    "text": "3. Rent Prices a Quadruple Object. The Standard Model Only Sees One.\nThe orthodox critique of rent regulation treats rent as the price of a current housing service — supply and demand, allocation and efficiency. That framing describes a market housing never quite was, and certainly is not now.\nIn the UK PRS, rent is simultaneously four things: the price of shelter; the income stream backing a capitalised asset whose value is set by the formula price-equals-rent-over-interest-rate; the cash flow servicing leveraged buy-to-let debt at interest-only terms; and the vehicle by which public housing benefit is transmitted from the state to private landlords rather than remaining with tenants.\nThat quadruple role is not an academic observation. It changes the policy stakes completely. When rent also anchors asset prices and leveraged expectations, capping rent growth does not merely disrupt a competitive allocation. It compresses the speculative premium that has been capitalised into property values since 2008. It interrupts a pipeline that runs from tenant income through landlord cash flows into inflated asset valuations. That pipeline was built by statute. Breaking it is not market interference — there is no competitive equilibrium here to protect.\nThis is the Ontological Disconnect at the heart of the rent control debate. The orthodox argument models housing as a one-object competitive service market. The UK PRS is a four-object financialised asset system. A benchmark designed for the first cannot govern the second without first proving that the four roles are separable. They are not.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Rent as Reproduction Cost Explainer"
+      "Rent-Control Veto Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#a-cpi-ceiling-is-a-structural-correction-not-a-patch",
-    "href": "pages/explainers/rent-reproduction-explainer-blog.html#a-cpi-ceiling-is-a-structural-correction-not-a-patch",
-    "title": "High Rent Isn’t Just Unaffordable. It’s Structurally Shrinking Britain’s Future.",
-    "section": "4. A CPI Ceiling Is a Structural Correction, Not a Patch",
-    "text": "4. A CPI Ceiling Is a Structural Correction, Not a Patch\nThe reproduction framework provides the strongest possible welfare foundation for the NEF emergency brake — stronger than the generic second-best argument in the companion policy paper, which establishes that the orthodox veto is inapplicable but does not identify what rents should be.\nThe LPD-consistent rent is defined precisely: the minimum rent consistent with landlord participation at fundamental — non-inflated — asset prices. A CPI-anchored growth ceiling counteracts the escalating rent-to-income ratio that the overvaluation dynamic generates. It does not freeze rents at an arbitrary level. It prevents further reproduction compression by capping the pace at which rent claims on household resources can grow.\nThis is a structural correction aimed at the reproduction conditions of the working population. It answers the question the affordability framing cannot: not just “are rents too high?” but “what should rents be, as a matter of social welfare?” — and the answer is that the welfare-consistent ceiling is the one that allows landlord participation without the overvaluation premium that financialization has built into the market.\nThe framework additionally predicts that binding areas — those where LHA concentrated benefit-dependent households at high intensity — should show differential household formation and demographic patterns compared with non-binding areas. These discriminating tests remain an open empirical frontier: they are what would distinguish this structural account from a simpler behavioral story about landlords following the LHA rate.\n\nBased on the working paper “Rent as Reproduction Cost” (2026).\nRead next: Full paper · Research Portfolio · Manifesto · Full Glory Cover Letter",
+    "objectID": "pages/explainers/btl-explainer-blog.html#the-emergency-brake-and-the-three-conditions-that-must-come-with-it",
+    "href": "pages/explainers/btl-explainer-blog.html#the-emergency-brake-and-the-three-conditions-that-must-come-with-it",
+    "title": "The Economists Told You Rent Control Would Fail. They Were Measuring the Wrong Market.",
+    "section": "4. The Emergency Brake — and the Three Conditions That Must Come With It",
+    "text": "4. The Emergency Brake — and the Three Conditions That Must Come With It\nThe New Economics Foundation’s proposal caps annual rent increases at the lower of CPI or 2%, with no vacancy decontrol and an exemption for newly built homes. Each element has a structural purpose. The growth ceiling — rather than a level freeze — preserves current landlord cash flows while ending rent escalation, avoiding the immediate exit pressure that Scotland’s harder freeze design produced. The no-vacancy-decontrol clause closes the eviction jackpot. The new-build exemption protects the supply margin that actually creates new housing.\nBut a rent brake alone is not enough. The housing crisis has three structural drivers, and it requires three simultaneous responses.\nSupply must expand. Planning restrictions are not incidental — they are one of the main mechanisms by which scarcity value has been systematically transferred from renters to landowners. England needs to build at scale. The current target of 300,000 net completions per year has never been met; meeting it is a precondition for the brake to be genuinely temporary rather than permanent.\nLand-value gains must be captured. Supply expansion without land-value capture can enrich developers and landowners before it helps tenants. Every major upzoning decision creates a windfall. Public capture mechanisms — whether through planning obligations, community land trusts, or local authority acquisition — are what ensure those gains return to the public rather than being absorbed into the same asset-inflation cycle the brake is trying to interrupt.\nThe brake must have statutory exit criteria. A rent cap whose justification rests on temporary market failure must not harden into a permanent settlement. The paper proposes measurable thresholds: the housing-cost burden of the bottom income quintile falls below 30% for two consecutive annual releases of official statistics; net housing completions in England exceed 300,000 per year; and a functioning successor fair-rents system with real monitoring and quality standards is in place. Pre-committed exit rules do two jobs: they make the brake credible as an emergency instrument rather than a political convenience, and they protect tenants from the revolving discretion that destabilised Scotland’s experiment.\nBritain’s renters are already in the emergency. The question is whether the response matches the market as it actually exists.\n\nBased on the working paper “Why the Rent-Control Veto Fails” (2026).\nRead next: Full paper · Research Portfolio · Manifesto · Full Glory Cover Letter",
     "crumbs": [
       "Home",
       "Explainers",
-      "Rent as Reproduction Cost Explainer"
+      "Rent-Control Veto Explainer"
     ]
   },
   {
-    "objectID": "pages/general/cover-letter-master.html",
-    "href": "pages/general/cover-letter-master.html",
-    "title": "Extended Cover Letter (Full Glory)",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
     "section": "",
-    "text": "Carlos Galindo Escajeda · cgalindito@gmail.com · London, UK · +44 (0) 737-677-1146 Eligible to work in the UK\nDear Recruitment Team,\nReading NEF’s A Modern System for Fair Rents set me reading, then mulling, then following one idea into the next — and that is the honest origin of this application for the Social Policy Economist / Quantitative Researcher position. I did not begin with a grand design, least of all a plan to “correct” NEF. It was closer to self-discovery under a hard time limit: the questions I kept pulling on organically coalesced into five linked papers, and the deeper I dug, the more independent lines of inquiry converged — not on whether to intervene in the UK private rented sector, but on a single genuinely contentious question that I did not go looking for: the durability of the intervention, and how far the case for an emergency brake actually extends toward a permanent fair-rents regime. What follows is who built that, how, and the spirit in which I would want to do it from inside your team.\nThat kind of from-scratch sprint is not new for me — it is how I have worked since long before AI existed, and I have real confidence in it. My first serious research ran exactly this pattern. I was working on poverty and demographic risk in a context very different from the UK — Mexico’s low-income household sector — but the policy question was structurally similar to what NEF works on: how do we distribute the burden and benefit of social risk across the income distribution? That puzzle led me to microsimulate poverty-reduction policy. To do it, I had to teach myself three unfamiliar things at once, from a standing start: how relational databases actually work (well outside the clean tabular data of an econometrics course); how to handle the complex sampling design of SEDESOL’s household survey microdata — researching its structure and the processing gymnastics it demands until I could manipulate and explain it fluidly; and how the Ravallion microsimulation literature operated — estimating a household consumption model, then simulating a policy change to measure how much it shifts each subgroup’s probability of being poor. I did it in under six months, while finishing my master’s degree and writing a thesis on an entirely separate subject — a two-sector overlapping-generations model of household heterogeneity, growth, and convergence between rich and poor — and I learned to program in STATA for the microsimulation work specifically. That poverty work became peer-reviewed publications on poverty measurement and policy simulation. Then I did the part I am proudest of: I packaged the hard-won processing knowledge and gave it away, running 700-plus hours of STATA training so that undergraduates could finally mine survey microdata that had gone under-exploited precisely because it was so hard to process — feeding a stream of undergraduate theses. Multiplying the people around me, not only shipping my own output, is the disposition I would bring to your team.\nFrom there I spent the better part of a decade building quantitative models in macro-finance — emerging-market forecasting, Bayesian time-series and DSGE work, even reverse-engineering parts of the Federal Reserve’s FRB/US model to price scenarios the Fed and the market had missed — at Deutsche Bank, Bank of America, and a global macro fund. Applying to your social-policy team is, for me, a deliberate return to where I began, now with a macro modeller’s toolkit behind it.\nSo read my recent arrival in UK housing policy the right way. Until I saw this posting I was a tourist in it — but “tourist” is how nearly every one of my best projects has begun; it names how I work, not a ceiling on where I reach. Two honest caveats follow.\nFirst: do not read the theoretical papers as me wanting to live in abstraction. I am a firm believer in transforming material reality — that is what drew me to policy in the first place. But I also hold theory and empirical science in high esteem, not as substitutes but as complements: theory disciplines what we ask, empirics answers it, and the two together correct each other. You will find the theoretical papers are about hardening the welfare case for policies NEF already advocates for, grounding them in structural arguments that survive hostile scrutiny. I am not here to replace your policy expertise but to add a particular rigour to it. The arguments that decide housing policy are fought in public against economists trained in the orthodoxy and trusted by government — and they are won on that ground, with those tools. I can argue there: Breaking the Benchmark uses a mainstream second-best result to take apart the standard case against rent control. That is not the only thing I bring, but it is the hardest to find.\nI have written it out in full — what the five papers are actually for, why each paper contributes to a specific intervention rather than to the literature, and why theory and action are not in tension in this work: Manifesto.\nSecond: please do not expect me to recite every line flawlessly across an interview table. Across work this broad and this deep, recall matters less than whether it holds up on the page. What matters is that the work is verifiable — and that it is genuinely original and non-trivial, by orders of magnitude, not a repackaging of the familiar. I can rebuild any part of it on request, and that ability to reconstruct from first principles, rather than to recite, is the capability I would actually bring to your team.\nA brief note on method. Every load-bearing claim in these papers is verified against a primary source, survives adversarial challenge, or is flagged open — the discipline I would bring to NEF. The best evidence that this is real and not rhetorical is the fifth paper, A Progressing Problemshift: it applies mainstream philosophy-of-science standards to my own programme and, against my own immediate advantage, downgrades the strongest-looking verdict from “empirically progressive” to “empirically progressing” because the discriminating test is named but still unrun. That is the reflex I would bring to your team under external scrutiny: ambitious claims, strict boundaries, and transparent uncertainty where evidence has not yet closed the question.\nThe five papers map directly onto your specification.\nEmpirical rigour on large UK datasets. Fiscal Capture in the UK Private Rented Sector is independent, critical panel-data work: a difference-in-differences design across 290 English local authorities (2019–2024), exploiting the April 2020 LHA uplift and April 2021 re-freeze as directionally opposite policy events. Across 26 specifications the signature is consistent with landlord capture, with zero sign reversals — and I report the headline coefficient as a deliberate conservative lower bound, naming the attenuation channels (downward nominal rigidity, tenant lock-in) rather than inflating it.\nChallenging orthodoxy without overreach. Breaking the Benchmark dismantles the “price controls choke off supply” veto by modelling the UK PRS as a structurally distorted quadruple-object market — shelter, capitalised asset, credit collateral, and fiscal conduit at once. Lipsey–Lancaster second-best logic then cuts symmetrically: once the competitive conditions are absent, deregulation forfeits its automatic-efficiency claim exactly as much as regulation does. The paper defends your emergency brake and hardens it — no vacancy decontrol, plus pre-committed statutory exit criteria (sustained ~300,000 net completions, a bottom-quintile cost-burden threshold) that bind it to objective milestones rather than open-ended discretion.\nA welfare foundation aligned with your mission. Building on the materialist value theory Julio Huato develops in his book and in our co-authored paper, Labor Power as Numéraire, I derived a structural companion — Rent as Reproduction Cost — that grounds the argument in the physical reproduction of the working population rather than subjective utility. It reframes high rents as a structural deduction from households’ capacity to sustain and form themselves across generations, turning a CPI-anchored cap from an affordability patch into a structural correction with a coherent welfare rationale.\nThe five abstracts — one for each paper — are collected in the Research Portfolio. If you only wanted the fastest route through the research, I would suggest starting with Breaking the Benchmark, then Fiscal Capture, then Rent as Reproduction Cost. Nothing in this letter depends on your opening them; they are there only if you would like the shape of each argument in a minute rather than a full manuscript.\nIf you prefer a role-mapped profile snapshot before the full research narrative, use the Short CV (and Full Glory CV for complete detail).\nThe one place this process led me into genuinely contentious territory is exactly that durability question. The second-best argument disarms the orthodox veto robustly for the temporary emergency brake — but extending the case to a permanent fair-rents regime is the harder, more contested step, because the emergency rationale lapses as the underlying distortions are addressed, and a durable regime therefore needs a different and more demanding foundation than the brake itself supplies. I did not set out to find that fault line; multiple independent roads led me to it. I flag it not to lecture but because locating precisely where an argument becomes contestable is the most useful thing a defender can do — and because it is the first of many nuances on which I expect your experience to correct and deepen mine.\nThat is the spirit in which I apply: confident in the analytical contribution, but without illusions about how much I still have to learn. That is precisely why I am applying for a relatively junior role — to learn, over time and from seasoned colleagues, the institutional, political, and practical nuances my outside-in work almost certainly underestimates. I agree with your position and want to help strengthen it from within, not argue with it.\nMy toolkit (MATLAB/DYNARE, STATA, Python, R, EViews) and my capacity to deliver work that holds up under scrutiny1 are ready to support NEF’s research priorities immediately. I have already identified the next empirical gaps — ground-rent-share estimation and transaction-level search-friction markups — that NEF’s proposed PRS-database expansion is positioned to close. What I bring is rigour that lowers institutional risk, a housing programme that already shows I can deliver, and a real fit with your mission and a hunger to learn.\nI would welcome the opportunity to discuss how I can support NEF’s mission.\nSincerely,\nCarlos Galindo Escajeda",
-    "crumbs": [
-      "Home",
-      "Cover Letters",
-      "Extended Cover Letter (Full Glory)"
-    ]
+    "text": "Five connected papers on UK rent regulation, housing benefit capture, and distributional welfare — with cover letter and CV for the NEF Social Policy Economist role."
   },
   {
-    "objectID": "pages/general/cover-letter-master.html#footnotes",
-    "href": "pages/general/cover-letter-master.html#footnotes",
-    "title": "Extended Cover Letter (Full Glory)",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nA short video shows some of the method behind these papers. What makes the work hold up is years of prior expertise, built long before any of it ran.↩︎",
-    "crumbs": [
-      "Home",
-      "Cover Letters",
-      "Extended Cover Letter (Full Glory)"
-    ]
+    "objectID": "index.html#start-here",
+    "href": "index.html#start-here",
+    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
+    "section": "Start Here",
+    "text": "Start Here\n\nRead Me First\nResearch Built to Change Things (Manifesto)"
   },
   {
-    "objectID": "pages/general/cover-letter-submission.html",
-    "href": "pages/general/cover-letter-submission.html",
-    "title": "Submitted Application Letter (1 Page)",
+    "objectID": "index.html#cover-letters",
+    "href": "index.html#cover-letters",
+    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
+    "section": "Cover Letters",
+    "text": "Cover Letters\n\nExtended Cover Letter (Full Glory)"
+  },
+  {
+    "objectID": "index.html#cv",
+    "href": "index.html#cv",
+    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
+    "section": "CV",
+    "text": "CV\n\nShort CV\nFull Glory CV"
+  },
+  {
+    "objectID": "index.html#the-research",
+    "href": "index.html#the-research",
+    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
+    "section": "The Research",
+    "text": "The Research\n\nResearch Portfolio\nThe Work Behind the Screen"
+  },
+  {
+    "objectID": "index.html#explainers",
+    "href": "index.html#explainers",
+    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
+    "section": "Explainers",
+    "text": "Explainers\n\nLHA Explainer\nRent-Control Veto Explainer\nRent as Reproduction Cost Explainer\nLPN Explainer\nProgressing Problemshift Explainer"
+  },
+  {
+    "objectID": "index.html#working-papers",
+    "href": "index.html#working-papers",
+    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
+    "section": "Working Papers",
+    "text": "Working Papers\n\nWhy the Rent-Control Veto Fails\nFiscal Capture in the UK PRS\nRent as Reproduction Cost\nLabor Power as Numeraire\nA Progressing Problemshift"
+  },
+  {
+    "objectID": "index.html#earlier-research-pre-ai",
+    "href": "index.html#earlier-research-pre-ai",
+    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
+    "section": "Earlier Research (pre-AI)",
+    "text": "Earlier Research (pre-AI)\n\nPoverty Microsimulation (Mexico, 2010)"
+  },
+  {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
     "section": "",
-    "text": "Carlos Galindo Escajeda · cgalindito@gmail.com · London, UK · +44 (0) 737-677-1146 Eligible to work in the UK\n1 June 2026\nRecruitment Team New Economics Foundation recruitment@neweconomics.org\nRe: Social Policy Economist / Quantitative Researcher\nDear Recruitment Team,\nReading NEF’s A Modern System for Fair Rents set me reading, then mulling, then building, and that is the honest origin of this application. My first peer-reviewed work was on microsimulation of poverty-reduction policies, welfare-measure construction, and income and inequality dynamics using complex household-survey microdata in STATA. I then spent close to a decade in macro research at Deutsche Bank, Bank of America, and a London global-macro fund, where I sharpened a high-level quantitative toolkit under live-market deadlines. Applying to NEF is not a repositioning. It is a return to the distributional policy work that drew me into economics in the first place.\nMapped to the role, that background gives me four things relevant to your team.\n(a) Domain knowledge in social policy, labour, and income dynamics. My early work centred on poverty, welfare measures, and distributive policy. I also co-authored a published labour-participation VAR on the macroeconomic importance of labour-supply margins. Most relevantly for this role, I have already put that toolkit onto UK housing-policy data through a difference-in-differences design across 290 English local authorities (2019–2024), exploiting the April 2020 LHA uplift and the April 2021 re-freeze as opposite policy shocks.\n(b) High-level quantitative skills on difficult data. I taught myself survey-data processing, complex sampling design, and STATA from scratch well enough to turn that work into publications and more than 700 hours of training for students using under-exploited microdata. Since then I have added a decade of macro-finance modelling: MATLAB/DYNARE, Bayesian time-series, state-space methods, Python, and reverse-engineering parts of the Federal Reserve’s FRB/US model to price scenarios the market had missed. I am now familiarising myself with UKMOD/EUROMOD and Understanding Society, but the underlying workflow is already second nature.\n(c) Communication and judgment under pressure. At Deutsche Bank and the fund I wrote for demanding non-academic audiences under tight deadlines. In the classroom I had to make difficult methods usable for non-technical students. In the current housing work I report results conservatively rather than decorate them: the 26-specification DiD on landlord capture shows zero sign reversals, and I frame the headline effect as a lower bound because that is what the evidence warrants.\n(d) Strong values alignment, with a serious appetite to learn. The through-line of my record is distributional research, not a newly adopted posture. I am applying for a relatively junior role because I want to learn from people with deeper institutional and political experience than my outside-in work can provide. I bring confidence in my analytical contribution, but not arrogance about what I still need to learn.\nI also work under a verification-first discipline: every load-bearing claim is either verified against a primary source, stress-tested adversarially, or explicitly flagged open. That is the habit I would bring to NEF briefs, modelling, and evidence synthesis. The theoretical side of the housing package serves the same end: not abstraction for its own sake, but a way to win the case on the orthodoxy’s own ground — using mainstream tools to defend intervention against the economists trained to oppose it.\nIf useful, I assembled a small public package alongside this application with the submitted letter, fuller narrative, CVs, and a five-paper housing dossier: https://rhombictriacontahedron.github.io/research-portfolio/. Nothing in this letter depends on opening it.\nI would welcome the opportunity to discuss how my background maps to NEF’s social policy programme.\nYours sincerely,\nCarlos Galindo Escajeda\nencl: curriculum vitae\n\n\n\n Back to top",
+    "text": "Earlier, pre-AI research — and separate from the five-paper UK housing programme on this site. These two peer-reviewed papers (in Spanish, 2010, with Celina Escajeda and Oscar Galindo) are the early-career work the application refers to: the first time I taught myself survey microdata and the microsimulation literature from a standing start, and carried it through to publication.",
     "crumbs": [
       "Home",
-      "Cover Letters",
-      "Submitted Application Letter (1 Page)"
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#the-question",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#the-question",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
+    "section": "The question",
+    "text": "The question\nIn 2010, with two colleagues at the Universidad Autónoma Chapingo, I took up a question that turns out to be the same one NEF asks about Britain: how is poverty actually distributed across a population, and what would a given policy do to it? The setting was the State of Mexico — the country’s most populous — and the raw material was the national household income and expenditure survey, ENIGH 2008: a large, stratified, clustered sample, with roughly 2,480 of its households falling in the state we cared about.\nThe work split into two papers, and they answer two different questions. The first asks how you should measure poverty before you say anything about it — what you count, where you draw the line, and how sure you are. The second asks the harder, policy-facing question: if you could change one thing about a household, how much poverty would move, and for whom? Each gets its own explainer below.",
+    "crumbs": [
+      "Home",
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#explainer-1-measuring-poverty-before-explaining-it",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#explainer-1-measuring-poverty-before-explaining-it",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
+    "section": "Explainer 1 · Measuring poverty before explaining it",
+    "text": "Explainer 1 · Measuring poverty before explaining it\nBefore you can argue about whether a place is poor, you have to settle three things that most poverty statistics leave unspoken: what you measure, where you draw the line, and how sure you are of the answer. Almost all of the disagreement in the field hides inside those three choices. This first paper is about getting them right before drawing any conclusion at all — because a finding is only as honest as the choices that produced it.\n\nMeasure what people spend, not what they say they earn\nWe built the welfare measure from consumption — what each household actually spends per person in a month, deflated to a common August-2008 price base — rather than from reported income. That is a deliberate departure from the income-based headlines most poverty debates run on.\nThe reasoning is practical and slightly counter-intuitive. Incomes are lumpy, seasonal, and under-reported, especially at the bottom of the distribution, where an informal wage or a bad month never shows up cleanly on a survey form. Spending is steadier: households smooth it across good months and bad, and it tracks the standard of living a family can actually sustain rather than the one a single pay-cycle happens to imply.\nChoosing the ruler is not a technicality — it decides who counts as poor before any policy argument begins. A consumption measure pulls the count toward households whose realised welfare is low, not merely those whose reported income dipped in the survey week. That is precisely the population an anti-poverty policy is trying to reach, and getting it wrong at this step quietly biases everything downstream.\n\n\nDon’t trust one poverty line — test every line at once\nThe usual fight in poverty measurement is over the line. Set it a little higher or lower and the headline number moves, so the argument quietly becomes about the threshold instead of about the place. Mexico’s official CONEVAL lines are one defensible choice among many, and committing to any single number invites the obvious objection that you picked the cut-off that gave you the answer you wanted.\nSo we refused the choice. Instead of selecting one line and defending it, we compared the State of Mexico against the rest of the country across the whole continuum of plausible lines, using first-order stochastic dominance. The question stops being “is it poorer at this line?” and becomes “is it poorer at every line at once?” A household is no longer simply poor or not poor by one official verdict; the comparison holds across the entire range a reasonable person might choose.\nThat is a stronger claim than any single statistic, and a more honest one. When one distribution dominates another at every threshold, the conclusion no longer depends on where anyone draws the line — which takes the very thing critics usually attack, the cut-off, off the table entirely.\n\n\nPut honest error bars on a survey that isn’t simple\nENIGH is not a simple random sample. It is stratified, clustered, and weighted — built to be efficient and representative, not to make a statistician’s life easy. A standard error computed as though the data were a clean random draw would understate the true uncertainty, sometimes badly, and a poverty gap that looks decisive on paper can dissolve once the design is taken seriously.\nSo we carried the survey’s design through the statistics, using Huber linearisation, and reported the result not as a single test but as confidence bands running along the entire range of lines. For any threshold, you can see at a glance whether the gap between the state and the rest of the country is real or within noise. The uncertainty is quantified across the whole comparison, not asserted once at a convenient point — which is the difference between a result you can stand behind and one you merely hope holds.\n\n\nThe finding\nAcross that range, the State of Mexico carried a statistically significant excess of urban poverty — between 7 and 13 percentage points above the rest of the country. In people, that is on the order of 0.9 to 1.9 million more poor than the national pattern alone would predict.\nThe width of that band is the honesty: it is what the data genuinely support once you stop pretending the line and the sampling are free choices. But even at its lower edge, the gap is too large, and too stable across every threshold, to be an artefact of where anyone chose to draw the line. The country’s most populous state was carrying a concentration of urban poverty that the national average quietly absorbed and hid — exactly the kind of thing careful measurement is for.",
+    "crumbs": [
+      "Home",
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#explainer-2-simulating-a-policy-household-by-household",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#explainer-2-simulating-a-policy-household-by-household",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
+    "section": "Explainer 2 · Simulating a policy, household by household",
+    "text": "Explainer 2 · Simulating a policy, household by household\nMeasurement tells you where poverty is. It does not tell you what would move it. The second paper takes the step that matters for policy: building a model you can run experiments on, then asking it what each lever is actually worth — and, crucially, who it reaches.\n\nTurn “are you poor?” into a probability\nThe move that makes everything else possible is to stop treating poverty as a yes-or-no verdict at a single line. We estimated a model of household consumption from each household’s characteristics — the schooling and employment of the head, transfers, remittances, location, and the rest — fitted to the survey with its design weights, so the better-off and the harder-to-reach both count for the right amount.\nOnce you have that model, you can read off, for any household and any line, the probability that it falls below it. A household is no longer simply poor or not poor; it carries a 20% chance, or an 80% chance, of being under a given line — and a policy is whatever shifts that probability.\nThe poverty rate of a whole group then becomes the average of those probabilities. That small reframing is what turns a static photograph of poverty into something you can intervene on and re-measure: a model, not just a number.\n\n\nChange one thing, and recompute everyone\nWith the model in hand, you can simulate. Take every household head with no schooling, give them some, hold everything else fixed, recompute the probabilities, and read off how far poverty falls — for the population as a whole and for each subgroup separately.\nThat yields what the paper calls the implicit return of a policy action: the share of existing poverty a given intervention would erase if you could deliver it. It is the same logic the macro-micro literature of Ravallion and Bourguignon uses — push a defined change through household microdata and read the distributional consequence directly, rather than collapsing it into one national average that tells you nothing about who was helped.\nIt is a clean accounting, not a forecast. You are not predicting the future of the economy; you are asking the survey itself, household by household, what a specific lever is worth — and getting an answer with a distribution attached.\n\n\nBe honest about what it can’t say\nThis is deliberately a first-round, non-behavioural calculation. It holds other behaviour fixed: it does not model the labour market re-adjusting, prices moving, or families changing what they do once the policy lands. So it answers a precise question — “who gains immediately, and by how much” — and it is explicit that the answer only holds for changes small enough not to disturb everything else.\nNaming that boundary is part of the method, not an apology for it. A first-round estimate that is honest about being first-round is more useful than a grand general-equilibrium story whose extra moving parts you can neither see nor check. The discipline — and it is the same discipline the UK housing papers run on — is claiming exactly what the data support, and not one inch more.\n\n\nWhat actually moves the needle\nThe strongest lever by far was the education of the household head. Simulating a move from no schooling to some cut the probability of being poor by more than 30% in some subgroups — a larger effect than any other single change we tested, and robust enough to survive the honest error bars rather than washing out inside them.\nThe rest were real but smaller. The head’s employment, government transfers, remittances, the head’s health, and indigenous status each moved poverty by somewhere between roughly 0.5% and 23%, depending heavily on which group you looked at. The heterogeneity was the point, not a nuisance: a lever that barely registers on the national average can be decisive for one subpopulation and almost irrelevant for another. That is precisely the information a policymaker needs in order to target, and precisely the information a single headline number destroys.\nRead those two papers together and the shape of the later work is already there — measure carefully before explaining, test a finding across every threshold, then change one thing and report who it reaches rather than whether it “works” on average.",
+    "crumbs": [
+      "Home",
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#why-both-papers-are-on-this-site",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#why-both-papers-are-on-this-site",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
+    "section": "Why both papers are on this site",
+    "text": "Why both papers are on this site\nTwo reasons. First, this is the earliest version of the craft the housing application rests on: teaching myself relational survey microdata, complex sampling, and a simulation literature from scratch, and carrying all of it through to peer review. The instinct on display — measure before you explain, refuse the convenient threshold, change one thing and read off who it helps — is the same instinct behind the UK housing programme, fifteen years on.\nSecond, it predates today’s AI tooling entirely. The method, the judgement, and the mistakes were done by hand, years before any of these tools existed. It is not part of the five-paper UK housing programme; it is where the habits behind that programme were formed.\n\nBased on the two REMECAREN working papers (Escajeda, Galindo & Galindo, 2010), in Spanish.\nRead next: Measurement paper (PDF) · Microsimulation paper (PDF) · Research Portfolio · Manifesto · Full Glory Cover Letter",
+    "crumbs": [
+      "Home",
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/lha-explainer-blog.html",
+    "href": "pages/explainers/lha-explainer-blog.html",
+    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
+    "section": "",
+    "text": "The UK government spends over £20 billion a year on housing support. The official claim: this money helps low-income people afford their homes. The empirical reality, now measured with government data across 290 English local authorities and two policy experiments, tells a different story. Much of it ends up with landlords.\nNot through fraud. Not through individual bad actors. Through a structural mechanism that has been embedded in the design of Local Housing Allowance since its introduction — and that two natural experiments, across 26 different analytical methods, now confirm.\nHere is what we found, and what it means.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "LHA Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/lha-explainer-blog.html#the-floor-that-moves-the-ceiling",
+    "href": "pages/explainers/lha-explainer-blog.html#the-floor-that-moves-the-ceiling",
+    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
+    "section": "1. The Floor That Moves the Ceiling",
+    "text": "1. The Floor That Moves the Ceiling\nIn areas where many tenants rely on housing benefit, the Local Housing Allowance (LHA) does not operate as a helping hand. It operates as a price anchor. Landlords set rents at or near the LHA rate because they know two things: that is the maximum their tenants can pay, and the government will pay it.\nThe consequence is fiscal capture: the public transfer that is nominally for tenants structurally accrues to property owners. When the LHA goes up, rents follow. When it is frozen, rent growth slows. The benefit does not improve the tenant’s position — it improves the landlord’s revenue.\nThis is not a new claim. Gibbons and Manning (2006) found that 60–67% of UK housing benefit accrues to landlords rather than tenants, using data from the 1990s reforms. DWP’s own econometric analysis of the 2011–12 LHA cuts confirmed rent reductions in the areas most affected. What has been missing is direct, high-resolution evidence from the most recent policy cycle — and a theory that explains why the mechanism persists even in a nominally competitive rental market.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "LHA Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/lha-explainer-blog.html#parliament-accidentally-ran-two-experiments",
+    "href": "pages/explainers/lha-explainer-blog.html#parliament-accidentally-ran-two-experiments",
+    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
+    "section": "2. Parliament Accidentally Ran Two Experiments",
+    "text": "2. Parliament Accidentally Ran Two Experiments\nGovernments rarely provide economists with clean natural experiments. The 2020–21 LHA policy cycle is a rare exception.\nApril 2020: After years of freezing LHA below market rents, the government restored it to the 30th percentile of local market rents — the largest uprating since 2016. If fiscal capture is real, rents in high-benefit areas should have accelerated immediately. Landlords could charge more because their tenants’ budgets had just expanded.\nApril 2021: LHA was re-frozen at the 2020 cash level, while market rents continued rising. If fiscal capture is real, rent growth in those same areas should have decelerated — the floor was now being held below the rising market, and the yield advantage of binding areas should fade.\nBoth predictions come true in the data. Areas with higher concentrations of LHA-dependent households saw rent growth accelerate at the 2020 uplift and decelerate at the 2021 re-freeze — exactly as the fiscal capture theory predicts, and exactly opposite to what you would observe if LHA were operating as a neutral income support rather than a price anchor.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "LHA Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/lha-explainer-blog.html#we-checked-26-different-ways.-the-answer-was-always-the-same.",
+    "href": "pages/explainers/lha-explainer-blog.html#we-checked-26-different-ways.-the-answer-was-always-the-same.",
+    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
+    "section": "3. We Checked 26 Different Ways. The Answer Was Always the Same.",
+    "text": "3. We Checked 26 Different Ways. The Answer Was Always the Same.\nA single finding can always be dismissed: statistical noise, a convenient choice of time window, a sample that was selected to produce the desired result. We therefore ran 26 different versions of the analysis — varying:\n\nThe time window (different start and end dates, including a version that uses the 2020 uplift period itself as the comparison baseline)\nWhether to control for post-COVID urban density recovery\nWhether to restrict the sample to lower-migration areas\nThe bedroom type (1-bed, 2-bed, 3-bed, 4-bed separately)\nWhether to down-weight large local authorities\nWhether to treat the treatment variable as continuous or as a binary threshold\nThe clustering of standard errors\n\nAcross all 26 analyses — temporal, spatial, compositional, measurement — every single estimated effect points in the same direction. Zero sign reversals. This is not cherry-picking; it is structural consistency. The fiscal capture pattern persists under every analytical lens.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "LHA Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/lha-explainer-blog.html#it-is-not-displacement",
+    "href": "pages/explainers/lha-explainer-blog.html#it-is-not-displacement",
+    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
+    "section": "4. It Is Not Displacement",
+    "text": "4. It Is Not Displacement\nThe most common objection to this kind of finding is that the pattern reflects population displacement, not fiscal capture. As LHA is frozen and real incomes fall, lower-income households move out of high-benefit areas. Rents “slow” because the remaining tenants are wealthier — not because landlords are responding to the LHA rate.\nWe tested this directly. We excluded the 30 English local authorities with the highest rates of net in-migration — the places most likely to be experiencing significant population churn — and re-ran the analysis on the remaining 261 areas. The result did not disappear. It got slightly stronger: the estimated effect is more negative in non-displacement areas than in the full sample.\nFiscal capture is not a displacement artefact. It operates in areas where the population is stable. It is structural, not compositional.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "LHA Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/lha-explainer-blog.html#the-headline-number-is-a-lower-bound",
+    "href": "pages/explainers/lha-explainer-blog.html#the-headline-number-is-a-lower-bound",
+    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
+    "section": "5. The Headline Number Is a Lower Bound",
+    "text": "5. The Headline Number Is a Lower Bound\nThe primary estimate — roughly a 1.7 percentage point reduction in rent growth per unit of LHA intensity — may sound modest. Two features of the study design guarantee it is an underestimate.\nFirst, landlords are reluctant to cut nominal rents even when their LHA floor retreats below the market. This downward nominal rigidity attenuates the measured effect of the re-freeze, particularly in the early quarters after April 2021.\nSecond, in dense urban areas — which are also high-LHA-intensity areas — post-COVID demand for private renting surged for reasons entirely unrelated to LHA policy. This independent demand recovery in binding areas partially masks the rent deceleration from the freeze.\nWhen we strip out both sources of attenuation — by using the 2020 uplift period as the comparison baseline (which identifies the predicted reversal from accelerated growth at the uplift to decelerated growth at the re-freeze) and controlling explicitly for urban density recovery — the estimated effect is roughly four times larger. That is the fiscal capture signal, isolated from the noise.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "LHA Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/lha-explainer-blog.html#the-reproduction-trap",
+    "href": "pages/explainers/lha-explainer-blog.html#the-reproduction-trap",
+    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
+    "section": "6. The Reproduction Trap",
+    "text": "6. The Reproduction Trap\nThe Labor-Power as Numéraire (LPN) framework provides the theoretical grounding for why this mechanism is not merely a market distortion but a structural feature of the UK housing economy.\nHousing costs for benefit-dependent households are not just a consumption expenditure — they are inputs to social reproduction. The capacity to work, to form households, to raise children requires that non-housing consumption — food, childcare, transport, heating — remain above a threshold. LHA in high-benefit areas is not primarily a housing supplement; it is a reproduction subsidy maintaining that threshold.\nWhen LHA is frozen and market rents continue rising, the real value of that subsidy falls. The rent deceleration we measure is not merely landlords receiving slightly less revenue — it is the reproduction constraint tightening on the least economically secure households in England. Households do not simply substitute away from housing; they face compressing capacity across all non-housing necessities simultaneously.\nThe LPN framework predicts that the fiscal capture mechanism should therefore produce demographic consequences — slower household formation, slower population growth — in high-intensity areas after the re-freeze, independently of the rent growth deceleration itself. Testing that prediction is the next step in this research programme.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "LHA Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/lha-explainer-blog.html#what-comes-next",
+    "href": "pages/explainers/lha-explainer-blog.html#what-comes-next",
+    "title": "Your Housing Benefit Is Going to Your Landlord. We Can Now Measure How Much.",
+    "section": "What Comes Next",
+    "text": "What Comes Next\nThe finding is clear: LHA cannot be reformed in isolation. As long as housing benefit can be freely capitalised into rents, raising the benefit raises rents, and the net benefit to tenants approaches zero. The Gibbons–Manning finding from 2006 — that the majority of housing benefit flows to landlords — has now been confirmed with updated, high-resolution data across the most recent policy cycle.\nTwo changes are necessary together. First, a rent ceiling calibrated to the LHA rate in binding local authorities — not a blanket national freeze, but a binding constraint on LHA-anchored tenancies that prevents landlords from extracting above the benefit in areas where fiscal capture is confirmed. Second, reformed LHA design that supplements tenant consumption directly rather than subsidising landlord revenue flows through the rent mechanism.\nNeither change is straightforward. Both are politically contested. But the evidence that they are necessary — 290 local authorities, two natural experiments, 26 empirical tests, consistent direction — is now on the table.\nThe housing benefit was designed to help people who cannot afford market rents. The data now says it has been, in large part, helping their landlords instead. That is a political choice. It can be made differently.\n\nRead next: Full paper · Research Portfolio · Manifesto · Full Glory Cover Letter\nBased on the working paper “Fiscal Capture in the UK Private Rented Sector: Evidence from Two LHA Policy Events” (2026). For the full empirical analysis, including robustness specifications and formal results, see the working paper.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "LHA Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html",
+    "href": "pages/explainers/progressing-problemshift-explainer-blog.html",
+    "title": "We Built a Research Programme. Then We Tried to Break It. Here’s What Survived.",
+    "section": "",
+    "text": "Heterodox economics rarely gets a fair hearing. Its premises are dismissed at the threshold — too political, too unconventional, insufficiently neutral — without anyone pausing to ask whether the body of work has actually been developing in a disciplined and progressive way. The question of whether a heterodox programme is internally rigorous — whether it is generating new content rather than papering over anomalies — is simply never reached.\nThis paper insists on reaching that question for a specific four-paper sequence on labour power, housing, and value. Not to endorse it. Not to prove it true. To audit it fairly.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "Progressing Problemshift Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#four-papers-one-argument",
+    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#four-papers-one-argument",
+    "title": "We Built a Research Programme. Then We Tried to Break It. Here’s What Survived.",
+    "section": "1. Four Papers, One Argument",
+    "text": "1. Four Papers, One Argument\nThe sequence at stake consists of four pieces that work together as one argument distributed across four different analytical levels.\nA theory paper takes the reproduction of labour power — rather than subjective consumer preferences — as the primitive from which value is reckoned, and replaces the standard welfare criterion of Pareto efficiency with one it calls Labor-Power Dominance. A structural paper derives from that criterion a welfare-consistent ceiling on rent, and identifies the mechanisms by which buy-to-let financialization forces rents above that ceiling. An empirical paper tests, across 290 English local authorities and two natural experiments, whether housing benefit is being captured by landlords rather than reaching tenants. A policy paper argues that the standard economic objection to rent regulation is inapplicable to the market Britain actually has.\nThese are not four separate arguments about related topics. They share a single hard core — the claim that labour power reproduction is the fundamental unit of social value — and address four different implications of that core. Strip out the connecting tissue and each paper becomes weaker. Read together, they constitute a coherent programme.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "Progressing Problemshift Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#the-lakatosian-test-and-why-its-the-right-one",
+    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#the-lakatosian-test-and-why-its-the-right-one",
+    "title": "We Built a Research Programme. Then We Tried to Break It. Here’s What Survived.",
+    "section": "2. The Lakatosian Test — and Why It’s the Right One",
+    "text": "2. The Lakatosian Test — and Why It’s the Right One\nThe philosopher of science Imre Lakatos distinguished between two kinds of research programme development. A degenerating programme, when it faces a challenge, adds an untestable auxiliary hypothesis to patch the anomaly — rescuing the core at the cost of making the programme less falsifiable. A progressing programme, by contrast, responds to challenges by revising its protective belt in ways that reduce the programme’s degrees of freedom and increase its explanatory reach. Genuine progress is measured by whether the belt revision restricts the modeller rather than giving them more room.\nThe paper applies this framework to the four-paper sequence and delivers a deliberately split verdict.\nThe programme is theoretically progressive. The most important revision in the sequence converted an unproven conjecture about demographic risk — introduced to address a specific anomaly in the formal model — into a signed, closed-form restriction tied to four independently observable parameters. That revision did not add flexibility. It subtracted it. The coefficient that had been a free conjecture became derivable from conditions with empirical content. That is the structural opposite of an ad hoc rescue.\nThe programme is non-degenerating. Under recorded attacks on the hard core itself — challenges to the most fundamental commitments — the core was preserved through principled refusal and belt revision, not by inventing new untestable claims. The standard of proof required is that the core stays fixed while the belt absorbs and responds to pressure. That standard was met.\nBut the programme is empirically progressing, not yet empirically progressive. This is the honest part.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "Progressing Problemshift Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#the-result-that-couldnt-be-claimed-and-why-that-matters",
+    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#the-result-that-couldnt-be-claimed-and-why-that-matters",
+    "title": "We Built a Research Programme. Then We Tried to Break It. Here’s What Survived.",
+    "section": "3. The Result That Couldn’t Be Claimed — and Why That Matters",
+    "text": "3. The Result That Couldn’t Be Claimed — and Why That Matters\nThe highest standard of Lakatosian progress requires not merely corroboration but corroboration of a novel prediction — a result that the programme predicts and its rivals do not, and that the rivals’ alternative account cannot accommodate after the fact.\nThe fiscal capture finding — that housing benefit is captured by landlords rather than reaching tenants — looks at first glance like exactly this kind of result. The reproduction framework predicts it structurally, not just behaviorally. The empirical paper confirms it across 26 different analytical specifications with zero sign reversals. That is an unusually robust finding.\nThe paper’s own methodological discipline required that this result be demoted. The problem is observational equivalence: a simpler behavioral story — landlords follow the LHA rate — predicts the same empirical pattern. The reproduction framework’s prediction is not, in this instance, a genuinely novel prediction that discriminates the programme from its rival. It is shared content. Both the programme and a much simpler story predict fiscal capture.\nThe paper demotes its own strongest-looking result rather than claim credit for it. This is unusual in academic economics, where the incentive runs powerfully in the other direction.\nWhat remains as the genuine discriminating frontier are the programme’s demographic predictions: that binding areas, with higher concentrations of LHA-dependent households, should show differential household formation rates and population dynamics compared with non-binding areas. Those tests are registered, explicitly falsifiable, and still open.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "Progressing Problemshift Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#what-this-means-for-the-hiring-package",
+    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#what-this-means-for-the-hiring-package",
+    "title": "We Built a Research Programme. Then We Tried to Break It. Here’s What Survived.",
+    "section": "4. What This Means for the Hiring Package",
+    "text": "4. What This Means for the Hiring Package\nFor a research role at NEF, the methodological point of this paper is also a practical one. The programme demonstrates its credibility not only by accumulating positive results but by its willingness to demote convenient findings when they do not meet the standard it claims to hold. That discipline is the foundation on which policy recommendations can be trusted.\nA programme that claims to have proven more than it has is politically useful in the short term and fragile under scrutiny. A programme that is explicit about what it has established, what remains open, and what would refute it is the kind of thing that can sustain serious advocacy. The distinction is exactly what the paper makes.\nThe registered discriminating tests also create a forward research agenda. If the demographic predictions are confirmed at scale — differential household formation and population growth in high-intensity binding areas — that would be genuine novel corroboration in the Lakatosian sense. It is an empirically tractable question with data that exist. It is waiting to be answered.\n\nBased on the working paper “A Progressing Problemshift” (2026).\nRead next: Full paper · Research Portfolio · Manifesto · Full Glory Cover Letter",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "Progressing Problemshift Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/general/abstracts-dossier.html",
+    "href": "pages/general/abstracts-dossier.html",
+    "title": "Research Portfolio",
+    "section": "",
+    "text": "Five papers, one connected argument about UK housing, rent regulation, and the welfare of working households. Each entry gives the claim in plain English, what it contributes to the policy case, and what is technically inside — with links to both the short explainer and the full paper.\nBefore the papers: what the research is actually for — Manifesto.\nSuggested path: read top to bottom — the evidence, the policy case, the welfare rationale, the foundation, and the self-audit.",
+    "crumbs": [
+      "Home",
+      "The Research",
+      "Research Portfolio"
+    ]
+  },
+  {
+    "objectID": "pages/general/abstracts-dossier.html#fiscal-capture-empirical-anchor",
+    "href": "pages/general/abstracts-dossier.html#fiscal-capture-empirical-anchor",
+    "title": "Research Portfolio",
+    "section": "Fiscal Capture — empirical anchor",
+    "text": "Fiscal Capture — empirical anchor\nQuantitative evidence that much of housing benefit is absorbed by landlords rather than tenants.\nPolicy use: any rise in housing support has to be paired with rent regulation, or it leaks into landlord yields instead of reaching the households it was meant for.\nInside: difference-in-differences across 290 local authorities over two opposite LHA events (the April 2020 uplift and the April 2021 re-freeze); 26 specifications, every coefficient negative, zero sign reversals; the headline effect is reported as a conservative lower bound.\nRead the explainer · Read the full paper",
+    "crumbs": [
+      "Home",
+      "The Research",
+      "Research Portfolio"
+    ]
+  },
+  {
+    "objectID": "pages/general/abstracts-dossier.html#why-the-rent-control-veto-fails-clearing-the-ground-for-regulation",
+    "href": "pages/general/abstracts-dossier.html#why-the-rent-control-veto-fails-clearing-the-ground-for-regulation",
+    "title": "Research Portfolio",
+    "section": "Why the Rent-Control Veto Fails — clearing the ground for regulation",
+    "text": "Why the Rent-Control Veto Fails — clearing the ground for regulation\nWhy the textbook “rent control chokes off supply” objection fails in the actual UK market. (Working paper: Breaking the Benchmark.)\nPolicy use: the rebuttal to the standard veto on rent regulation — it defends an emergency rent brake, with no vacancy decontrol and pre-committed statutory exit criteria.\nInside: models the private rented sector as a quadruple-object market (shelter, capitalised asset, credit collateral, fiscal conduit); applies Lipsey–Lancaster second-best logic.\nRead the explainer · Read the full paper",
+    "crumbs": [
+      "Home",
+      "The Research",
+      "Research Portfolio"
+    ]
+  },
+  {
+    "objectID": "pages/general/abstracts-dossier.html#rent-as-reproduction-cost-welfare-rationale",
+    "href": "pages/general/abstracts-dossier.html#rent-as-reproduction-cost-welfare-rationale",
+    "title": "Research Portfolio",
+    "section": "Rent as Reproduction Cost — welfare rationale",
+    "text": "Rent as Reproduction Cost — welfare rationale\nTreats rent as a cost of sustaining the working population across generations, not as ordinary consumption.\nPolicy use: a principled basis for where to set the cap — pegged to reproduction cost (CPI-anchored), not to financialised market rents.\nInside: derives a welfare-optimal rent ceiling consistent with household continuation; conditional on post-2008 buy-to-let overvaluation, market rents exceed it; the result is a scoped first-order perturbation, not a general law.\nRead the explainer · Read the full paper",
+    "crumbs": [
+      "Home",
+      "The Research",
+      "Research Portfolio"
+    ]
+  },
+  {
+    "objectID": "pages/general/abstracts-dossier.html#labor-power-as-numéraire-foundation",
+    "href": "pages/general/abstracts-dossier.html#labor-power-as-numéraire-foundation",
+    "title": "Research Portfolio",
+    "section": "Labor Power as Numéraire — foundation",
+    "text": "Labor Power as Numéraire — foundation\nThe underlying value theory: why competitive markets can systematically fail the people whose labour sustains the economy.\nWhat it secures: the welfare foundation the other arguments rest on — it makes the case structural rather than a value judgment opponents can wave away. Co-authored (Huato and Galindo).\nInside: proposes Labour-Power Dominance as a welfare criterion; shows competitive equilibria fail it under unequal initial wealth even with complete information; derives implications for asset pricing and macro-finance.\nRead the explainer · Read the full paper",
+    "crumbs": [
+      "Home",
+      "The Research",
+      "Research Portfolio"
+    ]
+  },
+  {
+    "objectID": "pages/general/abstracts-dossier.html#a-progressing-problemshift-self-audit",
+    "href": "pages/general/abstracts-dossier.html#a-progressing-problemshift-self-audit",
+    "title": "Research Portfolio",
+    "section": "A Progressing Problemshift — self-audit",
+    "text": "A Progressing Problemshift — self-audit\nA transparent appraisal of the whole body of work: what is established, what is conditional, and what is still open.\nWhat it secures: trustworthy advocacy — it names the one discriminating test still unrun, so the case cannot be ambushed on a hidden weakness.\nInside: a Lakatosian reconstruction of the research programme; the verdict is split and stated plainly — theoretically progressive and non-degenerating, but empirically progressing, not yet progressive, because the discriminating demographic test is named but unrun.\nRead the explainer · Read the full paper",
+    "crumbs": [
+      "Home",
+      "The Research",
+      "Research Portfolio"
+    ]
+  },
+  {
+    "objectID": "pages/general/cover-letter-one-page.html",
+    "href": "pages/general/cover-letter-one-page.html",
+    "title": "Read Me First",
+    "section": "",
+    "text": "Carlos Galindo Escajeda · Social Policy Economist / Quantitative Researcher application · 1 June 2026\nOne-line fit. A microsimulation-and-poverty-measurement economist by training, with a decade of macro-finance quantitative practice in between, returning to distributional policy work and ready to bring a verified UK-PRS difference-in-differences design — across 290 English local authorities, 2019–2024 — to NEF’s fair-rents programme from day one.",
+    "crumbs": [
+      "Home",
+      "Start Here",
+      "Read Me First"
+    ]
+  },
+  {
+    "objectID": "pages/general/cover-letter-one-page.html#where-to-start",
+    "href": "pages/general/cover-letter-one-page.html#where-to-start",
+    "title": "Read Me First",
+    "section": "Where to start",
+    "text": "Where to start\n\nRead this first\n\nFull Glory Cover Letter — the full narrative of why I am applying and what the five papers are for.\n\nThe research — fast to deep\n\nFiscal Capture explainer (paper) · Rent-Control Veto explainer (paper) — the two papers that matter most to this application: the evidence, then the policy case.\nResearch Portfolio — all five works in one place: the claim, what is inside, and links to both the explainer and the full paper.\nManifesto — why the work exists.\n\nHow it was built\n\nThe Work Behind the Screen — the craft behind the pages.\n\nAbout the applicant\n\nShort CV — profile fit and methods in one screen.\nFull Glory CV — complete background depth.",
+    "crumbs": [
+      "Home",
+      "Start Here",
+      "Read Me First"
+    ]
+  },
+  {
+    "objectID": "pages/general/cover-letter-one-page.html#three-things-nef-should-not-miss",
+    "href": "pages/general/cover-letter-one-page.html#three-things-nef-should-not-miss",
+    "title": "Read Me First",
+    "section": "Three things NEF should not miss",
+    "text": "Three things NEF should not miss\n\nThe quantitative work is already on UK housing data. The empirical anchor is a 26-specification DiD across 290 English local authorities, using the April 2020 LHA uplift and the April 2021 re-freeze as opposite policy shocks. The signature is consistent with landlord capture, with zero sign reversals, and is reported as a conservative lower bound rather than inflated.\nThe policy argument is built to survive the orthodox attack, not merely repeat the activist position. The paper Why the Rent-Control Veto Fails treats the UK PRS as a quadruple-object market — shelter, capitalised asset, credit collateral, and fiscal conduit — and uses second-best logic plus pre-committed exit criteria to defend intervention without pretending the textbook benchmark still governs.\nThe next questions are already mapped to the direction NEF has proposed. The package names specific empirical gaps a PRS-database expansion is positioned to close — ground-rent-share estimation and transaction-level search-friction markups — so the work points at NEF’s own proposed next steps, not at the academic literature.",
+    "crumbs": [
+      "Home",
+      "Start Here",
+      "Read Me First"
+    ]
+  },
+  {
+    "objectID": "pages/general/cover-letter-one-page.html#if-you-only-have-time-for-one-click",
+    "href": "pages/general/cover-letter-one-page.html#if-you-only-have-time-for-one-click",
+    "title": "Read Me First",
+    "section": "If you only have time for one click",
+    "text": "If you only have time for one click\nOpen the Research Portfolio. It puts all five works on one screen — the claim, what each contributes to the policy case, and what is inside — with a link to the plain-English explainer and the full paper for every one.",
+    "crumbs": [
+      "Home",
+      "Start Here",
+      "Read Me First"
     ]
   },
   {
@@ -1176,7 +1164,7 @@
     "href": "pages/general/cv.html",
     "title": "Short CV",
     "section": "",
-    "text": "cgalindito@gmail.com · London, UK · +44 (0) 737-677-1146 · Eligible to work in the UK (no sponsorship required)\nSee also: Read Me First · Application Letter · Full Cover Letter · Full CV",
+    "text": "cgalindito@gmail.com · London, UK · +44 (0) 737-677-1146 · Eligible to work in the UK (no sponsorship required)\nSee also: Read Me First · Full Cover Letter · Full CV",
     "crumbs": [
       "Home",
       "CV",
