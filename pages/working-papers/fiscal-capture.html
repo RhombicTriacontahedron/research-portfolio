@@ -424,14 +424,6 @@ window.Quarto = {
 
 
 <p>Carlos Galindo Escajeda June 1, 2026</p>
-<!-- ============================================================ -->
-<!-- STATUS: COMPLETE DRAFT v0.10 — 2026-05-28                   -->
-<!-- Source: PAYLOAD_R3.md v3.20 (empirical record)              -->
-<!-- Pipeline: NEF_EMPIRICS/LHA_DiD_Complete_Project/lha_did/    -->
-<!-- Primary results: 04_robustness.py; outputs/tables/          -->
-<!-- CRITICAL: Do NOT change empirical results without re-running -->
-<!--            04_robustness.py first.                           -->
-<!-- ============================================================ -->
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>This is the empirical pillar of the case NEF makes: evidence that the state’s reliance on Local Housing Allowance (LHA) partly subsidises landlords rather than protecting tenants. Using a difference-in-differences design across 290 English local authorities (2019–2024) — built from ONS private-rent indices, DWP Stat-Xplore caseloads, MHCLG dwelling-stock estimates and NOMIS wage and claimant data — it exploits two natural experiments: the April 2020 LHA uplift to the 30th percentile and the April 2021 re-freeze. If LHA acts as a binding yield floor, rent growth in high-LHA-intensity areas should accelerate at the uplift and decelerate at the re-freeze. Across 26 specifications the directional signature is consistent with capture in every case, with zero sign reversals. The paper is candid about magnitude: downward nominal rigidity and tenant lock-in attenuate the re-freeze response, so the headline estimate is reported deliberately as a conservative lower bound, with larger effects in the windows that isolate the mechanism more cleanly. For NEF’s advocacy the implication is concrete: because a real share of any LHA increase is absorbed into rents, raising or unfreezing LHA without a rent ceiling partly funds landlord yields — so a ceiling is a necessary complement to benefit reform, not an alternative to it. The distinguishing demographic test (whether captured areas also show slower household formation) is identified as the next empirical step, not claimed here.</p>
@@ -454,7 +446,6 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="institutional-background">2. Institutional Background</h2>
 <section id="the-lha-policy-timeline" class="level3">
 <h3 class="anchored" data-anchor-id="the-lha-policy-timeline">2.1 The LHA Policy Timeline</h3>
-<!-- VERIFIED FACTS — do not modify without checking primary sources -->
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -503,7 +494,6 @@ window.Quarto = {
 </section>
 <section id="why-the-re-freeze-coefficient-is-attenuated" class="level3">
 <h3 class="anchored" data-anchor-id="why-the-re-freeze-coefficient-is-attenuated">2.2 Why the Re-freeze Coefficient is Attenuated</h3>
-<!-- Critical to include to pre-empt "why is β_fr so small?" -->
 <p>The re-freeze test (<span class="math inline">\(\hat{\beta}_{\text{fr}} &lt; 0\)</span>) is subject to two attenuation mechanisms absent from the uplift test. First, downward nominal rigidity: landlords resist cutting rents below existing levels even when the LHA yield floor recedes. Second, tenant lock-in: sitting tenants in high-LHA-intensity areas face moving costs that suppress re-negotiation during periods of general rent inflation. A near-zero <span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span> is therefore consistent with genuine fiscal capture; a significantly negative estimate constitutes strong evidence.</p>
 <p>These attenuation mechanisms have a direct implication for the specification hierarchy in this paper. The primary specification (R1), which uses the full 2019-Q1 to 2024-Q1 window with the entire pre-2021-Q3 period as the comparison baseline, is most severely affected: the comparison window includes the 2019–2020 pre-uplift period, during which rent dynamics in high-intensity areas were already shaped by the ongoing 2016 freeze, compressing the measured contrast. The COVID-window restriction (R3) mitigates this by opening the window at 2020-Q2 — the start of the uplift — so that the comparison baseline captures rent growth during the uplift period itself. This identifies the reversal from accelerated rent growth at the uplift to decelerated growth at the re-freeze, partially bypassing both attenuation mechanisms: landlords who adjusted rents upward at the uplift do not face the same downward nominal rigidity when the floor is subsequently held fixed while market rents continue rising. R3 is therefore the better-powered specification for the fiscal capture reversal test; R1 provides a conservative lower bound. The full specification hierarchy is discussed in §5 and §6.</p>
 <hr>
