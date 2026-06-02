@@ -804,6 +804,78 @@
     ]
   },
   {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
+    "section": "",
+    "text": "Earlier, pre-AI research — and separate from the five-paper UK housing programme on this site. These two peer-reviewed papers (in Spanish, 2010, with Celina Escajeda and Oscar Galindo) are the early-career work the application refers to: the first time I taught myself survey microdata and the microsimulation literature from a standing start, and carried it through to publication.",
+    "crumbs": [
+      "Home",
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#the-question",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#the-question",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
+    "section": "The question",
+    "text": "The question\nIn 2010, with two colleagues at the Universidad Autónoma Chapingo, I worked on a question that maps closely onto what NEF does: how is poverty actually distributed across a population, and what would a given policy do to it? The setting was the State of Mexico, the country’s most populous; the raw material was the national household income and expenditure survey (ENIGH 2008) — a complex, stratified, clustered sample of tens of thousands of households.",
+    "crumbs": [
+      "Home",
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#paper-1-measuring-before-explaining",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#paper-1-measuring-before-explaining",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
+    "section": "Paper 1 — measuring before explaining",
+    "text": "Paper 1 — measuring before explaining\nThe first paper is about getting the measurement right. We built a consumption-based measure of household welfare — net monthly per-capita consumption, deflated to a common price base — on the argument that what people spend is a steadier read on realised welfare than what they report earning. We then compared the State of Mexico with the rest of the country not at a single official poverty line but across a whole range of lines, using stochastic dominance and complex-survey confidence bands. The headline result: a statistically significant excess of urban poverty in the state — between 7 and 13 percentage points above the rest of the country, on the order of 0.9 to 1.9 million more people than you would otherwise expect.",
+    "crumbs": [
+      "Home",
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#paper-2-microsimulating-an-anti-poverty-policy",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#paper-2-microsimulating-an-anti-poverty-policy",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
+    "section": "Paper 2 — microsimulating an anti-poverty policy",
+    "text": "Paper 2 — microsimulating an anti-poverty policy\nThe second paper asks the harder question: if you changed one thing, how much poverty would move? This is microsimulation in the macro-micro tradition (Ravallion, Bourguignon). We estimated a household consumption model, then turned each household’s predicted consumption into a probability of being poor at any given line. With that in hand, you can simulate a policy change — give every household head with no schooling some education, say — recompute the probabilities, and read off the change for each subgroup.\nIt is a deliberately first-round, non-behavioural accounting: it holds other behaviour fixed, so it answers “who gains, and by how much, immediately” — and it is honest that the answer only holds for changes small enough not to disturb everything else. The strongest lever by far was the education of the household head: simulating a move from no schooling to some cut the probability of being poor by more than 30% in some subgroups. Other levers — the head’s employment, government transfers, remittances, health, and indigenous status — ranged from roughly 0.5% to 23%, with large differences between groups.",
+    "crumbs": [
+      "Home",
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#why-it-is-on-this-site",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#why-it-is-on-this-site",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
+    "section": "Why it is on this site",
+    "text": "Why it is on this site\nTwo reasons. First, it is the earliest version of the craft the application rests on: teaching myself relational survey microdata, complex sampling, and a simulation literature from scratch, and carrying it through to peer review. Second, it predates today’s AI tooling entirely — the method, the judgement, and the mistakes were all done by hand, years before any of these tools existed. It is not part of the five-paper UK housing programme; it is where the habits behind that programme were formed.",
+    "crumbs": [
+      "Home",
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
+    "objectID": "pages/earlier-research/poverty-microsimulation-mexico.html#the-full-papers-spanish",
+    "href": "pages/earlier-research/poverty-microsimulation-mexico.html#the-full-papers-spanish",
+    "title": "Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico",
+    "section": "The full papers (Spanish)",
+    "text": "The full papers (Spanish)\n\nPoverty measurement in the State of Mexico (PDF, Spanish)\nMicrosimulation of anti-poverty policy (PDF, Spanish)\n\n\nRead next: Measurement paper (PDF) · Microsimulation paper (PDF) · Short CV",
+    "crumbs": [
+      "Home",
+      "Earlier Research (pre-AI)",
+      "Poverty Microsimulation (Mexico, 2010)"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
@@ -851,6 +923,13 @@
     "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
     "section": "Working Papers",
     "text": "Working Papers\n\nWhy the Rent-Control Veto Fails\nFiscal Capture in the UK PRS\nRent as Reproduction Cost\nLabor Power as Numeraire\nA Progressing Problemshift"
+  },
+  {
+    "objectID": "index.html#earlier-research-pre-ai",
+    "href": "index.html#earlier-research-pre-ai",
+    "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
+    "section": "Earlier Research (pre-AI)",
+    "text": "Earlier Research (pre-AI)\n\nPoverty Microsimulation (Mexico, 2010)"
   },
   {
     "objectID": "pages/explainers/btl-explainer-blog.html",
