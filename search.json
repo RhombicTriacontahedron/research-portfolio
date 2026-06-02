@@ -532,7 +532,7 @@
     "href": "pages/general/cover-letter-one-page.html#where-to-start",
     "title": "Read Me First",
     "section": "Where to start",
-    "text": "Where to start\n\nFor the exact one-page letter submitted through the application portal — Submitted Application Letter.\nFor the full narrative of why I am applying and what the five papers are for — Full Glory Cover Letter.\nFor profile fit and methods in one screen — Short CV.\nFor complete background depth — Full Glory CV.\nFor why the work exists — Manifesto.\nFor the five-paper package in one place — Research Portfolio.\nFor the two papers that matter most to this application — policy argument: Breaking the Benchmark; empirical anchor: Fiscal Capture.\nFor the craft behind the pages — The Work Behind the Screen.",
+    "text": "Where to start\nRead this first\n\nFor the full narrative of why I am applying and what the five papers are for — Full Glory Cover Letter.\n\nThe research — fast to deep\n\nFor the two papers that matter most to this application — empirical anchor: Fiscal Capture explainer · paper; policy argument: Breaking the Benchmark explainer · paper.\nFor all five works in one place — the claim, what is inside, and links to both the explainer and the full paper — Research Portfolio.\nFor why the work exists — Manifesto.\n\nHow it was built\n\nFor the craft behind the pages — The Work Behind the Screen.\n\nAbout the applicant\n\nFor profile fit and methods in one screen — Short CV.\nFor complete background depth — Full Glory CV.\nFor the exact one-page letter submitted through the application portal — Submitted Application Letter.",
     "crumbs": [
       "Home",
       "Start Here",
@@ -580,7 +580,7 @@
     "href": "pages/general/abstracts-dossier.html",
     "title": "Research Portfolio",
     "section": "",
-    "text": "Five papers, one connected argument about UK housing, rent regulation, and the welfare of working households. Each abstract can be read in under a minute and links to the full paper.\nBefore the papers: what the research is actually for — Manifesto.",
+    "text": "Five papers, one connected argument about UK housing, rent regulation, and the welfare of working households. Each entry gives the claim in plain English and what is technically inside, then links to both the short explainer and the full paper.\nBefore the papers: what the research is actually for — Manifesto.\nSuggested path: read top to bottom — policy argument, evidence, welfare rationale, foundation, self-audit.",
     "crumbs": [
       "Home",
       "The Research",
@@ -588,11 +588,11 @@
     ]
   },
   {
-    "objectID": "pages/general/abstracts-dossier.html#reading-order",
-    "href": "pages/general/abstracts-dossier.html#reading-order",
+    "objectID": "pages/general/abstracts-dossier.html#breaking-the-benchmark-policy-argument",
+    "href": "pages/general/abstracts-dossier.html#breaking-the-benchmark-policy-argument",
     "title": "Research Portfolio",
-    "section": "Reading order",
-    "text": "Reading order\nIf you want the shortest route from policy argument to evidence to theory:\n\nBreaking the Benchmark — why the standard anti-rent-control objection fails in the actual UK PRS.\nFiscal Capture — quantitative evidence that LHA support is partly absorbed by landlords.\nRent as Reproduction Cost — welfare rationale for a CPI-anchored emergency brake.\nLabor Power as Numéraire — the underlying welfare foundation.\nA Progressing Problemshift — a transparent self-audit of what is established, conditional, and open.",
+    "section": "Breaking the Benchmark — policy argument",
+    "text": "Breaking the Benchmark — policy argument\nWhy the textbook “rent control chokes off supply” objection fails in the actual UK market, and why an emergency rent brake is the right first move.\nInside: models the private rented sector as a quadruple-object market (shelter, capitalised asset, credit collateral, fiscal conduit); applies Lipsey–Lancaster second-best logic; specifies no vacancy decontrol and pre-committed statutory exit criteria.\nRead the explainer · Read the full paper",
     "crumbs": [
       "Home",
       "The Research",
@@ -600,11 +600,11 @@
     ]
   },
   {
-    "objectID": "pages/general/abstracts-dossier.html#breaking-the-benchmark-emergency-rent-regulation-in-a-financialised-uk-housing-market",
-    "href": "pages/general/abstracts-dossier.html#breaking-the-benchmark-emergency-rent-regulation-in-a-financialised-uk-housing-market",
+    "objectID": "pages/general/abstracts-dossier.html#fiscal-capture-empirical-anchor",
+    "href": "pages/general/abstracts-dossier.html#fiscal-capture-empirical-anchor",
     "title": "Research Portfolio",
-    "section": "1. Breaking the Benchmark: Emergency Rent Regulation in a Financialised UK Housing Market",
-    "text": "1. Breaking the Benchmark: Emergency Rent Regulation in a Financialised UK Housing Market\nFull paper: ../working-papers/breaking-the-benchmark.html\nWhat it does: Defends NEF’s emergency rent brake by showing the standard textbook objection to rent control does not apply to the UK market. Uses Lipsey-Lancaster second-best logic to show that once competitive conditions fail on multiple fronts (planning constraints, financialisation, credit conditions), deregulation loses its automatic-efficiency claim. Explains the two critical design features: no vacancy decontrol, and pre-committed statutory exit criteria.\nWhy it matters: Policy justification with economic rigour. Shows why the brake is the right first move, and on what conditions it should end.",
+    "section": "Fiscal Capture — empirical anchor",
+    "text": "Fiscal Capture — empirical anchor\nQuantitative evidence that much of housing benefit is absorbed by landlords rather than tenants, which is why benefits and rent regulation work as complements.\nInside: difference-in-differences across 290 local authorities over two opposite LHA events (the April 2020 uplift and the April 2021 re-freeze); 26 specifications, every coefficient negative, zero sign reversals; the headline effect is reported as a conservative lower bound.\nRead the explainer · Read the full paper",
     "crumbs": [
       "Home",
       "The Research",
@@ -612,11 +612,11 @@
     ]
   },
   {
-    "objectID": "pages/general/abstracts-dossier.html#fiscal-capture-in-the-uk-private-rented-sector-evidence-from-two-lha-policy-events",
-    "href": "pages/general/abstracts-dossier.html#fiscal-capture-in-the-uk-private-rented-sector-evidence-from-two-lha-policy-events",
+    "objectID": "pages/general/abstracts-dossier.html#rent-as-reproduction-cost-welfare-rationale",
+    "href": "pages/general/abstracts-dossier.html#rent-as-reproduction-cost-welfare-rationale",
     "title": "Research Portfolio",
-    "section": "2. Fiscal Capture in the UK Private Rented Sector: Evidence from Two LHA Policy Events",
-    "text": "2. Fiscal Capture in the UK Private Rented Sector: Evidence from Two LHA Policy Events\nFull paper: ../working-papers/fiscal-capture.html\nWhat it does: Quasi-experimental evidence using two natural policy events (April 2020 LHA uplift, April 2021 re-freeze) across 290 local authorities. Finds consistent evidence of landlord capture: every coefficient negative, zero sign reversals across 26 specifications. Reports headline figure as conservative lower bound. Names the distinguishing demographic test still to run.\nWhy it matters: Hard quantitative evidence that benefit increases partly flow to landlords unless paired with a rent ceiling. Empirical anchor for why benefits and regulation are complements.",
+    "section": "Rent as Reproduction Cost — welfare rationale",
+    "text": "Rent as Reproduction Cost — welfare rationale\nTreats rent as a cost of sustaining the working population across generations, not as ordinary consumption — giving the CPI-anchored brake a welfare rationale rather than a second-best excuse.\nInside: derives a welfare-optimal rent ceiling consistent with household continuation; conditional on post-2008 buy-to-let overvaluation, market rents exceed it; the result is a scoped first-order perturbation, not a general law.\nRead the explainer · Read the full paper",
     "crumbs": [
       "Home",
       "The Research",
@@ -624,11 +624,11 @@
     ]
   },
   {
-    "objectID": "pages/general/abstracts-dossier.html#labor-power-as-numéraire-a-materialist-theory-of-value-risk-and-capitalist-finance",
-    "href": "pages/general/abstracts-dossier.html#labor-power-as-numéraire-a-materialist-theory-of-value-risk-and-capitalist-finance",
+    "objectID": "pages/general/abstracts-dossier.html#labor-power-as-numéraire-foundation",
+    "href": "pages/general/abstracts-dossier.html#labor-power-as-numéraire-foundation",
     "title": "Research Portfolio",
-    "section": "3. Labor Power as Numéraire: A Materialist Theory of Value, Risk, and Capitalist Finance",
-    "text": "3. Labor Power as Numéraire: A Materialist Theory of Value, Risk, and Capitalist Finance\nFull paper: ../working-papers/labor-power-numeraire.html\nWhat it does: Proposes Labour-Power Dominance as the welfare criterion for evaluating economic outcomes. Shows that competitive markets systematically fail this criterion when initial wealth is unequal, even with perfect competition and complete information. Derives testable implications for asset pricing and macrofinance.\nWhy it matters: Welfare foundation. Explains why markets fail to sustain the working population, and why that failure is structural and measurable, not an accident.",
+    "section": "Labor Power as Numéraire — foundation",
+    "text": "Labor Power as Numéraire — foundation\nThe underlying value theory: why competitive markets can systematically fail the people whose labour sustains the economy.\nInside: proposes Labour-Power Dominance as a welfare criterion; shows competitive equilibria fail it under unequal initial wealth even with complete information; derives implications for asset pricing and macro-finance. Co-authored (Huato and Galindo).\nRead the explainer · Read the full paper",
     "crumbs": [
       "Home",
       "The Research",
@@ -636,23 +636,11 @@
     ]
   },
   {
-    "objectID": "pages/general/abstracts-dossier.html#rent-as-reproduction-cost-labor-power-dynamics-buy-to-let-mispricing-and-fiscal-capture-in-the-uk-private-rented-sector",
-    "href": "pages/general/abstracts-dossier.html#rent-as-reproduction-cost-labor-power-dynamics-buy-to-let-mispricing-and-fiscal-capture-in-the-uk-private-rented-sector",
+    "objectID": "pages/general/abstracts-dossier.html#a-progressing-problemshift-self-audit",
+    "href": "pages/general/abstracts-dossier.html#a-progressing-problemshift-self-audit",
     "title": "Research Portfolio",
-    "section": "4. Rent as Reproduction Cost: Labor-Power Dynamics, Buy-to-Let Mispricing, and Fiscal Capture in the UK Private Rented Sector",
-    "text": "4. Rent as Reproduction Cost: Labor-Power Dynamics, Buy-to-Let Mispricing, and Fiscal Capture in the UK Private Rented Sector\nFull paper: ../working-papers/rent-reproduction.html\nWhat it does: Treats housing cost as an input to labour-power reproduction, not consumption. Derives a welfare-optimal rent ceiling consistent with household continuation. Conditional on post-2008 buy-to-let overvaluation, market rents exceed the ceiling. CPI-anchored cap moves the market back toward the optimal path.\nWhy it matters: Welfare rationale for the emergency brake. Not just a second-best compromise—under the reproduction framework, the brake is the more efficient choice.",
-    "crumbs": [
-      "Home",
-      "The Research",
-      "Research Portfolio"
-    ]
-  },
-  {
-    "objectID": "pages/general/abstracts-dossier.html#a-progressing-problemshift-a-lakatosian-rational-reconstruction-of-the-labour-power-as-numéraire-research-programme",
-    "href": "pages/general/abstracts-dossier.html#a-progressing-problemshift-a-lakatosian-rational-reconstruction-of-the-labour-power-as-numéraire-research-programme",
-    "title": "Research Portfolio",
-    "section": "5. A Progressing Problemshift: A Lakatosian Rational Reconstruction of the Labour-Power-as-Numéraire Research Programme",
-    "text": "5. A Progressing Problemshift: A Lakatosian Rational Reconstruction of the Labour-Power-as-Numéraire Research Programme\nFull paper: ../working-papers/progressing-problemshift.html\nWhat it does: Appraises the four-paper programme using Imre Lakatos’s philosophy-of-science framework. Asks: under criticism, did the programme add genuine testable content, or patch with ad hoc fixes? Split verdict: theoretically progressive, non-degenerating, but empirically progressing not yet progressive. The discriminating test is named and unrun.\nWhy it matters: Transparency about rigour and limits. Shows the research programme is built to be checked, not to intimidate. Flags where evidence stops and future work begins.\n\nWhere to start: - Read only the first three if you want the shortest route from policy argument to evidence to welfare rationale. - Read the fourth and fifth to inspect the deeper theoretical foundation and the programme’s own self-critique. - Follow the full-paper links when an abstract raises a question you want answered in detail.",
+    "section": "A Progressing Problemshift — self-audit",
+    "text": "A Progressing Problemshift — self-audit\nA transparent appraisal of the whole body of work: what is established, what is conditional, and what is still open.\nInside: a Lakatosian reconstruction of the research programme; the verdict is split and stated plainly — theoretically progressive and non-degenerating, but empirically progressing, not yet progressive, because the discriminating demographic test is named but unrun.\nRead the explainer · Read the full paper",
     "crumbs": [
       "Home",
       "The Research",
