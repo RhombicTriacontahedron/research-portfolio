@@ -1,4 +1,6 @@
-/* Bold top-level sidebar section headers */
+/* Bold + ALL CAPS top-level sidebar section headers */
 .sidebar-item.sidebar-item-section > .sidebar-item-container > a.sidebar-link {
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
