@@ -393,7 +393,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#robustness" id="toc-robustness" class="nav-link" data-scroll-target="#robustness">6. Robustness</a>
   <ul class="collapse">
-  <li><a href="#specification-robustness-24-specification-directional-sweep" id="toc-specification-robustness-24-specification-directional-sweep" class="nav-link" data-scroll-target="#specification-robustness-24-specification-directional-sweep">6.1 Specification Robustness — 24-Specification Directional Sweep</a></li>
+  <li><a href="#specification-robustness-directional-consistency" id="toc-specification-robustness-directional-consistency" class="nav-link" data-scroll-target="#specification-robustness-directional-consistency">6.1 Specification Robustness — Directional Consistency</a></li>
   <li><a href="#conservative-sample-restriction-r7" id="toc-conservative-sample-restriction-r7" class="nav-link" data-scroll-target="#conservative-sample-restriction-r7">6.2 Conservative Sample Restriction (R7)</a></li>
   <li><a href="#wage-control-sensitivity-r21" id="toc-wage-control-sensitivity-r21" class="nav-link" data-scroll-target="#wage-control-sensitivity-r21">6.3 Wage Control Sensitivity (R21)</a></li>
   <li><a href="#bedroom-stability-r17" id="toc-bedroom-stability-r17" class="nav-link" data-scroll-target="#bedroom-stability-r17">6.4 Bedroom Stability (R17)</a></li>
@@ -745,21 +745,11 @@ Figure&nbsp;4: <strong>Event study.</strong> Period-by-period coefficients on LH
 </section>
 <section id="robustness" class="level2">
 <h2 class="anchored" data-anchor-id="robustness">6. Robustness</h2>
-<section id="specification-robustness-24-specification-directional-sweep" class="level3">
-<h3 class="anchored" data-anchor-id="specification-robustness-24-specification-directional-sweep">6.1 Specification Robustness — 24-Specification Directional Sweep</h3>
+<section id="specification-robustness-directional-consistency" class="level3">
+<h3 class="anchored" data-anchor-id="specification-robustness-directional-consistency">6.1 Specification Robustness — Directional Consistency</h3>
 <p>Across the 24 fiscal capture specifications — varying the estimation window (Temporal), density controls and geographic clustering (Spatial), bedroom composition (Compositional), and outlier treatment and measurement (Measurement) — <span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span> is negative with zero sign reversals. The Appendix A table reports 28 rows; four are excluded from this directional count. R4 is the identification check (positive coefficient expected and confirmed) and R12a is a binary binding threshold (near-zero by construction — an absorption diagnostic, not a fiscal capture test). The remaining two — R8 and R9 — coincide with R1 by construction rather than as independent estimates, because their coverage criteria (drop thin-market and high-HMO local authorities) are satisfied by zero local authorities and so reproduce the primary coefficient exactly. The 24 counted specifications are distinct estimates. R2, which replaces the saturated Region×Quarter fixed effects with region-specific linear trends plus quarter fixed effects, is among the specifications that recover a nominally significant negative coefficient (<span class="math inline">\(\hat{\beta}_{\text{fr}} = -0.0231\)</span>, <span class="math inline">\(p = 0.043\)</span>) once the heavy time-absorption of the primary is relaxed; R1 retains the more conservative absorption and remains the primary.</p>
-<p>Because the design tests a <em>directional</em> prediction — a sign reversal, not a two-sided difference — the appropriate per-specification test is one-sided (<span class="math inline">\(H_0: \hat{\beta}_{\text{fr}} \geq 0\)</span>). <a href="#fig-spec-curve" class="quarto-xref">Figure&nbsp;5</a> plots the one-sided 95% upper confidence bound accordingly. Every point estimate lies below zero, no single analytical choice — temporal window, density control, clustering, bedroom composition, or outlier treatment — moves it across the line, and 7 of the 24 specifications are individually significant at the one-sided 5% level, concentrated as expected in the better-powered isolators (R3, R15, R19, R20, R22) together with R2 and the winsorised R10. The two-sided intervals reported in the Appendix table are more conservative and are not the relevant test for a signed hypothesis.</p>
-<div id="fig-spec-curve" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-spec-curve-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<p><img src="../../papers/spec_curve_cg2026b.png" style="width:92.0%" data-fig-align="center" class="figure-img"></p>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-spec-curve-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;5: <strong>Specification curve (directional test).</strong> The re-freeze coefficient (LHA intensity interacted with the freeze indicator) across the 24 distinct fiscal-capture specifications, sorted by magnitude. Because the design tests a signed prediction, each whisker is the one-sided 95% upper confidence bound (estimate + 1.645·SE) — the relevant edge for the sign-reversal hypothesis (<span class="math inline">\(H_0: \hat{\beta}_{\text{fr}} \geq 0\)</span>); a filled marker denotes a coefficient significantly negative at the one-sided 5% level (7 of 24), a hollow marker one that is not. Every point estimate is negative and none reverses sign. R20 (post-hoc mechanistic isolator) is red; the supplementary HB-only specifications (R18, whiskers clipped by the axis) are grey. The lower panel marks which analytical choices are active for each estimate; two construction-identical coverage variants (R8, R9) and the R4 placebo are omitted.
-</figcaption>
-</figure>
-</div>
-<p>This directional consistency demonstrates the result is not an artifact of any single methodological choice. The 24 fiscal capture specifications are <em>methodologically</em> orthogonal (spanning four distinct classes of specification choice) but not statistically independent (all share the 290-LA cross-section and therefore share unobserved spatial error structure). We interpret the sweep as specification robustness, not as 24 independent pieces of frequentist evidence.</p>
+<p>Because the design tests a <em>directional</em> prediction — a sign reversal, not a two-sided difference — the appropriate per-specification test is one-sided (<span class="math inline">\(H_0: \hat{\beta}_{\text{fr}} \geq 0\)</span>). <a href="#fig-spec-curve" class="quarto-xref">Figure&nbsp;5</a>, reported in Appendix A, plots the one-sided 95% upper confidence bound accordingly. Every point estimate lies below zero, no single analytical choice — temporal window, density control, clustering, bedroom composition, or outlier treatment — moves it across the line, and 7 of the 24 specifications are individually significant at the one-sided 5% level, concentrated as expected in the better-powered isolators (R3, R15, R19, R20, R22) together with R2 and the winsorised R10. The two-sided intervals reported in the Appendix table are more conservative and are not the relevant test for a signed hypothesis.</p>
+<p>This directional consistency demonstrates the result is not an artifact of any single methodological choice. The 24 fiscal capture specifications are <em>methodologically</em> orthogonal (spanning four distinct classes of specification choice) but not statistically independent (all share the 290-LA cross-section and therefore share unobserved spatial error structure). We interpret the sweep as specification robustness, not as 24 independent pieces of frequentist evidence. The robustness that carries weight is not the breadth of the sweep but its <em>structure</em>: the estimate strengthens monotonically as two pre-identified confounds are removed, developed below as the isolator bracket (§7.4, <a href="#tbl-isolators" class="quarto-xref">Table&nbsp;3</a>).</p>
 <p><strong>Statistical disclosure (FWER):</strong> The pre-specified family of 16 tests (R1–R15 plus R7) is reported for completeness. At <span class="math inline">\(\alpha/16 = 0.003125\)</span>, R3 (<span class="math inline">\(p = 0.0033\)</span>) narrowly fails strict Bonferroni correction. We do not claim frequentist significance for any individual specification and rest the primary inference on the 24-specification directional sweep.</p>
 </section>
 <section id="conservative-sample-restriction-r7" class="level3">
@@ -1161,6 +1151,17 @@ Table&nbsp;4
 </tbody>
 </table>
 </div>
+</figure>
+</div>
+<p><a href="#fig-spec-curve" class="quarto-xref">Figure&nbsp;5</a> plots the distinct estimates from the table above as a directional specification curve.</p>
+<div id="fig-spec-curve" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-spec-curve-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p><img src="../../papers/spec_curve_cg2026b.png" style="width:92.0%" data-fig-align="center" class="figure-img"></p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-spec-curve-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: <strong>Specification curve (directional test).</strong> The re-freeze coefficient (LHA intensity interacted with the freeze indicator) across the 24 distinct fiscal-capture specifications, sorted by magnitude. Because the design tests a signed prediction, each whisker is the one-sided 95% upper confidence bound (estimate + 1.645·SE) — the relevant edge for the sign-reversal hypothesis (<span class="math inline">\(H_0: \hat{\beta}_{\text{fr}} \geq 0\)</span>); a filled marker denotes a coefficient significantly negative at the one-sided 5% level (7 of 24), a hollow marker one that is not. Every point estimate is negative and none reverses sign. R20 (post-hoc mechanistic isolator) is red; the supplementary HB-only specifications (R18, whiskers clipped by the axis) are grey. The lower panel marks which analytical choices are active for each estimate; two construction-identical coverage variants (R8, R9) and the R4 placebo are omitted.
+</figcaption>
 </figure>
 </div>
 <hr>
