@@ -204,7 +204,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../pages/general/cover-letter-master.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Extended Cover Letter (Full Glory)</span></a>
+ <span class="menu-text">Cover Letter in Full Glory</span></a>
   </div>
 </li>
       </ul>
@@ -389,6 +389,7 @@ window.Quarto = {
   <li><a href="#primary-specification" id="toc-primary-specification" class="nav-link" data-scroll-target="#primary-specification">5.1 Primary Specification</a></li>
   <li><a href="#two-event-specification-1" id="toc-two-event-specification-1" class="nav-link" data-scroll-target="#two-event-specification-1">5.2 Two-Event Specification</a></li>
   <li><a href="#the-mechanistic-isolator-r20" id="toc-the-mechanistic-isolator-r20" class="nav-link" data-scroll-target="#the-mechanistic-isolator-r20">5.3 The Mechanistic Isolator (R20)</a></li>
+  <li><a href="#event-study-dynamics" id="toc-event-study-dynamics" class="nav-link" data-scroll-target="#event-study-dynamics">5.4 Event-Study Dynamics</a></li>
   </ul></li>
   <li><a href="#robustness" id="toc-robustness" class="nav-link" data-scroll-target="#robustness">6. Robustness</a>
   <ul class="collapse">
@@ -434,7 +435,7 @@ window.Quarto = {
 </header>
 
 
-<p>Carlos Galindo Escajeda June 1, 2026</p>
+<p>Carlos Galindo Escajeda June 3, 2026</p>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>This is the empirical pillar of the case NEF makes: evidence that the state’s reliance on Local Housing Allowance (LHA) partly subsidises landlords rather than protecting tenants. Using a difference-in-differences design across 290 English local authorities (2019–2024) — built from ONS private-rent indices, DWP Stat-Xplore caseloads, MHCLG dwelling-stock estimates and NOMIS wage and claimant data — it exploits two natural experiments: the April 2020 LHA uplift to the 30th percentile and the April 2021 re-freeze. If LHA acts as a binding yield floor, rent growth in high-LHA-intensity areas should accelerate at the uplift and decelerate at the re-freeze. Across 26 specifications the directional signature is consistent with capture in every case, with zero sign reversals. The paper is candid about magnitude: downward nominal rigidity and tenant lock-in attenuate the re-freeze response, so the headline estimate is reported deliberately as a conservative lower bound, with larger effects in the windows that isolate the mechanism more cleanly. For NEF’s advocacy the implication is concrete: because a real share of any LHA increase is absorbed into rents, raising or unfreezing LHA without a rent ceiling partly funds landlord yields — so a ceiling is a necessary complement to benefit reform, not an alternative to it. The distinguishing demographic test (whether captured areas also show slower household formation) is identified as the next empirical step, not claimed here.</p>
@@ -690,14 +691,20 @@ Table&nbsp;1
 </section>
 <section id="the-mechanistic-isolator-r20" class="level3">
 <h3 class="anchored" data-anchor-id="the-mechanistic-isolator-r20">5.3 The Mechanistic Isolator (R20)</h3>
-<p>R20 combines the COVID-window restriction (R3: uses the 2020-Q2 uplift period as baseline, providing the cleanest identification of the re-freeze reversal) with the density control (R15: strips urban demand recovery attenuation). The result, <span class="math inline">\(\hat{\beta} = -0.0675\)</span> (<span class="math inline">\(p=0.0001\)</span>), represents the density-adjusted, uplift-baseline estimate. It is post-hoc exploratory (added v3.16 in response to adversarial challenge); it is not the primary specification. It demonstrates the R3 result is density-robust by a wide margin.</p>
+<p>R20 combines the COVID-window restriction (R3: uses the 2020-Q2 uplift period as baseline, providing the cleanest identification of the re-freeze reversal) with the density control (R15: strips urban demand recovery attenuation). The result, <span class="math inline">\(\hat{\beta} = -0.0675\)</span> (<span class="math inline">\(p=0.0001\)</span>), represents the density-adjusted, uplift-baseline estimate. It is a post-hoc, exploratory specification — not part of the pre-specified analysis and not the primary specification. It demonstrates the R3 result is density-robust by a wide margin.</p>
+</section>
+<section id="event-study-dynamics" class="level3">
+<h3 class="anchored" data-anchor-id="event-study-dynamics">5.4 Event-Study Dynamics</h3>
+<p><a href="#fig-event-study" class="quarto-xref">Figure&nbsp;1</a> reports the dynamic analogue of the difference-in-differences estimate: the coefficient on lha_intensity interacted with each quarter, under the fixed-effect structure of the primary specification and normalised to the quarter before the re-freeze.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The static <span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span> is the post-2021-Q3 average of this sequence.</p>
+<p>The path is consistent with the yield-floor mechanism: once the allowance is frozen while market rents continue to rise, rent growth in high-intensity authorities decelerates relative to elsewhere. The coefficients are statistically indistinguishable from zero across the 2020 uplift and turn negative only after the re-freeze, reaching <span class="math inline">\(-0.075\)</span> in 2022-Q1; the deceleration concentrates in the year following the freeze and then attenuates through 2023–24 as growth rates re-converge and the April 2024 re-linking is anticipated and implemented. We read the late-window recovery as the dynamic counterpart of the policy reversal rather than as evidence of a transient effect, while noting that the post-freeze window is too short to separate the two.</p>
+<p>The pre-uplift coefficients are not flat: high-intensity authorities show slower rent growth through 2019. We read this as the imprint of the <em>preceding</em> freeze — LHA was held at 2015–16 cash terms from April 2016 — rather than a failure of the design, since the mechanism under test should itself have depressed rent growth in high-intensity areas during that episode. The reading bears directly on the specification hierarchy: because the 2019 baseline is itself a freeze period, the primary specification, which averages against the full pre-2021 window, compresses the measured contrast, whereas the COVID-window specification (R3), which takes the 2020 uplift as its comparison, removes the contaminated baseline and recovers a larger coefficient — the pattern the event study makes visible. We therefore do not rest the parallel-trends claim on visual flatness, which the LHA policy history renders implausible over any window spanning a prior freeze; the formal support is the R4 placebo (§4.3). The coefficients are imprecise throughout — only the 2022 quarters are individually distinguishable from zero — so the figure corroborates the sign and timing of the static estimate rather than supplying an independent test of significance.</p>
 <div id="fig-event-study" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-event-study-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<p><img src="../NEF_EMPIRICS/LHA_DiD_Complete_Project/lha_did/outputs/figures/event_study.png" style="width:90.0%" data-fig-align="center" class="figure-img"></p>
+<p><img src="../../papers/event_study_cg2026b.png" style="width:90.0%" data-fig-align="center" class="figure-img"></p>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-event-study-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Figure&nbsp;1: Event study: period-by-period coefficients from interacting lha_intensity with quarter dummies, normalised to the quarter immediately before the 2021-Q3 re-freeze. The flat pre-trend and post-freeze decline support the fiscal capture prediction and parallel trends assumption.
+Figure&nbsp;1: Figure&nbsp;1: Event study (LA and region-by-quarter fixed effects): period-by-period coefficients on lha_intensity <span class="math inline">\(\times\)</span> quarter, normalised to the quarter before the 2021-Q3 re-freeze. Coefficients sit near zero across the 2020 uplift and turn negative after the re-freeze, reaching approximately <span class="math inline">\(-0.075\)</span> in 2022-Q1 before attenuating toward the April 2024 re-linking — the directional signature of fiscal capture across the policy sequence. Pre-period coefficients are imprecise; the parallel-trends assumption is supported formally by the R4 placebo (§4.3) rather than by visual flatness.
 </figcaption>
 </figure>
 </div>
@@ -760,7 +767,7 @@ Figure&nbsp;1: Figure&nbsp;1: Event study: period-by-period coefficients from in
 <ol type="1">
 <li><p><strong>Statistical power:</strong> The primary specification is underpowered. A 12-quarter post-freeze window is short relative to the adjustment horizon; downward nominal rigidity further attenuates <span class="math inline">\(\hat{\beta}_{\text{fr}}\)</span>. R3 (COVID-window) and R20 (R3+density) provide better-powered estimates.</p></li>
 <li><p><strong>Post-2021 austerity confound:</strong> General fiscal tightening in high-deprivation local authorities after 2021 is correlated with lha_intensity through the deprivation channel. If austerity reduced housing demand in high-intensity areas, it could produce <span class="math inline">\(\hat{\beta}_{\text{fr}} &lt; 0\)</span> through a demand channel unrelated to the LHA yield floor. Three pieces of evidence run against this confounder. First, the COVID-window restriction (R3: 2020-Q2–2024-Q1) uses the 2020 fiscal-stimulus period as the comparison baseline; under the austerity hypothesis, R3 should be <em>weaker</em> than R1 (because the comparison window includes peak stimulus). Instead R3 (<span class="math inline">\(\hat{\beta} = -0.0498\)</span>) is nearly three times larger than R1 (<span class="math inline">\(\hat{\beta} = -0.0174\)</span>), consistent with the uplift-to-re-freeze reversal mechanism rather than with an austerity demand channel. Second, the R4 placebo (2015–2019, covering the initial 2016 freeze and significant austerity) yields <span class="math inline">\(\hat{\beta} = +0.0085\)</span> (<span class="math inline">\(p = 0.562\)</span>): high-intensity areas show no negative rent growth in the first austerity wave, which would not be expected if deprivation-correlated demand compression were the mechanism. Third, Region×Quarter fixed effects absorb common regional fiscal shocks; residual within-region lha_intensity variation would need to be driven by LA-specific austerity heterogeneity <em>beyond</em> regional trends to confound the estimate. A full rebuttal would require quarterly LA-level public expenditure data, which remains a limitation of this analysis.</p></li>
-<li><p><strong>R20 post-hoc status:</strong> The mechanistic isolator (R20) was added in response to adversarial challenge, not pre-specified. It is corroborating, not primary.</p></li>
+<li><p><strong>R20 post-hoc status:</strong> The mechanistic isolator (R20) is post-hoc rather than pre-specified. It is corroborating, not primary.</p></li>
 <li><p><strong>p10 wage endogeneity:</strong> ASHE annual frequency precludes formal empirical resolution of the collider question. The R21 sensitivity (§6.3) provides partial empirical insulation: the 0.5% coefficient shift when p10 is excluded is inconsistent with meaningful mediation or over-absorption of the LHA treatment shock. PAYE RTI (monthly) remains the preferred upgrade for formal resolution.</p></li>
 </ol>
 <hr>
@@ -1057,7 +1064,13 @@ Table&nbsp;2
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The specification replaces the single <span class="math inline">\(\text{freeze}_t\)</span> interaction with a full set of lha_intensity <span class="math inline">\(\times\)</span> quarter interactions, omitting 2021-Q2 (the quarter before the re-freeze) as the reference category. Region-by-quarter fixed effects are retained, as in the primary specification; omitting them transfers the common post-2022 rent acceleration onto the later interaction coefficients and distorts the tail of the path.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
