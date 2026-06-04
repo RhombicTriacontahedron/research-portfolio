@@ -28,3 +28,9 @@
     position: absolute;
     left: -1.1em;
 }
+
+/* Recognise explainers vs full papers at a glance (lux theme colours) */
+main a[href*="explainer"] { color: var(--bs-success, #4bbf73); font-weight: 600; }
+main a[href*="explainer"]:hover { color: var(--bs-success, #4bbf73); filter: brightness(0.92); }
+main a[href*="working-papers"], main a[href*="/papers/"] { color: var(--bs-info, #1f9bcf); font-weight: 600; }
+main a[href*="working-papers"]:hover, main a[href*="/papers/"]:hover { color: var(--bs-info, #1f9bcf); filter: brightness(0.92); }

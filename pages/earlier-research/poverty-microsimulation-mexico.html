@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Carlos Galindo Escajeda">
-<meta name="dcterms.date" content="2010-01-01">
 
-<title>Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico – Carlos Galindo Escajeda - NEF Housing Research Package</title>
+<title>Poverty Microsimulation (Mexico, 2010) – Carlos Galindo Escajeda - NEF Housing Research Package</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ac077c1e730dfeb5e42400639d17284e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-96c1bb8b336142dcc39f931773fab1b9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b779bb1d4b83dbd8e3e2ca355638bf48.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,24 +69,12 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelectorAll(".quarto-title-meta-heading").forEach(function(el) {
-    var t = el.textContent.trim().toLowerCase();
-    if (t === "author" || t === "authors") {
-      el.style.display = "none";
-    } else if (t === "published") {
-      el.textContent = "Earlier research (pre-AI) · peer-reviewed, 2010";
-    }
-  });
-});
-</script>
 
 
 <link rel="stylesheet" href="../../custom.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -227,6 +213,12 @@ document.addEventListener("DOMContentLoaded", function() {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../pages/general/programme-map.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Programme Map</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../pages/general/abstracts-dossier.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Research Portfolio</span></a>
   </div>
@@ -343,32 +335,43 @@ document.addEventListener("DOMContentLoaded", function() {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-question" id="toc-the-question" class="nav-link active" data-scroll-target="#the-question">The question</a></li>
+  <li><a href="#explainer-1-measuring-poverty-before-explaining-it" id="toc-explainer-1-measuring-poverty-before-explaining-it" class="nav-link" data-scroll-target="#explainer-1-measuring-poverty-before-explaining-it">Explainer 1 · Measuring poverty before explaining it</a>
+  <ul class="collapse">
+  <li><a href="#measure-what-people-spend-not-what-they-say-they-earn" id="toc-measure-what-people-spend-not-what-they-say-they-earn" class="nav-link" data-scroll-target="#measure-what-people-spend-not-what-they-say-they-earn">Measure what people spend, not what they say they earn</a></li>
+  <li><a href="#dont-trust-one-poverty-line-test-every-line-at-once" id="toc-dont-trust-one-poverty-line-test-every-line-at-once" class="nav-link" data-scroll-target="#dont-trust-one-poverty-line-test-every-line-at-once">Don’t trust one poverty line — test every line at once</a></li>
+  <li><a href="#put-honest-error-bars-on-a-survey-that-isnt-simple" id="toc-put-honest-error-bars-on-a-survey-that-isnt-simple" class="nav-link" data-scroll-target="#put-honest-error-bars-on-a-survey-that-isnt-simple">Put honest error bars on a survey that isn’t simple</a></li>
+  <li><a href="#the-finding" id="toc-the-finding" class="nav-link" data-scroll-target="#the-finding">The finding</a></li>
+  </ul></li>
+  <li><a href="#explainer-2-simulating-a-policy-household-by-household" id="toc-explainer-2-simulating-a-policy-household-by-household" class="nav-link" data-scroll-target="#explainer-2-simulating-a-policy-household-by-household">Explainer 2 · Simulating a policy, household by household</a>
+  <ul class="collapse">
+  <li><a href="#turn-are-you-poor-into-a-probability" id="toc-turn-are-you-poor-into-a-probability" class="nav-link" data-scroll-target="#turn-are-you-poor-into-a-probability">Turn “are you poor?” into a probability</a></li>
+  <li><a href="#change-one-thing-and-recompute-everyone" id="toc-change-one-thing-and-recompute-everyone" class="nav-link" data-scroll-target="#change-one-thing-and-recompute-everyone">Change one thing, and recompute everyone</a></li>
+  <li><a href="#be-honest-about-what-it-cant-say" id="toc-be-honest-about-what-it-cant-say" class="nav-link" data-scroll-target="#be-honest-about-what-it-cant-say">Be honest about what it can’t say</a></li>
+  <li><a href="#what-actually-moves-the-needle" id="toc-what-actually-moves-the-needle" class="nav-link" data-scroll-target="#what-actually-moves-the-needle">What actually moves the needle</a></li>
+  </ul></li>
+  <li><a href="#why-both-papers-are-on-this-site" id="toc-why-both-papers-are-on-this-site" class="nav-link" data-scroll-target="#why-both-papers-are-on-this-site">Why both papers are on this site</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/earlier-research/poverty-microsimulation-mexico.html">Earlier Research (pre-AI)</a></li><li class="breadcrumb-item"><a href="../../pages/earlier-research/poverty-microsimulation-mexico.html">Poverty Microsimulation (Mexico, 2010)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Before the Housing Work: Microsimulating Anti-Poverty Policy in Mexico</h1>
+<h1 class="title">Poverty Microsimulation (Mexico, 2010)</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Carlos Galindo Escajeda </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2010</p>
-    </div>
-  </div>
   
     
   </div>
@@ -444,7 +447,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>Two reasons. First, this is the earliest version of the craft the housing application rests on: teaching myself relational survey microdata, complex sampling, and a simulation literature from scratch, and carrying all of it through to peer review. The instinct on display — measure before you explain, refuse the convenient threshold, change one thing and read off who it helps — is the same instinct behind the UK housing programme, fifteen years on.</p>
 <p>Second, it predates today’s AI tooling entirely. The method, the judgement, and the mistakes were done by hand, years before any of these tools existed. It is not part of the five-paper UK housing programme; it is where the habits behind that programme were formed.</p>
 <hr>
-<p><em>Based on the two REMECAREN working papers (Escajeda, Galindo &amp; Galindo, 2010), in Spanish.</em></p>
+<p><em>Based on two peer-reviewed papers (Escajeda, Galindo &amp; Galindo, 2010) published in the Mexican Journal of Agricultural Economics and Natural Resources (REMECAREN), in Spanish.</em></p>
 <p><strong>Read next:</strong> <a href="../../papers/escajeda-galindo-2010-poverty-measurement-edomex.pdf">Measurement paper (PDF)</a> · <a href="../../papers/escajeda-galindo-2010-microsimulation-poverty-edomex.pdf">Microsimulation paper (PDF)</a> · <a href="../general/abstracts-dossier.html">Research Portfolio</a> · <a href="../general/manifesto.html">Manifesto</a> · <a href="../general/cover-letter-master.html">Cover Letter in Full Glory</a></p>
 
 
