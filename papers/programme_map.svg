@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 460" role="img" aria-label="The case for an emergency rent brake: why the usual objection does not hold, the welfare argument and the evidence behind the brake, the policy itself, and the one question still open." style="width:100%;height:auto;max-width:900px;display:block;margin:0 auto;font-family:'Nunito Sans','Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<title>The case for a rent brake, on one screen</title>
+<defs>
+<linearGradient id="pmGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe69a"/><stop offset="1" stop-color="#ffd43b"/></linearGradient>
+<filter id="pmShadow" x="-20%" y="-25%" width="140%" height="150%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#1e293b" flood-opacity="0.16"/></filter>
+<marker id="pmArrow" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7.5,3 L0,6 Z" fill="#5c6370"/></marker>
+<marker id="pmArrowRed" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7.5,3 L0,6 Z" fill="#e03131"/></marker>
+</defs>
+<style>.pm-node{cursor:pointer;}.pm-node text{text-decoration:none;}.pm-node rect{transition:stroke-width .12s ease;}.pm-node:hover rect{stroke-width:3;}.pm-node:hover .pm-title{text-decoration:underline;}</style>
+<text x="24" y="40" font-size="15" font-weight="800" fill="#212529">The case for a rent brake,</text>
+<text x="24" y="61" font-size="12" fill="#495057">and the one question still open.</text>
+<text x="24" y="82" font-size="11" fill="#868e96">Click any box to read the paper.</text>
+<g font-size="11" font-weight="700" fill="#adb5bd" text-anchor="middle" letter-spacing="0.5">
+<text x="417.5" y="95">① WHY THE USUAL OBJECTION FAILS</text>
+<text x="282" y="201">② THE CASE FOR ACTION</text>
+<text x="767.5" y="186">③ THE POLICY</text>
+<text x="425" y="381">THE OPEN QUESTION</text>
+</g>
+<g fill="none" stroke="#5c6370" stroke-width="2">
+<path d="M235,243 L294,243" marker-end="url(#pmArrow)"/>
+<path d="M535,133 C590,133 588,200 639,222" marker-end="url(#pmArrow)"/>
+<path d="M535,243 C585,243 590,247 639,249" marker-end="url(#pmArrow)"/>
+<path d="M535,331 C588,331 590,270 639,262" marker-end="url(#pmArrow)"/>
+<path d="M290,421 L554,421" marker-end="url(#pmArrow)"/>
+<path d="M712,388 C740,360 755,320 762,291" stroke="#e03131" stroke-dasharray="6 4" marker-end="url(#pmArrowRed)"/>
+</g>
+<a class="pm-node" href="../working-papers/breaking-the-benchmark.html" aria-label="Read: Why the Rent-Control Veto Fails">
+<rect x="300" y="104" width="235" height="58" rx="11" fill="#eef2ff" stroke="#4263eb" stroke-width="1.5" filter="url(#pmShadow)"/>
+<text class="pm-title" x="417.5" y="129" text-anchor="middle" font-size="13" font-weight="600" fill="#1e3a8a">Why the Veto Fails</text>
+<text x="417.5" y="148" text-anchor="middle" font-size="11.5" fill="#4263eb">the assumed market doesn't exist</text>
+</a>
+<a class="pm-node" href="../working-papers/labor-power-numeraire.html" aria-label="Read: Labor Power as Numéraire">
+<rect x="30" y="214" width="205" height="58" rx="11" fill="#eef2ff" stroke="#4263eb" stroke-width="1.5" filter="url(#pmShadow)"/>
+<text class="pm-title" x="132.5" y="239" text-anchor="middle" font-size="13" font-weight="600" fill="#1e3a8a">Labor Power as Numéraire</text>
+<text x="132.5" y="258" text-anchor="middle" font-size="11.5" fill="#4263eb">value theory · with Huato</text>
+</a>
+<a class="pm-node" href="../working-papers/rent-reproduction.html" aria-label="Read: Rent as Reproduction Cost">
+<rect x="300" y="214" width="235" height="58" rx="11" fill="#eef2ff" stroke="#4263eb" stroke-width="1.5" filter="url(#pmShadow)"/>
+<text class="pm-title" x="417.5" y="239" text-anchor="middle" font-size="13" font-weight="600" fill="#1e3a8a">Rent as Reproduction Cost</text>
+<text x="417.5" y="258" text-anchor="middle" font-size="11.5" fill="#4263eb">a welfare ceiling on rent</text>
+</a>
+<a class="pm-node" href="../working-papers/fiscal-capture.html" aria-label="Read: Fiscal Capture in the UK PRS">
+<rect x="300" y="302" width="235" height="58" rx="11" fill="#ebfbee" stroke="#2f9e44" stroke-width="1.5" filter="url(#pmShadow)"/>
+<text class="pm-title" x="417.5" y="327" text-anchor="middle" font-size="13" font-weight="600" fill="#1b6b2e">Fiscal Capture</text>
+<text x="417.5" y="346" text-anchor="middle" font-size="11.5" fill="#2f9e44">landlords capture the subsidy</text>
+</a>
+<a class="pm-node" href="manifesto.html" aria-label="The policy aim: read the Manifesto">
+<rect x="645" y="196" width="245" height="92" rx="13" fill="url(#pmGold)" stroke="#e67700" stroke-width="2" filter="url(#pmShadow)"/>
+<text class="pm-title" x="767.5" y="240" text-anchor="middle" font-size="16.5" font-weight="700" fill="#5c3a00">EMERGENCY RENT BRAKE</text>
+<text x="767.5" y="262" text-anchor="middle" font-size="12" fill="#7a5200">CPI-capped, with exit criteria</text>
+</a>
+<a class="pm-node" href="../working-papers/progressing-problemshift.html" aria-label="Read: A Progressing Problemshift">
+<rect x="40" y="392" width="250" height="58" rx="11" fill="#f1f3f5" stroke="#868e96" stroke-width="1.5" filter="url(#pmShadow)"/>
+<text class="pm-title" x="165" y="417" text-anchor="middle" font-size="13" font-weight="600" fill="#343a40">A Progressing Problemshift</text>
+<text x="165" y="436" text-anchor="middle" font-size="11.5" fill="#5c6370">what's settled, what's not</text>
+</a>
+<a class="pm-node" href="../working-papers/progressing-problemshift.html" aria-label="The open question, named in A Progressing Problemshift">
+<rect x="560" y="390" width="300" height="58" rx="11" fill="#fff0f0" stroke="#e03131" stroke-width="1.5" stroke-dasharray="5 3" filter="url(#pmShadow)"/>
+<text class="pm-title" x="710" y="415" text-anchor="middle" font-size="13" font-weight="600" fill="#c92a2a">Does capture slow household formation?</text>
+<text x="710" y="434" text-anchor="middle" font-size="11.5" font-style="italic" fill="#e03131">identified, not yet tested</text>
+</a>
+<g font-size="11.5" fill="#495057" text-anchor="middle">
+<rect x="237" y="232" width="60" height="22" rx="9" fill="#ffffff" stroke="#dee2e6"/><text x="267" y="247">underpins</text>
+<rect x="546" y="156" width="92" height="22" rx="9" fill="#ffffff" stroke="#dee2e6"/><text x="592" y="171">clears the way</text>
+<rect x="547" y="232" width="86" height="22" rx="9" fill="#ffffff" stroke="#dee2e6"/><text x="590" y="247">welfare case</text>
+<rect x="546" y="287" width="92" height="22" rx="9" fill="#ffffff" stroke="#dee2e6"/><text x="592" y="302">the evidence</text>
+<rect x="368" y="410" width="114" height="22" rx="9" fill="#ffffff" stroke="#dee2e6"/><text x="425" y="425">the missing test</text>
+<rect x="697" y="324" width="96" height="22" rx="9" fill="#ffffff" stroke="#f1c0c0"/><text x="745" y="339" fill="#c92a2a">would settle it</text>
+</g>
+</svg>
