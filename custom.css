@@ -34,3 +34,38 @@ main a[href*="explainer"] { color: var(--bs-success, #4bbf73); font-weight: 600;
 main a[href*="explainer"]:hover { color: var(--bs-success, #4bbf73); filter: brightness(0.92); }
 main a[href*="working-papers"], main a[href*="/papers/"] { color: var(--bs-info, #1f9bcf); font-weight: 600; }
 main a[href*="working-papers"]:hover, main a[href*="/papers/"]:hover { color: var(--bs-info, #1f9bcf); filter: brightness(0.92); }
+
+/* ============================================================
+   READABILITY ANCHORS  -  two-tier prose highlight system
+   Re-tune the whole site by changing the three :root values
+   below (or override per-site via the manifest site.highlight
+   block). Constraint: no green/blue (those are link colours -
+   success=explainers, info=papers); highlights use a background
+   / underline CHANNEL, never bare coloured text, so nothing
+   reads as a fake link. See docs/SITE_HIGHLIGHT_PROTOCOL.md.
+   ============================================================ */
+:root {
+    --hl-key-bg: #d7f1e0;     /* tier 1: key-claim wash (pale tint of the explainer green --bs-success #4bbf73) */
+    --hl-key-fg: #14402a;     /* tier 1: dark-green text on the wash (WCAG AA+; stays distinct from green LINK text) */
+    --hl-sub-line: #b5651d; /* tier 2: secondary-concept underline (clay) */
+}
+/* Tier 1 - the one thing a skimmer must leave the section with */
+main .hl-key {
+    background: var(--hl-key-bg);
+    color: var(--hl-key-fg);
+    padding: 0.02em 0.18em;
+    border-radius: 0.18em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+/* Tier 2 - the named concept / lever / contrast that organises a paragraph */
+main .hl-sub {
+    border-bottom: 0.14em solid var(--hl-sub-line);
+    padding-bottom: 0.02em;
+}
+/* Belt-and-suspenders: a link always wins over a highlight (never look clickable-wrong) */
+main a .hl-key, main a .hl-sub, main .hl-key a, main .hl-sub a {
+    background: none;
+    border-bottom: none;
+    color: inherit;
+}
