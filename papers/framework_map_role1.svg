@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 470" role="img" aria-label="How the rent system extracts, and the brake that stops it. The welfare test (Reproductive-Capacity Dominance) measures whether households can sustain and renew themselves and defines the reproductive-capacity deficit. What the market does: buy-to-let overvaluation and fiscal capture turn rent into an extraction on the food, care and childcare budget rather than payment for shelter, which deepens the deficit. The direct rate-to-rent channel was tested null in the monetary work and is shown greyed here as a monetary-policy element. The remedy: a statutory rent brake (lower of CPI or 2%, NEF Fair Rents) suppresses the extractive yield, and a self-terminating exit (300k completions a year and bottom-quintile burden below 30%) switches it off." style="width:100%;height:auto;max-width:920px;display:block;margin:0 auto;font-family:'Nunito Sans','Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<title>The framework in one map — how rent extracts, and the self-terminating brake that stops it</title>
+<defs>
+<linearGradient id="fmGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe69a"/><stop offset="1" stop-color="#ffd43b"/></linearGradient>
+<filter id="fmShadow" x="-20%" y="-25%" width="140%" height="150%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#1e293b" flood-opacity="0.16"/></filter>
+<marker id="fmArrow" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7.5,3 L0,6 Z" fill="#5c6370"/></marker>
+<marker id="fmArrowGrey" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7.5,3 L0,6 Z" fill="#adb5bd"/></marker>
+<marker id="fmArrowGold" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7.5,3 L0,6 Z" fill="#e67700"/></marker>
+</defs>
+<style>.fm-node{cursor:pointer;}.fm-node text{text-decoration:none;}.fm-node rect,.fm-node ellipse{transition:stroke-width .12s ease;}.fm-node:hover rect,.fm-node:hover ellipse{stroke-width:3;}.fm-node:hover .fm-title{text-decoration:underline;}</style>
+
+<text x="24" y="34" font-size="15" font-weight="800" fill="#212529">How the rent system extracts — and the brake that stops it.</text>
+<text x="24" y="55" font-size="12" fill="#495057">The welfare test, what the market actually does, and a self-terminating remedy.</text>
+<text x="24" y="74" font-size="11" fill="#868e96">Click any box to read the paper behind it.</text>
+
+<g font-size="11" font-weight="700" fill="#adb5bd" text-anchor="middle" letter-spacing="0.5">
+<text x="155" y="108">① THE WELFARE TEST</text>
+<text x="475" y="108">② WHAT THE MARKET ACTUALLY DOES</text>
+<text x="805" y="108">③ THE REMEDY</text>
+</g>
+
+<g fill="none">
+<path d="M155,196 C155,300 250,372 345,372" stroke="#2f9e44" stroke-width="2" marker-end="url(#fmArrow)"/>
+<path d="M407,250 L430,198" stroke="#5c6370" stroke-width="2" marker-end="url(#fmArrow)"/>
+<path d="M542,250 L520,198" stroke="#5c6370" stroke-width="2" marker-end="url(#fmArrow)"/>
+<path d="M475,196 L475,348" stroke="#5c6370" stroke-width="2" marker-end="url(#fmArrow)"/>
+<path d="M688,160 L607,161" stroke="#e67700" stroke-width="2.5" marker-end="url(#fmArrowGold)"/>
+<path d="M805,300 L805,204" stroke="#e67700" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#fmArrowGold)"/>
+<path d="M282,272 C320,250 330,200 345,176" stroke="#adb5bd" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#fmArrowGrey)"/>
+</g>
+
+<g font-size="11" fill="#495057" text-anchor="middle">
+<rect x="196" y="288" width="118" height="20" rx="9" fill="#ffffff" stroke="#dee2e6"/><text x="255" y="302">defines the deficit</text>
+<rect x="416" y="262" width="118" height="20" rx="9" fill="#ffffff" stroke="#dee2e6"/><text x="475" y="276">depletes the base</text>
+<rect x="612" y="150" width="92" height="20" rx="9" fill="#ffffff" stroke="#f0d49a"/><text x="658" y="164" fill="#b35900">suppresses</text>
+<rect x="300" y="208" width="150" height="20" rx="9" fill="#ffffff" stroke="#e9ecef"/><text x="375" y="222" fill="#adb5bd">near-zero pass-through</text>
+</g>
+
+<a class="fm-node" href="../working-papers/reproductive-capacity-numeraire.html" aria-label="Read: Reproductive Capacity as Numéraire — the welfare test (hard core)">
+<rect x="30" y="128" width="250" height="68" rx="12" fill="#ebfbee" stroke="#2f9e44" stroke-width="2" filter="url(#fmShadow)"/>
+<text class="fm-title" x="155" y="153" text-anchor="middle" font-size="13" font-weight="700" fill="#1b6b2e">Reproductive-Capacity Dominance</text>
+<text x="155" y="171" text-anchor="middle" font-size="10.5" fill="#2f9e44">the welfare test (the Lakatosian hard core):</text>
+<text x="155" y="185" text-anchor="middle" font-size="10.5" fill="#2f9e44">can households sustain &amp; renew themselves?</text>
+</a>
+
+<a class="fm-node" href="../working-papers/rent-reproduction.html" aria-label="Read: Rent as Reproduction Cost — rent as extraction, a claim on the household's food, care and childcare budget">
+<rect x="345" y="128" width="260" height="68" rx="12" fill="#fff0f0" stroke="#e03131" stroke-width="2" filter="url(#fmShadow)"/>
+<text class="fm-title" x="475" y="153" text-anchor="middle" font-size="13" font-weight="700" fill="#c92a2a">Rent as extraction</text>
+<text x="475" y="171" text-anchor="middle" font-size="10.5" fill="#e03131">a claim on the food, care &amp; childcare budget —</text>
+<text x="475" y="185" text-anchor="middle" font-size="10.5" fill="#e03131">not payment for shelter</text>
+</a>
+
+<a class="fm-node" href="../working-papers/breaking-the-benchmark.html" aria-label="Read: Why the Rent-Control Veto Fails — the statutory rent brake, lower of CPI or 2 per cent (NEF Fair Rents)">
+<rect x="690" y="120" width="230" height="84" rx="13" fill="url(#fmGold)" stroke="#e67700" stroke-width="2" filter="url(#fmShadow)"/>
+<text class="fm-title" x="805" y="148" text-anchor="middle" font-size="14" font-weight="700" fill="#5c3a00">Statutory rent brake</text>
+<text x="805" y="168" text-anchor="middle" font-size="11" fill="#7a5200">lower of CPI or 2%</text>
+<text x="805" y="186" text-anchor="middle" font-size="11" font-weight="700" fill="#7a5200">= NEF Fair Rents</text>
+</a>
+
+<a class="fm-node" href="../working-papers/rent-reproduction.html" aria-label="Read: buy-to-let overvaluation — leveraged speculative premia">
+<rect x="345" y="250" width="125" height="58" rx="10" fill="#ffdad9" stroke="#e03131" stroke-width="1.5" filter="url(#fmShadow)"/>
+<text class="fm-title" x="407" y="274" text-anchor="middle" font-size="11.5" font-weight="600" fill="#c92a2a">BTL overvaluation</text>
+<text x="407" y="291" text-anchor="middle" font-size="10" fill="#e03131">leveraged premia</text>
+</a>
+
+<a class="fm-node" href="../working-papers/fiscal-capture.html" aria-label="Read: Fiscal Capture — the LHA absorbed as landlord yield">
+<rect x="480" y="250" width="125" height="58" rx="10" fill="#ffe5e5" stroke="#e03131" stroke-width="1.5" filter="url(#fmShadow)"/>
+<text class="fm-title" x="542" y="274" text-anchor="middle" font-size="11.5" font-weight="600" fill="#c92a2a">Fiscal capture</text>
+<text x="542" y="291" text-anchor="middle" font-size="10" fill="#e03131">LHA absorbed as yield</text>
+</a>
+
+<a class="fm-node" href="../working-papers/rent-reproduction.html" aria-label="Read: the systemic reproductive-capacity deficit">
+<rect x="345" y="348" width="260" height="52" rx="11" fill="#ff9999" stroke="#c92a2a" stroke-width="2" filter="url(#fmShadow)"/>
+<text class="fm-title" x="475" y="372" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7a1212">Reproductive-capacity deficit</text>
+<text x="475" y="388" text-anchor="middle" font-size="10" fill="#8a1a1a">fewer households can form &amp; renew</text>
+</a>
+
+<a class="fm-node" href="../working-papers/breaking-the-benchmark.html" aria-label="Read: the self-terminating exit — 300,000 completions a year and bottom-quintile burden below 30 per cent">
+<rect x="690" y="300" width="230" height="60" rx="11" fill="#fff2cc" stroke="#e6a700" stroke-width="1.5" filter="url(#fmShadow)"/>
+<text class="fm-title" x="805" y="323" text-anchor="middle" font-size="12" font-weight="700" fill="#5c3a00">Self-terminating exit</text>
+<text x="805" y="339" text-anchor="middle" font-size="10" fill="#7a5200">≥300k completions/yr &amp;</text>
+<text x="805" y="352" text-anchor="middle" font-size="10" fill="#7a5200">bottom-quintile burden &lt;30%</text>
+</a>
+
+<!-- RENT CHANNEL (role-1 variant): greyed + de-linked. cg_2026c is monetary-only, so no role-1 paper page to link; shown greyed as context. -->
+<g aria-label="The rent channel (direct rate to rent): tested null in the monetary work; a monetary-policy element, shown greyed here">
+<rect x="30" y="250" width="250" height="66" rx="11" fill="#f1f3f5" stroke="#adb5bd" stroke-width="1.5" stroke-dasharray="5 3" filter="url(#fmShadow)"/>
+<text x="155" y="272" text-anchor="middle" font-size="11.5" font-weight="700" fill="#868e96">The rent channel (direct rate→rent)</text>
+<text x="155" y="289" text-anchor="middle" font-size="10" fill="#adb5bd">tested null in the monetary work —</text>
+<text x="155" y="302" text-anchor="middle" font-size="10" fill="#adb5bd">a monetary-policy element (shown greyed)</text>
+</g>
+
+<g font-size="10.5" fill="#868e96">
+<text x="24" y="446">Colour marks the role of each piece — green the welfare test, red what the market does, gold the remedy. The direct rate channel (greyed) is the monetary-policy test that came back null.</text>
+</g>
+</svg>

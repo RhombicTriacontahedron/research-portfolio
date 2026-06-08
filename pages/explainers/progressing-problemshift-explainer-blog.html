@@ -390,6 +390,31 @@ ul.task-list li input[type="checkbox"] {
 <p>The sequence at stake consists of four pieces that work together as one argument distributed across four different analytical levels.</p>
 <p>A theory paper takes the reproduction of the working population — rather than subjective consumer preferences — as the primitive from which value is reckoned, and replaces the standard welfare criterion of Pareto efficiency with one it calls Reproductive-Capacity Dominance. A structural paper derives from that criterion a welfare-consistent ceiling on rent, and identifies the mechanisms by which buy-to-let financialization forces rents above that ceiling. An empirical paper tests, across 290 English local authorities and two natural experiments, whether housing benefit is being captured by landlords rather than reaching tenants. A policy paper argues that the standard economic objection to rent regulation is inapplicable to the market Britain actually has.</p>
 <p>These are not four separate arguments about related topics. They share a single <span class="hl-sub">hard core</span> — the claim that the reproduction of the working population is the fundamental unit of social value — and address four different implications of that core. Strip out the connecting tissue and each paper becomes weaker. Read together, they constitute a <span class="hl-key">coherent programme</span>.</p>
+<figure class="programme-map figure" style="margin:1.4rem 0;">
+<div id="fm-container" style="min-height:300px;">
+
+</div>
+<figcaption style="font-size:0.9em;color:#666;margin-top:0.5rem;text-align:center;">
+The programme in one map — the hard core (the welfare test), the protective belt (what the market does, and the brake that answers it), and the open frontier (the direct channel that came back null). Click any box to read the paper.
+</figcaption>
+</figure>
+<script>
+(function(){
+  var c = document.getElementById('fm-container');
+  if (!c) return;
+  fetch('../../papers/framework_map_role1.svg')
+    .then(function(r){ return r.text(); })
+    .then(function(t){
+      var tmp = document.createElement('div');
+      tmp.innerHTML = t;
+      var s = tmp.querySelector('svg');
+      if (s) {
+        s.setAttribute('style','width:100%;height:auto;max-width:920px;display:block;margin:0 auto;');
+        c.appendChild(s);
+      }
+    });
+})();
+</script>
 <hr>
 </section>
 <section id="the-lakatosian-test-and-why-its-the-right-one" class="level2">

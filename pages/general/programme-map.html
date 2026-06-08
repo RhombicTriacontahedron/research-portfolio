@@ -354,6 +354,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#the-case-in-plain-terms" id="toc-the-case-in-plain-terms" class="nav-link active" data-scroll-target="#the-case-in-plain-terms">The case, in plain terms</a></li>
+  <li><a href="#the-mechanism-one-layer-down" id="toc-the-mechanism-one-layer-down" class="nav-link" data-scroll-target="#the-mechanism-one-layer-down">The mechanism, one layer down</a></li>
   </ul>
 </nav>
     </div>
@@ -409,7 +410,37 @@ The case for an emergency rent brake. Colour marks how settled each claim is —
 <h2 class="anchored" data-anchor-id="the-case-in-plain-terms">The case, in plain terms</h2>
 <p><strong>Why the usual objection fails.</strong> The block on rent regulation is a single economic claim used as a conversation-stopper — <em>rent controls choke supply and harm the people they protect</em>. <a href="../working-papers/breaking-the-benchmark.html">Why the Rent-Control Veto Fails</a> shows it does not hold here: Britain’s rented sector has failed the competitive conditions that claim assumes since 1988, so the standard presumption against a brake falls away. This clears the ground; it does not yet make the case.</p>
 <p><strong>The case for action.</strong> <a href="../working-papers/rent-reproduction.html">Rent as Reproduction Cost</a> sets a welfare ceiling on rent — pegged to what it costs to sustain a household across generations, not to financialised market values — and argues that, on a stated premise of post-2008 buy-to-let overvaluation, market rents exceed it. It rests on the value theory of <a href="../working-papers/reproductive-capacity-numeraire.html">Reproductive Capacity as Numéraire</a>, developed in its own right and not bent to fit the housing question. <a href="../working-papers/fiscal-capture.html">Fiscal Capture</a> supplies the evidence: across 290 English local authorities and more than twenty specifications, landlords absorb a material share of any rise in the subsidy, with <span class="hl-key">no sign reversals</span>.</p>
-<p><strong>The policy — and the open question.</strong> Together these support an emergency rent brake, paired with supply expansion and bound to pre-committed exit criteria. <a href="../working-papers/progressing-problemshift.html">A Progressing Problemshift</a> then sets out plainly what is settled and what is not — and names the one question that would decide it against the orthodox reading: whether the areas where capture runs highest also show slower household formation. That question <span class="hl-key">has not yet been tested</span>. Naming it first is how you keep hold of the argument when a reader goes looking for the weak point on your behalf.</p>
+<p><strong>The policy — and the open question.</strong> Together these support <strong>NEF’s own Fair Rents proposal</strong> — an emergency brake capping rent rises at the lower of CPI or 2%, with no vacancy decontrol and a new-build exemption — and show it approximates the welfare-optimal path: paired with supply expansion and bound to pre-committed, self-terminating exit criteria. <a href="../working-papers/progressing-problemshift.html">A Progressing Problemshift</a> then sets out plainly what is settled and what is not — and names the one question that would decide it against the orthodox reading: whether the areas where capture runs highest also show slower household formation. That question <span class="hl-key">has not yet been tested</span>. Naming it first is how you keep hold of the argument when a reader goes looking for the weak point on your behalf.</p>
+<hr>
+</section>
+<section id="the-mechanism-one-layer-down" class="level2">
+<h2 class="anchored" data-anchor-id="the-mechanism-one-layer-down">The mechanism, one layer down</h2>
+<p>The boxes above say <em>which</em> paper does what. This map shows <em>how the forces connect</em>: the welfare test that defines the deficit, what the market does to cause it, and the self-terminating brake — NEF’s Fair Rents design — that answers it. <strong>Click any box to read the paper.</strong></p>
+<figure class="programme-map figure" style="margin:1.4rem 0;">
+<div id="fm-container" style="min-height:300px;">
+
+</div>
+<figcaption style="font-size:0.9em;color:#666;margin-top:0.5rem;text-align:center;">
+How the rent system extracts, and the brake that stops it. The direct rate-to-rent channel (greyed) is the monetary-policy test that came back null.
+</figcaption>
+</figure>
+<script>
+(function(){
+  var c = document.getElementById('fm-container');
+  if (!c) return;
+  fetch('../../papers/framework_map_role1.svg')
+    .then(function(r){ return r.text(); })
+    .then(function(t){
+      var tmp = document.createElement('div');
+      tmp.innerHTML = t;
+      var s = tmp.querySelector('svg');
+      if (s) {
+        s.setAttribute('style','width:100%;height:auto;max-width:920px;display:block;margin:0 auto;');
+        c.appendChild(s);
+      }
+    });
+})();
+</script>
 <p>→ The same argument in prose: <a href="manifesto.html">Manifesto</a> · Full abstracts and reading guide: <a href="abstracts-dossier.html">Research Portfolio</a></p>
 
 
