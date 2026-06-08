@@ -564,63 +564,63 @@
     ]
   },
   {
-    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html",
-    "href": "pages/explainers/progressing-problemshift-explainer-blog.html",
-    "title": "Progressing Problemshift Explainer",
+    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html",
+    "href": "pages/explainers/rent-reproduction-explainer-blog.html",
+    "title": "Rent as Reproduction Cost Explainer",
     "section": "",
-    "text": "Heterodox economics rarely gets a fair hearing. Its premises are dismissed at the threshold — too political, too unconventional, insufficiently neutral — without anyone pausing to ask whether the body of work has actually been developing in a disciplined and progressive way. The question of whether a heterodox programme is internally rigorous — whether it is generating new content rather than papering over anomalies — is simply never reached.\nThis paper insists on reaching that question for a specific sequence of four papers on reproductive capacity, housing, and value — this appraisal being the programme’s fifth. Not to endorse it. Not to prove it true. To audit it fairly.",
+    "text": "The standard account of the housing crisis is told in affordability language: rents are too high relative to incomes, and low-income households are squeezed. That framing is accurate. It is also incomplete. This paper argues that what is missing is a theory of what rent actually is — and once you have that theory, the case for a structural response becomes considerably stronger than the affordability story alone provides.\nRent, on this account, is not simply a large line item in the household budget. It is a claim on the material capacity of working households to sustain and reproduce themselves over time. That distinction matters enormously for what policy can justify.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Progressing Problemshift Explainer"
+      "Rent as Reproduction Cost Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#four-papers-one-argument",
-    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#four-papers-one-argument",
-    "title": "Progressing Problemshift Explainer",
-    "section": "1. Four Papers, One Argument",
-    "text": "1. Four Papers, One Argument\nThe sequence at stake consists of four pieces that work together as one argument distributed across four different analytical levels.\nA theory paper takes the reproduction of the working population — rather than subjective consumer preferences — as the primitive from which value is reckoned, and replaces the standard welfare criterion of Pareto efficiency with one it calls Reproductive-Capacity Dominance. A structural paper derives from that criterion a welfare-consistent ceiling on rent, and identifies the mechanisms by which buy-to-let financialization forces rents above that ceiling. An empirical paper tests, across 290 English local authorities and two natural experiments, whether housing benefit is being captured by landlords rather than reaching tenants. A policy paper argues that the standard economic objection to rent regulation is inapplicable to the market Britain actually has.\nThese are not four separate arguments about related topics. They share a single hard core — the claim that the reproduction of the working population is the fundamental unit of social value — and address four different implications of that core. Strip out the connecting tissue and each paper becomes weaker. Read together, they constitute a coherent programme.",
+    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#what-a-pound-spent-on-rent-actually-takes",
+    "href": "pages/explainers/rent-reproduction-explainer-blog.html#what-a-pound-spent-on-rent-actually-takes",
+    "title": "Rent as Reproduction Cost Explainer",
+    "section": "1. What a Pound Spent on Rent Actually Takes",
+    "text": "1. What a Pound Spent on Rent Actually Takes\nWhen a household pays rent, the money that leaves is not like money spent on anything else in the budget. It is not consumed. It does not leave behind a durable good or an enhanced capability. It transfers — from the tenant’s resources for feeding, clothing, and sustaining a family — to the landlord’s income stream.\nEvery pound above the minimum necessary to maintain the landlord’s participation is a pound that cannot go toward nutrition, childcare, education, health, or the basic maintenance of household capacity across generations. In economic terms: it is a transfer from wages — the resources needed to reproduce the capacity to work — to economic rent. Tenant households do not simply get less disposable income. Their material capacity to reproduce themselves is structurally compressed.\nThis is not rhetorical. It follows from embedding housing costs into the logic of household reproduction. Population dynamics — how many workers, in what condition, are available in the next period — depend on the consumption base available for reproduction. When the rent share rises, that base shrinks. The consequence is not just a budget squeeze. It is a structural reduction in the resources available to maintain and renew the working population over time.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Progressing Problemshift Explainer"
+      "Rent as Reproduction Cost Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#the-lakatosian-test-and-why-its-the-right-one",
-    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#the-lakatosian-test-and-why-its-the-right-one",
-    "title": "Progressing Problemshift Explainer",
-    "section": "2. The Lakatosian Test — and Why It’s the Right One",
-    "text": "2. The Lakatosian Test — and Why It’s the Right One\nThe philosopher of science Imre Lakatos distinguished between two kinds of research programme development. A degenerating programme, when it faces a challenge, adds an untestable auxiliary hypothesis to patch the anomaly — rescuing the core at the cost of making the programme less falsifiable. A progressing programme, by contrast, responds to challenges by revising its protective belt in ways that reduce the programme’s degrees of freedom and increase its explanatory reach. Genuine progress is measured by whether the belt revision restricts the modeller rather than giving them more room.\nThe paper applies this framework to those four papers and delivers a deliberately split verdict.\nThe programme is theoretically progressive. The most important revision in the sequence converted an unproven conjecture about demographic risk — introduced to address a specific anomaly in the formal model — into a signed, closed-form restriction tied to four independently observable parameters. That revision did not add flexibility. It subtracted it. The coefficient that had been a free conjecture became derivable from conditions with empirical content. That is the structural opposite of an ad hoc rescue.\nThe programme is non-degenerating. Under recorded attacks on the hard core itself — challenges to the most fundamental commitments — the core was preserved through principled refusal and belt revision, not by inventing new untestable claims. The standard of proof required is that the core stays fixed while the belt absorbs and responds to pressure. That standard was met.\nBut the programme is empirically progressing, not yet empirically progressive. This is the honest part.",
+    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#housing-benefit-pays-the-landlord-not-the-tenant",
+    "href": "pages/explainers/rent-reproduction-explainer-blog.html#housing-benefit-pays-the-landlord-not-the-tenant",
+    "title": "Rent as Reproduction Cost Explainer",
+    "section": "2. Housing Benefit Pays the Landlord, Not the Tenant",
+    "text": "2. Housing Benefit Pays the Landlord, Not the Tenant\nThe UK government spends over £20 billion a year on housing support. The published rationale is that this money helps low-income tenants afford homes. The empirical record is more troubling.\nGibbons and Manning (2006), using data from the 1990s UK housing benefit reforms, found that between 60% and two-thirds of the value of the benefit accrued to landlords rather than tenants — absorbed through higher rents in areas where benefit recipients were concentrated. DWP’s own econometric analysis of the 2011–12 Local Housing Allowance cuts found statistically significant rent reductions in binding areas: when the government reduced what it would pay, landlords reduced what they charged. The benefit had been functioning as a yield floor, not as an income support.\nThe structural reason for this is not landlord greed. It is that in areas with concentrated benefit-dependent households, the LHA rate tells landlords the maximum their tenants can pay — and the government will pay it. Landlords price to that ceiling because it is rational to do so. The subsidy does not reach the tenant as improved welfare. It reaches the landlord as income. This mechanism — fiscal capture — persists not because landlords are individually dishonest but because the market structure makes it profit-maximizing.\nThe companion empirical paper (Galindo 2026b) tests this directly using two natural experiments from the 2020 uplift and 2021 re-freeze of LHA rates, across 290 English local authorities and more than twenty analytical specifications. The reproduction-cost framework in this paper provides the structural theory of why fiscal capture is mechanically necessary — not just behaviorally observed.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Progressing Problemshift Explainer"
+      "Rent as Reproduction Cost Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#the-result-that-couldnt-be-claimed-and-why-that-matters",
-    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#the-result-that-couldnt-be-claimed-and-why-that-matters",
-    "title": "Progressing Problemshift Explainer",
-    "section": "3. The Result That Couldn’t Be Claimed — and Why That Matters",
-    "text": "3. The Result That Couldn’t Be Claimed — and Why That Matters\nThe highest standard of Lakatosian progress requires not merely corroboration but corroboration of a novel prediction — a result that the programme predicts and its rivals do not, and that the rivals’ alternative account cannot accommodate after the fact.\nThe fiscal capture finding — that housing benefit is captured by landlords rather than reaching tenants — looks at first glance like exactly this kind of result. The reproduction framework predicts it structurally, not just behaviorally. The empirical paper confirms it across more than twenty different analytical specifications with zero sign reversals. That is an unusually robust finding.\nThe paper’s own methodological discipline required that this result be demoted. The problem is observational equivalence: a simpler behavioral story — landlords follow the LHA rate — predicts the same empirical pattern. The reproduction framework’s prediction is not, in this instance, a genuinely novel prediction that discriminates the programme from its rival. It is shared content. Both the programme and a much simpler story predict fiscal capture.\nThe paper demotes its own strongest-looking result rather than claim credit for it. This is unusual in academic economics, where the incentive runs powerfully in the other direction.\nWhat remains as the genuine discriminating frontier are the programme’s demographic predictions: that binding areas, with higher concentrations of LHA-dependent households, should show differential household formation rates and population dynamics compared with non-binding areas. Those tests are registered, explicitly falsifiable, and still open.",
+    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#buy-to-let-overvaluation-forces-rents-above-the-welfare-minimum",
+    "href": "pages/explainers/rent-reproduction-explainer-blog.html#buy-to-let-overvaluation-forces-rents-above-the-welfare-minimum",
+    "title": "Rent as Reproduction Cost Explainer",
+    "section": "3. Buy-to-Let Overvaluation Forces Rents Above the Welfare Minimum",
+    "text": "3. Buy-to-Let Overvaluation Forces Rents Above the Welfare Minimum\nPost-2008 financialization pushed buy-to-let asset prices above their fundamental values. That is the empirical premise — motivated by the supply inelasticity, credit expansion, and asset-price inflation documented in the companion policy paper. Conditional on that premise, the implications for rent levels are stark.\nAt inflated prices, debt service on an interest-only mortgage requires a rental income above what would be necessary if the asset were priced at its fundamental value — the price consistent with a landlord earning minimum participation returns at undistorted yields. The difference between current market rents and that welfare-optimal minimum is what the paper calls the demographic externality discount.\nTenant households — excluded from buy-to-let ownership by the same capital requirements that enabled landlords to leverage into the market — cannot correct this externality through market participation. There is no mechanism by which tenants can bid the overvaluation back out of the system. The market equilibrium is structurally above the social optimum, and the gap is a necessary consequence of the asset-price inflation that the BTL expansion produced.\nThis is different from a standard affordability argument. It is not that landlords are charging too much by some distributional standard. It is that competitive equilibrium in this market produces rents that exceed the welfare-consistent minimum as a structural consequence of how the market was built.",
     "crumbs": [
       "Home",
       "Explainers",
-      "Progressing Problemshift Explainer"
+      "Rent as Reproduction Cost Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#what-this-means-for-the-hiring-package",
-    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#what-this-means-for-the-hiring-package",
-    "title": "Progressing Problemshift Explainer",
-    "section": "4. What This Means for the Hiring Package",
-    "text": "4. What This Means for the Hiring Package\nFor a research role at NEF, the methodological point of this paper is also a practical one. The programme demonstrates its credibility not only by accumulating positive results but by its willingness to demote convenient findings when they do not meet the standard it claims to hold. That discipline is the foundation on which policy recommendations can be trusted.\nA programme that claims to have proven more than it has is politically useful in the short term and fragile under scrutiny. A programme that is explicit about what it has established, what remains open, and what would refute it is the kind of thing that can sustain serious advocacy. The distinction is exactly what the paper makes.\nThe registered discriminating tests also create a forward research agenda. If the demographic predictions are confirmed at scale — differential household formation and population growth in high-intensity binding areas — that would be genuine novel corroboration in the Lakatosian sense. It is an empirically tractable question with data that exist. It is waiting to be answered.\n\nBased on the working paper “A Progressing Problemshift” (2026).\nRead next: Full paper · Research Portfolio · Manifesto · Cover Letter in Full Glory",
+    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#a-cpi-ceiling-is-a-structural-correction-not-a-patch",
+    "href": "pages/explainers/rent-reproduction-explainer-blog.html#a-cpi-ceiling-is-a-structural-correction-not-a-patch",
+    "title": "Rent as Reproduction Cost Explainer",
+    "section": "4. A CPI Ceiling Is a Structural Correction, Not a Patch",
+    "text": "4. A CPI Ceiling Is a Structural Correction, Not a Patch\nThe reproduction framework provides the strongest possible welfare foundation for the NEF emergency brake — stronger than the generic second-best argument in the companion policy paper, which establishes that the orthodox veto is inapplicable but does not identify what rents should be.\nThe RCD-consistent rent is defined precisely: the minimum rent consistent with landlord participation at fundamental — non-inflated — asset prices. A CPI-anchored growth ceiling counteracts the escalating rent-to-income ratio that the overvaluation dynamic generates. It does not freeze rents at an arbitrary level. It prevents further reproduction compression by capping the pace at which rent claims on household resources can grow.\nThis is a structural correction aimed at the reproduction conditions of the working population. It answers the question the affordability framing cannot: not just “are rents too high?” but “what should rents be, as a matter of social welfare?” — and the answer is that the welfare-consistent ceiling is the one that allows landlord participation without the overvaluation premium that financialization has built into the market.\nThe framework additionally predicts that binding areas — those where LHA concentrated benefit-dependent households at high intensity — should show differential household formation and demographic patterns compared with non-binding areas. These discriminating tests remain an open empirical frontier: they are what would distinguish this structural account from a simpler behavioral story about landlords following the LHA rate.\n\nBased on the working paper “Rent as Reproduction Cost” (2026).\nRead next: Full paper · Research Portfolio · Manifesto · Cover Letter in Full Glory",
     "crumbs": [
       "Home",
       "Explainers",
-      "Progressing Problemshift Explainer"
+      "Rent as Reproduction Cost Explainer"
     ]
   },
   {
@@ -903,7 +903,7 @@
     "href": "index.html#explainers",
     "title": "Carlos Galindo Escajeda - NEF Housing Research Package",
     "section": "Explainers",
-    "text": "Explainers\n\nLHA Explainer\nRent-Control Veto Explainer\nRent as Reproduction Cost Explainer\nLPN Explainer\nProgressing Problemshift Explainer"
+    "text": "Explainers\n\nLHA Explainer\nRent-Control Veto Explainer\nRent as Reproduction Cost Explainer\nReproductive Capacity Explainer\nProgressing Problemshift Explainer"
   },
   {
     "objectID": "index.html#working-papers",
@@ -1040,159 +1040,159 @@
     ]
   },
   {
-    "objectID": "pages/explainers/lpn-explainer-blog.html",
-    "href": "pages/explainers/lpn-explainer-blog.html",
-    "title": "LPN Explainer",
+    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html",
+    "href": "pages/explainers/progressing-problemshift-explainer-blog.html",
+    "title": "Progressing Problemshift Explainer",
+    "section": "",
+    "text": "Heterodox economics rarely gets a fair hearing. Its premises are dismissed at the threshold — too political, too unconventional, insufficiently neutral — without anyone pausing to ask whether the body of work has actually been developing in a disciplined and progressive way. The question of whether a heterodox programme is internally rigorous — whether it is generating new content rather than papering over anomalies — is simply never reached.\nThis paper insists on reaching that question for a specific sequence of four papers on reproductive capacity, housing, and value — this appraisal being the programme’s fifth. Not to endorse it. Not to prove it true. To audit it fairly.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "Progressing Problemshift Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#four-papers-one-argument",
+    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#four-papers-one-argument",
+    "title": "Progressing Problemshift Explainer",
+    "section": "1. Four Papers, One Argument",
+    "text": "1. Four Papers, One Argument\nThe sequence at stake consists of four pieces that work together as one argument distributed across four different analytical levels.\nA theory paper takes the reproduction of the working population — rather than subjective consumer preferences — as the primitive from which value is reckoned, and replaces the standard welfare criterion of Pareto efficiency with one it calls Reproductive-Capacity Dominance. A structural paper derives from that criterion a welfare-consistent ceiling on rent, and identifies the mechanisms by which buy-to-let financialization forces rents above that ceiling. An empirical paper tests, across 290 English local authorities and two natural experiments, whether housing benefit is being captured by landlords rather than reaching tenants. A policy paper argues that the standard economic objection to rent regulation is inapplicable to the market Britain actually has.\nThese are not four separate arguments about related topics. They share a single hard core — the claim that the reproduction of the working population is the fundamental unit of social value — and address four different implications of that core. Strip out the connecting tissue and each paper becomes weaker. Read together, they constitute a coherent programme.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "Progressing Problemshift Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#the-lakatosian-test-and-why-its-the-right-one",
+    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#the-lakatosian-test-and-why-its-the-right-one",
+    "title": "Progressing Problemshift Explainer",
+    "section": "2. The Lakatosian Test — and Why It’s the Right One",
+    "text": "2. The Lakatosian Test — and Why It’s the Right One\nThe philosopher of science Imre Lakatos distinguished between two kinds of research programme development. A degenerating programme, when it faces a challenge, adds an untestable auxiliary hypothesis to patch the anomaly — rescuing the core at the cost of making the programme less falsifiable. A progressing programme, by contrast, responds to challenges by revising its protective belt in ways that reduce the programme’s degrees of freedom and increase its explanatory reach. Genuine progress is measured by whether the belt revision restricts the modeller rather than giving them more room.\nThe paper applies this framework to those four papers and delivers a deliberately split verdict.\nThe programme is theoretically progressive. The most important revision in the sequence converted an unproven conjecture about demographic risk — introduced to address a specific anomaly in the formal model — into a signed, closed-form restriction tied to four independently observable parameters. That revision did not add flexibility. It subtracted it. The coefficient that had been a free conjecture became derivable from conditions with empirical content. That is the structural opposite of an ad hoc rescue.\nThe programme is non-degenerating. Under recorded attacks on the hard core itself — challenges to the most fundamental commitments — the core was preserved through principled refusal and belt revision, not by inventing new untestable claims. The standard of proof required is that the core stays fixed while the belt absorbs and responds to pressure. That standard was met.\nBut the programme is empirically progressing, not yet empirically progressive. This is the honest part.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "Progressing Problemshift Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#the-result-that-couldnt-be-claimed-and-why-that-matters",
+    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#the-result-that-couldnt-be-claimed-and-why-that-matters",
+    "title": "Progressing Problemshift Explainer",
+    "section": "3. The Result That Couldn’t Be Claimed — and Why That Matters",
+    "text": "3. The Result That Couldn’t Be Claimed — and Why That Matters\nThe highest standard of Lakatosian progress requires not merely corroboration but corroboration of a novel prediction — a result that the programme predicts and its rivals do not, and that the rivals’ alternative account cannot accommodate after the fact.\nThe fiscal capture finding — that housing benefit is captured by landlords rather than reaching tenants — looks at first glance like exactly this kind of result. The reproduction framework predicts it structurally, not just behaviorally. The empirical paper confirms it across more than twenty different analytical specifications with zero sign reversals. That is an unusually robust finding.\nThe paper’s own methodological discipline required that this result be demoted. The problem is observational equivalence: a simpler behavioral story — landlords follow the LHA rate — predicts the same empirical pattern. The reproduction framework’s prediction is not, in this instance, a genuinely novel prediction that discriminates the programme from its rival. It is shared content. Both the programme and a much simpler story predict fiscal capture.\nThe paper demotes its own strongest-looking result rather than claim credit for it. This is unusual in academic economics, where the incentive runs powerfully in the other direction.\nWhat remains as the genuine discriminating frontier are the programme’s demographic predictions: that binding areas, with higher concentrations of LHA-dependent households, should show differential household formation rates and population dynamics compared with non-binding areas. Those tests are registered, explicitly falsifiable, and still open.",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "Progressing Problemshift Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/progressing-problemshift-explainer-blog.html#what-this-means-for-the-hiring-package",
+    "href": "pages/explainers/progressing-problemshift-explainer-blog.html#what-this-means-for-the-hiring-package",
+    "title": "Progressing Problemshift Explainer",
+    "section": "4. What This Means for the Hiring Package",
+    "text": "4. What This Means for the Hiring Package\nFor a research role at NEF, the methodological point of this paper is also a practical one. The programme demonstrates its credibility not only by accumulating positive results but by its willingness to demote convenient findings when they do not meet the standard it claims to hold. That discipline is the foundation on which policy recommendations can be trusted.\nA programme that claims to have proven more than it has is politically useful in the short term and fragile under scrutiny. A programme that is explicit about what it has established, what remains open, and what would refute it is the kind of thing that can sustain serious advocacy. The distinction is exactly what the paper makes.\nThe registered discriminating tests also create a forward research agenda. If the demographic predictions are confirmed at scale — differential household formation and population growth in high-intensity binding areas — that would be genuine novel corroboration in the Lakatosian sense. It is an empirically tractable question with data that exist. It is waiting to be answered.\n\nBased on the working paper “A Progressing Problemshift” (2026).\nRead next: Full paper · Research Portfolio · Manifesto · Cover Letter in Full Glory",
+    "crumbs": [
+      "Home",
+      "Explainers",
+      "Progressing Problemshift Explainer"
+    ]
+  },
+  {
+    "objectID": "pages/explainers/reproductive-capacity-explainer.html",
+    "href": "pages/explainers/reproductive-capacity-explainer.html",
+    "title": "Reproductive Capacity Explainer",
     "section": "",
     "text": "Mainstream economics has a favourite story: competitive markets solve an optimization problem, and the solution is — by the model’s own internal logic — the best of all possible worlds. Resources flow efficiently. Risk is priced correctly. If inequality persists, it is because people started with different endowments, not because the system itself compounds that difference.\nThis paper takes that story’s own formal machinery — Bellman equations, Euler conditions, stochastic discount factors, second-order perturbations — and uses it to show the story is incomplete. Not in the hand-waving way external critiques are usually dismissed for. On the framework’s own derivations, from its own premises, in its own mathematical grammar.\nThe result is a structural theory of value, risk, and finance in which reproductive capacity — society’s physical capacity to sustain and renew its population — is the fundamental numéraire. In this framework, competitive markets generate structurally necessary shortfalls in the population’s welfare — not despite solving their optimization problem, but precisely because they solve it perfectly.\nFrom that one move, a series of consequences follows that standard finance theory does not reach.",
     "crumbs": [
       "Home",
       "Explainers",
-      "LPN Explainer"
+      "Reproductive Capacity Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/lpn-explainer-blog.html#every-mainstream-growth-model-is-missing-a-term-and-its-not-a-technicality",
-    "href": "pages/explainers/lpn-explainer-blog.html#every-mainstream-growth-model-is-missing-a-term-and-its-not-a-technicality",
-    "title": "LPN Explainer",
+    "objectID": "pages/explainers/reproductive-capacity-explainer.html#every-mainstream-growth-model-is-missing-a-term-and-its-not-a-technicality",
+    "href": "pages/explainers/reproductive-capacity-explainer.html#every-mainstream-growth-model-is-missing-a-term-and-its-not-a-technicality",
+    "title": "Reproductive Capacity Explainer",
     "section": "1. Every mainstream growth model is missing a term — and it’s not a technicality",
     "text": "1. Every mainstream growth model is missing a term — and it’s not a technicality\nThe reproduction technology at the heart of the paper is simple but consequential: future reproductive capacity depends on both current reproductive capacity and current consumption, with exponents that sum to one — constant returns to scale. This is the minimal formal requirement for any economy that reproduces itself.\nWhen you take this seriously, a term appears in the Euler equation that has no counterpart in any Ramsey-Cass-Koopmans model: the demographic continuation term. It governs how powerfully today’s population carries forward into tomorrow. The higher this term, the more today’s capital inequality compounds into future reproductive-capacity deficits.\nPrior structural formalizations either dropped this term or introduced it inconsistently, inadvertently breaking the constant-returns structure that makes the framework tractable. Stochastic variants dropped it entirely, which quietly destroys the scale invariance of the reproduction technology and voids the derivation. Mainstream models never needed it, because they don’t treat reproductive capacity as an objective at all.\nThis isn’t a minor fix. Without the demographic continuation term, there is no structural risk premium with a signed demographic coefficient, no exact normalization of the value function, and no mathematical object for the welfare criterion to register. The entire edifice stands or falls with it.",
     "crumbs": [
       "Home",
       "Explainers",
-      "LPN Explainer"
+      "Reproductive Capacity Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/lpn-explainer-blog.html#not-a-rival-model-the-mainstreams-apparatus-turned-on-itself",
-    "href": "pages/explainers/lpn-explainer-blog.html#not-a-rival-model-the-mainstreams-apparatus-turned-on-itself",
-    "title": "LPN Explainer",
+    "objectID": "pages/explainers/reproductive-capacity-explainer.html#not-a-rival-model-the-mainstreams-apparatus-turned-on-itself",
+    "href": "pages/explainers/reproductive-capacity-explainer.html#not-a-rival-model-the-mainstreams-apparatus-turned-on-itself",
+    "title": "Reproductive Capacity Explainer",
     "section": "2. Not a rival model — the mainstream’s apparatus turned on itself",
     "text": "2. Not a rival model — the mainstream’s apparatus turned on itself\nMost critiques of neoclassical economics build something different — post-Keynesian, agent-based, or classical input-output models. This paper does something rarer.\nThe strategy is methodological immanence: enter the competitive equilibrium framework on its own terms, accept its Bellman apparatus, and ask what the equilibrium can be shown to prove about itself from its own first-order conditions.\nThe change is not technical but in the primitive. Mainstream macro asks how atomistic individuals optimize subjective utility; this framework asks what an economy requires to sustain the collective capacity of its population. The stochastic discount factor, the Bellman equations, and the second-order perturbation are all the same. But when reproductive capacity displaces subjective utility as the fundamental primitive, the demographic continuation term reappears in the Euler equation, the pricing kernel acquires a second structural risk channel, and a welfare criterion that makes visible what competitive equilibria fail to achieve can be stated precisely.\nThis immanent result establishes what external critiques cannot. The shortfall is not contingent on market imperfections, regulatory capture, or financial fragility. It is structurally necessary — a deduction from the competitive equilibrium’s own first-order conditions, on its own ground, against its own standard of proof.",
     "crumbs": [
       "Home",
       "Explainers",
-      "LPN Explainer"
+      "Reproductive Capacity Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/lpn-explainer-blog.html#the-risk-premium-on-capital-has-two-channels-one-of-them-demographic",
-    "href": "pages/explainers/lpn-explainer-blog.html#the-risk-premium-on-capital-has-two-channels-one-of-them-demographic",
-    "title": "LPN Explainer",
+    "objectID": "pages/explainers/reproductive-capacity-explainer.html#the-risk-premium-on-capital-has-two-channels-one-of-them-demographic",
+    "href": "pages/explainers/reproductive-capacity-explainer.html#the-risk-premium-on-capital-has-two-channels-one-of-them-demographic",
+    "title": "Reproductive Capacity Explainer",
     "section": "3. The risk premium on capital has two channels — one of them demographic",
     "text": "3. The risk premium on capital has two channels — one of them demographic\nStandard consumption-based asset pricing says risky assets earn a premium because they pay off poorly when consumption falls. That channel exists here too.\nBut the framework reveals a second channel no mainstream model contains: a demographic risk channel. An asset that performs badly precisely when society’s reproductive capacity contracts earns an additional premium. The coefficient on this channel — what the paper calls Omega — is analytically signed positive under two mild, economically interpretable conditions on the curvature of the value function and the savings response to technology shocks.\nThis is not a free parameter added to fit the data. It emerges directly from the structure of the Bellman problem once the demographic continuation term is present. The pricing kernel responds to reproductive risk because the shadow value of capital that appears in the kernel is the Bellman multiplier governing reproductive capacity itself — not subjective utility. Change the primitive, and the kernel changes.\nThe macroeconomic implication is stark: when uncertainty about future reproductive capacity rises, precautionary demand drives up the price of safe assets and crowds out real investment. Finance does not appear here as a neutral intermediary; it is the institutional form through which the risk of future reproductive-capacity deficits is priced and redistributed across dynasties.",
     "crumbs": [
       "Home",
       "Explainers",
-      "LPN Explainer"
+      "Reproductive Capacity Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/lpn-explainer-blog.html#the-risk-price-cannot-be-calibrated-away",
-    "href": "pages/explainers/lpn-explainer-blog.html#the-risk-price-cannot-be-calibrated-away",
-    "title": "LPN Explainer",
+    "objectID": "pages/explainers/reproductive-capacity-explainer.html#the-risk-price-cannot-be-calibrated-away",
+    "href": "pages/explainers/reproductive-capacity-explainer.html#the-risk-price-cannot-be-calibrated-away",
+    "title": "Reproductive Capacity Explainer",
     "section": "4. The risk price cannot be calibrated away",
     "text": "4. The risk price cannot be calibrated away\nMainstream asset pricing has a famous flexibility problem: its effective risk-aversion coefficient is a free parameter. It can match almost any observed equity premium simply by turning a dial.\nThe structural framework has no such flexibility. The effective risk-aversion coefficient is pinned down by a cross-equation restriction that ties it to four observables:\n\nThe reproduction elasticity (identifiable from cohort fertility data)\nThe Bellman curvature of the value function (pinned by steady-state conditions)\nThe capital-ratio savings response (recoverable from investment-share dynamics)\nThe normalized consumption response to technology shocks\n\nThis makes the framework a testable structural prediction. Standard CCAPM can match any risk premium by turning a dial; this framework cannot. If the observed risk premium is inconsistent with the reproduction technology parameters, the model is falsified — not rescued by recalibration. A theory that cannot be falsified by data is not a scientific theory; this one can be.",
     "crumbs": [
       "Home",
       "Explainers",
-      "LPN Explainer"
+      "Reproductive Capacity Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/lpn-explainer-blog.html#perfect-markets-still-fall-short-and-persistently",
-    "href": "pages/explainers/lpn-explainer-blog.html#perfect-markets-still-fall-short-and-persistently",
-    "title": "LPN Explainer",
+    "objectID": "pages/explainers/reproductive-capacity-explainer.html#perfect-markets-still-fall-short-and-persistently",
+    "href": "pages/explainers/reproductive-capacity-explainer.html#perfect-markets-still-fall-short-and-persistently",
+    "title": "Reproductive Capacity Explainer",
     "section": "5. Perfect markets still fall short — and persistently",
     "text": "5. Perfect markets still fall short — and persistently\nThe welfare criterion replaces Pareto efficiency — and the replacement is not cosmetic.\nPareto efficiency accepts preferences as given and asks whether they can be simultaneously satisfied. By construction, it cannot evaluate whether the underlying distribution of reproductive capacity is itself adequate: it takes the initial structure as a datum and ranks allocations on that basis. A criterion built that way registers efficiency given an unequal starting point, but is silent on whether the starting point leaves every household able to sustain itself.\nReproductive-Capacity Dominance does not ask whether preferences are satisfied. It asks whether the physical preconditions for the reproduction of the population are met, for every dynasty, under every allocation.\n\nReproductive-Capacity Dominance (RCD): Allocation A dominates Allocation B if every dynasty ends up with at least as much discounted expected reproductive capacity, and at least one dynasty is strictly better off. The criterion ranks allocations directly over physical reproductive capacity — not over utility.\n\nUnder RCD, competitive markets fall short systematically whenever initial capital is unequally distributed. This is not a crisis result or a market-failure result. It holds in the cleanest possible competitive benchmark: complete markets, full insurance against idiosyncratic shocks, and perfectly competitive factor pricing.\nThe capital-rich dynasty grows its population faster — not because it is more productive at reproduction, but because it consumes more, and consumption is an input to reproduction with a positive elasticity. The demographic continuation term turns this into a permanent, multiplicative growth-rate differential: each period of advantage multiplies into the next, so the ratio of reproductive-capacity levels between dynasties is strictly increasing over time.\nCredit markets, labour markets, and wage equalization all fail to restore RCD. They reorganize the hierarchy; they do not dissolve it.",
     "crumbs": [
       "Home",
       "Explainers",
-      "LPN Explainer"
+      "Reproductive Capacity Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/lpn-explainer-blog.html#future-reproductive-capacity-priced-as-a-financial-claim",
-    "href": "pages/explainers/lpn-explainer-blog.html#future-reproductive-capacity-priced-as-a-financial-claim",
-    "title": "LPN Explainer",
+    "objectID": "pages/explainers/reproductive-capacity-explainer.html#future-reproductive-capacity-priced-as-a-financial-claim",
+    "href": "pages/explainers/reproductive-capacity-explainer.html#future-reproductive-capacity-priced-as-a-financial-claim",
+    "title": "Reproductive Capacity Explainer",
     "section": "6. Future reproductive capacity, priced as a financial claim",
     "text": "6. Future reproductive capacity, priced as a financial claim\nThe paper closes a formal gap that prior structural-finance work identified but could not close without dynamic stochastic methods: deriving asset prices directly from the conditions of reproduction.\nThe safe bond is priced by the same demographic stochastic discount factor that prices risky capital. Its yield is lower precisely because it insures against reproductive-risk variance. Demand for safe assets surges when uncertainty about future reproductive capacity rises. The bond aggregates the cost of missing insurance markets across dynasties, and in doing so it prices society’s future reproductive capacity as if it were a financial claim.\nThis is a capitalised claim in its structural form — an asset whose price capitalises a ranked structure of claims on future income through the conditions of reproduction. The precautionary demand that fills financial balance sheets with “safe” assets is, at its structural foundation, demand for insurance against the risk that society will not reproduce enough capacity to service those claims.\nFinance, in this framework, is not an external distortion imposed on an otherwise sound productive base; it is constitutive. The unequal distribution of basic necessities generates reproductive insecurity — and that insecurity is then converted into yield-bearing claims on future income. The system prices the very condition it helps create.",
     "crumbs": [
       "Home",
       "Explainers",
-      "LPN Explainer"
+      "Reproductive Capacity Explainer"
     ]
   },
   {
-    "objectID": "pages/explainers/lpn-explainer-blog.html#a-research-program-not-a-closed-result",
-    "href": "pages/explainers/lpn-explainer-blog.html#a-research-program-not-a-closed-result",
-    "title": "LPN Explainer",
+    "objectID": "pages/explainers/reproductive-capacity-explainer.html#a-research-program-not-a-closed-result",
+    "href": "pages/explainers/reproductive-capacity-explainer.html#a-research-program-not-a-closed-result",
+    "title": "Reproductive Capacity Explainer",
     "section": "7. A research program, not a closed result",
     "text": "7. A research program, not a closed result\nThe paper is theoretical. It establishes the structural restrictions and the welfare shortfalls. The empirical and institutional work follows in a companion research program:\n\nEmpirical identification: GMM moment conditions confronting the cross-equation restriction with cohort fertility data, normalized consumption series, and asset-pricing moments.\nGroup dynamics: A fully specified heterogeneous-agent model separating liquidity-constrained dynasties from accumulating ones, to derive the full distributional consequences of the RCD shortfall.\nAxiomatics: Formally mapping Reproductive-Capacity Dominance against Paretian and utilitarian criteria.\n\nOne final point for readers who know the structural literature. The stationarity assumption the framework requires — the ergodic structure of dynamic programming — is the price of admission for an immanent argument: a mathematical requirement to establish the shortfall from within the mainstream’s own apparatus, not a historical claim that the economy is actually stable. The stationary pricing kernel is the benchmark that any future extension incorporating crisis dynamics, regime transitions, or non-ergodic reproductive trajectories must be consistent with.\nEven in its most idealized, efficient, stationary form, the competitive market falls short of sustaining the population — not by failing to optimize, but by optimizing perfectly.\n\nRead next: Full paper · Research Portfolio · Manifesto · Cover Letter in Full Glory\nBased on the working paper “Reproductive Capacity as Numéraire: A Structural Theory of Value, Risk, and Finance” — Carlos Galindo Escajeda (2026); the conceptual seed is due to Julio Huato. Please do not cite without permission.",
     "crumbs": [
       "Home",
       "Explainers",
-      "LPN Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html",
-    "href": "pages/explainers/rent-reproduction-explainer-blog.html",
-    "title": "Rent as Reproduction Cost Explainer",
-    "section": "",
-    "text": "The standard account of the housing crisis is told in affordability language: rents are too high relative to incomes, and low-income households are squeezed. That framing is accurate. It is also incomplete. This paper argues that what is missing is a theory of what rent actually is — and once you have that theory, the case for a structural response becomes considerably stronger than the affordability story alone provides.\nRent, on this account, is not simply a large line item in the household budget. It is a claim on the material capacity of working households to sustain and reproduce themselves over time. That distinction matters enormously for what policy can justify.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "Rent as Reproduction Cost Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#what-a-pound-spent-on-rent-actually-takes",
-    "href": "pages/explainers/rent-reproduction-explainer-blog.html#what-a-pound-spent-on-rent-actually-takes",
-    "title": "Rent as Reproduction Cost Explainer",
-    "section": "1. What a Pound Spent on Rent Actually Takes",
-    "text": "1. What a Pound Spent on Rent Actually Takes\nWhen a household pays rent, the money that leaves is not like money spent on anything else in the budget. It is not consumed. It does not leave behind a durable good or an enhanced capability. It transfers — from the tenant’s resources for feeding, clothing, and sustaining a family — to the landlord’s income stream.\nEvery pound above the minimum necessary to maintain the landlord’s participation is a pound that cannot go toward nutrition, childcare, education, health, or the basic maintenance of household capacity across generations. In economic terms: it is a transfer from wages — the resources needed to reproduce the capacity to work — to economic rent. Tenant households do not simply get less disposable income. Their material capacity to reproduce themselves is structurally compressed.\nThis is not rhetorical. It follows from embedding housing costs into the logic of household reproduction. Population dynamics — how many workers, in what condition, are available in the next period — depend on the consumption base available for reproduction. When the rent share rises, that base shrinks. The consequence is not just a budget squeeze. It is a structural reduction in the resources available to maintain and renew the working population over time.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "Rent as Reproduction Cost Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#housing-benefit-pays-the-landlord-not-the-tenant",
-    "href": "pages/explainers/rent-reproduction-explainer-blog.html#housing-benefit-pays-the-landlord-not-the-tenant",
-    "title": "Rent as Reproduction Cost Explainer",
-    "section": "2. Housing Benefit Pays the Landlord, Not the Tenant",
-    "text": "2. Housing Benefit Pays the Landlord, Not the Tenant\nThe UK government spends over £20 billion a year on housing support. The published rationale is that this money helps low-income tenants afford homes. The empirical record is more troubling.\nGibbons and Manning (2006), using data from the 1990s UK housing benefit reforms, found that between 60% and two-thirds of the value of the benefit accrued to landlords rather than tenants — absorbed through higher rents in areas where benefit recipients were concentrated. DWP’s own econometric analysis of the 2011–12 Local Housing Allowance cuts found statistically significant rent reductions in binding areas: when the government reduced what it would pay, landlords reduced what they charged. The benefit had been functioning as a yield floor, not as an income support.\nThe structural reason for this is not landlord greed. It is that in areas with concentrated benefit-dependent households, the LHA rate tells landlords the maximum their tenants can pay — and the government will pay it. Landlords price to that ceiling because it is rational to do so. The subsidy does not reach the tenant as improved welfare. It reaches the landlord as income. This mechanism — fiscal capture — persists not because landlords are individually dishonest but because the market structure makes it profit-maximizing.\nThe companion empirical paper (Galindo 2026b) tests this directly using two natural experiments from the 2020 uplift and 2021 re-freeze of LHA rates, across 290 English local authorities and more than twenty analytical specifications. The reproduction-cost framework in this paper provides the structural theory of why fiscal capture is mechanically necessary — not just behaviorally observed.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "Rent as Reproduction Cost Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#buy-to-let-overvaluation-forces-rents-above-the-welfare-minimum",
-    "href": "pages/explainers/rent-reproduction-explainer-blog.html#buy-to-let-overvaluation-forces-rents-above-the-welfare-minimum",
-    "title": "Rent as Reproduction Cost Explainer",
-    "section": "3. Buy-to-Let Overvaluation Forces Rents Above the Welfare Minimum",
-    "text": "3. Buy-to-Let Overvaluation Forces Rents Above the Welfare Minimum\nPost-2008 financialization pushed buy-to-let asset prices above their fundamental values. That is the empirical premise — motivated by the supply inelasticity, credit expansion, and asset-price inflation documented in the companion policy paper. Conditional on that premise, the implications for rent levels are stark.\nAt inflated prices, debt service on an interest-only mortgage requires a rental income above what would be necessary if the asset were priced at its fundamental value — the price consistent with a landlord earning minimum participation returns at undistorted yields. The difference between current market rents and that welfare-optimal minimum is what the paper calls the demographic externality discount.\nTenant households — excluded from buy-to-let ownership by the same capital requirements that enabled landlords to leverage into the market — cannot correct this externality through market participation. There is no mechanism by which tenants can bid the overvaluation back out of the system. The market equilibrium is structurally above the social optimum, and the gap is a necessary consequence of the asset-price inflation that the BTL expansion produced.\nThis is different from a standard affordability argument. It is not that landlords are charging too much by some distributional standard. It is that competitive equilibrium in this market produces rents that exceed the welfare-consistent minimum as a structural consequence of how the market was built.",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "Rent as Reproduction Cost Explainer"
-    ]
-  },
-  {
-    "objectID": "pages/explainers/rent-reproduction-explainer-blog.html#a-cpi-ceiling-is-a-structural-correction-not-a-patch",
-    "href": "pages/explainers/rent-reproduction-explainer-blog.html#a-cpi-ceiling-is-a-structural-correction-not-a-patch",
-    "title": "Rent as Reproduction Cost Explainer",
-    "section": "4. A CPI Ceiling Is a Structural Correction, Not a Patch",
-    "text": "4. A CPI Ceiling Is a Structural Correction, Not a Patch\nThe reproduction framework provides the strongest possible welfare foundation for the NEF emergency brake — stronger than the generic second-best argument in the companion policy paper, which establishes that the orthodox veto is inapplicable but does not identify what rents should be.\nThe RCD-consistent rent is defined precisely: the minimum rent consistent with landlord participation at fundamental — non-inflated — asset prices. A CPI-anchored growth ceiling counteracts the escalating rent-to-income ratio that the overvaluation dynamic generates. It does not freeze rents at an arbitrary level. It prevents further reproduction compression by capping the pace at which rent claims on household resources can grow.\nThis is a structural correction aimed at the reproduction conditions of the working population. It answers the question the affordability framing cannot: not just “are rents too high?” but “what should rents be, as a matter of social welfare?” — and the answer is that the welfare-consistent ceiling is the one that allows landlord participation without the overvaluation premium that financialization has built into the market.\nThe framework additionally predicts that binding areas — those where LHA concentrated benefit-dependent households at high intensity — should show differential household formation and demographic patterns compared with non-binding areas. These discriminating tests remain an open empirical frontier: they are what would distinguish this structural account from a simpler behavioral story about landlords following the LHA rate.\n\nBased on the working paper “Rent as Reproduction Cost” (2026).\nRead next: Full paper · Research Portfolio · Manifesto · Cover Letter in Full Glory",
-    "crumbs": [
-      "Home",
-      "Explainers",
-      "Rent as Reproduction Cost Explainer"
+      "Reproductive Capacity Explainer"
     ]
   },
   {
