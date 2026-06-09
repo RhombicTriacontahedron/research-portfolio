@@ -74,3 +74,8 @@ main a .hl-key, main a .hl-sub, main .hl-key a, main .hl-sub a {
     border-bottom: none;
     color: inherit;
 }
+/* Tier 3 - green foreground text without background (uses hl-key-fg, the dark WCAG-AA green,
+   NOT the bright link green -- avoids fake-link reads in body prose) */
+main .hl-fg {
+    color: var(--hl-key-fg);
+}
