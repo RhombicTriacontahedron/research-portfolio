@@ -1,8 +1,13 @@
-/* Bold + ALL CAPS top-level sidebar section headers */
+/* Bold + ALL CAPS top-level sidebar section headers, in the explainer green */
 .sidebar-item.sidebar-item-section > .sidebar-item-container > a.sidebar-link {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    color: var(--bs-success, #4bbf73);
+}
+.sidebar-item.sidebar-item-section > .sidebar-item-container > a.sidebar-link:hover {
+    color: var(--bs-success, #4bbf73);
+    filter: brightness(0.92);
 }
 
 /* "Where to start" routing list: clear bold subtitles + simple dash markers */
