@@ -74,8 +74,13 @@ main a .hl-key, main a .hl-sub, main .hl-key a, main .hl-sub a {
     border-bottom: none;
     color: inherit;
 }
-/* Tier 3 - green foreground text without background (uses hl-key-fg, the dark WCAG-AA green,
-   NOT the bright link green -- avoids fake-link reads in body prose) */
-main .hl-fg {
-    color: var(--hl-key-fg);
+/* Tier 3 - warm amber highlight (lux warning family) for contrast with the green tier-1 wash;
+   used for call-to-action / invitation passages. Dark brown text on pale amber (WCAG AA). */
+main .hl-cta {
+    background: rgba(240, 173, 78, 0.18);
+    color: #5c3800;
+    padding: 0.02em 0.18em;
+    border-radius: 0.18em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
