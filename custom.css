@@ -84,3 +84,13 @@ main .hl-cta {
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
+/* Tier 4 - teal highlight (Bootstrap teal / #20c997 family) for methodology / credential passages;
+   reads as systematic/technical, distinct from green (claim) and amber (invitation). */
+main .hl-method {
+    background: rgba(32, 201, 151, 0.14);
+    color: #0a4033;
+    padding: 0.02em 0.18em;
+    border-radius: 0.18em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
