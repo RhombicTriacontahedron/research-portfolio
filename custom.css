@@ -94,3 +94,43 @@ main .hl-method {
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
+
+/* ============================================================
+   HIGHLIGHT OPT-OUT  -  site-wide toggle, default ON.
+   The #hl-toggle pill (include-after-body/hl-toggle.html) flips
+   html.hl-off; a no-flash <head> snippet (include-in-header/
+   hl-head.html) sets it before first paint from localStorage
+   (key 'nef-hl-off'). The rules below neutralise ALL FOUR
+   highlight tiers when html.hl-off is present.
+   ============================================================ */
+html.hl-off main .hl-key,
+html.hl-off main .hl-cta,
+html.hl-off main .hl-method {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    border-radius: 0;
+}
+html.hl-off main .hl-sub {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+/* the control itself: a right-aligned NAVBAR pill (the #hl-toggle nav item, wired by
+   hl-toggle.html). It lives inside the top banner, so it never overlaps page content; solid +
+   theme-coloured so it reads as a button, and the colour doubles as the on/off signal -
+   explainer-green when highlights are on, neutral grey when off. The explanation is in its
+   hover tooltip. */
+.navbar .nav-link[href$="#hl-toggle"] {
+    background: var(--bs-success, #4bbf73);
+    color: #ffffff !important;
+    border-radius: 999px;
+    padding: 0.28rem 0.85rem !important;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0.1rem 0;
+    transition: background-color 0.15s ease, opacity 0.15s ease;
+    cursor: pointer;
+}
+.navbar .nav-link[href$="#hl-toggle"]:hover { opacity: 0.9; color: #ffffff !important; }
+html.hl-off .navbar .nav-link[href$="#hl-toggle"] { background: var(--bs-secondary, #919aa1); }
+@media print { .navbar .nav-link[href$="#hl-toggle"] { display: none; } }
