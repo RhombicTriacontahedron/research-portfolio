@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LHA Explainer – Carlos Galindo Escajeda — Research</title>
+<title>Credible Commitment and the Capitalisation Channel — companion note to Breaking the Benchmark – Carlos Galindo Escajeda — Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../pages/explainers/rent-channel-explainer.html" rel="next">
-<link href="../../pages/working-papers/progressing-problemshift.html" rel="prev">
+<link href="../../pages/working-papers/progressing-problemshift.html" rel="next">
+<link href="../../pages/working-papers/rent-reproduction.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -73,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
 <script>try{if(localStorage.getItem('nef-hl-off')==='1'){document.documentElement.classList.add('hl-off');}}catch(e){}</script>
 
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../custom.css">
 </head>
@@ -132,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/explainers/lha-explainer-blog.html">Explainers</a></li><li class="breadcrumb-item"><a href="../../pages/explainers/lha-explainer-blog.html">LHA Explainer</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/working-papers/breaking-the-benchmark.html">Housing &amp; the private rented sector</a></li><li class="breadcrumb-item"><a href="../../pages/working-papers/credibility-capitalisation-note.html">Credible Commitment and the Capitalisation Channel — companion note to Breaking the Benchmark</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -256,7 +285,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../pages/working-papers/credibility-capitalisation-note.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/working-papers/credibility-capitalisation-note.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Credible Commitment and the Capitalisation Channel — companion note to Breaking the Benchmark</span></a>
   </div>
 </li>
@@ -290,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../pages/explainers/lha-explainer-blog.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../pages/explainers/lha-explainer-blog.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LHA Explainer</span></a>
   </div>
 </li>
@@ -388,22 +417,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-floor-that-moves-the-ceiling" id="toc-the-floor-that-moves-the-ceiling" class="nav-link active" data-scroll-target="#the-floor-that-moves-the-ceiling">1. The Floor That Moves the Ceiling</a></li>
-  <li><a href="#parliament-accidentally-ran-two-experiments" id="toc-parliament-accidentally-ran-two-experiments" class="nav-link" data-scroll-target="#parliament-accidentally-ran-two-experiments">2. Parliament Accidentally Ran Two Experiments</a></li>
-  <li><a href="#we-checked-it-more-than-twenty-ways.-the-answer-was-always-the-same." id="toc-we-checked-it-more-than-twenty-ways.-the-answer-was-always-the-same." class="nav-link" data-scroll-target="#we-checked-it-more-than-twenty-ways.-the-answer-was-always-the-same.">3. We Checked It More Than Twenty Ways. The Answer Was Always the Same.</a></li>
-  <li><a href="#it-is-not-displacement" id="toc-it-is-not-displacement" class="nav-link" data-scroll-target="#it-is-not-displacement">4. It Is Not Displacement</a></li>
-  <li><a href="#the-headline-number-is-a-lower-bound" id="toc-the-headline-number-is-a-lower-bound" class="nav-link" data-scroll-target="#the-headline-number-is-a-lower-bound">5. The Headline Number Is a Lower Bound</a></li>
-  <li><a href="#the-reproduction-trap" id="toc-the-reproduction-trap" class="nav-link" data-scroll-target="#the-reproduction-trap">6. The Reproduction Trap</a></li>
-  <li><a href="#what-comes-next" id="toc-what-comes-next" class="nav-link" data-scroll-target="#what-comes-next">What Comes Next</a></li>
+  <li><a href="#the-objection" id="toc-the-objection" class="nav-link active" data-scroll-target="#the-objection">The objection</a></li>
+  <li><a href="#the-resolution-is-a-rule-not-a-stronger-promise" id="toc-the-resolution-is-a-rule-not-a-stronger-promise" class="nav-link" data-scroll-target="#the-resolution-is-a-rule-not-a-stronger-promise">The resolution is a rule, not a stronger promise</a></li>
+  <li><a href="#the-re-pricing-is-proportional-exactly-so" id="toc-the-re-pricing-is-proportional-exactly-so" class="nav-link" data-scroll-target="#the-re-pricing-is-proportional-exactly-so">The re-pricing is proportional — exactly so</a></li>
+  <li><a href="#two-refinements-an-orthodox-reader-will-demand" id="toc-two-refinements-an-orthodox-reader-will-demand" class="nav-link" data-scroll-target="#two-refinements-an-orthodox-reader-will-demand">Two refinements an orthodox reader will demand</a></li>
+  <li><a href="#the-sovereignty-residual" id="toc-the-sovereignty-residual" class="nav-link" data-scroll-target="#the-sovereignty-residual">The sovereignty residual</a></li>
+  <li><a href="#what-this-adds" id="toc-what-this-adds" class="nav-link" data-scroll-target="#what-this-adds">What this adds</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/explainers/lha-explainer-blog.html">Explainers</a></li><li class="breadcrumb-item"><a href="../../pages/explainers/lha-explainer-blog.html">LHA Explainer</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/working-papers/breaking-the-benchmark.html">Housing &amp; the private rented sector</a></li><li class="breadcrumb-item"><a href="../../pages/working-papers/credibility-capitalisation-note.html">Credible Commitment and the Capitalisation Channel — companion note to Breaking the Benchmark</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">LHA Explainer</h1>
+<h1 class="title">Credible Commitment and the Capitalisation Channel — companion note to Breaking the Benchmark</h1>
 </div>
 
 
@@ -420,72 +448,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The UK government spends over £20 billion a year on housing support. The official claim: this money helps low-income people afford their homes. The empirical reality, now measured with government data across 290 English local authorities and two policy experiments, tells a different story. Much of it <span class="hl-key">ends up with landlords</span>.</p>
-<p>Not through fraud. Not through individual bad actors. Through a structural mechanism that has been embedded in the design of Local Housing Allowance since its introduction — and that two natural experiments, across more than twenty different analytical methods, now confirm.</p>
-<p>Here is what we found, and what it means.</p>
-<hr>
-<section id="the-floor-that-moves-the-ceiling" class="level2">
-<h2 class="anchored" data-anchor-id="the-floor-that-moves-the-ceiling">1. The Floor That Moves the Ceiling</h2>
-<p>In areas where many tenants rely on housing benefit, the Local Housing Allowance (LHA) does not operate as a helping hand. It operates as a <span class="hl-sub">price anchor</span>. Landlords set rents at or near the LHA rate because they know two things: that is the maximum their tenants can pay, and the government will pay it.</p>
-<p>The consequence is <em><span class="hl-key">fiscal capture</span></em>: the public transfer that is nominally for tenants structurally accrues to property owners. When the LHA goes up, rents follow. When it is frozen, rent growth slows. The benefit does not improve the tenant’s position — it improves the landlord’s revenue.</p>
-<p>This is not a new claim. Gibbons and Manning (2006) found that 60–67% of UK housing benefit accrues to landlords rather than tenants, using data from the 1990s reforms. DWP’s own econometric analysis of the 2011–12 LHA cuts confirmed rent reductions in the areas most affected. What has been missing is direct, high-resolution evidence from the most recent policy cycle — and a theory that explains <em>why</em> the mechanism persists even in a nominally competitive rental market.</p>
-<hr>
+<p><em>Preliminary working note — please do not cite, quote, or circulate without the author’s permission.</em></p>
+<p><em>Breaking the Benchmark</em> argues that “any credible commitment to cap <span class="math inline">\(g_R\)</span> produces an immediate re-pricing of the existing stock” (§5). One word — <em>credible</em> — does load-bearing work there without definition. This note supplies it. Credibility is the condition under which the paper’s capitalisation channel actually fires, and it is exactly where an orthodox economist will press hardest. So the note meets that pressure on its own ground.</p>
+<section id="the-objection" class="level2">
+<h2 class="anchored" data-anchor-id="the-objection">The objection</h2>
+<p>The sharpest orthodox objection is not about price controls; it is about commitment. A cap that compresses the asset price must change what landlords expect future rent growth to be — and expectations are forward-looking. A government cannot simply announce a durable policy and be believed. This is the time-inconsistency problem (Kydland and Prescott 1977): a policymaker free to revise the cap will face continual pressure to do so, rational agents anticipate the revision, and the announced commitment is discounted before it can bind. On this logic the cap’s second job — deflating the speculative premium — would not fire: if landlords expect the cap to lapse, they expect rent growth to revert, and the price holds.</p>
 </section>
-<section id="parliament-accidentally-ran-two-experiments" class="level2">
-<h2 class="anchored" data-anchor-id="parliament-accidentally-ran-two-experiments">2. Parliament Accidentally Ran Two Experiments</h2>
-<p>Governments rarely provide economists with clean natural experiments. The 2020–21 LHA policy cycle is a rare exception.</p>
-<p><strong>April 2020:</strong> After years of freezing LHA below market rents, the government restored it to the 30th percentile of local market rents — the largest uprating since 2016. If fiscal capture is real, rents in high-benefit areas should have <em>accelerated</em> immediately. Landlords could charge more because their tenants’ budgets had just expanded.</p>
-<p><strong>April 2021:</strong> LHA was re-frozen at the 2020 cash level, while market rents continued rising. If fiscal capture is real, rent growth in those same areas should have <em>decelerated</em> — the floor was now being held below the rising market, and the yield advantage of binding areas should fade.</p>
-<p><span class="hl-key">Both predictions come true</span> in the data. Areas with higher concentrations of LHA-dependent households saw rent growth accelerate at the 2020 uplift and decelerate at the 2021 re-freeze — exactly as the fiscal capture theory predicts, and exactly opposite to what you would observe if LHA were operating as a neutral income support rather than a price anchor.</p>
-<hr>
+<section id="the-resolution-is-a-rule-not-a-stronger-promise" class="level2">
+<h2 class="anchored" data-anchor-id="the-resolution-is-a-rule-not-a-stronger-promise">The resolution is a rule, not a stronger promise</h2>
+<p>Model the market’s belief as a two-state distribution over the permanent growth path: the cap holds, with growth at the ceiling <span class="math inline">\(g_{\text{cap}}\)</span>, with probability <span class="math inline">\((1-\omega)\)</span>; or it is abandoned, reverting to the pre-brake path <span class="math inline">\(g_{\text{pre}}\)</span>, with probability <span class="math inline">\(\omega\)</span>. The asset is then worth the <strong>expected present value across the two states</strong>, <span class="math display">\[ E[P] = \omega\,P(g_{\text{pre}}) + (1-\omega)\,P(g_{\text{cap}}), \]</span> where <span class="math inline">\(P(g) = R/(r-g)\)</span> is the Gordon-growth present-value relation (a growing perpetuity; finite building life affects the level, not the comparative statics on which the argument turns).</p>
+<p>Decompose the reversal probability <span class="math inline">\(\omega = \omega_d + \omega_s\)</span>, treating the discretionary and sovereign reversal channels as distinct: a <em>discretionary</em> component — the day-to-day political revisability the design controls — and a <em>sovereignty</em> component — the irreducible fact that no statute binds a future parliament. A discretionary cap (renewed by ministerial decision, as in the Scottish case the paper discusses in §7) carries a high <span class="math inline">\(\omega_d\)</span>, so <span class="math inline">\(E[P]\)</span> sits near <span class="math inline">\(P(g_{\text{pre}})\)</span>: the premium is not compressed, and the upstream macro-prudential lever of §3 is blunted. Statutory pre-commitment (legislating the brake, the monitoring regime, and the exit triggers together, as §7 prescribes) lowers <span class="math inline">\(\omega_d\)</span>, pulling <span class="math inline">\(E[P]\)</span> toward <span class="math inline">\(P(g_{\text{cap}})\)</span>: the §5 re-pricing operates.</p>
+<p>This is the orthodox answer to the orthodox objection — the rules-over-discretion logic that disciplined central-bank time-inconsistency. The analogy is to the <em>logic</em>, not the <em>degree</em>: a statute lacks the delegation to an insulated institution that gives an independent central bank its full commitment force, and a visible distributional rule is harder to commit to than a technical inflation target — so legislated triggers are a <em>partial</em> commitment device, raising the political cost of reversal and coordinating expectations without the force of full delegation. The objection specifies and bounds the design; it does not defeat it. (The paper’s §5 already conditions the re-pricing on a <em>credible</em> commitment; this note makes that condition precise — it does not introduce it.)</p>
 </section>
-<section id="we-checked-it-more-than-twenty-ways.-the-answer-was-always-the-same." class="level2">
-<h2 class="anchored" data-anchor-id="we-checked-it-more-than-twenty-ways.-the-answer-was-always-the-same.">3. We Checked It More Than Twenty Ways. The Answer Was Always the Same.</h2>
-<p>A single finding can always be dismissed: statistical noise, a convenient choice of time window, a sample that was selected to produce the desired result. We therefore ran more than twenty different versions of the analysis — varying:</p>
-<ul>
-<li>The time window (different start and end dates, including a version that uses the 2020 uplift period itself as the comparison baseline)</li>
-<li>Whether to control for post-COVID urban density recovery</li>
-<li>Whether to restrict the sample to lower-migration areas</li>
-<li>The bedroom type (1-bed, 2-bed, 3-bed, 4-bed separately)</li>
-<li>Whether to down-weight large local authorities</li>
-<li>Whether to treat the treatment variable as continuous or as a binary threshold</li>
-<li>The clustering of standard errors</li>
-</ul>
-<p>Across all of them — temporal, spatial, compositional, measurement — every single estimated effect points in the same direction. <span class="hl-key">Zero sign reversals</span>. This is not cherry-picking; it is structural consistency. The fiscal capture pattern persists under every analytical lens.</p>
-<hr>
+<section id="the-re-pricing-is-proportional-exactly-so" class="level2">
+<h2 class="anchored" data-anchor-id="the-re-pricing-is-proportional-exactly-so">The re-pricing is proportional — exactly so</h2>
+<p>The compression — the gap between the no-cap price and the expected price — is <span class="math display">\[ P(g_{\text{pre}}) - E[P] = (1-\omega)\,\big[P(g_{\text{pre}}) - P(g_{\text{cap}})\big], \]</span> <strong>linear in the credibility <span class="math inline">\((1-\omega)\)</span></strong> the design achieves. (In a richer hazard model — abandonment at a random time — it is monotone rather than exactly linear; the direction and the size-open discipline are unchanged.) This is the paper’s own discipline made sharp: direction settled, size open (§5, §8) — the per-unit compression <span class="math inline">\(P(g_{\text{pre}}) - P(g_{\text{cap}})\)</span> awaits the unestimated magnitudes, but its scaling in credibility is exact in this model. A large value confirms the financialisation diagnosis; a small one, a correspondingly small adjustment; the channel operates in the same direction either way.</p>
 </section>
-<section id="it-is-not-displacement" class="level2">
-<h2 class="anchored" data-anchor-id="it-is-not-displacement">4. It Is Not Displacement</h2>
-<p>The most common objection to this kind of finding is that the pattern reflects <em>population displacement</em>, not fiscal capture. As LHA is frozen and real incomes fall, lower-income households move out of high-benefit areas. Rents “slow” because the remaining tenants are wealthier — not because landlords are responding to the LHA rate.</p>
-<p>We tested this directly. We excluded the 30 English local authorities with the highest rates of net in-migration — the places most likely to be experiencing significant population churn — and re-ran the analysis on the remaining 261 areas. The result did not disappear. It got slightly stronger: the estimated effect is more negative in non-displacement areas than in the full sample.</p>
-<p>Fiscal capture is not a displacement artefact. It operates in areas where the population is stable. It is <span class="hl-key">structural, not compositional</span>.</p>
-<hr>
+<section id="two-refinements-an-orthodox-reader-will-demand" class="level2">
+<h2 class="anchored" data-anchor-id="two-refinements-an-orthodox-reader-will-demand">Two refinements an orthodox reader will demand</h2>
+<p>First, separate the channels. Capping <span class="math inline">\(g_R\)</span> compresses the <em>speculative</em> component of the price — the capitalised bet on perpetual growth — while leaving the current cash flow <span class="math inline">\(R\)</span>, which funds maintenance and provision, untouched (the ceiling caps growth, not the level; §5). The discount rate <span class="math inline">\(r\)</span> is a distinct matter, and it is policy-sensitive: a credible, rule-bound cap <em>lowers</em> the policy-uncertainty component of <span class="math inline">\(r\)</span> — that is what credibility is — while the restriction may <em>raise</em> a liquidity component. These <span class="math inline">\(r\)</span>-effects are second-order and their net sign is size-open; the first-order effect is the <span class="math inline">\(g_R\)</span> compression, downward. So the direction of the re-pricing is robust, and reading any fall as a “risk penalty that destroys value” presupposes the pre-cap price was the asset’s fundamental — which the paper denies (an over-capitalised speculative claim), so any movement is toward fundamental value, not away from it.</p>
+<p>Second, the Lucas critique does not bite the direction: <span class="math inline">\(P = R/(r-g_R)\)</span> is a present-value relation given the parameters, not a fitted regression, so the comparative statics (<span class="math inline">\(\partial P/\partial g_R &gt; 0\)</span>) are structural; what the critique touches is the <em>size</em> of the expectation revision, which is open.</p>
 </section>
-<section id="the-headline-number-is-a-lower-bound" class="level2">
-<h2 class="anchored" data-anchor-id="the-headline-number-is-a-lower-bound">5. The Headline Number Is a Lower Bound</h2>
-<p>The primary estimate — roughly a 1.7 percentage point reduction in rent growth per unit of LHA intensity — may sound modest. Two features of the study design guarantee it is an underestimate.</p>
-<p>First, landlords are reluctant to cut nominal rents even when their LHA floor retreats below the market — <em><span class="hl-sub">downward nominal rigidity</span></em> — and sitting tenants, facing the cost of moving, rarely force the renegotiation that would register the fall — <em><span class="hl-sub">tenant lock-in</span></em>. Both frictions attenuate the measured effect of the re-freeze, particularly in the early quarters after April 2021.</p>
-<p>Second, in dense urban areas — which are also high-LHA-intensity areas — post-COVID demand for private renting surged for reasons entirely unrelated to LHA policy. This independent demand recovery in binding areas partially masks the rent deceleration from the freeze.</p>
-<p>When we strip out both sources of attenuation — by using the 2020 uplift period as the comparison baseline (which identifies the predicted <em>reversal</em> from accelerated growth at the uplift to decelerated growth at the re-freeze) and controlling explicitly for urban density recovery — the estimated effect is <span class="hl-key">roughly four times larger</span>. That is the fiscal capture signal, isolated from the noise.</p>
-<hr>
+<section id="the-sovereignty-residual" class="level2">
+<h2 class="anchored" data-anchor-id="the-sovereignty-residual">The sovereignty residual</h2>
+<p>The sovereignty component <span class="math inline">\(\omega_s\)</span> cannot be legislated to zero — it is the residual repeal probability that keeps the compression short of complete. But it is not a one-way bet against the cap. The same sovereignty that permits repeal permits a future parliament to tighten or extend; the reversal risk is therefore two-directional, not a directional discount — and the present direction of travel, with the Renters’ Rights Act newly in force, cuts against presuming the only reachable revision is loosening. Nor does §7 let strains accumulate to a forced crisis-repeal: it binds the cap to measurable exit triggers and a glidepath, easing it as conditions improve. And the unregulated status quo carries its own policy-reversal risk in the opposite direction, so the residual is not a cost unique to the brake. What remains is the part no institutional design can remove, in either direction.</p>
 </section>
-<section id="the-reproduction-trap" class="level2">
-<h2 class="anchored" data-anchor-id="the-reproduction-trap">6. The Reproduction Trap</h2>
-<p>The Reproductive Capacity as Numéraire framework provides the theoretical grounding for why this mechanism is not merely a market distortion but a structural feature of the UK housing economy.</p>
-<p>Housing costs for benefit-dependent households are not just a consumption expenditure — they are inputs to social reproduction. The capacity to work, to form households, to raise children requires that non-housing consumption — food, childcare, transport, heating — remain above a threshold. LHA in high-benefit areas is not primarily a housing supplement; it is a reproduction subsidy maintaining that threshold.</p>
-<p>When LHA is frozen and market rents continue rising, the real value of that subsidy falls. The rent deceleration we measure is not merely landlords receiving slightly less revenue — it is <span class="hl-key">the reproduction constraint tightening</span> on the least economically secure households in England. Households do not simply substitute away from housing; they face compressing capacity across all non-housing necessities simultaneously.</p>
-<p>That framework predicts that the fiscal capture mechanism should therefore produce demographic consequences — slower household formation, slower population growth — in high-intensity areas after the re-freeze, independently of the rent growth deceleration itself. Testing that prediction is the next step in this research programme.</p>
+<section id="what-this-adds" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-adds">What this adds</h2>
+<p>The note formalises one word in <em>Breaking the Benchmark</em> and draws one connection the paper makes only implicitly: that its credit-channel contribution (§3/§5 premium compression) depends on its sunset-design contribution (§7 statutory commitment). It does not restate the second-best argument, the case-study evidence, or the Scottish design lesson, all of which the paper owns. Its only additions are the expectations decomposition, the credibility-proportional continuum, and the two-sided sovereignty residual. It runs entirely within the paper’s Lipsey-Lancaster frame.</p>
 <hr>
-</section>
-<section id="what-comes-next" class="level2">
-<h2 class="anchored" data-anchor-id="what-comes-next">What Comes Next</h2>
-<p>The finding is clear: LHA cannot be reformed in isolation. As long as housing benefit can be freely capitalised into rents, <span class="hl-key">raising the benefit raises rents</span>, and the net benefit to tenants approaches zero. The Gibbons–Manning finding from 2006 — that the majority of housing benefit flows to landlords — has now been confirmed with updated, high-resolution data across the most recent policy cycle.</p>
-<p>Two changes are necessary together. First, a rent ceiling calibrated to the LHA rate in binding local authorities — not a blanket national freeze, but a binding constraint on LHA-anchored tenancies that prevents landlords from extracting above the benefit in areas where fiscal capture is confirmed. Second, reformed LHA design that supplements tenant consumption directly rather than subsidising landlord revenue flows through the rent mechanism.</p>
-<p>Neither change is straightforward. Both are politically contested. But the evidence that they are necessary — 290 local authorities, two natural experiments, more than twenty empirical tests, consistent direction — is now on the table.</p>
-<p>The housing benefit was designed to help people who cannot afford market rents. The data now says it has been, in large part, helping their landlords instead. That is a political choice. It can be made differently.</p>
-<hr>
-<p><strong>Read next:</strong> <a href="../working-papers/fiscal-capture.html">Full paper</a> · <a href="../general/abstracts-dossier.html">Research Portfolio</a> · <a href="../general/manifesto.html">Manifesto</a> · <a href="../general/cover-letter-master.html">About</a></p>
-<p><em>Based on the working paper “Fiscal Capture in the UK Private Rented Sector: Evidence from Two LHA Policy Events” (2026). For the full empirical analysis, including robustness specifications and formal results, see the working paper.</em></p>
+<p><strong>Reference.</strong> Kydland, F. E., and E. C. Prescott. 1977. “Rules Rather than Discretion: The Inconsistency of Optimal Plans.” <em>Journal of Political Economy</em> 85 (3): 473–492.</p>
 
 
 </section>
@@ -937,13 +929,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../pages/working-papers/progressing-problemshift.html" class="pagination-link" aria-label="A Progressing Problemshift">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">A Progressing Problemshift</span>
+      <a href="../../pages/working-papers/rent-reproduction.html" class="pagination-link" aria-label="Rent as Reproduction Cost">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Rent as Reproduction Cost</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../pages/explainers/rent-channel-explainer.html" class="pagination-link" aria-label="Rent Channel Explainer">
-        <span class="nav-page-text">Rent Channel Explainer</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../pages/working-papers/progressing-problemshift.html" class="pagination-link" aria-label="A Progressing Problemshift">
+        <span class="nav-page-text">A Progressing Problemshift</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
