@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 470" role="img" aria-label="How the rent system extracts, and the brake that stops it. The welfare test (Reproductive-Capacity Dominance) measures whether households can sustain and renew themselves and defines the reproductive-capacity deficit. What the market does: buy-to-let overvaluation and fiscal capture turn rent into an extraction on the food, care and childcare budget rather than payment for shelter, which deepens the deficit. The rent channel (direct rate-to-rent) is a robust null: landlords' rates barely passed through (~3.8%), so interest rates are not the driver. The remedy: a statutory rent brake (lower of CPI or 2%, NEF Fair Rents) suppresses the extractive yield, and a self-terminating exit (300k completions a year and bottom-quintile burden below 30%) switches it off." style="width:100%;height:auto;max-width:920px;display:block;margin:0 auto;font-family:'Nunito Sans','Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 470" role="img" aria-label="How the rent system extracts, and the brake that stops it. The welfare test (Sustenance-Capacity Dominance) measures whether households can sustain and renew themselves and defines the sustenance-capacity deficit. What the market does: buy-to-let overvaluation and fiscal capture turn rent into an extraction on the food, care and childcare budget rather than payment for shelter, which deepens the deficit. The rent channel (direct rate-to-rent) is a robust null: landlords' rates barely passed through (~3.8%), so interest rates are not the driver. The remedy: a statutory rent brake (lower of CPI or 2%, NEF Fair Rents) suppresses the extractive yield, and a self-terminating exit (300k completions a year and bottom-quintile burden below 30%) switches it off." style="width:100%;height:auto;max-width:920px;display:block;margin:0 auto;font-family:'Nunito Sans','Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
 <title>The framework in one map — how rent extracts, and the self-terminating brake that stops it</title>
 <defs>
 <linearGradient id="fmGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe69a"/><stop offset="1" stop-color="#ffd43b"/></linearGradient>
@@ -36,14 +36,14 @@
 <rect x="300" y="208" width="150" height="20" rx="9" fill="#ffffff" stroke="#e9ecef"/><text x="375" y="222" fill="#868e96">near-zero pass-through</text>
 </g>
 
-<a class="fm-node" href="../working-papers/reproductive-capacity-numeraire.html" aria-label="Read: Reproductive Capacity as Numéraire — the welfare test (hard core)">
+<a class="fm-node" href="../working-papers/sustenance-capacity-numeraire.html" aria-label="Read: Sustenance Capacity as Numéraire — the welfare test (hard core)">
 <rect x="30" y="128" width="250" height="68" rx="12" fill="#ebfbee" stroke="#2f9e44" stroke-width="2" filter="url(#fmShadow)"/>
-<text class="fm-title" x="155" y="153" text-anchor="middle" font-size="13" font-weight="700" fill="#1b6b2e">Reproductive-Capacity Dominance</text>
+<text class="fm-title" x="155" y="153" text-anchor="middle" font-size="13" font-weight="700" fill="#1b6b2e">Sustenance-Capacity Dominance</text>
 <text x="155" y="171" text-anchor="middle" font-size="10.5" fill="#2f9e44">the welfare test (the Lakatosian hard core):</text>
 <text x="155" y="185" text-anchor="middle" font-size="10.5" fill="#2f9e44">can households sustain &amp; renew themselves?</text>
 </a>
 
-<a class="fm-node" href="../working-papers/rent-reproduction.html" aria-label="Read: Rent as Reproduction Cost — rent as extraction, a claim on the household's food, care and childcare budget">
+<a class="fm-node" href="../working-papers/rent-sustenance.html" aria-label="Read: Rent as Sustenance Cost — rent as extraction, a claim on the household's food, care and childcare budget">
 <rect x="345" y="128" width="260" height="68" rx="12" fill="#fff0f0" stroke="#e03131" stroke-width="2" filter="url(#fmShadow)"/>
 <text class="fm-title" x="475" y="153" text-anchor="middle" font-size="13" font-weight="700" fill="#c92a2a">Rent as extraction</text>
 <text x="475" y="171" text-anchor="middle" font-size="10.5" fill="#e03131">a claim on the food, care &amp; childcare budget —</text>
@@ -57,7 +57,7 @@
 <text x="805" y="186" text-anchor="middle" font-size="11" font-weight="700" fill="#7a5200">= NEF Fair Rents</text>
 </a>
 
-<a class="fm-node" href="../working-papers/rent-reproduction.html" aria-label="Read: buy-to-let overvaluation — leveraged speculative premia">
+<a class="fm-node" href="../working-papers/rent-sustenance.html" aria-label="Read: buy-to-let overvaluation — leveraged speculative premia">
 <rect x="345" y="250" width="125" height="58" rx="10" fill="#ffdad9" stroke="#e03131" stroke-width="1.5" filter="url(#fmShadow)"/>
 <text class="fm-title" x="407" y="274" text-anchor="middle" font-size="11.5" font-weight="600" fill="#c92a2a">BTL overvaluation</text>
 <text x="407" y="291" text-anchor="middle" font-size="10" fill="#e03131">leveraged premia</text>
@@ -69,9 +69,9 @@
 <text x="542" y="291" text-anchor="middle" font-size="10" fill="#e03131">LHA absorbed as yield</text>
 </a>
 
-<a class="fm-node" href="../working-papers/rent-reproduction.html" aria-label="Read: the systemic reproductive-capacity deficit">
+<a class="fm-node" href="../working-papers/rent-sustenance.html" aria-label="Read: the systemic sustenance-capacity deficit">
 <rect x="345" y="348" width="260" height="52" rx="11" fill="#ff9999" stroke="#c92a2a" stroke-width="2" filter="url(#fmShadow)"/>
-<text class="fm-title" x="475" y="372" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7a1212">Reproductive-capacity deficit</text>
+<text class="fm-title" x="475" y="372" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7a1212">Sustenance-capacity deficit</text>
 <text x="475" y="388" text-anchor="middle" font-size="10" fill="#8a1a1a">fewer households can form &amp; renew</text>
 </a>
 
