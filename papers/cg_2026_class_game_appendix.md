@@ -2017,35 +2017,53 @@ particular it does not rest on Theorem 4, which supplies the separate
 step from the scalar map to the deviator’s true payoff. It covers the
 split and no other instrument.
 
-The primed extensions of Propositions 5 and 6 carry their own hypotheses
-and are listed here because the paragraphs above do not reach them.
-Proposition 5$'$ needs Assumptions 1–4 with $\omega<1$ at a
-constant-share rest point where $J$ and $\Omega$ are defined; it is a
-comparative static in $\rho$ holding $(J,\Omega,\zeta,\omega)$ fixed,
-which makes it a statement about (12) rather than about a rest point’s
-response to a primitive. Proposition 5$''$ adds admissibility in
-Assumption 5’s sense, $\tilde\beta<1$ — which is what signs the two
-objects its proof uses — and holds $g$ fixed. Proposition 5$'''$ takes
-that assumption set at $\omega\in[0,1)$ and names properness in its
-hypotheses rather than leaving it to its proof, because it is
-load-bearing three times over; its part (i) is at $\omega=0$ alone and
-buys a closed form, its part (iii) holds at every weight and buys the
-sign, and where they overlap the sign is the same. Proposition 6$'$
-needs Assumptions 1–5 with $\theta\in(0,1)$ and $\omega<1$, at the
-corner $\phi=1$ with $i$ interior, together with one point-hypothesis no
-other result in the paper carries: that $g$ be a point at which the
-constrained tax $\min\{\tau^\ast,\bar\tau\}$ is differentiable, which
-excludes the switch and nothing else. Proposition 6$''$ inherits all of
-that and adds tax interiority, which is why its part (iv) is a statement
-about the interior branch alone; the ceiling branch is Proposition
-6$'$(iv)’s corollary, and under $(\ddagger)$ the two together cover
-every fixed point. Its parts (iv) and (v) are proved on an interval
-rather than at a fixed point, and the interval’s endpoints are stated
-with them. The reduction of the ceiling margin that §8.1 runs on that
-interval — the two-term bracket and the sharpening that replaces
-$(\ddagger)$ by $\Omega'\le0$ — is proved at every $\omega\in[0,1)$, by
-the same substitution $\mathcal{Q}=(1-\omega)+J\zeta$ for $1+\alpha J$
-that Theorem 6 uses, together with
+The primed extensions of Theorem 2 and of Propositions 5 and 6 carry
+their own hypotheses and are listed here because the paragraphs above do
+not reach them. Theorem 2$'$ takes Assumptions 1–4 with the shares
+fixed, $i\in(0,1)$, $\phi\tau>0$ and $\theta\in(0,1]$ — one endpoint
+wider than Theorem 2, because its part (i) is an identity at the rest
+point rather than a spectral statement, and the $\theta=1$ case is what
+recovers Proposition 2(ii). Its part (i) is analytic and exact, and the
+cancellation of $x^\ast$ from it is algebraic, not a limit. Its part
+(ii) is a partial derivative in $i$ holding $\tau$, $\phi$ and the
+primitives fixed: like Proposition 5$'$ it is a statement about its own
+closed form, (N$'''$), and not a comparative static in the primitives.
+Its part (iii) is signed analytically at $\theta=1$ and, at $\theta<1$,
+refutes constancy of sign by exhibiting admissible witnesses of both
+signs — a refutation, which a sample can deliver, and not a cover:
+nothing here claims the sign changes at every $\theta<1$ cell, and no
+such claim is made anywhere in the paper. Its one further universal —
+that the growth factor is driven to $1-\min(\delta,\delta_G)$ as $i\to0$
+at every reproduction scale — is carried by an argument on $H$ and not
+by the sweep that prompted it, $B$ entering $H$ only as a finite
+additive constant. Proposition 5$'$ needs Assumptions 1–4 with
+$\omega<1$ at a constant-share rest point where $J$ and $\Omega$ are
+defined; it is a comparative static in $\rho$ holding
+$(J,\Omega,\zeta,\omega)$ fixed, which makes it a statement about (12)
+rather than about a rest point’s response to a primitive. Proposition
+5$''$ adds admissibility in Assumption 5’s sense, $\tilde\beta<1$ —
+which is what signs the two objects its proof uses — and holds $g$
+fixed. Proposition 5$'''$ takes that assumption set at $\omega\in[0,1)$
+and names properness in its hypotheses rather than leaving it to its
+proof, because it is load-bearing three times over; its part (i) is at
+$\omega=0$ alone and buys a closed form, its part (iii) holds at every
+weight and buys the sign, and where they overlap the sign is the same.
+Proposition 6$'$ needs Assumptions 1–5 with $\theta\in(0,1)$ and
+$\omega<1$, at the corner $\phi=1$ with $i$ interior, together with one
+point-hypothesis no other result in the paper carries: that $g$ be a
+point at which the constrained tax $\min\{\tau^\ast,\bar\tau\}$ is
+differentiable, which excludes the switch and nothing else. Proposition
+6$''$ inherits all of that and adds tax interiority, which is why its
+part (iv) is a statement about the interior branch alone; the ceiling
+branch is Proposition 6$'$(iv)’s corollary, and under $(\ddagger)$ the
+two together cover every fixed point. Its parts (iv) and (v) are proved
+on an interval rather than at a fixed point, and the interval’s
+endpoints are stated with them. The reduction of the ceiling margin that
+§8.1 runs on that interval — the two-term bracket and the sharpening
+that replaces $(\ddagger)$ by $\Omega'\le0$ — is proved at every
+$\omega\in[0,1)$, by the same substitution
+$\mathcal{Q}=(1-\omega)+J\zeta$ for $1+\alpha J$ that Theorem 6 uses,
+together with
 $\mathcal{N}_\omega=\zeta\mathcal{M}+\alpha\tilde\beta\gamma(1-\alpha)\big[\theta+(1-\theta)\Omega\big]\mathcal{Q}$
 in place of Proposition 5$'''$(i)’s $\alpha N$. The interval subdivision
 that closes $63$ of the $216$ cells on that reduction is a computation,
