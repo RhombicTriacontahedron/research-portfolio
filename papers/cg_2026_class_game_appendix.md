@@ -2036,9 +2036,17 @@ such claim is made anywhere in the paper. Its one further universal —
 that the growth factor is driven to $1-\min(\delta,\delta_G)$ as $i\to0$
 at every reproduction scale — is carried by an argument on $H$ and not
 by the sweep that prompted it, $B$ entering $H$ only as a finite
-additive constant. Proposition 5$'$ needs Assumptions 1–4 with
-$\omega<1$ at a constant-share rest point where $J$ and $\Omega$ are
-defined; it is a comparative static in $\rho$ holding
+additive constant. Its part (iv) is analytic throughout except for one
+witness: the invariance is read off (N$'''$) at $\theta=1$ rather than
+argued, and the three instrument signs follow from
+$\kappa_W\ge1-\alpha>0$; the reversal of the split’s sign between
+$\theta=1$ and $\theta<1$ pairs a proved value at the corner with a
+single computed value at the reported cell, holding $\phi$ and every
+primitive fixed so that $\theta$ is the only difference. The tax is left
+**undischarged** there by name — a five-point grid found no sign change,
+which refutes nothing and establishes nothing. Proposition 5$'$ needs
+Assumptions 1–4 with $\omega<1$ at a constant-share rest point where $J$
+and $\Omega$ are defined; it is a comparative static in $\rho$ holding
 $(J,\Omega,\zeta,\omega)$ fixed, which makes it a statement about (12)
 rather than about a rest point’s response to a primitive. Proposition
 5$''$ adds admissibility in Assumption 5’s sense, $\tilde\beta<1$ —
