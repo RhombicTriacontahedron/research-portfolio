@@ -1949,10 +1949,18 @@ consumption and strictly increasing in the public stock. No
 differentiability, no concavity, no continuity and no functional form
 enters, and neither $\gamma$ nor $B$ appears in the statement or the
 proof; the displacement is an order property of the stationarity locus,
-and Theorem 1 is its Cobb–Douglas case. So the three trade along
-different axes: Lemma 1$'$ weakens the reproduction map and buys a
-*capped* index gap in place of equality, while Lemma 1$''$ keeps the map
-and weakens the index, and buys a *strict* displacement. Proposition
+and Theorem 1 is its Cobb–Douglas case. Lemma 1$'''$ weakens a third
+hypothesis and is not comparable with either: it drops **all**
+monotonicity in private consumption and adds **idempotence** instead,
+which is what buys the *ordering* rather than the displacement, and its
+second part restores strict increase in the first argument to buy the
+full sandwich $c_W < c_C < z$. So the four trade along different axes:
+Lemma 1$'$ weakens the reproduction map and buys a *capped* index gap in
+place of equality; Lemma 1$''$ keeps the map, weakens the index, and
+buys a *strict displacement*; Lemma 1$'''$ keeps the map, weakens the
+index differently, and buys a *strict ordering*. Lemmas 1$''$ and 1$'''$
+are independent in both directions, and the paper occupies both
+differences with named composites rather than asserting it. Proposition
 1$'$ sits outside the constant-share class the rest of the paper works
 in, and its hypotheses say so: Assumptions 1–2 with $\theta\in(0,1)$, a
 fixed $\tau>0$ and $i$, and a split that is a *differentiable* Markov
