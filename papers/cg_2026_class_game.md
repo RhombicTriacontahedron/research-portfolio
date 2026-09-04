@@ -3027,11 +3027,12 @@ intersect.*
 *(iv) **At the no-social-wage corner relative class size is a function
 of the instruments and the capital share alone — no feature of the
 reproduction technology survives into it — and public provision is
-exactly what breaks that.** This part does not use Assumption 2. It
-needs Assumption 1’s budget and Lemma 1’s hypothesis, a common strictly
-increasing reproduction map, and nothing further: at $\theta=1$ the
-worker’s index is his own consumption, so Lemma 1 delivers $c_W=c_C$ —
-the paper’s (N) — and the budget then pins*
+exactly what breaks that.** This part does not use Assumption 2’s
+**outer map**: the reproduction function may be any common strictly
+increasing $F$, as in Lemma 1. Assumption 2 enters only to name the
+corner — $\theta=1$ is where the worker’s reproduction index is his own
+private consumption — and the rest is Assumption 1’s budget. At that
+corner Lemma 1 delivers $c_W=c_C$, the paper’s (N), and the budget pins*
 $$\nu^\ast=\frac{(1-i)(1-\tau)\alpha}{\kappa_W},$$ *in which no
 reproduction primitive appears at all: not the scale, not the
 elasticity, not the map. Productivity and both depreciation rates are
@@ -3109,14 +3110,16 @@ the more general. Setting $\theta=1$ in (N$'''$) makes the exponent
 $1-\theta$ vanish, which eliminates $g$ and leaves
 $\nu^\ast=(1-i)(1-\tau)\alpha/\kappa_W$; since $g$ is the only symbol in
 (N$'''$) through which $A$, $B$, $\gamma$, $\delta$ or $\delta_G$ could
-enter, all five are gone with it. But that route carries Assumption 2
-along for no reason. Directly: at $\theta=1$ the public stock leaves the
-worker’s reproduction map, so his index is $c_W$; an interior stationary
-class ratio is $g_C=g_W$ by $(\star)$; and Lemma 1 — whose hypothesis is
-only that a common $F$ be strictly increasing, and which is proved for
-arbitrary $F$ — gives $c_W=c_C$, which is Proposition 2(i)’s (N).
-Assumption 1’s budget writes the two sides as $c_W=\kappa_W Ax^{\alpha}$
-and $c_C=(1-i)(1-\tau)\alpha Ax^{\alpha}/\nu$, and $Ax^{\alpha}$ cancels
+enter, all five are gone with it. But that route carries Assumption 2’s
+outer map along for no reason. Directly: at $\theta=1$ the public stock
+leaves the worker’s reproduction map, so his index is $c_W$ — this much
+is Assumption 2’s parametrisation of the corner and is not dispensable,
+since $\theta$ is defined there; an interior stationary class ratio is
+$g_C=g_W$ by $(\star)$; and Lemma 1 — whose hypothesis is only that a
+common $F$ be strictly increasing, and which is proved for arbitrary $F$
+— gives $c_W=c_C$, which is Proposition 2(i)’s (N). Assumption 1’s
+budget writes the two sides as $c_W=\kappa_W Ax^{\alpha}$ and
+$c_C=(1-i)(1-\tau)\alpha Ax^{\alpha}/\nu$, and $Ax^{\alpha}$ cancels
 between them, leaving $\nu^\ast=(1-i)(1-\tau)\alpha/\kappa_W$ uniquely.
 **No reproduction primitive enters that chain at any step**, which is
 why the invariance is a statement about Lemma 1 and the budget rather
