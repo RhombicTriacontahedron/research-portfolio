@@ -1414,27 +1414,48 @@ order property of the stationarity locus rather than a feature of the
 technology chosen to represent it.
 
 The *level* comparison between the two classes is likewise an order
-property, under one further condition. Suppose $h$ returns $c$ when both
-its arguments equal $c$, as any weighted mean does. Then $h(c_W,z)$
-exceeds $c_W = h(c_W,c_W)$ exactly when $z$ exceeds $c_W$, so on the
-locus $c_C > c_W$ if and only if $z > c_W$. That half uses strict
-increase in the second argument and nothing whatever about the first, so
-it is not a corollary of the displacement but a statement independent of
-it: it drops monotonicity in the first argument and adds the idempotence
-just assumed, and neither result implies the other. Both differences are
-occupied. Under $h(c_W,z) = 2z - c_W$, which is idempotent and strictly
-increasing in $z$ but falling in the private claim, the ordering holds
-while the displacement reverses; under $h(c_W,z) = c_W + z$, which is
-strictly increasing in both but not idempotent, the displacement holds
-while the ordering fails at $z = c_W$. The companion comparison is not
-free in the same way: $z > c_C$ if and only if $z > c_W$ needs strict
-increase in the first argument, and $h(c_W,z)=z$ — idempotent,
-nondecreasing in $c_W$, strictly increasing in $z$ — satisfies Lemma
-1$''$’s hypotheses throughout and yet makes $z$ and $c_C$ coincide.
-Theorem 1 is the Cobb–Douglas case. What that form adds is the closed
-form and the constant elasticity below — under a composite with a
-non-unit substitution elasticity the same object varies with the stock —
-and not the sign.
+property, and it rests on a different hypothesis rather than on more of
+the same one.
+
+**Lemma 1$'''$ (ordering, without a functional form).** *Let $x_C = c_C$
+and let the worker’s index be $x_W = h(c_W,z)$, with $F$ strictly
+increasing as in Lemma 1. Suppose $h$ is **idempotent** — $h(c,c)=c$ for
+every $c>0$, as any weighted mean is — and strictly increasing in $z$.
+Then at any interior stationary class ratio,*
+$$c_C > c_W \quad\Longleftrightarrow\quad z > c_W .$$ *If $h$ is in
+addition strictly increasing in $c_W$, then also
+$c_C > c_W \iff z > c_C$, and the three quantities order as
+$c_W < c_C < z$.*
+
+*Proof.* Lemma 1 gives $h(c_W,z) = c_C$. Idempotence writes
+$c_W = h(c_W,c_W)$, so strict increase in the second argument gives
+$h(c_W,z) > h(c_W,c_W)$ exactly when $z > c_W$; the left side is $c_C$
+and the right is $c_W$, which is the displayed equivalence. For the
+second claim, suppose $z > c_W$. Strict increase in the *first* argument
+gives $h(c_W,z) < h(z,z) = z$, so $c_C < z$; with $c_C > c_W$ from the
+first claim this is $c_W < c_C < z$. Conversely suppose $z > c_C$ and,
+for contradiction, $c_C \le c_W$. The first claim then gives
+$z \le c_W$, whence $h(c_W,z) \ge h(z,z) = z$, that is $c_C \ge z$ — a
+contradiction. $\blacksquare$
+
+**Lemmas 1$''$ and 1$'''$ are independent, and both differences are
+occupied.** Lemma 1$'''$ uses strict increase in the second argument and
+nothing whatever about the first; Lemma 1$''$ uses monotonicity in the
+first and nothing about idempotence, so neither is a corollary of the
+other. Under $h(c_W,z) = 2z - c_W$ — idempotent and strictly increasing
+in $z$, but falling in the private claim — the ordering holds while the
+displacement **reverses**: on the locus $c_C = 10$, raising $z$ from $6$
+to $8$ raises $c_W$ from $2$ to $6$. Under $h(c_W,z) = c_W + z$ —
+strictly increasing in both arguments but not idempotent — the
+displacement holds while the ordering **fails** at $z = c_W$: at
+$c_W = z = 5$ the index is $c_C = 10 > c_W$, while $z > c_W$ is false.
+Nor is the second claim’s extra hypothesis decorative: $h(c_W,z) = z$ is
+idempotent, nondecreasing in $c_W$ and strictly increasing in $z$, and
+it makes $z$ and $c_C$ coincide identically, so $z > c_C$ never holds
+and the sandwich collapses. Theorem 1 is the Cobb–Douglas case. What
+that form adds is the closed form and the constant elasticity below —
+under a composite with a non-unit substitution elasticity the same
+object varies with the stock — and not the sign.
 
 **Theorem 1 (stationary incidence).** *Let Assumptions 1–2 hold with
 $\theta \in (0,1)$, and let $(x,\nu,z)$ be any interior stationary class
