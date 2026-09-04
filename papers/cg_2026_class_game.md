@@ -254,8 +254,12 @@ second time: where the worker reproduces on private consumption alone,
 reinvestment shrinks the capitalist class relative to the worker class
 at every admissible rate, and once public provision enters, the
 public-input weight is the only channel that can reverse the direction.
-What makes that a statement about conditions rather than about biology
-is the engine: one increasing map applies to both classes, and only the
+The corner is sharper still: there the ratio is a function of the three
+instruments and the capital share alone, with the entire reproduction
+technology absent from it, and all three instruments signed. Public
+provision is what puts the technology back and unsettles the signs. What
+makes that a statement about conditions rather than about biology is the
+engine: one increasing map applies to both classes, and only the
 composite it is applied to differs. Whether the financing arrangement is
 desirable is a welfare and institutional question the model does not
 answer.
@@ -2966,9 +2970,9 @@ Theorem 2 pins the class ratio implicitly, through $\Theta$. It can be
 made explicit, and the explicit form says which instrument reaches
 relative class size and through what.
 
-**Theorem 2$'$ (the stationary class ratio in closed form, and the sign
-of its response to reinvestment).** *Let Assumptions 1–4 hold with the
-share policies $(\tau,\phi,i)$ fixed, $i\in(0,1)$, $\phi\tau>0$ and
+**Theorem 2$'$ (the stationary class ratio in closed form, and how the
+instruments move it).** *Let Assumptions 1–4 hold with the share
+policies $(\tau,\phi,i)$ fixed, $i\in(0,1)$, $\phi\tau>0$ and
 $\theta\in(0,1]$, and let $(x^\ast,\nu^\ast,z^\ast)$ be the interior
 rest point. Write $\kappa_W=(1-\alpha)+(1-\phi)\tau\alpha$ as in Section
 3. Then:*
@@ -3020,6 +3024,33 @@ region, at $i=0.1836$, $\partial\ln\nu^\ast/\partial i=+0.053$ while
 $g=1.0081$. The positive region and the growing region therefore
 intersect.*
 
+*(iv) **At the no-social-wage corner relative class size is a function
+of the instruments and the capital share alone, and public provision is
+exactly what breaks that.** At $\theta=1$ the growth factor is absent
+from (N$'''$), and $g$ is the only channel through which the technology
+could reach $\nu^\ast$. So wherever an interior rest point exists, the
+stationary class ratio there does not depend on productivity $A$, on the
+reproduction scale $B$ or elasticity $\gamma$, or on either depreciation
+rate: it is $(1-i)(1-\tau)\alpha/\kappa_W$ and nothing else. On that
+face all three instruments are signed unambiguously,*
+$$\frac{\partial\ln\nu^\ast}{\partial i}=-\frac{1}{1-i}<0, \qquad
+  \frac{\partial\ln\nu^\ast}{\partial\tau}=-\frac{1}{1-\tau}-\frac{(1-\phi)\alpha}{\kappa_W}<0,
+  \qquad
+  \frac{\partial\ln\nu^\ast}{\partial\phi}=\frac{\tau\alpha}{\kappa_W}>0,$$
+*so at $\theta=1$ the class ratio falls in the tax and in reinvestment
+and rises in the split.*
+
+*Public provision removes both properties. It restores $g$ to (N$'''$),
+and with it every primitive the corner had eliminated; and it reverses
+signs rather than perturbing them. Part (iii) shows the reversal for
+reinvestment. It happens for the worker’s own instrument too: at
+$\phi=0.5$ and the primitives of (iii),
+$\partial\ln\nu^\ast/\partial\phi=+0.179$ at $\theta=1$ and $-0.323$ at
+$\theta=0.6$, with $\theta$ the only difference between the two
+evaluations. For the tax, no sign change was found on a five-point grid
+in $\tau$ at that cell. A grid can only refute, so that is undischarged,
+and it is not a claim that the tax’s sign is constant.*
+
 *Proof.* **(i)** At a stationary class ratio $g_C=g_W=g$, so Assumption
 2 gives $c_C=(g/B)^{1/\gamma}$, and
 $c_C=(1-i)(1-\tau)\alpha Ax^{\ast\alpha}/\nu^\ast$ gives
@@ -3041,7 +3072,7 @@ $1-\theta$ between the worker’s private and public arguments, and
 vanishes with it. At $\theta=1$ the $(1-\theta)$ term of $H$ is absent
 and $H(g)=\ln g-\ln B-\gamma\ln(\kappa_W Ax(g)^\alpha)$, still
 continuous and strictly increasing on $g>1-\delta$ with the same two
-limits, so it still has exactly one root. ⚠ What that does *not* deliver
+limits, so it still has exactly one root. What that does *not* deliver
 is interiority: Assumption 4 asks for $g>1-\delta_G$ as well, and at
 $\theta=1$ the public stock has left $H$ entirely, so nothing in $H$
 enforces it. Interiority at $\theta=1$ is therefore a hypothesis of this
@@ -3066,7 +3097,27 @@ negative on $i\in(0,1)$; equivalently (N$'''$) is then free of $g$, so
 only the retention factor moves. At $\theta<1$ the two stated cells are
 interior and admissible under Assumptions 1 and 4 and carry opposite
 signs, which refutes constancy of sign; the intermediate value theorem
-then places a zero between them. $\blacksquare$
+then places a zero between them.
+
+**(iv)** At $\theta=1$ the exponent $1-\theta$ vanishes, so (N$'''$) is
+$\nu^\ast=(1-i)(1-\tau)\alpha/\kappa_W$. The invariance is read off that
+expression rather than argued: $g$ is the only symbol in (N$'''$)
+through which $A$, $B$, $\gamma$, $\delta$ or $\delta_G$ can enter
+$\nu^\ast$ — they appear nowhere else in it — and $g$ has just been
+eliminated. They still determine *whether* an interior rest point
+exists, through $H$ and Assumption 4; they do not determine the ratio at
+one. Differentiating the logarithm of that expression gives the three
+displayed derivatives, using
+$\partial\kappa_W/\partial\tau=(1-\phi)\alpha$ and
+$\partial\kappa_W/\partial\phi=-\tau\alpha$. Their signs follow from
+$\kappa_W\ge 1-\alpha>0$, which holds because $(1-\phi)\tau\alpha\ge0$
+on Assumption 1’s boxes: the first derivative is negative because $i<1$;
+the second is a sum of a strictly negative term and a non-positive one;
+the third is positive because $\tau>0$. The reversal for the split is
+one proved value against one witness — the displayed
+$\tau\alpha/\kappa_W$ is positive at $\theta=1$ by the same argument,
+and the $\theta=0.6$ value is computed at the same $\phi$ and the same
+primitives, so $\theta$ is the only difference. $\blacksquare$
 
 The economics of (iii) is the paper’s own mechanism appearing on a
 second margin. When the worker reproduces on private consumption alone,
@@ -7777,11 +7828,18 @@ the instruments and the primitives. Theorem 2$'$ makes that form
 explicit, and the capital stock cancels out of it, leaving the
 instruments and the growth factor alone; the no-social-wage ratio
 Proposition 2(ii) states on the unfunded face turns out to hold across
-the whole split range once the worker’s index is private consumption.
-Read off it, reinvestment lowers the capitalist class’s relative size at
-every rate where the worker reproduces on private consumption alone, and
-the public-input weight is the only channel that can reverse the sign —
-so the wedge that separates reproduction from private consumption in
+the whole split range once the worker’s index is private consumption. At
+that corner the growth factor drops out too, and with it the whole
+technology: relative class size there is a function of the three
+instruments and the capital share and of nothing else — not
+productivity, not the reproduction scale or its elasticity, not either
+depreciation rate — and all three instruments are signed. Public
+provision destroys both properties at once, returning the technology to
+the ratio and reversing signs rather than shading them. Read off it,
+reinvestment lowers the capitalist class’s relative size at every rate
+where the worker reproduces on private consumption alone, and the
+public-input weight is the only channel that can reverse the sign — so
+the wedge that separates reproduction from private consumption in
 Theorem 1 is the wedge that unsettles the direction here. What equal
 reproduction forecloses is a difference in condition, not a difference
 in number.
