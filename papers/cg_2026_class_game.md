@@ -3092,8 +3092,15 @@ and rises in the split.*
 *(v) **The tax is the one instrument public provision cannot turn.**
 Write*
 $$\mathcal{C} \;\equiv\; \frac{\gamma(1-\theta)}{(g-1+\delta_G)\,H'(g)} .$$
-*Then $\mathcal{C}\in[0,1)$ at every admissible interior rest point, and
-for every $\theta\in(0,1]$* $$\frac{\partial\ln\nu^\ast}{\partial\tau}
+*$H'$ is Theorem 2(ii)’s, and it is available across the whole of
+$\theta\in(0,1]$ even though that theorem’s own hypothesis stops short
+of the endpoint: at $\theta=1$ the term $\gamma(1-\theta)\ln
+(g-1+\delta_G)$ is **absent from $H$**, not present with zero weight,
+and $H$ remains differentiable with
+$H'(g)=1/g+\gamma\alpha/[(1-\alpha)(g-1+\delta)]>0$. The endpoint is
+therefore evaluated below and not approached. Then $\mathcal{C}\in[0,1)$
+at every admissible interior rest point, and for every $\theta\in(0,1]$*
+$$\frac{\partial\ln\nu^\ast}{\partial\tau}
   \;=\; -\frac{1}{1-\tau}\Big(1+\frac{\mathcal{C}\,\alpha}{1-\alpha}\Big)
   \;-\; \Big(\theta\,\frac{(1-\phi)\alpha}{\kappa_W}+\frac{1-\theta}{\tau}\Big)\big(1-\mathcal{C}\big)
   \;<\;0 .$$ *The bound $\mathcal{C}<1$ restricts no parameter and is
@@ -3236,7 +3243,13 @@ on the admissible box, so $\mathcal{C}<1$. Both terms of the display are
 then strictly positive, and the derivative is their negative. The bound
 is attained nowhere but approached: $\mathcal{C}=0.987$ at $\alpha=0.1$,
 $\gamma=0.9$, $\theta=0.1$, $g=100$, $g-1+\delta=100$, $g-1+\delta_G=1$,
-so the cap binds tightly rather than generously. $\blacksquare$
+so the cap binds tightly rather than generously. At the closed endpoint
+$\theta=1$ the argument is made by evaluation and not by a limit, which
+matters because that is the only place strictness could fail: there
+$\gamma(1-\theta)$ vanishes, so $\mathcal{C}=0$ while
+$(g-1+\delta_G)H'(g)$ stays strictly positive, and the display reduces
+to part (iv)’s $-1/(1-\tau)-(1-\phi)\alpha/\kappa_W$, already proved
+from Lemma 1 and the budget. $\blacksquare$
 
 The economics of (iii) is the paper’s own mechanism appearing on a
 second margin. When the worker reproduces on private consumption alone,
