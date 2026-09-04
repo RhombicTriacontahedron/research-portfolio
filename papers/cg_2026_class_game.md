@@ -1452,10 +1452,13 @@ $c_W = z = 5$ the index is $c_C = 10 > c_W$, while $z > c_W$ is false.
 Nor is the second claim’s extra hypothesis decorative: $h(c_W,z) = z$ is
 idempotent, nondecreasing in $c_W$ and strictly increasing in $z$, and
 it makes $z$ and $c_C$ coincide identically, so $z > c_C$ never holds
-and the sandwich collapses. Theorem 1 is the Cobb–Douglas case. What
-that form adds is the closed form and the constant elasticity below —
-under a composite with a non-unit substitution elasticity the same
-object varies with the stock — and not the sign.
+and the sandwich collapses. Theorem 1 is the Cobb–Douglas case of
+**both** lemmas, and its two halves divide between them: the ratio
+$c_C/c_W = (z/c_W)^{1-\theta}$ exceeds one exactly when $z > c_W$, which
+is Lemma 1$'''$; the constant elasticity along the equalised-index locus
+is Lemma 1$''$’s displacement. What the functional form adds is those
+closed forms — under a composite with a non-unit substitution elasticity
+the same objects vary with the stock — and not either sign.
 
 **Theorem 1 (stationary incidence).** *Let Assumptions 1–2 hold with
 $\theta \in (0,1)$, and let $(x,\nu,z)$ be any interior stationary class
