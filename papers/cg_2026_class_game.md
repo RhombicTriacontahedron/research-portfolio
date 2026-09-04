@@ -3091,26 +3091,36 @@ and rises in the split.*
 
 *(v) **The tax is the one instrument public provision cannot turn.**
 Write*
-$$\mathcal{C} \;\equiv\; \frac{\gamma(1-\theta)}{(g-1+\delta_G)\,H'(g)} .$$
-*$H'$ is Theorem 2(ii)’s, and it is available across the whole of
-$\theta\in(0,1]$ even though that theorem’s own hypothesis stops short
-of the endpoint: at $\theta=1$ the term $\gamma(1-\theta)\ln
-(g-1+\delta_G)$ is **absent from $H$**, not present with zero weight,
-and $H$ remains differentiable with
-$H'(g)=1/g+\gamma\alpha/[(1-\alpha)(g-1+\delta)]>0$. The endpoint is
-therefore evaluated below and not approached. Then $\mathcal{C}\in[0,1)$
-at every admissible interior rest point, and for every $\theta\in(0,1]$*
-$$\frac{\partial\ln\nu^\ast}{\partial\tau}
+$$\mathcal{C} \;\equiv\; \frac{\gamma(1-\theta)}{(g-1+\delta_G)\,\mathcal{H}'(g)} ,$$
+*with $\mathcal{H}$ Proposition 6’s growth side, so that this part uses
+that proposition rather than re-deriving it. $\mathcal{H}'$ is the same
+object as part (ii)’s $H'$ — Proposition 6(i) gives
+$H=\mathcal{H}-\mathcal{P}$ and $\mathcal{P}$ carries no $g$ — and is
+written here in the form that displays where the bound comes from.
+Proposition 6 and Theorem 2 both stop at $\theta<1$ while $\mathcal{C}$
+is used here across $\theta\in(0,1]$; the endpoint is reached and not
+assumed, because there the term $\gamma(1-\theta)\ln(g-1+\delta_G)$ is
+**absent from $\mathcal{H}$** rather than present with zero weight,
+leaving $\mathcal{H}$ a strictly increasing bijection with
+$\mathcal{H}'(g)=1/g+\gamma\alpha/[(1-\alpha)(g-1+\delta)]>0$. Then
+$\mathcal{C}\in[0,1)$ at every admissible interior rest point, and for
+every $\theta\in(0,1]$* $$\frac{\partial\ln\nu^\ast}{\partial\tau}
   \;=\; -\frac{1}{1-\tau}\Big(1+\frac{\mathcal{C}\,\alpha}{1-\alpha}\Big)
   \;-\; \Big(\theta\,\frac{(1-\phi)\alpha}{\kappa_W}+\frac{1-\theta}{\tau}\Big)\big(1-\mathcal{C}\big)
   \;<\;0 .$$ *The bound $\mathcal{C}<1$ restricts no parameter and is
-not an extra hypothesis: $\gamma(1-\theta)$ is one of the three summands
-of $(g-1+\delta_G)H'(g)$, and the other two are strictly positive, so*
-$$(g-1+\delta_G)H'(g)-\gamma(1-\theta)
+not an extra hypothesis. It is a property of $\mathcal{H}$ and can be
+read off Proposition 6’s display: the public input enters the growth
+side only through the term $\gamma(1-\theta)\ln(g-1+\delta_G)$, whose
+contribution to $(g-1+\delta_G)\mathcal{H}'(g)$ is exactly
+$\gamma(1-\theta)$, while the two remaining terms of $\mathcal{H}$
+contribute strictly positive amounts:*
+$$(g-1+\delta_G)\mathcal{H}'(g)-\gamma(1-\theta)
   \;=\; \frac{g-1+\delta_G}{g}
       \;+\; \frac{\gamma\alpha}{1-\alpha}\cdot\frac{g-1+\delta_G}{g-1+\delta}
-  \;>\;0$$ *on the whole admissible box. At $\theta=1$, $\mathcal{C}=0$
-and the expression collapses to part (iv)’s
+  \;>\;0$$ *on the whole admissible box. **The term that opens the
+public-input channel is the same term that stiffens the growth factor
+against it**, and it cannot outweigh itself plus two positives. At
+$\theta=1$, $\mathcal{C}=0$ and the expression collapses to part (iv)’s
 $-1/(1-\tau)-(1-\phi)\alpha/\kappa_W$.*
 
 *Public provision removes both properties. It restores $g$ to (N$'''$),
@@ -3128,10 +3138,10 @@ multiplying a positive term, so it can be made to dominate the direct
 one; the tax’s divergent channel is the $1/\tau$ inside the same
 bracket, and that bracket enters multiplied by $-(1-\mathcal{C})$.
 Because $\gamma(1-\theta)$ is one of the summands of
-$(g-1+\delta_G)H'(g)$, $\mathcal{C}$ lies below one by construction, and
-the tax’s indirect channel is therefore capped by the very derivative it
-would have to overcome. Two of the three instruments lose their sign
-once public provision enters; the third cannot.*
+$(g-1+\delta_G)\mathcal{H}'(g)$, $\mathcal{C}$ lies below one by
+construction, and the tax’s indirect channel is therefore capped by the
+very derivative it would have to overcome. Two of the three instruments
+lose their sign once public provision enters; the third cannot.*
 
 *Proof.* **(i)** At a stationary class ratio $g_C=g_W=g$, so Assumption
 2 gives $c_C=(g/B)^{1/\gamma}$, and
@@ -3219,37 +3229,41 @@ reaches $\nu^\ast$ directly through $1-\tau$, through $\kappa_W$ and
 through $\ln\tau$, and indirectly through $g$:
 $$\frac{\partial\ln\nu^\ast}{\partial\tau}
  =-\frac{1}{1-\tau}-\theta\frac{(1-\phi)\alpha}{\kappa_W}-\frac{1-\theta}{\tau}
-  +\frac{1-\theta}{g-1+\delta_G}\,\frac{\partial g}{\partial\tau}.$$ For
-the last term take $H$ from Theorem 2(ii) and apply the implicit
-function theorem, which is available because $H'>0$ there. The tax
-enters $H$ three ways, and the third is easy to miss: through $\kappa_W$
-in the worker’s index, through the explicit $\tau$ in $z(g)$, and
-through $x(g)=\big[i(1-\tau)\alpha A/(g-1+\delta)\big]^{1/(1-\alpha)}$,
-since capital is accumulated out of **after-tax** retained income.
-Because $\gamma\theta$ and $\gamma(1-\theta)$ both multiply
-$\alpha\ln x$ and sum to $\gamma$, that third route contributes a single
-term and $$\frac{\partial H}{\partial\tau}\bigg|_{g}
- =-\gamma\Big(\theta\frac{(1-\phi)\alpha}{\kappa_W}+\frac{1-\theta}{\tau}\Big)
-  +\frac{\gamma\alpha}{(1-\alpha)(1-\tau)} .$$ Substituting
-$\partial g/\partial\tau=-(\partial H/\partial\tau)/H'(g)$ and
-collecting, the bracket appears twice — once directly and once through
-$g$ — and combines into the factor $1-\mathcal{C}$, while the $x$ route
-supplies the $\mathcal{C}\alpha/(1-\alpha)$ term, giving the display in
-(v). For the bound, differentiating $H$ gives
-$H'(g)=1/g+\gamma\alpha/\big[(1-\alpha)(g-1+\delta)\big]+\gamma(1-\theta)/(g-1+\delta_G)$;
-multiplying by $g-1+\delta_G$ returns $\gamma(1-\theta)$ as one summand
-and the two displayed remainders as the others, each strictly positive
-on the admissible box, so $\mathcal{C}<1$. Both terms of the display are
-then strictly positive, and the derivative is their negative. The bound
-is attained nowhere but approached: $\mathcal{C}=0.987$ at $\alpha=0.1$,
+  +\frac{1-\theta}{g-1+\delta_G}\,\frac{\partial g}{\partial\tau}.$$ The
+last term needs no new derivation: it is Proposition 6(ii). There
+$g=\mathcal{H}^{-1}(\mathcal{P})$ with $\mathcal{H}$ a strictly
+increasing bijection, so
+$\partial g/\partial\tau=(\partial\mathcal{P}/\partial\tau)/\mathcal{H}'(g)$,
+and $\partial\mathcal{P}/\partial\tau$ is the expression already
+displayed in Section 8, $$\frac{\partial\mathcal{P}}{\partial\tau}
+ =\gamma\Big[\theta\frac{(1-\phi)\alpha}{\kappa_W}+\frac{1-\theta}{\tau}
+   -\frac{\alpha/(1-\alpha)}{1-\tau}\Big].$$ Its first two terms are the
+same bracket that stands directly above, which is what makes the two
+occurrences combine into the factor $1-\mathcal{C}$; its third comes
+from $\mathcal{P}$’s
+$\frac{\gamma\alpha}{1-\alpha}\ln\big(i(1-\tau)\alpha A\big)$ — capital
+is accumulated out of **after-tax** income — and supplies the
+$\mathcal{C}\alpha/(1-\alpha)$ term. Substituting gives the display in
+(v). One caution about that derivative, since it is easy to lose:
+$\kappa_W$ depends on $\tau$ as well as on $\phi$, and Proposition 6’s
+shorthand $\kappa_W(\phi)$ names only the second argument; reading it as
+$\tau$-free would delete the $\theta$ term above. For the bound,
+differentiate Proposition 6’s growth side:
+$\mathcal{H}'(g)=1/g+\gamma\alpha/\big[(1-\alpha)(g-1+\delta)\big]+\gamma(1-\theta)/(g-1+\delta_G)$.
+Multiplying by $g-1+\delta_G$ returns $\gamma(1-\theta)$ from the third
+term — the public input’s own term in $\mathcal{H}$ — and the two
+displayed remainders from the first two, each strictly positive on the
+admissible box, so $\mathcal{C}<1$. Both terms of the display are then
+strictly positive, and the derivative is their negative. The bound is
+attained nowhere but approached: $\mathcal{C}=0.987$ at $\alpha=0.1$,
 $\gamma=0.9$, $\theta=0.1$, $g=100$, $g-1+\delta=100$, $g-1+\delta_G=1$,
 so the cap binds tightly rather than generously. At the closed endpoint
 $\theta=1$ the argument is made by evaluation and not by a limit, which
 matters because that is the only place strictness could fail: there
 $\gamma(1-\theta)$ vanishes, so $\mathcal{C}=0$ while
-$(g-1+\delta_G)H'(g)$ stays strictly positive, and the display reduces
-to part (iv)’s $-1/(1-\tau)-(1-\phi)\alpha/\kappa_W$, already proved
-from Lemma 1 and the budget. $\blacksquare$
+$(g-1+\delta_G)\mathcal{H}'(g)$ stays strictly positive, and the display
+reduces to part (iv)’s $-1/(1-\tau)-(1-\phi)\alpha/\kappa_W$, already
+proved from Lemma 1 and the budget. $\blacksquare$
 
 The economics of (iii) is the paper’s own mechanism appearing on a
 second margin. When the worker reproduces on private consumption alone,
