@@ -3025,14 +3025,19 @@ $g=1.0081$. The positive region and the growing region therefore
 intersect.*
 
 *(iv) **At the no-social-wage corner relative class size is a function
-of the instruments and the capital share alone, and public provision is
-exactly what breaks that.** At $\theta=1$ the growth factor is absent
-from (N$'''$), and $g$ is the only channel through which the technology
-could reach $\nu^\ast$. So wherever an interior rest point exists, the
-stationary class ratio there does not depend on productivity $A$, on the
-reproduction scale $B$ or elasticity $\gamma$, or on either depreciation
-rate: it is $(1-i)(1-\tau)\alpha/\kappa_W$ and nothing else. On that
-face all three instruments are signed unambiguously,*
+of the instruments and the capital share alone — no feature of the
+reproduction technology survives into it — and public provision is
+exactly what breaks that.** This part does not use Assumption 2. It
+needs Assumption 1’s budget and Lemma 1’s hypothesis, a common strictly
+increasing reproduction map, and nothing further: at $\theta=1$ the
+worker’s index is his own consumption, so Lemma 1 delivers $c_W=c_C$ —
+the paper’s (N) — and the budget then pins*
+$$\nu^\ast=\frac{(1-i)(1-\tau)\alpha}{\kappa_W},$$ *in which no
+reproduction primitive appears at all: not the scale, not the
+elasticity, not the map. Productivity and both depreciation rates are
+absent too. All of them still govern **whether** an interior stationary
+state exists; none of them governs the **ratio** at one. On that face
+all three instruments are signed unambiguously,*
 $$\frac{\partial\ln\nu^\ast}{\partial i}=-\frac{1}{1-i}<0, \qquad
   \frac{\partial\ln\nu^\ast}{\partial\tau}=-\frac{1}{1-\tau}-\frac{(1-\phi)\alpha}{\kappa_W}<0,
   \qquad
@@ -3099,15 +3104,24 @@ interior and admissible under Assumptions 1 and 4 and carry opposite
 signs, which refutes constancy of sign; the intermediate value theorem
 then places a zero between them.
 
-**(iv)** At $\theta=1$ the exponent $1-\theta$ vanishes, so (N$'''$) is
-$\nu^\ast=(1-i)(1-\tau)\alpha/\kappa_W$. The invariance is read off that
-expression rather than argued: $g$ is the only symbol in (N$'''$)
-through which $A$, $B$, $\gamma$, $\delta$ or $\delta_G$ can enter
-$\nu^\ast$ — they appear nowhere else in it — and $g$ has just been
-eliminated. They still determine *whether* an interior rest point
-exists, through $H$ and Assumption 4; they do not determine the ratio at
-one. Differentiating the logarithm of that expression gives the three
-displayed derivatives, using
+**(iv)** Two routes reach the closed form, and the shorter one is also
+the more general. Setting $\theta=1$ in (N$'''$) makes the exponent
+$1-\theta$ vanish, which eliminates $g$ and leaves
+$\nu^\ast=(1-i)(1-\tau)\alpha/\kappa_W$; since $g$ is the only symbol in
+(N$'''$) through which $A$, $B$, $\gamma$, $\delta$ or $\delta_G$ could
+enter, all five are gone with it. But that route carries Assumption 2
+along for no reason. Directly: at $\theta=1$ the public stock leaves the
+worker’s reproduction map, so his index is $c_W$; an interior stationary
+class ratio is $g_C=g_W$ by $(\star)$; and Lemma 1 — whose hypothesis is
+only that a common $F$ be strictly increasing, and which is proved for
+arbitrary $F$ — gives $c_W=c_C$, which is Proposition 2(i)’s (N).
+Assumption 1’s budget writes the two sides as $c_W=\kappa_W Ax^{\alpha}$
+and $c_C=(1-i)(1-\tau)\alpha Ax^{\alpha}/\nu$, and $Ax^{\alpha}$ cancels
+between them, leaving $\nu^\ast=(1-i)(1-\tau)\alpha/\kappa_W$ uniquely.
+**No reproduction primitive enters that chain at any step**, which is
+why the invariance is a statement about Lemma 1 and the budget rather
+than about the Cobb–Douglas composite. Differentiating the logarithm of
+that expression gives the three displayed derivatives, using
 $\partial\kappa_W/\partial\tau=(1-\phi)\alpha$ and
 $\partial\kappa_W/\partial\phi=-\tau\alpha$. Their signs follow from
 $\kappa_W\ge 1-\alpha>0$, which holds because $(1-\phi)\tau\alpha\ge0$
@@ -7832,8 +7846,10 @@ the whole split range once the worker’s index is private consumption. At
 that corner the growth factor drops out too, and with it the whole
 technology: relative class size there is a function of the three
 instruments and the capital share and of nothing else — not
-productivity, not the reproduction scale or its elasticity, not either
-depreciation rate — and all three instruments are signed. Public
+productivity, not either depreciation rate, and no feature of the
+reproduction technology at all, its functional form included, since that
+half of the argument is Lemma 1’s and Lemma 1 holds for an arbitrary
+common increasing map. All three instruments are signed there. Public
 provision destroys both properties at once, returning the technology to
 the ratio and reversing signs rather than shading them. Read off it,
 reinvestment lowers the capitalist class’s relative size at every rate
