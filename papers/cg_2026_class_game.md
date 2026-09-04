@@ -3048,8 +3048,30 @@ below settle the sharper of the two readings that claim admits: they
 hold every primitive fixed and vary only $i$, so the sign changes
 **within one admissible cell** rather than merely between two of them.
 Whether **every** $\theta<1$ cell contains such a change is a strictly
-stronger statement, it is not claimed here, and it is undischarged.
-Witnesses at
+stronger statement, and it is **false**: at
+$(\alpha,\gamma,\theta,\delta,\delta_G,\tau,\phi)=(0.33,\,0.5,\,0.95,\,0.02,\,0.15,\,0.4,\,1)$
+the derivative is negative at every $i$ sampled across $(10^{-8},0.99)$,
+least negative $-0.962$ as $i\to0$, and the cell is interior throughout
+with $g$ rising through one. The reason is not the sample. $S$ is
+bounded there by $0.039$ while $1/(1-i)\ge1$ everywhere, so the
+difference cannot change sign. What separates the two cells is which
+depreciation rate is the smaller, and the mechanism is visible in
+$\mathcal{H}$. As $i\to0$ the growth factor is driven to
+$1-\min(\delta,\delta_G)$. If $\delta_G<\delta$ then $g-1+\delta_G\to0$
+while $g-1+\delta$ stays away from zero, so
+$(g-1+\delta_G)\mathcal{H}'(g)\to\gamma(1-\theta)$, $\mathcal{C}\to1$,
+and $S\sim\alpha/[(1-\alpha)i]$ diverges: the sign change is forced, and
+this is the case the witnesses below occupy. If $\delta<\delta_G$ the
+collapse falls on $g-1+\delta$ instead, $\mathcal{H}'$ diverges through
+its middle term, $\mathcal{C}$ vanishes at the rate of $i$ itself, and
+the $1/i$ in $S$ is cancelled — $S$ approaches a finite limit and may
+never reach one. Two levers move that limit and both were exercised: on
+the cell above the change survives at $\theta=0.1$, where the derivative
+is $+0.41$ near zero, and is gone by $\theta=0.3$, where it is $-0.073$;
+and holding $\theta$ at $0.95$ while closing $\delta_G-\delta$ to
+$10^{-10}$ returns $S$ to $4.5\times10^{4}$ and restores the change.
+Where in the primitive box the boundary lies — the locus on which the
+limit equals one — is not settled here. Witnesses at
 $(\alpha,\gamma,\theta,\delta,\delta_G,\tau,\phi,B)=(0.33,\,0.5,\,0.6,\,0.08,\,0.05,\,0.4,\,1,\,1)$:
 $\partial\ln\nu^\ast/\partial i=+18.90$ at $i=0.02$ and $-0.86$ at
 $i=0.35$, with the sign changing at $i=0.2059$. The positive region is
