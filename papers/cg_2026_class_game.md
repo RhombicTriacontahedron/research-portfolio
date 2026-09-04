@@ -55,16 +55,25 @@ rate at fixed shares. Within that class an interior long-run state
 exists and is unique at every interior setting of the three instruments,
 both classes are present there as a conclusion rather than an
 assumption, and it is locally stable throughout the admissible parameter
-space; a stationary profile exists under an explicit condition. The
-paper proves the stationary single-crossing results for the
-public-investment split and reinvestment, and shows how their one-shot
-margins translate to the full payoff at a profile’s own rest point.
-Moving those results to a fixed declared start requires further
-curvature conditions. The worker’s joint tax-and-split condition and the
-capitalist’s rate condition are not proved generally on that path; the
-worker’s condition is proved when both stocks fully depreciate. The
-paper does not establish a general state-dependent equilibrium, rule out
-cycles far from the long-run state, or rank outcomes by welfare.
+space; a stationary profile exists under an explicit condition. Relative
+class size is a second margin, and equal reproduction leaves it alone.
+It is pinned instead by the class ratio’s own law of motion, a
+first-order process whose forcing term is free of the ratio itself, so
+the ratio cannot oscillate on its own and its stationary value is a
+closed form from which the capital stock cancels. Read against that
+form, reinvestment lowers the capitalist class’s relative size at every
+rate when the worker reproduces on private consumption alone; the
+public-input weight is the only channel that can reverse the direction,
+and at the reported primitives it does. The paper proves the stationary
+single-crossing results for the public-investment split and
+reinvestment, and shows how their one-shot margins translate to the full
+payoff at a profile’s own rest point. Moving those results to a fixed
+declared start requires further curvature conditions. The worker’s joint
+tax-and-split condition and the capitalist’s rate condition are not
+proved generally on that path; the worker’s condition is proved when
+both stocks fully depreciate. The paper does not establish a general
+state-dependent equilibrium, rule out cycles far from the long-run
+state, or rank outcomes by welfare.
 
 **Keywords:** social wage; public reproduction; differential game of
 capitalism; discrete-time dynamic game; reproductive capacity; fiscal
@@ -240,7 +249,11 @@ that price weighted by the reproduction elasticity, and Section 6
 exhibits a sweep along which the price falls while the rate rises. Class
 condition is what the equalised index pins; what it leaves free is
 relative class size, and the instruments are among the things that set
-it — though the model does not sign which way any one of them moves it.
+it through a closed form. That form carries the paper’s own wedge a
+second time: where the worker reproduces on private consumption alone,
+reinvestment shrinks the capitalist class relative to the worker class
+at every admissible rate, and once public provision enters, the
+public-input weight is the only channel that can reverse the direction.
 What makes that a statement about conditions rather than about biology
 is the engine: one increasing map applies to both classes, and only the
 composite it is applied to differs. Whether the financing arrangement is
@@ -2948,6 +2961,127 @@ because the far-field Jacobian carries a unit root, and that is exactly
 what blocks a global argument. A trajectory sweep finds no orbit other
 than convergence to the rest point, and it is numerical evidence, not a
 proof.
+
+Theorem 2 pins the class ratio implicitly, through $\Theta$. It can be
+made explicit, and the explicit form says which instrument reaches
+relative class size and through what.
+
+**Theorem 2$'$ (the stationary class ratio in closed form, and the sign
+of its response to reinvestment).** *Let Assumptions 1–4 hold with the
+share policies $(\tau,\phi,i)$ fixed, $i\in(0,1)$, $\phi\tau>0$ and
+$\theta\in(0,1]$, and let $(x^\ast,\nu^\ast,z^\ast)$ be the interior
+rest point. Write $\kappa_W=(1-\alpha)+(1-\phi)\tau\alpha$ as in Section
+3. Then:*
+
+*(i) **The stationary class ratio is a closed form in the instruments
+and the growth factor alone, and the capital stock has cancelled out of
+it:*** $$\nu^\ast \;=\; \frac{(1-i)(1-\tau)\alpha}{\kappa_W^{\theta}}
+  \left(\frac{g-1+\delta_G}{\phi\tau\alpha}\right)^{1-\theta}. \tag{N$'''$}$$
+*At $\theta=1$ the exponent $1-\theta$ annihilates the second factor and
+$\nu^\ast=(1-i)(1-\tau)\alpha/\kappa_W$, free of $g$ and of every stock,
+at every split $\phi\in(0,1]$. That extends Proposition 2(ii)’s (N$'$),
+which is the same expression on the unfunded face $\phi=0$ — a face
+(N$'''$) does not reach, its hypothesis being $\phi\tau>0$ — and the two
+agree as $\phi\to0$. The closed form is therefore not a property of the
+unfunded corner: once $\theta=1$ it holds at every split, with $\phi$
+entering it only through $\kappa_W$ — so the ratio’s **form** is general
+there while its **level** still moves with the split.*
+
+*(ii) **Beyond the direct retention term, reinvestment reaches relative
+class size through one channel only, and that channel carries the weight
+$1-\theta$:*** $$\frac{\partial\ln\nu^\ast}{\partial i} \;=\;
+  \underbrace{\frac{\alpha}{1-\alpha}\cdot
+              \frac{\gamma(1-\theta)}{i\,(g-1+\delta_G)\,H'(g)}}_{\textstyle S}
+  \;-\; \frac{1}{1-i},$$ *with $\tau$, $\phi$ and the primitives held
+fixed and $H'$ as in Theorem 2(ii). Every factor of $S$ is strictly
+positive on the admissible box except $1-\theta$, so $S>0$ if and only
+if $\theta<1$.*
+
+*(iii) **At the no-social-wage corner the response is signed; with
+public provision it is not.** At $\theta=1$,
+$\partial\ln\nu^\ast/\partial i=-1/(1-i)<0$ at every $i\in(0,1)$:
+reinvestment unambiguously shrinks the capitalist class relative to the
+worker class. At $\theta<1$ the response is of no single sign on the
+admissible box. Witnesses at
+$(\alpha,\gamma,\theta,\delta,\delta_G,\tau,\phi,B)=(0.33,\,0.5,\,0.6,\,0.08,\,0.05,\,0.4,\,1,\,1)$:
+$\partial\ln\nu^\ast/\partial i=+18.90$ at $i=0.02$ and $-0.86$ at
+$i=0.35$, with the sign changing at $i=0.2059$. The positive region is
+not an artefact of a contracting economy, though at those primitives it
+sits in one. That $g<1$ at small $i$ is forced rather than incidental —
+the only $i$-dependence of $H$ is the additive
+$-\frac{\gamma\alpha}{1-\alpha}\ln i$, which diverges to $+\infty$ as
+$i\to0$, while $B$ enters $H$ only as a finite additive constant; since
+$H$ is strictly increasing in $g$ and tends to $-\infty$ at the left
+endpoint, its root is driven to $1-\min(\delta,\delta_G)<1$ at every
+reproduction scale — by that argument and not by a sweep. That is not
+what produces the positive sign: at $B=1.20$ with everything else
+unchanged the sign changes at $i=0.1892$, and just inside the positive
+region, at $i=0.1836$, $\partial\ln\nu^\ast/\partial i=+0.053$ while
+$g=1.0081$. The positive region and the growing region therefore
+intersect.*
+
+*Proof.* **(i)** At a stationary class ratio $g_C=g_W=g$, so Assumption
+2 gives $c_C=(g/B)^{1/\gamma}$, and
+$c_C=(1-i)(1-\tau)\alpha Ax^{\ast\alpha}/\nu^\ast$ gives
+$\nu^\ast=(1-i)(1-\tau)\alpha Ax^{\ast\alpha}(B/g)^{1/\gamma}$. Taking
+logarithms and substituting the rest-point condition
+$\ln g=\ln B+\gamma\theta\ln(\kappa_W Ax^{\ast\alpha})+\gamma(1-\theta)\ln z^\ast$
+to eliminate $\ln B-\ln g$,
+$$\ln\nu^\ast=\ln\big[(1-i)(1-\tau)\alpha\big]+\ln(Ax^{\ast\alpha})
+  -\theta\ln(\kappa_W Ax^{\ast\alpha})-(1-\theta)\ln z^\ast .$$ The two
+$\ln(Ax^{\ast\alpha})$ terms collect with coefficient $1-\theta$, and
+$z^\ast=\phi\tau\alpha Ax^{\ast\alpha}/(g-1+\delta_G)$ from Theorem
+2(ii) gives $Ax^{\ast\alpha}/z^\ast=(g-1+\delta_G)/(\phi\tau\alpha)$, in
+which $x^\ast$ does not appear. Collecting the terms yields (N$'''$).
+The cancellation is exact rather than approximate, and its source is the
+model’s own asymmetry: output per worker enters the capitalist’s
+consumption and the worker’s private consumption with the *same*
+elasticity, so it survives into the ratio only through the mismatch
+$1-\theta$ between the worker’s private and public arguments, and
+vanishes with it. At $\theta=1$ the $(1-\theta)$ term of $H$ is absent
+and $H(g)=\ln g-\ln B-\gamma\ln(\kappa_W Ax(g)^\alpha)$, still
+continuous and strictly increasing on $g>1-\delta$ with the same two
+limits, so it still has exactly one root. ⚠ What that does *not* deliver
+is interiority: Assumption 4 asks for $g>1-\delta_G$ as well, and at
+$\theta=1$ the public stock has left $H$ entirely, so nothing in $H$
+enforces it. Interiority at $\theta=1$ is therefore a hypothesis of this
+theorem, as its statement has it, and not a consequence of the root’s
+existence.
+
+**(ii)** Differentiate the logarithm of (N$'''$) in $i$ at fixed $\tau$,
+$\phi$ and primitives. The first factor contributes $-1/(1-i)$ and the
+second $(1-\theta)(g-1+\delta_G)^{-1}\,\mathrm{d}g/\mathrm{d}i$. The
+only $i$-dependence of $H$ is the additive
+$-\frac{\gamma\alpha}{1-\alpha}\ln i$ inherited from $x^\ast(g)$, so
+implicit differentiation of $H(g)=0$ gives
+$\mathrm{d}g/\mathrm{d}i=\frac{\gamma\alpha}{(1-\alpha)\,i\,H'(g)}$,
+strictly positive because $H'>0$ by Theorem 2(ii). Substituting gives
+the display. Note what the derivation did *not* need: the
+general-equilibrium response of $x^\ast$ cancels in (i) before any
+differentiation, so no term of $H'$ other than the one carrying
+$1-\theta$ survives into $S$.
+
+**(iii)** At $\theta=1$, $S\equiv0$ and the display is $-1/(1-i)$,
+negative on $i\in(0,1)$; equivalently (N$'''$) is then free of $g$, so
+only the retention factor moves. At $\theta<1$ the two stated cells are
+interior and admissible under Assumptions 1 and 4 and carry opposite
+signs, which refutes constancy of sign; the intermediate value theorem
+then places a zero between them. $\blacksquare$
+
+The economics of (iii) is the paper’s own mechanism appearing on a
+second margin. When the worker reproduces on private consumption alone,
+capital deepening raises both classes’ reproduction inputs in the same
+proportion, so it leaves their ratio untouched and only the capitalist’s
+retained slice moves: more reinvestment, a smaller capitalist class,
+always. Public provision breaks that proportionality, because the
+worker’s index also carries a stock whose replacement cost moves with
+growth. The residue is exactly $S$, and it is weighted by the same
+$1-\theta$ that opens the private-consumption gap of Theorem 1. Set
+$\theta=1$ and both effects vanish together: the wedge that lets policy
+separate reproduction from private consumption is the wedge that makes
+the size response ambiguous. What is not claimed is a comparative static
+in the primitives — $S$ is evaluated at the rest point’s own $g$, and
+$\tau$ and $\phi$ are held fixed throughout.
 
 **Computation 2 (where the cycle lives, and who declines it).** *The
 Jacobian of Theorem 2 holds the shares fixed. Under a Markov rule the
@@ -7639,8 +7773,18 @@ object. At a stationary ratio Lemma 1 equalises the class *condition*;
 the relative *size* of the two classes it leaves alone. Theorem 2(i)
 makes $\ln\nu$ a contraction whose $\Theta$ is free of $\nu$, so the
 stationary ratio is $\ln\nu^\ast=\Theta^\ast/\gamma$ — a closed form in
-the instruments and the primitives. What equal reproduction forecloses
-is a difference in condition, not a difference in number.
+the instruments and the primitives. Theorem 2$'$ makes that form
+explicit, and the capital stock cancels out of it, leaving the
+instruments and the growth factor alone; the no-social-wage ratio
+Proposition 2(ii) states on the unfunded face turns out to hold across
+the whole split range once the worker’s index is private consumption.
+Read off it, reinvestment lowers the capitalist class’s relative size at
+every rate where the worker reproduces on private consumption alone, and
+the public-input weight is the only channel that can reverse the sign —
+so the wedge that separates reproduction from private consumption in
+Theorem 1 is the wedge that unsettles the direction here. What equal
+reproduction forecloses is a difference in condition, not a difference
+in number.
 
 That yields the model’s sharpest statement about what fixes those
 conditions, and it is a result here rather than a premise. The
