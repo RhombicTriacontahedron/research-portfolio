@@ -2038,47 +2038,50 @@ at every reproduction scale — is carried by an argument on $H$ and not
 by the sweep that prompted it, $B$ entering $H$ only as a finite
 additive constant. **Its part (iv) carries a weaker hypothesis than the
 rest of the theorem and is listed separately for that reason: it does
-not use Assumption 2 at all.** The corner closed form follows from
+not use Assumption 2’s outer map.** The corner closed form follows from
 Assumption 1’s budget and Lemma 1’s hypothesis — a common strictly
 increasing map, arbitrary otherwise — through Proposition 2(i)’s (N), so
-no reproduction primitive enters it and the invariance is a statement
-about Lemma 1 rather than about the Cobb–Douglas composite. Reading it
-off (N$'''$) instead is the same result on a stronger hypothesis, and
-both routes are given. Part (iv) is analytic throughout except for one
-witness: the three instrument signs follow from $\kappa_W\ge1-\alpha>0$;
-the reversal of the split’s sign between $\theta=1$ and $\theta<1$ pairs
-a proved value at the corner with a single computed value at the
-reported cell, holding $\phi$ and every primitive fixed so that $\theta$
-is the only difference. The tax is left **undischarged** there by name —
-a five-point grid found no sign change, which refutes nothing and
-establishes nothing. Proposition 5$'$ needs Assumptions 1–4 with
-$\omega<1$ at a constant-share rest point where $J$ and $\Omega$ are
-defined; it is a comparative static in $\rho$ holding
-$(J,\Omega,\zeta,\omega)$ fixed, which makes it a statement about (12)
-rather than about a rest point’s response to a primitive. Proposition
-5$''$ adds admissibility in Assumption 5’s sense, $\tilde\beta<1$ —
-which is what signs the two objects its proof uses — and holds $g$
-fixed. Proposition 5$'''$ takes that assumption set at $\omega\in[0,1)$
-and names properness in its hypotheses rather than leaving it to its
-proof, because it is load-bearing three times over; its part (i) is at
-$\omega=0$ alone and buys a closed form, its part (iii) holds at every
-weight and buys the sign, and where they overlap the sign is the same.
-Proposition 6$'$ needs Assumptions 1–5 with $\theta\in(0,1)$ and
-$\omega<1$, at the corner $\phi=1$ with $i$ interior, together with one
-point-hypothesis no other result in the paper carries: that $g$ be a
-point at which the constrained tax $\min\{\tau^\ast,\bar\tau\}$ is
-differentiable, which excludes the switch and nothing else. Proposition
-6$''$ inherits all of that and adds tax interiority, which is why its
-part (iv) is a statement about the interior branch alone; the ceiling
-branch is Proposition 6$'$(iv)’s corollary, and under $(\ddagger)$ the
-two together cover every fixed point. Its parts (iv) and (v) are proved
-on an interval rather than at a fixed point, and the interval’s
-endpoints are stated with them. The reduction of the ceiling margin that
-§8.1 runs on that interval — the two-term bracket and the sharpening
-that replaces $(\ddagger)$ by $\Omega'\le0$ — is proved at every
-$\omega\in[0,1)$, by the same substitution
-$\mathcal{Q}=(1-\omega)+J\zeta$ for $1+\alpha J$ that Theorem 6 uses,
-together with
+no reproduction primitive enters the resulting expression and the
+invariance is a statement about Lemma 1 rather than about the
+Cobb–Douglas composite. Assumption 2 is not dispensed with entirely and
+the statement does not claim otherwise: $\theta$ is defined there, so
+naming the corner needs it. What the corner does not need is the form of
+the outer map. Reading the result off (N$'''$) instead is the same
+statement on a stronger hypothesis, and both routes are given. Part (iv)
+is analytic throughout except for one witness: the three instrument
+signs follow from $\kappa_W\ge1-\alpha>0$; the reversal of the split’s
+sign between $\theta=1$ and $\theta<1$ pairs a proved value at the
+corner with a single computed value at the reported cell, holding $\phi$
+and every primitive fixed so that $\theta$ is the only difference. The
+tax is left **undischarged** there by name — a five-point grid found no
+sign change, which refutes nothing and establishes nothing. Proposition
+5$'$ needs Assumptions 1–4 with $\omega<1$ at a constant-share rest
+point where $J$ and $\Omega$ are defined; it is a comparative static in
+$\rho$ holding $(J,\Omega,\zeta,\omega)$ fixed, which makes it a
+statement about (12) rather than about a rest point’s response to a
+primitive. Proposition 5$''$ adds admissibility in Assumption 5’s sense,
+$\tilde\beta<1$ — which is what signs the two objects its proof uses —
+and holds $g$ fixed. Proposition 5$'''$ takes that assumption set at
+$\omega\in[0,1)$ and names properness in its hypotheses rather than
+leaving it to its proof, because it is load-bearing three times over;
+its part (i) is at $\omega=0$ alone and buys a closed form, its part
+(iii) holds at every weight and buys the sign, and where they overlap
+the sign is the same. Proposition 6$'$ needs Assumptions 1–5 with
+$\theta\in(0,1)$ and $\omega<1$, at the corner $\phi=1$ with $i$
+interior, together with one point-hypothesis no other result in the
+paper carries: that $g$ be a point at which the constrained tax
+$\min\{\tau^\ast,\bar\tau\}$ is differentiable, which excludes the
+switch and nothing else. Proposition 6$''$ inherits all of that and adds
+tax interiority, which is why its part (iv) is a statement about the
+interior branch alone; the ceiling branch is Proposition 6$'$(iv)’s
+corollary, and under $(\ddagger)$ the two together cover every fixed
+point. Its parts (iv) and (v) are proved on an interval rather than at a
+fixed point, and the interval’s endpoints are stated with them. The
+reduction of the ceiling margin that §8.1 runs on that interval — the
+two-term bracket and the sharpening that replaces $(\ddagger)$ by
+$\Omega'\le0$ — is proved at every $\omega\in[0,1)$, by the same
+substitution $\mathcal{Q}=(1-\omega)+J\zeta$ for $1+\alpha J$ that
+Theorem 6 uses, together with
 $\mathcal{N}_\omega=\zeta\mathcal{M}+\alpha\tilde\beta\gamma(1-\alpha)\big[\theta+(1-\theta)\Omega\big]\mathcal{Q}$
 in place of Proposition 5$'''$(i)’s $\alpha N$. The interval subdivision
 that closes $63$ of the $216$ cells on that reduction is a computation,
