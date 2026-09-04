@@ -2036,17 +2036,24 @@ such claim is made anywhere in the paper. Its one further universal —
 that the growth factor is driven to $1-\min(\delta,\delta_G)$ as $i\to0$
 at every reproduction scale — is carried by an argument on $H$ and not
 by the sweep that prompted it, $B$ entering $H$ only as a finite
-additive constant. Its part (iv) is analytic throughout except for one
-witness: the invariance is read off (N$'''$) at $\theta=1$ rather than
-argued, and the three instrument signs follow from
-$\kappa_W\ge1-\alpha>0$; the reversal of the split’s sign between
-$\theta=1$ and $\theta<1$ pairs a proved value at the corner with a
-single computed value at the reported cell, holding $\phi$ and every
-primitive fixed so that $\theta$ is the only difference. The tax is left
-**undischarged** there by name — a five-point grid found no sign change,
-which refutes nothing and establishes nothing. Proposition 5$'$ needs
-Assumptions 1–4 with $\omega<1$ at a constant-share rest point where $J$
-and $\Omega$ are defined; it is a comparative static in $\rho$ holding
+additive constant. **Its part (iv) carries a weaker hypothesis than the
+rest of the theorem and is listed separately for that reason: it does
+not use Assumption 2 at all.** The corner closed form follows from
+Assumption 1’s budget and Lemma 1’s hypothesis — a common strictly
+increasing map, arbitrary otherwise — through Proposition 2(i)’s (N), so
+no reproduction primitive enters it and the invariance is a statement
+about Lemma 1 rather than about the Cobb–Douglas composite. Reading it
+off (N$'''$) instead is the same result on a stronger hypothesis, and
+both routes are given. Part (iv) is analytic throughout except for one
+witness: the three instrument signs follow from $\kappa_W\ge1-\alpha>0$;
+the reversal of the split’s sign between $\theta=1$ and $\theta<1$ pairs
+a proved value at the corner with a single computed value at the
+reported cell, holding $\phi$ and every primitive fixed so that $\theta$
+is the only difference. The tax is left **undischarged** there by name —
+a five-point grid found no sign change, which refutes nothing and
+establishes nothing. Proposition 5$'$ needs Assumptions 1–4 with
+$\omega<1$ at a constant-share rest point where $J$ and $\Omega$ are
+defined; it is a comparative static in $\rho$ holding
 $(J,\Omega,\zeta,\omega)$ fixed, which makes it a statement about (12)
 rather than about a rest point’s response to a primitive. Proposition
 5$''$ adds admissibility in Assumption 5’s sense, $\tilde\beta<1$ —
