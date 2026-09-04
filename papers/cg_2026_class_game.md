@@ -260,9 +260,12 @@ technology absent from it, and all three instruments signed. Public
 provision is what puts the technology back, and it unsettles two of
 those three signs but not the third: the tax’s remains negative
 everywhere, and for a reason the model supplies rather than a range it
-happens to occupy. Each instrument reaches relative class size twice,
-once directly and once through the growth factor, and only the second
-route can fight the first. Reinvestment’s second route carries a free
+happens to occupy. Each instrument reaches relative class size along two
+kinds of route — directly through the shares, and indirectly through the
+growth factor. For reinvestment and for the tax every direct route is
+negative, so for those two only the indirect route can change a sign;
+the split is not in that position, its direct route being positive
+already at the corner. Reinvestment’s indirect route carries a free
 $1/i$ and can be made to win. The tax’s cannot: the strength of its
 indirect route is bounded by the same derivative of the rest-point
 equation that the route must overcome, because the numerator of the one
