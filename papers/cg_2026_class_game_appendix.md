@@ -2030,15 +2030,19 @@ primitives fixed: like Proposition 5$'$ it is a statement about its own
 closed form, (N$'''$), and not a comparative static in the primitives.
 Its part (iii) is signed analytically at $\theta=1$ and, at $\theta<1$,
 refutes constancy of sign by exhibiting admissible witnesses of both
-signs — a refutation, which a sample can deliver, and not a cover:
-nothing here claims the sign changes at every $\theta<1$ cell, and no
-such claim is made anywhere in the paper. Its one further universal —
-that the growth factor is driven to $1-\min(\delta,\delta_G)$ as $i\to0$
-at every reproduction scale — is carried by an argument on $H$ and not
-by the sweep that prompted it, $B$ entering $H$ only as a finite
-additive constant. **Its part (iv) carries a weaker hypothesis than the
-rest of the theorem and is listed separately for that reason: it does
-not use Assumption 2’s outer map.** The corner closed form follows from
+signs — a refutation, which a sample can deliver, and not a cover. **The
+two quantifiers are kept apart in the statement itself because they are
+different propositions.** What is refuted is uniformity of sign
+**within** a cell: the witnesses share their entire primitive vector and
+differ only in $i$. What is **not** claimed, and is undischarged, is
+that every $\theta<1$ cell contains a sign change; no such claim is made
+anywhere in the paper. Its one further universal — that the growth
+factor is driven to $1-\min(\delta,\delta_G)$ as $i\to0$ at every
+reproduction scale — is carried by an argument on $H$ and not by the
+sweep that prompted it, $B$ entering $H$ only as a finite additive
+constant. **Its part (iv) carries a weaker hypothesis than the rest of
+the theorem and is listed separately for that reason: it does not use
+Assumption 2’s outer map.** The corner closed form follows from
 Assumption 1’s budget and Lemma 1’s hypothesis — a common strictly
 increasing map, arbitrary otherwise — through Proposition 2(i)’s (N), so
 no reproduction primitive enters the resulting expression and the
