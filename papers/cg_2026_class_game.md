@@ -257,12 +257,23 @@ public-input weight is the only channel that can reverse the direction.
 The corner is sharper still: there the ratio is a function of the three
 instruments and the capital share alone, with the entire reproduction
 technology absent from it, and all three instruments signed. Public
-provision is what puts the technology back and unsettles the signs. What
-makes that a statement about conditions rather than about biology is the
-engine: one increasing map applies to both classes, and only the
-composite it is applied to differs. Whether the financing arrangement is
-desirable is a welfare and institutional question the model does not
-answer.
+provision is what puts the technology back, and it unsettles two of
+those three signs but not the third: the tax’s remains negative
+everywhere, and for a reason the model supplies rather than a range it
+happens to occupy. Each instrument reaches relative class size twice,
+once directly and once through the growth factor, and only the second
+route can fight the first. Reinvestment’s second route carries a free
+$1/i$ and can be made to win. The tax’s cannot: the strength of its
+indirect route is bounded by the same derivative of the rest-point
+equation that the route must overcome, because the numerator of the one
+is literally a summand of the other. A channel that is capped by its own
+denominator cannot reverse anything, and the tax is therefore the one
+instrument whose direction is a property of the model and not of the
+cell. What makes that a statement about conditions rather than about
+biology is the engine: one increasing map applies to both classes, and
+only the composite it is applied to differs. Whether the financing
+arrangement is desirable is a welfare and institutional question the
+model does not answer.
 
 # 2. The Model
 
@@ -3075,6 +3086,23 @@ $$\frac{\partial\ln\nu^\ast}{\partial i}=-\frac{1}{1-i}<0, \qquad
 *so at $\theta=1$ the class ratio falls in the tax and in reinvestment
 and rises in the split.*
 
+*(v) **The tax is the one instrument public provision cannot turn.**
+Write*
+$$\mathcal{C} \;\equiv\; \frac{\gamma(1-\theta)}{(g-1+\delta_G)\,H'(g)} .$$
+*Then $\mathcal{C}\in[0,1)$ at every admissible interior rest point, and
+for every $\theta\in(0,1]$* $$\frac{\partial\ln\nu^\ast}{\partial\tau}
+  \;=\; -\frac{1}{1-\tau}\Big(1+\frac{\mathcal{C}\,\alpha}{1-\alpha}\Big)
+  \;-\; \Big(\theta\,\frac{(1-\phi)\alpha}{\kappa_W}+\frac{1-\theta}{\tau}\Big)\big(1-\mathcal{C}\big)
+  \;<\;0 .$$ *The bound $\mathcal{C}<1$ restricts no parameter and is
+not an extra hypothesis: $\gamma(1-\theta)$ is one of the three summands
+of $(g-1+\delta_G)H'(g)$, and the other two are strictly positive, so*
+$$(g-1+\delta_G)H'(g)-\gamma(1-\theta)
+  \;=\; \frac{g-1+\delta_G}{g}
+      \;+\; \frac{\gamma\alpha}{1-\alpha}\cdot\frac{g-1+\delta_G}{g-1+\delta}
+  \;>\;0$$ *on the whole admissible box. At $\theta=1$, $\mathcal{C}=0$
+and the expression collapses to part (iv)’s
+$-1/(1-\tau)-(1-\phi)\alpha/\kappa_W$.*
+
 *Public provision removes both properties. It restores $g$ to (N$'''$),
 and with it every primitive the corner had eliminated; and it reverses
 signs rather than perturbing them. Part (iii) shows the reversal for
@@ -3082,9 +3110,18 @@ reinvestment. It happens for the worker’s own instrument too: at
 $\phi=0.5$ and the primitives of (iii),
 $\partial\ln\nu^\ast/\partial\phi=+0.179$ at $\theta=1$ and $-0.323$ at
 $\theta=0.6$, with $\theta$ the only difference between the two
-evaluations. For the tax, no sign change was found on a five-point grid
-in $\tau$ at that cell. A grid can only refute, so that is undischarged,
-and it is not a claim that the tax’s sign is constant.*
+evaluations. The tax is the exception, and part (v) proves it rather
+than sampling it: its sign survives public provision at every $\theta$
+and everywhere on the admissible box. The asymmetry is structural, not
+numerical. Reinvestment’s indirect channel carries a free $1/i$
+multiplying a positive term, so it can be made to dominate the direct
+one; the tax’s divergent channel is the $1/\tau$ inside the same
+bracket, and that bracket enters multiplied by $-(1-\mathcal{C})$.
+Because $\gamma(1-\theta)$ is one of the summands of
+$(g-1+\delta_G)H'(g)$, $\mathcal{C}$ lies below one by construction, and
+the tax’s indirect channel is therefore capped by the very derivative it
+would have to overcome. Two of the three instruments lose their sign
+once public provision enters; the third cannot.*
 
 *Proof.* **(i)** At a stationary class ratio $g_C=g_W=g$, so Assumption
 2 gives $c_C=(g/B)^{1/\gamma}$, and
@@ -3163,7 +3200,40 @@ the third is positive because $\tau>0$. The reversal for the split is
 one proved value against one witness — the displayed
 $\tau\alpha/\kappa_W$ is positive at $\theta=1$ by the same argument,
 and the $\theta=0.6$ value is computed at the same $\phi$ and the same
-primitives, so $\theta$ is the only difference. $\blacksquare$
+primitives, so $\theta$ is the only difference.
+
+**(v)** By (N$'''$),
+$\ln\nu^\ast=\ln(1-i)+\ln(1-\tau)+\ln\alpha-\theta\ln\kappa_W
++(1-\theta)\big[\ln(g-1+\delta_G)-\ln(\phi\tau\alpha)\big]$, so $\tau$
+reaches $\nu^\ast$ directly through $1-\tau$, through $\kappa_W$ and
+through $\ln\tau$, and indirectly through $g$:
+$$\frac{\partial\ln\nu^\ast}{\partial\tau}
+ =-\frac{1}{1-\tau}-\theta\frac{(1-\phi)\alpha}{\kappa_W}-\frac{1-\theta}{\tau}
+  +\frac{1-\theta}{g-1+\delta_G}\,\frac{\partial g}{\partial\tau}.$$ For
+the last term take $H$ from Theorem 2(ii) and apply the implicit
+function theorem, which is available because $H'>0$ there. The tax
+enters $H$ three ways, and the third is easy to miss: through $\kappa_W$
+in the worker’s index, through the explicit $\tau$ in $z(g)$, and
+through $x(g)=\big[i(1-\tau)\alpha A/(g-1+\delta)\big]^{1/(1-\alpha)}$,
+since capital is accumulated out of **after-tax** retained income.
+Because $\gamma\theta$ and $\gamma(1-\theta)$ both multiply
+$\alpha\ln x$ and sum to $\gamma$, that third route contributes a single
+term and $$\frac{\partial H}{\partial\tau}\bigg|_{g}
+ =-\gamma\Big(\theta\frac{(1-\phi)\alpha}{\kappa_W}+\frac{1-\theta}{\tau}\Big)
+  +\frac{\gamma\alpha}{(1-\alpha)(1-\tau)} .$$ Substituting
+$\partial g/\partial\tau=-(\partial H/\partial\tau)/H'(g)$ and
+collecting, the bracket appears twice — once directly and once through
+$g$ — and combines into the factor $1-\mathcal{C}$, while the $x$ route
+supplies the $\mathcal{C}\alpha/(1-\alpha)$ term, giving the display in
+(v). For the bound, differentiating $H$ gives
+$H'(g)=1/g+\gamma\alpha/\big[(1-\alpha)(g-1+\delta)\big]+\gamma(1-\theta)/(g-1+\delta_G)$;
+multiplying by $g-1+\delta_G$ returns $\gamma(1-\theta)$ as one summand
+and the two displayed remainders as the others, each strictly positive
+on the admissible box, so $\mathcal{C}<1$. Both terms of the display are
+then strictly positive, and the derivative is their negative. The bound
+is attained nowhere but approached: $\mathcal{C}=0.987$ at $\alpha=0.1$,
+$\gamma=0.9$, $\theta=0.1$, $g=100$, $g-1+\delta=100$, $g-1+\delta_G=1$,
+so the cap binds tightly rather than generously. $\blacksquare$
 
 The economics of (iii) is the paper’s own mechanism appearing on a
 second margin. When the worker reproduces on private consumption alone,
