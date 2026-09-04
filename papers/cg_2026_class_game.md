@@ -3005,8 +3005,13 @@ if $\theta<1$.*
 public provision it is not.** At $\theta=1$,
 $\partial\ln\nu^\ast/\partial i=-1/(1-i)<0$ at every $i\in(0,1)$:
 reinvestment unambiguously shrinks the capitalist class relative to the
-worker class. At $\theta<1$ the response is of no single sign on the
-admissible box. Witnesses at
+worker class. At $\theta<1$ it has no uniform sign, and the witnesses
+below settle the sharper of the two readings that claim admits: they
+hold every primitive fixed and vary only $i$, so the sign changes
+**within one admissible cell** rather than merely between two of them.
+Whether **every** $\theta<1$ cell contains such a change is a strictly
+stronger statement, it is not claimed here, and it is undischarged.
+Witnesses at
 $(\alpha,\gamma,\theta,\delta,\delta_G,\tau,\phi,B)=(0.33,\,0.5,\,0.6,\,0.08,\,0.05,\,0.4,\,1,\,1)$:
 $\partial\ln\nu^\ast/\partial i=+18.90$ at $i=0.02$ and $-0.86$ at
 $i=0.35$, with the sign changing at $i=0.2059$. The positive region is
