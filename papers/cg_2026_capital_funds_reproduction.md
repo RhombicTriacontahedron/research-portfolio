@@ -286,9 +286,9 @@ $$
 g_W = 1-\delta_G.
 \tag{A.2$'$}
 $$
-The right-hand side carries no instrument. This contradicts interiority, which requires strictly positive gross investment in both stocks, $g>1-\delta$ and $g>1-\delta_G$.
+The right-hand side carries no instrument. At any such state whose class ratio is also stationary, $g_C=g_W=1-\delta_G$ as well, so **both** dynasties decline at the public stock’s own rate of depreciation and the contraction is symmetric across the two classes. This contradicts interiority, which requires strictly positive gross investment in both stocks, $g>1-\delta$ and $g>1-\delta_G$.
 
-*Proof.* At $\phi=0$, (A.4) loses $\phi\tau\alpha y$ and reads $z'=(1-\delta_G)z/g_W$. If $\delta_G=1$, then $z_1=0$; $\theta<1$ makes $g_W$ vanish at $z=0$. If $\delta_G<1$ and $z'=z>0$, then $(1-\delta_G)/g_W=1$. $\square$
+*Proof.* At $\phi=0$, (A.4) loses $\phi\tau\alpha y$ and reads $z'=(1-\delta_G)z/g_W$. If $\delta_G=1$, then $z_1=0$; $\theta<1$ makes $g_W$ vanish at $z=0$. If $\delta_G<1$ and $z'=z>0$, then $(1-\delta_G)/g_W=1$. Stationarity of the class ratio equalises the two growth factors at each date, so $g_C=g_W$ wherever it holds. $\square$
 
 The public-stock and capital-stock wedges, at a balanced-growth factor $g$ and effective discount $\tilde\beta=\beta g^{1-\sigma}$, are
 $$
@@ -367,7 +367,7 @@ $$
 \psi_a \;=\; \big(c_{C,a}\,\nu_a\big)^{1-\omega} x_a^{\omega},
 \tag{A.9}
 $$
-so that the capitalist’s payoff object starts at $P_{0,a}=N_{W,0}\,\psi_a$. Assume properness, $\beta g_a^{1-\sigma_j}<1$ for both classes. Then
+so that the capitalist’s payoff object starts at $P_{0,a}=N_{W,0}\,\psi_a$. Assume properness, $\beta g_a^{1-\sigma_j}<1$ for $j\in\{W,C\}$ — for both classes, at each class’s own curvature. Then
 
 1.  $\displaystyle V_W=\frac{N_{W,0}^{1-\sigma_W}}{(1-\sigma_W)\big(1-\beta g^{1-\sigma_W}\big)}$, and $\partial V_W/\partial g>0$;
 
