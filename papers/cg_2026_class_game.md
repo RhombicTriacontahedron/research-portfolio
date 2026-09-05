@@ -287,10 +287,10 @@ anything, and the tax is therefore the one instrument whose direction is
 a property of the model and not of the cell. That property is read off
 the model’s specified growth side; unlike the displacement result above,
 it is not a form-free fact. What makes that a statement about conditions
-rather than about biology is the engine: one increasing map applies to
-both classes, and only the composite it is applied to differs. Whether
-the financing arrangement is desirable is a welfare and institutional
-question the model does not answer.
+rather than about biology is the engine: one strictly increasing map
+applies to both classes, and only the composite it is applied to
+differs. Whether the financing arrangement is desirable is a welfare and
+institutional question the model does not answer.
 
 # 2. The Model
 
@@ -8081,16 +8081,16 @@ in number.
 
 That yields the model’s sharpest statement about what fixes those
 conditions, and it is a result here rather than a premise. What carries
-it is not the reproduction technology: that is one increasing map
-applied to both classes and identical for both, stated as such in
-Assumption 2. What carries it is the composite the map is applied to —
-one class can reach that composite through the public stock and the
-other cannot. On that margin, and by that route, the conditions on which
-class continuation rests are not fixed by biology or by preference: they
-are a contested outcome, built by instruments the two classes set
-against each other. Proposition 2(iii) shows how little it takes to end
-the worker’s line — the worker’s own split at zero, with the stock fully
-depreciating, and no move by the capitalist required.
+it is not the reproduction technology: that is one strictly increasing
+map, common to both classes, exactly as Assumption 2 states it. What
+carries it is the composite the map is applied to — one class can reach
+that composite through the public stock and the other cannot. On that
+margin, and by that route, the conditions on which class continuation
+rests are not fixed by biology or by preference: they are a contested
+outcome, built by instruments the two classes set against each other.
+Proposition 2(iii) shows how little it takes to end the worker’s line —
+the worker’s own split at zero, with the stock fully depreciating, and
+no move by the capitalist required.
 
 The dependence is mutual. The public stock ties the worker’s
 reproduction to capital income, and the capitalist’s own interior
