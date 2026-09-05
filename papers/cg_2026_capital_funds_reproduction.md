@@ -326,7 +326,7 @@ and otherwise the unique interior root
 $$
 \phi^{\dagger} = \frac{(1-\theta)\Omega\big[(1-\alpha)+\tau\alpha\big]}{\tau\alpha\big[\theta+(1-\theta)\Omega\big]}.
 $$
-At $\phi=1$ the worker’s stationary tax is
+At $\phi=1$ the unconstrained stationary tax root is
 $$
 \tau^{\ast} = \frac{(1-\theta)\Omega}{(1-\theta)\Omega + J\alpha\big[\theta+(1-\theta)\Omega\big]}\in(0,1).
 \tag{A.7}
@@ -336,7 +336,7 @@ $$
 1-\tau^{\ast} = \frac{J\alpha\big[\theta+(1-\theta)\Omega\big]}{(1-\theta)\Omega + J\alpha\big[\theta+(1-\theta)\Omega\big]}.
 \tag{A.7$'$}
 $$
-Set $J=0$ and the condition returns $\tau^{\ast}=1$, which interiority excludes. Nothing in the assumption list forces $\tau^{\ast}\le\bar\tau$.
+Set $J=0$ and the condition returns $\tau^{\ast}=1$, which interiority excludes. Nothing in the assumption list forces $\tau^{\ast}\le\bar\tau$: (A.7) is the worker’s stationary tax exactly where it clears the ceiling, and where it does not the constrained tax is $\bar\tau$.
 
 *Proof.* Write $\kappa_W(\phi)=(1-\alpha)+(1-\phi)\tau\alpha>0$ on $[0,1]$ and
 $$
@@ -360,7 +360,7 @@ The one-period cost of the reinvestment rate is $(1-\omega)$ times a positive sc
 
 *Proof.* The one-period cost of $i$ is $(1-\omega)$ times the positive scale $P^{1-\sigma}$, divided by $1-i$. At $\omega=1$ this is identically zero while the benefit of $i$ is strictly positive under interiority, so the difference has no zero. Envelope-free: $\omega=1$ makes $P=K$; every partial of the level transition in the reinvested slice is nonnegative, so $K_t$ is nondecreasing in $i$ and strictly increasing for $t\ge 1$, and $V_C$ is then strictly increasing in $i$. $\square$
 
-**Proposition A.5 (class-ratio contraction).** At an interior rest point of the constant-share system,
+**Proposition A.5 (class-ratio contraction).** At every state of the constant-share system,
 $$
 \ln\nu' = (1-\gamma)\ln\nu + \Theta(x,z),
 $$
@@ -803,12 +803,12 @@ The criterion has to be taken on all three of its terms rather than on one. (A.1
 
 Whether it does is not settled for an *arbitrary* such family. The reinvestment elasticity along one is not signed at this point in the argument, and its coefficient changes sign at $i=\Lambda$ by (A.15), so the sum can go either way and (A.14) is *not* shown to fail. On the one family where the capitalist sits at his own stationary rate it is settled, and settled below rather than left open here. What is shown is narrower: **the burden of rescuing the capitalist at that corner falls entirely on the reinvestment channel**, and (A.15) has already established that this channel is not a free instrument — whether raising the reinvested share alongside growth helps him at all is itself decided by where $i$ stands relative to $\Lambda$. So the tax, at this corner, has stopped being a candidate escape and has become a second weight on the same side.
 
-**The reinvestment channel is not a free instrument either, and the closure that pinned the tax pins it too.** The source puts the capitalist’s stationary rate in closed form as the rate index over one plus itself — its Proposition 5, which Proposition A.7(vii) above already leans on. Differentiate that along a family that moves the growth factor with the primitives held, and the reinvestment elasticity is the rate index’s own elasticity scaled by one minus the stationary rate,
+**The reinvestment channel is not a free instrument either, and the closure that pinned the tax pins it too.** The source puts the capitalist’s stationary rate in closed form as the rate index over one plus itself — its Proposition 5, which Corollary A.3(vii) above already leans on. Differentiate that along a family that moves the growth factor with the primitives held, and the reinvestment elasticity is the rate index’s own elasticity scaled by one minus the stationary rate,
 $$
 \eta \;=\; \bigl(1-i^{\ast}\bigr)\,e_{\mathcal{R}},
 \qquad e_{\mathcal{R}}=\frac{d\ln\mathcal{R}}{d\ln g},
 $$
-so it carries the rate index’s sign and is a strict fraction of its size, and the fraction is exactly the share the capitalist does *not* reinvest. Differentiating the source’s closed form as a rest-point family elasticity is this note’s step, as it was for the tax; the closed form itself is the source’s. The restriction that travelled with (A.15$''$) travels here in the same form and for the same reason: the rate index carries the capital share, the two depreciation rates, the discount factor and the weight on owned capital, so a family reaching faster growth by moving any of those moves the stationary rate through them as well, and there the two contributions must be added rather than the display used alone. The weight is the case to keep apart, because Proposition A.7(vii) is precisely the derivative in it, and the two decompositions answer different questions.
+so it carries the rate index’s sign and is a strict fraction of its size, and the fraction is exactly the share the capitalist does *not* reinvest. Differentiating the source’s closed form as a rest-point family elasticity is this note’s step, as it was for the tax; the closed form itself is the source’s. The restriction that travelled with (A.15$''$) travels here in the same form and for the same reason: the rate index carries the capital share, the two depreciation rates, the discount factor and the weight on owned capital, so a family reaching faster growth by moving any of those moves the stationary rate through them as well, and there the two contributions must be added rather than the display used alone. The weight is the case to keep apart, because Corollary A.3(vii) is precisely the derivative in it, and the two decompositions answer different questions.
 
 **The pole then cancels, and it was never the channel’s.** (A.15$'$) weights the reinvestment elasticity by $(\Lambda-i)/(1-i)$, whose denominator carries the interiority restriction $i<1$ that the display is used under. On this family that denominator is $1/(1+\mathcal{R})$, which is precisely the factor $\eta$ supplies, so the channel is
 $$
