@@ -32,7 +32,9 @@ The results that follow go beyond that. Two configurations at rest can be ranked
 
 # Nomenclature
 
-Symbols are grouped by role in the class mechanism, not by alphabet.
+Symbols are grouped by role in the class mechanism, not by alphabet. What the table carries is
+the model’s own objects and the accounting laid over them; the quantities the appendix builds
+inside a proof are defined where they first appear there.
 
 **Stocks and populations — objects that persist**
 
@@ -94,7 +96,19 @@ Symbols are grouped by role in the class mechanism, not by alphabet.
 |   $B$    | Scale of the reproduction map            |
 | $\gamma$ | Outer elasticity of the reproduction map |
 
-*Colour groups (HTML):* sage = stocks and populations; teal = reproduction; gold = instruments; plum = objectives; steel = wedges; grey = primitives. Grouping is by role in the class mechanism, not by alphabet.
+**Labour accounting — magnitudes laid over the model, and the shares they run on**
+
+| Symbol | Meaning |
+|:--------------------------------:|--------------------------------------|
+| $\chi$ | Magnitude assigned to a unit of the good |
+| $\varpi$ | Magnitude assigned to a unit of labour |
+| $\rho$ | Drift in the magnitude of a unit of the good, $\chi_{t+1}/\chi_t$; applied to a matrix, $\rho(\cdot)$ is its spectral radius |
+| $\zeta$ | Share of gross output that replaces worn-out capital, $\delta x/w$ |
+| $\iota$ | Gross private investment share of output, $i(1-\tau)\alpha$ |
+| $\varsigma$ | Gross public investment share of output, $\phi\tau\alpha$ |
+| $\varrho$ | Survival share of the private stock, $(1-\delta)/g$; $\varrho_G$ is the public one, $(1-\delta_G)/g$ |
+
+*Colour groups (HTML):* sage = stocks and populations; teal = reproduction; gold = instruments; plum = objectives; steel = wedges; grey = primitives; clay = labour accounting. Grouping is by role in the class mechanism, not by alphabet.
 
 # Who pays for continuation
 
@@ -109,6 +123,8 @@ Shut the source off while the stock still enters worker continuation. If the sto
 Within this instrument set, worker continuation and capitalist accumulation are not separable. The stock on which the working class continues is paid for from the income of the class it contests. At the public-provision corner of the fiscal split, the worker’s private claim is exactly the competitive wage bill: the whole redistributive tax has become public provision. The one-period split sits at that corner whenever the tax lies below a threshold written in the public-stock wedge. The worker’s own stationary tax then stops short of taking all capital income. The gap $1-\tau^{\ast}$ is the share of the denominator that carries the capital wedge; the instrument ceiling does not do that work, and it is slack at the source paper’s reported cells (Computation 1, $\bar\tau=0.8$). A worker who owned this tax would still leave a slice of capital income untaxed, because taking it all reduces the capital stock that produces the output from which both the wage bill and the public stock are drawn.
 
 That is a result about a model in which the worker has one tax and one split and cannot borrow against the capital he is taxed to build. It is not a historical law of the capitalist state, and it is not a theorem that no other funding route exists.
+
+The tradition has been measuring an object of this name since the 1980s, and its ledger is not this one. In the net-social-wage accounts the social wage is the working class’s net fiscal position — what the state pays out to wage and salary earners set against what they pay in — estimated for real fiscal systems rather than derived in a model (Tonak 1987; Shaikh and Tonak 1994; Maniatis and Passas 2019; Karabacak and Tonak 2022). What is measured here is a single gross flow inside a stipulated instrument set: a fraction of the capital share, on its way to a stock that worker continuation uses. The two measure different things, and neither is evidence about the other, since an economy can build its public stock out of profits and still take back more from wage-earners through the rest of its fiscal system than it hands them. What those accounts have to say to this note is about a step neither accounting avoids. Charitou, Maniatis and Passas (2025) report the net social wage ratio negative in eight of nine European countries when indirect taxes are taken to be borne partly by labour, and positive and substantial in all nine when they are taken to fall entirely on surplus value; the sign of the headline number turns on which incidence convention is adopted. This note’s counterpart is not a better convention but a statement of how far such a latitude reaches. The corresponding choice here — how much of the public stock is charged to the worker’s period — decides which side of the ledger the social wage falls on. What it cannot decide, and this is settled below, is whether there is an imbalance for it to fall inside: wherever the economy is not contracting, something is left over under every rule in the class, the one exception being an economy that has stopped growing whose owners consume nothing. The placement is a convention. That there is something to place is not.
 
 Marx’s own framing cuts across this, and the crossing is worth stating. He treats the wage bill as one historical form of appearance of the fund a worker needs to maintain himself and his family — a fund the worker must produce and reproduce whatever the system of production. On that reading a tax on profits is another form of appearance of the same fund, so calling the social wage a claim on capital states an incidence within this instrument set; it says nothing about whose labour produced the output the claim is drawn from. The model settles the first question and leaves the second untouched.
 
@@ -1055,6 +1071,9 @@ What (ii) adds to A.8 is a second impossibility of the same shape, and the pair 
     *Econometrica* 57(2): 481–501.
 -   Brezis, E. S. (2001). “Social Classes, Demographic Transition and Economic Growth.” *European
     Economic Review* 45(4–6): 707–717.
+-   Charitou, A., T. Maniatis, and C. Passas (2025). “An Investigation of the Net Social Wage
+    Ratio in Nine European Countries, 1995–2018.” *Review of Radical Political Economics*
+    58(1): 5–21.
 -   Futagami, K., Y. Morita, and A. Shibata (1993). “Dynamic Analysis of an Endogenous Growth Model with
     Public Capital.” *Scandinavian Journal of Economics* 95(4): 607–625.
 -   Galindo Escajeda, C. (2026). “Capital-Funded Public Provision and the Private-Consumption Gap
@@ -1063,5 +1082,13 @@ What (ii) adds to A.8 is a second impossibility of the same shape, and the pair 
     Appropriation.” Working paper (arXiv:2304.01855).
 -   Huato, J., and C. Galindo Escajeda. “Labor Power as Value Source and the Form of Capitalist
     Wealth.” Working paper.
+-   Karabacak, Y., and E. A. Tonak (2022). “The Net Social Wage in Turkey, 1980–2019.”
+    *Review of Radical Political Economics* 54(4): 479–500.
 -   Lancaster, K. (1973). “The Dynamic Inefficiency of Capitalism.” *Journal of Political Economy*
     81(5): 1092–1109.
+-   Maniatis, T., and C. Passas (2019). “The Net Social Wage in Different Welfare Regimes.”
+    *Capital & Class* 43(2): 227–250.
+-   Shaikh, A. M., and E. A. Tonak (1994). *Measuring the Wealth of Nations: The Political Economy
+    of National Accounts*. Cambridge University Press.
+-   Tonak, E. A. (1987). “The U.S. Welfare State and the Working Class, 1952–1980.” *Review of
+    Radical Political Economics* 19(1): 47–72.
