@@ -44,15 +44,17 @@ reinvestment rate held fixed. This is evidence of agreement over one
 instrument at those cells, not a general financing result or a welfare
 ranking.
 
-The capitalist values both retained consumption and owned capital. This
-keeps reinvestment contested: it raises the capital stock while reducing
-current consumption. The endpoint at which capital alone is valued is
-degenerate, because reinvestment then has no cost in the capitalist’s
-objective. The dependence runs in both directions: the capitalist’s own
-interior reinvestment rate rises with the price he puts on the workforce
-he must reproduce, the rest of his rate rule held fixed. That price is a
-closed form in the primitives, and it arises because labour is an input
-his production needs — not because he values worker numbers as such.
+The capitalist’s payoff weights retained consumption and owned capital,
+and the weight on capital may be zero. What keeps reinvestment contested
+is that consumption keeps a positive weight: reinvestment raises the
+capital stock while reducing current consumption, and its marginal cost
+is proportional to that weight. The endpoint at which capital alone is
+valued is degenerate, because the cost vanishes there. The dependence
+runs in both directions: the capitalist’s own interior reinvestment rate
+rises with the price he puts on the workforce he must reproduce, the
+rest of his rate rule held fixed. That price is a closed form in the
+primitives, and it arises because labour is an input his production
+needs — not because he values worker numbers as such.
 
 The analysis holds the tax, public-investment split, and reinvestment
 rate at fixed shares. Within that class an interior long-run state
@@ -199,12 +201,14 @@ rate fixed, the capitalist also prefers that split. This is a local
 incidence finding, not a claim that capitalists choose the tax base or
 that all public provision works this way.
 
-The capitalist’s objective is equally important. He values both current
-consumption and owned capital, so reinvestment creates a trade-off
-instead of being automatic. When capital alone is valued, reinvestment
-has no cost in his objective and the choice collapses to a corner. The
-paper therefore studies the interior case in which accumulation remains
-a contested decision.
+The capitalist’s objective is equally important. His payoff weights
+current consumption and owned capital, and what makes reinvestment a
+trade-off rather than an automatic choice is that consumption keeps a
+positive weight — the weight on capital may be zero, and the paper’s
+baseline sets it there. When capital alone is valued, reinvestment has
+no cost in his objective and the choice collapses to a corner. The paper
+therefore studies the interior case in which accumulation remains a
+contested decision.
 
 Neither the boundary result nor the central result depends on how the
 game is solved. Both hold at any state where the class-population ratio
@@ -8199,10 +8203,12 @@ derivations.
 
 The capitalist’s objective makes this a model of contested accumulation
 rather than a symmetric dynastic game. Valuing both retained consumption
-and owned capital preserves a trade-off. Valuing capital alone removes
-it: reinvestment has no cost in the objective and moves to its corner.
-The interior objective family is therefore not a calibration choice but
-the domain on which accumulation remains a decision.
+and owned capital preserves a trade-off, and so does valuing consumption
+alone — the baseline weight, where the cost of reinvestment is largest.
+Only valuing capital alone removes it: reinvestment has no cost in the
+objective and moves to its corner. The interior objective family is
+therefore not a calibration choice but the domain on which accumulation
+remains a decision.
 
 The natural extensions are organised in Section 11: a broader
 reproduction composite, multiple funding sources, intertemporal
