@@ -25,10 +25,10 @@ condition permits a private-consumption gap: a larger public stock can
 sustain the worker’s reproduction on a smaller private claim. Equal
 reproduction therefore does not settle private distribution. That
 displacement does not depend on the functional form: it holds whenever
-the worker’s reproduction input is increasing in the public stock and
-non-decreasing in private consumption, by an argument using monotonicity
-alone. What the Cobb–Douglas specification adds is the closed form and a
-constant elasticity, not the sign.
+the worker’s reproduction input is strictly increasing in the public
+stock and non-decreasing in private consumption, by an argument using
+monotonicity alone. What the Cobb–Douglas specification adds is the
+closed form and a constant elasticity, not the sign.
 
 The fiscal structure gives this result a political-economy
 interpretation. The model stipulates a tax on capital income as the
@@ -48,7 +48,11 @@ The capitalist values both retained consumption and owned capital. This
 keeps reinvestment contested: it raises the capital stock while reducing
 current consumption. The endpoint at which capital alone is valued is
 degenerate, because reinvestment then has no cost in the capitalist’s
-objective.
+objective. The dependence runs in both directions: the capitalist’s own
+interior reinvestment rate rises with the price he puts on the workforce
+he must reproduce, the rest of his rate rule held fixed. That price is a
+closed form in the primitives, and it arises because labour is an input
+his production needs — not because he values worker numbers as such.
 
 The analysis holds the tax, public-investment split, and reinvestment
 rate at fixed shares. Within that class an interior long-run state
@@ -3073,10 +3077,10 @@ cannot deliver. An upper bound on $S$ in closed form rises as $i$ falls,
 so it is approached only in the limit and its value there is a supremum
 over $(0,1)$ rather than a maximum over a grid — at this cell, below
 $0.0383$, against $1/(1-i)\ge1$ everywhere. The difference cannot change
-sign. What is not settled is that supremum’s closed form in the
-primitives; only that it is one, and that here it is far below one. What
-separates the two cells is which depreciation rate is the smaller — a
-comparison with three outcomes, not two — and the mechanism is visible
+sign. On this face that supremum has a closed form in the primitives,
+derived in the proof, and with it the boundary at which it reaches one.
+What separates the two cells is which depreciation rate is the smaller —
+a comparison with three outcomes, not two — and the mechanism is visible
 in $\mathcal{H}$. As $i\to0$ the growth factor is driven to
 $1-\min(\delta,\delta_G)$. If $\delta_G<\delta$ then $g-1+\delta_G\to0$
 while $g-1+\delta$ stays away from zero, so
@@ -3102,9 +3106,32 @@ Two levers move that limit and both were exercised: on the cell above
 the change survives at $\theta=0.1$, where the derivative is $+0.41$
 near zero, and is gone by $\theta=0.3$, where it is $-0.073$; and
 holding $\theta$ at $0.95$ while closing $\delta_G-\delta$ to $10^{-10}$
-returns $S$ to $4.5\times10^{4}$ and restores the change. Where in the
-primitive box the boundary lies — the locus on which the limit equals
-one — is not settled here. Witnesses at
+returns $S$ to $4.5\times10^{4}$ and restores the change. **Where in the
+primitive box that boundary lies is not a further question: the same
+identity the paragraph above already uses settles it.** On
+$\delta<\delta_G$ the middle term of $\mathcal{H}'$ is the only one that
+diverges as $g\to1-\delta$, so the $\alpha/(1-\alpha)$ carried by $S$
+cancels against it and*
+$$\lim_{i\to0}S \;=\; \frac{(1-\theta)\,L}{\delta_G-\delta},
+\qquad
+L \;=\; \exp\!\left\{\frac{1-\alpha}{\gamma\alpha}
+   \Big[\mathcal{P}_{-i}-\ln(1-\delta)-\gamma(1-\theta)\ln(\delta_G-\delta)\Big]\right\},$$
+*where $\mathcal{P}_{-i}$ is the $i$-free part of Proposition 6’s share
+side — this is the displayed identity for $\ln[(g-1+\delta)/i]$
+evaluated at the endpoint, and nothing else. **The locus is therefore
+not merely a level set but a graph.** $\mathcal{P}_{-i}$ carries $\ln B$
+additively, so $\ln\lim_{i\to0}S$ is **affine in $\ln B$** with slope
+$(1-\alpha)/(\gamma\alpha)>0$: the limit is strictly increasing in the
+reproduction scale, and $\lim_{i\to0}S=1$ has a **unique root
+$B^\ast$**, in closed form in the remaining primitives. **Where
+$B>B^\ast$ the sign change is forced** — the derivative is positive near
+$i=0$ and diverges to $-\infty$ as $i\to1$ — and where $B<B^\ast$ there
+is no change near $i=0$, though whether one occurs at larger $i$ is what
+a cover such as the one above settles. At the cell just quoted
+$B^\ast=2.234$ against the $B=1$ it is evaluated at, which is why the
+sign never turns there. The formula does not reach the knife-edge: as
+$\delta_G\downarrow\delta$ its exponent diverges, which is the diverging
+branch above meeting this one. Witnesses at
 $(\alpha,\gamma,\theta,\delta,\delta_G,\tau,\phi,B)=(0.33,\,0.5,\,0.6,\,0.08,\,0.05,\,0.4,\,1,\,1)$:
 $\partial\ln\nu^\ast/\partial i=+18.90$ at $i=0.02$ and $-0.86$ at
 $i=0.35$, with the sign changing at $i=0.2059$. The positive region is
