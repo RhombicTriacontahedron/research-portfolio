@@ -64,8 +64,14 @@ closed form from which the capital stock cancels. Read against that
 form, reinvestment lowers the capitalist class’s relative size at every
 rate when the worker reproduces on private consumption alone; the
 public-input weight is the only channel that can reverse the direction,
-and at the reported primitives it does. The paper proves the stationary
-single-crossing results for the public-investment split and
+and at the reported primitives it does. The tax is the exception, and it
+is not a statement about cells: a higher tax lowers the capitalist
+class’s relative size at every admissible public-input weight, because
+the channel through which provision would reverse that sign is one
+strictly positive summand of the very derivative it must outweigh. The
+cap is an identity on the admissible set rather than a restriction on
+the primitives, so no calibration can turn it. The paper proves the
+stationary single-crossing results for the public-investment split and
 reinvestment, and shows how their one-shot margins translate to the full
 payoff at a profile’s own rest point. Moving those results to a fixed
 declared start requires further curvature conditions. The worker’s joint
@@ -3052,41 +3058,44 @@ stronger statement, and it is **false**: at
 $(\alpha,\gamma,\theta,\delta,\delta_G,\tau,\phi)=(0.33,\,0.5,\,0.95,\,0.02,\,0.15,\,0.4,\,1)$
 the derivative is negative at every $i$ sampled across $(10^{-8},0.99)$,
 least negative $-0.962$ as $i\to0$, and the cell is interior throughout
-with $g$ rising through one. The reason is not the sample, and the
-argument that says so is a derivation rather than a denser grid.
-Dropping two positive terms from $(g-1+\delta_G)\mathcal{H}'(g)$ leaves
-$S \le (1-\theta)(g-1+\delta)/\big[i\,(g-1+\delta_G)\big]$. Matching the
-$i$-singular parts of $\mathcal{H}(g)=\mathcal{P}$ makes
-$\ln\big[(g-1+\delta)/i\big]$ an explicit decreasing function of $g$
-alone — its derivative is
-$-\big[1/g+\gamma(1-\theta)/(g-1+\delta_G)\big]$ times a positive
-constant — while $g-1+\delta_G$ increases in $g$. Both movements push
-that upper bound up as $g$ falls, and $g$ falls to
-$1-\min(\delta,\delta_G)$ exactly as $i\to0$. **The bound is therefore
-attained in the limit and not at an interior sample point**, so the
-value there is a supremum over $(0,1)$ rather than a maximum over a
-grid: $0.039$, against $1/(1-i)\ge1$ everywhere. The difference cannot
-change sign, and that conclusion does not depend on where the sample
-points were placed. What is not settled here is the supremum’s closed
-form in the primitives; only that it is a supremum, and that at this
-cell it is far below one. What separates the two cells is which
-depreciation rate is the smaller, and the mechanism is visible in
-$\mathcal{H}$. As $i\to0$ the growth factor is driven to
-$1-\min(\delta,\delta_G)$. If $\delta_G<\delta$ then $g-1+\delta_G\to0$
-while $g-1+\delta$ stays away from zero, so
+with $g$ rising through one, at $A=B=1$. **That refutation does not rest
+on the sample, and it cannot**: what has to be exhibited is a cell in
+which no sign change occurs at any $i$, which is a universal a grid
+cannot deliver. An upper bound on $S$ in closed form rises as $i$ falls,
+so it is approached only in the limit and its value there is a supremum
+over $(0,1)$ rather than a maximum over a grid — at this cell, below
+$0.0383$, against $1/(1-i)\ge1$ everywhere. The difference cannot change
+sign. What is not settled is that supremum’s closed form in the
+primitives; only that it is one, and that here it is far below one. What
+separates the two cells is which depreciation rate is the smaller, and
+the mechanism is visible in $\mathcal{H}$. As $i\to0$ the growth factor
+is driven to $1-\min(\delta,\delta_G)$. If $\delta_G<\delta$ then
+$g-1+\delta_G\to0$ while $g-1+\delta$ stays away from zero, so
 $(g-1+\delta_G)\mathcal{H}'(g)\to\gamma(1-\theta)$, $\mathcal{C}\to1$,
 and $S\sim\alpha/[(1-\alpha)i]$ diverges: the sign change is forced, and
-this is the case the witnesses below occupy. If $\delta<\delta_G$ the
-collapse falls on $g-1+\delta$ instead, $\mathcal{H}'$ diverges through
-its middle term, $\mathcal{C}$ vanishes at the rate of $i$ itself, and
-the $1/i$ in $S$ is cancelled — $S$ approaches a finite limit and may
-never reach one. Two levers move that limit and both were exercised: on
-the cell above the change survives at $\theta=0.1$, where the derivative
-is $+0.41$ near zero, and is gone by $\theta=0.3$, where it is $-0.073$;
-and holding $\theta$ at $0.95$ while closing $\delta_G-\delta$ to
-$10^{-10}$ returns $S$ to $4.5\times10^{4}$ and restores the change.
-Where in the primitive box the boundary lies — the locus on which the
-limit equals one — is not settled here. Witnesses at
+this is the case the witnesses below occupy. **The knife-edge
+$\delta=\delta_G$ falls on that same side, and it is worth separating
+because it reaches the same conclusion through a different limit.**
+There the two collapses are simultaneous, their ratio is one throughout,
+and the middle term survives:
+$(g-1+\delta_G)\mathcal{H}'(g)\to\gamma\big[1-\theta+\alpha\theta\big]/(1-\alpha)$,
+which is finite and strictly positive, so
+$\mathcal{C}\to(1-\alpha)(1-\theta)/(1-\theta+\alpha\theta)$ — strictly
+below one, since one minus it is $\alpha/(1-\theta+\alpha\theta)>0$ —
+while $S\sim\alpha(1-\theta)/\big[(1-\theta+\alpha\theta)\,i\big]$ still
+diverges. **The forced sign change therefore holds on the whole of
+$\delta_G\le\delta$**, and the cap of part (v) is not merely inherited
+in that limit but strict. If $\delta<\delta_G$ the collapse falls on
+$g-1+\delta$ instead, $\mathcal{H}'$ diverges through its middle term,
+$\mathcal{C}$ vanishes at the rate of $i$ itself, and the $1/i$ in $S$
+is cancelled — $S$ approaches a finite limit and may never reach one.
+Two levers move that limit and both were exercised: on the cell above
+the change survives at $\theta=0.1$, where the derivative is $+0.41$
+near zero, and is gone by $\theta=0.3$, where it is $-0.073$; and
+holding $\theta$ at $0.95$ while closing $\delta_G-\delta$ to $10^{-10}$
+returns $S$ to $4.5\times10^{4}$ and restores the change. Where in the
+primitive box the boundary lies — the locus on which the limit equals
+one — is not settled here. Witnesses at
 $(\alpha,\gamma,\theta,\delta,\delta_G,\tau,\phi,B)=(0.33,\,0.5,\,0.6,\,0.08,\,0.05,\,0.4,\,1,\,1)$:
 $\partial\ln\nu^\ast/\partial i=+18.90$ at $i=0.02$ and $-0.86$ at
 $i=0.35$, with the sign changing at $i=0.2059$. The positive region is
@@ -3227,6 +3236,35 @@ only the retention factor moves. At $\theta<1$ the two stated cells are
 interior and admissible under Assumptions 1 and 4 and carry opposite
 signs, which refutes constancy of sign; the intermediate value theorem
 then places a zero between them.
+
+The cell at which *no* change occurs needs a different instrument,
+because what is refuted there — that every $\theta<1$ cell contains a
+change — requires a universal in $i$, and no sample delivers one. A
+cover does. Both the first and the third term of
+$$(g-1+\delta_G)\mathcal{H}'(g)\;=\;\frac{g-1+\delta_G}{g}
+  \;+\;\frac{\gamma\alpha}{1-\alpha}\cdot\frac{g-1+\delta_G}{g-1+\delta}\;+\;\gamma(1-\theta)$$
+are strictly positive on the admissible box, so dropping them can only
+lower the denominator of $S$:
+$$S\;\le\;\frac{(1-\theta)\,(g-1+\delta)}{i\,(g-1+\delta_G)}.$$ The
+remaining $i$ is not free. On the share side of Proposition 6 the only
+$\ln i$ carries the coefficient $\gamma\alpha/(1-\alpha)$, and on the
+growth side so does the only $\ln(g-1+\delta)$; matching them in
+$\mathcal{H}(g)=\mathcal{P}$ therefore makes
+$$\ln\!\Big[\frac{g-1+\delta}{i}\Big]\;=\;\frac{1-\alpha}{\gamma\alpha}
+  \Big[\mathcal{P}_{\!-i}-\ln g-\gamma(1-\theta)\ln(g-1+\delta_G)\Big]$$
+a function of $g$ alone, where $\mathcal{P}_{\!-i}$ collects
+$\mathcal{P}$’s $i$-free terms. Its derivative is
+$-\big[1/g+\gamma(1-\theta)/(g-1+\delta_G)\big](1-\alpha)/(\gamma\alpha)$,
+strictly negative on the admissible box, so $(g-1+\delta)/i$ falls in
+$g$ while $g-1+\delta_G$ rises in it. Both movements push the bound up
+as $g$ falls, and by Theorem 2(ii) $g$ falls to
+$1-\min(\delta,\delta_G)$ exactly as $i\to0$. **The bound is therefore
+attained in the limit and nowhere inside $(0,1)$**, so its value there
+is a supremum and not a sampled maximum. At the stated cell, with
+$A=B=1$ — the calibration at which the quoted $-0.962$ is reproduced —
+that supremum is $0.03824$ to four figures, while $1/(1-i)\ge1$
+throughout; the difference cannot vanish, and the conclusion does not
+depend on where the sample points were placed.
 
 **(iv)** Two routes reach the closed form, and the shorter one is also
 the more general. Setting $\theta=1$ in (N$'''$) makes the exponent
