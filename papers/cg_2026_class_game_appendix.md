@@ -2042,58 +2042,89 @@ signs — a refutation, which a sample can deliver, and not a cover. **The
 two quantifiers are kept apart in the statement itself because they are
 different propositions.** What is refuted is uniformity of sign
 **within** a cell: the witnesses share their entire primitive vector and
-differ only in $i$. What is **not** claimed, and is undischarged, is
-that every $\theta<1$ cell contains a sign change; no such claim is made
-anywhere in the paper. Its one further universal — that the growth
-factor is driven to $1-\min(\delta,\delta_G)$ as $i\to0$ at every
-reproduction scale — is carried by an argument on $H$ and not by the
-sweep that prompted it, $B$ entering $H$ only as a finite additive
-constant. **Its part (iv) carries a weaker hypothesis than the rest of
-the theorem and is listed separately for that reason: it does not use
-Assumption 2’s outer map.** The corner closed form follows from
-Assumption 1’s budget and Lemma 1’s hypothesis — a common strictly
-increasing map, arbitrary otherwise — through Proposition 2(i)’s (N), so
-no reproduction primitive enters the resulting expression and the
-invariance is a statement about Lemma 1 rather than about the
-Cobb–Douglas composite. Assumption 2 is not dispensed with entirely and
-the statement does not claim otherwise: $\theta$ is defined there, so
-naming the corner needs it. What the corner does not need is the form of
-the outer map. Reading the result off (N$'''$) instead is the same
-statement on a stronger hypothesis, and both routes are given. Part (iv)
-is analytic throughout except for one witness: the three instrument
-signs follow from $\kappa_W\ge1-\alpha>0$; the reversal of the split’s
-sign between $\theta=1$ and $\theta<1$ pairs a proved value at the
-corner with a single computed value at the reported cell, holding $\phi$
-and every primitive fixed so that $\theta$ is the only difference. The
-tax is left **undischarged** there by name — a five-point grid found no
-sign change, which refutes nothing and establishes nothing. Proposition
-5$'$ needs Assumptions 1–4 with $\omega<1$ at a constant-share rest
-point where $J$ and $\Omega$ are defined; it is a comparative static in
-$\rho$ holding $(J,\Omega,\zeta,\omega)$ fixed, which makes it a
-statement about (12) rather than about a rest point’s response to a
-primitive. Proposition 5$''$ adds admissibility in Assumption 5’s sense,
-$\tilde\beta<1$ — which is what signs the two objects its proof uses —
-and holds $g$ fixed. Proposition 5$'''$ takes that assumption set at
-$\omega\in[0,1)$ and names properness in its hypotheses rather than
-leaving it to its proof, because it is load-bearing three times over;
-its part (i) is at $\omega=0$ alone and buys a closed form, its part
-(iii) holds at every weight and buys the sign, and where they overlap
-the sign is the same. Proposition 6$'$ needs Assumptions 1–5 with
-$\theta\in(0,1)$ and $\omega<1$, at the corner $\phi=1$ with $i$
-interior, together with one point-hypothesis no other result in the
-paper carries: that $g$ be a point at which the constrained tax
-$\min\{\tau^\ast,\bar\tau\}$ is differentiable, which excludes the
-switch and nothing else. Proposition 6$''$ inherits all of that and adds
-tax interiority, which is why its part (iv) is a statement about the
-interior branch alone; the ceiling branch is Proposition 6$'$(iv)’s
-corollary, and under $(\ddagger)$ the two together cover every fixed
-point. Its parts (iv) and (v) are proved on an interval rather than at a
-fixed point, and the interval’s endpoints are stated with them. The
-reduction of the ceiling margin that §8.1 runs on that interval — the
-two-term bracket and the sharpening that replaces $(\ddagger)$ by
-$\Omega'\le0$ — is proved at every $\omega\in[0,1)$, by the same
-substitution $\mathcal{Q}=(1-\omega)+J\zeta$ for $1+\alpha J$ that
-Theorem 6 uses, together with
+differ only in $i$. **The wider statement — that every $\theta<1$ cell
+contains a sign change — is now refuted too, and by the same kind of
+evidence: one admissible witness.** It was carried as undischarged in
+earlier versions, and a universal is exactly what a witness can kill.
+The refuting cell has $\delta<\delta_G$, which is the side of the
+depreciation comparison the earlier witnesses did not occupy; part (iii)
+gives the limit argument that makes the two sides behave differently,
+and the argument is stated as a mechanism rather than proved as a
+theorem. **What remains genuinely open is narrower and sharper than what
+it replaces**: the locus in the primitive box on which the limiting
+value of $S$ equals one. That is a boundary-location question with a
+named quantity, not an open question about whether the phenomenon
+exists. Its one further universal — that the growth factor is driven to
+$1-\min(\delta,\delta_G)$ as $i\to0$ at every reproduction scale — is
+carried by an argument on $H$ and not by the sweep that prompted it, $B$
+entering $H$ only as a finite additive constant. **Its part (iv) carries
+a weaker hypothesis than the rest of the theorem and is listed
+separately for that reason: it does not use Assumption 2’s outer map.**
+The corner closed form follows from Assumption 1’s budget and Lemma 1’s
+hypothesis — a common strictly increasing map, arbitrary otherwise —
+through Proposition 2(i)’s (N), so no reproduction primitive enters the
+resulting expression and the invariance is a statement about Lemma 1
+rather than about the Cobb–Douglas composite. Assumption 2 is not
+dispensed with entirely and the statement does not claim otherwise:
+$\theta$ is defined there, so naming the corner needs it. What the
+corner does not need is the form of the outer map. Reading the result
+off (N$'''$) instead is the same statement on a stronger hypothesis, and
+both routes are given. Part (iv) is analytic throughout except for one
+witness: the three instrument signs follow from $\kappa_W\ge1-\alpha>0$;
+the reversal of the split’s sign between $\theta=1$ and $\theta<1$ pairs
+a proved value at the corner with a single computed value at the
+reported cell, holding $\phi$ and every primitive fixed so that $\theta$
+is the only difference. **Its part (v) is the tax, and it is a universal
+rather than a witness**: the sign is negative for every $\theta\in(0,1]$
+and everywhere on the admissible box, decided symbolically and not
+sampled. Part (v) supersedes the five-point grid that stood here in
+earlier versions, which refuted nothing and established nothing. Its one
+auxiliary bound, $\mathcal{C}<1$, is not a hypothesis and restricts no
+parameter: $\gamma(1-\theta)$ is one of the three summands of
+$(g-1+\delta_G)\mathcal{H}'(g)$ and the remaining two are strictly
+positive, so the bound is an identity plus positivity rather than a
+condition to be checked. The bound is tight, not generous —
+$\mathcal{C}$ reaches $0.987$ at an admissible point — so it may not be
+weakened to a crude estimate. **Part (v) is the one part of Theorem 2$'$
+that depends on Proposition 6**, and the dependency is substantive
+rather than a convenience: $\partial g/\partial\tau$ is Proposition
+6(ii)’s $g=\mathcal{H}^{-1}(\mathcal{P})$ differentiated, and the bound
+is read off Proposition 6’s displayed $\mathcal{H}$. That is why
+$\mathcal{H}'$ appears here where parts (ii) and (iv) write $H'$: they
+are the same object by Proposition 6(i)’s $H=\mathcal{H}-\mathcal{P}$,
+and part (v) uses the form in which the bound is visible. Both
+Proposition 6 and Theorem 2 stop at $\theta<1$, so part (v)’s use of
+them across $\theta\in(0,1]$ is discharged in its own statement, where
+the endpoint is evaluated rather than approached. Part (v) holds $\phi$,
+$i$ and the primitives fixed and is, like parts (ii) and (iv), a
+statement about (N$'''$) rather than a comparative static in the
+primitives. Proposition 5$'$ needs Assumptions 1–4 with $\omega<1$ at a
+constant-share rest point where $J$ and $\Omega$ are defined; it is a
+comparative static in $\rho$ holding $(J,\Omega,\zeta,\omega)$ fixed,
+which makes it a statement about (12) rather than about a rest point’s
+response to a primitive. Proposition 5$''$ adds admissibility in
+Assumption 5’s sense, $\tilde\beta<1$ — which is what signs the two
+objects its proof uses — and holds $g$ fixed. Proposition 5$'''$ takes
+that assumption set at $\omega\in[0,1)$ and names properness in its
+hypotheses rather than leaving it to its proof, because it is
+load-bearing three times over; its part (i) is at $\omega=0$ alone and
+buys a closed form, its part (iii) holds at every weight and buys the
+sign, and where they overlap the sign is the same. Proposition 6$'$
+needs Assumptions 1–5 with $\theta\in(0,1)$ and $\omega<1$, at the
+corner $\phi=1$ with $i$ interior, together with one point-hypothesis no
+other result in the paper carries: that $g$ be a point at which the
+constrained tax $\min\{\tau^\ast,\bar\tau\}$ is differentiable, which
+excludes the switch and nothing else. Proposition 6$''$ inherits all of
+that and adds tax interiority, which is why its part (iv) is a statement
+about the interior branch alone; the ceiling branch is Proposition
+6$'$(iv)’s corollary, and under $(\ddagger)$ the two together cover
+every fixed point. Its parts (iv) and (v) are proved on an interval
+rather than at a fixed point, and the interval’s endpoints are stated
+with them. The reduction of the ceiling margin that §8.1 runs on that
+interval — the two-term bracket and the sharpening that replaces
+$(\ddagger)$ by $\Omega'\le0$ — is proved at every $\omega\in[0,1)$, by
+the same substitution $\mathcal{Q}=(1-\omega)+J\zeta$ for $1+\alpha J$
+that Theorem 6 uses, together with
 $\mathcal{N}_\omega=\zeta\mathcal{M}+\alpha\tilde\beta\gamma(1-\alpha)\big[\theta+(1-\theta)\Omega\big]\mathcal{Q}$
 in place of Proposition 5$'''$(i)’s $\alpha N$. The interval subdivision
 that closes $63$ of the $216$ cells on that reduction is a computation,
