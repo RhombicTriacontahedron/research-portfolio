@@ -2043,44 +2043,56 @@ two quantifiers are kept apart in the statement itself because they are
 different propositions.** What is refuted is uniformity of sign
 **within** a cell: the witnesses share their entire primitive vector and
 differ only in $i$. **The wider statement — that every $\theta<1$ cell
-contains a sign change — is now refuted too, and by the same kind of
-evidence: one admissible witness.** It was carried as undischarged in
-earlier versions, and a universal is exactly what a witness can kill.
-The refuting cell has $\delta<\delta_G$, which is the side of the
-depreciation comparison the earlier witnesses did not occupy; part (iii)
-gives the limit argument that makes the two sides behave differently,
-and the argument is stated as a mechanism rather than proved as a
-theorem. **What remains genuinely open is narrower and sharper than what
-it replaces**: the locus in the primitive box on which the limiting
-value of $S$ equals one. That is a boundary-location question with a
-named quantity, not an open question about whether the phenomenon
-exists. Its one further universal — that the growth factor is driven to
-$1-\min(\delta,\delta_G)$ as $i\to0$ at every reproduction scale — is
-carried by an argument on $H$ and not by the sweep that prompted it, $B$
-entering $H$ only as a finite additive constant. **Its part (iv) carries
-a weaker hypothesis than the rest of the theorem and is listed
-separately for that reason: it does not use Assumption 2’s outer map.**
-The corner closed form follows from Assumption 1’s budget and Lemma 1’s
-hypothesis — a common strictly increasing map, arbitrary otherwise —
-through Proposition 2(i)’s (N), so no reproduction primitive enters the
-resulting expression and the invariance is a statement about Lemma 1
-rather than about the Cobb–Douglas composite. Assumption 2 is not
-dispensed with entirely and the statement does not claim otherwise:
-$\theta$ is defined there, so naming the corner needs it. What the
-corner does not need is the form of the outer map. Reading the result
-off (N$'''$) instead is the same statement on a stronger hypothesis, and
-both routes are given. Part (iv) is analytic throughout except for one
-witness: the three instrument signs follow from $\kappa_W\ge1-\alpha>0$;
-the reversal of the split’s sign between $\theta=1$ and $\theta<1$ pairs
-a proved value at the corner with a single computed value at the
-reported cell, holding $\phi$ and every primitive fixed so that $\theta$
-is the only difference. **Its part (v) is the tax, and it is a universal
-rather than a witness**: the sign is negative for every $\theta\in(0,1]$
-and everywhere on the admissible box, decided symbolically and not
-sampled. Part (v) supersedes the five-point grid that stood here in
-earlier versions, which refuted nothing and established nothing. Its one
-auxiliary bound, $\mathcal{C}<1$, is not a hypothesis and restricts no
-parameter: $\gamma(1-\theta)$ is one of the three summands of
+contains a sign change — is now refuted too, but *not* by the same kind
+of evidence, and the difference is the point.** It was carried as
+undischarged in earlier versions. A universal over cells is exactly what
+one cell can kill; but establishing that *this* cell contains no change
+is itself a universal in $i$, which no sample delivers. Part (iii)‘s
+proof discharges it with a cover: dropping two strictly positive terms
+from $(g-1+\delta_G)\mathcal{H}'(g)$ bounds $S$ above by an expression
+that rises as $i$ falls, so the bound is attained only in the limit and
+its value there is a supremum over $(0,1)$ rather than a sampled
+maximum. **The two refutations in this part therefore rest on different
+instruments — a witness for the first, a cover for the second — and
+reading the second as a witness is the error the part was rewritten to
+remove.** The refuting cell has $\delta<\delta_G$, which is the side of
+the depreciation comparison the earlier witnesses did not occupy; part
+(iii) gives the limit argument that separates the cases, and the
+comparison has **three** outcomes rather than two — the knife-edge
+$\delta=\delta_G$ falls on the diverging side, by a limit of its own
+that differs from both neighbours’. That argument is stated as a
+mechanism rather than proved as a theorem. **What remains genuinely open
+is narrower and sharper than what it replaces**: the locus in the
+primitive box on which the limiting value of $S$ equals one. That is a
+boundary-location question with a named quantity, not an open question
+about whether the phenomenon exists. Its one further universal — that
+the growth factor is driven to $1-\min(\delta,\delta_G)$ as $i\to0$ at
+every reproduction scale — is carried by an argument on $H$ and not by
+the sweep that prompted it, $B$ entering $H$ only as a finite additive
+constant. **Its part (iv) carries a weaker hypothesis than the rest of
+the theorem and is listed separately for that reason: it does not use
+Assumption 2’s outer map.** The corner closed form follows from
+Assumption 1’s budget and Lemma 1’s hypothesis — a common strictly
+increasing map, arbitrary otherwise — through Proposition 2(i)’s (N), so
+no reproduction primitive enters the resulting expression and the
+invariance is a statement about Lemma 1 rather than about the
+Cobb–Douglas composite. Assumption 2 is not dispensed with entirely and
+the statement does not claim otherwise: $\theta$ is defined there, so
+naming the corner needs it. What the corner does not need is the form of
+the outer map. Reading the result off (N$'''$) instead is the same
+statement on a stronger hypothesis, and both routes are given. Part (iv)
+is analytic throughout except for one witness: the three instrument
+signs follow from $\kappa_W\ge1-\alpha>0$; the reversal of the split’s
+sign between $\theta=1$ and $\theta<1$ pairs a proved value at the
+corner with a single computed value at the reported cell, holding $\phi$
+and every primitive fixed so that $\theta$ is the only difference. **Its
+part (v) is the tax, and it is a universal rather than a witness**: the
+sign is negative for every $\theta\in(0,1]$ and everywhere on the
+admissible box, decided symbolically and not sampled. Part (v)
+supersedes the five-point grid that stood here in earlier versions,
+which refuted nothing and established nothing. Its one auxiliary bound,
+$\mathcal{C}<1$, is not a hypothesis and restricts no parameter:
+$\gamma(1-\theta)$ is one of the three summands of
 $(g-1+\delta_G)\mathcal{H}'(g)$ and the remaining two are strictly
 positive, so the bound is an identity plus positivity rather than a
 condition to be checked. The bound is tight, not generous —
