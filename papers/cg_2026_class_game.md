@@ -57,7 +57,8 @@ primitives, and it arises because labour is an input his production
 needs — not because he values worker numbers as such.
 
 The analysis holds the tax, public-investment split, and reinvestment
-rate at fixed shares. Within that class an interior long-run state
+rate at fixed shares. Within that class, and wherever public provision
+carries some weight in worker reproduction, an interior long-run state
 exists and is unique at every interior setting of the three instruments,
 both classes are present there as a conclusion rather than an
 assumption, and it is locally stable throughout the admissible parameter
@@ -219,16 +220,22 @@ optimisation. What the equilibrium concept is needed for is the rest:
 who chooses which instrument, and which way each margin moves.
 
 Inside the constant-share class the long-run state is not in doubt.
-Wherever both stocks are funded and the capitalist consumes at all there
-is exactly one interior long-run state; it is locally stable at every
-point of the admissible parameter space, and no route to a
-distributional cycle is open at a rest point anywhere in it. Both
-classes are present there as a conclusion and not as an assumption, and
-the class ratio returns to its long-run value from any initial
-composition once the stocks settle, so the composition of the two
-classes is not a knife edge. The one setting that breaks this while the
-stocks still settle is the capitalist’s own: reinvesting everything
-leaves him nothing to consume and stops his dynasty in a single period.
+Wherever both stocks are funded, public provision carries some weight in
+reproduction, and the capitalist consumes at all, there is exactly one
+interior long-run state; it is locally stable at every point of the
+admissible parameter space, and no route to a distributional cycle is
+open at a rest point anywhere in it. The weight is not a technicality:
+at the no-social-wage corner the public stock leaves the growth
+condition altogether, so where it depreciates more slowly than capital
+nothing drives the growth factor above the floor its own depreciation
+sets, and the long-run state can fail to be interior even though the
+reduced condition still has its unique root. Both classes are present
+there as a conclusion and not as an assumption, and the class ratio
+returns to its long-run value from any initial composition once the
+stocks settle, so the composition of the two classes is not a knife
+edge. The one setting that breaks this while the stocks still settle is
+the capitalist’s own: reinvesting everything leaves him nothing to
+consume and stops his dynasty in a single period.
 
 The formal results have clear limits. Deviations are graded only within
 the constant-share class, so nothing below shows that restriction is
@@ -287,22 +294,23 @@ For reinvestment and for the tax every direct route is negative, so for
 those two only the indirect route can change a sign; the split is not in
 that position, its direct route being positive already at the corner.
 Reinvestment’s indirect route carries a free $1/i$ and can be made to
-win. Whether it does is settled rather than surveyed: the direction
-reverses exactly when the public stock depreciates no faster than
-capital, or, where it depreciates faster, when the scale of the
-reproduction technology clears a threshold the paper gives in closed
-form. The tax’s cannot: the strength of its indirect route is bounded by
-the same derivative of the rest-point equation that the route must
-overcome, because the numerator of the one is literally a summand of the
-other. A channel that is capped by its own denominator cannot reverse
-anything, and the tax is therefore the one instrument whose direction is
-a property of the model and not of the cell. That property is read off
-the model’s specified growth side; unlike the displacement result above,
-it is not a form-free fact. What makes that a statement about conditions
-rather than about biology is the engine: one strictly increasing map
-applies to both classes, and only the composite it is applied to
-differs. Whether the financing arrangement is desirable is a welfare and
-institutional question the model does not answer.
+win. Where provision carries any weight at all, whether it does is
+settled rather than surveyed: the direction reverses exactly when the
+public stock depreciates no faster than capital, or, where it
+depreciates faster, when the scale of the reproduction technology clears
+a threshold the paper gives in closed form. The tax’s cannot: the
+strength of its indirect route is bounded by the same derivative of the
+rest-point equation that the route must overcome, because the numerator
+of the one is literally a summand of the other. A channel that is capped
+by its own denominator cannot reverse anything, and the tax is therefore
+the one instrument whose direction is a property of the model and not of
+the cell. That property is read off the model’s specified growth side;
+unlike the displacement result above, it is not a form-free fact. What
+makes that a statement about conditions rather than about biology is the
+engine: one strictly increasing map applies to both classes, and only
+the composite it is applied to differs. Whether the financing
+arrangement is desirable is a welfare and institutional question the
+model does not answer.
 
 # 2. The Model
 
@@ -4473,7 +4481,10 @@ $$\Delta\mathcal{O}\le0:\ \ \Phi'\ge\mathcal{X};
 \Delta>0,\ \mathcal{O}>0:\ \ \Phi'>\mathcal{X}-\gamma(1-\theta)\,\mathcal{O}.$$
 *Which endpoint the last two use is settled with no derivative at all:
 it is $t=1$ when $\Delta<0$ and $t=0$ when $\Delta>0$, and $\Delta\le0$
-exactly when $\Omega\ge(1-\eta)W$.*
+exactly when $\Omega\ge(1-\eta)W$. The endpoints are those of (9)’s open
+interval, which is where the unconstrained root ranges; the instrument
+ceiling $\bar\tau$ does not enter, because $\Delta$ is built from that
+root and not from the constrained tax.*
 
 *(iv) **They contain both standing sufficient conditions, and
 strictly.** Each of
