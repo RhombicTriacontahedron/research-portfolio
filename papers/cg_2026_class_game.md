@@ -4373,7 +4373,8 @@ weights just named.
 
 By $(\flat)$ the order of these conditions is the sign of
 $\delta-\delta_G$ and nothing else. Where $\delta\le\delta_G$ every
-threshold lies at or below the floor $1-\delta_G$, so every one of them
+threshold lies at or below $1-\delta_G$, which is itself at or below the
+admissibility floor $1-\min\{\delta,\delta_G\}$, so every one of them
 holds at every admissible point and none of them restricts anything.
 Where $\delta>\delta_G$ the thresholds rise strictly with $\lambda$, so
 the conditions nest in the order of their weights. Two of the three are
