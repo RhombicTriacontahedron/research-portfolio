@@ -287,7 +287,11 @@ For reinvestment and for the tax every direct route is negative, so for
 those two only the indirect route can change a sign; the split is not in
 that position, its direct route being positive already at the corner.
 Reinvestment’s indirect route carries a free $1/i$ and can be made to
-win. The tax’s cannot: the strength of its indirect route is bounded by
+win. Whether it does is settled rather than surveyed: the direction
+reverses exactly when the public stock depreciates no faster than
+capital, or, where it depreciates faster, when the scale of the
+reproduction technology clears a threshold the paper gives in closed
+form. The tax’s cannot: the strength of its indirect route is bounded by
 the same derivative of the rest-point equation that the route must
 overcome, because the numerator of the one is literally a summand of the
 other. A channel that is capped by its own denominator cannot reverse
@@ -3111,11 +3115,15 @@ $\mathcal{C}\to(1-\alpha)(1-\theta)/(1-\theta+\alpha\theta)$ — strictly
 below one, since one minus it is $\alpha/(1-\theta+\alpha\theta)>0$ —
 while $S\sim\alpha(1-\theta)/\big[(1-\theta+\alpha\theta)\,i\big]$ still
 diverges. **The forced sign change therefore holds on the whole of
-$\delta_G\le\delta$**, and the cap of part (v) is not merely inherited
-in that limit but strict. If $\delta<\delta_G$ the collapse falls on
-$g-1+\delta$ instead, $\mathcal{H}'$ diverges through its middle term,
-$\mathcal{C}$ vanishes at the rate of $i$ itself, and the $1/i$ in $S$
-is cancelled — $S$ approaches a finite limit and may never reach one.*
+$\delta_G\le\delta$**, at both ends and not only at the near one: the
+derivative is positive for small $i$ by the divergence just given, and
+the bound used in the proof below keeps $S$ finite away from $i=0$,
+where $-1/(1-i)$ is not, so it is negative for $i$ near one. The cap of
+part (v) is not merely inherited in that limit but strict. If
+$\delta<\delta_G$ the collapse falls on $g-1+\delta$ instead,
+$\mathcal{H}'$ diverges through its middle term, $\mathcal{C}$ vanishes
+at the rate of $i$ itself, and the $1/i$ in $S$ is cancelled — $S$
+approaches a finite limit and may never reach one.*
 
 *Two levers move that limit and both were exercised: on the cell above
 the change survives at $\theta=0.1$, where the derivative is $+0.41$
@@ -3138,14 +3146,30 @@ evaluated at the endpoint, and nothing else. **The locus is therefore
 not merely a level set but a graph.** $\mathcal{P}_{-i}$ carries $\ln B$
 additively, so $\ln\lim_{i\to0}S$ is **affine in $\ln B$** with slope
 $(1-\alpha)/(\gamma\alpha)>0$: the limit is strictly increasing in the
-reproduction scale, and $\lim_{i\to0}S=1$ has a **unique root
-$B^\ast$**, in closed form in the remaining primitives. **Where
-$B>B^\ast$ the sign change is forced** — the derivative is positive near
-$i=0$ and diverges to $-\infty$ as $i\to1$ — and where $B<B^\ast$ there
-is no change near $i=0$, though whether one occurs at larger $i$ is what
-a cover such as the one above settles. At the cell just quoted
-$B^\ast=2.234$ against the $B=1$ it is evaluated at, which is why the
-sign never turns there. The formula does not reach the knife-edge: as
+reproduction scale, so $\lim_{i\to0}S=1$ has a **unique root**, and
+solving for it turns the boundary into a formula:*
+$$B^\ast \;=\; \frac{1-\delta}{\big(\kappa_W A\big)^{\gamma\theta}}
+  \left(\frac{\delta_G-\delta}{\phi\tau\alpha A}\right)^{\gamma(1-\theta)}
+  \left(\frac{\delta_G-\delta}{(1-\theta)(1-\tau)\alpha A}\right)^{\frac{\gamma\alpha}{1-\alpha}} .$$
+
+***That single comparison decides the sign on the whole of $(0,1)$ and
+not merely near zero.** The bound of the paragraph above falls in $i$
+and is tight at the endpoint, so the supremum of $S$ over $(0,1)$ is the
+limit just displayed and is attained nowhere inside. Hence
+$\partial\ln\nu^\ast/\partial i$ changes sign at some $i\in(0,1)$ **if
+and only if $B>B^\ast$**; where $B\le B^\ast$ it is strictly negative at
+every rate, the threshold itself falling on the no-change side because a
+supremum approached and not attained cannot be reached. Where the change
+does occur the derivative is positive near $i=0$ and diverges to
+$-\infty$ as $i\to1$.*
+
+*On this face it is the reproduction scale that separates two regimes.
+Above $B^\ast$ reinvestment enlarges the capitalist class relative to
+the worker class at low rates and shrinks it at high ones; at or below
+$B^\ast$ it shrinks it at every rate, which is the sign that holds
+throughout the $\theta=1$ corner. At the cell just quoted $B^\ast=2.234$
+against the $B=1$ it is evaluated at, which is why the sign never turns
+there. The formula does not reach the knife-edge: as
 $\delta_G\downarrow\delta$ its exponent diverges, which is the diverging
 branch above meeting this one. Witnesses at
 $(\alpha,\gamma,\theta,\delta,\delta_G,\tau,\phi,B)=(0.33,\,0.5,\,0.6,\,0.08,\,0.05,\,0.4,\,1,\,1)$:
@@ -3164,6 +3188,13 @@ unchanged the sign changes at $i=0.1892$, and just inside the positive
 region, at $i=0.1836$, $\partial\ln\nu^\ast/\partial i=+0.053$ while
 $g=1.0081$. The positive region and the growing region therefore
 intersect.*
+
+*Taken with the depreciation split, that settles the question on the
+whole of the $\theta<1$ region: **$\partial\ln\nu^\ast/\partial i$
+changes sign on $(0,1)$ if and only if $\delta_G\le\delta$ or
+$B>B^\ast$.** Where the public stock depreciates faster than capital the
+reproduction scale decides which way reinvestment moves relative class
+size; where it does not, no scale prevents the reversal.*
 
 *(iv) **At the no-social-wage corner relative class size is a function
 of the instruments and the capital share alone — no feature of the
@@ -3312,11 +3343,30 @@ $g$ while $g-1+\delta_G$ rises in it. Both movements push the bound up
 as $g$ falls, and by Theorem 2(ii) $g$ falls to
 $1-\min(\delta,\delta_G)$ exactly as $i\to0$. **The bound is therefore
 attained in the limit and nowhere inside $(0,1)$**, so its value there
-is a supremum and not a sampled maximum. At the stated cell, with
+is a supremum and not a sampled maximum.
+
+None of that step is specific to a cell, and taking it at a general one
+is what yields the equivalence in the statement. On $\delta<\delta_G$
+the two dropped terms stay bounded as $g\to1-\delta$ while the one
+retained diverges, so the ratio of $S$ to the bound tends to one: the
+supremum is not merely an upper bound on $S$ but $\lim_{i\to0}S$ itself,
+in the closed form displayed above. Since $1/(1-i)>1$ on $(0,1)$ while
+$S$ never reaches its supremum there, $\lim_{i\to0}S\le1$ makes
+$S-1/(1-i)$ strictly negative at every $i$, and $\lim_{i\to0}S>1$ makes
+it positive near zero and $-\infty$ as $i\to1$, so the intermediate
+value theorem places a change. Those two cases are exhaustive and
+$\ln\lim_{i\to0}S$ is affine in $\ln B$ with slope
+$(1-\alpha)/(\gamma\alpha)>0$, so they are exactly $B\le B^\ast$ and
+$B>B^\ast$, with $B^\ast$ obtained by solving $\lim_{i\to0}S=1$ for $B$
+— the display in the statement. The knife-edge $B=B^\ast$ falls on the
+no-change side, since a supremum that is approached and not attained
+cannot be met by $1/(1-i)>1$.
+
+At the stated cell, which is one instance of that partition, with
 $A=B=1$ — the calibration at which the quoted $-0.962$ is reproduced —
-that supremum is $0.03824$ to four figures, while $1/(1-i)\ge1$
-throughout; the difference cannot vanish, and the conclusion does not
-depend on where the sample points were placed.
+that supremum is $0.03824$ to four figures against $B^\ast=2.234$, while
+$1/(1-i)\ge1$ throughout; the difference cannot vanish, and the
+conclusion does not depend on where the sample points were placed.
 
 **(iv)** Two routes reach the closed form, and the shorter one is also
 the more general. Setting $\theta=1$ in (N$'''$) makes the exponent
