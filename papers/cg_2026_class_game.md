@@ -3071,8 +3071,9 @@ reinvestment unambiguously shrinks the capitalist class relative to the
 worker class. At $\theta<1$ it has no uniform sign, and the witnesses
 below settle the sharper of the two readings that claim admits: they
 hold every primitive fixed and vary only $i$, so the sign changes
-**within one admissible cell** rather than merely between two of them.
-Whether **every** $\theta<1$ cell contains such a change is a strictly
+**within one admissible cell** rather than merely between two of them.*
+
+*Whether **every** $\theta<1$ cell contains such a change is a strictly
 stronger statement, and it is **false**: at
 $(\alpha,\gamma,\theta,\delta,\delta_G,\tau,\phi)=(0.33,\,0.5,\,0.95,\,0.02,\,0.15,\,0.4,\,1)$
 the derivative is negative at every $i$ sampled across $(10^{-8},0.99)$,
@@ -3084,20 +3085,23 @@ cannot deliver. An upper bound on $S$ in closed form rises as $i$ falls,
 so it is approached only in the limit and its value there is a supremum
 over $(0,1)$ rather than a maximum over a grid — at this cell, below
 $0.0383$, against $1/(1-i)\ge1$ everywhere. The difference cannot change
-sign. On this face that supremum has a closed form in the primitives,
-derived in the proof, and with it the boundary at which it reaches one.
-What separates the two cells is which depreciation rate is the smaller —
-a comparison with three outcomes, not two — and the mechanism is visible
-in $\mathcal{H}$. As $i\to0$ the growth factor is driven to
-$1-\min(\delta,\delta_G)$. If $\delta_G<\delta$ then $g-1+\delta_G\to0$
-while $g-1+\delta$ stays away from zero, so
-$(g-1+\delta_G)\mathcal{H}'(g)\to\gamma(1-\theta)$, $\mathcal{C}\to1$,
-and $S\sim\alpha/[(1-\alpha)i]$ diverges: the sign change is forced, and
-this is the case the witnesses below occupy. **The knife-edge
-$\delta=\delta_G$ falls on that same side, and it is worth separating
-because it reaches the same conclusion through a different limit.**
-There the two collapses are simultaneous, their ratio is one throughout,
-and the middle term survives:
+sign.*
+
+*On this face that supremum has a closed form in the primitives, derived
+in the proof, and with it the boundary at which it reaches one. What
+separates the two cells is which depreciation rate is the smaller — a
+comparison with three outcomes, not two — and the mechanism is visible
+in $\mathcal{H}$.*
+
+*As $i\to0$ the growth factor is driven to $1-\min(\delta,\delta_G)$. If
+$\delta_G<\delta$ then $g-1+\delta_G\to0$ while $g-1+\delta$ stays away
+from zero, so $(g-1+\delta_G)\mathcal{H}'(g)\to\gamma(1-\theta)$,
+$\mathcal{C}\to1$, and $S\sim\alpha/[(1-\alpha)i]$ diverges: the sign
+change is forced, and this is the case the witnesses below occupy. **The
+knife-edge $\delta=\delta_G$ falls on that same side, and it is worth
+separating because it reaches the same conclusion through a different
+limit.** There the two collapses are simultaneous, their ratio is one
+throughout, and the middle term survives:
 $(g-1+\delta_G)\mathcal{H}'(g)\to\gamma\big[1-\theta+\alpha\theta\big]/(1-\alpha)$,
 which is finite and strictly positive, so
 $\mathcal{C}\to(1-\alpha)(1-\theta)/(1-\theta+\alpha\theta)$ — strictly
@@ -3108,17 +3112,19 @@ $\delta_G\le\delta$**, and the cap of part (v) is not merely inherited
 in that limit but strict. If $\delta<\delta_G$ the collapse falls on
 $g-1+\delta$ instead, $\mathcal{H}'$ diverges through its middle term,
 $\mathcal{C}$ vanishes at the rate of $i$ itself, and the $1/i$ in $S$
-is cancelled — $S$ approaches a finite limit and may never reach one.
-Two levers move that limit and both were exercised: on the cell above
+is cancelled — $S$ approaches a finite limit and may never reach one.*
+
+*Two levers move that limit and both were exercised: on the cell above
 the change survives at $\theta=0.1$, where the derivative is $+0.41$
 near zero, and is gone by $\theta=0.3$, where it is $-0.073$; and
 holding $\theta$ at $0.95$ while closing $\delta_G-\delta$ to $10^{-10}$
-returns $S$ to $4.5\times10^{4}$ and restores the change. **Where in the
-primitive box that boundary lies is not a further question: the same
-identity the paragraph above already uses settles it.** On
-$\delta<\delta_G$ the middle term of $\mathcal{H}'$ is the only one that
-diverges as $g\to1-\delta$, so the $\alpha/(1-\alpha)$ carried by $S$
-cancels against it and*
+returns $S$ to $4.5\times10^{4}$ and restores the change.*
+
+***Where in the primitive box that boundary lies is not a further
+question: the same identity the paragraph above already uses settles
+it.** On $\delta<\delta_G$ the middle term of $\mathcal{H}'$ is the only
+one that diverges as $g\to1-\delta$, so the $\alpha/(1-\alpha)$ carried
+by $S$ cancels against it and*
 $$\lim_{i\to0}S \;=\; \frac{(1-\theta)\,L}{\delta_G-\delta},
 \qquad
 L \;=\; \exp\!\left\{\frac{1-\alpha}{\gamma\alpha}
@@ -5891,9 +5897,11 @@ $(\tilde\beta,g)$ by $\tau/(1-\tau)=(1-\theta)\Omega/(J\alpha T)$; away
 from the corner the split survives into the tax criterion and has to be
 swept, which is what the third grid below does. So the region each
 ranges over can be enumerated rather than sampled from a solved
-equilibrium. On a $51{,}840$-point product grid, $45{,}360$ of whose
-cells are proper with $D_x>0$, $\Omega\in(0,1)$ and $\mathcal{M}>0$
-verified rather than assumed, no cell has
+equilibrium.*
+
+*On a $51{,}840$-point product grid, $45{,}360$ of whose cells are
+proper with $D_x>0$, $\Omega\in(0,1)$ and $\mathcal{M}>0$ verified
+rather than assumed, no cell has
 $\varepsilon_\Lambda\varepsilon^{i}_g\ge1+\Lambda$; the largest ratio to
 the threshold is $0.705$, at $\alpha=0.45$, $\beta=0.90$, $\gamma=0.70$,
 $\theta=0.85$, $\delta=0.02$, $\delta_G=1$, $\sigma=1.5$, $g=1$, where
@@ -5910,50 +5918,56 @@ crossing transversal — at all $41{,}796$ proper cells, the closed form
 of Proposition 11(ii) matches the directly computed derivative at every
 one of them, and the feedback term of (27) reaches at most $0.804$ of
 the restoring term, its worst case falling at $\phi=0.05$ rather than at
-the corner. All three grids stop at a finite elasticity —
-$\sigma\in\{1.5,2,3,6\}$ in the first two and $\{1.5,2,4\}$ in the third
-— while Assumption 3 bounds $\sigma$ only from below, and outside them
-the criterion does fail. At $\alpha=0.60$, $\beta=0.80$,
-$\gamma=\theta=0.95$, $\sigma=12$, $\delta=0.3612$, $\delta_G=0.005$ and
-$g=0.9958$, a cell proper by the same three tests, the feedback term of
-(27) reaches $1.0396$ of the restoring term at $\phi=0.6$ and the
-crossing there is upward. It is not one of the artefacts the pole probes
-below produce: the ratio clears one by $4\times10^{-2}$ rather than by
-$10^{-13}$, its denominator is of order one, and it is unchanged at
-three hundred digits. That cell is not reachable by sampling the box it
-sits in — $229{,}757$ draws with $\sigma\le12$ return nothing above
-$0.9996$, and it was found by maximising the ratio instead — which is
-the sense in which none of these grids is a bound. So $0.804$ is a
-statement about the swept range rather than about the criterion. Nothing
-above it falls: the single-peakedness clause of Proposition 11(iv) is
-conditional on every zero being a strict down-crossing, so what it loses
-at that cell is its hypothesis, not the interval property it proves
-outright from the concavity of $\mathcal{P}$ in the tax. Each criterion
-is then attacked at the poles its own grid cannot reach. For the tax the
-thin place is the permanent public stock: along $g=1+e$, $\delta_G=e$
-the loop gain and the threshold both approach one, the ratio rising
-monotonically to $1-4\times10^{-13}$ at $e=10^{-15}$ without reaching
-one, with the same verdict along fifteen further directions with $g$ and
-$\delta_G$ decoupled and across $9{,}216$ cells at $\delta_G=10^{-10}$;
-the iterated limit is exactly one. The tax is thin at the capital pole
-as well, the ratio reaching $1-2\times10^{-10}$ along $g=1+e$,
-$\delta=e$ at $e=10^{-12}$. For the rate that capital pole is the only
-thin place: the ratio again converges to one from below there, while the
-permanent-stock limit sends it to zero and the properness boundary to
-$-1/2$. Across $45{,}929$ admissible points in eight approach families,
-$35{,}718$ of them with $\varepsilon_\Lambda>0$, there is no confirmed
-crossing; the three apparent ones are sixty-digit rounding artifacts at
+the corner.*
+
+*All three grids stop at a finite elasticity — $\sigma\in\{1.5,2,3,6\}$
+in the first two and $\{1.5,2,4\}$ in the third — while Assumption 3
+bounds $\sigma$ only from below, and outside them the criterion does
+fail. At $\alpha=0.60$, $\beta=0.80$, $\gamma=\theta=0.95$, $\sigma=12$,
+$\delta=0.3612$, $\delta_G=0.005$ and $g=0.9958$, a cell proper by the
+same three tests, the feedback term of (27) reaches $1.0396$ of the
+restoring term at $\phi=0.6$ and the crossing there is upward. It is not
+one of the artefacts the pole probes below produce: the ratio clears one
+by $4\times10^{-2}$ rather than by $10^{-13}$, its denominator is of
+order one, and it is unchanged at three hundred digits. That cell is not
+reachable by sampling the box it sits in — $229{,}757$ draws with
+$\sigma\le12$ return nothing above $0.9996$, and it was found by
+maximising the ratio instead — which is the sense in which none of these
+grids is a bound. So $0.804$ is a statement about the swept range rather
+than about the criterion. Nothing above it falls: the single-peakedness
+clause of Proposition 11(iv) is conditional on every zero being a strict
+down-crossing, so what it loses at that cell is its hypothesis, not the
+interval property it proves outright from the concavity of $\mathcal{P}$
+in the tax.*
+
+*Each criterion is then attacked at the poles its own grid cannot reach.
+For the tax the thin place is the permanent public stock: along $g=1+e$,
+$\delta_G=e$ the loop gain and the threshold both approach one, the
+ratio rising monotonically to $1-4\times10^{-13}$ at $e=10^{-15}$
+without reaching one, with the same verdict along fifteen further
+directions with $g$ and $\delta_G$ decoupled and across $9{,}216$ cells
+at $\delta_G=10^{-10}$; the iterated limit is exactly one. The tax is
+thin at the capital pole as well, the ratio reaching $1-2\times10^{-10}$
+along $g=1+e$, $\delta=e$ at $e=10^{-12}$. For the rate that capital
+pole is the only thin place: the ratio again converges to one from below
+there, while the permanent-stock limit sends it to zero and the
+properness boundary to $-1/2$. Across $45{,}929$ admissible points in
+eight approach families, $35{,}718$ of them with
+$\varepsilon_\Lambda>0$, there is no confirmed crossing; the three
+apparent ones are sixty-digit rounding artifacts at
 $g-1+\delta\approx2\times10^{-42}$ and dissolve at three hundred digits,
 which is also the reason the probes are run at sixty rather than in
-double precision. Two sign witnesses are read off the same enumeration.
-The first grid, crossed with the three splits
-$\phi\in\{1,\ 0.5,\ 0.05\}$, admits an interior zero of $\Xi$ at
-$136{,}080$ of its proper cells, and at those cells (24) is positive at
-$20{,}202$ and negative at $115{,}878$ — which is what makes Proposition
-11(i)’s “unsigned” a property of the tax rather than a limit of its
-decomposition. Neither sweep establishes anything: what (26) and (27)
-establish is the identity, and the inequality in each is a criterion.
-Theorem 6 proves (26)’s; (27)’s is tight and not proved.*
+double precision.*
+
+*Two sign witnesses are read off the same enumeration. The first grid,
+crossed with the three splits $\phi\in\{1,\ 0.5,\ 0.05\}$, admits an
+interior zero of $\Xi$ at $136{,}080$ of its proper cells, and at those
+cells (24) is positive at $20{,}202$ and negative at $115{,}878$ — which
+is what makes Proposition 11(i)’s “unsigned” a property of the tax
+rather than a limit of its decomposition. Neither sweep establishes
+anything: what (26) and (27) establish is the identity, and the
+inequality in each is a criterion. Theorem 6 proves (26)’s; (27)’s is
+tight and not proved.*
 
 The tightness is the same phenomenon Theorem 5 reports and not a new
 one. The split’s own loop gain runs to $0.949$ as $\delta_G\to0$ with
