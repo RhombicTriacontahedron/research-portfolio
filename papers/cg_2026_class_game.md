@@ -70,8 +70,10 @@ class’s relative size at every admissible public-input weight, because
 the channel through which provision would reverse that sign is one
 strictly positive summand of the very derivative it must outweigh. The
 cap is an identity on the admissible set rather than a restriction on
-the primitives, so no calibration can turn it. The paper proves the
-stationary single-crossing results for the public-investment split and
+the primitives, so no calibration can turn it — though, unlike the
+displacement result above, it is read off the model’s specified growth
+side and is not a form-free fact. The paper proves the stationary
+single-crossing results for the public-investment split and
 reinvestment, and shows how their one-shot margins translate to the full
 payoff at a profile’s own rest point. Moving those results to a fixed
 declared start requires further curvature conditions. The worker’s joint
@@ -8068,16 +8070,18 @@ reproduction forecloses is a difference in condition, not a difference
 in number.
 
 That yields the model’s sharpest statement about what fixes those
-conditions, and it is a result here rather than a premise. The
-conditions on which class continuation rests are not fixed by biology or
-by preference: they are a contested outcome, built by instruments the
-two classes set against each other. Proposition 2(iii) shows how little
-it takes to end the worker’s line — the worker’s own split at zero, with
-the stock fully depreciating, and no move by the capitalist required.
-What carries this is not the reproduction technology, which is a single
-increasing map applied to both classes and is stated as such in
-Assumption 2. It is what that map is applied to — a composite one class
-can reach through the public stock and the other cannot.
+conditions, and it is a result here rather than a premise. What carries
+it is not the reproduction technology: that is a single increasing map
+applied to both classes, stated as such in Assumption 2, and it converts
+whatever either class is handed at the same rate. What carries it is the
+composite the map is applied to — one class can reach that composite
+through the public stock and the other cannot. On that margin, and by
+that route, the conditions on which class continuation rests are not
+fixed by biology or by preference: they are a contested outcome, built
+by instruments the two classes set against each other. Proposition
+2(iii) shows how little it takes to end the worker’s line — the worker’s
+own split at zero, with the stock fully depreciating, and no move by the
+capitalist required.
 
 The dependence is mutual. The public stock ties the worker’s
 reproduction to capital income, and the capitalist’s own interior
