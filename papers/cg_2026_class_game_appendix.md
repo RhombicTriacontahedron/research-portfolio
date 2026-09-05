@@ -2060,26 +2060,35 @@ the depreciation comparison the earlier witnesses did not occupy; part
 (iii) gives the limit argument that separates the cases, and the
 comparison has **three** outcomes rather than two — the knife-edge
 $\delta=\delta_G$ falls on the diverging side, by a limit of its own
-that differs from both neighbours’. That argument is stated as a
-mechanism rather than proved as a theorem. **What replaced the earlier
-open item — the locus in the primitive box on which the limiting value
-of $S$ equals one — is now closed on the face where it was posed, and
-closed by the identity part (iii)’s own proof already used.** On
-$\delta<\delta_G$ the middle term of $\mathcal{H}'$ is the only one that
-diverges at the endpoint, so the $\alpha/(1-\alpha)$ in $S$ cancels and
-$\lim_{i\to0}S$ has the closed form displayed there. Because
-$\mathcal{P}_{-i}$ carries $\ln B$ additively, $\ln\lim_{i\to0}S$ is
-**affine in $\ln B$** with slope $(1-\alpha)/(\gamma\alpha)>0$, so the
-limit is strictly increasing in the reproduction scale and the locus is
-a **graph** $B=B^\ast$ rather than an implicit level set: the face is
-partitioned by one comparison, and the sign change near $i=0$ is forced
-exactly where $B>B^\ast$. ⚠ The formula does not extend to
-$\delta=\delta_G$, where its exponent diverges — that is the
-neighbouring branch, and the three-way split above is what keeps them
-apart. What is still not settled on the $\delta<\delta_G$ face is
-whether a change occurs at larger $i$ where $B<B^\ast$; that is what a
-cover decides, cell by cell, and part (iii) exhibits one. Its one
-further universal — that the growth factor is driven to
+that differs from both neighbours’. That argument is no longer only a
+mechanism: part (iii) now states the equivalence it supports, and each
+end of the $\delta_G\le\delta$ branch is signed — the near end by the
+divergence of $S$, the far end by the same bound the proof uses on the
+other face. **What replaced the earlier open item — the locus in the
+primitive box on which the limiting value of $S$ equals one — is now
+closed on the face where it was posed, and closed by the identity part
+(iii)’s own proof already used.** On $\delta<\delta_G$ the middle term
+of $\mathcal{H}'$ is the only one that diverges at the endpoint, so the
+$\alpha/(1-\alpha)$ in $S$ cancels and $\lim_{i\to0}S$ has the closed
+form displayed there. Because $\mathcal{P}_{-i}$ carries $\ln B$
+additively, $\ln\lim_{i\to0}S$ is **affine in $\ln B$** with slope
+$(1-\alpha)/(\gamma\alpha)>0$, so the limit is strictly increasing in
+the reproduction scale and the locus is a **graph** $B=B^\ast$ rather
+than an implicit level set, and the statement displays it in closed
+form. **That comparison settles the sign question on the whole of
+$(0,1)$, not near $i=0$ alone.** The bound part (iii)’s proof already
+carries is tight at the endpoint — the dropped terms stay bounded there
+while the retained one diverges — so the supremum of $S$ over $(0,1)$
+*is* $\lim_{i\to0}S$, and a sign change occurs at some $i$ **if and only
+if** $B>B^\ast$, the knife-edge falling on the no-change side. The cell
+part (iii) exhibits is one instance of that partition rather than the
+extent of what the cover reaches. **Taken with the depreciation branch,
+the two together characterise the whole $\theta<1$ region**: a sign
+change occurs on $(0,1)$ if and only if $\delta_G\le\delta$ or
+$B>B^\ast$. ⚠ The formula does not extend to $\delta=\delta_G$, where
+its exponent diverges — that is the neighbouring branch, and the
+three-way split above is what keeps them apart. Its one further
+universal — that the growth factor is driven to
 $1-\min(\delta,\delta_G)$ as $i\to0$ at every reproduction scale — is
 carried by an argument on $H$ and not by the sweep that prompted it, $B$
 entering $H$ only as a finite additive constant. **Its part (iv) carries
