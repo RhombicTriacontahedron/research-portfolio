@@ -4085,12 +4085,15 @@ unique there. No box, on any cell, returned $\Phi'\le0$.
 
 The cells that do not close are cells on which the *enclosure* stalls,
 and it is worth saying where, because the reason is again a form and not
-a margin. They are concentrated at $\delta=\delta_G$. There the two
-depreciation floors coincide, so $g-1+\delta$ and $g-1+\delta_G$ vanish
-*together* at the admissible floor; $\Omega$ and $J$ vanish with them;
-and the denominator $(1-\theta)\Omega+\alpha JW$ of (9) is then exactly
-zero, so the tax itself is a $0/0$ there. An enclosure cannot evaluate
-that, and until the shared factor is cleared — $\tau^\ast$ written as
+a margin. They are concentrated at $\delta=\delta_G$ — thirty-six cells,
+the balance of the $117$ after the $36$ with $\delta_G<\delta$ and the
+$45$ with $\delta<\delta_G$, so the diagonal is a third case and not a
+rounding of either neighbour. There the two depreciation floors
+coincide, so $g-1+\delta$ and $g-1+\delta_G$ vanish *together* at the
+admissible floor; $\Omega$ and $J$ vanish with them; and the denominator
+$(1-\theta)\Omega+\alpha JW$ of (9) is then exactly zero, so the tax
+itself is a $0/0$ there. An enclosure cannot evaluate that, and until
+the shared factor is cleared — $\tau^\ast$ written as
 $(1-\theta)u_G D_x/\big[(1-\theta)u_G D_x+\alpha u W D_G\big]$, whose
 numerator and denominator share the factor that vanishes — the
 subdivision never reaches the margin at all. Cleared, it does: at
