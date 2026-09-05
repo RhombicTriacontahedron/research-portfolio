@@ -1394,7 +1394,10 @@ class-specific efficiency parameter is exogenous, so it pins the wedge
 and no instrument touches it. Here the shifter $B\,z^{\gamma(1-\theta)}$
 is a state the contested fiscal instrument builds, and the same
 relabelling that makes the verdict apply is what makes the wedge move:
-$\partial \ln\big[B z^{\gamma(1-\theta)}\big]/\partial\phi = \gamma(1-\theta)/\phi \neq 0$.
+$\partial \ln\big[B z^{\gamma(1-\theta)}\big]/\partial\phi = \gamma(1-\theta)/\phi \neq 0$,
+the direct channel with the capital stock and the growth factor held
+fixed — which is all that is needed here, since what is at issue is
+whether the shifter is reachable by an instrument at all.
 
 That the two arguments are genuinely two is not settled by Section 3.
 The risk is not that $z$ is redundant in the distribution state — even a
