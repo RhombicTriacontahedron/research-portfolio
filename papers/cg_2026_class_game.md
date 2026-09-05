@@ -246,16 +246,19 @@ composite of his own consumption and a public stock built from the
 capital share, while the capitalist’s index is his consumption alone. A
 capital-funded public stock can therefore lower the worker’s private
 claim while sustaining the same reproduction rate, leaving the financing
-arrangement tied to the conflict over accumulation. The tie runs in the
-other direction too: the capitalist’s own interior reinvestment rate
-rises with the price he puts on the workforce he must reproduce, the
-rest of his rate rule held fixed. That price is a closed form in the
-primitives, it enters his rate directly, and it arises because labour is
-an input his production needs — not because he values worker numbers as
-such. The qualification is not decorative: what the rule contains is
-that price weighted by the reproduction elasticity, and Section 6
-exhibits a sweep along which the price falls while the rate rises. Class
-condition is what the equalised index pins; what it leaves free is
+arrangement tied to the conflict over accumulation.
+
+The tie runs in the other direction too: the capitalist’s own interior
+reinvestment rate rises with the price he puts on the workforce he must
+reproduce, the rest of his rate rule held fixed. That price is a closed
+form in the primitives, it enters his rate directly, and it arises
+because labour is an input his production needs — not because he values
+worker numbers as such. The qualification is not decorative: what the
+rule contains is that price weighted by the reproduction elasticity, and
+Section 6 exhibits a sweep along which the price falls while the rate
+rises.
+
+Class condition is what the equalised index pins; what it leaves free is
 relative class size, and the instruments are among the things that set
 it through a closed form. That form carries the paper’s own wedge a
 second time: where the worker reproduces on private consumption alone,
@@ -268,23 +271,26 @@ technology absent from it, and all three instruments signed. Public
 provision is what puts the technology back, and it unsettles two of
 those three signs but not the third: the tax’s remains negative
 everywhere, and for a reason the model supplies rather than a range it
-happens to occupy. Each instrument reaches relative class size along two
-kinds of route — directly through the shares, and indirectly through the
-growth factor. For reinvestment and for the tax every direct route is
-negative, so for those two only the indirect route can change a sign;
-the split is not in that position, its direct route being positive
-already at the corner. Reinvestment’s indirect route carries a free
-$1/i$ and can be made to win. The tax’s cannot: the strength of its
-indirect route is bounded by the same derivative of the rest-point
-equation that the route must overcome, because the numerator of the one
-is literally a summand of the other. A channel that is capped by its own
-denominator cannot reverse anything, and the tax is therefore the one
-instrument whose direction is a property of the model and not of the
-cell. What makes that a statement about conditions rather than about
-biology is the engine: one increasing map applies to both classes, and
-only the composite it is applied to differs. Whether the financing
-arrangement is desirable is a welfare and institutional question the
-model does not answer.
+happens to occupy.
+
+Each instrument reaches relative class size along two kinds of route —
+directly through the shares, and indirectly through the growth factor.
+For reinvestment and for the tax every direct route is negative, so for
+those two only the indirect route can change a sign; the split is not in
+that position, its direct route being positive already at the corner.
+Reinvestment’s indirect route carries a free $1/i$ and can be made to
+win. The tax’s cannot: the strength of its indirect route is bounded by
+the same derivative of the rest-point equation that the route must
+overcome, because the numerator of the one is literally a summand of the
+other. A channel that is capped by its own denominator cannot reverse
+anything, and the tax is therefore the one instrument whose direction is
+a property of the model and not of the cell. That property is read off
+the model’s specified growth side; unlike the displacement result above,
+it is not a form-free fact. What makes that a statement about conditions
+rather than about biology is the engine: one increasing map applies to
+both classes, and only the composite it is applied to differs. Whether
+the financing arrangement is desirable is a welfare and institutional
+question the model does not answer.
 
 # 2. The Model
 
