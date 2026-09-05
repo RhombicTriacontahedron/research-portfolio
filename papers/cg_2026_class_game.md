@@ -3069,10 +3069,11 @@ over $(0,1)$ rather than a maximum over a grid — at this cell, below
 $0.0383$, against $1/(1-i)\ge1$ everywhere. The difference cannot change
 sign. What is not settled is that supremum’s closed form in the
 primitives; only that it is one, and that here it is far below one. What
-separates the two cells is which depreciation rate is the smaller, and
-the mechanism is visible in $\mathcal{H}$. As $i\to0$ the growth factor
-is driven to $1-\min(\delta,\delta_G)$. If $\delta_G<\delta$ then
-$g-1+\delta_G\to0$ while $g-1+\delta$ stays away from zero, so
+separates the two cells is which depreciation rate is the smaller — a
+comparison with three outcomes, not two — and the mechanism is visible
+in $\mathcal{H}$. As $i\to0$ the growth factor is driven to
+$1-\min(\delta,\delta_G)$. If $\delta_G<\delta$ then $g-1+\delta_G\to0$
+while $g-1+\delta$ stays away from zero, so
 $(g-1+\delta_G)\mathcal{H}'(g)\to\gamma(1-\theta)$, $\mathcal{C}\to1$,
 and $S\sim\alpha/[(1-\alpha)i]$ diverges: the sign change is forced, and
 this is the case the witnesses below occupy. **The knife-edge
@@ -8071,17 +8072,16 @@ in number.
 
 That yields the model’s sharpest statement about what fixes those
 conditions, and it is a result here rather than a premise. What carries
-it is not the reproduction technology: that is a single increasing map
-applied to both classes, stated as such in Assumption 2, and it converts
-whatever either class is handed at the same rate. What carries it is the
-composite the map is applied to — one class can reach that composite
-through the public stock and the other cannot. On that margin, and by
-that route, the conditions on which class continuation rests are not
-fixed by biology or by preference: they are a contested outcome, built
-by instruments the two classes set against each other. Proposition
-2(iii) shows how little it takes to end the worker’s line — the worker’s
-own split at zero, with the stock fully depreciating, and no move by the
-capitalist required.
+it is not the reproduction technology: that is one increasing map
+applied to both classes and identical for both, stated as such in
+Assumption 2. What carries it is the composite the map is applied to —
+one class can reach that composite through the public stock and the
+other cannot. On that margin, and by that route, the conditions on which
+class continuation rests are not fixed by biology or by preference: they
+are a contested outcome, built by instruments the two classes set
+against each other. Proposition 2(iii) shows how little it takes to end
+the worker’s line — the worker’s own split at zero, with the stock fully
+depreciating, and no move by the capitalist required.
 
 The dependence is mutual. The public stock ties the worker’s
 reproduction to capital income, and the capitalist’s own interior
