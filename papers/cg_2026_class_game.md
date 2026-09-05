@@ -737,21 +737,24 @@ starts give different profiles, what that rules out is a multiplicity of
 growth factors behind them; the sign condition is discharged by an
 interval cover at the reported cells, and on an explicit band of the
 capital share, the public-input weight and the curvature the wedge
-condition carries both conclusions alone. That is not the same object as
-Definition 1, which asks in addition for a global best reply along the
-path from a declared start, and no profile is proved to be one. Two
-steps separated them, both named below: the one-shot bridge, and
-quasi-concavity of the discounted payoff in the deviating share. Section
-8.4 closes the first outright, and reduces the second, by Corollary 2,
-to single-crossing of an explicit scalar function rather than concavity
-of a value function. The fixed declared start has a reduction of its
-own, Theorem 7: concavity of the discounted payoff on a convex set of
-deviating shares follows from concavity of one per-date object at every
-date, for either class and for any number of instruments varied at once.
-What that start costs is therefore a curvature hypothesis on a
-per-period object rather than on a value function, and the sections
-below spend the rest of their effort discharging it instrument by
-instrument. Theorem 5 then closes that question for the fiscal split,
+condition carries both conclusions alone.
+
+That is not the same object as Definition 1, which asks in addition for
+a global best reply along the path from a declared start, and no profile
+is proved to be one. Two steps separated them, both named below: the
+one-shot bridge, and quasi-concavity of the discounted payoff in the
+deviating share. Section 8.4 closes the first outright, and reduces the
+second, by Corollary 2, to single-crossing of an explicit scalar
+function rather than concavity of a value function. The fixed declared
+start has a reduction of its own, Theorem 7: concavity of the discounted
+payoff on a convex set of deviating shares follows from concavity of one
+per-date object at every date, for either class and for any number of
+instruments varied at once. What that start costs is therefore a
+curvature hypothesis on a per-period object rather than on a value
+function, and the sections below spend the rest of their effort
+discharging it instrument by instrument.
+
+Theorem 5 then closes that question for the fiscal split,
 unconditionally on the admissible region: the feedback from the split to
 the growth factor to the transition wedge and back is a contraction, so
 every crossing is downward. Section 8.5 carries the same construction to
@@ -6851,16 +6854,19 @@ term. So $\sup_u\|\mathsf{D}_u\|<\infty$, and
 $\partial\ell_u/\partial s=\nabla\ell(\xi_u)\cdot\mathsf{D}_u+\partial\ell/\partial s$
 is bounded uniformly in $u$: $\mathsf{D}_u$ by the bound just given, the
 gradient and the direct term by continuity along a convergent interior
-path. Nothing ties the split to the point $s$: the contraction
-neighbourhood and $\bar\rho$ serve every share near $s$ at once, the
-rest point moving continuously, and the date $U$ survives small changes
-of the share because it is reached through finitely many smooth
-compositions — so the bound is locally uniform in the share, which is
-what differentiating the series term by term asks. The far-field unit
-root is not contradicted but located: as the start recedes, $U$ and with
-it the bound grow without limit, so the argument yields no bound uniform
-over starts — and the proposition claims none, fixing its start before
-differentiating anything. The chain rule with
+path.
+
+Nothing ties the split to the point $s$: the contraction neighbourhood
+and $\bar\rho$ serve every share near $s$ at once, the rest point moving
+continuously, and the date $U$ survives small changes of the share
+because it is reached through finitely many smooth compositions — so the
+bound is locally uniform in the share, which is what differentiating the
+series term by term asks.
+
+The far-field unit root is not contradicted but located: as the start
+recedes, $U$ and with it the bound grow without limit, so the argument
+yields no bound uniform over starts — and the proposition claims none,
+fixing its start before differentiating anything. The chain rule with
 $\partial\ln\kappa/\partial\phi=-\tau\alpha/\kappa_W$ and
 $\partial\ln\varpi/\partial\phi=1/\phi$ then gives (34) once
 $\Omega^{\rm fix}$ is named. For the signs, write the transition in
