@@ -3052,9 +3052,24 @@ stronger statement, and it is **false**: at
 $(\alpha,\gamma,\theta,\delta,\delta_G,\tau,\phi)=(0.33,\,0.5,\,0.95,\,0.02,\,0.15,\,0.4,\,1)$
 the derivative is negative at every $i$ sampled across $(10^{-8},0.99)$,
 least negative $-0.962$ as $i\to0$, and the cell is interior throughout
-with $g$ rising through one. The reason is not the sample. $S$ is
-bounded there by $0.039$ while $1/(1-i)\ge1$ everywhere, so the
-difference cannot change sign. What separates the two cells is which
+with $g$ rising through one. The reason is not the sample, and the
+argument that says so is a derivation rather than a denser grid.
+Dropping two positive terms from $(g-1+\delta_G)\mathcal{H}'(g)$ leaves
+$S \le (1-\theta)(g-1+\delta)/\big[i\,(g-1+\delta_G)\big]$. Matching the
+$i$-singular parts of $\mathcal{H}(g)=\mathcal{P}$ makes
+$\ln\big[(g-1+\delta)/i\big]$ an explicit decreasing function of $g$
+alone — its derivative is
+$-\big[1/g+\gamma(1-\theta)/(g-1+\delta_G)\big]$ times a positive
+constant — while $g-1+\delta_G$ increases in $g$. Both movements push
+that upper bound up as $g$ falls, and $g$ falls to
+$1-\min(\delta,\delta_G)$ exactly as $i\to0$. **The bound is therefore
+attained in the limit and not at an interior sample point**, so the
+value there is a supremum over $(0,1)$ rather than a maximum over a
+grid: $0.039$, against $1/(1-i)\ge1$ everywhere. The difference cannot
+change sign, and that conclusion does not depend on where the sample
+points were placed. What is not settled here is the supremum’s closed
+form in the primitives; only that it is a supremum, and that at this
+cell it is far below one. What separates the two cells is which
 depreciation rate is the smaller, and the mechanism is visible in
 $\mathcal{H}$. As $i\to0$ the growth factor is driven to
 $1-\min(\delta,\delta_G)$. If $\delta_G<\delta$ then $g-1+\delta_G\to0$
