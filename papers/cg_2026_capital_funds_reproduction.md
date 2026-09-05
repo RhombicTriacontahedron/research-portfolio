@@ -264,7 +264,7 @@ $$
 
 *Proof.* Lemma A.1 gives $x_W=x_C$, which is $h(c_W,z)=c_C$; that step uses strict increase of $F$ and no property of $h$. Suppose $z_1<z_2$ and, for contradiction, $c_1\le c_2$. Monotonicity in the first argument gives $h(c_1,z_1)\le h(c_2,z_1)$, and strict monotonicity in the second gives $h(c_2,z_1)<h(c_2,z_2)$. Hence $h(c_1,z_1)<h(c_2,z_2)$ while both equal $c_C$ — a contradiction. $\square$
 
-No differentiability, no concavity, no continuity and no functional form is used, and neither $\gamma$ nor $B$ appears: the displacement is an order property of the stationarity locus rather than a feature of the technology chosen to represent it. Theorem A.1 is the Cobb–Douglas case, and what that form adds is the closed form and the constant elasticity below — under a composite with a non-unit substitution elasticity the same object varies with the stock — and not the sign.
+No differentiability, no concavity, no continuity and no functional form is used, and neither $\gamma$ nor $B$ appears: the displacement is an order property of the stationarity locus rather than a feature of the technology chosen to represent it. Theorem A.1 is the Cobb–Douglas case of that displacement, and what that form adds is the closed form and the constant elasticity below — under a composite with a non-unit substitution elasticity the same object varies with the stock — and not the sign. The ordering in the theorem has a different parent: the source proves it from a second lemma, resting on idempotence of the index rather than on monotonicity in the private claim, and shows neither lemma to be a corollary of the other. Only the displacement is restated here.
 
 **Theorem A.1 (stationary incidence).** If $\theta\in(0,1)$, then at any interior stationary class ratio
 $$
@@ -279,7 +279,9 @@ $$
 \tag{A.3}
 $$
 
-*Proof.* Lemma A.1 with (A.0) is (A.1). Divide (A.1) by $c_W>0$ to get the first member of (A.2). Solve (A.1) for $c_W$ and divide to get the second. Logs of (A.1) at fixed $c_C$ give $\theta\,d\ln c_W+(1-\theta)\,d\ln z=0$, which is (A.3). The sign is $\theta\in(0,1)$. $\square$
+On that locus the two private claims are ordered by the public stock alone: the capitalist consumes more privately than the worker exactly when public provision per worker exceeds his own private claim — $c_C>c_W$ exactly when $z>c_W$, equivalently exactly when $z>c_C$.
+
+*Proof.* Lemma A.1 with (A.0) is (A.1). Divide (A.1) by $c_W>0$ to get the first member of (A.2). Solve (A.1) for $c_W$ and divide to get the second. Logs of (A.1) at fixed $c_C$ give $\theta\,d\ln c_W+(1-\theta)\,d\ln z=0$, which is (A.3). The sign is $\theta\in(0,1)$. The ordering is the first member of (A.2) read against one: $t\mapsto t^{1-\theta}$ is strictly increasing and takes the value one at $t=1$ because $1-\theta>0$, so $c_C>c_W$ exactly when $z>c_W$; the second member gives the comparison against $c_C$ because $(1-\theta)/\theta>0$. $\square$
 
 **Proposition A.2 (unfunded public stock).** If $\theta<1$ and $\phi=0$, the public stock has no source. If $\delta_G=1$, then $z_1=0$ and $g_{W,1}=0$. If $\delta_G<1$, any $z>0$ that is stationary under (A.4) forces
 $$
