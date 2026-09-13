@@ -16,7 +16,7 @@ property of either class’s objective. The set of per-head distributions a tran
 therefore a single point. What the transfer moves instead is the relative number of people on each
 side. When a public input enters reproduction alongside private consumption, its provision in kind is not inert: its incidence is a closed form in the
 stationary quantities, into which the reproduction technology enters only as a single multiplicative
-constant, and the rate at which it displaces private consumption is a constant of the composite, free
+constant, and the rate at which, along the equalised-reproduction locus with the owner’s claim held fixed, it displaces the worker’s private consumption is a constant of the composite, free
 of that technology altogether. Inertness requires the two classes to share a
 reproduction *elasticity*; it does not require them to share a reproduction *technology*, and that
 weaker hypothesis is what makes the result a statement about reproduction rather than about symmetry.
@@ -24,7 +24,7 @@ The claim is not that markets fail: the first welfare theorem is not at issue he
 results proved where a dynasty’s reproduction is decided and paid for within the dynasty are not
 contested — here the input to one class’s reproduction is set by the division of output between the
 classes. The claim is that the
-remedy the second theorem prescribes is void rather than second-best, and that, where workers are
+remedy the second theorem prescribes is void in the per-head coordinate rather than second-best, and that, where workers are
 reproduced by private consumption alone, the only instrument with a distributional effect is the one the
 theory classifies as a distortion. A produced factor that
 no agent may hold is nobody’s endowment to transfer, and a theorem whose construction redistributes
@@ -58,7 +58,7 @@ is that it was assumed: give both classes the same reproduction technology and o
 alike. The objection fails. The two classes may differ arbitrarily in reproduction *efficiency* — one
 may convert consumption into numbers at any multiple of the other’s rate — and the transfer is still
 inert. What equal efficiency buys is only the numerical value of a constant that no instrument
-touches. Inertness needs the two classes to share the *elasticity* of the reproduction technology and the
+touches. Inertness needs the two classes to share the *elasticity* of the reproduction technology within the power maps of Assumption 2 and the
 public input to be absent from it, and nothing else; if that elasticity differs across classes, inertness
 fails, which is stated here as
 a boundary rather than left as a hope.
@@ -66,7 +66,7 @@ a boundary rather than left as a hope.
 **Provision in kind is the exception, and its incidence is a closed form.** Where the state supplies an
 input to reproduction directly instead of paying cash, the per-head gap becomes a function of policy.
 The exchange rate between public provision and private consumption along the equalised-reproduction
-locus is a constant of the composite, free of the reproduction technology’s level and of every
+locus with the owner’s claim held fixed is a constant of the composite, free of the reproduction technology’s level and of every
 instrument; the reproduction efficiencies that set the cash-economy gap drop out of it entirely.
 
 To be sure, that a subsidy to a class whose numbers respond to income is absorbed by those numbers is
@@ -215,7 +215,9 @@ $\blacksquare$
 
 Two remarks fix what the lemma does and does not use. It uses injectivity of each class’s map and the
 fact that the two maps share an exponent; it uses neither concavity nor differentiability, and it is
-invariant to the solution concept rather than holding at the equilibria of one. And it is strictly
+invariant to the solution concept rather than holding at the equilibria of one. It uses nothing from
+Assumption 1 either, and neither do (3) and (7)–(9): production, the stock laws and the instrument
+bounds enter only Proposition 1(i) and (iii), Proposition 2(c), (10) and Propositions 3–4. And it is strictly
 more general than the common-technology case, which is $B_W = B_C$ and therefore $\chi=1$: there the
 two indices are equal, here they stand in a ratio that the technology fixes and the state cannot move.
 
@@ -393,7 +395,8 @@ relation among the three logarithms. Differentiating along it at fixed $c_C$ giv
 $\theta\,\mathrm{d}\ln c_W + (1-\theta)\,\mathrm{d}\ln z = 0$, so
 $\mathrm{d}\ln c_W/\mathrm{d}\ln z = -(1-\theta)/\theta$. It is negative because $\theta\in(0,1)$,
 constant because $\theta$ is a parameter, and free of $\chi$ because $\ln\chi$ is an intercept in an
-affine relation and differentiation annihilates it.
+affine relation and differentiation annihilates it. (8) is a locus elasticity, not a policy
+comparative static; the stationary response of the gap to the in-kind share is Proposition 4(ii).
 
 For (9), the first form of (7) equals one exactly when $(z/c_W)^{1-\theta}=\chi^{-1}$, that is when
 $z=\chi^{-1/(1-\theta)}c_W=\lambda c_W$, the exponent $1-\theta$ being strictly positive; since the gap
@@ -462,7 +465,8 @@ stands as a statement about the existence of supporting prices, but the policy a
 nothing to stand on.
 
 In the economy of §2 the separation has nothing to stand on, and the reason is not that the theorem is
-false. It is that its instrument has no range.
+false. It is that its instrument has no range in the per-head coordinate: what it moves is the class
+ratio (Proposition 3).
 
 **Proposition 3 (the reachable set of distributions is a point).** *Let Assumptions 1 and 2 hold, fix the
 primitives $(A,\alpha,\delta,\delta_G,B_W,B_C,\gamma)$ and set $\theta=1$. Let $\mathcal{S}$ be the set of interior
@@ -496,6 +500,14 @@ instruments can generate. The second is that those states exist for every admiss
 with $i<1$, so the singleton is not a singleton by default: an image can be a single point because the
 domain is empty, and here it is not.
 
+Nor is the singleton a property of the three instruments of §2. Lemma 1 holds whatever policy
+generated the state, so any rule that redistributes consumption or wealth between the classes — a
+literal lump-sum transfer of wealth included — leaves $c_C/c_W=\chi$ at every interior stationary class
+ratio when $\theta=1$, provided it leaves the population laws of $(\star)$ intact; a transfer of
+persons between the classes is the one redistribution that escapes, because it enters those laws. What
+is not shown for such a rule is that its stationary states exist; Proposition 3 shows it for the
+instruments of §2.
+
 The statement is about a reachable set, and that is the whole of its strength. It is not the familiar
 observation that cash transfers are an imperfect instrument, that they fail to reach a particular
 target, or that provision in kind dominates them under some friction. Those are statements about
@@ -503,6 +515,10 @@ target, or that provision in kind dominates them under some friction. Those are 
 statement about *range*: the image of the entire admissible instrument set, under the map to the
 distributional coordinate, is a single point. Nothing is lost by choosing badly among transfers,
 because there is nothing to choose.
+
+Admittedly, the theorem’s own objects — preferences, a Pareto set over a population that is itself
+produced, supporting prices — are not defined in this economy, and nothing here is a statement about
+them. The claim is about the coordinate the theorem’s transfer is used to set.
 
 Why the theorem is emptied rather than contradicted turns on what its instrument transfers. A lump-sum
 transfer redistributes *endowments* — it moves the ownership of a claim from one agent to another, and
@@ -547,10 +563,11 @@ commitment, because a difference in curvature shows up as a per-head gap that va
 *Deny the fiscal architecture.* One tax base, no credit, no borrowing against the stock being built.
 §6 concedes this is a restriction and not a theorem about all funding routes.
 
-None of the four is a denial that markets allocate efficiently. The first welfare theorem’s hypotheses
-are local non-satiation and price-taking, and nothing above disturbs either. The claim here is
-narrower and, for the policy reader, worse: the first theorem can hold in full, and the compensation
-the second promises is unavailable all the same.
+None of the four is a denial that markets allocate efficiently, and none is a statement about the
+first welfare theorem, whose objects — preferences, prices, a competitive equilibrium — this economy
+does not define; the incidence identities are not efficiency results. The claim here is narrower and,
+for the policy reader, worse: whatever an efficiency result would say of such an economy, the
+compensation the second theorem promises is unavailable in the per-head coordinate all the same.
 
 And the instrument that does work is the one the theory calls a distortion. Provision in kind fixes
 the composition of a household’s claim rather than leaving it to the household, which is precisely the
@@ -560,7 +577,7 @@ closed-form incidence, obtained from no friction on the recipient’s side at al
 unobserved type, no self-selection, no agency problem within the household. It works because it enters
 the production function for workers and cash does not. The ranking between the two instruments is
 therefore reversed at the root: not cash first and in-kind where a friction justifies it, but in-kind
-as the instrument with a distributional object of its own, and cash as the one whose effect is exactly zero when the public input is absent from reproduction ($\theta=1$, Proposition 1) and which, when it is present, reaches the gap only through the private claim — with the fixed-provision elasticity $-(1-\theta)$ of Theorem 1, and with no sign established here for its stationary effect.
+as the instrument with a distributional object of its own, and cash as the one whose effect is exactly zero when the public input is absent from reproduction ($\theta=1$, Proposition 1) and which, when it is present, reaches the gap only through the private claim — with the fixed-provision elasticity $-(1-\theta)$ of Theorem 1, and, at the full rest point, with a signed stationary effect: shifting the receipt toward cash at a given tax rate strictly lowers $c_C/c_W$ (Proposition 4(ii)).
 
 **So what.** The division of labour between markets and policy that the second theorem licenses
 requires an instrument with range. Where the workforce is produced out of the workers’ own
@@ -597,16 +614,71 @@ sides, which is a different paper.
 
 *Determinism, and the long run.* All paths are deterministic and every statement is about a stationary
 class ratio. Under stochastic stationarity the equality of growth factors becomes a statement about
-geometric means, and a per-head gap opens that is the Jensen term in the two classes’ risk difference —
-compensation for risk rather than a distributive wedge. Away from the rest point, transfers move
-per-head consumption in the ordinary way.
+geometric means, and a per-head gap would open that reflects the two classes’ risk difference; that
+extension is not derived here. Away from the rest point, transfers move
+per-head consumption in the ordinary way. Nor is anything here shown about stability: no statement
+says that any path converges to such a state.
 
 *Existence, and what is and is not proved about it.* The statements above are conditional on an
 interior stationary class ratio, and they are written that way. That such states exist under
 Assumptions 1–3 with $B_W \neq B_C$ is established here by exhibiting one at $\theta=1$ (Appendix A.2) and one at $\theta=\tfrac12$ on the same primitives with $(\tau,\phi,i)=(2/5,1/2,3/5)$ — $x=1.02795$, $z=0.88136$, $g=1.21014$, a per-head gap of $0.26748$ equal to (10) to twelve digits, with (A) satisfied — together with
-the monotonicity argument that makes the stationary capital stock unique at $\theta=1$; it is not
-established by a general existence theorem over the whole parameter box, and that is an open item
-rather than a silence.
+the monotonicity argument that makes the stationary capital stock unique at $\theta=1$. At $\theta=1$
+that is a witness, not a theorem over the parameter box. At $\theta<1$ the state at $\theta=\tfrac12$
+illustrates a theorem, and (A) is among its conclusions rather than its hypotheses.
+
+**Proposition 4 (the full rest point).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$. Then (i) there is exactly one interior state at which $x$, $z$ and $\nu$ are all stationary under $(\star)$, and (A) holds there; (ii) at that state, at fixed $\tau$ and $i$, $c_C/c_W$ is strictly increasing in $\phi$.*
+
+*Proof.* **(i)** Stationarity of $\nu$ makes the two growth factors equal; write $g$ for their common
+value. Dividing the two stock laws of $(\star)$ by $N_{W,t+1}=gN_{W,t}$, stationarity of $x$ and of $z$
+reads $x(g-1+\delta) = i(1-\tau)\alpha A x^{\alpha}$ and $z(g-1+\delta_G) = \varpi\alpha A x^{\alpha}$.
+Both right-hand sides are strictly positive, because $i>0$, $\tau\le\bar\tau<1$ and $\varpi=\phi\tau>0$,
+so at any such state with $x,z>0$ both $g-1+\delta$ and $g-1+\delta_G$ are strictly positive: (A) holds,
+and $g$ lies in $(\underline{g},\infty)$ with $\underline{g}\equiv\max\{1-\delta,\,1-\delta_G\}$. On that
+interval the two laws give $x=\big(i(1-\tau)\alpha A/(g-1+\delta)\big)^{1/(1-\alpha)}$ and
+$z=\varpi\alpha A x^{\alpha}/(g-1+\delta_G)$, and substituting them with $c_W=\kappa_W A x^{\alpha}$ into
+$g=B_W(c_W^{\theta}z^{1-\theta})^{\gamma}$ gives
+
+$$g \;=\; D\,(g-1+\delta)^{-\alpha\gamma/(1-\alpha)}\,(g-1+\delta_G)^{-\gamma(1-\theta)}, \tag{12}$$
+
+where $D\equiv B_W(\kappa_W A)^{\gamma\theta}(\varpi\alpha A)^{\gamma(1-\theta)}\big(i(1-\tau)\alpha A\big)^{\alpha\gamma/(1-\alpha)}>0$.
+Conversely, every root $g>\underline{g}$ of (12) returns strictly positive $x$ and $z$ through the same
+two formulas, and a strictly positive $\nu=(1-i)(1-\tau)\alpha A x^{\alpha}(B_C/g)^{1/\gamma}$ from
+$g_C=g$, because $i<1$; so the interior states at which $x$, $z$ and $\nu$ are all stationary are in
+one-to-one correspondence with the roots of (12) in $(\underline{g},\infty)$. On that interval the left
+side of (12) is strictly increasing and, because $\theta<1$ makes both exponents strictly negative, the
+right side is strictly decreasing. As $g\downarrow\underline{g}$ at least one of the two factors on the
+right tends to $+\infty$ and the other to a strictly positive limit or to $+\infty$, so the right side
+tends to $+\infty$ while the left tends to $\underline{g}$; as $g\to\infty$ the right side tends to zero
+and the left to $+\infty$. The difference of the two sides is continuous and strictly monotone, so it
+has exactly one zero.
+
+**(ii)** At fixed $\tau$ and $i$ the root of (12) is the zero of
+$F(g,\phi)\equiv\ln g+\tfrac{\alpha\gamma}{1-\alpha}\ln(g-1+\delta)+\gamma(1-\theta)\ln(g-1+\delta_G)-\ln D$,
+and $g\,\partial F/\partial g = H$ with
+
+$$H \;\equiv\; 1+\frac{\alpha\gamma}{1-\alpha}\,\frac{g}{g-1+\delta}+\gamma(1-\theta)\,\frac{g}{g-1+\delta_G} \;>\; 0 .$$
+
+Write $a_\phi\equiv\partial\ln\kappa_W/\partial\phi=-\alpha\tau/\kappa_W<0$ and
+$b_\phi\equiv\partial\ln\varpi/\partial\phi=1/\phi>0$. Then
+$\partial\ln D/\partial\phi=\gamma\theta a_\phi+\gamma(1-\theta)b_\phi$, and the implicit function
+theorem gives $\mathrm{d}\ln g/\mathrm{d}\phi=\big(\gamma\theta a_\phi+\gamma(1-\theta)b_\phi\big)/H$. By
+(i), (A) holds at the state, so (10) applies there; differentiating its logarithm and substituting,
+
+$$\frac{\mathrm{d}\ln(c_C/c_W)}{\mathrm{d}\phi}
+\;=\;(1-\theta)\Big[b_\phi-a_\phi-\frac{g}{g-1+\delta_G}\,\frac{\mathrm{d}\ln g}{\mathrm{d}\phi}\Big]
+\;=\;(1-\theta)\Big[b_\phi\big(1-Q(1-\theta)\big)+(-a_\phi)(1+Q\theta)\Big],
+\qquad Q\equiv\frac{\gamma\,g}{(g-1+\delta_G)\,H}>0 .$$
+
+Every term is strictly positive: $1-\theta>0$, $b_\phi>0$, $-a_\phi>0$ because $\tau>0$, $1+Q\theta>0$,
+and $1-Q(1-\theta)=\big(1+\tfrac{\alpha\gamma}{1-\alpha}\tfrac{g}{g-1+\delta}\big)/H>0$, its numerator
+being $H$ less its last term. $\blacksquare$
+
+In words: below $\theta=1$ every policy with a positive tax, a positive share in kind and partial
+reinvestment has exactly one full rest point, and at it, moving receipts from the public stock into cash
+at a given tax rate lowers the owner’s per-head consumption relative to the worker’s. The argument needs
+$\theta<1$. At $\theta=1$ the exponent on $g-1+\delta_G$ in (12) vanishes, nothing in the growth
+condition then forces $g>1-\delta_G$, and Appendix A.2 remains a witness rather than an instance of a
+theorem.
 
 **Where this sits, and where it does not.** The question of cash versus provision in kind has a large
 literature, surveyed by Currie and Gahvari (2008). Its mechanisms are not the one here, and the
