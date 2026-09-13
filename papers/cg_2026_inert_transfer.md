@@ -169,9 +169,9 @@ is an equilibrium of any game played over the instruments.
 The condition binds the class ratio and nothing else, and that is deliberate. It is a one-period
 condition: the two dynasties grow at a common rate at this date. The results of §§3–4 are strongest
 precisely because they do not need the capital stock or the public stock to be at rest as well. Where
-the whole state is at rest the condition holds a fortiori, and Appendix A.2 exhibits such a state. Two
-statements below do need the stocks at rest — Theorem 1’s closed form (10), and the instrument half of
-Proposition 2 — and each says so in its own hypotheses.
+the whole state is at rest the condition holds a fortiori, and Appendix A.2 exhibits such a state. Three
+statements below do concern states with the stocks at rest — Theorem 1’s closed form (10), the
+instrument half of Proposition 2, and Proposition 4 — and each says so in its own statement.
 
 **Definition 2 (reproduction index).** Class $j$’s *reproduction index* $x_j$ is the argument of its
 reproduction map: $x_W \equiv c_W^{\theta}z^{1-\theta}$ and $x_C \equiv c_C$, so that
@@ -424,8 +424,14 @@ contrast and not a difference of degree.
 
 *The instrument that reaches the gap is the composition, not the level.* $\varpi=\phi\tau$ and
 $\kappa_W$ both move with $\phi$ at fixed $\tau$, in opposite directions, so the gap responds to how
-the receipt is spent. The gap returns to §3’s constant as $\theta\to1$ with any $\varpi>0$, which is (3)
-recovered from the interior formula rather than proved a second time; a tax whose whole receipt is rebated
+the receipt is spent. At fixed $g$ the gap returns to §3’s constant as $\theta\to1$ with any $\varpi>0$,
+which is (3) recovered from the interior formula rather than proved a second time. Along the full rest
+points of Proposition 4, where $g$ moves with $\theta$, it does so when a full rest point exists at
+$\theta=1$; otherwise $z$ diverges and the gap tends to
+$\chi\big[(1-\delta_G)(\delta-\delta_G)^{\alpha\gamma/(1-\alpha)}/D_1\big]^{1/\gamma}$, where
+$D_1\equiv B_W(\kappa_W A)^{\gamma}\big(i(1-\tau)\alpha A\big)^{\alpha\gamma/(1-\alpha)}$ is the constant of
+(12) at $\theta=1$, and that limit exceeds $\chi$ when the $\theta=1$ root of (12) lies strictly below
+$1-\delta_G$. A tax whose whole receipt is rebated
 in cash sets $\varpi=0$, and under (A) the public-stock law then forces $z=0$, so it is not an interior
 case of Theorem 1 at all.
 
@@ -581,13 +587,13 @@ as the instrument with a distributional object of its own, and cash as the one w
 
 **So what.** The division of labour between markets and policy that the second theorem licenses
 requires an instrument with range. Where the workforce is produced out of the workers’ own
-consumption, the instrument has none, the licensed division of labour is empty, and the choice a
+consumption, the instrument has none in the per-head coordinate, the licensed division of labour is empty, and the choice a
 government faces is not how large a transfer to make but whether to spend at all on the input to
 reproduction. That is a choice about the composition of public spending, and §4 says what it buys.
 
 # 6. Scope, and the boundary of the result
 
-Six restrictions bind every claim above, and each carries a consequence a reader can price.
+Seven restrictions bind every claim above, and each carries a consequence a reader can price.
 
 *The falsifier, and it is sharp.* Proposition 1 needs $\gamma_W=\gamma_C$ and $\theta=1$; at $\theta<1$ the gap is (7) and the private claim is no longer inert, which is Theorem 1 rather than a failure. Proposition 2(b) shows that
 any departure makes the per-head gap a function of the level with elasticity $1-\gamma_C/\gamma_W$.
@@ -606,6 +612,17 @@ above is a theorem that no other funding route exists.
 *The public input is intensive.* Assumption 2 takes $z=G/N_W$. An aggregate or differently congested
 public good is a different model, and the homogeneity that makes the state reduce is a knife-edge in
 the congestion exponent rather than an approximation a little non-rivalry would perturb.
+
+*Workers are counted as persons, not as efficiency units.* $N_W$ and $N_C$ are headcounts, and each
+growth factor is a growth factor in people. The restriction fixes the one exception to containment:
+Lemma 1 contains every redistribution of consumption or wealth between the classes, and a transfer of
+persons escapes it because it enters the population laws of $(\star)$ (§5). To be sure, a reader may
+prefer to count workers in efficiency units. What that reading would change is stated here as a
+conjecture and is not certified: a transfer of persons would become a redistribution of efficiency
+units, which Lemma 1 would absorb like any other, so the exception would belong to the persons reading
+rather than to the economy. The paper takes persons because what the model reproduces is people, and
+because persons is the reading under which the containment result names its exception instead of
+dissolving it.
 
 *No welfare ranking.* Every comparison here is between two instruments at a given stationary class
 ratio. No two populations are compared, so no welfare function over dynastic sizes is written and none
@@ -626,7 +643,7 @@ the monotonicity argument that makes the stationary capital stock unique at $\th
 that is a witness, not a theorem over the parameter box. At $\theta<1$ the state at $\theta=\tfrac12$
 illustrates a theorem, and (A) is among its conclusions rather than its hypotheses.
 
-**Proposition 4 (the full rest point).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$. Then (i) there is exactly one interior state at which $x$, $z$ and $\nu$ are all stationary under $(\star)$, and (A) holds there; (ii) at that state, at fixed $\tau$ and $i$, $c_C/c_W$ is strictly increasing in $\phi$.*
+**Proposition 4 (the full rest point).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$. Then (i) there is exactly one interior state at which $x$, $z$ and $\nu$ are all stationary under $(\star)$, and (A) holds there; (ii) the value of $c_C/c_W$ at the state of (i), as a function of $\phi\in(0,1]$ with $\tau$ and $i$ fixed, is differentiable and strictly increasing.*
 
 *Proof.* **(i)** Stationarity of $\nu$ makes the two growth factors equal; write $g$ for their common
 value. Dividing the two stock laws of $(\star)$ by $N_{W,t+1}=gN_{W,t}$, stationarity of $x$ and of $z$
@@ -645,9 +662,10 @@ Conversely, every root $g>\underline{g}$ of (12) returns strictly positive $x$ a
 two formulas, and a strictly positive $\nu=(1-i)(1-\tau)\alpha A x^{\alpha}(B_C/g)^{1/\gamma}$ from
 $g_C=g$, because $i<1$; so the interior states at which $x$, $z$ and $\nu$ are all stationary are in
 one-to-one correspondence with the roots of (12) in $(\underline{g},\infty)$. On that interval the left
-side of (12) is strictly increasing and, because $\theta<1$ makes both exponents strictly negative, the
-right side is strictly decreasing. As $g\downarrow\underline{g}$ at least one of the two factors on the
-right tends to $+\infty$ and the other to a strictly positive limit or to $+\infty$, so the right side
+side of (12) is strictly increasing and, because the first exponent is strictly negative and the second
+non-positive, the right side is strictly decreasing. As $g\downarrow\underline{g}$ at least one of the two
+bases vanishes and its factor tends to $+\infty$ (for $g-1+\delta_G$ this uses $\theta<1$), while the
+other factor tends to a strictly positive limit or to $+\infty$, so the right side
 tends to $+\infty$ while the left tends to $\underline{g}$; as $g\to\infty$ the right side tends to zero
 and the left to $+\infty$. The difference of the two sides is continuous and strictly monotone, so it
 has exactly one zero.
@@ -675,10 +693,11 @@ being $H$ less its last term. $\blacksquare$
 
 In words: below $\theta=1$ every policy with a positive tax, a positive share in kind and partial
 reinvestment has exactly one full rest point, and at it, moving receipts from the public stock into cash
-at a given tax rate lowers the owner’s per-head consumption relative to the worker’s. The argument needs
-$\theta<1$. At $\theta=1$ the exponent on $g-1+\delta_G$ in (12) vanishes, nothing in the growth
-condition then forces $g>1-\delta_G$, and Appendix A.2 remains a witness rather than an instance of a
-theorem.
+at a given tax rate lowers the owner’s per-head consumption relative to the worker’s. Part (i)’s
+argument needs $\theta<1$ only when $\delta_G<\delta$. At $\theta=1$ the exponent on $g-1+\delta_G$ in (12)
+vanishes and the root is forced above $1-\delta$ but not above $1-\delta_G$, so Appendix A.2, where
+$\delta_G<\delta$, remains a witness rather than an instance of a theorem. When $\delta_G\ge\delta$, (i)
+holds at $\theta=1$ as well, while (ii) does not: there the gap is $\chi$ whatever $\phi$ is.
 
 **Where this sits, and where it does not.** The question of cash versus provision in kind has a large
 literature, surveyed by Currie and Gahvari (2008). Its mechanisms are not the one here, and the
