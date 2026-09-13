@@ -24,8 +24,9 @@ The claim is not that markets fail: the first welfare theorem is not at issue he
 results proved where a dynasty’s reproduction is decided and paid for within the dynasty are not
 contested — here the input to one class’s reproduction is set by the division of output between the
 classes. The claim is that the
-remedy the second theorem prescribes is void rather than second-best, and that the only instrument
-with a distributional effect is the one the theory classifies as a distortion. A produced factor that
+remedy the second theorem prescribes is void rather than second-best, and that, where workers are
+reproduced by private consumption alone, the only instrument with a distributional effect is the one the
+theory classifies as a distortion. A produced factor that
 no agent may hold is nobody’s endowment to transfer, and a theorem whose construction redistributes
 endowments has, for that factor, nothing to construct with.
 
@@ -57,8 +58,9 @@ is that it was assumed: give both classes the same reproduction technology and o
 alike. The objection fails. The two classes may differ arbitrarily in reproduction *efficiency* — one
 may convert consumption into numbers at any multiple of the other’s rate — and the transfer is still
 inert. What equal efficiency buys is only the numerical value of a constant that no instrument
-touches. Inertness needs the two classes to share the *elasticity* of the reproduction technology, and
-nothing else; and if that elasticity differs across classes, inertness fails, which is stated here as
+touches. Inertness needs the two classes to share the *elasticity* of the reproduction technology and the
+public input to be absent from it, and nothing else; if that elasticity differs across classes, inertness
+fails, which is stated here as
 a boundary rather than left as a hope.
 
 **Provision in kind is the exception, and its incidence is a closed form.** Where the state supplies an
@@ -178,7 +180,7 @@ $g_j = B_j x_j^{\gamma}$.
 **Assumption 3 (interiority).** A state satisfies (A) if both stocks carry strictly positive gross
 investment there, $g > 1-\delta$ and $g > 1-\delta_G$, where $g$ is the common growth factor.
 
-Assumption 3 is used only where it is named — in the rest-point form (7) of Theorem 1, which inverts
+Assumption 3 is used only where it is named — in the rest-point form (10) of Theorem 1, which inverts
 the two stock laws, and in the numerical witness of Appendix A.2 that shows the hypothesis set is not
 empty. Neither Lemma 1 nor Proposition 1 needs it.
 
@@ -351,7 +353,7 @@ stationary quantities,*
 $$\frac{c_C}{c_W} \;=\; \chi\Big(\frac{z}{c_W}\Big)^{1-\theta}
                   \;=\; \chi^{1/\theta}\Big(\frac{z}{c_C}\Big)^{(1-\theta)/\theta}, \tag{7}$$
 
-*strictly increasing in public provision per worker relative to the private claim, $z/c_W$; along the equalised-index locus — that is, holding
+*strictly increasing in public provision per worker relative to the private claim, $z/c_W$ — so that at fixed provision the private claim alone moves the gap, with elasticity $-(1-\theta)$, and the inertness of Proposition 1 is the $\theta=1$ face of (7) rather than a property of cash as such; along the equalised-index locus — that is, holding
 $c_C$ fixed — the elasticity of private worker consumption with respect to public provision is constant,
 negative, and free of both reproduction levels,*
 
@@ -419,8 +421,10 @@ contrast and not a difference of degree.
 
 *The instrument that reaches the gap is the composition, not the level.* $\varpi=\phi\tau$ and
 $\kappa_W$ both move with $\phi$ at fixed $\tau$, in opposite directions, so the gap responds to how
-the receipt is spent. A tax whose whole receipt is rebated in cash sets $\varpi=0$ and returns the gap
-to §3’s constant, which is (3) recovered from the interior formula rather than proved a second time.
+the receipt is spent. The gap returns to §3’s constant as $\theta\to1$ with any $\varpi>0$, which is (3)
+recovered from the interior formula rather than proved a second time; a tax whose whole receipt is rebated
+in cash sets $\varpi=0$, and under (A) the public-stock law then forces $z=0$, so it is not an interior
+case of Theorem 1 at all.
 
 *The productivity level, the capital stock and the class ratio are absent.* $A$, $x^{\ast}$ and
 $\nu^{\ast}$ cancel; they reach the private gap only through the common growth factor. What is left is
@@ -444,7 +448,7 @@ worker’s private claim alone.
 settled class structure separates them completely. An economy can equalise what reproduces its classes
 while running whatever private consumption gap the composition of the worker’s claim implies — and the
 state sets that composition. Redistribution here works by displacing the wage, not by supplementing
-it, and the quantity it moves is the one the previous section proved a transfer cannot.
+it, and the quantity it moves is the one the previous section proved a transfer cannot at $\theta=1$.
 
 # 5. What this does to the second welfare theorem
 
@@ -556,7 +560,7 @@ closed-form incidence, obtained from no friction on the recipient’s side at al
 unobserved type, no self-selection, no agency problem within the household. It works because it enters
 the production function for workers and cash does not. The ranking between the two instruments is
 therefore reversed at the root: not cash first and in-kind where a friction justifies it, but in-kind
-as the only instrument with a distributional object, and cash as the one whose effect is exactly zero.
+as the instrument with a distributional object of its own, and cash as the one whose effect is exactly zero when the public input is absent from reproduction ($\theta=1$, Proposition 1) and which, when it is present, reaches the gap only through the private claim — with the fixed-provision elasticity $-(1-\theta)$ of Theorem 1, and with no sign established here for its stationary effect.
 
 **So what.** The division of labour between markets and policy that the second theorem licenses
 requires an instrument with range. Where the workforce is produced out of the workers’ own
@@ -568,7 +572,7 @@ reproduction. That is a choice about the composition of public spending, and §4
 
 Six restrictions bind every claim above, and each carries a consequence a reader can price.
 
-*The falsifier, and it is sharp.* Proposition 1 needs $\gamma_W=\gamma_C$. Proposition 2(b) shows that
+*The falsifier, and it is sharp.* Proposition 1 needs $\gamma_W=\gamma_C$ and $\theta=1$; at $\theta<1$ the gap is (7) and the private claim is no longer inert, which is Theorem 1 rather than a failure. Proposition 2(b) shows that
 any departure makes the per-head gap a function of the level with elasticity $1-\gamma_C/\gamma_W$.
 Proposition 2(c) shows that, at such states with $i>0$ and $\tau>0$, the cash instrument then reaches that
 level; at $\tau=0$ there is nothing to route and it reaches nothing. This is the
@@ -599,7 +603,7 @@ per-head consumption in the ordinary way.
 
 *Existence, and what is and is not proved about it.* The statements above are conditional on an
 interior stationary class ratio, and they are written that way. That such states exist under
-Assumptions 1–3 with $B_W \neq B_C$ is established here by exhibiting one (Appendix A.2), together with
+Assumptions 1–3 with $B_W \neq B_C$ is established here by exhibiting one at $\theta=1$ (Appendix A.2) and one at $\theta=\tfrac12$ on the same primitives with $(\tau,\phi,i)=(2/5,1/2,3/5)$ — $x=1.02795$, $z=0.88136$, $g=1.21014$, a per-head gap of $0.26748$ equal to (10) to twelve digits, with (A) satisfied — together with
 the monotonicity argument that makes the stationary capital stock unique at $\theta=1$; it is not
 established by a general existence theorem over the whole parameter box, and that is an open item
 rather than a silence.
