@@ -16,7 +16,7 @@ edges of their ranges gains, so along the equilibrium the classes do not interac
 Four results follow. First, each
 class’s preferred capital-income tax is a function of the **other** class’s reproduction elasticity
 and of its own never; symmetrising the two stocks’ laws of motion does not symmetrise this. This
-first result holds only with logarithmic objectives. At every non-unit intertemporal elasticity
+first result is proved only with logarithmic objectives. At every non-unit intertemporal elasticity
 tested, each class’s own elasticity moves its preferred rate, so the cross is
 a property of the logarithm and is claimed only there. Second,
 both classes’ payoffs are strictly concave in the tax, so, with investment at the owner’s choice, the
@@ -131,7 +131,7 @@ The results above are obtained on a restricted face of the model: one period is 
 capital and the public stock depreciate fully, and both objectives are logarithmic. On that face the
 economy has no strategic interaction at all. Each class’s policy is a constant share containing none
 of the other’s instruments, so neither class’s choice responds to the other’s and the “game” is not a
-game. The cross of §4 needs the logarithm, and §4.4 shows that it fails without it; the results of
+game. The cross of §4 is proved only with the logarithm, and §4.4 shows that it fails at every non-unit elasticity tested; the results of
 §§5–6 do not use the cross and have not been tested off the face.
 
 That is a cost, and §3 states it before any result rests on it, because it removes one explanation
@@ -182,7 +182,7 @@ $\phi_t\in(0,1]$ of the revenue is provided in kind, as a public good that enter
 of the workforce; the remaining share $1-\phi_t$ is rebated to workers in cash. Workers therefore
 consume
 
-$$\kappa(\tau_t,\phi_t)\,Y_t,\qquad \kappa(\tau,\phi)\equiv(1-\alpha)+(1-\phi)\,\tau\,\alpha .$$
+$$C^{W}_t=\kappa(\tau_t,\phi_t)\,Y_t,\qquad \kappa(\tau,\phi)\equiv(1-\alpha)+(1-\phi)\,\tau\,\alpha .$$
 
 Owners choose the share $i_t\in(0,1)$ of after-tax capital income they invest, and consume the rest:
 $C^{C}_t=(1-i_t)(1-\tau_t)\alpha Y_t$.
@@ -211,7 +211,7 @@ depreciation, $K_{t+1}=B_K I_t$. Section 4 releases $\gamma_K$.
 ## 2.3 Preferences
 
 Owners value consumption and, with weight $\omega\in[0,1)$, the capital stock itself — a
-wealth-in-the-objective term, carried so that the results can be shown not to turn on it. Both
+wealth-in-the-objective term, carried so that the results can be shown not to turn on it; only the agreement of Proposition 10(iv) is stated at $\omega=0$. Both
 classes’ *preferred rates* are free of $\omega$; it survives only in the owner’s investment share
 and at interior points of the bargaining frontier:
 
@@ -246,10 +246,10 @@ model reduces to the standard one where it should.
 assets, the government taxes capital income to fund transfers to them — with one primitive changed:
 part of the transfer is an input to a *produced stock* that the recipients cannot sell. What follows
 rests on that change and on the face of this section. It also rests on where the tax falls and on
-what workers value, and Proposition 10 shows that the class disagreement comes from these two, not
+what workers value, and Proposition 10 shows that, with an owner who has no taste for wealth, the class disagreement comes from these two, not
 from the fact that nobody owns the workforce.
 
-# 3. The face closes in dominant strategies
+# 3. The face closes in constant shares
 
 ## 3.1 The structure, and its name
 
@@ -298,7 +298,7 @@ therefore policy-independent, each class’s first-order conditions are free of 
 and the argmax is the same at every state.
 
 **Proposition 2 (deviations outside the class).** *Let the instruments be confined to a compact
-subset of the interior of their ranges. Then the constant shares are optimal among all Markov rules,
+subset of $(0,1)$ for the tax and the investment share, and of $(0,1]$ for the split. Then the constant shares are optimal among all Markov rules,
 not only within value functions affine in the logs.* Two facts give it. Under the affine guess each
 Bellman right-hand side separates exactly into a term in the state and a term in the instruments,
 with no product of the two, so the argmax over instruments is the same at every state. And the
@@ -319,10 +319,12 @@ they stay finite while they do.
 $\phi$ is strictly concave with a unique maximiser $\phi^{\star}$, so any rule that makes the split
 respond to the state is strictly worse for him at every state at which the rule does not return
 $\phi^{\star}$; for a rule strictly monotone in a scalar index of the state, that is every state off
-one level set of that index.* The rule that would annihilate the payoff-relevance of the public stock is strictly monotone as a
-split. It is available to the worker, and he does not want it. Neither does he want a
-state-dependent rule that annihilates nothing, so what he declines is state-dependence and not
-annihilation.
+one level set of that index.* Because no instrument enters the state coefficients of the transitions, the worker’s payoff from any
+realised sequence of splits is $p\,k_0+q\,n_0+r\,g_0$, plus terms free of the split, plus
+$\sum_{t\ge0}\beta^{t}h(\phi_t)$ with $h(\phi)=\beta\bigl[q\gamma\theta\ln\kappa(\tau,\phi)+r\ln\phi\bigr]$.
+Since $h''(\phi)=-\beta q\gamma\theta(\alpha\tau)^2/\kappa(\tau,\phi)^2-\beta r/\phi^2<0$, a split that responds
+to the state lowers every term at which it differs from $\phi^{\star}$ and raises none: it is available to
+the worker, and he does not want it.
 
 ## 3.3 The concession
 
@@ -348,7 +350,7 @@ output raises the maintenance of the workforce. At any tax other than $\tau_C$, 
 investment paired with a small move of the tax toward $\tau_C$ therefore makes both classes strictly
 better off (Proposition 6). This is ordinary under-investment: the owner does not count what his
 capital is worth to workers. A bargain over the tax and the investment share together raises
-investment above the owner’s own choice at every positive weight on workers, and it leaves the
+investment above the owner’s own choice at every weight on workers strictly between zero and one, and it leaves the
 bargained tax of Proposition 8 unchanged, because the tax’s first-order condition does not involve the
 investment share. Lancaster’s inefficiency needs strategy, and cooperation removes it; this one needs
 none, and a bargain that reaches the investment share removes it.
@@ -791,8 +793,7 @@ Galor and Moav (2006) were read in working-paper form, of February 2015 and Augu
 locator given for them is working-paper pagination. Fershtman (1987) was read at source.
 Propositions 1, 2, 3 and 7 are proved in the text and not in Appendix A. The instrument-independence
 of Proposition 1 and the common split of Proposition 7 were verified symbolically; Propositions 2
-and 3 rest on the arguments of §3.2, and Proposition 3’s concavity in the split is asserted there
-without its second derivative written out.
+and 3 rest on the arguments of §3.2.
 
 **What would break the paper.** Three things, each checkable, and the first has happened. The
 cross-structure of §4 fails under a non-unit intertemporal elasticity (§4.4), so §4 is withdrawn as
@@ -912,9 +913,9 @@ $U^C=S_C(\tau)+(1-\omega)\ln(1-i)+\beta a\ln i$ and $U^W=S_W(\tau)+\beta p\ln i$
 $S_j(\tau)=M_j\ln(1-\tau)+N_j\ln\tau$. At $i^\star$, $\partial U^C/\partial i=0$ (Proposition 1) and
 $\partial U^W/\partial i=\beta p/i^\star>0$ (A.3). Fix $\tau_0\neq\tau_C$, so that
 $s\equiv S_C'(\tau_0)\neq0$, and move the tax by $\varepsilon\,\mathrm{sgn}(s)$ and the investment
-share by $\kappa\varepsilon$ with $\kappa>|S_W'(\tau_0)|\,i^\star/(\beta p)$. The owner gains
+share by $\mu\varepsilon$ with $\mu>|S_W'(\tau_0)|\,i^\star/(\beta p)$. The owner gains
 $|s|\varepsilon+O(\varepsilon^2)$ and the worker at least
-$\bigl(\beta p\kappa/i^\star-|S_W'(\tau_0)|\bigr)\varepsilon+O(\varepsilon^2)$, both strictly positive
+$\bigl(\beta p\mu/i^\star-|S_W'(\tau_0)|\bigr)\varepsilon+O(\varepsilon^2)$, both strictly positive
 for small $\varepsilon$. Because both payoffs are additively separable in $\tau$ and $i$, the
 first-order condition in $\tau$ of $\lambda U^W+(1-\lambda)U^C$ does not involve $i$, so the bargained
 tax of Proposition 8 is the same whether or not the investment share is also bargained. The bargained
