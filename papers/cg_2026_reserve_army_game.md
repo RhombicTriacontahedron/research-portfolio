@@ -26,8 +26,8 @@ unchanged; a boundary rationing capital’s accumulation can reverse
 labour’s half of the ranking or capital’s, as labour’s wage is held or
 re-optimised, respectively. Where the ceilings move with the
 unemployment pool, the separation breaks, at most one compromise exists
-where labour is pinned to its ceiling, and labour’s stationary behaviour
-is optimal while capital’s remains unproved.
+where labour is pinned to its ceiling, and it is an equilibrium wherever
+the law of motion survives full employment.
 
 # 1. Introduction
 
