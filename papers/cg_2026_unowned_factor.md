@@ -71,7 +71,11 @@ of it: in an economy where a tax on intergenerational transfers funds public sch
 rate is *unanimous* across classes and the redistribution is Pareto-improving. Their own §4.4 marks
 the boundary of that result — *“if the government would be engaged in direct transfers from the rich
 to the poor in addition to the provision of public schooling, then a conflict would emerge between
-the classes”* — and they do not model the conflict. Nor is the sign of a worker-preferred capital
+the classes”* — and they do not model the conflict. Acemoglu, Gitmez and Shadmehr (2026) give the
+owner a different reason to want a positive tax spent in kind: a state acting for the owners of
+capital that redistributes rather than represses sets a strictly positive tax on income at every
+labour share and spends it on a public good for workers, because what a worker would forfeit by
+joining a revolt lowers the risk that the regime falls. Nor is the sign of a worker-preferred capital
 tax news: Straub and Werning (2020), revisiting Judd (1985) and Chamley (1986), show that the
 zero-long-run-tax result already fails under logarithmic capitalist utility, a failure they
 attribute to Lansing (1999). This paper reproduces their number as a nesting check in §5 and claims
@@ -971,6 +975,8 @@ expansion was carried out by computer algebra. $\qquad\blacksquare$
 
 # References
 
+-   Acemoglu, D., A. A. Gitmez, and M. Shadmehr (2026). “Automation and Repression.” NBER Working
+    Paper 35336. DOI 10.3386/w35336.
 -   Barro, R. J. (1990). “Government Spending in a Simple Model of Endogenous Growth.” *Journal of
     Political Economy* 98(5, Part 2): S103–S125. DOI 10.1086/261726.
 -   Chamley, C. (1986). “Optimal Taxation of Capital Income in General Equilibrium with Infinite
