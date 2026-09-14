@@ -14,12 +14,14 @@ period a generation, full depreciation, logarithmic objectives — the two choos
 income whatever the tax (Straub and Werning 2020, §2.2), while the Pareto-optimal division at weight
 $\lambda$ on the worker is $i(\lambda)=w_K/(w_C+w_K)$, which exceeds $i^{*}$ for every $\lambda>0$ and
 equals it at $\lambda=0$. The planner’s shortfall is exactly
-$(w_C+w_K)\,D_{\mathrm{KL}}\!\left(i(\lambda)\,\|\,i^{*}\right)$. The separation does not come from the
-unownable stock: the fiscal instruments reach that stock’s accumulation margin in full, and both classes
-want the same amount spent on it. It comes from the ownable stock, and it is zero exactly when the state
-places no weight on labour. Nor does closing it require a state that holds capital. What fails is any
-instrument levied on a base the owner’s consumption and reinvestment share; a subsidy to reinvestment paid
-out of the take, holding no capital, attains the agent’s allocation at every interior weight.
+$(w_C+w_K)\,D_{\mathrm{KL}}\!\left(i(\lambda)\,\|\,i^{*}\right)$. The missing margin is not the
+unownable stock’s: the fiscal instruments reach that stock’s accumulation margin in full, and both classes
+want the same amount spent on it. It is the ownable stock’s division. But the state’s reason to move that
+division runs through the unownable stock: the shortfall is sized by the worker’s valuation of capital,
+which is of the order of the elasticity of the workforce’s reproduction in produced inputs and vanishes
+with it, and it is zero exactly when the state places no weight on labour. Nor does closing it require a
+state that holds capital. What fails is a flat rate on the owner’s net income; a subsidy to reinvestment
+paid out of the take, holding no capital, attains the agent’s allocation at every interior weight.
 
 # 1. Introduction
 
@@ -65,8 +67,8 @@ second-best retuning of the tax partly substitutes for the missing instrument, a
 split are the ones he would have chosen with the instrument in hand (Proposition 3). Third, the shortfall
 has a closed form: a Kullback–Leibler divergence between the division the state wants and the division the
 owner chooses, zero exactly when the state is the owner’s agent (Theorem 1). Fourth, the missing
-instrument is not ownership. The instruments that fail are those levied on a base the owner’s consumption
-and reinvestment share; a subsidy to reinvestment, with no holding, reaches the relaxation at every
+instrument is not ownership. The instruments that fail are flat rates on the owner’s net income; a subsidy
+to reinvestment, with no holding, reaches the relaxation at every
 interior weight (Sections 6 and 7).
 
 **And the obvious mechanism is wrong**, which is worth saying plainly because it is the mechanism this
@@ -76,7 +78,10 @@ agent holding both would face both margins at once. Proposition 4 refutes that r
 Switch the public input out of both classes’ payoffs entirely and the separation is unchanged; both
 classes want the same amount spent on the workforce, so there is no conflict on that margin to resolve;
 and the owner’s own value function prices the workforce strictly positively — it is untradeable, not
-unpriced. The separating margin is the *ownable* stock.
+unpriced. The separating margin is the *ownable* stock. What Proposition 4 refutes is that the separation
+lives on the workforce’s margin, not that it owes nothing to the workforce: the state wants the owner’s
+division moved because the worker values capital, and the worker values capital only because output feeds
+the workforce’s reproduction (Section 4).
 
 Section 2 sets out the economy. Section 3 establishes what the planner can reach, Section 4 what he
 cannot and by how much, Section 5 which margin does the separating, Section 6 what the result is not and
@@ -281,9 +286,13 @@ log-score maximiser’s optimum and any other point on the simplex is exactly a 
 is $\beta(1-\omega)\lambda p$. A state that is the owner’s agent needs no instrument the planner lacks; the
 separation is *zero exactly when the state places no weight on labour*, and the division the state wants
 rises strictly with that weight, since $(w_C+w_K)^2\,di(\lambda)/d\lambda = \beta(1-\omega)p > 0$. The
-shortfall itself is not proportional to $\lambda$, and no monotonicity of $\Delta$ is claimed. So the
-contribution is not that state ownership does something. It is that a state which weights labour at all
-wants a division that no tax on the owner’s income can reach.
+shortfall itself is not proportional to $\lambda$, and no monotonicity of $\Delta$ is claimed. The
+worker’s valuation of capital is itself of the order of $\gamma$, the elasticity of reproduction in produced
+inputs: from (C), $p/\gamma \to \alpha\beta(\theta+\beta(1-\theta))/\big((1-\beta)(1-\alpha\beta)\big)$ as
+$\gamma \to 0$, so the cleared gap $\beta(1-\omega)\lambda p$ vanishes once output no longer feeds the
+workforce. So the contribution is not that state ownership does something. It is that a state which
+weights labour at all wants a division that no flat rate on the owner’s income can reach, and wants it
+because the workforce is reproduced from output.
 
 **Remark 2 (the only claim made against B1).** Against a small fiscal state, $\tau \to 0$, both classes’
 payoffs are strictly concave in the tax with $\operatorname{sign}(\partial U_j/\partial\tau) = \operatorname{sign}(\tau_j - \tau)$,
@@ -323,10 +332,10 @@ with a strictly positive coefficient, through its effect on the output his capit
 cannot do is *hold a claim* on it — and Proposition 4 shows that this untradeability is not what
 separates the two problems.
 
-*So what.* The separating margin is the ownable stock, not the unownable one. What a tax on the owner’s
+*So what.* The separating margin is the ownable stock, not the unownable one. What a flat tax on the owner’s
 income cannot imitate is not access to an unpriced asset. It is a hand in how a *priced*, *owned* asset’s
 return is divided between consumption and accumulation — and the owner’s first-order condition fixes that
-division at a number no such tax appears in.
+division at a number no flat tax appears in.
 
 # 6. What this result is not
 
@@ -344,10 +353,10 @@ undiscounted.
 The comparison here is a different one. Both sides of it are cooperative and both carry the *same* Pareto
 weight. The planner is unconstrained in his own instruments: by Proposition 3 he even chooses the tax and
 the split he would have chosen with the missing instrument in hand. What separates them is the *reach of the
-instruments*, not the presence of a commitment problem — and on this face there is no commitment problem
-to have. The economy closes in dominant strategies, so there is no strategic interaction to sustain and no
-pledge anyone needs to make. A planner who could commit to anything he liked would gain nothing, because
-what he lacks is not credibility but reach.
+instruments*, not the presence of a commitment problem — and a planner confined to flat rates has no
+commitment problem to have. With flat rates the economy closes in dominant strategies, so there is no
+strategic interaction to sustain and no pledge anyone needs to make. A planner confined to flat rates gains
+nothing from commitment; what he lacks is an instrument whose marginal bite differs from its average.
 
 The horizon is not this paper’s card, and it should not be played as one. Lancaster’s own footnote says
 the infinite-horizon extension can never be made to his bang-bang apparatus, but the infinite-horizon,
@@ -356,19 +365,21 @@ toward showing cooperation sustainable rather than toward a new inefficiency. Th
 to that repair: it concerns what a *cooperative* solution can reach with a given instrument set, which is
 a question the sustainability literature does not ask.
 
-What reaches the margin, then, is decided by the base an instrument is levied on, not by how many
-instruments there are. The owner’s net income enters his consumption and his reinvestment as a common
-factor, so no instrument on a base the two share — a capital-income tax, a lump-sum levy, any number of
-them — moves $s_K/(s_C+s_K)$ off $i^{*}$. An instrument levied on one side does move it: a subsidy to
-reinvestment paid out of the take, or a tax on the owner’s consumption, each at the rate
-$i^{*}(1-i^{*})$ per unit at zero. A subsidy $w$ sets the division at any $x \ge i^{*}$ with
-$1+w = x(1-i^{*})/\big(i^{*}(1-x)\big)$, and at none below. The negative result of this paper is about the
-first set.
+What reaches the margin, then, is decided by whether an instrument’s marginal bite on reinvestment differs
+from its average bite on the owner’s income, not by how many instruments there are. The owner’s net income
+enters his consumption and his reinvestment as a common factor, so a flat rate on that income, at any level
+and in any number, leaves $s_K/(s_C+s_K)$ at $i^{*}$. An instrument whose margin differs from its average
+moves it: a subsidy to reinvestment paid out of the take, or a tax on the owner’s consumption, each at the
+rate $i^{*}(1-i^{*})$ per unit at zero; a levy fixed in levels rather than in proportion to output, at
+least when the workforce is held constant; or a capital-income tax whose rate falls with the capital stock.
+A subsidy $w$ sets the division at any $x \ge i^{*}$ with $1+w = x(1-i^{*})/\big(i^{*}(1-x)\big)$, and at
+none below. The falling rate is levied on the same base as the flat tax, and on this face it is not
+sequentially optimal, so it needs commitment. The negative result of this paper is about flat rates.
 
-*So what.* If the result were a commitment result it would be fifty years old. It is a result about the
-base an instrument is levied on, and the two are distinguished by a test: give the planner unlimited
-commitment power and this shortfall does not move; give him a subsidy to reinvestment and, at every
-interior weight, it closes.
+A commitment result would be fifty years old, and this is not one; but neither is it
+independent of commitment. A planner confined to flat rates falls short however credible he is. A planner
+who can commit to a rate that falls with the capital stock moves the division, and one who subsidises
+reinvestment closes the shortfall at every interior weight.
 
 # 7. Scope, and what is not settled
 
@@ -392,8 +403,9 @@ at B4’s shares; the budget closes with $s_W \ge 1-\alpha$ because B4 satisfies
     B2’s reachable set is the *fixed* slice $s_K/(s_C+s_K)=i^{*}$, that Proposition 3’s cross-partials
     vanish, and that the shortfall takes Theorem 1(iii)’s divergence form. Straub and Werning (2020, §2.3)
     work on that domain with a general savings rule and sign the long-run tax; they state no comparison with
-    an agent who sets the owner’s saving. Non-attainment itself survives an owner with constant relative
-    risk aversion $\sigma>0$ and a logarithmic worker: at the relaxation’s allocation the weighted marginal
+    an agent who sets the owner’s saving. For tax paths that do not respond to the
+    owner’s capital, non-attainment itself survives an owner with constant relative risk aversion
+    $\sigma>0$ and a logarithmic worker: at the relaxation’s allocation the weighted marginal
     gain from investment is $(1-\lambda)$ times the owner’s own plus $\lambda\beta p/i$, and $p>0$, so the
     owner under-invests there at every $\lambda\in(0,1]$. That argument is checked symbolically and is not
     printed as a proposition. The size of the gap off the face, and a non-logarithmic worker, are
@@ -410,7 +422,9 @@ at B4’s shares; the budget closes with $s_W \ge 1-\alpha$ because B4 satisfies
     entirely. These verdicts are checked symbolically and are not propositions of this paper.
 3.  *Other holdings.* A holding that earns its pro-rata share of capital income (no closed form was found);
     a state that matches the owner’s investment by a known rule, under which the owner keeps $i^{*}$ and
-    whether B4 is reached depends on the parameters; state-contingent rules; and whether the corner
+    whether B4 is reached depends on the parameters; state-contingent rules, of which Section 6 shows only
+    that a committed rate falling with the capital stock moves the division, not that any attains B4; and
+    whether the corner
     implementation of item 2 is time-consistent for the state.
 4.  *Positioning rests on two bodies read at source.* Lancaster (1973) is read, and so are pp. 1–13 and
     15–18 of the working-paper version of Straub and Werning (2020); the published text’s pagination is not
