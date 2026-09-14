@@ -4,8 +4,9 @@ Carlos Galindo Escajeda
 
 # Abstract
 
-An economy accumulates two stocks out of one period’s output. Capital is owned, and its owner decides how
-much of his net income to reinvest. The workforce is produced from worker consumption and a public input,
+An economy accumulates three stocks out of one period’s output: capital, the workforce, and a public
+input to the workforce. Capital is owned, and its owner decides how
+much of his net income to reinvest. The workforce is produced from worker consumption and that public input,
 and no agent may hold a claim on it. Set a benevolent planner who levies a capital-income tax and splits
 the proceeds against an agent who chooses the period’s allocation outright. On a tractable face — one
 period a generation, full depreciation, logarithmic objectives — the two choose the *same* tax and the
@@ -84,7 +85,7 @@ settled.
 
 # 2. The economy
 
-Two classes, two produced stocks, and one period a generation.
+Two classes, three produced stocks, and one period a generation.
 
 **Technology.** Output is $Y_t = K_t^{\alpha} N_t^{1-\alpha}$, with $\alpha \in (0,1)$ capital’s share and
 $N_t$ the workforce. Three stocks are carried: capital $K$, the workforce $N$, and a public stock $G$.
@@ -134,6 +135,7 @@ c &= \beta\, b\, \gamma(1-\theta), & r &= \beta\, q\, \gamma(1-\theta),
 with $D \equiv \gamma(1-\theta)+\gamma\theta\alpha$. Writing $Q \equiv 1-\alpha\beta+\beta\gamma(1-\theta+\alpha\theta)$
 and $\Delta \equiv (1-\beta)Q$, the closed forms are
 $$p = \frac{\alpha\beta\gamma\,(\theta+\beta(1-\theta))}{\Delta}, \quad
+q = \frac{1-\alpha\beta}{\Delta}, \quad
 b = \frac{(1-\alpha)\,(1-\omega(1-\beta))}{\Delta}, \quad
 c = \frac{\beta\gamma(1-\alpha)(1-\theta)(1-\omega(1-\beta))}{\Delta}, \quad
 r = \frac{\beta\gamma(1-\theta)(1-\alpha\beta)}{\Delta},$$
@@ -145,8 +147,9 @@ $a(1-\alpha\beta) = (1-\omega)\alpha+\omega+\alpha\beta(b\gamma\theta+c) > 0$.
 its baseline $\gamma_K=1$) and are used here without re-derivation; so are the two classes’ preferred
 taxes $\tau_C$ and $\tau_W$, the fact that both classes prefer the *same* split $\varphi(\tau)$ (its
 Proposition 7), the Pareto interval $[\tau_C,\tau_W]$, and the weighted tax $\tau(\lambda)$ of Remark 1
-(its Proposition 8). Propositions 1–4 and Theorem 1 are this paper’s own; the invariance of a logarithmic
-owner’s saving share that Proposition 2 uses is not (Straub and Werning 2020, §2.2).
+(its Proposition 8). Propositions 1–4 and Theorem 1 are this paper’s own, except that Proposition 4(ii) restates its
+Proposition 7 with a one-line proof. The invariance of a logarithmic
+owner’s saving share that Proposition 2 uses is not this paper’s (Straub and Werning 2020, §2.2).
 
 *So what.* The economy has three instruments’ worth of freedom in the allocation — the tax, the split and
 the reinvestment rate — and a fiscal authority owns two of them. Everything below is about the third.
@@ -173,7 +176,7 @@ is a function of the inherited state alone, since $\ln Y$ enters both classes’
 coefficients free of $(\tau,\varphi,i)$. Taking the $\lambda$-weighted sum gives (1) with the stated
 weights. Positivity follows from $b,c,p,q,r>0$ and $a>0$. $\square$
 
-**Proposition 2 (the planner’s reachable set is a codimension-one slice).** *The map
+**Proposition 2 (the planner’s reachable set is a codimension-one slice).** *For $\tau\in(0,1)$ the map
 $(\tau,\varphi,i)\mapsto(s_C,s_K,s_W,s_G)$ has rank three, and the map $(\tau,\varphi)\mapsto s$ has rank
 two. The direction the planner loses is*
 $$\frac{\partial s}{\partial i} \;=\; (1-\tau)\alpha\,(-1,\,+1,\,0,\,0) ,$$
@@ -183,7 +186,9 @@ $$i^{*} \;=\; \frac{\beta a}{(1-\omega)+\beta a}$$
 *contains neither $\tau$ nor $\varphi$, so B2’s reachable set is exactly the slice
 $\{\,s_K/(s_C+s_K) = i^{*}\,\}$ and no fiscal instrument moves off it.*
 
-*Proof.* The Jacobian ranks are immediate from (S). For $i^{*}$: of the owner’s four instrument terms
+*Proof.* The Jacobian ranks are immediate from (S): the $\varphi$-column is $\tau\alpha(0,0,-1,1)$, the
+$i$-column is $(1-\tau)\alpha(-1,1,0,0)$, and only the $\tau$-column moves $s_C+s_K$. At $\tau=0$ the
+$\varphi$-column vanishes; at $\tau=1$ the $i$-column vanishes and $s_K/(s_C+s_K)$ is $0/0$. For $i^{*}$: of the owner’s four instrument terms
 only the first two contain $i$, so taking $(\tau,\varphi)$ as given he maximises
 $f(i) = (1-\omega)\ln s_C + \beta a \ln s_K$ with $s_C=(1-i)(1-\tau)\alpha$ and $s_K=i(1-\tau)\alpha$. The
 factor $(1-\tau)\alpha$ is common to both logarithms and so drops from the first-order condition
@@ -205,11 +210,16 @@ no $i$ and the second no $(\tau,\varphi)$. The value of the inner problem in $i$
 differs between free and pinned $i$ by a constant in $\Sigma$, so the two outer problems have identical
 first-order conditions. $\square$
 
-**Remark 1 (what that common tax is).** At the provision corner $\varphi=1$ the no-labour-tax constraint
-binds with equality and the common tax is $\tau(\lambda) = w_G/(w_C+w_K+w_G)$, which rises with $\lambda$
-across exactly $[\tau_C,\tau_W]$, with $\tau(0)=\tau_C>0$ for $\theta<1$ and $\tau(1)=\tau_W$. This is
-Proposition 8 of Galindo Escajeda (2026) and is not re-derived here; it is quoted because it makes the force of
-Proposition 3 concrete. The kill test the paper set itself asked whether a planner *constrained* to the
+**Remark 1 (what that common tax is).** Write $\bar\tau(\lambda) \equiv w_G/(w_C+w_K+w_G)$. The
+provision corner $\varphi=1$ is optimal exactly when $\bar\tau(\lambda) \le \beta(1-\theta)(1-\alpha)/(\alpha\theta)$,
+the condition Galindo Escajeda (2026) gives, after its Proposition 7, for the common split to exceed one.
+There the no-labour-tax constraint binds with equality and the common tax is $\tau(\lambda)=\bar\tau(\lambda)$;
+where the condition holds at every $\lambda$, that tax rises with $\lambda$ across exactly $[\tau_C,\tau_W]$,
+with $\tau(0)=\tau_C>0$ for $\theta<1$ and $\tau(1)=\tau_W$. Where it fails, the split is interior, part of
+the take is paid to workers in cash, and the common tax exceeds $\bar\tau(\lambda)$. Theorem 1 holds in
+either case, because by Proposition 3 the division problem does not depend on the tax or the split. The
+corner tax is Proposition 8 of Galindo Escajeda (2026) and is not re-derived here; it is quoted because it
+makes the force of Proposition 3 concrete. The kill test the paper set itself asked whether a planner *constrained* to the
 same tax and split falls short. Proposition 3 answers a stronger question: he is not constrained, and he
 falls short anyway.
 
@@ -295,8 +305,12 @@ strictly positively.*
 
 *Proof.* (i) Setting $\theta=1$ in (C) gives $c=\beta b\gamma(1-\theta)=0$ and $r=\beta q\gamma(1-\theta)=0$,
 hence $w_G=0$; substituting into the clearing computation of Theorem 1(ii) leaves it term for term, and
-the closed form for $p$ evaluates as stated, positive since $\beta<1$ and $\alpha\beta<1$. (ii) and (iii)
-are companion results, re-run here rather than re-derived. $\square$
+the closed form for $p$ evaluates as stated, positive since $\beta<1$ and $\alpha\beta<1$. (ii) At a given
+$\tau>0$ each class’s objective is strictly concave in $\varphi$, and its first-order condition gives
+$s_G/s_W = c/(b\gamma\theta)$ for the owner and $r/(q\gamma\theta)$ for the worker. By the last row of
+(C), $c/b = r/q = \beta\gamma(1-\theta)$, so the two coincide; if the common interior split exceeds one,
+both sit at the corner $\varphi=1$. At $\tau=0$ the split moves no share. (iii) $b$ is printed in closed
+form in Section 2 and is positive, since $\omega<1$ and $\beta<1$. $\square$
 
 Each part removes one version of the spanning story.
 
