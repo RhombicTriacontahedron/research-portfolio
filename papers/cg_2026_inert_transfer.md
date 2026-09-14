@@ -15,9 +15,9 @@ composition of public spending and the reinvestment rate are absent from that ra
 property of either class’s objective. The set of per-head distributions a transfer can reach is
 therefore a single point. What the transfer moves instead is the relative number of people on each
 side. When a public input enters reproduction alongside private consumption, its provision in kind is not inert: its incidence is a closed form in the
-stationary quantities, into which the reproduction technology enters only as a single multiplicative
+stationary quantities, into which the two classes’ reproduction levels and their common elasticity enter only as a single multiplicative
 constant, and the rate at which, along the equalised-reproduction locus with the owner’s claim held fixed, it displaces the worker’s private consumption is a constant of the composite, free
-of that technology altogether. Inertness requires the two classes to share a
+of both. Inertness requires the two classes to share a
 reproduction *elasticity*; it does not require them to share a reproduction *technology*, and that
 weaker hypothesis is what makes the result a statement about reproduction rather than about symmetry.
 The claim is not that markets fail: the first welfare theorem is not at issue here, and efficiency
@@ -61,10 +61,13 @@ inert. What equal efficiency buys is only the numerical value of a constant that
 touches. Inertness needs the two classes to share the *elasticity* of the reproduction technology within the power maps of Assumption 2 and the
 public input to be absent from it, and nothing else; if that elasticity differs across classes, inertness
 fails, which is stated here as
-a boundary rather than left as a hope.
+a boundary rather than left as a hope. The requirement falls short of a common technology for
+reproduction maps of any shape, not only for power maps: Proposition 5, in the appendix, gives the exact
+condition.
 
 **Provision in kind is the exception, and its incidence is a closed form.** Where the state supplies an
-input to reproduction directly instead of paying cash, the per-head gap becomes a function of policy.
+input to reproduction directly instead of paying cash, the per-head gap becomes a function of policy, and in particular of how the
+receipt is split between that provision and cash.
 The exchange rate between public provision and private consumption along the equalised-reproduction
 locus with the owner’s claim held fixed is a constant of the composite, free of the reproduction technology’s level and of every
 instrument; the reproduction efficiencies that set the cash-economy gap drop out of it entirely.
@@ -80,7 +83,7 @@ empty it, because the factor whose per-head return is in question is *produced*,
 that no agent may hold is nobody’s endowment to transfer.
 
 **What is not claimed.** The first welfare theorem is untouched here, and so are the efficiency results
-proved for economies in which a dynasty’s reproduction is decided and paid for within the dynasty: there
+proved for economies in which a dynasty’s reproduction is decided and paid for within the dynasty (Golosov, Jones and Tertilt 2007): there
 the input to reproduction is the dynasty’s own consumption, whereas here the input to one class’s
 reproduction is set by the division of output between the classes, and that is the whole of the
 difference. Nothing below should be read as an efficiency result; the two theorems have different
@@ -153,9 +156,9 @@ and Assumption 2 permits it without restriction. To differ in $\gamma$ they woul
 *curvature* of the map — in the rate at which the return to an extra unit of consumption falls away —
 which is a stronger and different claim, and one a reader is entitled to ask for a reason before
 granting. The asymmetry a reader reaches for first is therefore exactly the asymmetry this paper
-permits, and §3’s Proposition 2 shows it is the only one the result can survive. Nothing here says the
+permits, and §3’s Proposition 2 shows that, within the power maps of Assumption 2, it is the only one the result can survive. Nothing here says the
 two elasticities must coincide in any observed economy. The claim is that the coincidence is what the
-result needs, that it is strictly weaker than a common technology, and that its failure has an
+result needs, that within those maps it is strictly weaker than a common technology, and that its failure has an
 observable signature — a per-head gap that moves with the level.
 
 The public input enters per worker. An aggregate or differently congested public good is a different
@@ -220,6 +223,8 @@ Assumption 1 either, and neither do (3) and (7)–(9): production, the stock law
 bounds enter only Proposition 1(i) and (iii), Proposition 2(c), (10) and Propositions 3–4. And it is strictly
 more general than the common-technology case, which is $B_W = B_C$ and therefore $\chi=1$: there the
 two indices are equal, here they stand in a ratio that the technology fixes and the state cannot move.
+At $\theta<1$ that special case depends on the unit in which the public stock is measured, because $\chi$
+then carries the units of $(c/z)^{1-\theta}$; no result below uses it there.
 
 The first corner is the one where the public input is switched off, so that the only live instrument is
 a transfer of cash.
@@ -333,7 +338,11 @@ requirement is tight: any difference in that curvature, however small, makes the
 function of the level, and at a state whose stocks are also at rest the cash instrument moves that
 level. The knife-edge, if one wants to call it that, is at the exponent and not at the technology, and
 Appendix A.1 bounds it: the departure from inertness is continuous in the elasticity difference and
-nil at their coincidence.
+nil at their coincidence. That the requirement falls short of a common technology is not a feature of
+power maps. For reproduction maps of any shape, Proposition 5 in Appendix A.1 shows that the per-head
+gap takes one value across a range of stationary states exactly when, over that range, the workers’ map
+is the owners’ map applied to a fixed multiple of the workers’ consumption. A common technology is the
+case in which the multiple is one, and for power maps the condition is a common exponent.
 
 **So what.** An economist now knows that the per-head distribution between two classes in this economy
 is not a policy variable, and that the familiar reading of a cash transfer’s incidence — someone bears
@@ -462,7 +471,7 @@ it, and the quantity it moves is the one the previous section proved a transfer 
 # 5. What this does to the second welfare theorem
 
 The second fundamental theorem of welfare economics says that in a convex economy with continuous,
-convex and locally non-satiated preferences, every Pareto-efficient allocation can be supported as a
+convex and strongly monotone preferences, every Pareto-efficient allocation can be supported as a
 competitive equilibrium after a lump-sum redistribution of endowments. Its content is constructive,
 and the construction is what economists use: it is the licence for treating efficiency and
 distribution as separable problems, the first to be settled by prices and the second afterwards by
@@ -578,18 +587,22 @@ be sized apart from the composition of public spending.
 None of the five is a denial that markets allocate efficiently, and none is a statement about the
 first welfare theorem, whose objects — preferences, prices, a competitive equilibrium — this economy
 does not define; the incidence identities are not efficiency results. The claim here is narrower and,
-for the policy reader, worse: whatever an efficiency result would say of such an economy, the
-compensation the second theorem promises is unavailable in the per-head coordinate all the same.
+for the policy reader, worse. Where private consumption is the only input to reproduction, whatever an
+efficiency result would say of such an economy, the compensation the second theorem promises is
+unavailable in the per-head coordinate all the same. Where it is not, the compensation cannot be sized
+apart from the composition of public spending.
 
-And the instrument that does work is the one the theory calls a distortion. Provision in kind fixes
+And what makes the gap a policy variable at all is an input to reproduction that only provision in kind
+supplies, the instrument the theory calls a distortion. Provision in kind fixes
 the composition of a household’s claim rather than leaving it to the household, which is precisely the
 ground on which standard treatments class it as a second-best expedient: cash dominates unless a
 friction can be named on the recipient’s side. Theorem 1 gives it a distributional effect with a
 closed-form incidence, obtained from no friction on the recipient’s side at all — no paternalism, no
 unobserved type, no self-selection, no agency problem within the household. It works because it enters
-the production function for workers as an input of its own, while cash enters it only through the private claim. The ranking between the two instruments is
-therefore reversed at the root: not cash first and in-kind where a friction justifies it, but in-kind
-as the instrument with a distributional object of its own, and cash second. Cash’s effect is exactly zero when the public input is absent from reproduction ($\theta=1$, Proposition 1); when it is present, it reaches the gap at fixed provision only through the private claim, with the elasticity $-(1-\theta)$ of Theorem 1. At the full rest point a shift of the receipt toward cash at a given tax rate also withdraws provision, and the shift strictly lowers $c_C/c_W$ (Proposition 4(ii)).
+the production function for workers as an input of its own, while cash enters it only through the private claim. What is reversed at the root is therefore the
+explanation, and not a ranking of the two instruments: at a given tax rate they are a single choice,
+since whatever is not provided in kind is paid in cash. Cash’s effect is exactly zero when the public input is absent from reproduction ($\theta=1$, Proposition 1); when it is present, it reaches the gap at fixed provision only through the private claim, with the elasticity $-(1-\theta)$ of Theorem 1. At the full rest point a shift of the receipt toward cash at a given tax rate also withdraws provision, and the shift strictly lowers $c_C/c_W$ (Proposition 4(ii)). At that rest point, then, provision in kind is the instrument that raises the owner’s per-head
+consumption relative to the worker’s, and cash is the one that lowers it.
 
 **So what.** The division of labour between markets and policy that the second theorem licenses
 requires an instrument with range. Where the workforce is produced out of the workers’ private
@@ -609,7 +622,7 @@ Proposition 2(c) shows that, at such states with $i>0$ and $\tau>0$, the cash in
 level; at $\tau=0$ there is nothing to route and it reaches nothing. This is the
 result’s boundary and it is stated as such: the
 paper does not claim that reproduction elasticities coincide, only that the coincidence is what
-inertness needs, that it is strictly weaker than a common reproduction technology, and that its failure
+inertness needs, that within the power maps of Assumption 2 it is strictly weaker than a common reproduction technology, and that its failure
 is in principle observable as a per-head gap that moves with the level of provision.
 
 *The instrument set.* One tax on capital income, one split between cash and the public stock, one
@@ -729,7 +742,7 @@ the *recipient’s* side. Here the headcount is an endogenous output of a produc
 input is the recipients’ own consumption; the transfer moves its own denominator; the per-head claim is
 a fixed point invariant to it; and the reason provision in kind works is that it is an input to that
 production function, not a good in anybody’s utility function. The difference is one of kind and not
-of degree — suboptimal there, void here — and it has no counterpart in that literature. The survey’s
+of degree — suboptimal there, void here where private consumption is the only input to reproduction — and it has no counterpart in that literature. The survey’s
 own conclusion notes the gap from the other side: in-kind programmes plausibly “increase productivity
 and labor supply in the long run”, and this “investment role for in-kind transfers may provide a more
 important reason to supply transfers in-kind, although it has not been a focus of the theoretical
@@ -738,7 +751,7 @@ thing being invested in is the workforce itself. The nearest two-class model on 
 theorem’s side rather than the survey’s — is Galor and Moav (2006), in which a tax on capital funds
 schooling, provision in kind with no cash instrument at all, and the two classes agree on its rate;
 their §4.4 sets direct transfers aside on the ground that a conflict between the classes “would
-emerge”. Their public input enters production, and ours reproduction; and here the cash instrument
+emerge”. Their public input enters production, and ours reproduction; and here, where private consumption is the only input to reproduction, the cash instrument
 raises no conflict in the per-head coordinate for the opposite reason, that it reaches nothing.
 
 **So what.** The result is narrow in its hypotheses and wide in what it removes. It does not require
@@ -789,6 +802,46 @@ the direction that matters: under equal elasticities the per-head gap does not m
 provision, and under unequal ones it does, so the hypothesis has an observable signature that does not
 require measuring $\gamma_j$ directly.
 
+Proposition 2 is a statement about power maps. The condition it finds has a form that holds for maps of
+any shape. Keep the public input out of reproduction and let each class reproduce through any strictly
+increasing map.
+
+**Proposition 5 (the condition for reproduction maps of any shape).** *Let Assumption 1 hold and replace
+(1) by maps with no public input, $g_W=h_W(c_W)$ and $g_C=h_C(c_C)$, where each $h_j$ is strictly
+increasing and strictly positive on $(0,\infty)$. Let $S$ be a set of worker consumption levels, each
+attained at some interior stationary class ratio, and let $\chi>0$. Then $c_C/c_W=\chi$ at every
+interior stationary class ratio with $c_W\in S$ if and only if*
+
+$$h_W(c) \;=\; h_C(\chi c) \qquad \text{for every } c\in S. \tag{13}$$
+
+*If in addition each $h_j$ is differentiable and $S$ is an interval, (13) holds if and only if it holds
+at one point of $S$ and the elasticities $\varepsilon_j(u)\equiv u\,h_j'(u)/h_j(u)$ agree at inputs in
+the ratio $\chi$, that is $\varepsilon_W(c)=\varepsilon_C(\chi c)$ for every $c\in S$. For power maps
+$h_j(u)=B_j u^{\gamma_j}$ and an interval $S$, (13) holds for some $\chi$ if and only if
+$\gamma_W=\gamma_C$, and then $\chi=(B_W/B_C)^{1/\gamma}$.*
+
+*Proof.* By $(\star)$ a state is an interior stationary class ratio if and only if $g_W=g_C$, that is
+$h_W(c_W)=h_C(c_C)$. Because $h_C$ is strictly increasing it is injective, so at such a state $c_C$ is
+the only solution of that equation given $c_W$. Suppose (13) and take such a state with $c_W\in S$:
+then $h_C(c_C)=h_W(c_W)=h_C(\chi c_W)$, and injectivity gives $c_C=\chi c_W$. Conversely, suppose
+$c_C=\chi c_W$ at every such state, and take $c\in S$; by the definition of $S$ there is a state with
+$c_W=c$, and at it $h_W(c)=h_C(c_C)=h_C(\chi c)$, which is (13). For the elasticity form, the function
+$c\mapsto \ln h_W(c)-\ln h_C(\chi c)$ has derivative $\big(\varepsilon_W(c)-\varepsilon_C(\chi c)\big)/c$,
+so on an interval it is constant if and only if the elasticities agree throughout, and the constant is
+zero if and only if (13) holds at one point. For power maps, (13) reads
+$B_W c^{\gamma_W}=B_C\chi^{\gamma_C}c^{\gamma_C}$; two power functions agree on an interval only if
+their exponents and their coefficients coincide, so $\gamma_W=\gamma_C=\gamma$ and
+$B_W=B_C\chi^{\gamma}$, which is $\chi=(B_W/B_C)^{1/\gamma}$, the constant of Proposition 2(a).
+$\blacksquare$
+
+In words: over a range of stationary states the transfer is inert exactly when the workers’
+reproduction map is the owners’ map applied to a fixed multiple of the workers’ consumption. A common
+technology is the case in which the multiple is one, and a common exponent is what the condition becomes
+for power maps. Other pairs of maps satisfy it as well, while a common map of another shape with unequal
+levels need not: for $h_C(u)=2u/(1+u)$ and $h_W=\tfrac32 h_C$, (13) holds for no $\chi$ on any interval.
+What the power family adds is that, within it, a common exponent delivers the condition at every ratio
+of the two levels at once.
+
 ## A.2 A stationary state, to fix that the hypotheses are not empty
 
 Assumptions 1–3 with $B_W\neq B_C$ are satisfiable, and a state is worth displaying because every
@@ -816,3 +869,6 @@ Currie, Janet, and Firouz Gahvari. 2008. “Transfers in Cash and In-Kind: Theor
 
 Galor, Oded, and Omer Moav. 2006. “Das Human-Kapital: A Theory of the Demise of the Class Structure.”
 *Review of Economic Studies* 73 (1): 85–117.
+
+Golosov, Mikhail, Larry E. Jones, and Michèle Tertilt. 2007. “Efficiency with Endogenous Population
+Growth.” *Econometrica* 75 (4): 1039–1071.
