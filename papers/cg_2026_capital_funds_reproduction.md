@@ -225,6 +225,18 @@ The same outer elasticity that makes the class ratio a contraction at an interio
 
 The negative is not a retreat. A residue would have left who funds continuation to rhetoric; a price leaves it to a closed form, and one that answers a different question from the marginal product of capital rather than the same one badly.
 
+# Scope
+
+This section lists the sources this note has not read and the checks it has not run, each with the test it would face. The Conclusion ends with what is still open in the source’s equilibrium.
+
+*The net-social-wage literature is cited from its abstracts.* Tonak (1987), Maniatis and Passas (2019), Karabacak and Tonak (2022) and Charitou, Maniatis and Passas (2025) are cited from their published abstracts. The bodies of those papers, and the whole of Shaikh and Tonak (1994), have not been read for this note. What is said of them above — the object they measure, that it is a net position, and the two signs Charitou, Maniatis and Passas report under two incidence conventions — is carried by those abstracts, and nothing is said about their method. All of those bodies are owed, and three readings come first. The bodies of Maniatis and Passas (2019) and Karabacak and Tonak (2022) would show how the position is estimated. Miller (1989), the critique side of that debate, has to be read before any sentence here treats the measurement itself as sound or unsound, and none does. And those bodies would settle a question this note can pose but not answer: whether the net-social-wage accounts net public capital formation out of what they credit to wage-earners. Proposition A.10 does not answer it for them. It proves that labour accounting closes on the making of goods and not on the making of workers, with an exact defect between the two, and its part (v) shows that the public stock enters that defect twice: under the rule taken here its upkeep counts against the worker and its growth against capital, and under the two other defensible rules the whole of it moves to one side. Which of those three rules the net-social-wage accounts follow stays open until their bodies are read.
+
+*The incidence line is cited by title.* Gupta (1976) and Homma (1981) are cited for the question they ask, which their titles establish. Neither body has been read, neither carries a deposited abstract, and nothing above describes their assumptions or findings. Reading them would test whether the stationary incidence of Theorem A.1, restated here from the source, already appears in that line.
+
+*Two positioning sentences rest on secondary accounts.* The contrast with Barro and Becker (1989), where equalisation comes from the parents’ choice of numbers and bequests, takes their result from a later paper’s statement of it; their own text has not been read. The direction attributed to Futagami, Morita and Shibata (1993), that the growth-maximising rate exceeds the optimal one, is taken from their abstract and search records, not their body. Reading it would test whether that ordering holds beyond the log-linear utility under which it is reported.
+
+*One owned theorem has no separate check.* Theorem A.2 is proved by hand in Appendix A, and no separate computation has checked it.
+
 # Conclusion
 
 The social wage here is a claim on capital, and cash is not a substitute for the stock it builds. Unfunded, a perishable stock stops the worker dynasty; a durable stock has no interior settled provision, at any tax. Within this tax base the two classes are not separable: at the public-provision corner the worker’s private claim is the competitive wage bill. Where the tax ceiling is slack, as it is at the source paper’s reported cells, what stops the worker short of full expropriation is the capital wedge and not that ceiling. Pure accumulation — the capitalist who values only capital — has no interior reinvestment decision. When the public stock matters for worker continuation, who pays for it and what it replaces in the private claim are not independent objects.
@@ -1231,6 +1243,8 @@ One boundary belongs with all of this. A.14 inherits A.11(ii)’s rule class, wh
     81(5): 1092–1109.
 -   Maniatis, T., and C. Passas (2019). “The Net Social Wage in Different Welfare Regimes.”
     *Capital & Class* 43(2): 227–250.
+-   Miller, J. A. (1989). “Social Wage or Social Profit? The Net Social Wage and The Welfare State.”
+    *Review of Radical Political Economics* 21(3): 82–90.
 -   Shaikh, A. M., and E. A. Tonak (1994). *Measuring the Wealth of Nations: The Political Economy
     of National Accounts*. Cambridge University Press.
 -   Tonak, E. A. (1987). “The U.S. Welfare State and the Working Class, 1952–1980.” *Review of
