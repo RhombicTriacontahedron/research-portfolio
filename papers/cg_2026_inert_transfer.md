@@ -9,7 +9,7 @@ can be reached as a competitive equilibrium once wealth has been transferred lum
 construction is the licence for the standard division of labour between markets and policy — let
 prices allocate, and correct the distribution afterwards. This paper shows that in an economy whose
 workforce is produced by a technology whose input is the workers’ own consumption, the construction’s
-instrument moves nothing. When private consumption is the sole input to reproduction, at every interior stationary class ratio
+instrument moves nothing per head. When private consumption is the sole input to reproduction, at every interior stationary class ratio
 the two classes’ per-head consumptions stand in a fixed ratio set by the reproduction technology alone; the tax rate, the
 composition of public spending and the reinvestment rate are absent from that ratio, and so is every
 property of either class’s objective. The set of per-head distributions a transfer can reach is
@@ -17,7 +17,7 @@ therefore a single point. What the transfer moves instead is the relative number
 side. When a public input enters reproduction alongside private consumption, its provision in kind is not inert: its incidence is a closed form in the
 stationary quantities, into which the two classes’ reproduction levels and their common elasticity enter only as a single multiplicative
 constant, and the rate at which, along the equalised-reproduction locus with the owner’s claim held fixed, it displaces the worker’s private consumption is a constant of the composite, free
-of both. Inertness requires the two classes to share a
+of both. Within power maps, inertness requires the two classes to share a
 reproduction *elasticity*; it does not require them to share a reproduction *technology*, and that
 weaker hypothesis is what makes the result a statement about reproduction rather than about symmetry.
 The claim is not that markets fail: the first welfare theorem is not at issue here, and efficiency
@@ -73,7 +73,7 @@ locus with the owner’s claim held fixed is a constant of the composite, free o
 instrument; the reproduction efficiencies that set the cash-economy gap drop out of it entirely.
 
 To be sure, that a subsidy to a class whose numbers respond to income is absorbed by those numbers is
-the classical argument against poor relief, two centuries old, and it is not claimed here as new. Three things are. The first is that the absorption is
+the classical argument against poor relief (Malthus 1798, ch. 5), two centuries old, and it is not claimed here as new. What this paper adds to it is three things. The first is that the absorption is
 *exact* — the transfer is not merely diluted but removed from the distributional coordinate
 altogether, which is a statement about a reachable set rather than about a sign. The second is the
 invariance just described: the absorption survives arbitrary asymmetry in the classes’ reproduction
@@ -742,7 +742,7 @@ the *recipient’s* side. Here the headcount is an endogenous output of a produc
 input is the recipients’ own consumption; the transfer moves its own denominator; the per-head claim is
 a fixed point invariant to it; and the reason provision in kind works is that it is an input to that
 production function, not a good in anybody’s utility function. The difference is one of kind and not
-of degree — suboptimal there, void here where private consumption is the only input to reproduction — and it has no counterpart in that literature. The survey’s
+of degree — suboptimal there, void here where private consumption is the only input to reproduction — and none of the mechanisms the survey assembles is of that kind. The survey’s
 own conclusion notes the gap from the other side: in-kind programmes plausibly “increase productivity
 and labor supply in the long run”, and this “investment role for in-kind transfers may provide a more
 important reason to supply transfers in-kind, although it has not been a focus of the theoretical
@@ -859,7 +859,7 @@ Both stock laws are satisfied at this state, the class ratio is stationary, and 
 $g>\max\{1-\delta,\,1-\delta_G\}=3/4$. The per-head gap is $c_C/c_W = 4/9$, which is
 $\chi=(B_W/B_C)^{1/\gamma}=(2/3)^2$ exactly; the class ratio matches (4), since $\kappa_W=3/5$ gives
 $(1-i)(1-\tau)\alpha/(\chi\kappa_W) = (2/5)(3/5)(1/2)/\big((4/9)(3/5)\big)=9/20$. Holding the primitives
-and varying each instrument over its admissible range moves the growth factor, the levels and the class
+and varying any one instrument over the values at which such a state exists moves the growth factor, the levels and the class
 ratio, and leaves $c_C/c_W$ at $4/9$.
 
 # References
@@ -872,3 +872,5 @@ Galor, Oded, and Omer Moav. 2006. “Das Human-Kapital: A Theory of the Demise o
 
 Golosov, Mikhail, Larry E. Jones, and Michèle Tertilt. 2007. “Efficiency with Endogenous Population
 Growth.” *Econometrica* 75 (4): 1039–1071.
+
+Malthus, T. R. 1798. *An Essay on the Principle of Population*. London: J. Johnson.
