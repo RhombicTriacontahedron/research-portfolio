@@ -4,31 +4,30 @@ Carlos Galindo Escajeda
 
 # Abstract
 
-The second fundamental theorem of welfare economics is constructive: any Pareto-efficient allocation
-can be reached as a competitive equilibrium once wealth has been transferred lump sum. That
-construction is the licence for the standard division of labour between markets and policy — let
-prices allocate, and correct the distribution afterwards. This paper shows that in an economy whose
-workforce is produced by a technology whose input is the workers’ own consumption, the construction’s
-instrument moves nothing per head. When private consumption is the sole input to reproduction, at every interior stationary class ratio
-the two classes’ per-head consumptions stand in a fixed ratio set by the reproduction technology alone; the tax rate, the
-composition of public spending and the reinvestment rate are absent from that ratio, and so is every
-property of either class’s objective. The set of per-head distributions a transfer can reach is
-therefore a single point. What the transfer moves instead is the relative number of people on each
-side. When a public input enters reproduction alongside private consumption, its provision in kind is not inert: its incidence is a closed form in the
-stationary quantities, into which the two classes’ reproduction levels and their common elasticity enter only as a single multiplicative
-constant, and the rate at which, along the equalised-reproduction locus with the owner’s claim held fixed, it displaces the worker’s private consumption is a constant of the composite, free
-of both. Within power maps, inertness requires the two classes to share a
-reproduction *elasticity*; it does not require them to share a reproduction *technology*, and that
-weaker hypothesis is what makes the result a statement about reproduction rather than about symmetry.
-The claim is not that markets fail: the first welfare theorem is not at issue here, and efficiency
-results proved where a dynasty’s reproduction is decided and paid for within the dynasty are not
-contested — here the input to one class’s reproduction is set by the division of output between the
-classes. The claim is that, where workers are
-reproduced by private consumption alone, the remedy the second theorem prescribes is void in the per-head coordinate rather than second-best.
-Once a public input enters reproduction, cash reaches the per-head gap only relative to provision per worker, and the instrument that supplies that provision is the one the
-theory classifies as a distortion. A produced factor that
-no agent may hold is nobody’s endowment to transfer, and a theorem whose construction redistributes
-endowments has, for that factor, nothing to construct with.
+The second fundamental theorem of welfare economics licenses the division of labour between markets and
+policy: any Pareto-efficient allocation can be reached as a competitive equilibrium once wealth has been
+transferred lump sum. This paper shows that where the workforce is produced out of the workers’ own
+consumption, that lump-sum instrument moves nothing per head.
+When private consumption is the sole input to reproduction, at every interior stationary class ratio the
+two classes’ per-head consumptions stand in a fixed ratio set by the reproduction technology alone, free
+of the tax rate, the composition of public
+spending, the reinvestment rate and either class’s objective. The per-head distributions a transfer can
+reach form a single point; the transfer moves the relative number of people on each side instead. For
+reproduction maps of any shape with a positive slope, inertness over a range of stationary states holds
+exactly when the two classes’ reproduction *elasticities* agree at the consumptions each class has at
+each of them, which for power maps is a common exponent. It does not require them to share a reproduction
+*technology*. When a public input enters reproduction alongside private
+consumption, its provision in kind is not inert: its incidence is a closed form in the stationary
+quantities, into which the two classes’ reproduction levels and their common elasticity enter only as a
+single multiplicative constant, and the rate at which, along the equalised-reproduction locus with the
+owner’s claim held fixed, it displaces the worker’s private consumption is a constant of the composite,
+free of both. There, cash reaches the per-head gap only relative to provision per worker, and the
+instrument that supplies that provision is the one the theory classifies as a distortion. Neither the
+first welfare theorem nor efficiency results for dynasties that decide and pay for their own
+reproduction are at issue: here the input to one class’s reproduction is set by the division of output
+between the classes. Where workers are reproduced by private consumption alone, the second theorem’s
+remedy is void in the per-head coordinate rather than second-best, because a produced factor that no
+agent may hold is nobody’s endowment to transfer.
 
 # 1. Introduction
 
@@ -816,7 +815,11 @@ $$h_W(c) \;=\; h_C(\chi c) \qquad \text{for every } c\in S. \tag{13}$$
 
 *If in addition each $h_j$ is differentiable and $S$ is an interval, (13) holds if and only if it holds
 at one point of $S$ and the elasticities $\varepsilon_j(u)\equiv u\,h_j'(u)/h_j(u)$ agree at inputs in
-the ratio $\chi$, that is $\varepsilon_W(c)=\varepsilon_C(\chi c)$ for every $c\in S$. For power maps
+the ratio $\chi$, that is $\varepsilon_W(c)=\varepsilon_C(\chi c)$ for every $c\in S$. If moreover $h_C'>0$, no level condition is needed: along the stationary locus $h_W(c_W)=h_C(c_C)$,*
+
+$$\frac{\mathrm{d}\ln(c_C/c_W)}{\mathrm{d}\ln c_W} \;=\; \frac{\varepsilon_W(c_W)}{\varepsilon_C(c_C)}-1, \tag{14}$$
+
+*so, for $S$ an interval, $c_C/c_W$ takes a single value at the interior stationary class ratios with $c_W\in S$ if and only if $\varepsilon_W(c_W)=\varepsilon_C(c_C)$ at each of them. For power maps
 $h_j(u)=B_j u^{\gamma_j}$ and an interval $S$, (13) holds for some $\chi$ if and only if
 $\gamma_W=\gamma_C$, and then $\chi=(B_W/B_C)^{1/\gamma}$.*
 
@@ -831,7 +834,7 @@ so on an interval it is constant if and only if the elasticities agree throughou
 zero if and only if (13) holds at one point. For power maps, (13) reads
 $B_W c^{\gamma_W}=B_C\chi^{\gamma_C}c^{\gamma_C}$; two power functions agree on an interval only if
 their exponents and their coefficients coincide, so $\gamma_W=\gamma_C=\gamma$ and
-$B_W=B_C\chi^{\gamma}$, which is $\chi=(B_W/B_C)^{1/\gamma}$, the constant of Proposition 2(a).
+$B_W=B_C\chi^{\gamma}$, which is $\chi=(B_W/B_C)^{1/\gamma}$, the constant of Proposition 2(a). For (14), $h_C'>0$ makes the inverse of $h_C$ differentiable, so the locus defines $c_C=h_C^{-1}(h_W(c_W))$ with $\mathrm{d}c_C/\mathrm{d}c_W=h_W'(c_W)/h_C'(c_C)$; multiplying by $c_W/c_C$ and using $h_W(c_W)=h_C(c_C)$ gives $\mathrm{d}\ln c_C/\mathrm{d}\ln c_W=\varepsilon_W(c_W)/\varepsilon_C(c_C)$, and subtracting $\mathrm{d}\ln c_W/\mathrm{d}\ln c_W=1$ gives (14). Since $\varepsilon_C(c_C)>0$, the right side of (14) vanishes exactly when the two elasticities agree, and on an interval a differentiable function is constant if and only if its derivative vanishes throughout.
 $\blacksquare$
 
 In words: over a range of stationary states the transfer is inert exactly when the workers’
@@ -840,7 +843,7 @@ technology is the case in which the multiple is one, and a common exponent is wh
 for power maps. Other pairs of maps satisfy it as well, while a common map of another shape with unequal
 levels need not: for $h_C(u)=2u/(1+u)$ and $h_W=\tfrac32 h_C$, (13) holds for no $\chi$ on any interval.
 What the power family adds is that, within it, a common exponent delivers the condition at every ratio
-of the two levels at once.
+of the two levels at once. And (14) lets the condition be read at the states themselves, with no level to match first: for maps with a positive slope, the per-head gap is the same across a range of stationary states exactly when, at the consumptions the two classes actually have there, a one per cent rise in consumption raises each class’s growth factor by the same percentage.
 
 ## A.2 A stationary state, to fix that the hypotheses are not empty
 
