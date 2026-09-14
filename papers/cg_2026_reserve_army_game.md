@@ -2978,10 +2978,10 @@ interior law of motion there it is, and (v) proves it, with no
 continuation needed on the sub-class $E \le 0$.
 
 *(v) Capital: a verification through the stable manifold.* Fix the
-compromise as in (iii), interior, so $0 < s^\ast < 1$, and suppose
-$\omega^\ast < \hat e$. Write $\gamma \equiv (1-c)/\kappa$,
-$\sigma \equiv c(1+\lambda)/(\rho\kappa)$ and
-$q \equiv \sigma + \gamma p = P/\kappa$, with $P$ as in (iii);
+compromise as in (iii), interior, so $0 < s^\ast < 1$ and
+$\omega^\ast > 0$, and suppose $\omega^\ast < \hat e$. Write
+$\gamma \equiv (1-c)/\kappa$, $\sigma \equiv c(1+\lambda)/(\rho\kappa)$
+and $q \equiv \sigma + \gamma p = P/\kappa$, with $P$ as in (iii);
 $D(x) \equiv \bar e(x) - \omega^\ast$, which is at least
 $\hat e - \omega^\ast > 0$ on $x \le 0$;
 $\delta(x) \equiv m_0 + n + bx$; $A \equiv (1+\lambda)(1+b/\rho)$ and
@@ -3011,14 +3011,19 @@ and each $x \le 0$ carries exactly one $Q(x)$ with $h(x,Q(x)) = 0$. $Q$
 is defined on the whole of $x \le 0$ and may be negative; where it is,
 it lies on the non-accumulating branch. $f$ is nondecreasing in $q$ and
 strictly increasing where $qD > 1$, with $f_q = \gamma/q^2$ there, and
-rest points are the zeros of $G(x) \equiv f(x,Q(x))$. Where $QD > 1$,
-$Q = M/\big((\rho+b)+\gamma\zeta\bar e\big)$, $QD$ is strictly
-decreasing in $x$, and $$
+rest points are the zeros of $G(x) \equiv f(x,Q(x))$. Let
+$Q_1(x) \equiv M/\big((\rho+b)+\gamma\zeta\bar e(x)\big)$, the zero of
+$h$’s accumulating branch; wherever $Q_1D > 1$ that branch applies, so
+$Q = Q_1$. $Q_1D$ is strictly decreasing in $x$ on the whole of
+$x \le 0$, because
+$d(Q_1D)/d\bar e = M\big((\rho+b)+\gamma\zeta\omega^\ast\big)/\big((\rho+b)+\gamma\zeta\bar e\big)^2 > 0$
+and $\bar e$ falls in $x$. Where $QD > 1$, $$
 G'(x) \;=\; -\gamma\zeta\beta\,\bar e(x) - b \;<\; 0 ,
 $$ because $\gamma\zeta/M = 1 - \beta$ and $\beta > 0$ on the first
-branch. Since $Q^\ast D^\ast = 1/(1-s^\ast) > 1$, the whole of
-$x < x^\ast$ is accumulating and $G > 0$ there. To the right $G$ falls
-from zero while $QD > 1$, and where $QD \le 1$,
+branch. Since $Q_1(x^\ast)D(x^\ast) = Q^\ast D^\ast = 1/(1-s^\ast) > 1$,
+$Q_1D > 1$ on the whole of $x < x^\ast$, so all of it is accumulating,
+$Q = Q_1$ there, and $G > 0$ there. To the right $G$ falls from zero
+while $QD > 1$, and where $QD \le 1$,
 $G = -\delta(x) \le -\delta(x^\ast) < 0$. So $x^\ast$ is the only rest
 point, with $G > 0$ to its left and $G < 0$ to its right.
 
