@@ -23,9 +23,9 @@ weaker hypothesis is what makes the result a statement about reproduction rather
 The claim is not that markets fail: the first welfare theorem is not at issue here, and efficiency
 results proved where a dynasty’s reproduction is decided and paid for within the dynasty are not
 contested — here the input to one class’s reproduction is set by the division of output between the
-classes. The claim is that the
-remedy the second theorem prescribes is void in the per-head coordinate rather than second-best, and that, where workers are
-reproduced by private consumption alone, the only instrument with a distributional effect is the one the
+classes. The claim is that, where workers are
+reproduced by private consumption alone, the remedy the second theorem prescribes is void in the per-head coordinate rather than second-best.
+Once a public input enters reproduction, cash reaches the per-head gap only relative to provision per worker, and the instrument that supplies that provision is the one the
 theory classifies as a distortion. A produced factor that
 no agent may hold is nobody’s endowment to transfer, and a theorem whose construction redistributes
 endowments has, for that factor, nothing to construct with.
@@ -470,8 +470,8 @@ transfers. The separation is the theorem’s practical payload. Take it away and
 stands as a statement about the existence of supporting prices, but the policy advice built on it has
 nothing to stand on.
 
-In the economy of §2 the separation has nothing to stand on, and the reason is not that the theorem is
-false. It is that its instrument has no range in the per-head coordinate: what it moves is the class
+In the economy of §2 at $\theta=1$, where workers are reproduced by private consumption alone, the
+separation has nothing to stand on, and the reason is not that the theorem is false. It is that its instrument has no range in the per-head coordinate: what it moves is the class
 ratio (Proposition 3).
 
 **Proposition 3 (the reachable set of distributions is a point).** *Let Assumptions 1 and 2 hold, fix the
@@ -548,7 +548,7 @@ derivative with respect to each of them is identically zero on the whole domain.
 **What a reader has to give up.** Consider someone who holds the standard position: distributional
 aims are properly met by lump-sum transfers, and allocation is properly left to prices, because the
 theorem guarantees that the first can be done without disturbing the second. In this economy that
-position is unavailable, and escaping it requires denying one of four things, each of which costs
+position is unavailable, and escaping it requires denying one of five things, each of which costs
 something.
 
 *Deny that the workforce is produced.* Then it is an endowment, its growth is a parameter, and the
@@ -560,7 +560,7 @@ nothing about transitions, where a transfer moves per-head consumption in the di
 But the escape concedes the long run, and an instrument that works only away from the rest point is a
 transitional instrument, which is not what the theorem offers.
 
-*Deny that the two classes share a reproduction elasticity.* This is the one live escape, and
+*Deny that the two classes share a reproduction elasticity.* This is the one live escape at $\theta=1$, and
 Proposition 2 prices it: the two classes may differ arbitrarily in reproduction efficiency and the
 result survives, so the escape needs a difference in the *curvature* of the map from resources to
 numbers, not merely a difference in its productivity. It is also the escape that carries an empirical
@@ -569,7 +569,13 @@ commitment, because a difference in curvature shows up as a per-head gap that va
 *Deny the fiscal architecture.* One tax base, no credit, no borrowing against the stock being built.
 §6 concedes this is a restriction and not a theorem about all funding routes.
 
-None of the four is a denial that markets allocate efficiently, and none is a statement about the
+*Deny that private consumption is the only input to reproduction.* Then $\theta<1$, and cash reaches the
+per-head gap through the private claim, with elasticity $-(1-\theta)$ at fixed provision (Theorem 1). The
+escape has a price: the gap is then set by provision per worker relative to that claim, so the transfer
+that reaches a given gap depends on how much the state provides in kind, and the transfer can no longer
+be sized apart from the composition of public spending.
+
+None of the five is a denial that markets allocate efficiently, and none is a statement about the
 first welfare theorem, whose objects — preferences, prices, a competitive equilibrium — this economy
 does not define; the incidence identities are not efficiency results. The claim here is narrower and,
 for the policy reader, worse: whatever an efficiency result would say of such an economy, the
@@ -581,15 +587,17 @@ ground on which standard treatments class it as a second-best expedient: cash do
 friction can be named on the recipient’s side. Theorem 1 gives it a distributional effect with a
 closed-form incidence, obtained from no friction on the recipient’s side at all — no paternalism, no
 unobserved type, no self-selection, no agency problem within the household. It works because it enters
-the production function for workers and cash does not. The ranking between the two instruments is
+the production function for workers as an input of its own, while cash enters it only through the private claim. The ranking between the two instruments is
 therefore reversed at the root: not cash first and in-kind where a friction justifies it, but in-kind
-as the instrument with a distributional object of its own, and cash as the one whose effect is exactly zero when the public input is absent from reproduction ($\theta=1$, Proposition 1) and which, when it is present, reaches the gap only through the private claim — with the fixed-provision elasticity $-(1-\theta)$ of Theorem 1, and, at the full rest point, with a signed stationary effect: shifting the receipt toward cash at a given tax rate strictly lowers $c_C/c_W$ (Proposition 4(ii)).
+as the instrument with a distributional object of its own, and cash second. Cash’s effect is exactly zero when the public input is absent from reproduction ($\theta=1$, Proposition 1); when it is present, it reaches the gap at fixed provision only through the private claim, with the elasticity $-(1-\theta)$ of Theorem 1. At the full rest point a shift of the receipt toward cash at a given tax rate also withdraws provision, and the shift strictly lowers $c_C/c_W$ (Proposition 4(ii)).
 
 **So what.** The division of labour between markets and policy that the second theorem licenses
-requires an instrument with range. Where the workforce is produced out of the workers’ own
-consumption, the instrument has none in the per-head coordinate, the licensed division of labour is empty, and the choice a
-government faces is not how large a transfer to make but whether to spend at all on the input to
-reproduction. That is a choice about the composition of public spending, and §4 says what it buys.
+requires an instrument with range. Where the workforce is produced out of the workers’ private
+consumption alone, the instrument has none in the per-head coordinate, the licensed division of labour is empty, and no
+composition of public spending moves the gap there either (Proposition 3). Where a public input does enter
+reproduction ($\theta<1$), the gap is set by provision per worker relative to the private claim (Theorem 1).
+The size of a transfer is then not a choice separable from the composition of public spending, and §4 says
+what that composition buys.
 
 # 6. Scope, and the boundary of the result
 
@@ -643,7 +651,7 @@ the monotonicity argument that makes the stationary capital stock unique at $\th
 that is a witness, not a theorem over the parameter box. At $\theta<1$ the state at $\theta=\tfrac12$
 illustrates a theorem, and (A) is among its conclusions rather than its hypotheses.
 
-**Proposition 4 (the full rest point).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$. Then (i) there is exactly one interior state at which $x$, $z$ and $\nu$ are all stationary under $(\star)$, and (A) holds there; (ii) the value of $c_C/c_W$ at the state of (i), as a function of $\phi\in(0,1]$ with $\tau$ and $i$ fixed, is differentiable and strictly increasing.*
+**Proposition 4 (the full rest point).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$. Then (i) there is exactly one interior state at which $x$, $z$ and $\nu$ are all stationary under $(\star)$, and (A) holds there; (ii) the value of $c_C/c_W$ at the state of (i), as a function of $\phi\in(0,1]$ with $\tau$ and $i$ fixed, is differentiable and strictly increasing, and so is the stationary public stock per worker $z$.*
 
 *Proof.* **(i)** Stationarity of $\nu$ makes the two growth factors equal; write $g$ for their common
 value. Dividing the two stock laws of $(\star)$ by $N_{W,t+1}=gN_{W,t}$, stationarity of $x$ and of $z$
@@ -689,15 +697,26 @@ $$\frac{\mathrm{d}\ln(c_C/c_W)}{\mathrm{d}\phi}
 
 Every term is strictly positive: $1-\theta>0$, $b_\phi>0$, $-a_\phi>0$ because $\tau>0$, $1+Q\theta>0$,
 and $1-Q(1-\theta)=\big(1+\tfrac{\alpha\gamma}{1-\alpha}\tfrac{g}{g-1+\delta}\big)/H>0$, its numerator
-being $H$ less its last term. $\blacksquare$
+being $H$ less its last term.
+
+For $z$, the two formulas of (i) give $\ln z=\ln\varpi-\tfrac{\alpha}{1-\alpha}\ln(g-1+\delta)-\ln(g-1+\delta_G)$ plus terms
+constant in $\phi$, so
+
+$$\frac{\mathrm{d}\ln z}{\mathrm{d}\phi}
+\;=\;b_\phi-K\,\frac{\mathrm{d}\ln g}{\mathrm{d}\phi}
+\;=\;b_\phi\,\frac{1+\theta\tfrac{\alpha\gamma}{1-\alpha}\tfrac{g}{g-1+\delta}}{H}+(-a_\phi)\,\frac{\gamma\theta K}{H},
+\qquad K\equiv\frac{\alpha}{1-\alpha}\,\frac{g}{g-1+\delta}+\frac{g}{g-1+\delta_G}>0,$$
+
+the second equality using $H-\gamma(1-\theta)K=1+\theta\tfrac{\alpha\gamma}{1-\alpha}\tfrac{g}{g-1+\delta}$. Both terms are
+strictly positive whatever the sign of $\mathrm{d}\ln g/\mathrm{d}\phi$. $\blacksquare$
 
 In words: below $\theta=1$ every policy with a positive tax, a positive share in kind and partial
 reinvestment has exactly one full rest point, and at it, moving receipts from the public stock into cash
-at a given tax rate lowers the owner’s per-head consumption relative to the worker’s. Part (i)’s
+at a given tax rate lowers provision per worker and the owner’s per-head consumption relative to the worker’s. Part (i)’s
 argument needs $\theta<1$ only when $\delta_G<\delta$. At $\theta=1$ the exponent on $g-1+\delta_G$ in (12)
 vanishes and the root is forced above $1-\delta$ but not above $1-\delta_G$, so Appendix A.2, where
 $\delta_G<\delta$, remains a witness rather than an instance of a theorem. When $\delta_G\ge\delta$, (i)
-holds at $\theta=1$ as well, while (ii) does not: there the gap is $\chi$ whatever $\phi$ is.
+holds at $\theta=1$ as well, while (ii) does not for $c_C/c_W$: there the gap is $\chi$ whatever $\phi$ is.
 
 **Where this sits, and where it does not.** The question of cash versus provision in kind has a large
 literature, surveyed by Currie and Gahvari (2008). Its mechanisms are not the one here, and the
@@ -724,8 +743,8 @@ raises no conflict in the per-head coordinate for the opposite reason, that it r
 
 **So what.** The result is narrow in its hypotheses and wide in what it removes. It does not require
 the two classes to be alike, it does not require anyone to be maximising anything in particular, and it
-does not require the state to be an equilibrium. It does require a stationary class ratio, a produced
-workforce, and one shared elasticity — and where those hold, Proposition 3 says the instrument on
+does not require the state to be an equilibrium. It does require a stationary class ratio, a
+workforce produced out of its own private consumption alone, and one shared elasticity — and where those hold, Proposition 3 says the instrument on
 which the standard separation of efficiency from distribution rests is not a blunt tool but an absent
 one.
 
