@@ -10,18 +10,20 @@ no agent holds a claim on it. On a tractable face — one period a generation, f
 logarithmic objectives — both classes’ policies are constant shares containing none of the other
 class’s instruments. In logarithms the economy is a linear-state game, so that degeneracy is the
 known property of a named class rather than a feature of this economy (Dockner, Jørgensen, Van Long
-and Sorger 2000, §7.2–§7.3). The economy closes in dominant strategies, and the shares stay optimal
-among all Markov rules that keep the instruments away from the edges of their ranges, and not only
-within the affine class, so the distributional conflict is not a
-game. Four results follow. First, each
+and Sorger 2000, §7.2–§7.3). Each class’s share is its best reply to every constant-share policy of
+the other, and no unilateral deviation to a Markov rule that keeps the instruments away from the
+edges of their ranges gains, so along the equilibrium the classes do not interact strategically.
+Four results follow. First, each
 class’s preferred capital-income tax is a function of the **other** class’s reproduction elasticity
 and of its own never; symmetrising the two stocks’ laws of motion does not symmetrise this. This
 first result holds only with logarithmic objectives. At every non-unit intertemporal elasticity
-tested, each class’s own elasticity moves its preferred rate through the growth rate, so the cross is
+tested, each class’s own elasticity moves its preferred rate, so the cross is
 a property of the logarithm and is claimed only there. Second,
-both classes’ payoffs are strictly concave in the tax, so the Pareto set is the closed interval
-between the owner’s preferred rate and the worker’s, and every smaller state is Pareto-dominated:
-below the owner’s own optimum both classes strictly prefer a larger one. Third, the rate that
+both classes’ payoffs are strictly concave in the tax, so, with investment at the owner’s choice, the
+Pareto set in the tax is the closed interval between the owner’s preferred rate and the worker’s, and
+every smaller state is Pareto-dominated: below the owner’s own optimum both classes strictly prefer a
+larger one. Counting the investment share as an instrument, every rate but the owner’s is dominated
+by a joint rise in investment, an under-investment that needs no strategic interaction. Third, the rate that
 maximises any weighted sum of the two payoffs is a weighted average of the two peaks; it is strictly
 increasing in the weight on workers and strictly positive at every weight, the owner’s own included.
 Fourth, the owner’s preferred rate carries labour’s share as a factor, is strictly decreasing in
@@ -100,10 +102,16 @@ would prefer higher taxes, whereas if the elasticity of substitution is smaller 
 rich would prefer higher taxes”* (2005 working paper, n. 42). A disagreement obtained by departing
 from unit elasticity is therefore theirs, in print, with its direction. This paper departs from
 neither feature — the tax on capital income is linear and the elasticity is unity — and the classes
-disagree anyway, once the public input reproduces the workforce rather than augmenting a factor its
-beneficiary owns. A reader who took their unanimity as the settled answer on capital’s fiscal
-interest must give up more than the answer: the belief that their own list of the ways it can fail is
-complete.
+disagree anyway. What opens the gap is not that nobody owns the workforce. Two other primitives open
+it, and either one suffices (Proposition 10): the tax falls on the owner’s capital income before he
+consumes it, and workers value the capacity that maintenance produces. With a tax on what the owner
+invests instead, workers who value consumption and an owner with no taste for wealth, the two classes
+want the same rate, although the workforce is still produced and still owned by nobody. Galor and
+Moav’s own tax falls on the transfer a parent leaves, out of income the parent has already divided
+between consumption and the bequest (2005 working paper, pp. 16–18); whether that base is also what
+their unanimity rests on, in an economy that differs from this one in other primitives, is not shown
+here. A reader who took their unanimity as the settled answer on capital’s fiscal interest must give
+up more than the answer: the belief that the two features their footnote names are all it rests on.
 
 *The whole agreement set, not one point.* Both payoffs are strictly concave in the tax. The Pareto
 set is therefore the closed interval between the two peaks, and every rate below the owner’s own
@@ -122,17 +130,22 @@ interval over which they disagree swallows the range.
 The results above are obtained on a restricted face of the model: one period is a generation,
 capital and the public stock depreciate fully, and both objectives are logarithmic. On that face the
 economy has no strategic interaction at all. Each class’s policy is a constant share containing none
-of the other’s instruments, so the equilibrium is in dominant strategies and the “game” is not a
+of the other’s instruments, so neither class’s choice responds to the other’s and the “game” is not a
 game. The cross of §4 needs the logarithm, and §4.4 shows that it fails without it; the results of
 §§5–6 do not use the cross and have not been tested off the face.
 
 That is a cost, and §3 states it before any result rests on it, because it removes one explanation
 of distributional conflict and leaves another standing. In Lancaster’s (1973) model of the same two
 classes, the inefficiency *is* strategic: the non-cooperative path is dominated by the cooperative
-one, and cooperation is the cure. Here cooperation cures nothing, because there is nothing
-non-cooperative to cure. Whatever gap remains between what the classes want cannot be a bargaining
-failure. It is a disagreement about the level of a joint investment, held by parties who each play a
-dominant strategy and who agree, exactly, on the form the investment should take.
+one, and cooperation is the cure. Here the disagreement over the tax is not strategic: each class’s
+preferred rate contains none of the other class’s instruments, so a bargain over the tax alone can
+only select a point between the two rates. It is a disagreement about the level of a joint
+investment, held by parties who agree, exactly, on the form the investment should take. The
+equilibrium is nevertheless inefficient, and that inefficiency needs no strategic interaction either.
+The owner’s investment share ignores what capital is worth to workers, so at every tax other than his
+own preferred rate a small rise in investment, paired with a move of the tax toward that rate, makes
+both classes better off (§3.3). Cooperation over investment would cure an inefficiency that no
+strategy created.
 
 ## Attribution
 
@@ -231,8 +244,10 @@ model reduces to the standard one where it should.
 
 **So what.** The economy is the two-class fiscal architecture of Judd (1985) — workers hold no
 assets, the government taxes capital income to fund transfers to them — with one primitive changed:
-part of the transfer is an input to a *produced stock* that the recipients cannot sell. Everything
-that follows is a consequence of that one change.
+part of the transfer is an input to a *produced stock* that the recipients cannot sell. What follows
+rests on that change and on the face of this section. It also rests on where the tax falls and on
+what workers value, and Proposition 10 shows that the class disagreement comes from these two, not
+from the fact that nobody owns the workforce.
 
 # 3. The face closes in dominant strategies
 
@@ -272,7 +287,9 @@ $$i^{\star}=\frac{\beta a}{(1-\omega)+\beta a},$$
 *with $a$ the owner’s value coefficient on $k$, given in closed form in Appendix A.1; it contains
 neither $\tau$ nor $\phi$. The worker’s tax and split contain no $i$. Hence, within the class of
 value functions affine in the logs, the profile is an equilibrium in dominant strategies, from every
-initial state.* Proposition 2 is what removes the restriction to that class.
+initial state.* Proposition 2 removes that restriction for unilateral deviations: against the other
+class’s constant shares, no deviation to a Markov rule gains. Dominance against a state-dependent rule
+of the other class is not claimed.
 
 The mechanism is the one the class is named for. The coefficient system that determines
 $(a,b,c)$ and $(p,q,r)$ is built from the *state* coefficients of the transitions, and no instrument
@@ -301,31 +318,46 @@ they stay finite while they do.
 **Proposition 3 (state-dependent rules strictly lose).** *Fix $\tau$. The worker’s objective in
 $\phi$ is strictly concave with a unique maximiser $\phi^{\star}$, so any rule that makes the split
 respond to the state is strictly worse for him at every state at which the rule does not return
-$\phi^{\star}$; for a rule strictly monotone in the state, that is every state but one.* The rule that would annihilate the payoff-relevance of the public stock is strictly monotone as a
+$\phi^{\star}$; for a rule strictly monotone in a scalar index of the state, that is every state off
+one level set of that index.* The rule that would annihilate the payoff-relevance of the public stock is strictly monotone as a
 split. It is available to the worker, and he does not want it. Neither does he want a
 state-dependent rule that annihilates nothing, so what he declines is state-dependence and not
 annihilation.
 
 ## 3.3 The concession
 
-There is no strategic interaction on this face. The equilibrium is in dominant strategies; each
-class would play the same rule against any behaviour by the other; and, as §5 shows, the two classes
-agree exactly on the *form* the fund should take and differ only on its *level*.
+There is no strategic interaction on this face. Each class would play the same rule against any
+constant-share behaviour by the other, no unilateral deviation to a Markov rule gains (Proposition 2),
+and, as §5 shows, the two classes agree exactly on the *form* the fund should take and differ only on
+its *level*.
 
 This is the paper’s sharpest criticism and it is better stated than buried, because it forecloses an
 explanation that is otherwise available. In Lancaster (1973) the two classes’ non-cooperative path
 is Pareto-dominated by the cooperative one, and the inefficiency is strategic: it is created by each
 side’s inability to commit and removed by cooperation. Nothing of that kind is available here.
-Cooperation cannot improve a dominant-strategy equilibrium in which the only disagreement is over
-the level of a common instrument, and a bargaining institution does not resolve a coordination
-failure because there is none to resolve. **Whatever separates $\tau_C$ from $\tau_W$ in §5 is
-therefore not a bargaining failure and cannot be repaired by one.**
+Cooperation over the tax alone cannot improve on the rates the classes prefer, because over the tax
+the only disagreement is over the level of a common instrument, and a bargaining institution does not
+resolve a coordination failure where there is none to resolve. **Whatever separates $\tau_C$ from
+$\tau_W$ in §5 is therefore not a bargaining failure over the tax, and a bargain over the tax cannot
+repair it.**
+
+The equilibrium is nevertheless inefficient once the investment share is counted among the
+instruments, and for a reason that owes nothing to strategy. At his own investment share the owner’s
+payoff is flat in investment, while the worker’s rises with it, because capital raises output and
+output raises the maintenance of the workforce. At any tax other than $\tau_C$, a small rise in
+investment paired with a small move of the tax toward $\tau_C$ therefore makes both classes strictly
+better off (Proposition 6). This is ordinary under-investment: the owner does not count what his
+capital is worth to workers. A bargain over the tax and the investment share together raises
+investment above the owner’s own choice at every positive weight on workers, and it leaves the
+bargained tax of Proposition 8 unchanged, because the tax’s first-order condition does not involve the
+investment share. Lancaster’s inefficiency needs strategy, and cooperation removes it; this one needs
+none, and a bargain that reaches the investment share removes it.
 
 **So what.** The tractability that yields every closed form below is bought by deleting strategic
 interaction, and the purchase is worth naming: it converts the distributional question from “can
 these classes cooperate?” — where the literature on this pair of classes has mostly stood — into
 “what do they each want, and why do the two answers differ?”. The rest of the paper answers the
-second question, and its answers are immune to the first.
+second question, and its answers about the tax are immune to the first.
 
 # 4. Who prices whose reproduction
 
@@ -489,22 +521,23 @@ positivity of four coefficients.
 \theta\in(0,1)$, $\omega\in[0,1)$. Hence both payoffs are strictly concave in $\tau$ on $(0,1)$ and
 each has a unique peak.*
 
-Appendix A.2 proves it by factorisation. Three of the four coefficients are products of manifestly
+Appendix A.3 proves it by factorisation. Three of the four coefficients are products of manifestly
 signed factors. The fourth, $M_C=(1-\omega)+\beta a$, needs the owner’s coefficient on $k$, whose
-numerator is a fifteen-term polynomial; Appendix A.2 exhibits its factorisation into three
+numerator is a fifteen-term polynomial; Appendix A.3 exhibits its factorisation into three
 manifestly positive terms, so that positivity — and therefore the theorem below — rests on algebra
 and not on a decision procedure.
 
 ## 5.2 The interval
 
 **Proposition 6 (the Pareto set).** *Let $\tau_C$ and $\tau_W$ be the two peaks. Then
-$\tau_C<\tau_W$, both are interior to $(0,1)$, the Pareto set in $\tau$ is exactly the closed
-interval $[\tau_C,\tau_W]$, and every $\tau<\tau_C$ is Pareto-dominated: at such a rate both classes
-strictly prefer a larger state.*
+$\tau_C<\tau_W$, both are interior to $(0,1)$, the Pareto set in $\tau$, with the investment share at
+the owner’s choice $i^\star$, is exactly the closed interval $[\tau_C,\tau_W]$, and every $\tau<\tau_C$
+is Pareto-dominated: at such a rate both classes strictly prefer a larger state. In the tax and the
+investment share together, every profile $(\tau,i^\star)$ with $\tau\neq\tau_C$ is Pareto-dominated.*
 
-In words, the disagreement is bounded on both sides, and it is a disagreement about size alone. Any
-rate lying between the owner’s preferred one and the worker’s is a rate no move can improve for both
-classes at once. Any rate below the owner’s own preferred one is a rate both classes strictly wish
+In words, the disagreement over the tax is bounded on both sides, and it is a disagreement about size
+alone. Any rate lying between the owner’s preferred one and the worker’s is a rate that no change in
+the tax alone can improve for both classes at once. Any rate below the owner’s own preferred one is a rate both classes strictly wish
 to raise, which is why the small state has no constituency here.
 
 The gap has a closed form that is a ratio of manifestly positive quantities:
@@ -590,6 +623,34 @@ closed interval whose *lower* endpoint is set by capital; and the state does not
 bargaining power does. An economist who expected the owner’s participation constraint to bind at
 zero has the wrong lower endpoint.
 
+## 5.5 What opens the gap
+
+Proposition 6 holds both of the features Galor and Moav credit with their unanimity fixed, and still
+finds a strictly positive gap. The next statement locates it, changing one primitive at a time at the
+provision corner: where the tax falls, and what workers value.
+
+**Proposition 10 (the tax base).** *At $\phi=1$, compare the tax of §2.2, which falls on the owner’s
+capital income, with a tax on what he invests: he consumes $(1-i_t)\alpha Y_t$ untaxed, invests
+$(1-\tau_t)\,i_t\alpha Y_t$, and the public good receives $\tau_t\,i_t\alpha Y_t$. Compare also workers
+who value effective labour, as in §2.3, with workers who value consumption,
+$\sum_{t}\beta^{t}\ln C^{W}_t$.*
+
+-   *(i) Under either tax base, each kind of worker’s preferred rate is the same; the base moves only the
+    owner’s, through the term $(1-\omega)\ln(1-\tau)$ that a tax on capital income adds to his objective.*
+-   *(ii) With the tax on capital income and workers who value consumption, the worker’s preferred rate
+    strictly exceeds the owner’s at every $\omega\in[0,1)$.*
+-   *(iii) With the tax on investment and workers who value effective labour, the worker’s preferred rate
+    strictly exceeds the owner’s at every $\omega\in[0,1)$.*
+-   *(iv) With the tax on investment, workers who value consumption and $\omega=0$, the two preferred
+    rates are identical at every parameter value.*
+
+In words, either primitive on its own separates the classes, and removing both, with an owner who has
+no taste for wealth, makes them agree. The workforce is produced and owned by nobody in all four
+economies, so its lack of an owner is not what divides them. What moves the owner’s rate is his own
+taxed consumption. A tax on capital income takes a share of what he would have consumed and a tax on
+investment does not, so with no taste for wealth only the first makes him want a smaller state than a
+worker who values consumption. Appendix A.6 gives the proof.
+
 # 6. Capital’s share and the collapse of the agreed range
 
 ## 6.1 The comparative static
@@ -639,9 +700,9 @@ distributive conflict.
 Multiplying Proposition 8 by Proposition 9 says what becomes of the bargain itself.
 
 **Corollary 1.** *Holding the split at the provision corner $\phi=1$, as $\alpha\to1$ the bargained rate tends to a limit whose numerator, once the
-factor $\Delta$ shared by all four coefficients of Proposition 8 is cleared, is
-$-\beta^{2}\gamma(1-\beta)(1-\theta)\lambda$ — that is, whose numerator carries the Pareto weight as
-a factor. The limit is therefore zero if and only if $\lambda=0$. Since $\tau(\lambda)$ lies between
+factor $\Delta$ shared by all four coefficients of Proposition 8 is cleared and the sign is normalised
+so that the denominator is positive, is $\beta^{2}\gamma(1-\beta)(1-\theta)\lambda$ — that is, whose
+numerator carries the Pareto weight as a factor. The limit is therefore zero if and only if $\lambda=0$. Since $\tau(\lambda)$ lies between
 the two peaks at every weight, the limit lies in $\bigl[0,(1-\beta)(1-\theta)\bigr]$ and is
 non-negative; hence it is strictly positive at every $\lambda>0$.*
 
@@ -682,7 +743,9 @@ most contestable primitive, and it is load-bearing for §4: it is what makes mai
 by which the tax reaches the worker’s objective, and so what makes his own elasticity cancel in
 Proposition 4$'$. The owner’s cancellation rests on his objective in the same way, since a direct taste
 for the workforce breaks it (§4.3). A model in which workers valued consumption directly would need §4
-re-derived, not re-interpreted.
+re-derived, not re-interpreted. The objective is not load-bearing for the sign of §5’s gap at the
+provision corner: with workers who value consumption, the worker’s preferred rate still strictly exceeds
+the owner’s (Proposition 10(ii)).
 
 **Owner numbers.** The effective-labour reading of $N_t$ holds the number of persons in each class
 fixed. This is a scope statement rather than a working hypothesis: nothing in the results above
@@ -840,8 +903,25 @@ $\tau_W=(1-\theta)(1-\alpha\beta)/\bigl(1-\theta(1-\alpha)\bigr)$, and their dif
 displayed ratio of §5.2, whose numerator and denominator are products of positive factors; hence
 $\tau_C<\tau_W$. Interiority is the two inequalities of §5.2. For $\tau<\tau_C$ both slopes are
 strictly positive, so both payoffs strictly increase: every such $\tau$ is Pareto-dominated. For
-$\tau\in(\tau_C,\tau_W)$ the slopes have opposite signs, so no move is unanimous and the interval is
-the Pareto set. $\qquad\blacksquare$
+$\tau\in(\tau_C,\tau_W)$ the slopes have opposite signs, so no change in the tax alone is unanimous and
+the interval is the Pareto set in $\tau$ at $i^\star$.
+
+For the last clause, let both instruments move. At $\phi=1$ the investment share enters only the
+owner’s consumption and next period’s capital, so, up to a positive factor and a constant,
+$U^C=S_C(\tau)+(1-\omega)\ln(1-i)+\beta a\ln i$ and $U^W=S_W(\tau)+\beta p\ln i$, with
+$S_j(\tau)=M_j\ln(1-\tau)+N_j\ln\tau$. At $i^\star$, $\partial U^C/\partial i=0$ (Proposition 1) and
+$\partial U^W/\partial i=\beta p/i^\star>0$ (A.3). Fix $\tau_0\neq\tau_C$, so that
+$s\equiv S_C'(\tau_0)\neq0$, and move the tax by $\varepsilon\,\mathrm{sgn}(s)$ and the investment
+share by $\kappa\varepsilon$ with $\kappa>|S_W'(\tau_0)|\,i^\star/(\beta p)$. The owner gains
+$|s|\varepsilon+O(\varepsilon^2)$ and the worker at least
+$\bigl(\beta p\kappa/i^\star-|S_W'(\tau_0)|\bigr)\varepsilon+O(\varepsilon^2)$, both strictly positive
+for small $\varepsilon$. Because both payoffs are additively separable in $\tau$ and $i$, the
+first-order condition in $\tau$ of $\lambda U^W+(1-\lambda)U^C$ does not involve $i$, so the bargained
+tax of Proposition 8 is the same whether or not the investment share is also bargained. The bargained
+share is
+$i(\lambda)=\bigl[(1-\lambda)\beta a+\lambda\beta p\bigr]/\bigl[(1-\lambda)(1-\omega)+(1-\lambda)\beta a+\lambda\beta p\bigr]$,
+which exceeds $i^\star$ at every $\lambda\in(0,1)$ because the difference has the sign of
+$\lambda(1-\omega)\beta p>0$. $\qquad\blacksquare$
 
 ## A.5 Proof of Proposition 9
 
@@ -856,6 +936,37 @@ derivative is strictly negative everywhere on the box. The factor $(1-\alpha)$ i
 $\tau_C$ gives $\tau_C\to0$ as $\alpha\to1$. For the worker,
 $\tau_W\to(1-\theta)(1-\beta)$ as $\alpha\to1$, which is strictly positive for $\theta<1$ and
 $\beta<1$. $\qquad\blacksquare$
+
+## A.6 Proof of Proposition 10
+
+The tax base changes only the constant terms of the transitions and of the owner’s felicity, so the
+state coefficients of A.1 are unchanged. A worker who values consumption has felicity
+$\ln\bigl((1-\alpha)Y_t\bigr)$ at $\phi=1$, whose part in the states is $(\alpha,1-\alpha,0)$, the same
+as the owner’s at $\omega=0$. His coefficients are therefore the owner’s $(a,b,c)$ evaluated at
+$\omega=0$, written $(a_0,b_0,c_0)$.
+
+Under the tax on capital income the instruments enter next period’s logarithms as $\ln i+\ln(1-\tau)$
+in $k$ and $\ln\tau$ in $g$, and the owner’s felicity carries $(1-\omega)[\ln(1-i)+\ln(1-\tau)]$. Under
+the tax on investment they enter as $\ln i+\ln(1-\tau)$ in $k$ and $\ln i+\ln\tau$ in $g$, and the
+owner’s felicity carries $(1-\omega)\ln(1-i)$. Collecting the terms in $\tau$, a worker’s payoff is
+$\beta\bigl[p\ln(1-\tau)+r\ln\tau\bigr]$ under both bases, with $(p,r)$ replaced by $(a_0,c_0)$ for
+the worker who values consumption, which is (i) for the workers. The owner’s is
+$\bigl[(1-\omega)+\beta a\bigr]\ln(1-\tau)+\beta c\ln\tau$ under the tax on capital income and
+$\beta a\ln(1-\tau)+\beta c\ln\tau$ under the tax on investment, which is (i) for the owner. Each
+preferred rate is $N/(M+N)$ for its pair of coefficients, so
+
+$$\tau_W^{\text{cons}}=\frac{c_0}{a_0+c_0},\qquad
+\tau_C=\frac{\beta c}{(1-\omega)+\beta a+\beta c},\qquad
+\tau_C^{\text{inv}}=\frac{c}{a+c},\qquad \tau_W=\frac{r}{p+r}.$$
+
+At $\omega=0$, $\tau_C^{\text{inv}}=c_0/(a_0+c_0)=\tau_W^{\text{cons}}$, which is (iv). At $\omega=0$,
+(ii) is immediate: $\beta c_0/(1+\beta a_0+\beta c_0)<c_0/(a_0+c_0)$ because
+$\beta(a_0+c_0)<1+\beta(a_0+c_0)$. For (ii) and (iii) at every $\omega\in[0,1)$, substitute the
+coefficients of A.1 and write each parameter in $(0,1)$ as $x=X/(1+X)$ with $X>0$, and $\omega$ as
+$W/(1+W)$ with $W\ge0$. The numerators and denominators of $\tau_W^{\text{cons}}-\tau_C$ and of
+$\tau_W-\tau_C^{\text{inv}}$ then become polynomials in $(X,W)$ whose coefficients all share one sign,
+each with a term free of $W$, so both differences are strictly positive on the whole box. The
+expansion was carried out by computer algebra. $\qquad\blacksquare$
 
 # References
 
