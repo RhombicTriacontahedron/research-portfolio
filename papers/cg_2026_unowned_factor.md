@@ -11,10 +11,14 @@ logarithmic objectives — both classes’ policies are constant shares containi
 class’s instruments. In logarithms the economy is a linear-state game, so that degeneracy is the
 known property of a named class rather than a feature of this economy (Dockner, Jørgensen, Van Long
 and Sorger 2000, §7.2–§7.3). The economy closes in dominant strategies, and the shares stay optimal
-among all Markov rules and not only within the affine class, so the distributional conflict is not a
+among all Markov rules that keep the instruments away from the edges of their ranges, and not only
+within the affine class, so the distributional conflict is not a
 game. Four results follow. First, each
 class’s preferred capital-income tax is a function of the **other** class’s reproduction elasticity
-and of its own never; symmetrising the two stocks’ laws of motion does not symmetrise this. Second,
+and of its own never; symmetrising the two stocks’ laws of motion does not symmetrise this. This
+first result holds only with logarithmic objectives. At every non-unit intertemporal elasticity
+tested, each class’s own elasticity moves its preferred rate through the growth rate, so the cross is
+a property of the logarithm and is claimed only there. Second,
 both classes’ payoffs are strictly concave in the tax, so the Pareto set is the closed interval
 between the owner’s preferred rate and the worker’s, and every smaller state is Pareto-dominated:
 below the owner’s own optimum both classes strictly prefer a larger one. Third, the rate that
@@ -36,14 +40,19 @@ The capacity to work is attached to the person who carries it, and cannot be sol
 There is no asset whose price capitalises the improvement, and therefore no agent whose portfolio
 reports it.
 
-This paper asks what that asymmetry does to fiscal preferences. The answer is a cross-structure,
-and it is sharp: **each class’s preferred tax on capital income is a function of the other class’s
-reproduction technology, and of its own never.** The owner’s preferred rate carries the elasticity
-with which maintenance produces effective labour; the worker’s carries the elasticity with which
-investment produces capital. Neither carries his own. The reason is not a taste and not a bargaining
-position: a class can only act on the productivity of a stock that reaches it through the budget,
-and the stock it is the residual claimant of reaches it through a price instead. Section 4.3 derives
-why, and Section 7 says what that derivation does and does not establish about ownership.
+This paper asks what that asymmetry does to fiscal preferences. With logarithmic objectives the
+answer is a cross-structure, and it is sharp: **each class’s preferred tax on capital income is a
+function of the other class’s reproduction elasticity, and of its own never.** The owner’s preferred
+rate carries the elasticity with which maintenance produces effective labour; the worker’s carries the
+elasticity with which investment produces capital. Neither carries his own, and for one reason. What
+the tax costs a class and what it buys reach that class through a single quantity, and the class’s own
+elasticity enters only the value of that quantity, so it cancels. For the owner the quantity is his
+after-tax capital income, which pays both for his consumption and for the investment that builds his
+capital. For the worker it is maintenance, the only input to the workforce his objective values (§7).
+Section 4.3 derives both. However, the
+cross does not survive a non-unit intertemporal elasticity: in every economy of the test reported in
+§4.4, each class’s own elasticity moves its preferred rate. The cross is a property of the
+logarithmic objective, and this paper claims it only there.
 
 That structure survives the obvious objection. One might read the cross-structure as an artefact of
 the two laws of motion having different functional forms — capital linear in investment, the
@@ -68,7 +77,7 @@ nothing from it.
 
 What is added is four things a reader of that literature does not have.
 
-*The cross, and it is the two-sidedness that is claimed.* Each class’s preferred rate on capital
+*The cross, and it is the two-sidedness that is claimed.* With logarithmic objectives, each class’s preferred rate on capital
 income carries the other class’s reproduction elasticity and never its own: the owner’s carries the
 elasticity with which maintenance produces effective labour, the worker’s the elasticity with which
 investment produces capital. To be sure, loading such an elasticity is not itself new. Barro (1990)
@@ -114,7 +123,8 @@ The results above are obtained on a restricted face of the model: one period is 
 capital and the public stock depreciate fully, and both objectives are logarithmic. On that face the
 economy has no strategic interaction at all. Each class’s policy is a constant share containing none
 of the other’s instruments, so the equilibrium is in dominant strategies and the “game” is not a
-game.
+game. The cross of §4 needs the logarithm, and §4.4 shows that it fails without it; the results of
+§§5–6 do not use the cross and have not been tested off the face.
 
 That is a cost, and §3 states it before any result rests on it, because it removes one explanation
 of distributional conflict and leaves another standing. In Lancaster’s (1973) model of the same two
@@ -333,7 +343,7 @@ recovers every baseline expression exactly, which is the positive control on thi
 
 ## 4.2 The cross-structure
 
-**Proposition 4 (cross-structure).** *At the provision corner $\phi=1$, the two preferred rates are*
+**Proposition 4 (cross-structure).** *With logarithmic objectives and at the provision corner $\phi=1$, the two preferred rates are*
 
 $$\tau_W=\frac{(1-\theta)\bigl[1-\beta+\beta\gamma_K(1-\alpha)\bigr]}
 {(1-\theta)\bigl(1-\beta+\beta\gamma_K\bigr)+\alpha\theta\gamma_K},
@@ -350,7 +360,7 @@ In words, each class’s preferred tax is governed by how productively the *othe
 produced. The owner is deciding how much to spend on producing a workforce, so the elasticity of
 that production is what moves the owner’s rate; the worker is deciding how much to draw from a stock
 produced by investment, so the elasticity of that accumulation is what moves the worker’s. Neither
-rate is moved by the technology of the stock its own class already controls at the margin, and §4.3
+rate is moved by the reproduction elasticity of the stock its own class already controls at the margin, and §4.3
 shows that this is not the envelope argument it looks like.
 
 At $\gamma_K=1$ the worker’s rate collapses to
@@ -385,10 +395,17 @@ elasticity is a common factor of the two coefficients whose ratio sets its rate,
 The economics of that is the ownership asymmetry, stated exactly. A class’s own reproduction
 elasticity scales *both* sides of its own tax trade-off in the same proportion — what the tax costs
 it and what the tax buys it are both worth more when its own stock is more productive — so it moves
-neither the sign nor the location of the optimum. The *other* class’s elasticity does not scale both
-sides. It enters only the side that reaches this class through the budget: for the owner, the public
-stock, whose productivity as an input to the workforce is $\gamma$; for the worker, the capital stock
-that the tax shrinks, whose productivity as a producer of output is $\gamma_K$.
+neither the sign nor the location of the optimum. The proportion is exact because both sides reach the
+class through one quantity, and the elasticity enters only the value the class places on it. For the
+owner that quantity is his after-tax capital income: the tax takes a share of it, the fund raises it
+through output, and he spends it on consumption and on investment in his own capital. For the worker
+it is maintenance: the tax lowers it through capital and output, the fund raises it directly, and it
+is the only input to the workforce he values. The *other* class’s elasticity enters both
+sides too, but not in the same proportion, so it survives in their ratio and moves the optimum. It
+reaches this class only through the budget: for the owner, $\gamma$, the elasticity with which
+maintenance — part of it bought with his own tax — produces the workforce his capital employs; for
+the worker, $\gamma_K$, the elasticity with which investment produces the capital stock that the tax
+shrinks.
 
 Two perturbations separate what the cancellation depends on from what it does not. Rescaling the
 owner’s valuation of the public stock — an owner who cares more, or less, about what the tax buys —
@@ -398,18 +415,63 @@ change of kind. Give the owner a direct taste for the workforce, adding $\psi\ln
 felicity so that his interest in it is no longer purely instrumental, and $\gamma_K$ reappears in
 $M_C/N_C$ immediately; setting $\psi=0$ restores the cancellation.
 
-That is the sharpest available statement of what ownership is doing. The cross-structure holds
+On this face, that is the sharpest available statement of what ownership is doing. The cross-structure holds
 because each class’s interest in the stock it does not hold is *entirely instrumental* — the stock
 matters to it only as something arriving through a budget. Ownership is therefore not modelled here
 as a preference or as a bargaining weight. It is the fact that a claim on a stock puts that stock’s
-accumulation on both sides of its holder’s own ledger, and that the workforce, having no holder,
-sits on one side of everybody’s.
+accumulation on both sides of its holder’s own ledger in the same proportion. The workforce, having
+no holder, reaches the owner’s ledger only through the budget, and enters its two sides out of
+proportion. In the worker’s ledger its elasticity is a common factor too, but because his objective
+values the workforce, not because he holds a claim on it. That is why §7 counts his objective as
+load-bearing here.
 
 **So what.** An economist reading a two-class fiscal problem will normally look for the determinants
 of each class’s preferred tax among that class’s own parameters — its discount factor, its share,
-the productivity of the stock it cares about. For the capital-income tax in this economy, that
+the productivity of the stock it cares about. For the capital-income tax in this economy, with logarithmic objectives, that
 search fails by construction. The parameter that moves the owner’s preferred rate is the elasticity
 of a technology he neither operates nor owns.
+
+## 4.4 What a non-unit intertemporal elasticity does to the cross
+
+The cross is a statement about logarithmic objectives, and it fails at every non-unit elasticity
+tested below. To test it, both
+felicities were replaced by $x^{1-\sigma}/(1-\sigma)$ at one common curvature $\sigma$, and the grid,
+the thresholds and the verdict rule were fixed before any solve. The preferred rate at $\sigma\ne1$
+is the best constant tax from a state on that tax’s own balanced-growth path, with the owner’s
+investment share at his best constant response; the best constant tax from a fixed initial state is
+a second object. Scale constants were set so that the owner’s logarithmic profile grows at $0$ or
+$0.2$ a period, and then held fixed. The grid crosses $\alpha\in\{0.3,0.6\}$, $\beta\in\{0.4,0.8\}$,
+$\gamma\in\{0.3,0.7\}$, $\theta\in\{0.3,0.7\}$, $\omega\in\{0,0.4\}$, $\gamma_K\in\{0.5,0.9\}$ and
+the two growth rates, 128 economies, at $\sigma\in\{0.5,2,5\}$. The rule: one economy at which a
+class’s preferred rate moves with its own elasticity by more than $10^{-5}$, on both objects, refutes
+the cross.
+
+It fired at every one of the 384 economy–curvature pairs, for both classes and on both objects. At
+$\sigma=1$ the same code returns Proposition 4 to machine precision, and both own derivatives are
+below $2\times10^{-12}$. The witness with the largest own derivative on both objects is
+$\alpha=0.6$, $\beta=0.8$, $\gamma=0.3$, $\theta=0.3$, $\omega=0$, $\gamma_K=0.5$, $\sigma=0.5$,
+with scale constants calibrated to growth $0.2$: the worker’s preferred rate on the balanced path is
+$0.3695$, and its derivative with respect to his own elasticity $\gamma$ is $1.55$. A first-order
+expansion in $\sigma-1$, done symbolically and sharing no solver with the grid, gives a non-zero
+own-elasticity term for both classes at two exact rational parameter points. Reading $\sigma$ as the
+elasticity rather than the curvature gives the same verdict.
+
+The grid also records where the own elasticity enters. At each of the 960 admissible balanced-path
+solves away from $\sigma=1$ (both classes, including the curvature $0.2$ that the elasticity reading
+adds), the preferred rate equals Proposition 4’s closed form with $\beta$ replaced by
+$\beta e^{(1-\sigma)\hat g}$, to within $3\times10^{-14}$, where $\hat g$ is the per-period growth rate
+of the logarithms of the states on that tax’s balanced path and $\sigma$ is the curvature. The closed
+form carries no own elasticity at any discount factor, so the own elasticity enters through $\hat g$,
+and at $\sigma=1$ the growth term drops out. That channel is a diagnostic of the witness, recorded on
+the grid and not proved; it is not a result of this paper.
+
+Two debts go with this. Away from $\sigma=1$ a constant tax is no longer optimal from every initial
+state (the worker’s best constant tax from a fixed initial state and from the balanced path differ at
+453 of the 457 economy–curvature pairs where that comparison was computed, which include the curvature
+$0.2$ of the elasticity reading and so are not the 384 pairs above), so the objects above are best constant rates and not
+Markov equilibria, and the state-dependent equilibrium was not computed. And the ownership reading of
+§4.3 is a reading of the logarithmic case only. Propositions 4 and 4$'$ are proved on the face and
+stand there; §§5–6 do not use the cross.
 
 # 5. The Pareto interval
 
@@ -566,21 +628,26 @@ a stronger claim than the mathematics supports.
 
 Combining Propositions 6 and 9: as $\alpha\to1$, the unanimous interval $(0,\tau_C)$ — the rates at
 which *both* classes would still prefer a larger state — shrinks to nothing, while the contested
-interval $[\tau_C,\tau_W]$ expands to $[0,(1-\beta)(1-\theta)]$ and swallows the whole Pareto set.
+interval $[\tau_C,\tau_W]$ converges, at the provision corner, to $[0,(1-\beta)(1-\theta)]$ and comes
+to be the whole of the range below the worker’s peak. §7 records that the corner is not the classes’
+common choice in this limit; with the split chosen the worker’s endpoint is $1-\beta$, and the
+unanimous interval vanishes all the same.
 The coalition that funds the reproduction of the workforce, a coalition that on this face includes
 capital itself, dissolves. The fiscal question turns from a joint investment into a pure
 distributive conflict.
 
 Multiplying Proposition 8 by Proposition 9 says what becomes of the bargain itself.
 
-**Corollary 1.** *As $\alpha\to1$ the bargained rate tends to a limit whose numerator, once the
+**Corollary 1.** *Holding the split at the provision corner $\phi=1$, as $\alpha\to1$ the bargained rate tends to a limit whose numerator, once the
 factor $\Delta$ shared by all four coefficients of Proposition 8 is cleared, is
 $-\beta^{2}\gamma(1-\beta)(1-\theta)\lambda$ — that is, whose numerator carries the Pareto weight as
 a factor. The limit is therefore zero if and only if $\lambda=0$. Since $\tau(\lambda)$ lies between
 the two peaks at every weight, the limit lies in $\bigl[0,(1-\beta)(1-\theta)\bigr]$ and is
 non-negative; hence it is strictly positive at every $\lambda>0$.*
 
-The collapse of §6.2 is therefore sharper than it first appears, and it is one-sided. A bargain in
+The corner is not the classes’ common choice in this limit (§7), but the conclusion does not rest
+on it: with the split chosen, the limit is still zero if and only if $\lambda=0$. The collapse of
+§6.2 is therefore sharper than it first appears, and it is one-sided. A bargain in
 which labour carries any weight at all, however small, still delivers a strictly positive state in
 the fully capital-intensive limit. The state disappears at exactly one weight — the one at which
 capital’s own preference is decisive — and that is the weight at which, in a less capital-intensive
@@ -598,8 +665,7 @@ not approached by any continuity argument from it.
 **So what.** The familiar reading of a rising capital share is distributional — it moves income from
 one class to the other at given policy. This section adds a second and less obvious effect on the
 *policy set itself*: it destroys the range over which the two classes’ interests in public
-provision coincide. The two classes can disagree more sharply about the state in an economy where
-each of them is, taken separately, richer.
+provision coincide.
 
 # 7. Scope
 
@@ -608,12 +674,14 @@ capital and of the public stock, and unit intertemporal elasticity in both objec
 restriction on the model and not a limiting case of a wider one, and no continuity onto a domain
 with a non-unit elasticity is claimed. The decisive test of whether the cross-structure of §4 is a
 property of ownership or of the logarithmic objective is a non-unit elasticity, for which no closed
-form is available here; until that is settled, §4’s result is a result about this face.
+form is available. §4.4 runs it numerically and the cross fails, so §4’s result is a result about
+this face and no more. The results of §§5–6 were not tested off the face.
 
 **The worker’s objective.** Workers value effective labour and not consumption. This is the model’s
-most contestable primitive, and it is load-bearing for §4: it is what puts the worker’s maintenance
-and the tax’s cost on the two sides of a single ratio, which is what makes the cancellation of
-Proposition 4$'$ happen. A model in which workers valued consumption directly would need §4
+most contestable primitive, and it is load-bearing for §4: it is what makes maintenance the only route
+by which the tax reaches the worker’s objective, and so what makes his own elasticity cancel in
+Proposition 4$'$. The owner’s cancellation rests on his objective in the same way, since a direct taste
+for the workforce breaks it (§4.3). A model in which workers valued consumption directly would need §4
 re-derived, not re-interpreted.
 
 **Owner numbers.** The effective-labour reading of $N_t$ holds the number of persons in each class
@@ -624,6 +692,14 @@ to do work in any extension that let either class’s membership vary.
 **The split.** The tax results of §§4–6 are stated at the provision corner $\phi=1$. §5.3 gives the
 condition under which that corner is the classes’ common choice; outside it the split is interior
 and the comparative statics of $\tau_C$ and $\tau_W$ would have to be re-taken along $\phi(\tau)$.
+The owner’s rate lies inside that condition everywhere on the box. In the baseline the worker’s lies
+outside it exactly when $\alpha>\beta(1-\theta)/\bigl(\beta(1-\theta)+\theta(1-\beta)\bigr)$, and
+since the threshold of §5.3 goes to zero as $\alpha\to1$, the worker’s limit in §6.2 and every
+bargained limit with $\lambda>0$ in Corollary 1 are taken at a corner both classes would leave.
+Re-taken along $\phi(\tau)$, the worker’s first-order condition reduces to
+$\beta(1-\alpha+\alpha\tau)=(1-\alpha\beta)(1-\tau)$, so above that value of $\alpha$ his preferred
+rate is $1-\beta$ and not $\tau_W$. The owner’s rate, its limit of zero and the signs of Corollary 1
+survive the correction; the worker’s endpoint $(1-\beta)(1-\theta)$ does not.
 
 **Prior art on §4.** Two independent blind searches of the Judd–Chamley line and its
 heterogeneous-agent successors returned no result stating the cross of §4 — a class-preferred capital-income tax that loads the
@@ -645,8 +721,19 @@ standing of the cross is accordingly narrowed rather than settled: two named can
 read and neither displaces it, which is more than a search that returned nothing and less than
 novelty.
 
-**What would break the paper.** Three things, each checkable. If the cross-structure of §4 fails
-under a non-unit intertemporal elasticity, §4 goes and §§5–6 survive. If the coefficients of
+**What has not been read, and what is proved only in the text.** Lansing (1999) and Judd (1985) are
+cited through Straub and Werning’s (2020) rendering of them, and neither body has been read here;
+Chamley (1986) is cited for position and has not been read either. Straub and Werning (2020) and
+Galor and Moav (2006) were read in working-paper form, of February 2015 and August 2005, and every
+locator given for them is working-paper pagination. Fershtman (1987) was read at source.
+Propositions 1, 2, 3 and 7 are proved in the text and not in Appendix A. The instrument-independence
+of Proposition 1 and the common split of Proposition 7 were verified symbolically; Propositions 2
+and 3 rest on the arguments of §3.2, and Proposition 3’s concavity in the split is asserted there
+without its second derivative written out.
+
+**What would break the paper.** Three things, each checkable, and the first has happened. The
+cross-structure of §4 fails under a non-unit intertemporal elasticity (§4.4), so §4 is withdrawn as
+a general claim and stands only as the logarithmic case; §§5–6 do not use it. If the coefficients of
 Proposition 5 fail to be positive somewhere on the box, Proposition 6 reverts to a conjecture about
 critical points. And if §6’s comparative static cannot be distinguished from an ordinary
 differentiation with respect to a technological parameter, §6 belongs in a paper about technical
