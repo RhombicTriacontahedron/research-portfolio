@@ -1,4 +1,4 @@
-# The Margin a Tax Cannot Reach
+# The Margin a Flat Capital-Income Tax Cannot Reach
 Carlos Galindo Escajeda
 2026-09-01
 
@@ -13,10 +13,10 @@ period a generation, full depreciation, logarithmic objectives — the two choos
 *same* split, and differ in one coordinate. A logarithmic owner reinvests a fixed share $i^{*}$ of his net
 income whatever the tax (Straub and Werning 2020, §2.2), while the Pareto-optimal division at weight
 $\lambda$ on the worker is $i(\lambda)=w_K/(w_C+w_K)$, which exceeds $i^{*}$ for every $\lambda>0$ and
-equals it at $\lambda=0$. The planner’s shortfall is exactly
+equals it at $\lambda=0$. The planner’s shortfall in each period is exactly
 $(w_C+w_K)\,D_{\mathrm{KL}}\!\left(i(\lambda)\,\|\,i^{*}\right)$. The missing margin is not the
 unownable stock’s: the fiscal instruments reach that stock’s accumulation margin in full, and both classes
-want the same amount spent on it. It is the ownable stock’s division. But the state’s reason to move that
+want the same amount spent on it. It is the ownable stock’s division. But because the worker here values only the reproduction of the workforce, the state’s reason to move that
 division runs through the unownable stock: the shortfall is sized by the worker’s valuation of capital,
 which is of the order of the elasticity of the workforce’s reproduction in produced inputs and vanishes
 with it, and it is zero exactly when the state places no weight on labour. Nor does closing it require a
@@ -60,7 +60,7 @@ which is why no reader should be left to supply the baseline himself.
 capital-income tax is not new: Straub and Werning (2020, §2.2) state it for a two-class economy of this
 kind, and show that a planner who must save through the owners of capital faces a wedge as a result. This
 paper adds the comparison with an agent who also sets the owner’s division, on a face where that
-comparison closes. First, the planner’s reachable set is a codimension-one slice of the allocation set,
+comparison closes. First, the planner’s reachable set, which restates in shares the constraint of Straub and Werning’s planning problem, is a codimension-one slice of the allocation set,
 and its normal is the owner’s consumption–investment margin (Proposition 2). Second, the failure cannot
 be traded against anything. The objective is additively separable across that direction, so no
 second-best retuning of the tax partly substitutes for the missing instrument, and the planner’s tax and
@@ -80,7 +80,7 @@ classes want the same amount spent on the workforce, so there is no conflict on 
 and the owner’s own value function prices the workforce strictly positively — it is untradeable, not
 unpriced. The separating margin is the *ownable* stock. What Proposition 4 refutes is that the separation
 lives on the workforce’s margin, not that it owes nothing to the workforce: the state wants the owner’s
-division moved because the worker values capital, and the worker values capital only because output feeds
+division moved because the worker values capital, and a worker whose objective is his class’s reproduction values capital only because output feeds
 the workforce’s reproduction (Section 4).
 
 Section 2 sets out the economy. Section 3 establishes what the planner can reach, Section 4 what he
@@ -168,9 +168,9 @@ w_W = \beta\gamma\theta\!\left(\lambda q + (1-\lambda)b\right), \quad
 w_G = \beta\!\left(\lambda r + (1-\lambda)c\right).$$
 
 **Proposition 1 (the objective is Cobb–Douglas in the shares).** *Up to terms containing no instrument,
-the $\lambda$-weighted objective is*
+the right-hand side of the $\lambda$-weighted Bellman equation is*
 $$W \;=\; w_C \ln s_C + w_K \ln s_K + w_W \ln s_W + w_G \ln s_G . \tag{1}$$
-*For $\theta<1$ all four weights are strictly positive on $\lambda \in (0,1)$. Two degeneracies occur at
+*With the instruments held constant, the $\lambda$-weighted lifetime objective is $W/(1-\beta)$ plus terms containing no instrument. For $\theta<1$ all four weights are strictly positive on $\lambda \in (0,1)$. Two degeneracies occur at
 the boundary of the declared domain and both are used below: $w_C=0$ at $\lambda=1$, and $w_G=0$ at
 $\theta=1$, where the public stock leaves both classes’ payoffs.*
 
@@ -189,7 +189,7 @@ $$\frac{\partial s}{\partial i} \;=\; (1-\tau)\alpha\,(-1,\,+1,\,0,\,0) ,$$
 Moreover the privately chosen rate*
 $$i^{*} \;=\; \frac{\beta a}{(1-\omega)+\beta a}$$
 *contains neither $\tau$ nor $\varphi$, so B2’s reachable set is exactly the slice
-$\{\,s_K/(s_C+s_K) = i^{*}\,\}$ and no fiscal instrument moves off it.*
+$\{\,s_K/(s_C+s_K) = i^{*}\,\}$ of B4’s feasible set $\{\,s_W \ge 1-\alpha\,\}$, and no fiscal instrument moves off it.*
 
 *Proof.* The Jacobian ranks are immediate from (S): the $\varphi$-column is $\tau\alpha(0,0,-1,1)$, the
 $i$-column is $(1-\tau)\alpha(-1,1,0,0)$, and only the $\tau$-column moves $s_C+s_K$. At $\tau=0$ the
@@ -239,12 +239,12 @@ ownership adds — is not a handicap imposed on the planner. It is what he does.
 
 *(ii) $i(\lambda) > i^{*}$ for every $\lambda \in (0,1]$, and $i(0) = i^{*}$ exactly.*
 
-*(iii) The planner’s shortfall against B4 is*
+*(iii) The planner’s shortfall against B4 in each period is*
 $$\Delta(\lambda) \;=\; (w_C+w_K)\; D_{\mathrm{KL}}\!\left(i(\lambda)\,\middle\|\,i^{*}\right)
 \;=\; (w_C+w_K)\left[\,i(\lambda)\ln\frac{i(\lambda)}{i^{*}} + (1-i(\lambda))\ln\frac{1-i(\lambda)}{1-i^{*}}\right] ,$$
 *which is strictly positive for $\lambda \in (0,1]$ and zero at $\lambda = 0$. At the corner $\lambda=1$
 the second term is $0\cdot\ln 0$ and is read under the usual convention $0\ln 0 = 0$; with that reading
-$\Delta$ is continuous there, its value coinciding with $\lim_{\lambda\to1^-}\Delta(\lambda)$.*
+$\Delta$ is continuous there, its value coinciding with $\lim_{\lambda\to1^-}\Delta(\lambda)$. Over the whole future the shortfall is $\Delta(\lambda)/(1-\beta)$.*
 
 *Proof.* (i) By Propositions 1 and 3 the inner problem is $\max_i\, w_K \ln i + w_C \ln(1-i)$, strictly concave
 with $f''(i) = -w_K/i^2 - w_C/(1-i)^2 < 0$, whose stationary point is $w_K/(w_C+w_K)$. At $\lambda=1$,
@@ -292,7 +292,7 @@ inputs: from (C), $p/\gamma \to \alpha\beta(\theta+\beta(1-\theta))/\big((1-\bet
 $\gamma \to 0$, so the cleared gap $\beta(1-\omega)\lambda p$ vanishes once output no longer feeds the
 workforce. So the contribution is not that state ownership does something. It is that a state which
 weights labour at all wants a division that no flat rate on the owner’s income can reach, and wants it
-because the workforce is reproduced from output.
+because the workforce is reproduced from output, which in this economy is the only reason the worker values capital.
 
 **Remark 2 (the only claim made against B1).** Against a small fiscal state, $\tau \to 0$, both classes’
 payoffs are strictly concave in the tax with $\operatorname{sign}(\partial U_j/\partial\tau) = \operatorname{sign}(\tau_j - \tau)$,
@@ -373,11 +373,12 @@ moves it: a subsidy to reinvestment paid out of the take, or a tax on the owner�
 rate $i^{*}(1-i^{*})$ per unit at zero; a levy fixed in levels rather than in proportion to output, at
 least when the workforce is held constant; or a capital-income tax whose rate falls with the capital stock.
 A subsidy $w$ sets the division at any $x \ge i^{*}$ with $1+w = x(1-i^{*})/\big(i^{*}(1-x)\big)$, and at
-none below. The falling rate is levied on the same base as the flat tax, and on this face it is not
-sequentially optimal, so it needs commitment. The negative result of this paper is about flat rates.
+none below. The falling rate is levied on the same base as the flat tax, and it is taken here as a
+schedule the planner commits to; whether a planner who re-optimises each period would choose it is not
+established. The negative result of this paper is about flat rates on the owner’s net income.
 
-A commitment result would be fifty years old, and this is not one; but neither is it
-independent of commitment. A planner confined to flat rates falls short however credible he is. A planner
+A commitment result would be fifty years old, and this is not one: a planner confined to flat rates
+falls short however credible he is. A planner
 who can commit to a rate that falls with the capital stock moves the division, and one who subsidises
 reinvestment closes the shortfall at every interior weight.
 
@@ -393,7 +394,7 @@ the planner attains B4 exactly. The spanning reading of the mechanism is refuted
 $\theta=1$ as the witness. And the missing instrument is not a holding: a planner holding no capital who
 also pays a subsidy $w$ on reinvestment out of the take attains B4 at every $\lambda\in(0,1)$, with the
 owner interior at $i^{*}$, $\tau = 1 - s_C/\big((1-i^{*})\alpha\big)$ and $1+w = s_K(1-i^{*})/(i^{*}s_C)$
-at B4’s shares; the budget closes with $s_W \ge 1-\alpha$ because B4 satisfies that bound.
+at B4’s shares; the budget closes with $s_W \ge 1-\alpha$ because B4 satisfies that bound. Nor is the negative about the tax base: a levy fixed in levels, with the workforce held constant, and a capital-income tax whose rate falls with the capital stock each move the division (Section 6).
 
 **Undischarged, and named.**
 
@@ -408,8 +409,11 @@ at B4’s shares; the budget closes with $s_W \ge 1-\alpha$ because B4 satisfies
     $\sigma>0$ and a logarithmic worker: at the relaxation’s allocation the weighted marginal
     gain from investment is $(1-\lambda)$ times the owner’s own plus $\lambda\beta p/i$, and $p>0$, so the
     owner under-invests there at every $\lambda\in(0,1]$. That argument is checked symbolically and is not
-    printed as a proposition. The size of the gap off the face, and a non-logarithmic worker, are
-    undischarged.
+    printed as a proposition. The same argument gives non-attainment for a worker with constant relative risk
+    aversion against a logarithmic owner, for flat rates and finite payoffs: the worker’s marginal value of
+    capital is then a discounted sum of non-negative terms, the second of them positive. How large the gap is
+    off the face is not established, and with a curved worker the Pareto weight, and so the size at a given
+    weight, depends on the units in which the workforce is measured.
 2.  *What a state holding capital does depends on what the state wants.* Let the state add
     $\psi\tau\alpha Y$ to the one capital stock while the owner keeps all capital income. The owner does not
     then keep $i^{*}$: he best-responds by lowering his own reinvestment rate by
@@ -417,12 +421,12 @@ at B4’s shares; the budget closes with $s_W \ge 1-\alpha$ because B4 satisfies
     objective attains B4 at every $\lambda\in(0,1)$, but only at the corner where the owner’s own
     reinvestment is zero and the state does all the investing; a state maximising its own tax revenue
     attains B4 at no $\lambda\in(0,1)$. The verdict moves with the state’s objective. At $\lambda=1$ nothing
-    attains B4, since $i(1)=1$ requires $s_C=0$, hence $\tau=1$. So in this encoding a holding reaches
+    attains B4, since $i(1)=1$ requires $s_C=0$, hence $\tau=1$, where the owner’s net income is zero and his problem is not defined. So in this encoding a holding reaches
     nothing the subsidy of Section 6 does not, and reaches it only by displacing the owner’s investment
     entirely. These verdicts are checked symbolically and are not propositions of this paper.
 3.  *Other holdings.* A holding that earns its pro-rata share of capital income (no closed form was found);
     a state that matches the owner’s investment by a known rule, under which the owner keeps $i^{*}$ and
-    whether B4 is reached depends on the parameters; state-contingent rules, of which Section 6 shows only
+    whether B4 is reached depends on the parameters; state-contingent rules, of which Section 6 reports only
     that a committed rate falling with the capital stock moves the division, not that any attains B4; and
     whether the corner
     implementation of item 2 is time-consistent for the state.
@@ -433,7 +437,7 @@ at B4’s shares; the budget closes with $s_W \ge 1-\alpha$ because B4 satisfies
     through their rendering of it and is not read at source; nor is the workers’ investment funds paper of
     Pohjola (1983). Nothing here leans on either.
 
-*So what.* The paper establishes a negative about taxes levied on the owner’s income, a closed form for
+*So what.* The paper establishes a negative about flat rates on the owner’s net income, a closed form for
 what they miss, and the fact that an ordinary subsidy to reinvestment supplies it. What it does not
 establish is that owning capital adds anything to that subsidy; in the one encoding of a holding that
 closes, it adds nothing.
