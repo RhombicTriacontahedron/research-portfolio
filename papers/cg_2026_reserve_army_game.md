@@ -1448,11 +1448,11 @@ below full employment: it does whenever
 $\beta\hat e - \omega^\ast < \rho\kappa/(1+\lambda)$, and it does at
 some compromises that meet all of Proposition 12’s hypotheses
 (A.12$''$(v)). It does at two of the four compromises (iv) reads, both
-of which meet that condition: at Proposition 13’s pinned rest point
+of which satisfy that inequality: at Proposition 13’s pinned rest point
 accumulation stops paying at $v_c = 0.771$, barely above
 $v^\ast = 0.732$, and at its distributionist rest point
 $v^\ast = 0.7848$ it stops at $v_c = 0.962$. At the other two, and at
-the fifth compromise of A.12$''$(iv), the condition fails and along
+the fifth compromise of A.12$''$(iv), the inequality fails and along
 capital’s stable manifold, as computed, accumulation pays all the way to
 full employment; $v_c = 1$ is not established there. Where the
 stationary wage leaves capital little of the extractable day at full
@@ -3577,8 +3577,8 @@ enclosures, with the negative control that the condition is refused at
 Proposition 12’s own cell; and, as a witness, the traced right branch
 entering $PD < 1$ before $x_s$ at both cells, with a positive control
 that sees a crossing on a perturbed cell. The same scope at Proposition
-13’s three rest points and at A.12$''$(iv)’s fifth compromise is checked
-in
+13’s three rest points, at A.12$''$(iv)’s fifth compromise and, again,
+at Proposition 12’s cell is checked in
 `models/reserve_army_game/prop13_cells_right_branch_2026_09_15_3f978db6.py`:
 symbolically, the identity
 $\beta\bar e - \omega - \rho\kappa/(1+\lambda) = s(\bar e - \omega)$ on
