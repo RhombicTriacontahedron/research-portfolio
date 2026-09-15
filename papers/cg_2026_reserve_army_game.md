@@ -1428,7 +1428,9 @@ price: $\bar\omega$ is strictly increasing, so *every* upward deviation
 keeps labour’s committed path feasible — at a bargained compromise as
 much as at a pinned one — and at a pinned compromise the feasible set is
 that half and nothing else. A.12$''$(iv) shows what the core cannot
-price once such a deviation arrives at full employment.
+price once such a deviation arrives at full employment. At two of the
+four, the computed closed loop is capital’s best reply only from starts
+up to the $v_c$ of (v), which there lies below full employment.
 
 *(v) Capital, wherever the economy’s law of motion holds.* Suppose also
 that the stationary wage lies below the extractable day at full
@@ -1445,12 +1447,23 @@ $v^\ast$ at which, at capital’s shadow price, accumulation stops paying
 below full employment: it does whenever
 $\beta\hat e - \omega^\ast < \rho\kappa/(1+\lambda)$, and it does at
 some compromises that meet all of Proposition 12’s hypotheses
-(A.12$''$(v)). From a start at or above an employment rate at which
-accumulation does not pay, capital has no best reply: its supremum is
-approached as its share tends to zero and is not attained, because the
-share set is open. Where no admissible deviation reaches full employment
-— the escape margin $E$ of A.12$''$(iv) is not positive — this needs no
-assumption about full employment at all.
+(A.12$''$(v)). It does at two of the four compromises (iv) reads, both
+of which meet that condition: at Proposition 13’s pinned rest point
+accumulation stops paying at $v_c = 0.771$, barely above
+$v^\ast = 0.732$, and at its distributionist rest point
+$v^\ast = 0.7848$ it stops at $v_c = 0.962$. At the other two, and at
+the fifth compromise of A.12$''$(iv), the condition fails and along
+capital’s stable manifold, as computed, accumulation pays all the way to
+full employment; $v_c = 1$ is not established there. Where the
+stationary wage leaves capital little of the extractable day at full
+employment, then, capital can be left without a best reply to that wage
+from employment rates only a little above the compromise. From a start
+at or above an employment rate at which accumulation does not pay,
+capital has no best reply: its supremum is approached as its share tends
+to zero and is not attained, because the share set is open. Where no
+admissible deviation reaches full employment — the escape margin $E$ of
+A.12$''$(iv) is not positive — this needs no assumption about full
+employment at all.
 
 In words, the equilibrium claim in the regime holds on both sides, and
 the reason the two sides need different arguments is economic rather
@@ -3157,9 +3170,26 @@ necessary. It fails at Proposition 12’s own cell, and holds there with
 $(\hat e, m_0)$ changed to $(21/100, 3/100)$, where $E = +0.052$, or to
 $(1/5, 3/25)$, where $E = -0.036$: both meet all of Proposition 12’s
 hypotheses, with $v^\ast = 0.522$ and $0.234$, and $v_c$ below
-$e^{x_s} = 0.610$ and $0.650$. Nothing here uses concavity, and joint
-feasibility is never imposed, so the conclusion holds over the larger
-set.
+$e^{x_s} = 0.610$ and $0.650$. It holds as well at Proposition 13’s
+pinned rest point and at its distributionist rest point
+$v^\ast = 0.7848$, which do not meet Proposition 12’s hypothesis
+$\hat\omega \le \kappa\rho$ but meet this proof’s: there
+$\beta\hat e - \omega^\ast - \rho\kappa/(1+\lambda) = -0.106$ and
+$-0.010$, so $v_c < e^{x_s} = 0.773$ and $0.973$. The distributionist
+rest point lies on $h$’s accumulating nullcline as a pinned one does,
+because on Proposition 13’s locus, where $\omega = \kappa\rho/s$,
+$\beta\bar e - \omega - \rho\kappa/(1+\lambda) = s(\bar e - \omega)$
+identically, so its stationary share is the share capital chooses
+against its wage. Traced, the stable manifold enters $PD < 1$ at
+$v_c = 0.771$ and $0.962$, and (iv)’s numerical solution sets the share
+to zero from those rates up. At Proposition 13’s other distributionist
+rest point, $v^\ast = 0.8095$, and at the fifth compromise of
+A.12$''$(iv) the condition fails ($+0.032$ and $+0.105$), and there, as
+at Proposition 12’s cell ($+0.009$), the traced manifold keeps $PD > 1$
+up to full employment, with minimum $1.192$, $1.113$ and $1.017$: a
+computation, not a proof that $x_c = 0$. Nothing here uses concavity,
+and joint feasibility is never imposed, so the conclusion holds over the
+larger set.
 
 *The boundary.* Where $E \le 0$ the drift at $x = 0$ is below
 $\gamma D(0) - (m_0+n) = E \le 0$ under every admissible share, so no
@@ -3546,7 +3576,24 @@ $\beta > 0$, each return `sat`; at the two cells of (v), Proposition
 enclosures, with the negative control that the condition is refused at
 Proposition 12’s own cell; and, as a witness, the traced right branch
 entering $PD < 1$ before $x_s$ at both cells, with a positive control
-that sees a crossing on a perturbed cell.
+that sees a crossing on a perturbed cell. The same scope at Proposition
+13’s three rest points and at A.12$''$(iv)’s fifth compromise is checked
+in
+`models/reserve_army_game/prop13_cells_right_branch_2026_09_15_3f978db6.py`:
+symbolically, the identity
+$\beta\bar e - \omega - \rho\kappa/(1+\lambda) = s(\bar e - \omega)$ on
+Proposition 13’s locus, with a mutation control ($\omega$ scaled by
+$21/20$ must and does break it); by interval enclosures at the exact
+cells, each rest point, the hypotheses of (v), the branch on which
+labour sits, capital’s stationary condition, and the sufficient
+condition, certified at the pinned rest point and at $v^\ast = 0.7848$
+and refused at the other three, Proposition 12’s cell among them as the
+negative control; and, as a witness read by two instruments, the traced
+right branch entering $PD < 1$ at $v_c = 0.771$ and $0.962$ and (iv)’s
+policy iteration setting the share to zero within $0.001$ of those rates
+on its finer grid, while neither instrument finds a crossing at the
+other three, with positive controls at the cell
+$(\hat e, m_0) = (21/100, 3/100)$.
 
 Every such `unsat` is a proof, not a sample. Each file prints its own
 check and control counts and exits non-zero on any failure. The
