@@ -1437,11 +1437,20 @@ compromise short of full employment under Proposition 12’s hypotheses.
 Then capital’s stationary path is optimal against labour’s over every
 deviation that keeps the economy’s law of motion up to and at full
 employment, including deviations that carry labour’s committed path
-outside its feasible set, and from any initial employment rate capital’s
-best reply to the stationary wage moves the employment rate
-monotonically to $v^\ast$. Where no admissible deviation reaches full
-employment — the escape margin $E$ of A.12$''$(iv) is not positive —
-this needs no assumption about full employment at all.
+outside its feasible set, and capital’s best reply to the stationary
+wage moves the employment rate monotonically to $v^\ast$ from every
+initial employment rate up to $v_c$, the first employment rate above
+$v^\ast$ at which, at capital’s shadow price, accumulation stops paying
+($v_c = 1$ if it pays all the way to full employment). $v_c$ can lie
+below full employment: it does whenever
+$\beta\hat e - \omega^\ast < \rho\kappa/(1+\lambda)$, and it does at
+some compromises that meet all of Proposition 12’s hypotheses
+(A.12$''$(v)). From a start at or above an employment rate at which
+accumulation does not pay, capital has no best reply: its supremum is
+approached as its share tends to zero and is not attained, because the
+share set is open. Where no admissible deviation reaches full employment
+— the escape margin $E$ of A.12$''$(iv) is not positive — this needs no
+assumption about full employment at all.
 
 In words, the equilibrium claim in the regime holds on both sides, and
 the reason the two sides need different arguments is economic rather
@@ -1463,25 +1472,30 @@ capital accumulates, at the rate $\gamma\zeta\beta\bar e + b$ in
 log-employment, with $\gamma = (1-c)/\kappa$, which is positive on the
 whole of Proposition 9’s first branch, where a compromise can exist. So
 the coefficient that decides whether the classes have a compromise also
-decides that capital cannot profit from moving the unemployment pool,
-and capital’s best reply to the stationary wage returns the economy to
-$v^\ast$ from wherever it starts. What (v) needs beyond the regime’s
-interior equations is that the law of motion hold at full employment. At
-a pinned compromise capital’s jointly feasible deviations run toward
-full employment and nowhere else, because labour’s committed wage is its
-own ceiling there; where the supremal drift at $v = 1$ is positive — as
-it is at Proposition 12’s cell — those deviations reach it, and the
-neutrality of Proposition 5$''$ does not price what arrives, since it
-needs the separation of Proposition 2, which fails here through the
-action set (Proposition 7). Where the law of motion continues to hold at
-full employment, (v) covers those deviations. What it does not cover is
-a continuation that changes the law there, and on the evidence in
-A.12$''$(iv) that is the kind that matters: every continuation priced
-there that keeps $K = \kappa a L$ at full employment returns the
-stationary share, and the one that reverses the verdict suspends it,
-letting productivity grow without the accumulation the technology
-requires. What remains open on capital’s side is therefore an
-institution, not a proof.
+decides that capital cannot profit from moving the unemployment pool.
+Capital’s best reply to the stationary wage returns the economy to
+$v^\ast$ from every start below it, and from every start above it up to
+the employment rate at which accumulation stops paying. That
+qualification has content. Above $v^\ast$ accumulation can stop paying
+before full employment. From a start at or above an employment rate
+where it does not pay, capital has no best reply: it would accumulate
+less than any positive share, and the share set does not contain zero.
+What (v) needs beyond the regime’s interior equations is that the law of
+motion hold at full employment. At a pinned compromise capital’s jointly
+feasible deviations run toward full employment and nowhere else, because
+labour’s committed wage is its own ceiling there; where the supremal
+drift at $v = 1$ is positive — as it is at Proposition 12’s cell — those
+deviations reach it, and the neutrality of Proposition 5$''$ does not
+price what arrives, since it needs the separation of Proposition 2,
+which fails here through the action set (Proposition 7). Where the law
+of motion continues to hold at full employment, (v) covers those
+deviations. What it does not cover is a continuation that changes the
+law there, and on the evidence in A.12$''$(iv) that is the kind that
+matters: every continuation priced there that keeps $K = \kappa a L$ at
+full employment returns the stationary share, and the one that reverses
+the verdict suspends it, letting productivity grow without the
+accumulation the technology requires. What remains open on capital’s
+side is therefore an institution, not a proof.
 
 # 7. So what
 
@@ -1660,23 +1674,27 @@ any compromise exists at all, and the same coefficient signs how the
 employment growth sustained by capital’s price of accumulation responds
 to employment: it falls as employment rises wherever a compromise
 exists. So capital, whose valuation prefers a pool that varies, still
-cannot profit from making it vary; its best reply to the stationary wage
-returns the economy to the compromise from any start (Proposition
-14(v)). The unemployment pool stabilises labour’s problem through
-curvature and capital’s through price. That result needs the economy’s
-law of motion to hold at full employment, and where no admissible
-deviation reaches full employment — the escape margin $E \le 0$ of
-A.12$''$(iv), the state space forward invariant under every share — it
-needs nothing else. Where $E > 0$ an admissible deviation reaches full
-employment in finite time, what arrives is priced by the continuation
-there, and two continuations that hold the economy at full employment
-return opposite verdicts on whether the compromise is a rest point of
-capital’s optimal feedback — at Proposition 12’s cell, where
-$E = +0.100$, one continuation returns the stationary share and the
-other a share of $0.417$ against it. The two are not on the same terms:
-the one that reverses the verdict holds productivity at the behavioural
-rate whatever the share, and its holds reverse the verdict only at
-shares below $0.162$, under the drift-zero level $0.230$, so
+cannot profit from making it vary. Its best reply to the stationary wage
+returns the economy to the compromise from every start below it, and
+from every start above it up to the first employment rate at which
+accumulation stops paying (Proposition 14(v)). That rate can lie short
+of full employment. From a start at or above a rate at which
+accumulation does not pay, capital has no best reply, only a supremum it
+approaches by accumulating ever less. The unemployment pool stabilises
+labour’s problem through curvature and capital’s through price. That
+result needs the economy’s law of motion to hold at full employment, and
+where no admissible deviation reaches full employment — the escape
+margin $E \le 0$ of A.12$''$(iv), the state space forward invariant
+under every share — it needs nothing else. Where $E > 0$ an admissible
+deviation reaches full employment in finite time, what arrives is priced
+by the continuation there, and two continuations that hold the economy
+at full employment return opposite verdicts on whether the compromise is
+a rest point of capital’s optimal feedback — at Proposition 12’s cell,
+where $E = +0.100$, one continuation returns the stationary share and
+the other a share of $0.417$ against it. The two are not on the same
+terms: the one that reverses the verdict holds productivity at the
+behavioural rate whatever the share, and its holds reverse the verdict
+only at shares below $0.162$, under the drift-zero level $0.230$, so
 $K = \kappa a L$ is suspended at the boundary by productivity growing
 without the accumulation it requires, whereas every continuation priced
 there that keeps the technology — the free-share one Proposition
@@ -3097,13 +3115,51 @@ $\dot x \ge -\delta(x) \ge -(m_0+n)$ on $x \le 0$, so
 $x(T) \ge x(0) - (m_0+n)T$. Hence
 $\liminf_{T\to\infty} e^{-\rho T}W(x(T)) \ge 0$, and integrating from
 $0$ to $T$ gives $J \le W(x_0)$ for every admissible path, with equality
-along the feedback that attains the supremum at $W'$, whose path
-converges to $x^\ast$ and keeps $W$ bounded. From $x_0 = x^\ast$ that
-feedback is the stationary share, so capital’s stationary path is
-optimal; from any other start it moves $x$ monotonically to $x^\ast$, by
-the sign of the drift on each branch. Nothing here uses concavity, and
-joint feasibility is never imposed, so the conclusion holds over the
-larger set.
+exactly along a path that keeps $W$ bounded and whose share attains the
+supremum at $W'$ at almost every time. Where $PD > 1$ that share is
+$s = 1 - 1/(PD)$; where $PD \le 1$ no share attains it, and where
+$PD < 1$ every $s \in (0,1)$ leaves the gap
+$H^\ast_C - H_C = -\ln(1-s) - sPD > s(1-PD) > 0$. From $x_0 = x^\ast$
+the maximising share is the stationary share, so capital’s stationary
+path is optimal. Let $x_c$ be the first point to the right of $x^\ast$
+at which $PD = 1$, and $x_c = 0$ if there is none. From every
+$x_0 \le x_c$ the feedback moves $x$ monotonically to $x^\ast$, by the
+sign of the drift on each branch, with $PD > 1$ along its path after
+$t = 0$, so it attains $W(x_0)$. That set contains the whole left
+branch. On the accumulating branch $h(x, Q_1(x)) = 0$, so
+$h_x = -h_qQ_1' < 0$, since $h_q = (\rho+b) + \gamma\zeta\bar e > 0$ and
+$Q_1$ is strictly increasing, $\bar e$ falling in $x$. The slopes $k$ of
+the linearised system’s invariant lines at the rest point solve
+$\chi(k) \equiv f_qk^2 + (f_x - h_q)k - h_x = 0$, and
+$h_q^2\,\chi(Q_1'(x^\ast)) = -h_x\det J < 0$ by (iii), the determinant
+being unchanged by the affine change from $p$ to $q$. Since $f_q > 0$,
+$Q_1'(x^\ast)$ lies strictly between the two roots, and the stable slope
+$P'(x^\ast)$, the smaller, lies below it: $P > Q_1$ just left of
+$x^\ast$ and $P < Q_1$ just right of it. At a first touch of $Q_1$ where
+$Q_1D \ge 1$, $h = 0$ and so $P' = 0$, which $Q_1' > 0$ rules out from
+either side. Hence $PD > Q_1D > 1$ on the whole of $x < x^\ast$, and
+$P < Q_1$ on the right up to the point $x_s$ at which $Q_1D = 1$. Since
+$\gamma\zeta/M = 1 - \beta$,
+$(Q_1D - 1)\big((\rho+b) + \gamma\zeta\bar e\big) = M\big(\beta\bar e - \omega^\ast - \rho\kappa/(1+\lambda)\big)$,
+and $Q_1D$ is strictly decreasing, so $x_s < 0$ exactly when
+$\beta\hat e - \omega^\ast < \rho\kappa/(1+\lambda)$; then
+$PD < Q_1D = 1$ at $x_s$, and $x_c < x_s < 0$. From a start at which
+$PD < 1$, or to the right of such a point, every admissible path fails
+to attain the supremum at $W'$ on a set of times of positive measure:
+near $x_0$ if $PD(x_0) < 1$, and otherwise either by leaving the
+maximising share or, following it, by crossing that point’s
+neighbourhood leftward, which takes positive time because the drift is
+bounded on bounded sets. So $J < W(x_0)$ strictly, while shares tending
+to zero wherever $PD \le 1$ bring $J$ arbitrarily close to $W(x_0)$:
+$W(x_0)$ is capital’s supremum there and is not attained. The condition
+on $\beta\hat e - \omega^\ast$ is sufficient for $x_c < 0$, not
+necessary. It fails at Proposition 12’s own cell, and holds there with
+$(\hat e, m_0)$ changed to $(21/100, 3/100)$, where $E = +0.052$, or to
+$(1/5, 3/25)$, where $E = -0.036$: both meet all of Proposition 12’s
+hypotheses, with $v^\ast = 0.522$ and $0.234$, and $v_c$ below
+$e^{x_s} = 0.610$ and $0.650$. Nothing here uses concavity, and joint
+feasibility is never imposed, so the conclusion holds over the larger
+set.
 
 *The boundary.* Where $E \le 0$ the drift at $x = 0$ is below
 $\gamma D(0) - (m_0+n) = E \le 0$ under every admissible share, so no
@@ -3478,7 +3534,19 @@ gap halving from $4{,}000$ to $8{,}000$ nodes; and $W(x^\ast)$ equals
 the candidate’s value. Its controls at every cell are that the unstable
 eigenvector’s trace does not reproduce the value and that a shifted
 value $W + 0.01(x - x^\ast)$ is rejected; and $E$ is positive at
-Proposition 12’s cell only.
+Proposition 12’s cell only. The scope of (v)’s best reply is checked in
+`models/reserve_army_game/f2_right_branch_attainment_2026_09_14_4380f935.py`:
+symbolically, $Q_1'$, the determinant at $(x, Q_1)$,
+$h_q^2\chi(-h_x/h_q) = -h_x\det J$ and the identity for $Q_1D - 1$, with
+a mutation control ($M$ scaled by $21/20$ must and does break the last);
+the signs of $h_x$ and of $\det J$ on the first branch by `unsat` on
+division-free encodings, with the controls that $h_x > 0$, and dropping
+$\beta > 0$, each return `sat`; at the two cells of (v), Proposition
+12’s hypotheses, $E$ and the sufficient condition by interval
+enclosures, with the negative control that the condition is refused at
+Proposition 12’s own cell; and, as a witness, the traced right branch
+entering $PD < 1$ before $x_s$ at both cells, with a positive control
+that sees a crossing on a perturbed cell.
 
 Every such `unsat` is a proof, not a sample. Each file prints its own
 check and control counts and exits non-zero on any failure. The
