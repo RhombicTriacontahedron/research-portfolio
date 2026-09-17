@@ -24,6 +24,8 @@ The comparative static follows in two lines. Capital-augmenting progress raises 
 
 The policy reading is narrow and worth stating anyway. On this model a coalition for the public funding of reproduction is not a standing feature of a capitalist economy but a magnitude, and a magnitude with a sign attached to a technological parameter. Where capital and labour are substitutes, the same technical change that raises output erodes the part of the fiscal question on which the two classes agree, without touching the part on which they do not. If such funding is to survive automation, it survives as a contested transfer and not as a joint investment — and an argument for it addressed to the owner’s own interest gets weaker, at a rate the model ties to $\sigma$, precisely as automation proceeds.
 
+That erosion is not a collapse of labour, and it is not a law of population. Capital-biased technical change, where the factors are substitutes, lowers the owner’s own preferred rate by moving shares (Proposition 5); the worker’s preferred rate stays bounded away from zero (Proposition 6). The public stock remains how successor labour is reproduced when it is not owned. “The maintenance and reproduction of the working class is, and must ever be, a necessary condition to the reproduction of capital” (Marx, *Capital* I, ch. 23). Here that condition is the strictly positive loading of the public stock in the owner’s continuation, on the domain where that loading is present. The map from income to numbers is this model’s, not his. Relative superfluity of labour is a different object.
+
 **What this paper establishes and what it does not.** Sections 4 to 6 are this paper’s own; the two results that Section 2 takes as given are not, and are attributed there. The sign result is proved for the approximating model and corroborated, not proved, on the exact one, where the search is restricted to constant policies. Section 7 states the boundary in full.
 
 # 2. Two results taken as given
@@ -212,5 +214,6 @@ The following bound the results above and are not conjectures about them.
 
 -   Acemoglu, D., A. A. Gitmez, and M. Shadmehr (2026). “Automation and Repression.” NBER Working
     Paper 35336. DOI 10.3386/w35336.
+-   Marx, K. *Capital*, Volume I, chapter 23 (Moore–Aveling translation).
 -   Straub, L., and I. Werning (2020). “Positive Long-Run Capital Taxation: Chamley-Judd Revisited.”
     *American Economic Review* 110(1): 86–119. DOI 10.1257/aer.20150210.
