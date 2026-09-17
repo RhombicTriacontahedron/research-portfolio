@@ -42,6 +42,18 @@ The capacity to work is attached to the person who carries it, and cannot be sol
 There is no asset whose price capitalises the improvement, and therefore no agent whose portfolio
 reports it.
 
+This paper’s object is that unownedness, and what it does to a tax that funds the public part of
+reproduction. Marx treats the wage bill as “only a particular historical form of appearance of the
+fund for providing the necessaries of life, or the labour-fund which the labourer requires for
+the maintenance of himself and family, and which, whatever be the system of social production, he
+must himself produce and reproduce” (*Capital* I, ch. 23). A tax on capital income that fills a
+public stock is another form of appearance of the same fund: an incidence statement in this
+instrument set, not a claim about whose labour produced the output. “The maintenance and
+reproduction of the working class is, and must ever be, a necessary condition to the reproduction of
+capital” (same chapter). Here that condition is the strictly positive loading of the public stock in
+the owner’s continuation. The map from this period’s spending to next period’s labour is this
+model’s, not his.
+
 This paper asks what that asymmetry does to fiscal preferences. With logarithmic objectives the
 answer is a cross-structure, and it is sharp: **each class’s preferred tax on capital income is a
 function of the other class’s reproduction elasticity, and of its own never.** The owner’s preferred
@@ -996,5 +1008,6 @@ expansion was carried out by computer algebra. $\qquad\blacksquare$
     81(5): 1092–1109. DOI 10.1086/260108.
 -   Lansing, K. J. (1999). “Optimal Redistributive Capital Taxation in a Neoclassical Growth Model.”
     *Journal of Public Economics* 73(3): 423–453. DOI 10.1016/s0047-2727(99)00016-x.
+-   Marx, K. *Capital*, Volume I, chapter 23 (Moore–Aveling translation).
 -   Straub, L., and I. Werning (2020). “Positive Long-Run Capital Taxation: Chamley-Judd Revisited.”
     *American Economic Review* 110(1): 86–119. DOI 10.1257/aer.20150210.
