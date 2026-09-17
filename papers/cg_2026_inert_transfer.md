@@ -71,8 +71,8 @@ The exchange rate between public provision and private consumption along the equ
 locus with the owner’s claim held fixed is a constant of the composite, free of the reproduction technology’s level and of every
 instrument; the reproduction efficiencies that set the cash-economy gap drop out of it entirely.
 
-To be sure, that a subsidy to a class whose numbers respond to income is absorbed by those numbers is
-the classical argument against poor relief (Malthus 1798, ch. 5), two centuries old, and it is not claimed here as new. What this paper adds to it is three things. The first is that the absorption is
+That a subsidy to a class whose numbers respond to income is absorbed by those numbers is
+the classical argument against poor relief (Malthus 1798, ch. 5). What this paper adds to it is three things. The first is that the absorption is
 *exact* — the transfer is not merely diluted but removed from the distributional coordinate
 altogether, which is a statement about a reachable set rather than about a sign. The second is the
 invariance just described: the absorption survives arbitrary asymmetry in the classes’ reproduction
@@ -81,14 +81,14 @@ the reading of §5: what the result does to the second welfare theorem is not to
 empty it, because the factor whose per-head return is in question is *produced*, and a produced factor
 that no agent may hold is nobody’s endowment to transfer.
 
-**What is not claimed.** The first welfare theorem is untouched here, and so are the efficiency results
+The first welfare theorem is untouched here, and so are the efficiency results
 proved for economies in which a dynasty’s reproduction is decided and paid for within the dynasty (Golosov, Jones and Tertilt 2007): there
 the input to reproduction is the dynasty’s own consumption, whereas here the input to one class’s
 reproduction is set by the division of output between the classes, and that is the whole of the
-difference. Nothing below should be read as an efficiency result; the two theorems have different
-hypotheses and this paper engages only the second. No welfare ranking is written and none is needed, because no two populations are ever
-compared: every comparison in this paper is between two instruments at a given stationary class ratio.
-The economy carries one tax base, no credit market and no uncertainty, and §6 prices each of those.
+difference. The two theorems have different hypotheses and this paper engages only the second. No two
+populations are compared, so no welfare ranking is written: every comparison is between two instruments
+at a given stationary class ratio. The economy carries one tax base, no credit market and no uncertainty,
+and §6 prices each of those.
 
 There is a literature on cash versus in-kind transfers, and it is not this one. Currie and Gahvari
 (2008) survey it. In every mechanism they assemble the set of recipients is fixed and incomes are
@@ -530,9 +530,10 @@ statement about *range*: the image of the entire admissible instrument set, unde
 distributional coordinate, is a single point. Nothing is lost by choosing badly among transfers,
 because there is nothing to choose.
 
-Admittedly, the theorem’s own objects — preferences, a Pareto set over a population that is itself
-produced, supporting prices — are not defined in this economy, and nothing here is a statement about
-them. The claim is about the coordinate the theorem’s transfer is used to set.
+Proposition 3 is a statement about the coordinate the second theorem’s transfer is used to set. The
+theorem’s own objects — preferences, a Pareto set over a produced population, supporting prices — are
+not assembled in this economy, and the construction that uses them is idle once that coordinate has no
+range.
 
 Why the theorem is emptied rather than contradicted turns on what its instrument transfers. A lump-sum
 transfer redistributes *endowments* — it moves the ownership of a claim from one agent to another, and
@@ -618,11 +619,9 @@ Seven restrictions bind every claim above, and each carries a consequence a read
 *The falsifier, and it is sharp.* Proposition 1 needs $\gamma_W=\gamma_C$ and $\theta=1$; at $\theta<1$ the gap is (7) and the private claim is no longer inert, which is Theorem 1 rather than a failure. Proposition 2(b) shows that
 any departure makes the per-head gap a function of the level with elasticity $1-\gamma_C/\gamma_W$.
 Proposition 2(c) shows that, at such states with $i>0$ and $\tau>0$, the cash instrument then reaches that
-level; at $\tau=0$ there is nothing to route and it reaches nothing. This is the
-result’s boundary and it is stated as such: the
-paper does not claim that reproduction elasticities coincide, only that the coincidence is what
-inertness needs, that within the power maps of Assumption 2 it is strictly weaker than a common reproduction technology, and that its failure
-is in principle observable as a per-head gap that moves with the level of provision.
+level; at $\tau=0$ there is nothing to route and it reaches nothing. Proposition 2’s tightness is the result: inertness holds if and only if the elasticities coincide;
+within the power maps of Assumption 2 it is strictly weaker than a common reproduction technology;
+and its failure is observable as a per-head gap that moves with the level of provision.
 
 *The instrument set.* One tax on capital income, one split between cash and the public stock, one
 reinvestment share, and no money, interest-bearing asset or credit market. Changing the base or
@@ -636,13 +635,9 @@ the congestion exponent rather than an approximation a little non-rivalry would 
 *Workers are counted as persons, not as efficiency units.* $N_W$ and $N_C$ are headcounts, and each
 growth factor is a growth factor in people. The restriction fixes the one exception to containment:
 Lemma 1 contains every redistribution of consumption or wealth between the classes, and a transfer of
-persons escapes it because it enters the population laws of $(\star)$ (§5). To be sure, a reader may
-prefer to count workers in efficiency units. What that reading would change is stated here as a
-conjecture and is not certified: a transfer of persons would become a redistribution of efficiency
-units, which Lemma 1 would absorb like any other, so the exception would belong to the persons reading
-rather than to the economy. The paper takes persons because what the model reproduces is people, and
-because persons is the reading under which the containment result names its exception instead of
-dissolving it.
+persons escapes it because it enters the population laws of $(\star)$ (§5). The paper takes persons
+because what the model reproduces is people, and because under that reading the containment result
+names its exception instead of dissolving it.[^1]
 
 *No welfare ranking.* Every comparison here is between two instruments at a given stationary class
 ratio. No two populations are compared, so no welfare function over dynastic sizes is written and none
@@ -877,3 +872,6 @@ Golosov, Mikhail, Larry E. Jones, and Michèle Tertilt. 2007. “Efficiency with
 Growth.” *Econometrica* 75 (4): 1039–1071.
 
 Malthus, T. R. 1798. *An Essay on the Principle of Population*. London: J. Johnson.
+
+[^1]: Counted in efficiency units, a transfer of persons
+    would be a redistribution of those units, which Lemma 1 would absorb like any other.
