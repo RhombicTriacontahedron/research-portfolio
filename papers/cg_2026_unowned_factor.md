@@ -16,9 +16,10 @@ edges of their ranges gains, so along the equilibrium the classes do not interac
 Four results follow. First, each
 class’s preferred capital-income tax is a function of the **other** class’s reproduction elasticity
 and of its own never; symmetrising the two stocks’ laws of motion does not symmetrise this. This
-first result is proved only with logarithmic objectives. At every non-unit intertemporal elasticity
-tested, each class’s own elasticity moves its preferred rate, so the cross is
-a property of the logarithm and is claimed only there. Second,
+first result is proved only with logarithmic objectives. Off the logarithm, an interior best constant
+tax from a state on that tax’s balanced path equals the same formula at a growth-adjusted discount, so
+a class’s own elasticity reaches that balanced-path rate only through growth (Proposition 4$''$).
+The cross itself is a property of the logarithm and is claimed only there. Second,
 both classes’ payoffs are strictly concave in the tax, so, with investment at the owner’s choice, the
 Pareto set in the tax is the closed interval between the owner’s preferred rate and the worker’s, and
 every smaller state is Pareto-dominated: below the owner’s own optimum both classes strictly prefer a
@@ -63,10 +64,11 @@ the tax costs a class and what it buys reach that class through a single quantit
 elasticity enters only the value of that quantity, so it cancels. For the owner the quantity is his
 after-tax capital income, which pays both for his consumption and for the investment that builds his
 capital. For the worker it is maintenance, the only input to the workforce his objective values (§7).
-Section 4.3 derives both. However, the
-cross does not survive a non-unit intertemporal elasticity: in every economy of the test reported in
-§4.4, each class’s own elasticity moves its preferred rate. The cross is a property of the
-logarithmic objective, and this paper claims it only there.
+Section 4.3 derives both. The cross does not survive a non-unit intertemporal elasticity (§4.4).
+Off the logarithm, an interior best constant tax from a state on that tax’s balanced path equals
+Proposition 4’s formula at a growth-adjusted discount; the own elasticity reaches that rate only
+through growth (Proposition 4$''$). The cross is a property of the logarithmic objective, and this
+paper claims it only there.
 
 That structure survives the obvious objection. One might read the cross-structure as an artefact of
 the two laws of motion having different functional forms — capital linear in investment, the
@@ -506,22 +508,23 @@ expansion in $\sigma-1$, done symbolically and sharing no solver with the grid, 
 own-elasticity term for both classes at two exact rational parameter points. Reading $\sigma$ as the
 elasticity rather than the curvature gives the same verdict.
 
-The grid also records where the own elasticity enters. At each of the 960 admissible balanced-path
-solves away from $\sigma=1$ (both classes, including the curvature $0.2$ that the elasticity reading
-adds), the preferred rate equals Proposition 4’s closed form with $\beta$ replaced by
-$\beta e^{(1-\sigma)\hat g}$, to within $3\times10^{-14}$, where $\hat g$ is the per-period growth rate
-of the logarithms of the states on that tax’s balanced path and $\sigma$ is the curvature. The closed
-form carries no own elasticity at any discount factor, so the own elasticity enters through $\hat g$,
-and at $\sigma=1$ the growth term drops out. That channel is a diagnostic of the witness, recorded on
-the grid and not proved; it is not a result of this paper.
+**Proposition 4$''$ (balanced-path rate off the logarithm).** *Let $\sigma\neq 1$ and let
+$(\tau_j,i)$ be a constant profile whose balanced ray grows at $\hat g$ per period in logs, with
+$\tilde\beta\equiv\beta e^{(1-\sigma)\hat g}<1$. If $\tau_j$ is an interior best constant tax of
+class $j$ from a state on that ray, then $\tau_j$ equals Proposition 4’s closed form with $\beta$
+replaced by $\tilde\beta$. The own elasticity reaches that balanced-path rate only through
+$\hat g$.*
 
-Two debts go with this. Away from $\sigma=1$ a constant tax is no longer optimal from every initial
-state (the worker’s best constant tax from a fixed initial state and from the balanced path differ at
-453 of the 457 economy–curvature pairs where that comparison was computed, which include the curvature
-$0.2$ of the elasticity reading and so are not the 384 pairs above), so the objects above are best constant rates and not
-Markov equilibria, and the state-dependent equilibrium was not computed. And the ownership reading of
-§4.3 is a reading of the logarithmic case only. Propositions 4 and 4$'$ are proved on the face and
-stand there; §§5–6 do not use the cross.
+A class’s own technology still moves its preferred tax off the logarithm, but only by moving the
+growth that tax implies, not by reopening the cancellation of Proposition 4$'$ at a given discount.
+The second-order condition of the isoelastic problem is not the logarithmic one, and a best constant
+tax from a fixed initial state is a different object; neither is claimed here.
+
+Away from $\sigma=1$ a constant tax is no longer optimal from every initial state, so a best
+constant tax from a fixed initial state is not this object, and the state-dependent equilibrium was
+not computed. The ownership reading of §4.3 is a reading of the logarithmic case only.
+Propositions 4 and 4$'$ are proved on the face and stand there; §§5–6 do not use the cross.
+Proposition 4$''$ is the balanced-path object off that face.
 
 # 5. The Pareto interval
 
@@ -813,7 +816,8 @@ and 3 rest on the arguments of §3.2.
 
 **What would break the paper.** Three things, each checkable, and the first has happened. The
 cross-structure of §4 fails under a non-unit intertemporal elasticity (§4.4), so §4 is withdrawn as
-a general claim and stands only as the logarithmic case; §§5–6 do not use it. If the coefficients of
+a general claim and stands only as the logarithmic case; Proposition 4$''$ is the balanced-path
+object off that case; §§5–6 do not use the cross. If the coefficients of
 Proposition 5 fail to be positive somewhere on the box, Proposition 6 reverts to a conjecture about
 critical points. And if §6’s comparative static cannot be distinguished from an ordinary
 differentiation with respect to a technological parameter, §6 belongs in a paper about technical
@@ -984,6 +988,25 @@ $W/(1+W)$ with $W\ge0$. The numerators and denominators of $\tau_W^{\text{cons}}
 $\tau_W-\tau_C^{\text{inv}}$ then become polynomials in $(X,W)$ whose coefficients all share one sign,
 each with a term free of $W$, so both differences are strictly positive on the whole box. The
 expansion was carried out by computer algebra. $\qquad\blacksquare$
+
+## A.7 Proof of Proposition 4$''$
+
+The transition in logs is $s_{t+1}=T s_t+d(\tau,i)$, with $T$ independent of the instruments on the
+face. Each row of $T$ sums to one, so a balanced ray has every log state growing at one rate
+$\hat g$. Each class’s felicity is a weight on $s$ that itself sums to one — the owner’s
+$((1-\omega)\alpha+\omega,(1-\omega)(1-\alpha),0)$ and the worker’s $(0,1,0)$ — so the felicity on
+that ray is $x_t=x_0+\hat g\,t$.
+
+Replace log felicity by $e^{(1-\sigma)x}/(1-\sigma)$ at $\sigma\neq 1$. The discounted weights on
+the path are then $\beta^t e^{(1-\sigma)x_t}=e^{(1-\sigma)x_0}\tilde\beta^t$ with
+$\tilde\beta=\beta e^{(1-\sigma)\hat g}$. An interior first-order condition in $\tau$ is therefore
+$\sum_t\tilde\beta^t\,\partial x_t/\partial\tau=0$ whenever $\tilde\beta<1$, which is the
+logarithmic first-order condition at discount $\tilde\beta$. That condition is Proposition 4 with
+$\beta$ replaced by $\tilde\beta$, for both classes and with $\gamma_K$ free (the coefficient
+system of A.2 at a free discount). The closed form at any discount is free of the class’s own
+elasticity (Proposition 4$'$), so that elasticity reaches the balanced-path rate only through
+$\hat g$. The second-order condition of the isoelastic problem is not this argument, and a best
+constant tax from a fixed initial state is not this object. $\qquad\blacksquare$
 
 # References
 
