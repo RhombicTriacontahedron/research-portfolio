@@ -646,8 +646,16 @@ then $s'(\theta_R)=0$ or $s(\theta_R)=\tau_j(\theta_R)$.
 $\hat\theta_R\mapsto V_j\bigl(s(\hat\theta_R),d_M,i;\theta_R\bigr)$ on
 the open set $\Theta$, so the derivative at truth,
 $V_{j,\tau}\bigl(s(\theta_R),\theta_R\bigr)\,s'(\theta_R)$, is zero. On
-the licensed box $V_{j,\tau}=N_j/\tau-M_j/(1-\tau)$ vanishes on $(0,1)$
-only at the peak $N_j/(M_j+N_j)=\tau_j$. $\square$
+the licensed box $V_j$ is strictly concave in $\tau$ with its peak at
+$\tau_j$ (Lemma 0), so $V_{j,\tau}$ is strictly decreasing and vanishes
+on $(0,1)$ only at $\tau_j$. $\square$
+
+The argument uses strict concavity of $V_j$ in $\tau$ and an interior
+peak, and nothing else about the payoff. The logarithmic form of the
+licensed box is one case. With
+$V_j=M_j(1-\tau)^{1-\eta}/(1-\eta)+N_j\tau^{1-\eta}/(1-\eta)$, $\eta>0$,
+$\eta\neq 1$, whose limit at $\eta=1$ is the logarithmic form, the
+conclusion is the same.
 
 At $\sigma=1$ the same statement holds under a mandate for a schedule
 that names the common direction $1-\alpha$, because Proposition 13
