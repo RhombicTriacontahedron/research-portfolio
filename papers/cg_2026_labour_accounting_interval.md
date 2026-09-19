@@ -64,7 +64,7 @@ g_{W,t}=\frac{N_{W,t+1}}{N_{W,t}}=B\bigl(c_{W,t}^{\theta}z_t^{1-\theta}\bigr)^{\
 g_{C,t}=\frac{N_{C,t+1}}{N_{C,t}}=B\,c_{C,t}^{\gamma},
 $$
 
-with $B>0$, $\gamma\in(0,1)$ and $\theta\in(0,1]$. The public argument enters the worker’s map and the owner’s not at all. The outer map $u\mapsto Bu^{\gamma}$ is common to both classes and strictly increasing.
+with $B>0$, $\gamma\in(0,1)$ and $\theta\in(0,1]$. The public argument enters the worker’s map and the owner’s not at all. The outer map $u\mapsto Bu^{\gamma}$ is common to both classes and strictly increasing. Every result below is stated for these two functional forms, Cobb–Douglas output, which fixes the factor shares, and the geometric index $c_W^{\theta}z^{1-\theta}$ inside the power map; Lemmas 1 and 2 use neither.
 
 An **interior rest point** of the laws is a tuple $(x,z,\nu,g)$ with $x,z,\nu>0$, $i\in(0,1)$, $\phi\tau\in(0,1)$,
 
