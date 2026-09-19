@@ -772,8 +772,9 @@ bargains it remains open. All of these are recorded in Appendix B.
 **Proposition 7 (the regime’s shadow prices, and where the separation
 breaks).** Write $P_i \equiv (1-c)p^i_x + c\,p^i_y$ for the price class
 $i$ puts on a unit of gross accumulation, and $Q_i \equiv \kappa/P_i$.
-At any rest point with an interior accumulation share, capital’s shadow
-price of the employment rate is $$
+With the logarithmic objectives of Section 2, at any rest point with an
+interior accumulation share, capital’s shadow price of the employment
+rate is $$
 p^C_x = \frac{1+\lambda}{\rho} - \frac{\zeta\,\bar e(v)}{(\rho+b)\,(1-s)\,(\bar e(v)-\omega)} ,
 $$ and capital’s stationary condition is the core’s with $\kappa$
 replaced by $\kappa + \Gamma$: $$
@@ -805,15 +806,15 @@ Section 2 shows it fails under a utilisation-rate commitment, where
 labour’s price acquires a $\zeta$ term — and not of the economics;
 Section 7’s warning is where it is priced.
 
-**Proposition 8 (the fold at any pair of effective prices).** Suppose
-labour’s share is interior, and that neither effective price depends on
-the accumulation share — as neither does in the core, where the costates
-are constant, nor in the regime, where $\Gamma$ depends on the state and
-not on $s$. The hypothesis is load-bearing and not decorative: at
-labour’s own ceiling its effective price *does* depend on $s$, which is
-why Proposition 11 proves uniqueness directly instead of invoking this
-one. Then, at a given employment rate, the two stationary conditions
-reduce to $$
+**Proposition 8 (the fold at any pair of effective prices).** With the
+logarithmic objectives of Section 2, suppose labour’s share is interior,
+and that neither effective price depends on the accumulation share — as
+neither does in the core, where the costates are constant, nor in the
+regime, where $\Gamma$ depends on the state and not on $s$. The
+hypothesis is load-bearing and not decorative: at labour’s own ceiling
+its effective price *does* depend on $s$, which is why Proposition 11
+proves uniqueness directly instead of invoking this one. Then, at a
+given employment rate, the two stationary conditions reduce to $$
 \bar e\,s^2 - s\,(\bar e + Q_W - Q_C) + Q_W = 0 ,
 $$ which has two roots in $(0,1)$, both satisfying
 $\omega = Q_W/s < \bar e$, if and only if $$
@@ -971,8 +972,9 @@ priced it, as in Proposition 4$''$; the condition under which it was a
 compromise at all fails first.
 
 **Proposition 11 (where the pool pins labour to its ceiling, the
-compromise is one or none).** Labour’s ceiling is optimal for it exactly
-where $\bar\omega(v) \le \kappa\rho/s$, that is where $$
+compromise is one or none).** With the logarithmic objectives of Section
+2, labour’s ceiling is optimal for it exactly where
+$\bar\omega(v) \le \kappa\rho/s$, that is where $$
 v \;\le\; \hat v \;=\; \big(\kappa\rho/(s\hat\omega)\big)^{1/\eta} ,
 $$ and this condition is **unmoved by the regime** even though labour’s
 costate at its own ceiling is not the core’s: labour’s own ceiling is
@@ -1352,9 +1354,10 @@ separate question, and it is the one the method paragraph left open. It
 is answered for both classes, and not by the same argument.
 
 **Proposition 14 (sufficiency in the regime: concavity for labour, a
-stable manifold for capital).** Fix an interior stationary compromise of
-the regime on Proposition 9’s first branch, and consider each class’s
-problem against the other’s stationary path.
+stable manifold for capital).** With the logarithmic objectives of
+Section 2, fix an interior stationary compromise of the regime on
+Proposition 9’s first branch, and consider each class’s problem against
+the other’s stationary path.
 
 *(i) Labour.* Its maximised Hamiltonian is concave in the state on both
 branches: affine in $x$ where labour bargains, strictly concave where it
