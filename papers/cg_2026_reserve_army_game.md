@@ -7,27 +7,27 @@ Carlos Galindo Escajeda
 If accumulation employs labour, why does a growing economy never run out
 of unemployed workers? This paper makes the employment rate the state of
 a two-class differential game: organised classes contest the wage share,
-accumulation and effort per hour hired; technology mechanises faster the
-tighter employment is; and part of every unit of accumulation displaces
-labour. With logarithmic payoffs, and where each class values its whole
-class, three results follow. First, the compromise does not depend on
-how fast machinery displaces labour; the mechanisation law only sets the
-size of the unemployment pool it leaves. Second, above a threshold in
-extractable effort there are two interior compromises, one
-accumulationist with a low wage share and one distributionist, unless a
-wage bound excludes one, and below it none; where the accumulationist
-compromise leaves an unemployment pool, both classes, labour included,
-strictly prefer it to every other interior equilibrium, though nothing
-selects it. Third, a closed-form threshold on the accumulation share
-decides whether the pool persists, so the compromise both classes prefer
-can be the one that exhausts it. Exhausting it costs neither class
-anything if the full-employment boundary leaves the binding bounds
-unchanged; a boundary rationing capital’s accumulation can reverse
-labour’s half of the ranking or capital’s, as labour’s wage is held or
-re-optimised, respectively. Where the ceilings move with the
-unemployment pool, the separation breaks, at most one compromise exists
-where labour is pinned to its ceiling, and it is an equilibrium wherever
-the law of motion survives full employment.
+accumulation and effort per hour hired; mechanisation rises with
+employment; and part of every unit of accumulation displaces labour.
+With logarithmic payoffs and each class valuing its whole class, three
+results follow. First, the compromise is independent of how fast
+machinery displaces labour; the mechanisation law only sizes the
+unemployment pool it leaves. Second, above a threshold in extractable
+effort there are two interior compromises, accumulationist and
+distributionist, unless a wage bound excludes one, and below it none;
+where the accumulationist compromise leaves an unemployment pool, both
+classes strictly prefer it to every other interior equilibrium, though
+nothing selects it. Third, a closed-form threshold on the accumulation
+share decides whether the pool persists, so the preferred compromise can
+be the one that exhausts it. Exhausting it costs neither class anything
+where the boundary leaves the binding bounds unchanged; a boundary
+rationing capital’s accumulation can reverse labour’s half of the
+ranking or capital’s, as labour’s wage is held or re-optimised. Where
+the ceilings move with the pool, the separation breaks; past a threshold
+in the ceilings’ response no extractable day admits any interior
+compromise, and short of it at most three stationary employment rates
+exist, at most one where labour is pinned to its ceiling, which is an
+equilibrium wherever the law of motion survives full employment.
 
 # 1. Introduction
 
@@ -120,36 +120,39 @@ an arbitrary pair of effective prices together with the accumulation
 rate it carries, the dichotomy in which no extractable day whatever
 admits an interior compromise, the uniqueness of the compromise where
 the pool pins labour to its ceiling together with the two-sided shape of
-the set where it does, and the identity that closes the stationary layer
-on the employment rate itself in that case — existence and uniqueness of
-the regime’s stationary employment rate under two closed-form
-inequalities in the primitives, one placing the drift’s zero in the
-state space and a second, independent one making the compromise there
-interior; and, for that layer, both halves of the equilibrium claim —
-labour’s by concavity, and capital’s, whose maximised Hamiltonian is
-convex in log-employment wherever capital accumulates, through the
-stable manifold of its own problem wherever the economy’s law of motion
-holds at full employment. **Whose belief it displaces.** Two readers
-hold beliefs these results cost them. The first, in the Goodwin lineage,
-puts the employment rate into the wage equation by postulate: the
-unemployment pool regulates the wage, and the cycle runs on that
-regulation. Here that regulation is a property not of the economy but of
-what labour’s organisation counts. Where each class values what happens
-to its whole class, the compromise is decided without reference to the
-pool and the pool is its residual; the postulate returns, changed, only
-where organised labour counts its employed members alone or where the
-pool bounds what it can enforce. The second, in the Lancaster lineage,
-expects the conflict to be over a capital stock with labour never
-limiting, and — reading Mehrling — its steady states to be multiple
-where classes are organised. Here labour is the binding factor; the
-equilibrium set is ranked, and where the accumulationist compromise is
-sustainable both classes prefer it; and the multiplicity is located
-rather than denied: it is a fold in extractable effort, two compromises
-or none, and it belongs to the regime in which the bargain sets the wage
-and not to the economy, since where the pool pins labour to its ceiling
-there is at most one. What each gives up is a location. The unemployment
-pool moves from the wage equation, where it was a regulator, to the
-equilibrium set, where it is an outcome.
+the set where it does, the global count of at most three stationary
+employment rates on that branch, at most two of them where labour
+bargains and at most one where the pool pins it to its ceiling, and the
+identity that closes the stationary layer on the employment rate itself
+in that case — existence and uniqueness of the regime’s stationary
+employment rate under two closed-form inequalities in the primitives,
+one placing the drift’s zero in the state space and a second,
+independent one making the compromise there interior; and, for that
+layer, both halves of the equilibrium claim — labour’s by concavity, and
+capital’s, whose maximised Hamiltonian is convex in log-employment
+wherever capital accumulates, through the stable manifold of its own
+problem wherever the economy’s law of motion holds at full employment.
+**Whose belief it displaces.** Two readers hold beliefs these results
+cost them. The first, in the Goodwin lineage, puts the employment rate
+into the wage equation by postulate: the unemployment pool regulates the
+wage, and the cycle runs on that regulation. Here that regulation is a
+property not of the economy but of what labour’s organisation counts.
+Where each class values what happens to its whole class, the compromise
+is decided without reference to the pool and the pool is its residual;
+the postulate returns, changed, only where organised labour counts its
+employed members alone or where the pool bounds what it can enforce. The
+second, in the Lancaster lineage, expects the conflict to be over a
+capital stock with labour never limiting, and — reading Mehrling — its
+steady states to be multiple where classes are organised. Here labour is
+the binding factor; the equilibrium set is ranked, and where the
+accumulationist compromise is sustainable both classes prefer it; and
+the multiplicity is located rather than denied: it is a fold in
+extractable effort, two compromises or none, and it belongs to the
+regime in which the bargain sets the wage and not to the economy, since
+where the pool pins labour to its ceiling there is at most one. What
+each gives up is a location. The unemployment pool moves from the wage
+equation, where it was a regulator, to the equilibrium set, where it is
+an outcome.
 
 So what? A policy that reduces the unemployment pool by speeding
 accumulation is, in this model, a policy about which equilibrium the
