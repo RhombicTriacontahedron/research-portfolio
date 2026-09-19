@@ -333,7 +333,7 @@ The compactness hypothesis is doing real work and is not a formality. Nothing ab
 unbounded sums is not defined. What the hypothesis buys is that only the constants move, and that
 they stay finite while they do.
 
-**Proposition 3 (state-dependent rules strictly lose).** *Fix $\tau$. The worker’s objective in
+**Proposition 3 (state-dependent rules strictly lose).** *On the face of §2.4, fix $\tau$. The worker’s objective in
 $\phi$ is strictly concave with a unique maximiser $\phi^{\star}$, so any rule that makes the split
 respond to the state is strictly worse for him at every state at which the rule does not return
 $\phi^{\star}$; for a rule strictly monotone in a scalar index of the state, that is every state off
@@ -431,7 +431,7 @@ him rather than chosen.
 
 The mechanism is a common-factor cancellation, and it can be read straight off the coefficients.
 
-**Proposition 4$'$ (the cancellation).** *Each preferred rate depends on the value coefficients only
+**Proposition 4$'$ (the cancellation).** *With logarithmic objectives and at the provision corner $\phi=1$, each preferred rate depends on the value coefficients only
 through their ratio,*
 
 $$\tau_j=\frac{N_j}{M_j+N_j}=\frac{1}{1+M_j/N_j},\qquad j\in\{C,W\}.$$
@@ -650,7 +650,7 @@ Proposition 6 holds both of the features Galor and Moav credit with their unanim
 finds a strictly positive gap. The next statement locates it, changing one primitive at a time at the
 provision corner: where the tax falls, and what workers value.
 
-**Proposition 10 (the tax base).** *At $\phi=1$, compare the tax of §2.2, which falls on the owner’s
+**Proposition 10 (the tax base).** *On the face of §2.4 and at $\phi=1$, compare the tax of §2.2, which falls on the owner’s
 capital income, with a tax on what he invests: he consumes $(1-i_t)\alpha Y_t$ untaxed, invests
 $(1-\tau_t)\,i_t\alpha Y_t$, and the public good receives $\tau_t\,i_t\alpha Y_t$. Compare also workers
 who value effective labour, as in §2.3, with workers who value consumption,
