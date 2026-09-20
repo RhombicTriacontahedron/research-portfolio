@@ -573,11 +573,21 @@ alone. Any rate lying between the owner’s preferred one and the worker’s is 
 the tax alone can improve for both classes at once. Any rate below the owner’s own preferred one is a rate both classes strictly wish
 to raise, which is why the small state has no constituency here.
 
-The gap has a closed form that is a ratio of manifestly positive quantities:
+At $\gamma_K=1$ the gap has a closed form that is a ratio of manifestly positive quantities:
 
 $$\tau_W-\tau_C=\frac{(1-\beta)(1-\theta)\,D_0}
 {\bigl(1-\theta(1-\alpha)\bigr)\,D_\tau},\qquad
 D_0\equiv 1-\alpha\beta+\beta\gamma\bigl(1-\theta(1-\alpha)\bigr).$$
+
+The ordering itself does not need that restriction. The owner’s rate carries no $\gamma_K$, and the
+worker’s is strictly decreasing in it,
+
+$$\frac{\partial\tau_W}{\partial\gamma_K}=
+\frac{-\alpha(1-\beta)(1-\theta)\bigl[\beta(1-\theta)+\theta\bigr]}
+{\bigl[(1-\theta)(1-\beta+\beta\gamma_K)+\alpha\theta\gamma_K\bigr]^{2}}<0,$$
+
+so $\tau_W(\gamma_K)\ge\tau_W(1)>\tau_C$ for every $\gamma_K\in(0,1]$: the disagreement is widest
+where capital is hardest to accumulate, and the baseline is the case in which it is narrowest.
 
 Interiority is a result here and not an assumption. For the worker,
 $\bigl(1-\theta(1-\alpha)\bigr)-(1-\theta)(1-\alpha\beta)=\alpha\bigl(\theta+\beta(1-\theta)\bigr)>0$,
