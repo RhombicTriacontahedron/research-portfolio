@@ -408,6 +408,10 @@ $$D_\tau\equiv 1-\beta+\beta\gamma\bigl(1-\theta(1-\alpha)\bigr).$$
 and never $\gamma_K$. The owner’s rate is, in addition, unchanged by the symmetrisation: it is
 identical to its baseline value.*
 
+Both are maxima and not merely stationary points. Proposition 5 below establishes strict concavity
+for every $\gamma_K\in(0,1]$, so each class has one peak under the symmetrisation exactly as in the
+baseline, and the two rates above are those peaks.
+
 In words, each class’s preferred tax is governed by how productively the *other* class’s stock is
 produced. The owner is deciding how much to spend on producing a workforce, so the elasticity of
 that production is what moves the owner’s rate; the worker is deciding how much to draw from a stock
@@ -539,14 +543,22 @@ whose second derivative is $-M_j/(1-\tau)^2-N_j/\tau^2$. Strict concavity is the
 positivity of four coefficients.
 
 **Proposition 5 (strict concavity).** *$M_C,N_C,M_W,N_W>0$ on the open box $\alpha,\beta,\gamma,
-\theta\in(0,1)$, $\omega\in[0,1)$. Hence both payoffs are strictly concave in $\tau$ on $(0,1)$ and
-each has a unique peak.*
+\theta\in(0,1)$, $\omega\in[0,1)$, and for every $\gamma_K\in(0,1]$. Hence both payoffs are strictly
+concave in $\tau$ on $(0,1)$ and each has a unique peak, under the symmetrisation of §4 as in the
+baseline.*
 
 Appendix A.3 proves it by factorisation. Three of the four coefficients are products of manifestly
 signed factors. The fourth, $M_C=(1-\omega)+\beta a$, needs the owner’s coefficient on $k$, whose
 numerator is a fifteen-term polynomial; Appendix A.3 exhibits its factorisation into three
 manifestly positive terms, so that positivity — and therefore the theorem below — rests on algebra
 and not on a decision procedure.
+
+Releasing $\gamma_K$ costs one further step, because there the four coefficients are ratios whose
+denominator $\Delta_K$ A.2 has no occasion to sign — A.2 uses only the fact that they share it.
+A.3 signs it: $\Delta_K$ is $(1-\beta)$ times a sum of four terms, each positive on the box, and the
+four numerators are again products of signed factors. The step matters because §4 calls $\tau_C$ and
+$\tau_W$ preferred rates, and a root of a first-order condition earns that name only under
+concavity.
 
 ## 5.2 The interval
 
@@ -908,7 +920,30 @@ $$\beta\gamma\omega(1-\theta)(1-\beta)(1-\alpha)\;+\;\alpha\beta\gamma\;+\;(1-\b
 \bigl[\alpha+\omega(1-\alpha)\bigr],$$
 
 three terms each strictly positive on the box, the third because $\alpha>0$ and $\omega\ge0$. Hence
-$a>0$, and $M_C=(1-\omega)+\beta a>0$ because $\omega<1$. $\qquad\blacksquare$
+$a>0$, and $M_C=(1-\omega)+\beta a>0$ because $\omega<1$.
+
+**With $\gamma_K$ free.** Section 4 uses the same four coefficients with the capital law’s elasticity
+released, and there they are ratios over the shared $\Delta_K$ of A.2, whose sign that proof leaves
+open. Keep $\Omega_K=1-\beta(1-\gamma_K)-\omega(1-\beta)$ from A.2 and write
+
+$$C\equiv\beta\gamma(1-\theta)\bigl[1-\beta(1-\alpha)\bigr]+\alpha\beta\gamma\theta+(1-\beta).$$
+
+Then
+
+$$\Delta_K=(1-\beta)\Bigl[\gamma_K\beta(1-\alpha)\bigl(1+\beta\gamma(1-\theta)\bigr)+C\Bigr],$$
+
+a sum of four strictly positive terms on the box, so $\Delta_K>0$; and
+$\Omega_K\ge(1-\omega)(1-\beta)>0$, since $1-\beta(1-\gamma_K)\ge 1-\beta$. The four numerators are
+
+$$M_C\Delta_K=\Omega_K\,C,\qquad N_C\Delta_K=\beta^{2}\gamma(1-\alpha)(1-\theta)\,\Omega_K,$$
+
+$$M_W\Delta_K=\alpha\beta^{2}\gamma\gamma_K\bigl(\beta(1-\theta)+\theta\bigr),\qquad
+N_W\Delta_K=\beta^{2}\gamma(1-\theta)\bigl[1-\beta+\beta\gamma_K(1-\alpha)\bigr],$$
+
+each a product of manifestly positive factors — and the $C$ that carries $M_C$ is the same $C$ that
+completes $\Delta_K$. All four coefficients are therefore positive, and $\gamma_K=1$ returns the
+baseline case above. Only $\gamma_K>0$ is used: the upper bound is §4’s modelling choice and not a
+requirement of concavity. $\qquad\blacksquare$
 
 ## A.4 Proof of Proposition 6
 
