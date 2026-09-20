@@ -805,7 +805,12 @@ bargained limit with $\lambda>0$ in Corollary 1 are taken at a corner both class
 Re-taken along $\phi(\tau)$, the worker’s first-order condition reduces to
 $\beta(1-\alpha+\alpha\tau)=(1-\alpha\beta)(1-\tau)$, so above that value of $\alpha$ his preferred
 rate is $1-\beta$ and not $\tau_W$. The owner’s rate, its limit of zero and the signs of Corollary 1
-survive the correction; the worker’s endpoint $(1-\beta)(1-\theta)$ does not.
+survive the correction; the worker’s endpoint $(1-\beta)(1-\theta)$ does not. That threshold in
+$\alpha$ is the baseline’s. Under the symmetrisation of §4 it moves with $\gamma_K$, and because
+$\tau_W$ is strictly decreasing in $\gamma_K$ (§5.2) while the condition of §5.3 does not contain
+$\gamma_K$ at all, the set of parameters at which the worker’s rate lies outside that condition is
+larger off the baseline than on it, never smaller: at $\alpha=0.08$, $\beta=0.25$, $\theta=0.75$ the
+corner binds at $\gamma_K=1$ and does not at $\gamma_K=0.1$.
 
 **Prior art on §4.** Two independent blind searches of the Judd–Chamley line and its
 heterogeneous-agent successors returned no result stating the cross of §4 — a class-preferred capital-income tax that loads the
@@ -952,8 +957,10 @@ N_W\Delta_K=\beta^{2}\gamma(1-\theta)\bigl[1-\beta+\beta\gamma_K(1-\alpha)\bigr]
 
 each a product of manifestly positive factors — and the $C$ that carries $M_C$ is the same $C$ that
 completes $\Delta_K$. All four coefficients are therefore positive, and $\gamma_K=1$ returns the
-baseline case above. Only $\gamma_K>0$ is used: the upper bound is §4’s modelling choice and not a
-requirement of concavity. $\qquad\blacksquare$
+baseline case above. Only $\gamma_K>0$ is used here: §4’s upper bound is not a requirement of
+concavity. It is not idle elsewhere — the log-transition matrix of Proposition 2 is entrywise
+non-negative, and its spectral-radius argument therefore available, only for
+$\gamma_K\le 1/(1-\alpha)$, which $\gamma_K\le1$ satisfies strictly. $\qquad\blacksquare$
 
 ## A.4 Proof of Proposition 6
 
