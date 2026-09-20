@@ -586,7 +586,8 @@ $$\frac{\partial\tau_W}{\partial\gamma_K}=
 \frac{-\alpha(1-\beta)(1-\theta)\bigl[\beta(1-\theta)+\theta\bigr]}
 {\bigl[(1-\theta)(1-\beta+\beta\gamma_K)+\alpha\theta\gamma_K\bigr]^{2}}<0,$$
 
-so $\tau_W(\gamma_K)\ge\tau_W(1)>\tau_C$ for every $\gamma_K\in(0,1]$: the disagreement is widest
+so $\tau_W(\gamma_K)>\tau_W(1)>\tau_C$ for every $\gamma_K\in(0,1)$, with equality at the baseline
+$\gamma_K=1$: the disagreement is widest
 where tomorrow’s capital responds least to today’s investment, and the baseline is the case in which
 it is narrowest. The reading is the elasticity’s, and it is not a statement about capital being hard
 to accumulate. A lower $\gamma_K$ lowers investment’s exponent and raises the inherited stock’s, and
@@ -941,7 +942,8 @@ present itself as a product. It does, however, factor as a sum:
 $$\beta\gamma\omega(1-\theta)(1-\beta)(1-\alpha)\;+\;\alpha\beta\gamma\;+\;(1-\beta)
 \bigl[\alpha+\omega(1-\alpha)\bigr],$$
 
-three terms each strictly positive on the box, the third because $\alpha>0$ and $\omega\ge0$. Hence
+three terms, none of them negative on the box and the last two strictly positive because $\alpha>0$;
+the first vanishes at $\omega=0$, which the box admits. Hence
 $a>0$, and $M_C=(1-\omega)+\beta a>0$ because $\omega<1$.
 
 **With $\gamma_K$ free.** Section 4 uses the same four coefficients with the capital law’s elasticity
@@ -965,9 +967,11 @@ N_W\Delta_K=\beta^{2}\gamma(1-\theta)\bigl[1-\beta+\beta\gamma_K(1-\alpha)\bigr]
 each a product of manifestly positive factors — and the $C$ that carries $M_C$ is the same $C$ that
 completes $\Delta_K$. All four coefficients are therefore positive, and $\gamma_K=1$ returns the
 baseline case above. Only $\gamma_K>0$ is used here: §4’s upper bound is not a requirement of
-concavity. It is not idle elsewhere — the log-transition matrix of Proposition 2 is entrywise
-non-negative, and its spectral-radius argument therefore available, only for
-$\gamma_K\le 1/(1-\alpha)$, which $\gamma_K\le1$ satisfies strictly. $\qquad\blacksquare$
+concavity. The restriction that does work is a weaker one: the log-transition matrix of
+Proposition 2 is entrywise non-negative, and its spectral-radius argument therefore available, only
+for $\gamma_K\le 1/(1-\alpha)$. Section 4’s $\gamma_K\le1$ implies that bound and is strictly
+stronger than it, so the box of §4 sits inside the region where Proposition 2’s argument
+runs. $\qquad\blacksquare$
 
 ## A.4 Proof of Proposition 6
 
