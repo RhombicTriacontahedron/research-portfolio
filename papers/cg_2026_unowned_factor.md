@@ -587,7 +587,14 @@ $$\frac{\partial\tau_W}{\partial\gamma_K}=
 {\bigl[(1-\theta)(1-\beta+\beta\gamma_K)+\alpha\theta\gamma_K\bigr]^{2}}<0,$$
 
 so $\tau_W(\gamma_K)\ge\tau_W(1)>\tau_C$ for every $\gamma_K\in(0,1]$: the disagreement is widest
-where capital is hardest to accumulate, and the baseline is the case in which it is narrowest.
+where tomorrow’s capital responds least to today’s investment, and the baseline is the case in which
+it is narrowest. The reading is the elasticity’s, and it is not a statement about capital being hard
+to accumulate. A lower $\gamma_K$ lowers investment’s exponent and raises the inherited stock’s, and
+$\partial\ln K_{t+1}/\partial\gamma_K=\ln(I_t/K_t)$, whose sign the model does not pin: at
+$I_t<K_t$ a lower $\gamma_K$ leaves *more* capital next period, not less. What moves the worker’s
+rate is the first of the two, and it moves it the way an elasticity of a tax base does: each per cent
+of investment the tax costs the owner removes $\gamma_K$ per cent of tomorrow’s capital, so where
+$\gamma_K$ is small the tax is cheap to the worker and he asks for more of it.
 
 Interiority is a result here and not an assumption. For the worker,
 $\bigl(1-\theta(1-\alpha)\bigr)-(1-\theta)(1-\alpha\beta)=\alpha\bigl(\theta+\beta(1-\theta)\bigr)>0$,
