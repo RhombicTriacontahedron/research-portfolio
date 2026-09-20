@@ -1241,7 +1241,7 @@ One boundary belongs with all of this. A.14 inherits A.11(ii)’s rule class, wh
 -   Futagami, K., Y. Morita, and A. Shibata (1993). “Dynamic Analysis of an Endogenous Growth Model with
     Public Capital.” *Scandinavian Journal of Economics* 95(4): 607–625.
 -   Galindo Escajeda, C. (2026). “Capital-Funded Public Provision and the Private-Consumption Gap
-    in a Two-Class Dynamic Game.” Working paper (<https://rhombictriacontahedron.github.io/research-portfolio/papers/cg_2026_class_game.html>).
+    in a Two-Class Dynamic Game.” Working paper.
 -   Gupta, K. L. (1976). “Incidence of a Capital Income Tax in a Growing Two-Class Economy.”
     *Review of Economic Studies* 43(3): 561.
 -   Homma, M. (1981). “A Dynamic Analysis of the Differential Incidence of Capital and Labour
