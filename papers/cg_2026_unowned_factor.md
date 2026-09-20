@@ -390,7 +390,11 @@ difference in functional form rather than of ownership. This section removes the
 Let capital be produced by the technology of §2.2 with its own elasticity $\gamma_K\in(0,1]$, so
 that the two stocks differ in nothing except who holds a claim on them. The face still closes: the
 system is still log-linear, the value functions are still affine in $(k,n,g)$, the policies are
-still constant shares, and the two classes still choose the same split. Setting $\gamma_K=1$
+still constant shares, and the two classes still choose the same split. Proposition 2 is carried
+too, and it is the one thing the release could have cost: $\gamma_K$ enters the log-transition
+matrix in a single place, the capital row’s own entry $1-\gamma_K(1-\alpha)$, so the matrix stays
+entrywise non-negative with unit row sums for every $\gamma_K\le 1/(1-\alpha)$, and the declared
+range sits strictly inside that bound (A.3). Setting $\gamma_K=1$
 recovers every baseline expression exactly, which is the positive control on this section.
 
 ## 4.2 The cross-structure
@@ -560,6 +564,10 @@ four numerators are again products of signed factors. The step matters because �
 $\tau_W$ preferred rates, and a root of a first-order condition earns that name only under
 concavity.
 
+Where this section stands on the symmetrisation is worth saying once, because the closed forms
+below are not the general statements. Propositions 5, 6 and 8 hold for every $\gamma_K\in(0,1]$;
+the expressions displayed in §5.2 and §5.4 are their values at the baseline $\gamma_K=1$.
+
 ## 5.2 The interval
 
 **Proposition 6 (the Pareto set).** *Let $\tau_C$ and $\tau_W$ be the two peaks. Then
@@ -645,9 +653,18 @@ $$\tau(\lambda)=\frac{\lambda N_W+(1-\lambda)N_C}
 *with $\tau(1)=\tau_W$ and $\tau(0)=\tau_C$. It is strictly increasing in $\lambda$, and it is
 strictly positive at **every** weight, including $\lambda=0$, whenever $\theta<1$.*
 
-Monotonicity is proved rather than sampled: the derivative’s numerator is
-$\beta^{2}\gamma(1-\beta)(1-\theta)\bigl(1-\omega(1-\beta)\bigr)D_0$, a product of manifestly
-positive factors, over a square. Positivity at $\lambda=0$ is immediate from Proposition 5, since
+Monotonicity is proved rather than sampled, and it survives the symmetrisation of §4 without
+qualification. The derivative’s numerator is
+
+$$\beta^{2}\gamma(1-\beta)(1-\theta)\,\Omega_K\,B,\qquad
+B\equiv\beta\gamma(1-\theta)\bigl[1-\beta(1-\alpha)(1-\gamma_K)\bigr]+\alpha\beta\gamma\theta
++(1-\beta)+\beta\gamma_K(1-\alpha),$$
+
+over a square, with $\Omega_K>0$ from A.3 and $B$ a sum of four strictly positive terms — the
+bracket because $\beta(1-\alpha)(1-\gamma_K)<1$. At the baseline $\Omega_K=1-\omega(1-\beta)$ and
+$B=D_0$, so the numerator is the baseline product
+$\beta^{2}\gamma(1-\beta)(1-\theta)\bigl(1-\omega(1-\beta)\bigr)D_0$. Positivity at $\lambda=0$ is
+immediate from Proposition 5, since
 the numerator is a convex combination of the two strictly positive numbers $N_W$ and $N_C$.
 
 The last clause is the institutional content. A bargaining protocol that gave workers no weight at
@@ -814,11 +831,23 @@ Re-taken along $\phi(\tau)$, the worker’s first-order condition reduces to
 $\beta(1-\alpha+\alpha\tau)=(1-\alpha\beta)(1-\tau)$, so above that value of $\alpha$ his preferred
 rate is $1-\beta$ and not $\tau_W$. The owner’s rate, its limit of zero and the signs of Corollary 1
 survive the correction; the worker’s endpoint $(1-\beta)(1-\theta)$ does not. That threshold in
-$\alpha$ is the baseline’s. Under the symmetrisation of §4 it moves with $\gamma_K$, and because
-$\tau_W$ is strictly decreasing in $\gamma_K$ (§5.2) while the condition of §5.3 does not contain
-$\gamma_K$ at all, the set of parameters at which the worker’s rate lies outside that condition is
-larger off the baseline than on it, never smaller: at $\alpha=0.08$, $\beta=0.25$, $\theta=0.75$ the
-corner binds at $\gamma_K=1$ and does not at $\gamma_K=0.1$.
+$\alpha$ is the baseline’s, and under the symmetrisation of §4 it is available in closed form.
+Writing $P\equiv 1-\beta+\beta\gamma_K$, the worker’s rate lies outside §5.3’s condition exactly
+when
+
+$$\alpha>\alpha^{\star}(\gamma_K)\equiv\frac{\beta(1-\theta)\,P}
+{P\bigl(\theta+\beta(1-\theta)\bigr)-\beta\theta\gamma_K}.$$
+
+The crossing is single: cleared of its positive denominators, $\tau_W$ less the bound of §5.3 is
+affine in $\alpha$ — the quadratic terms cancel — and it runs from $-\beta(1-\theta)^{2}P<0$ at
+$\alpha=0$ to $\theta(1-\beta)(1-\theta)>0$ at $\alpha=1$. The threshold returns the baseline value
+above at $\gamma_K=1$, lies in $(0,1)$ throughout the box, and is strictly increasing in $\gamma_K$,
+with $\partial\alpha^{\star}/\partial\gamma_K$ carrying the numerator
+$\beta^{2}\theta(1-\beta)(1-\theta)>0$. So the set of parameters at which the worker’s rate lies
+outside that condition is larger off the baseline than on it, never smaller: at $\beta=0.25$,
+$\theta=0.75$ the threshold falls from $\alpha^{\star}=0.1$ at $\gamma_K=1$ to $0.0793$ at
+$\gamma_K=0.1$, and at $\alpha=0.08$ the corner accordingly binds at the baseline and does not at
+$\gamma_K=0.1$.
 
 **Prior art on §4.** Two independent blind searches of the Judd–Chamley line and its
 heterogeneous-agent successors returned no result stating the cross of §4 — a class-preferred capital-income tax that loads the
@@ -981,31 +1010,40 @@ by Proposition 5. Each payoff is therefore strictly concave with a unique peak
 $\tau_j=N_j/(M_j+N_j)$, and its slope is
 $\bigl(N_j-(M_j+N_j)\tau\bigr)/\bigl(\tau(1-\tau)\bigr)$, whose sign is that of $\tau_j-\tau$.
 
-Substituting the coefficients of A.1 gives
+Substituting the coefficients of A.1 — that is, at $\gamma_K=1$ — gives
 $\tau_C=\beta^{2}\gamma(1-\alpha)(1-\theta)/D_\tau$ and
 $\tau_W=(1-\theta)(1-\alpha\beta)/\bigl(1-\theta(1-\alpha)\bigr)$, and their difference is the
 displayed ratio of §5.2, whose numerator and denominator are products of positive factors; hence
-$\tau_C<\tau_W$. Interiority is the two inequalities of §5.2. For $\tau<\tau_C$ both slopes are
+$\tau_C<\tau_W$ there. The ordering holds on the whole box of Proposition 5: $\tau_C$ carries no
+$\gamma_K$ (Proposition 4$'$) and $\partial\tau_W/\partial\gamma_K<0$ (§5.2), so
+$\tau_W(\gamma_K)\ge\tau_W(1)>\tau_C$ for every $\gamma_K\in(0,1]$. Interiority is immediate from
+Proposition 5 and needs no computation: $M_j,N_j>0$ gives $\tau_j=N_j/(M_j+N_j)\in(0,1)$ directly.
+Explicitly, the worker’s denominator less his numerator is
+$\alpha\gamma_K\bigl(\theta+\beta(1-\theta)\bigr)>0$, which is §5.2’s expression times $\gamma_K$.
+For $\tau<\tau_C$ both slopes are
 strictly positive, so both payoffs strictly increase: every such $\tau$ is Pareto-dominated. For
 $\tau\in(\tau_C,\tau_W)$ the slopes have opposite signs, so no change in the tax alone is unanimous and
 the interval is the Pareto set in $\tau$ at $i^\star$.
 
 For the last clause, let both instruments move. At $\phi=1$ the investment share enters only the
-owner’s consumption and next period’s capital, so, up to a positive factor and a constant,
-$U^C=S_C(\tau)+(1-\omega)\ln(1-i)+\beta a\ln i$ and $U^W=S_W(\tau)+\beta p\ln i$, with
-$S_j(\tau)=M_j\ln(1-\tau)+N_j\ln\tau$. At $i^\star$, $\partial U^C/\partial i=0$ (Proposition 1) and
-$\partial U^W/\partial i=\beta p/i^\star>0$ (A.3). Fix $\tau_0\neq\tau_C$, so that
+owner’s consumption and next period’s capital, and the capital law carries $\gamma_K\ln I_t$, so, up
+to a positive factor and a constant,
+$U^C=S_C(\tau)+(1-\omega)\ln(1-i)+\beta\gamma_K a\ln i$ and $U^W=S_W(\tau)+\beta\gamma_K p\ln i$, with
+$S_j(\tau)=M_j\ln(1-\tau)+N_j\ln\tau$. At
+$i^\star=\beta\gamma_K a/\bigl((1-\omega)+\beta\gamma_K a\bigr)$, $\partial U^C/\partial i=0$
+(Proposition 1) and $\partial U^W/\partial i=\beta\gamma_K p/i^\star>0$ (A.3). Fix $\tau_0\neq\tau_C$, so that
 $s\equiv S_C'(\tau_0)\neq0$, and move the tax by $\varepsilon\,\mathrm{sgn}(s)$ and the investment
-share by $\mu\varepsilon$ with $\mu>|S_W'(\tau_0)|\,i^\star/(\beta p)$. The owner gains
+share by $\mu\varepsilon$ with $\mu>|S_W'(\tau_0)|\,i^\star/(\beta\gamma_K p)$. The owner gains
 $|s|\varepsilon+O(\varepsilon^2)$ and the worker at least
-$\bigl(\beta p\mu/i^\star-|S_W'(\tau_0)|\bigr)\varepsilon+O(\varepsilon^2)$, both strictly positive
+$\bigl(\beta\gamma_K p\,\mu/i^\star-|S_W'(\tau_0)|\bigr)\varepsilon+O(\varepsilon^2)$, both strictly positive
 for small $\varepsilon$. Because both payoffs are additively separable in $\tau$ and $i$, the
 first-order condition in $\tau$ of $\lambda U^W+(1-\lambda)U^C$ does not involve $i$, so the bargained
 tax of Proposition 8 is the same whether or not the investment share is also bargained. The bargained
 share is
-$i(\lambda)=\bigl[(1-\lambda)\beta a+\lambda\beta p\bigr]/\bigl[(1-\lambda)(1-\omega)+(1-\lambda)\beta a+\lambda\beta p\bigr]$,
+$i(\lambda)=\bigl[(1-\lambda)\beta\gamma_K a+\lambda\beta\gamma_K p\bigr]/\bigl[(1-\lambda)(1-\omega)+(1-\lambda)\beta\gamma_K a+\lambda\beta\gamma_K p\bigr]$,
 which exceeds $i^\star$ at every $\lambda\in(0,1)$ because the difference has the sign of
-$\lambda(1-\omega)\beta p>0$. $\qquad\blacksquare$
+$\lambda(1-\omega)\beta\gamma_K p>0$. Only $\gamma_K>0$ is used in this clause, so setting
+$\gamma_K=1$ returns the baseline statement and no sign in it moves. $\qquad\blacksquare$
 
 ## A.5 Proof of Proposition 9
 
