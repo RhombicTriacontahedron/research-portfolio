@@ -392,9 +392,11 @@ that the two stocks differ in nothing except who holds a claim on them. The face
 system is still log-linear, the value functions are still affine in $(k,n,g)$, the policies are
 still constant shares, and the two classes still choose the same split. Proposition 2 is carried
 too, and it is the one thing the release could have cost: $\gamma_K$ enters the log-transition
-matrix in a single place, the capital row’s own entry $1-\gamma_K(1-\alpha)$, so the matrix stays
-entrywise non-negative with unit row sums for every $\gamma_K\le 1/(1-\alpha)$, and the declared
-range sits strictly inside that bound (A.3). Setting $\gamma_K=1$
+matrix in one row only — the capital row
+$\bigl[\,1-\gamma_K(1-\alpha),\ \gamma_K(1-\alpha),\ 0\,\bigr]$,
+whose entries sum to one for every $\gamma_K$ and are non-negative exactly when
+$\gamma_K\le 1/(1-\alpha)$; the declared range sits strictly inside that bound, since
+$1<1/(1-\alpha)$ at every $\alpha\in(0,1)$ (A.3). Setting $\gamma_K=1$
 recovers every baseline expression exactly, which is the positive control on this section.
 
 ## 4.2 The cross-structure
@@ -565,8 +567,12 @@ $\tau_W$ preferred rates, and a root of a first-order condition earns that name 
 concavity.
 
 Where this section stands on the symmetrisation is worth saying once, because the closed forms
-below are not the general statements. Propositions 5, 6 and 8 hold for every $\gamma_K\in(0,1]$;
-the expressions displayed in §5.2 and §5.4 are their values at the baseline $\gamma_K=1$.
+below are not the general statements. Propositions 5, 6, 7 and 8 hold for every
+$\gamma_K\in(0,1]$; the expressions displayed in §5.2 and §5.4 are their values at the baseline
+$\gamma_K=1$. Proposition 7 is on that list because the two first-order conditions in $\phi$ reach
+the value coefficients only through the ratios $c/b$ and $r/q$, and the $g$-equations of A.1 set
+both equal to $\beta\gamma(1-\theta)$ whatever $\gamma_K$ is, so the common split carries none.
+§7 uses that.
 
 ## 5.2 The interval
 
@@ -836,14 +842,16 @@ Writing $P\equiv 1-\beta+\beta\gamma_K$, the worker’s rate lies outside §5.3�
 when
 
 $$\alpha>\alpha^{\star}(\gamma_K)\equiv\frac{\beta(1-\theta)\,P}
-{P\bigl(\theta+\beta(1-\theta)\bigr)-\beta\theta\gamma_K}.$$
+{\theta(1-\beta)+\beta(1-\theta)\,P}.$$
 
 The crossing is single: cleared of its positive denominators, $\tau_W$ less the bound of §5.3 is
 affine in $\alpha$ — the quadratic terms cancel — and it runs from $-\beta(1-\theta)^{2}P<0$ at
-$\alpha=0$ to $\theta(1-\beta)(1-\theta)>0$ at $\alpha=1$. The threshold returns the baseline value
-above at $\gamma_K=1$, lies in $(0,1)$ throughout the box, and is strictly increasing in $\gamma_K$,
-with $\partial\alpha^{\star}/\partial\gamma_K$ carrying the numerator
-$\beta^{2}\theta(1-\beta)(1-\theta)>0$. So the set of parameters at which the worker’s rate lies
+$\alpha=0$ to $\theta(1-\beta)(1-\theta)>0$ at $\alpha=1$. In this form the threshold’s properties
+are immediate. It returns the baseline value above at $\gamma_K=1$, where $P=1$. It lies in
+$(0,1)$, because its denominator exceeds its numerator by $\theta(1-\beta)>0$. And it rises with
+$\gamma_K$: the map $x\mapsto x/\bigl(\theta(1-\beta)+x\bigr)$ is strictly increasing, and so is
+$P$. The derivative is $\beta^{2}\theta(1-\beta)(1-\theta)$ over the square of that denominator.
+So the set of parameters at which the worker’s rate lies
 outside that condition is larger off the baseline than on it, never smaller: at $\beta=0.25$,
 $\theta=0.75$ the threshold falls from $\alpha^{\star}=0.1$ at $\gamma_K=1$ to $0.0793$ at
 $\gamma_K=0.1$, and at $\alpha=0.08$ the corner accordingly binds at the baseline and does not at
