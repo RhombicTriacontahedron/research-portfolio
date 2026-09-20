@@ -158,7 +158,7 @@ because the capital share re-enters through $a_2 = s_K/\sigma$ in the denominato
 
 **Proposition 5.** *$B$ enters only through $x$, so $\mathrm{d}/\mathrm{d}\ln B = \mathrm{d}/\mathrm{d}x$ and, by (3.1), both effective shares move together:*
 $$\frac{\mathrm{d}a_1}{\mathrm{d}\ln B} \;=\; \frac{\mathrm{d}a_2}{\mathrm{d}\ln B} \;=\; \rho(1-\rho)\,s_K s_L .$$
-*Since $\partial\tau_C/\partial a_1<0$ and $\partial\tau_C/\partial a_2<0$ by Proposition 4(ii),*
+*Since $\partial\tau_C/\partial a_1<0$ and $\partial\tau_C/\partial a_2<0$ by the proof of Proposition 4(ii),*
 $$\operatorname{sign}\frac{\mathrm{d}\tau_C}{\mathrm{d}\ln B} \;=\; -\operatorname{sign}\bigl[\rho(1-\rho)\bigr],$$
 *which is strictly negative for $\sigma\in(1,\infty)$ and zero at $\sigma=1$. For $\sigma<1$ the same expression is strictly positive, and it is the sign of a preferred rate wherever the transition matrix of Proposition 3 is entrywise non-negative, that is wherever $a_1\ge0$ and $D\le1$, the first of which is $s_L\le\sigma$; off that set it can be the sign of the formula (5.2) alone.*
 
@@ -204,7 +204,7 @@ The following bound the results above and are not conjectures about them.
 
 **The maximisation is over constant policies only.** It searches the class in which the Cobb–Douglas equilibrium lives. Proposition 2 shows that, under an affine continuation, the preferred rate is state-dependent at a non-unit elasticity; whether the exact policy is, and with it the sign of $\tau_C$ over all Markov policies, is undischarged. A numerical equilibrium on the reduced $(x,y)$ state would settle it and is the cheapest instrument that would.
 
-**The comparative static is the share channel at a reference ratio.** Proposition 5 differentiates holding the ratio fixed, which is the same scope as the share result of Section 2(i). The exact computation does let the stationary ratio move and the sign survives there as well — on five values of $B$.
+**The comparative static is the share channel at a reference ratio.** Proposition 5 differentiates holding the ratio fixed, which is the same scope as the share result of Section 2(i). The exact computation does let the stationary ratio move, and the sign survives there as well. At constant policies it survives as a theorem and not as a sample: for $\sigma>1$ the stationary ratio is strictly increasing in $\ln B$ at every admissible parameter. The map whose fixed point defines that ratio has a slope bounded away from one by $\gamma(1-\rho\theta_R)>0$. Once the policies are re-optimised at the stationary ratio itself the result is a contest and not a sign, because the owner pushes back through every channel: the two rate channels provably, and the investment channel on every parameter draw checked. At the parameters of Section 6 the direct effect wins, and wins on a continuum of elasticities and capital shares rather than at the five values of $B$ tabulated above. Whether it wins at every parameter is open.
 
 **Both period objectives are logarithmic.** $\sigma_W=\sigma_C=1$ throughout, which is the generational face’s own restriction; no continuity onto a wider preference domain is claimed.
 
