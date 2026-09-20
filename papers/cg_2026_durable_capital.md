@@ -76,6 +76,8 @@ $$
 
 At $\delta=1$, $K'=i(1-\tau)e^{E_C}$. Tax formulas below that recover a one-generation peak are written at $\varphi=1$. The same corner is used here unless a sentence names the split.
 
+**Who chooses.** One player sets one instrument. The owner chooses $\tau$ each period, knowing the state $(K,n,g)$. The direction $d$, the investment share $i$ and the in-kind share $\varphi$ are held fixed, and workers choose nothing: they hold no assets, and their stock $n$ moves by the labour law. The owner’s problem is therefore a single-agent dynamic programme, and the *assigned* tax is its solution — a policy $\tau(K,n,g)$, or the path that policy generates from a given start. It is not the equilibrium set of a game in which workers or a government also choose, and it is not a Ramsey plan. The worker peak $\tau_W$ displayed below is the one-generation analogue with the instrument assigned to workers; it is displayed for comparison and not derived here.
+
 ------------------------------------------------------------------------
 
 ## Laws that survive
@@ -355,6 +357,8 @@ Under the one-generation expansion, $\tau_C\to 0$ as $s_K\to 1$ when $\sigma>1$.
 2.  The planner is not the assigned owner.
 3.  Labour is not an unowned factor reproduced from a public stock filled by the capital-income tax.
 4.  At $\delta=1$, assigned programmes are constants, so the time limit and the stationary tax coincide. On this face they do not (Lemma 2).
+
+Commitment turns on a fact of the Environment rather than on that list: whether any other agent’s current choice reacts to the taxes the owner is expected to set later. Chamley and Judd’s zero is the long-run limit of a plan chosen once, at date zero, by a planner who takes into account how savers respond to the taxes they expect. Such a plan is in general not time-consistent: re-solved later, with capital already in place, it calls for a higher tax on that capital, so it is optimal only if the planner can commit to it. The assigned owner faces no such response. The investment share is held fixed and workers do not save, so no other agent’s current choice depends on the taxes the owner is expected to set later. With a single decision-maker and geometric discounting, the plan the owner would choose at date zero is the plan he carries out when he chooses afresh each period. Proposition 10 is a statement about his choice at every state, so its floor does not rest on commitment. The price of that robustness is scope: holding $i$ fixed shuts the saving margin through which the planner’s commitment problem arises, and the paper says nothing about that problem.
 
 Lemma 1 keeps $G$ tied to $\tau$ at every $\delta$. Proposition 1 keeps $V_g$ loaded through $\gamma(1-\theta_R)$ at every $\delta$ on the licensed box. Those facts plus Propositions 5 and 9 are the contact.
 
