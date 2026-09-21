@@ -13,8 +13,8 @@ two classes’ per-head consumptions stand in a fixed ratio set by the reproduct
 of the tax rate, the composition of public
 spending, the reinvestment rate and either class’s objective. The per-head distributions a transfer can
 reach form a single point; the transfer moves the relative number of people on each side instead. For
-reproduction maps of any shape with a positive slope, inertness over a range of stationary states holds
-exactly when the two classes’ reproduction *elasticities* agree at the consumptions each class has at
+reproduction maps of any shape with a positive slope, the per-head gap is invariant over a range of
+stationary states exactly when the two classes’ reproduction *elasticities* agree at the consumptions each class has at
 each of them, which for power maps is a common exponent. It does not require them to share a reproduction
 *technology*. When a public input enters reproduction alongside private
 consumption, its provision in kind is not inert: its incidence is a closed form in the stationary
@@ -62,7 +62,7 @@ public input to be absent from it, and nothing else; if that elasticity differs 
 fails, which is stated here as
 a boundary rather than left as a hope. The requirement falls short of a common technology for
 reproduction maps of any shape, not only for power maps: Proposition 5, in the appendix, gives the exact
-condition.
+condition for the per-head gap to take one value.
 
 **Provision in kind is the exception, and its incidence is a closed form.** Where the state supplies an
 input to reproduction directly instead of paying cash, the per-head gap becomes a function of policy, and in particular of how the
@@ -452,12 +452,14 @@ nowhere in (8). The asymmetry that §3 showed the cash instrument cannot touch i
 that leaves the in-kind instrument’s *rate* of action untouched: it shifts the gap, it does not tilt
 it.
 
-The sign of that effect belongs to what reproduction produces, not to the instrument. At full
-depreciation these laws of motion coincide, term by term, with those of a companion paper by the same
-author (Galindo Escajeda 2026), which reads the workforce as effective labour in classes of fixed size
-and adds the two classes’ preferences over the tax. Compared across stationary states at the provision
-corner, a higher rate there raises the worker’s consumption relative to the owner’s, while here it
-raises consumption per owner relative to consumption per worker (its Proposition 11).
+The sign of the tax’s distributional effect belongs to what reproduction produces, not to the
+instrument. At full depreciation these laws of motion coincide, term by term, with those of a companion
+paper by the same author (Galindo Escajeda 2026), which reads the workforce as effective labour in
+classes of fixed size and adds the two classes’ preferences over the tax. Its Proposition 11 compares
+stationary states at the provision corner, at full depreciation and with the reinvestment share held
+fixed: a higher tax rate raises the worker’s consumption relative to the owner’s under that reading,
+and raises consumption per owner relative to consumption per worker under this one. Proposition 4(iii)
+shows that the second sign holds at every pair of depreciation rates.
 
 A reader will object that a smaller private claim reads as a worse-off worker, so that Theorem 1 is a
 welfare result in distributional clothing. It is not, and the reason is the funding route rather than
@@ -665,7 +667,7 @@ the monotonicity argument that makes the stationary capital stock unique at $\th
 that is a witness, not a theorem over the parameter box. At $\theta<1$ the state at $\theta=\tfrac12$
 illustrates a theorem, and (A) is among its conclusions rather than its hypotheses.
 
-**Proposition 4 (the full rest point).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$. Then (i) there is exactly one interior state at which $x$, $z$ and $\nu$ are all stationary under $(\star)$, and (A) holds there; (ii) the value of $c_C/c_W$ at the state of (i), as a function of $\phi\in(0,1]$ with $\tau$ and $i$ fixed, is differentiable and strictly increasing, and so is the stationary public stock per worker $z$.*
+**Proposition 4 (the full rest point).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$. Then (i) there is exactly one interior state at which $x$, $z$ and $\nu$ are all stationary under $(\star)$, and (A) holds there; (ii) the value of $c_C/c_W$ at the state of (i), as a function of $\phi\in(0,1]$ with $\tau$ and $i$ fixed, is differentiable and strictly increasing, and so is the stationary public stock per worker $z$; (iii) at $\phi=1$, the value of $c_C/c_W$ at the state of (i), as a function of $\tau\in(0,\bar\tau)$ with $i$ fixed, is differentiable and strictly increasing.*
 
 *Proof.* **(i)** Stationarity of $\nu$ makes the two growth factors equal; write $g$ for their common
 value. Dividing the two stock laws of $(\star)$ by $N_{W,t+1}=gN_{W,t}$, stationarity of $x$ and of $z$
@@ -722,11 +724,25 @@ $$\frac{\mathrm{d}\ln z}{\mathrm{d}\phi}
 \qquad K\equiv\frac{\alpha}{1-\alpha}\,\frac{g}{g-1+\delta}+\frac{g}{g-1+\delta_G}>0,$$
 
 the second equality using $H-\gamma(1-\theta)K=1+\theta\tfrac{\alpha\gamma}{1-\alpha}\tfrac{g}{g-1+\delta}$. Both terms are
-strictly positive whatever the sign of $\mathrm{d}\ln g/\mathrm{d}\phi$. $\blacksquare$
+strictly positive whatever the sign of $\mathrm{d}\ln g/\mathrm{d}\phi$.
+
+**(iii)** At $\phi=1$, $\kappa_W=1-\alpha$ does not move with $\tau$ and $\varpi=\tau$, so
+$\partial\ln D/\partial\tau=\gamma(1-\theta)/\tau-\tfrac{\alpha\gamma}{1-\alpha}\tfrac{1}{1-\tau}$, and the implicit
+function theorem gives $\mathrm{d}\ln g/\mathrm{d}\tau=(\partial\ln D/\partial\tau)/H$ on $(0,\bar\tau)$.
+Differentiating the logarithm of (10) and substituting, with $Q$ as in (ii),
+
+$$\frac{\mathrm{d}\ln(c_C/c_W)}{\mathrm{d}\tau}
+\;=\;(1-\theta)\Big[\frac{1}{\tau}-\frac{g}{g-1+\delta_G}\,\frac{\mathrm{d}\ln g}{\mathrm{d}\tau}\Big]
+\;=\;(1-\theta)\Big[\frac{1-Q(1-\theta)}{\tau}+\frac{Q\,\alpha}{(1-\alpha)(1-\tau)}\Big],$$
+
+and both terms are strictly positive, the first by the positivity of $1-Q(1-\theta)$ shown in (ii).
+$\blacksquare$
 
 In words: below $\theta=1$ every policy with a positive tax, a positive share in kind and partial
 reinvestment has exactly one full rest point, and at it, moving receipts from the public stock into cash
-at a given tax rate lowers provision per worker and the owner’s per-head consumption relative to the worker’s. Part (i)’s
+at a given tax rate lowers provision per worker and the owner’s per-head consumption relative to the worker’s. At the provision
+corner a higher tax rate raises the owner’s per-head consumption relative to the worker’s, whatever the two
+depreciation rates. Part (i)’s
 argument needs $\theta<1$ only when $\delta_G<\delta$. At $\theta=1$ the exponent on $g-1+\delta_G$ in (12)
 vanishes and the root is forced above $1-\delta$ but not above $1-\delta_G$, so Appendix A.2, where
 $\delta_G<\delta$, remains a witness rather than an instance of a theorem. When $\delta_G\ge\delta$, (i)
@@ -815,14 +831,14 @@ interior stationary class ratio with $c_W\in S$ if and only if*
 
 $$h_W(c) \;=\; h_C(\chi c) \qquad \text{for every } c\in S. \tag{13}$$
 
-*If in addition each $h_j$ is differentiable and $S$ is an interval, (13) holds if and only if it holds
+*If in addition each $h_j$ is differentiable and $S$ is an interval of positive length, (13) holds if and only if it holds
 at one point of $S$ and the elasticities $\varepsilon_j(u)\equiv u\,h_j'(u)/h_j(u)$ agree at inputs in
 the ratio $\chi$, that is $\varepsilon_W(c)=\varepsilon_C(\chi c)$ for every $c\in S$. If moreover $h_C'>0$, no level condition is needed: along the stationary locus $h_W(c_W)=h_C(c_C)$,*
 
 $$\frac{\mathrm{d}\ln(c_C/c_W)}{\mathrm{d}\ln c_W} \;=\; \frac{\varepsilon_W(c_W)}{\varepsilon_C(c_C)}-1, \tag{14}$$
 
-*so, for $S$ an interval, $c_C/c_W$ takes a single value at the interior stationary class ratios with $c_W\in S$ if and only if $\varepsilon_W(c_W)=\varepsilon_C(c_C)$ at each of them. For power maps
-$h_j(u)=B_j u^{\gamma_j}$ and an interval $S$, (13) holds for some $\chi$ if and only if
+*so, for such an interval $S$, $c_C/c_W$ takes a single value at the interior stationary class ratios with $c_W\in S$ if and only if $\varepsilon_W(c_W)=\varepsilon_C(c_C)$ at each of them. For power maps
+$h_j(u)=B_j u^{\gamma_j}$ and such an interval $S$, (13) holds for some $\chi$ if and only if
 $\gamma_W=\gamma_C$, and then $\chi=(B_W/B_C)^{1/\gamma}$.*
 
 *Proof.* By $(\star)$ a state is an interior stationary class ratio if and only if $g_W=g_C$, that is
@@ -832,15 +848,16 @@ then $h_C(c_C)=h_W(c_W)=h_C(\chi c_W)$, and injectivity gives $c_C=\chi c_W$. Co
 $c_C=\chi c_W$ at every such state, and take $c\in S$; by the definition of $S$ there is a state with
 $c_W=c$, and at it $h_W(c)=h_C(c_C)=h_C(\chi c)$, which is (13). For the elasticity form, the function
 $c\mapsto \ln h_W(c)-\ln h_C(\chi c)$ has derivative $\big(\varepsilon_W(c)-\varepsilon_C(\chi c)\big)/c$,
-so on an interval it is constant if and only if the elasticities agree throughout, and the constant is
+so on an interval of positive length it is constant if and only if the elasticities agree throughout, and the constant is
 zero if and only if (13) holds at one point. For power maps, (13) reads
-$B_W c^{\gamma_W}=B_C\chi^{\gamma_C}c^{\gamma_C}$; two power functions agree on an interval only if
+$B_W c^{\gamma_W}=B_C\chi^{\gamma_C}c^{\gamma_C}$; two power functions agree on an interval of positive length only if
 their exponents and their coefficients coincide, so $\gamma_W=\gamma_C=\gamma$ and
-$B_W=B_C\chi^{\gamma}$, which is $\chi=(B_W/B_C)^{1/\gamma}$, the constant of Proposition 2(a). For (14), $h_C'>0$ makes the inverse of $h_C$ differentiable, so the locus defines $c_C=h_C^{-1}(h_W(c_W))$ with $\mathrm{d}c_C/\mathrm{d}c_W=h_W'(c_W)/h_C'(c_C)$; multiplying by $c_W/c_C$ and using $h_W(c_W)=h_C(c_C)$ gives $\mathrm{d}\ln c_C/\mathrm{d}\ln c_W=\varepsilon_W(c_W)/\varepsilon_C(c_C)$, and subtracting $\mathrm{d}\ln c_W/\mathrm{d}\ln c_W=1$ gives (14). Since $\varepsilon_C(c_C)>0$, the right side of (14) vanishes exactly when the two elasticities agree, and on an interval a differentiable function is constant if and only if its derivative vanishes throughout.
+$B_W=B_C\chi^{\gamma}$, which is $\chi=(B_W/B_C)^{1/\gamma}$, the constant of Proposition 2(a). For (14), $h_C'>0$ makes the inverse of $h_C$ differentiable, so the locus defines $c_C=h_C^{-1}(h_W(c_W))$ with $\mathrm{d}c_C/\mathrm{d}c_W=h_W'(c_W)/h_C'(c_C)$; multiplying by $c_W/c_C$ and using $h_W(c_W)=h_C(c_C)$ gives $\mathrm{d}\ln c_C/\mathrm{d}\ln c_W=\varepsilon_W(c_W)/\varepsilon_C(c_C)$, and subtracting $\mathrm{d}\ln c_W/\mathrm{d}\ln c_W=1$ gives (14). Since $\varepsilon_C(c_C)>0$, the right side of (14) vanishes exactly when the two elasticities agree, and on an interval of positive length a differentiable function is constant if and only if its derivative vanishes throughout.
 $\blacksquare$
 
-In words: over a range of stationary states the transfer is inert exactly when the workers’
-reproduction map is the owners’ map applied to a fixed multiple of the workers’ consumption. A common
+In words: the per-head gap takes one value over a range of stationary states exactly when the workers’
+reproduction map is the owners’ map applied to a fixed multiple of the workers’ consumption, and where
+it does, no instrument that keeps the economy within that range moves the gap. A common
 technology is the case in which the multiple is one, and a common exponent is what the condition becomes
 for power maps. Other pairs of maps satisfy it as well, while a common map of another shape with unequal
 levels need not: for $h_C(u)=2u/(1+u)$ and $h_W=\tfrac32 h_C$, (13) holds for no $\chi$ on any interval.
