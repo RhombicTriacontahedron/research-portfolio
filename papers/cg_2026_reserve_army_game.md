@@ -27,8 +27,8 @@ Where the ceilings move with the pool, the separation breaks; past a
 threshold in the extraction ceiling’s response no extractable day admits
 any interior compromise, and short of it at most three stationary
 employment rates exist, at most one where labour is pinned to its
-ceiling, which is an equilibrium wherever its wage lies below the
-extractable day at full employment and the law of motion survives there.
+ceiling, which is an equilibrium wherever the law of motion survives at
+full employment.
 
 # 1. Introduction
 
@@ -1441,27 +1441,17 @@ price once such a deviation arrives at full employment. At two of the
 four, the computed closed loop is capital’s best reply only from starts
 up to the $v_c$ of (v), which there lies below full employment.
 
-*(v) Capital, wherever the economy’s law of motion holds.* Suppose also
-that the stationary wage lies below the extractable day at full
-employment, $\omega^\ast < \hat e$. That holds at every compromise short
-of full employment, pinned or bargained, wherever
-$\hat e \ge \hat\omega$ — the Domain’s $\bar e > \bar\omega$ read across
-the whole interval, as in Proposition 12 — because the wage never
-exceeds labour’s ceiling and the ceiling lies below $\hat\omega$ short
-of full employment. The supposition therefore restricts the result only
-where the ceilings cross below full employment, and there it is a real
-restriction: it fails at some pinned compromises on the first branch
-(A.12$''$(v)). Then capital’s stationary path is optimal against
-labour’s over every deviation that keeps the economy’s law of motion up
-to and at full employment, including deviations that carry labour’s
-committed path outside its feasible set, and capital’s best reply to the
-stationary wage moves the employment rate monotonically to $v^\ast$ from
-every initial employment rate up to $v_c$, the first employment rate
-above $v^\ast$ at which, at capital’s shadow price, accumulation stops
-paying ($v_c = 1$ if it pays all the way to full employment). $v_c$ can
-lie below full employment: it does whenever
-$\beta\hat e - \omega^\ast < \rho\kappa/(1+\lambda)$, and it does at
-some compromises that meet all of Proposition 12’s hypotheses
+*(v) Capital, wherever the economy’s law of motion holds.* Capital’s
+stationary path is optimal against labour’s over every deviation that
+keeps the economy’s law of motion up to and at full employment,
+including deviations that carry labour’s committed path outside its
+feasible set, and capital’s best reply to the stationary wage moves the
+employment rate monotonically to $v^\ast$ from every initial employment
+rate up to $v_c$, the first employment rate above $v^\ast$ at which, at
+capital’s shadow price, accumulation stops paying ($v_c = 1$ if it pays
+all the way to full employment). $v_c$ can lie below full employment: it
+does whenever $\beta\hat e - \omega^\ast < \rho\kappa/(1+\lambda)$, and
+it does at some compromises that meet all of Proposition 12’s hypotheses
 (A.12$''$(v)). It does at two of the four compromises (iv) reads, both
 of which satisfy that inequality: at Proposition 13’s pinned rest point
 accumulation stops paying at $v_c = 0.771$, barely above
@@ -1478,7 +1468,17 @@ capital has no best reply: its supremum is approached as its share tends
 to zero and is not attained, because the share set is open. Where no
 admissible deviation reaches full employment — the escape margin $E$ of
 A.12$''$(iv) is not positive — this needs no assumption about full
-employment at all.
+employment at all. Nor does it need any condition on the stationary
+wage. Wherever $\hat e \ge \hat\omega$, the wage lies below the
+extractable day at full employment at every compromise short of it,
+pinned or bargained, because the wage never exceeds labour’s ceiling and
+the ceiling lies below $\hat\omega$ short of full employment. Where the
+ceilings cross below full employment the wage can exceed that day, and
+it does at some pinned compromises on the first branch. Capital’s
+surplus against the stationary wage then vanishes at an employment rate
+$v_D = (\hat e/\omega^\ast)^{1/\zeta} \le 1$ that no admissible
+deviation from below it reaches, so everything above holds for starts
+below $v_D$ and nothing in it involves full employment (A.12$''$(v)).
 
 In words, the equilibrium claim in the regime holds on both sides, and
 the reason the two sides need different arguments is economic rather
@@ -1845,25 +1845,19 @@ conditional on that class.
 
 *What is proved and what is not.* Proposition 14 proves both halves of
 the equilibrium claim in Section 6, each class’s stationary path against
-the other’s. Capital’s half needs the stationary wage below the
-extractable day at full employment and the economy’s law of motion to
-hold up to and at full employment. Where no admissible deviation reaches
-full employment ($E \le 0$) the second is automatic; where one does, a
-continuation that changes the law there, such as one that lets
-productivity grow at its behavioural rate whatever capital accumulates,
-is not covered, and the regime contains no rule that selects one
-(Appendix B). Markov perfection in the regime is not claimed, and
-non-stationary equilibria are not characterised. Proposition 1,
-Proposition 6, the Corollary to Proposition 5$'$, the Corollary to
-Proposition 11 on the persistence locus and the Corollary to Proposition
-12 are checked by the certificates A.13 names, but none of those files
-names them in a form the repository’s per-statement ledger reads, so
-whether each check still matches the present wording is not tracked.
-
-*The literature, by the grade at which it was read.* Hoel (1978) has not
-been read: no open copy was found. Pohjola (1983) and Shimomura (1991)
-are placed from summaries and from works that restate them, not from
-their bodies, so whether either writes the logarithmic, linear case of
+the other’s. Capital’s half needs only the economy’s law of motion to
+hold up to and at full employment, and where no admissible deviation
+reaches full employment ($E \le 0$, which includes every compromise
+whose wage is at least the extractable day at full employment) even that
+is automatic; where one does, a continuation that changes the law there,
+such as one that lets productivity grow at its behavioural rate whatever
+capital accumulates, is not covered, and the regime contains no rule
+that selects one (Appendix B). Markov perfection in the regime is not
+claimed, and non-stationary equilibria are not characterised. *The
+literature, by the grade at which it was read.* Hoel (1978) has not been
+read: no open copy was found. Pohjola (1983) and Shimomura (1991) are
+placed from summaries and from works that restate them, not from their
+bodies, so whether either writes the logarithmic, linear case of
 Proposition 2, or finds a two-root fold or a ranking of equilibria, is
 unchecked; Propositions 4 and 4$'$ carry no priority claim against them.
 Goodwin (1967) is placed by the standard description of its model, and
@@ -3025,7 +3019,7 @@ continuation needed on the sub-class $E \le 0$.
 
 *(v) Capital: a verification through the stable manifold.* Fix the
 compromise as in (iii), interior, so $0 < s^\ast < 1$ and
-$\omega^\ast > 0$, and suppose $\omega^\ast < \hat e$. The supposition
+$\omega^\ast > 0$, and suppose first that $\omega^\ast < \hat e$. That
 is automatic wherever $\hat e \ge \hat\omega$: every compromise has
 $\omega^\ast \le \bar\omega(v^\ast) = \hat\omega\,(v^\ast)^\eta < \hat\omega \le \hat e$,
 since $\eta > 0$ and $v^\ast < 1$. Where $\hat\omega > \hat e$ it can
@@ -3038,9 +3032,11 @@ $(\hat e/\hat\omega)^{1/(\eta+\zeta)} \approx 0.903$; there
 $N(v^\ast) > 0$, $s^\ast \approx 0.060$ and
 $\bar\omega(v^\ast)s^\ast \le \kappa\rho$, so the compromise is interior
 and pinned, and its wage
-$\omega^\ast = \bar\omega(v^\ast) \approx 0.685$ exceeds $\hat e$. Write
-$\gamma \equiv (1-c)/\kappa$, $\sigma \equiv c(1+\lambda)/(\rho\kappa)$
-and $q \equiv \sigma + \gamma p = P/\kappa$, with $P$ as in (iii);
+$\omega^\ast = \bar\omega(v^\ast) \approx 0.685$ exceeds $\hat e$. The
+case $\omega^\ast \ge \hat e$ is taken up at the end of this part, after
+*The boundary*. Write $\gamma \equiv (1-c)/\kappa$,
+$\sigma \equiv c(1+\lambda)/(\rho\kappa)$ and
+$q \equiv \sigma + \gamma p = P/\kappa$, with $P$ as in (iii);
 $D(x) \equiv \bar e(x) - \omega^\ast$, which is at least
 $\hat e - \omega^\ast > 0$ on $x \le 0$;
 $\delta(x) \equiv m_0 + n + bx$; $A \equiv (1+\lambda)(1+b/\rho)$ and
@@ -3228,6 +3224,33 @@ scheme imposes, and the hold that rations capital’s share to the
 drift-zero level. A continuation that changes the law at $v = 1$, such
 as productivity growing at $m_0$ whatever the share, changes the running
 payoff there and is not covered; that is the residue Appendix B carries.
+
+*A wage at or above the extractable day at full employment.* Suppose
+instead $\omega^\ast \ge \hat e$. Then $D$ vanishes at
+$x_D \equiv \zeta^{-1}\ln(\hat e/\omega^\ast) \le 0$, and $x_D > x^\ast$
+because $D^\ast > 0$. The supremal drift
+$F(x) \equiv \gamma D(x) - \delta(x)$ bounds the drift under every
+admissible share and extraction. It is strictly decreasing, with
+$F' = -\gamma\zeta\bar e(x) - b < 0$. It is positive at $x^\ast$, where
+$\delta(x^\ast) = \gamma s^\ast D^\ast$ makes it
+$\gamma D^\ast(1-s^\ast)$, and it equals
+$-\delta(x_D) \le -\delta(x^\ast) < 0$ at $x_D$. So it has one zero
+$x_m \in (x^\ast, x_D)$, and for every $x_1 \in [x_m, x_D)$ no
+admissible path that starts at or below $x_1$ ever exceeds it, while
+$D \ge D(x_1) > 0$ on $x \le x_1$. Every step above uses only three
+facts about $x \le 0$: $D$ is bounded below there by a positive
+constant, no admissible path leaves it, and $x$ falls at most linearly.
+All three hold on $x \le x_1$. So the argument goes through with
+$x \le 0$ read as $x \le x_1$ and $\hat e - \omega^\ast$ read as
+$D(x_1)$. Because $Q_1D$ vanishes at $x_D$, $x_s < x_D$, so $x_c < x_D$
+exists. Because $x_1$ is any point below $x_D$, the conclusions hold
+from every start below $v_D = e^{x_D}$. And
+$E = \gamma(\hat e - \omega^\ast) - (m_0 + n) < 0$, so no deviation
+reaches full employment and no continuation there enters. The
+supposition $\omega^\ast < \hat e$ therefore serves only to make
+$x \le 0$ the state space. The committed wage is compatible with
+capital’s ceiling below $v_D$, and the result holds there without the
+supposition.
 
 ## A.13 Certificates.
 
@@ -3654,11 +3677,11 @@ witnesses are witnesses and prove nothing universal.
 | Section 6 regime, stationary layer | PROVED (Props. 7–12 and the two Corollaries): the shadow prices, the general fold and the rate at it, the existence dichotomy, the boundary $v_{\text{f}}$ **for the bargained half**, uniqueness below $\hat v$, and — in the pinned class — the stationary employment rate itself, under Proposition 12’s two conditions | — |
 | Section 6 regime, sufficiency and non-stationary paths | **Both halves PROVED by Proposition 14, by different arguments.** Labour’s stationary candidate is PROVED optimal against capital’s path: its maximised Hamiltonian is concave on both branches with a $C^1$ join. Capital’s is PROVED by Proposition 14(v) against every deviation keeping the interior law of motion on $v \le 1$ — through the global stable manifold of its canonical system and a verification of the HJB equation along it — and not by concavity, which a sign rules out: $\partial^2H^\ast_C/\partial x^2 = \zeta^2\bar e/((1-s)(\bar e-\omega)) > 0$ at every interior stationary compromise, so no concavity argument reaches it. Its canonical rest point is a SADDLE — $\det J = -(\rho+b)(1+\Gamma/\kappa)[\beta(\rho+b)\Gamma/\kappa + b] < 0$ on the first branch, `unsat` — and at all four exhibited compromises the HJB-optimal feedback returns the stationary share (witness). **Markov perfection is not claimed in the regime**; non-stationary paths are not characterised. ⛔ What (v) does not reach is a continuation that changes the law of motion at full employment, and that is not closable inside the regime’s equations: at a pinned compromise labour’s committed wage sits on its own ceiling, so joint feasibility confines capital to $v \ge v^\ast$ — the half containing the boundary — and where the escape margin $E$ of the continuation row is positive, admissible deviations there reach $v = 1$ in finite time. $E = +0.100$ at Proposition 12’s cell, and two continuations that both hold the economy at full employment and both honour labour’s commitment return **opposite** verdicts on whether $v^\ast$ is a rest point of capital’s optimal feedback (A.12$''$(iv)) — ⚠ they differ in more than which of capital’s margins is rationed: the reversing one holds productivity at $m_0$ with the share free and so suspends $K = \kappa a L$ at the boundary, while the accounting-consistent free-share hold returns the stationary share (`models/reserve_army_game/hold_value_under_accounting_law_2026_09_13_6fed31da.py`) | ⭕ **capital’s half DISCHARGED on the sub-class $E \le 0$**, where the state space is forward invariant under every admissible control and (v) needs no continuation; on $E > 0$ what remains is a continuation that changes the interior law at $v = 1$ — the one priced in A.12$''$(iv) that reverses the verdict suspends $K = \kappa a L$ — which is the continuation row’s, and institutional. Non-stationary paths and Markov perfection stay open |
 | Corollary to Proposition 8 (the fold’s accumulation rate) | proved (identity), at the same generality as Proposition 8: $s_{\text{f}} = \sqrt{Q_W}/(\sqrt{Q_W}+\sqrt{Q_C})$ and $A_{\text{f}} = \sqrt{Q_WQ_C}/\kappa$. ⚠ The $\kappa$-independence of its core value is A.5$'$’s and not the fold’s | — |
-| Prop. 12 | **proved** where $\hat\omega \le \kappa\rho$, $\hat e \ge \hat\omega$ and Proposition 9’s first branch holds: the drift reduces to a strictly decreasing function of $v$ alone through the identity $s(\bar e-\bar\omega) = N(v)$, so the drift has at most one zero and exactly one inside the state space under the endpoint inequality. ⛔ **The endpoint inequality is NOT sufficient for an interior compromise**, and the statement carries the witness that separates them: at $\kappa=1,\rho=\tfrac1{10},b=\tfrac9{10},\lambda=c=m_0=n=0,\zeta=\eta=1,\hat e=\tfrac7{45},\hat\omega=\tfrac1{20}$ it holds while $s^\ast=-0.077$. Interiority is the independent condition $N(v^\ast)>0$ — which itself has a closed form, $N(\bar v) > 0$ at $\bar v = \exp(-(m_0+n)/b)$, where $m_0 + n + b\ln\bar v = 0$ ($m_0 + n > 0$ at $b = 0$), because the drift is strictly decreasing and equals $(1-c)N(\bar v)/\kappa$ there; so both of Proposition 12’s conditions are inequalities in the primitives (external round C10 read the second as solution-evaluated; the elimination it asked for is in A.12). ⭕ Proved **including at $b = 0$**, where Proposition 5 gives the core no interior rest point at all: the stabiliser is the ceiling’s response $\zeta$, not the mechanisation law’s $b$. ⭕ By Proposition 14 its rest point is an **open-loop equilibrium** against every deviation that keeps the interior law of motion on $v \le 1$: labour’s half by (i), capital’s by (v), whose hypothesis $\omega^\ast < \hat e$ every pinned compromise short of full employment meets, since $\omega^\ast = \hat\omega v^{\ast\eta} < \hat\omega \le \hat e$. So it is an **unconditional equilibrium existence theorem wherever $E \le 0$**, and conditional on the interior law at $v = 1$ where $E > 0$, as at Proposition 12’s exhibited compromise | the bargaining branch below; and, where $E > 0$, a continuation at full employment that changes the interior law |
+| Prop. 12 | **proved** where $\hat\omega \le \kappa\rho$, $\hat e \ge \hat\omega$ and Proposition 9’s first branch holds: the drift reduces to a strictly decreasing function of $v$ alone through the identity $s(\bar e-\bar\omega) = N(v)$, so the drift has at most one zero and exactly one inside the state space under the endpoint inequality. ⛔ **The endpoint inequality is NOT sufficient for an interior compromise**, and the statement carries the witness that separates them: at $\kappa=1,\rho=\tfrac1{10},b=\tfrac9{10},\lambda=c=m_0=n=0,\zeta=\eta=1,\hat e=\tfrac7{45},\hat\omega=\tfrac1{20}$ it holds while $s^\ast=-0.077$. Interiority is the independent condition $N(v^\ast)>0$ — which itself has a closed form, $N(\bar v) > 0$ at $\bar v = \exp(-(m_0+n)/b)$, where $m_0 + n + b\ln\bar v = 0$ ($m_0 + n > 0$ at $b = 0$), because the drift is strictly decreasing and equals $(1-c)N(\bar v)/\kappa$ there; so both of Proposition 12’s conditions are inequalities in the primitives (external round C10 read the second as solution-evaluated; the elimination it asked for is in A.12). ⭕ Proved **including at $b = 0$**, where Proposition 5 gives the core no interior rest point at all: the stabiliser is the ceiling’s response $\zeta$, not the mechanisation law’s $b$. ⭕ By Proposition 14 its rest point is an **open-loop equilibrium** against every deviation that keeps the interior law of motion on $v \le 1$: labour’s half by (i), capital’s by (v), which needs no condition on the stationary wage. So it is an **unconditional equilibrium existence theorem wherever $E \le 0$**, and conditional on the interior law at $v = 1$ where $E > 0$, as at Proposition 12’s exhibited compromise | the bargaining branch below; and, where $E > 0$, a continuation at full employment that changes the interior law |
 | Joint feasibility on **capital’s** side (§2, the generalised game) | ⭕ **DISCHARGED under the interior law of motion by Proposition 14(v)**, whose verification never imposes joint feasibility, so capital’s candidate is optimal over the larger set. The larger-set argument is supplied for labour by Proposition 14(i). Capital’s deviations move the employment rate and so can carry labour’s committed path outside labour’s feasible set; Proposition 14(ii) shows that excluding them cannot come from concavity, and (v) excludes them through the stable manifold instead. ⭕ Witnessed not binding at the four exhibited compromises: Proposition 14(iv)’s computation lets capital carry the employment rate anywhere in the state space and still returns the stationary share as its optimum. ⛔ But the larger set is not larger *in the direction that matters*: at a pinned compromise labour’s committed wage is exactly its ceiling, so the generalised game’s own feasible half is $v \ge v^\ast$, which is the half containing the boundary, and ignoring joint feasibility removes no escaping deviation. Where $E > 0$ this row inherits the continuation row | on $E \le 0$, nothing; on $E > 0$, only a continuation that changes the interior law at $v = 1$, which is the continuation row’s |
 | Corollary to Proposition 12 (the bargaining branch’s two roots) | proved: $\Delta' > 0$ above the fold by `unsat` on a division-free encoding (control: dropping the fold returns `sat`, so the fold and not the box carries it; dropping the pinned $A_0 \le Q_W$ leaves it unchanged), and $4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0)-Q_W] < 0$ identically. Hence $A_+$ rises and $A_-$ falls in the ceiling, so the accumulationist compromise admits **at most one** stationary employment rate and the distributionist one is not shown to. ⭕ Proposition 13 re-derives both signs from the $s$-parametrisation, without a discriminant, and agrees | — |
 | Prop. 13 | **proved.** The bargained locus inverts to $\bar e(s) = (Q_W - qs)/(s(\beta-s))$ on $s \in (0,\beta)$, the drift in the share is strictly convex — $A'' > 0$ by inspection, $(\ln\bar e)'' > 0$ by `unsat` on a division-free encoding with two `sat` controls (dropping $\beta\le1$; dropping $q<Q_W$) — and $\dot x'(s_{\text{f}}) = (1-c)A'(s_{\text{f}}) > 0$ puts the minimiser inside the distributionist arm. Hence at most one rest point on the accumulationist arm, at most two on the distributionist arm, **at most two on the bargained locus in total**, and at $b=0$ at most one. ⭕ Two are **attained**: the cell $(\kappa,\rho,\lambda,c,b,\zeta,\eta,\hat e,\hat\omega,m_0,n) = (1,\tfrac1{10},0,0,\tfrac9{10},1,1,\tfrac25,\tfrac12,\tfrac{307}{1000},0)$ carries distributionist rest points at $v^\ast = 0.7848$ and $0.8095$, both admissible, with none on the accumulationist arm and one pinned at $0.732$. Drift signs are **interval enclosures**, not floating-point evaluations. ⚠ Convexity is in the accumulation share, not in the employment rate | the non-stationary question is untouched: this counts rest points, it does not say which one a path selects |
-| Prop. 14 | \(i\) **proved**: labour’s maximised Hamiltonian is affine where it bargains and strictly concave where it is pinned, with the slope jump $\eta(1-\delta)$ vanishing at the join; (ii) **proved as a sign**: $\partial^2H^\ast_C/\partial x^2 = P_C\bar e''(x)/\kappa$ for any ceiling, so the convexity is the ceiling’s own, strictly positive wherever capital accumulates and strictly negative where it does not, with a $C^1$ join; (iii) **proved**: $\det J$ in closed form, negative on the first branch by `unsat` with the `sat` control off it; (iv) **witness** at four compromises, with a positive control (the core’s share, $\Gamma$ dropped) that the share test refutes by $10^3$ times the tolerance; at the same cells $v^\ast$ is stable under the optimal feedback. ⚠ At the one of the four whose escape margin is positive — Proposition 12’s cell — that reading is the **boundary law’s**: a continuation that suspends the technology at the boundary returns an optimal share of $0.417$ against the stationary $0.119$, and the constant-share holds priced that keep it do not (A.12$''$(iv)). The value’s convexity in $\ln v$ at $v^\ast$ is **proved conditional on one identification** — where $W'$ follows the stable manifold, $W''(x^\ast) = (\lambda_- - F_x)/F_p > 0 \iff \beta < 1$, `unsat` with the `sat` control at $\beta > 1$ — and the computation shows the identification at every exhibited cell. Its curvature in $v$ is **the cell’s**: the closed-form comparison of $W''$ with $p^\ast$ — $(1+\lambda)/(\rho(1+\Gamma/\kappa))$ at $c = 0$ — takes both signs on the first branch (`sat` each way), concave at the four exhibited compromises and convex at a fifth, with $b = \lambda = c = 0$ the face on which it is concave everywhere (`unsat`). ⭕ (v) **proved**: in $q = \sigma + \gamma p$ capital’s canonical system is $\dot x = \gamma D\phi'(qD) - \delta$, $\dot q = (\rho+b)q - M + \gamma\zeta\bar e\max(q, 1/D)$; along its $\dot q = 0$ graph the drift has slope $-\gamma\zeta\beta\bar e - b < 0$ wherever capital accumulates and equals $-\delta(x) \le -\delta(x^\ast) = -\gamma s^\ast D^\ast < 0$ beyond, so the rest point is unique, its stable manifold is a graph over the whole state space, and $W = H^\ast_C(x,P(x))/\rho$ solves the HJB equation with the linear lower bound the comparison needs — optimal against every deviation keeping the interior law on $v \le 1$, joint feasibility ignored, under $\omega^\ast < \hat e$, with no continuation needed where $E \le 0$. The 400-cell hunt that preceded it is superseded and kept as a witness | \(ii\) says a sufficient condition fails, and (v) shows the candidate does not; what remains is a continuation at $v = 1$ that changes the interior law where $E > 0$, and non-stationary equilibria |
+| Prop. 14 | \(i\) **proved**: labour’s maximised Hamiltonian is affine where it bargains and strictly concave where it is pinned, with the slope jump $\eta(1-\delta)$ vanishing at the join; (ii) **proved as a sign**: $\partial^2H^\ast_C/\partial x^2 = P_C\bar e''(x)/\kappa$ for any ceiling, so the convexity is the ceiling’s own, strictly positive wherever capital accumulates and strictly negative where it does not, with a $C^1$ join; (iii) **proved**: $\det J$ in closed form, negative on the first branch by `unsat` with the `sat` control off it; (iv) **witness** at four compromises, with a positive control (the core’s share, $\Gamma$ dropped) that the share test refutes by $10^3$ times the tolerance; at the same cells $v^\ast$ is stable under the optimal feedback. ⚠ At the one of the four whose escape margin is positive — Proposition 12’s cell — that reading is the **boundary law’s**: a continuation that suspends the technology at the boundary returns an optimal share of $0.417$ against the stationary $0.119$, and the constant-share holds priced that keep it do not (A.12$''$(iv)). The value’s convexity in $\ln v$ at $v^\ast$ is **proved conditional on one identification** — where $W'$ follows the stable manifold, $W''(x^\ast) = (\lambda_- - F_x)/F_p > 0 \iff \beta < 1$, `unsat` with the `sat` control at $\beta > 1$ — and the computation shows the identification at every exhibited cell. Its curvature in $v$ is **the cell’s**: the closed-form comparison of $W''$ with $p^\ast$ — $(1+\lambda)/(\rho(1+\Gamma/\kappa))$ at $c = 0$ — takes both signs on the first branch (`sat` each way), concave at the four exhibited compromises and convex at a fifth, with $b = \lambda = c = 0$ the face on which it is concave everywhere (`unsat`). ⭕ (v) **proved**: in $q = \sigma + \gamma p$ capital’s canonical system is $\dot x = \gamma D\phi'(qD) - \delta$, $\dot q = (\rho+b)q - M + \gamma\zeta\bar e\max(q, 1/D)$; along its $\dot q = 0$ graph the drift has slope $-\gamma\zeta\beta\bar e - b < 0$ wherever capital accumulates and equals $-\delta(x) \le -\delta(x^\ast) = -\gamma s^\ast D^\ast < 0$ beyond, so the rest point is unique, its stable manifold is a graph over the whole state space, and $W = H^\ast_C(x,P(x))/\rho$ solves the HJB equation with the linear lower bound the comparison needs — optimal against every deviation keeping the interior law on $v \le 1$, joint feasibility ignored, from every start below $v_D$ where $\omega^\ast \ge \hat e$, with no continuation needed where $E \le 0$. The 400-cell hunt that preceded it is superseded and kept as a witness | \(ii\) says a sufficient condition fails, and (v) shows the candidate does not; what remains is a continuation at $v = 1$ that changes the interior law where $E > 0$, and non-stationary equilibria |
 | Regime, global count of stationary employment rates | **proved: at most three**, on Proposition 9’s first branch, and **at most two at $b = 0$**. At most one pinned — A.12’s $dN/dv<0$ needs only $\beta>0$, and $\hat\omega\le\kappa\rho$ enters A.12 solely to make the pinned branch the whole state space — plus at most two bargained. Attained at Prop. 13’s cell. ⛔ Never one accumulationist together with two distributionist, since the bargained locus carries at most two in total | a selection argument would say which of the three an economy is at; none is offered |
 | Existence of a regime rest point | **mostly discharged, and the residue is named.** Proved by Proposition 12 where $\hat\omega \le \kappa\rho$: labour is on its ceiling at every employment rate, the three equations reduce to one monotone equation in $v$, whose zero exists and is unique, **including at $b=0$**, and is an interior compromise exactly when Proposition 12’s second condition $N(\bar v)>0$ holds — the cell printed there satisfies every other hypothesis and fails it. Where $\hat\omega > \kappa\rho$, Proposition 13 **closes both residues**. Existence on the accumulationist root is now a sign change across an interval whose ends are identified — the fold above, the handover to the pinned branch below, and *not* $v=1$, which was the wrong upper end. Count and existence on the distributionist root follow from strict convexity of the drift in the accumulation share: at most two, and two attained at a named cell. ⭕ **The row is discharged**, and the global count of three is the statement it was reaching for | selection among the three, which no argument here supplies |
 | Section 6’s second self-undermining channel ($v_{\text{f}}$) | SETTLED **on the labour-interior half**, and one-sided there: the conjecture substituted $\bar e(v)$ into a fold condition proved for constant $\bar e$; Proposition 10 shows the substitution gives a valid NECESSARY bound and Proposition 9 gives the true boundary, strictly below it | — |
