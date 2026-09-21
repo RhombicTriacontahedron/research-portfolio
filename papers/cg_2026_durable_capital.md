@@ -119,7 +119,7 @@ $$
 \tau_W=\frac{(1-\theta_R)\bigl(1-\beta+\beta s_L/\sigma\bigr)}{1-\theta_R+\theta_R(s_K/\sigma)}
 $$
 
-were derived under log-affine transitions at $\delta=1$ (Galindo Escajeda 2026). For $\delta<1$ the closure that made the assigned tax a constant is gone, so constancy can no longer be read off a closed form. The convention $V_j=M_j\ln(1-\tau)+N_j\ln\tau+H_j$ requires those transitions.
+are the solutions at $\delta=1$ under log-affine transitions: $\tau_C$ for the owner, and $\tau_W$ for a holder of the instrument whose felicity is $n$. Appendix A.7 derives both, exactly at $\sigma=1$ and, above that face, with the partial derivatives of the composites held at the reported ratio $\bar x$. For $\delta<1$ the closure that made the assigned tax a constant is gone, so constancy can no longer be read off a closed form. The convention $V_j=M_j\ln(1-\tau)+N_j\ln\tau+H_j$ requires those transitions.
 
 ------------------------------------------------------------------------
 
@@ -430,6 +430,16 @@ Commitment turns on a fact of the Environment rather than on that list: whether 
 
 Lemma 1 keeps $G$ tied to $\tau$ at every $\delta$. Proposition 1 keeps $V_g$ loaded through $\gamma(1-\theta_R)$ at every $\delta$ on the licensed box. Those facts, Propositions 5 and 5$'$, and above all Proposition 10, are the contact. Each holds the owner’s investment share fixed, so the owner chooses the tax and nothing else; none of them is a statement about a Ramsey plan that also chooses saving.
 
+**Proposition 15 (A wage tax takes the floor away at $\delta=1$).** Let $\sigma=1$, $\delta=1$ and $\varphi\in(0,1]$, and give the owner a second instrument: a tax $\tau_w\in[0,1)$ on the wage bill, so that $G'=\varphi(\tau e^{E_C}+\tau_w e^{E_W})$, with the capital tax now ranging over $[0,1)$. Let labour be reproduced out of the net wage,
+
+$$
+n'=(1-\gamma)n+\gamma\theta_R\bigl(\ln(1-\tau_w)+E_W\bigr)+\eta g.
+$$
+
+Under the log-affine expansion of Proposition 2 the owner sets $\tau=0$ and $\tau_w=A/(A+N)\in(0,1)$ at every state, where $A$ and $N$ are the discounted values to him of a log point of the public stock and of the net wage (Appendix A.7). If labour were reproduced out of the gross wage, the wage tax would cost him nothing and he would push $\tau_w$ towards one, again with $\tau=0$.[^7]
+
+The owner still funds the public stock at every state; the second instrument changes who pays for it. Each log point by which the capital tax cuts his after-tax income costs him $M=(1-\omega)+\beta v_k$ in consumption and capital, and it is levied on the share $\alpha$ of output. Each log point by which the wage tax cuts the net wage costs him $N$, through the labour he hires, and it is levied on the share $1-\alpha$. Per unit of revenue, the first costs $M/\alpha$ at a zero capital tax and the second $(A+N)/(1-\alpha)$ at the wage tax he chooses, and the first is the larger at every point of the licensed box. This is Judd’s (1999, p. 17) zero reached from the owner’s side: given a wage tax, the stock that reproduces labour is paid for out of wages and not out of capital income. What carries Proposition 10’s floor is therefore the funding instrument. The owner will not let the stock that reproduces his workforce go unfunded, and when the capital tax is the instrument that funds it, as in the Theorem (floor), he never sets it below $\bar\tau$.
+
 A representative-agent public-share formula (Barro 1990) is one number. At $\delta=1$ this economy has a tax interval $[\tau_C,\tau_W]$.
 
 Galor and Moav (2006), the nearest neighbour on mechanism, have the owner’s motive without a floor. Their capitalists support a tax spent on workers’ schooling because educated workers complement their capital, but their capital depreciates fully in each generation and their tax is zero until capital per worker passes a critical level. On the Cobb–Douglas face both papers share, this paper replaces that threshold with a floor where capital lasts: the owner’s tax never falls below $\bar\tau$, at any state and any rate of depreciation. The reason is how the stock enters. Here it is an essential input into reproducing the workforce, and next period’s labour responds to it with the constant elasticity $\eta=\gamma(1-\theta_R)$ however small it is, so a log point of it is always worth at least $P$ to the owner; it is not an addition to basic skills that workers have without it.
@@ -438,7 +448,7 @@ Galor and Moav (2006), the nearest neighbour on mechanism, have the owner’s mo
 
 ## Neighbouring objects
 
-Chamley (1986) and Judd (1985) are the durable-capital tax benchmarks; revenue there is not an input into $n'$. Judd (1999) is the nearest neighbour on spending: there the spending is chosen, human capital is accumulated privately, and the long-run capital tax is still zero. Straub and Werning (2020) is a qualification inside that model. Galor and Moav (2006) is the political-economy neighbour: owners fund public skill because it raises profits. Barro (1990) is a single public share. Acemoglu, Gitmez and Shadmehr (2026) have an owners’ state that, while it redistributes rather than represses, taxes capital and spends on workers, to forestall revolt rather than to reproduce the labour it hires. Directed technical change (Acemoglu 2002; Kennedy 1964) supplies the current-output mix.
+Chamley (1986) and Judd (1985) are the durable-capital tax benchmarks; revenue there is not an input into $n'$. Judd (1999) is the nearest neighbour on spending: there the spending is chosen, human capital is accumulated privately, and the long-run capital tax is still zero; Proposition 15 reaches the same zero here at $\delta=1$ once the owner can also tax wages. Straub and Werning (2020) is a qualification inside that model. Galor and Moav (2006) is the political-economy neighbour: owners fund public skill because it raises profits. Barro (1990) is a single public share. Acemoglu, Gitmez and Shadmehr (2026) have an owners’ state that, while it redistributes rather than represses, taxes capital and spends on workers, to forestall revolt rather than to reproduce the labour it hires. Directed technical change (Acemoglu 2002; Kennedy 1964) supplies the current-output mix.
 
 ------------------------------------------------------------------------
 
@@ -522,7 +532,7 @@ $$
 $$
 Raising $\bar X$ keeps its defining inequality and raises both $\alpha\bar X$ and $A$, since $\partial A/\partial\bar X=\gamma\theta_R\alpha/\eta>0$, so it lowers $\ln\tau_c$; take $\bar X$ large enough that $\tau_c<1$. The constants $\tau_c$ and $\kappa$ then depend only on $(\alpha,\gamma,\theta_R,\delta,i)$. On a path with $\tau_t\le\tau_c$ for every $t\ge t_0$, $\tilde z_t\le\tilde z_{t_0}-\kappa(t-t_0)$, so each of $k_t-\bar X$, $n_t$ and $g_t+A$ is at most $\tilde z_{t_0}+\kappa t_0-\kappa t$ for $t\ge t_0$; the finitely many earlier dates have finite stocks, so one constant $c_0$ of the path covers every date. Therefore $k_t$, $n_t$ and $g_t$ fall at least linearly, and $E_{C,t}=\ln\alpha+\alpha k_t+(1-\alpha)n_t\to-\infty$: capital, labour, the public stock and capital income go to zero together. A path with $\tau_t\to0$ has $\tau_t\le\tau_c$ from some $t_0$ on. $\square$
 
-The rate is linear, and the argument needs nothing about $x_t$. In particular a constant $\tau\le\tau_c$ empties the economy at the same rate. A constant tax grows the economy exactly when $i>i(\tau,\delta)$, Lemma 6’s curve. Since $\ln i(\tau,\delta)$ is strictly convex in $\tau$ and $i(\tau,\delta)\to\infty$ at both ends of $(0,1)$, that happens on an interval of taxes if at all, and never at a tax close enough to one.[^7]
+The rate is linear, and the argument needs nothing about $x_t$. In particular a constant $\tau\le\tau_c$ empties the economy at the same rate. A constant tax grows the economy exactly when $i>i(\tau,\delta)$, Lemma 6’s curve. Since $\ln i(\tau,\delta)$ is strictly convex in $\tau$ and $i(\tau,\delta)\to\infty$ at both ends of $(0,1)$, that happens on an interval of taxes if at all, and never at a tax close enough to one.[^8]
 
 ### A.3$'$ Proof of Proposition 5$'$
 
@@ -611,6 +621,54 @@ e^{\mu}=1-\delta+i(1-\bar\tau)\alpha e^{-(1-\alpha)x(\mu)}.
 $$
 The right side falls strictly from $+\infty$ to $1-\delta$ as $\mu$ rises and the left side rises from $0$ to $\infty$, so there is exactly one root $\mu^*$, and $\mu^*<0$ exactly when the right side at $\mu=0$ is below one. Since $x(0)=x_L(\hat\tau)$, that condition reads $i(1-\bar\tau)\alpha e^{-(1-\alpha)x_L(\hat\tau)}<\delta$, that is $i<\delta\iota$. A non-decreasing, additively homogeneous map does not expand distances in the maximum norm, so $T^{*t}(s_0)\le v+t\mu^*+\|s_0-v\|_\infty$, and $E_C=\ln\alpha+\alpha k+(1-\alpha)n$ inherits the bound. Every assigned-optimal $\tau_t$ maximises $W$ at the date-$t$ state, so it lies in the band by Propositions 10 and 12. With $\bar\tau$ and $\hat\tau$ both replaced by a constant $\tau$ the same construction gives a root $\mu(\tau)$ that is positive exactly when $i>\delta j(\tau)$, and the maximum-norm bound from below, $T_\tau^t(s_0)\ge v+t\mu(\tau)-\|s_0-v\|_\infty$, makes the economy grow at that rate. Finally $\delta j(\tau_m)<1$ exactly when $\delta<\bar\delta$, $\delta j(\tau_m)<\delta\iota$ exactly when $\iota>j(\tau_m)$, and $\delta\iota\ge1$ exactly when $\delta\ge1/\iota$. $\square$
 
+### A.7 The one-generation peaks and Proposition 15
+
+At $\delta=1$ and $\sigma=1$, with $a=0$ and both taxes of Proposition 15 in place,
+
+$$
+\begin{aligned}
+k'&=\ln i+\ln(1-\tau)+\ln\alpha+\alpha k+(1-\alpha)n,\\
+g'&=\ln\varphi+\ln\bigl(\alpha\tau+(1-\alpha)\tau_w\bigr)+\alpha k+(1-\alpha)n,\\
+n'&=(1-\gamma)n+\gamma\theta_R\bigl(\ln(1-\tau_w)+\ln(1-\alpha)+\alpha k+(1-\alpha)n\bigr)+\eta g,
+\end{aligned}
+$$
+
+so the taxes enter every law only through additive constants. Put $V=v_kk+v_nn+v_gg+H$ into the Bellman equation of the owner, whose current payoff is $(1-\omega)\ln C_C+\omega k$. Matching coefficients gives
+
+$$
+v_g=\beta\eta v_n,\qquad v_k=(1-\omega)\alpha+\omega+\alpha\beta S,\qquad \bigl(1-\beta(1-\gamma)\bigr)v_n=(1-\omega)(1-\alpha)+(1-\alpha)\beta S,
+$$
+
+with $S:=v_k+\gamma\theta_Rv_n+v_g$. The solution does not depend on either tax, and
+
+$$
+v_n=\frac{(1-\alpha)(1-\omega+\beta\omega)}{(1-\beta)D},\qquad D:=1-\alpha\beta+\beta\gamma(1-\theta_R)+\alpha\beta\gamma\theta_R>0.
+$$
+
+Each period the owner therefore maximises
+
+$$
+F(\tau,\tau_w)=M\ln(1-\tau)+N\ln(1-\tau_w)+A\ln\bigl(\alpha\tau+(1-\alpha)\tau_w\bigr),\qquad M:=(1-\omega)+\beta v_k,\quad N:=\beta\gamma\theta_Rv_n,\quad A:=\beta v_g,
+$$
+
+with $M,N,A>0$. $F$ is a positive combination of logarithms of affine functions, and its Hessian has a negative first entry and a positive determinant, so it is strictly concave.
+
+*The one-generation peaks.* With $\tau_w\equiv0$ the problem is $\max_\tau M\ln(1-\tau)+A\ln\tau$, so $\tau_C=A/(A+M)$; substituting the coefficients gives the display of the section on laws that survive at $\sigma=1$. Replacing $\alpha$ and $1-\alpha$ by the partial derivatives of $E_C$ and $E_W$ at the reported ratio, $(1-s_L/\sigma,\,s_L/\sigma)$ and $(s_K/\sigma,\,1-s_K/\sigma)$, and solving the same system gives the display at every $\sigma$. The same computation for a holder of the instrument whose current payoff is $n$, whose coefficients solve the system with $(1-\omega)\alpha+\omega$ and $(1-\omega)(1-\alpha)$ replaced by $0$ and $1$ and whose cost of the tax is $\beta v_k$, gives $\tau_W$.
+
+*Proof of Proposition 15.* At $\tau=0$ and $\tau_w=A/(A+N)$, $\partial F/\partial\tau_w=0$ and
+
+$$
+\frac{\partial F}{\partial\tau}=\frac{\alpha(A+N)-(1-\alpha)M}{1-\alpha}.
+$$
+
+The equations for $v_k$ and $v_n$ share the term $\beta S$, so $(1-\alpha)(v_k-\omega)=\alpha\bigl(1-\beta(1-\gamma)\bigr)v_n$. Substituting into $M$, $N$ and $A$,
+
+$$
+(1-\alpha)M-\alpha(A+N)=(1-\alpha)(1-\omega+\beta\omega)+\alpha\beta(1-\beta)(1-\gamma\theta_R)v_n>0.
+$$
+
+The derivative in $\tau$ is negative at the corner, so the Kuhn–Tucker conditions hold at $(0,A/(A+N))$ on $[0,1)^2$, and by strict concavity that point is the unique maximiser. The problem is the same at every state. With the gross-wage law the coefficients are unchanged and $N$ leaves $F$, which then rises in $\tau_w$; as $\tau_w\to1$, $\partial F/\partial\tau$ at $\tau=0$ tends to $(\alpha A-(1-\alpha)M)/(1-\alpha)<0$ by the same identity. $\square$
+
 ------------------------------------------------------------------------
 
 ## References
@@ -622,8 +680,6 @@ Acemoglu, D., A. A. Gitmez, and M. Shadmehr (2026). Automation and repression. N
 Barro, R. J. (1990). Government spending in a simple model of endogenous growth. *Journal of Political Economy* 98(5): S103–S125.
 
 Chamley, C. (1986). Optimal taxation of capital income in general equilibrium with infinite lives. *Econometrica* 54(3): 607.
-
-Galindo Escajeda, C. (2026). Reproduction under capital-biased technical change. Working paper, <https://rhombictriacontahedron.github.io/research-portfolio/papers/cg_2026_reproduction_cbtc.html>.
 
 Galor, O., and O. Moav (2006). Das human-kapital: a theory of the demise of the class structure. *Review of Economic Studies* 73(1): 85–117.
 
@@ -651,4 +707,6 @@ Straub, L., and I. Werning (2020). Positive long-run capital taxation: Chamley�
 
 [^6]: Why the in-kind share is free here. The variation uses $\varphi$ only through $g'(\lambda\tau)-g'(\tau)=\ln\lambda$, in which $\ln\varphi$ cancels, and $\varphi$ enters neither $\ln C_C$ nor the capital law; so the same $\bar\tau$ bounds every maximiser at each fixed $\varphi\in(0,1]$ under the transitions of the Environment.
 
-[^7]: For constant $\tau$, $T_\tau(v)=v+\mu\mathbf1$ at the state $v$ whose ratios $x=k-n$ and $g-n$ the labour and public-stock laws fix, with $\mu$ the unique root of $e^{\mu}=1-\delta+i(1-\tau)\alpha e^{-(1-\alpha)x(\mu)}$ and $x(\mu)=[\mu(1+\eta)/\gamma-\theta_R\ln(1-\alpha)-(1-\theta_R)\ln(\alpha\tau)]/\alpha$. At $\mu=0$ the root condition is $i=i(\tau,\delta)$, and the right-hand side falls in $\mu$, so $\mu>0$ exactly when $i>i(\tau,\delta)$. A monotone, additively homogeneous map is non-expansive in the sup norm, since $T(s)\le T(s'+\lVert s-s'\rVert_\infty\mathbf1)=T(s')+\lVert s-s'\rVert_\infty\mathbf1$, so every path from a finite state has $s_t/t\to\mu\mathbf1$.
+[^7]: At $\delta<1$ the comparison is not established. The variation behind Proposition 10 uses $g'(\lambda\tau)-g'(\tau)=\ln\lambda$; with $\tau_w>0$, raising $\tau$ by the factor $\lambda$ raises the public stock by less, and by an amount that vanishes as $\tau\to0$.
+
+[^8]: For constant $\tau$, $T_\tau(v)=v+\mu\mathbf1$ at the state $v$ whose ratios $x=k-n$ and $g-n$ the labour and public-stock laws fix, with $\mu$ the unique root of $e^{\mu}=1-\delta+i(1-\tau)\alpha e^{-(1-\alpha)x(\mu)}$ and $x(\mu)=[\mu(1+\eta)/\gamma-\theta_R\ln(1-\alpha)-(1-\theta_R)\ln(\alpha\tau)]/\alpha$. At $\mu=0$ the root condition is $i=i(\tau,\delta)$, and the right-hand side falls in $\mu$, so $\mu>0$ exactly when $i>i(\tau,\delta)$. A monotone, additively homogeneous map is non-expansive in the sup norm, since $T(s)\le T(s'+\lVert s-s'\rVert_\infty\mathbf1)=T(s')+\lVert s-s'\rVert_\infty\mathbf1$, so every path from a finite state has $s_t/t\to\mu\mathbf1$.
