@@ -557,6 +557,13 @@ theorem’s own objects — preferences, a Pareto set over a produced population
 not assembled in this economy, and the construction that uses them is idle once that coordinate has no
 range.
 
+To be sure, the transfer is not idle. It moves the class ratio, and with it each class’s aggregate
+share of consumption: at a stationary state with $\theta=1$ the owners’ share of total consumption is
+$\chi\nu/(1+\chi\nu)$, which rises with $\nu$ and moves whenever the class ratio does. What the transfer cannot
+move is what each person receives relative to a member of the other class. The claim of this section
+is confined to that per-head coordinate. Whether a distributional aim should be read per head or per
+class is a question the second theorem does not answer and this paper does not settle.
+
 Why the theorem is emptied rather than contradicted turns on what its instrument transfers. A lump-sum
 transfer redistributes *endowments* — it moves the ownership of a claim from one agent to another, and
 the theorem’s construction needs the recipient to hold, afterwards, a different bundle of claims than
@@ -628,8 +635,9 @@ consumption relative to the worker’s, and cash is the one that lowers it.
 
 **So what.** The division of labour between markets and policy that the second theorem licenses
 requires an instrument with range. Where the workforce is produced out of the workers’ private
-consumption alone, the instrument has none in the per-head coordinate, the licensed division of labour is empty, and no
-composition of public spending moves the gap there either (Proposition 3). Where a public input does enter
+consumption alone, the instrument has none in the per-head coordinate, so the division of labour is
+unavailable to any aim stated per head, and no composition of public spending moves the gap there
+either (Proposition 3). Where a public input does enter
 reproduction ($\theta<1$), the gap is set by provision per worker relative to the private claim (Theorem 1).
 The size of a transfer is then not a choice separable from the composition of public spending, and §4 says
 what that composition buys.
