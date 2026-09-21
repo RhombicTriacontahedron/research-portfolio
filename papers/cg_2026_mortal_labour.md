@@ -5,46 +5,29 @@ Carlos Galindo Escajeda
 # Abstract
 
 Which class wants the next working generation reared more is decided by
-one inequality, and the inequality splits exactly into a term for
-horizon and a term for the division of the product. A working cohort
-whose only stake in the next generation is its old-age claim wants a
-larger levy for rearing the next generation than capital does,
-everywhere on Cobb–Douglas production and, off it, than capital’s
-stationary preferred levy, at a state stationary under capital’s own
-policy and at horizons where capital’s stationary problem is strictly
-concave, if and only if
+one inequality, which splits exactly into a term for horizon and a term
+for the division of the product. Workers live two periods, and their old
+age is a claim on the product of the generation they rear. Capitalist
+generations are linked by altruism, and their capital outlives them. A
+levy on capital income finances a public input to rearing. A working
+cohort whose only stake in the next generation is its old-age claim
+wants a larger levy than capital does, everywhere on Cobb–Douglas
+production and, off it, than capital’s stationary preferred levy, at a
+state stationary under capital’s own policy and at horizons where
+capital’s stationary problem is strictly concave, if and only if
 $\beta\lambda_C\,[1+s(1-\gamma)]+\beta\lambda_C\,\frac{1-\sigma}{\sigma}\,[s(1-\gamma\theta)+\gamma(1-\theta)(1-s)]<1$,
 where $\beta\lambda_C$ is capital’s generational horizon, $s$ the
 capital share, $\sigma$ the elasticity of substitution, and $\gamma$ and
 $\theta$ describe rearing. The first term is the threshold of a single
 planner with capital’s horizon, and at a given capital share no
 elasticity enters it. The second is the weight of the factor shares in
-capital’s problem, its claims on profits less the smaller part the wage
-share plays in private rearing, and whenever capital cares about its
-successors at all it vanishes only at unit elasticity.
-
-Workers live two periods, and their old age is a claim on the product of
-the generation they rear. Capitalist generations are linked by altruism,
-and their capital outlives them. A levy on capital income finances a
-public input to rearing. On Cobb–Douglas production a working cohort
-that is not altruistic toward its successors prefers the levy that
-maximises the next generation’s output, and that levy depends on none of
-the preference parameters. Capital’s preferred levy is zero without
-altruism and rises with it. There the inequality reads
-$\beta\lambda_C(1+\alpha(1-\gamma))<1$, whatever the level of the
-pension and however it divides between wages and profits. When the
-public input rears the generation after next, the working cohort wants
-no levy, and capital wants a positive one exactly when it cares about
-its successors. Off unit elasticity the results hold at a state
-stationary under capital’s own policy. There, at horizons below a bound
-that makes capital’s stationary problem strictly concave, an interior
-levy of capital’s that keeps the state stationary must be its
-first-order levy, and the ordering turns on a threshold in the capital
-share. A bound on capital’s horizon, in terms of the elasticity and the
-capital share alone, rules out any reversal whatever the rearing
-technology. And for elasticities at most one, where horizon alone
-favours labour, only capital’s own claims on profits can reverse the
-ordering.
+capital’s problem: its claims on profits, less the smaller part the wage
+share plays in private rearing. Whenever capital cares about its
+successors it vanishes only at unit elasticity. On Cobb–Douglas
+production the working cohort prefers the levy that maximises the next
+generation’s output, which depends on no preference parameter. For
+elasticities at most one, only capital’s own claims on profits can
+reverse the ordering.
 
 **Keywords:** reproduction of labour; old-age claims; overlapping
 generations; capital income taxation; public investment in children;
@@ -857,6 +840,11 @@ $-e\gamma\theta s$ whatever the other markers are. The bracket is
 positive on the model’s domain, where $s>0$ and $0<\gamma,\theta<1$,
 because $s(1-\gamma\theta)>0$ and $p(1-s)\ge0$. The difference therefore
 vanishes if and only if $\sigma=1$.
+
+# Data availability
+
+No data were used or generated. The paper is a work of theory, and every
+result is proved in Appendix A.
 
 # References
 
