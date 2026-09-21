@@ -370,6 +370,8 @@ Lemma 1 keeps $G$ tied to $\tau$ at every $\delta$. Proposition 1 keeps $V_g$ lo
 
 A representative-agent public-share formula (Barro 1990) is one number. At $\delta=1$ this economy has a tax interval $[\tau_C,\tau_W]$.
 
+Galor and Moav (2006), the nearest neighbour on mechanism, have the owner’s motive without a floor. Their capitalists support a tax spent on workers’ schooling because educated workers complement their capital, but their capital depreciates fully in each generation and their tax is zero until capital per worker passes a critical level. On the Cobb–Douglas face both papers share, this paper replaces that threshold with a floor where capital lasts: the owner’s tax never falls below $\bar\tau$, at any state and any rate of depreciation. The reason is placement. The public stock here is an essential input into reproducing the workforce, not an addition to basic skills that workers have without it.
+
 ------------------------------------------------------------------------
 
 ## Neighbouring objects
