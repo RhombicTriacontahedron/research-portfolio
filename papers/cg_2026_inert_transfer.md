@@ -452,6 +452,13 @@ nowhere in (8). The asymmetry that §3 showed the cash instrument cannot touch i
 that leaves the in-kind instrument’s *rate* of action untouched: it shifts the gap, it does not tilt
 it.
 
+The sign of that effect belongs to what reproduction produces, not to the instrument. At full
+depreciation these laws of motion coincide, term by term, with those of a companion paper by the same
+author (Galindo Escajeda 2026), which reads the workforce as effective labour in classes of fixed size
+and adds the two classes’ preferences over the tax. Compared across stationary states at the provision
+corner, a higher rate there raises the worker’s consumption relative to the owner’s, while here it
+raises consumption per owner relative to consumption per worker (its Proposition 11).
+
 A reader will object that a smaller private claim reads as a worse-off worker, so that Theorem 1 is a
 welfare result in distributional clothing. It is not, and the reason is the funding route rather than
 caution. The provision is financed by taxing capital income, so a smaller private claim standing
@@ -864,6 +871,9 @@ ratio, and leaves $c_C/c_W$ at $4/9$.
 
 Currie, Janet, and Firouz Gahvari. 2008. “Transfers in Cash and In-Kind: Theory Meets the Data.”
 *Journal of Economic Literature* 46 (2): 333–383.
+
+Galindo Escajeda, Carlos. 2026. “The Unowned Factor: Who Prices the Reproduction of Labour.”
+Working paper.
 
 Galor, Oded, and Omer Moav. 2006. “Das Human-Kapital: A Theory of the Demise of the Class Structure.”
 *Review of Economic Studies* 73 (1): 85–117.
