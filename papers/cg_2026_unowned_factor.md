@@ -21,8 +21,8 @@ rise in investment, an under-investment that needs no strategic interaction. The
 any weighted sum of the two payoffs is strictly increasing in the weight on workers and strictly
 positive at every weight, the owner’s own included. Third, at the provision corner, where all revenue
 is spent in kind, the tax is linear and the elasticity of substitution is one. These are the two
-features to which Galor and Moav attribute their unanimity, and the classes still disagree. The gap is opened by
-where the tax falls and by what workers value. With a tax on what the owner invests, workers who value
+features to which Galor and Moav attribute their unanimity, and the classes still disagree. Unownedness alone does
+not open the gap: either of two primitives suffices, where the tax falls and what workers value. With a tax on what the owner invests, workers who value
 consumption and an owner with no taste for wealth, the two classes want the same rate, although the
 workforce is still produced and still owned by nobody. Fourth, comparing stationary states at the
 provision corner, the worker’s higher rate favours workers when reproduction builds capacity and, per
@@ -120,8 +120,8 @@ would prefer higher taxes, whereas if the elasticity of substitution is smaller 
 rich would prefer higher taxes”* (2005 working paper, n. 42). A disagreement obtained by departing
 from unit elasticity is therefore theirs, in print, with its direction. This paper departs from
 neither feature — the tax on capital income is linear and the elasticity is unity — and the classes
-disagree anyway. What opens the gap is not that nobody owns the workforce. Two other primitives open
-it, and either one suffices (Proposition 10): the tax falls on the owner’s capital income before he
+disagree anyway. That nobody owns the workforce does not open the gap on its own. Two other
+primitives do, and either one suffices (Proposition 10): the tax falls on the owner’s capital income before he
 consumes it, and workers value the capacity that maintenance produces. With a tax on what the owner
 invests instead, workers who value consumption and an owner with no taste for wealth, the two classes
 want the same rate, although the workforce is still produced and still owned by nobody. Galor and
@@ -266,8 +266,8 @@ The economy is therefore the two-class fiscal architecture of Judd (1985) — wo
 assets, the government taxes capital income to fund transfers to them — with one primitive changed:
 part of the transfer is an input to a *produced stock* that the recipients cannot sell. What follows
 rests on that change and on the face of this section. It also rests on where the tax falls and on
-what workers value: with an owner who has no taste for wealth, these two primitives are what open
-the class disagreement (Proposition 10).
+what workers value: with an owner who has no taste for wealth, either of these two primitives
+suffices to open the class disagreement, and without both the classes agree (Proposition 10).
 
 # 3. The face closes in constant shares
 
@@ -613,13 +613,14 @@ unanimously too small.
 
 ## 5.3 The split is not contested, and the assignment of it does not matter
 
-**Proposition 7 (envelope coincidence).** *Given $\tau$, the two classes choose the same split:*
+**Proposition 7 (envelope coincidence).** *Given $\tau$, the two classes choose the same split,
+$\phi^{\star}(\tau)=\min\{1,\phi(\tau)\}$, where*
 
 $$\phi(\tau)=\frac{\beta(1-\theta)\,\kappa(\tau,0)}{\alpha\tau\bigl(\beta(1-\theta)+\theta\bigr)},
-\qquad \kappa(\tau,0)=1-\alpha+\alpha\tau .$$
+\qquad \kappa(\tau,0)=1-\alpha+\alpha\tau ,$$
 
-*Both classes’ first-order conditions in $\phi$ vanish at the same point, so each class’s total
-derivative in $\tau$ along $\phi(\tau)$ equals its partial. The bargaining problem is
+*is their common unconstrained optimum. Both classes’ first-order conditions in $\phi$ vanish at the
+same point, so each class’s total derivative in $\tau$ along $\phi^{\star}(\tau)$ equals its partial. The bargaining problem is
 one-dimensional in $\tau$, and which class holds $\phi$ does not matter.*
 
 This answers the natural objection that the assignment of the fiscal instruments is an unexplained
@@ -634,8 +635,8 @@ Proposition 7 is what makes the next statement well posed. Because the two class
 split and each class’s total derivative along $\phi(\tau)$ equals its partial, a bargain over fiscal
 policy is a bargain over one number, and a Pareto weight selects a point rather than a frontier.
 
-**Proposition 8 (the weighted peak).** *Let $\lambda\in[0,1]$ be the Pareto weight on workers. The
-rate that maximises $\lambda U^{W}+(1-\lambda)U^{C}$ is*
+**Proposition 8 (the weighted peak).** *Hold the split at the provision corner $\phi=1$, and let
+$\lambda\in[0,1]$ be the Pareto weight on workers. The rate that maximises $\lambda U^{W}+(1-\lambda)U^{C}$ is*
 
 $$\tau(\lambda)=\frac{\lambda N_W+(1-\lambda)N_C}
 {\lambda\,(M_W+N_W)+(1-\lambda)\,(M_C+N_C)},$$
@@ -704,7 +705,7 @@ $\sum_{t}\beta^{t}\ln C^{W}_t$.*
 
 In words, either primitive on its own separates the classes, and removing both, with an owner who has
 no taste for wealth, makes them agree. The workforce is produced and owned by nobody in all four
-economies, so its lack of an owner is not what divides them. What moves the owner’s rate is his own
+economies, so its lack of an owner does not by itself divide them. What moves the owner’s rate is his own
 taxed consumption. A tax on capital income takes a share of what he would have consumed and a tax on
 investment does not, so with no taste for wealth only the first makes him want a smaller state than a
 worker who values consumption. Appendix A.6 gives the proof.
@@ -716,8 +717,9 @@ $N_t$ counting persons. The companion paper (Galindo Escajeda 2026) studies that
 dynasties whose numbers grow at $g_{W}=B_W\bigl(c_W^{\theta}z^{1-\theta}\bigr)^{\gamma}$ and
 $g_C=B_C\,c_C^{\gamma}$, with $c_j$ consumption per head and $z$ the public stock per worker. At full
 depreciation its laws of motion are those of §2.2 at $\gamma_K=B_K=1$, term by term, and owner
-numbers enter no law and no objective of this paper. The two papers therefore study one economy, and
-the reading of $N_t$ is the only thing that separates them. At the provision corner that reading
+numbers enter no law and no objective of this paper. The two formulations therefore share the laws
+of motion used for the stationary comparison below, although the persons reading adds dynasty sizes
+to the state. At the provision corner that reading
 decides which class the higher rate favours.
 
 **Proposition 11 (persons or capacity).** *On the face of §2.4, at $\phi=1$ and with the owner’s
