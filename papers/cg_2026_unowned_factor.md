@@ -173,7 +173,7 @@ Sections 3 to 6 state results proved for this economy. Where a statement reprodu
 it is marked as a nesting check and the source is named: the owner’s investment share in the
 exogenous-workforce limit (§2), the worker’s preferred rate in the cash-only economy (§5), and the
 degeneracy of the equilibrium concept on this face (§3), which is a property of a named class of
-games and is cited, not claimed. The persons reading of Proposition 11 rests on the stationary incidence result of a companion paper by the same author (Galindo Escajeda 2026). That paper studies the economy at general depreciation and without preferences over policy. The two papers share their laws of motion at full depreciation, and this paper uses no other result from it.
+games and is cited, not claimed. The persons reading of Proposition 11 is the full-depreciation case of the stationary incidence result of a companion paper by the same author (Galindo Escajeda 2026), re-derived in Appendix A.8. That paper studies the economy at general depreciation and without preferences over policy. The two papers share their laws of motion at full depreciation, and this paper uses no result from it.
 
 # 2. The economy
 
@@ -184,9 +184,10 @@ capital stock $K_t$. Workers supply the workforce’s productive capacity $N_t$ 
 
 $N_t$ is **effective labour**: the workforce’s capacity to work — its health, capability and skill —
 produced by what is spent maintaining it, with the number of persons in each class held fixed. It is
-not a headcount. Nothing below turns on counting bodies: $N_t$ enters only as a positive real state
-in log-linear laws of motion and in a logarithmic felicity, and no per-head division, integer
-constraint or population bound appears anywhere in the model.
+not a headcount. Outside §5.6 nothing turns on counting bodies: $N_t$ enters only as a positive real
+state in log-linear laws of motion and in a logarithmic felicity, and no per-head division, integer
+constraint or population bound appears. Section 5.6 reads the same laws with $N_t$ counting persons,
+and shows that the reading decides which class a higher tax favours.
 
 Output is Cobb–Douglas in the two stocks,
 
@@ -744,8 +745,8 @@ stationary states under two rates $\tau<\tau'$ in $(0,1)$.*
 
 -   *(i) Capacity. With class sizes fixed, the owner’s consumption relative to the worker’s is
     $C^C/C^W=(1-i)(1-\tau)\alpha/(1-\alpha)$, strictly decreasing in $\tau$.*
--   *(ii) Persons. At an interior stationary class ratio, consumption per owner relative to consumption
-    per worker satisfies*
+-   *(ii) Persons. At the stationary state, in which the class ratio, capital per worker and the public
+    stock per worker are all at rest, consumption per owner relative to consumption per worker satisfies*
     $$\frac{d\ln(c_C/c_W)}{d\tau}=(1-\theta)\left[\frac{1-Q(1-\theta)}{\tau}+\frac{Q\,\alpha}{(1-\alpha)(1-\tau)}\right]>0,
     \qquad Q\equiv\frac{\gamma}{H_0},\quad H_0\equiv 1+\frac{\alpha\gamma}{1-\alpha}+\gamma(1-\theta).$$
 -   *(iii) Hence, since $\tau_C<\tau_W$ (Proposition 6), the worker’s preferred rate leaves each worker
@@ -862,9 +863,9 @@ provision corner: with workers who value consumption, the worker’s preferred r
 the owner’s (Proposition 10(ii)).
 
 **Owner numbers.** The effective-labour reading of $N_t$ holds the number of persons in each class
-fixed. This is a scope statement rather than a working hypothesis: nothing in the results above
-allows owner numbers to move, so the restriction is not doing any work in any proof. It would begin
-to do work in any extension that let either class’s membership vary.
+fixed, and every result except Proposition 11(ii) is proved under it. The reading matters for
+distribution: with $N_t$ counting persons and owner numbers free to move, the same laws reverse the
+per-head incidence of the worker’s higher rate (Proposition 11).
 
 **The split.** The tax results of §§4–6 are stated at the provision corner $\phi=1$. §5.3 gives the
 condition under which that corner is the classes’ common choice; outside it the split is interior
@@ -1163,10 +1164,14 @@ constant tax from a fixed initial state is not this object. $\qquad\blacksquare$
     $(1-i)(1-\tau)\alpha/(1-\alpha)$. With $i$ not moving with $\tau$, its logarithmic derivative is
     $-1/(1-\tau)<0$.
 
-2.  Under the persons reading, at an interior stationary class ratio the companion paper’s
-    Theorem 1 gives $c_C/c_W=\chi\bigl(\alpha\varpi/(\kappa_W(g-1+\delta_G))\bigr)^{1-\theta}$, with
-    $\varpi=\phi\tau$ and $\kappa_W=(1-\alpha)+\alpha(\tau-\varpi)$. At $\phi=1$ and $\delta=\delta_G=1$
-    this is $c_C/c_W=\chi\bigl(\alpha\tau/((1-\alpha)g)\bigr)^{1-\theta}$. Its stationary growth factor
+2.  Under the persons reading a stationary class ratio requires the two dynasties to grow at one
+    rate, $B_W\bigl(c_W^{\theta}z^{1-\theta}\bigr)^{\gamma}=B_C\,c_C^{\gamma}$, so that
+    $c_C=\chi\,c_W^{\theta}z^{1-\theta}$ with $\chi=(B_W/B_C)^{1/\gamma}$ and
+    $c_C/c_W=\chi\,(z/c_W)^{1-\theta}$. At $\phi=1$, $c_W=(1-\alpha)Y_t/N_t$ and
+    $z=G_t/N_t=\tau\alpha Y_{t-1}/N_t$. With capital and the public stock per worker at rest, output grows
+    at the common factor $g$, so $z/c_W=\alpha\tau/((1-\alpha)g)$ and
+    $c_C/c_W=\chi\bigl(\alpha\tau/((1-\alpha)g)\bigr)^{1-\theta}$, the full-depreciation case of the
+    companion paper’s stationary incidence formula. Its stationary growth factor
     solves $g=D\,g^{-\alpha\gamma/(1-\alpha)}g^{-\gamma(1-\theta)}$, that is $g^{H_0}=D$, with
     $$D=B_W\bigl((1-\alpha)A\bigr)^{\gamma\theta}(\tau\alpha A)^{\gamma(1-\theta)}\bigl(i(1-\tau)\alpha A\bigr)^{\alpha\gamma/(1-\alpha)} .$$
     Since $H_0>0$ the root is unique and $\ln g=\ln D/H_0$, so
