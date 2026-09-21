@@ -177,13 +177,13 @@ $$
 
 *Proof.* At $\sigma=1$, $E_{C,t}=\ln\alpha+\alpha k_t+(1-\alpha)n_t$. With $k_t\le\bar k$ the right-hand side is at most $\ln\alpha+\alpha\bar k+(1-\alpha)n_t$, which tends to $-\infty$. $\square$
 
-For $\sigma>1$ there is no such statement to be had, and the reason is the one recorded in the footnote to Proposition 5. Write $h(x)=\ln s_K(x)+\psi(x)-x$, so that capital income is $e^{a+h(x)}K$. Then $h'(x)=s_L(x)(\rho_\sigma-1)<0$, so $h$ decreases to $\rho_\sigma^{-1}\ln\theta$ and capital income is at least $\underline AK$ with $\underline A=\theta^{1/\rho_\sigma}e^{a}>0$ at *every* state. A collapsing labour input therefore does not carry capital income down at a bounded capital stock, and $\lim_{L\to0}Y=\theta^{1/\rho_\sigma}K>0$: labour is inessential. What replaces Lemma 5 in Proposition 3 is the compact share set.
+For $\sigma>1$ there is no such statement to be had, and the reason is the one recorded in the footnote to Proposition 5. Write $h(x)=\ln s_K(x)+\psi(x)-x$, so that capital income is $e^{a+h(x)}K$. Then $h'(x)=s_L(x)(\rho_\sigma-1)<0$, so $h$ decreases to $\rho_\sigma^{-1}\ln\theta$ and capital income is at least $\underline AK$ with $\underline A=\theta^{1/\rho_\sigma}e^{a}>0$ at *every* state. A collapsing labour input therefore does not carry capital income down at a bounded capital stock, and $\lim_{L\to0}Y=\underline AK>0$: labour is inessential. What replaces Lemma 5 in Proposition 3 is the compact share set.
 
-**Proposition 3 (No feasible vanishing-tax path with bounded composites).** Assume $\varphi=1$, $\theta_R\in(0,1)$, $\gamma\in(0,1)$, $\sigma\in[1,\infty)$, $\omega\in[0,1)$, that the factor shares $(s_K,s_L)$ stay in a compact subset of $(0,1)^2$ along the path, and that $\{k_t\}$ is bounded above. There is no *feasible* path along which $\tau_t\to 0$ and $\{E_{C,t}\}$ is bounded — in particular no assigned owner path. No optimality condition enters the proof.
+**Proposition 3 (No feasible vanishing-tax path with bounded composites).** Assume $\varphi=1$, $\theta_R\in(0,1)$, $\gamma\in(0,1)$, $\sigma\in[1,\infty)$, $\omega\in[0,1)$, and that the factor shares $(s_K,s_L)$ stay in a compact subset of $(0,1)^2$ along the path; at $\sigma=1$ assume in addition that $\{k_t\}$ is bounded above. There is no *feasible* path along which $\tau_t\to 0$ and $\{E_{C,t}\}$ is bounded — in particular no assigned owner path. No optimality condition enters the proof.
 
 *Proof.* Lemma 3 sends $g\to-\infty$. On a compact share set $\ln(s_L/s_K)$ is bounded, and $E_W-E_C$ is that quantity plus a bounded function of $d$; so $E_C$ bounded above gives $E_W$ bounded above, and Lemma 4 sends $n\to-\infty$. For $\sigma>1$, $s_K$ is continuous and strictly increasing in $x=k-n$, so a compact share set confines $x$ to a compact interval and $E_{C,t}-n_t=\ln s_K(x_t)+\psi(x_t)+a$ is bounded; hence $E_{C,t}\to-\infty$. For $\sigma=1$, $\{k_t\}$ bounded above and Lemma 5 give the same. Either way this contradicts boundedness of $\{E_{C,t}\}$ from below. $\square$
 
-The share hypothesis is automatic at $\sigma=1$, where shares are the constants $(\alpha,1-\alpha)$, and it is what the Cobb–Douglas result of Proposition 5 dispenses with.
+The share hypothesis is automatic at $\sigma=1$, where shares are the constants $(\alpha,1-\alpha)$, and it is what the Cobb–Douglas result of Proposition 5 dispenses with. Above that face the capital hypothesis is the idle one: a compact share set already confines $x=k-n$ to a compact interval, on which $E_{C,t}-n_t$ is bounded whatever $\{k_t\}$ does, so the proof reaches its contradiction without it.
 
 A vanishing rate on an exploding base would keep $G_t=\tau_t e^{E_{C,t}}$ finite. At Cobb–Douglas that path is not available.
 
@@ -264,7 +264,7 @@ A uniform upper bound on $I V_K$ would produce a uniform $\underline\tau>0$ with
 
 What Proposition 7 leaves open is not whether the owner taxes. It is how little he can be made to tax. A stationary peak is a tax the economy can sit at, and the owner’s investment share has to adjust for it to exist; that is a statement about the resting point, not about his conduct on the way there. The economically useful object is a number he never goes below at any state at all, and the rest of this section produces one.
 
-**Proposition 8 (Discrete variation).** Let $\sigma=1$, $\varphi=1$, $\lambda>1$, and fix a current state with finite $E_C$ and investment $I=i(1-\tau)e^{E_C}$. Hold subsequent instruments fixed after the first period. Then
+**Proposition 8 (Discrete variation).** Let $\sigma=1$, $\varphi\in(0,1]$, $\lambda>1$, and fix a current state with finite $E_C$ and investment $I=i(1-\tau)e^{E_C}$. Hold subsequent instruments fixed after the first period. Then
 $$
 V(K,n,g+\ln\lambda)-V(K,n,g)\ge\beta(1-\omega)(1-\alpha)\eta\ln\lambda>0.
 $$
@@ -274,7 +274,7 @@ $$
 $$
 as $\tau\to 0^+$, and by Lemma 7 below the capital loss is at most $\beta u/(1-\beta)$ with $u=(\lambda-1)\tau/(1-\lambda\tau)$, which vanishes as $\tau\to 0^+$ at fixed $\lambda$. Hence there exists $\tau_\dagger(I)>0$ such that $W(\lambda\tau)>W(\tau)$ for all $\tau\in(0,\tau_\dagger(I))$. No maximiser at that state lies in $(0,\tau_\dagger(I))$.
 
-*Proof.* Raising $g$ by $\ln\lambda$ raises $n'$ by $\eta\ln\lambda$ and $E_C'$ by $(1-\alpha)\eta\ln\lambda$. Next-period log consumption, at unchanged $(\tau',i')$, rises by that amount. That is the displayed lower bound. The consumption loss is the Taylor expansion of $\ln(1-\tau)$; the capital loss is priced by Lemma 7, which is proved independently of this result. $\square$
+*Proof.* Raising $g$ by $\ln\lambda$ raises $n'$ by $\eta\ln\lambda$ and $E_C'$ by $(1-\alpha)\eta\ln\lambda$. Next-period log consumption, at unchanged $(\tau',i')$, rises by that amount. That is the displayed lower bound. The consumption loss is the Taylor expansion of $\ln(1-\tau)$; the capital loss is priced by Lemma 7, which is proved independently of this result. The in-kind share enters $g'$ only as the additive level $\ln\varphi$, which cancels in every increment of $g$ used here, so the bound is the same at each fixed $\varphi\in(0,1]$. $\square$
 
 Proposition 8 does not need $V$ differentiable. Combined with Proposition 6, the assigned owner at any finite-$I$ state rejects both $\tau=0$ and every sufficiently small $\tau$. The threshold there is written in levels of $I$. Measured in logs it is not: that is the content of the next two results, which turn $\bar\tau$ into a constant of the parameters alone.
 
@@ -392,7 +392,7 @@ At Cobb–Douglas the answer to the question the paper opens with is a number an
 
 ### A.1 Proof of Lemma 7
 
-Run a tax path $\{\tau_t\}$ that is $\varepsilon$-optimal at $(k+\Delta,n,g)$ from both states; it is feasible at both, since $\tau_t\in(0,1)$ is unconstrained by $K$. Write $\Delta_t$, $\nu_t$, $\xi_t$ for the gaps in $k$, $n$, $g$, and $D^C_t$, $D^W_t$ for the gaps in the composites $E_{C,t}$ and $E_{W,t}$.
+Both values are real numbers at every $\sigma\ge1$: step (i) of A.4 uses only that $T_\tau$ is non-decreasing and additively homogeneous and that the period payoff is bounded below by an affine function of $\min(k_t,n_t,g_t)$, and away from Cobb–Douglas the third holds because $h(x)=\ln s_K+\psi-x$ decreases to $\rho_\sigma^{-1}\ln\theta$, so $E_C\ge k+a+\rho_\sigma^{-1}\ln\theta$; the constant there is $\bar M=\max\{\ln(1-\delta+i\theta e^{a}),\ \gamma\theta_R(\ln(1-\theta)+a),\ \ln(\varphi\theta e^{a})\}$. Run a tax path $\{\tau_t\}$ that is $\varepsilon$-optimal at $(k+\Delta,n,g)$ from both states; it is feasible at both, since $\tau_t\in(0,1)$ is unconstrained by $K$. Write $\Delta_t$, $\nu_t$, $\xi_t$ for the gaps in $k$, $n$, $g$, and $D^C_t$, $D^W_t$ for the gaps in the composites $E_{C,t}$ and $E_{W,t}$.
 
 Each composite is a function of the state of the form $f(k-n)+n$: $\ln Y=a+n+\psi(x)$, $E_C=\ln s_K+\psi+a+n$ and $E_W=\ln s_L+\psi+a+n$. The two partial derivatives of such a function sum to one identically, and with $s_K'=\rho_\sigma s_Ks_L$ they are $(1-s_L/\sigma,\,s_L/\sigma)$ for $E_C$ and $(s_K/\sigma,\,1-s_K/\sigma)$ for $E_W$. At $\sigma\ge1$ both pairs are non-negative, since $s_L\le1\le\sigma$ and $s_K\le1\le\sigma$. Integrating along the segment joining the two states therefore gives
 $$
@@ -509,7 +509,7 @@ Straub, L., and I. Werning (2020). Positive long-run capital taxation: Chamley�
 
 [^1]: At $\sigma>1$, $Y/K$ tends to a positive constant as $x\to+\infty$: capital income is at least $\underline AK$, and the proof’s choice of $\bar X$ then requires $i\underline A<\delta$.
 
-[^2]: Essential labour is what this uses, so the Cobb–Douglas hypothesis here is the one Lemma 5 and Proposition 6 already carry, doing one job in three places rather than three restrictions. Off that face it is not available: $\psi(x)+n=\rho_\sigma^{-1}\ln\bigl(\theta e^{\rho_\sigma k}+(1-\theta)e^{\rho_\sigma n}\bigr)\to k+\rho_\sigma^{-1}\ln\theta$ as $n\to-\infty$, with $s_K\to1$, so capital income converges to $\underline AK$ and a permanent zero tax leaves $K_{t+1}=(1-\delta+i\underline A)K_t$ and consumption at $(1-i)\underline AK_t>0$. The payoff is then affine in $t$ and its discounted sum is finite, so at $\sigma>1$ the comparison with a positive constant tax is between two finite numbers and is one this paper does not make.
+[^2]: Essential labour is what this uses, so the Cobb–Douglas hypothesis here is the one Lemma 5 and Proposition 6 already carry, doing one job in three places rather than three restrictions. Off that face it is not available: $\psi(x)+n=\rho_\sigma^{-1}\ln\bigl(\theta e^{\rho_\sigma k}+(1-\theta)e^{\rho_\sigma n}\bigr)\to k+\rho_\sigma^{-1}\ln\theta$ as $n\to-\infty$, with $s_K\to1$, so capital income is never below $\underline AK$ and a permanent zero tax leaves $K_{t+1}\ge(1-\delta+i\underline A)K_t$ and consumption at least $(1-i)\underline AK_t>0$. The payoff is then affine in $t$ and its discounted sum is finite, so at $\sigma>1$ the comparison with a positive constant tax is between two finite numbers and is one this paper does not make.
 
 [^3]: At $\sigma>1$ step (iii) below fails, and not for want of an argument. Capital income is at least $\underline AK$ with $\underline A>0$ (the remark after Lemma 5), so with the instruments held fixed the continuation is a pure accumulation economy whose value is bounded below by a constant that does not contain $g$ at all, however far the public stock has fallen. Whether the assigned owner’s optimum is interior at $\sigma>1$ is open.
 
