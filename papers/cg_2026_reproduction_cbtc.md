@@ -6,6 +6,10 @@ Carlos Galindo Escajeda
 
 Where a tax on capital income funds the technology that produces the workforce, the owner of capital has an interest of his own: the tax reproduces the class he hires. Under Cobb–Douglas that interest has a closed form and is strictly positive; but Cobb–Douglas fixes the shares and cannot represent share-moving technical change. This paper settles what survives away from it. Exact closure fails by an identity: at the provision corner the owner’s Bellman right-hand side carries a curvature $\rho(1-\rho)\,s_K s_L \Sigma$ in the logged effective capital–labour ratio, with $\Sigma \ne 0$, so an affine-in-logs value function solves it if and only if $\rho(1-\rho)=0$ — at unit elasticity, at perfect substitutability, nowhere between. A first-order expansion of the logged composites does close, replacing that share by two effective ones. There capital’s preferred rate carries labour’s share *over the elasticity* as a factor and falls strictly in capital’s share. Capital-biased technical change therefore lowers that rate — in the approximating model at every $\sigma > 1$, on constant policies in the exact one at $\sigma = 2$ — and leaves it unchanged at $\sigma = 1$; the worker’s stays bounded away from zero. The sign survives a moving stationary ratio, which rises strictly with the technique; over a continuum of elasticities and capital shares established by enclosure, the re-optimised ratio still rises. The band of rates both classes want raised is non-empty at every finite technique and empties as capital’s share approaches one: a contested transfer, not a joint investment.
 
+**JEL.** C73, D33, E25, H21, O33
+
+**Keywords.** capital-biased technical change; capital income taxation; elasticity of substitution; reproduction of the workforce; public provision; class conflict
+
 # 1. Introduction
 
 If the workforce has to be produced, who wants to pay for producing it? The obvious answer is that workers do and the owner of capital does not. In a model where the two classes contest a proportional tax on capital income, and where the proceeds build the stock on which the next generation of workers is raised, the obvious answer is wrong. The owner hires that workforce. A technology that reproduces it is an input to his own production, and if the tax is the only instrument that reaches the technology, he has an interest of his own in a strictly positive rate. Under Cobb–Douglas production that rate can be written down, and it is interior.
@@ -26,11 +30,11 @@ The policy reading is narrow and worth stating anyway. On this model a coalition
 
 That erosion is not a collapse of labour, and it is not a law of population. Capital-biased technical change, where the factors are substitutes, lowers the owner’s own preferred rate by moving shares (Proposition 5); the worker’s preferred rate stays bounded away from zero (Proposition 6). The public stock remains how successor labour is reproduced when it is not owned. “The maintenance and reproduction of the working class is, and must ever be, a necessary condition to the reproduction of capital” (Marx, *Capital* I, ch. 23). Here that condition is the strictly positive loading of the public stock in the owner’s continuation, on the domain where that loading is present. The map from income to numbers is this model’s, not his. Relative superfluity of labour is a different object.
 
-**What this paper establishes and what it does not.** Sections 4 to 6 are this paper’s own; the two results that Section 2 takes as given are not, and are attributed there. The sign result is proved for the approximating model and corroborated, not proved, on the exact one, where the search is restricted to constant policies. Section 7 states the boundary in full.
+**What this paper establishes and what it does not.** Section 2 states two benchmark results. The first is a standard property of the constant-elasticity technology; the second is the Cobb–Douglas case of the model of Section 3 and is proved below, as the case $a_1=a_2=\alpha$ of Propositions 3 and 6. The sign result is proved for the approximating model and corroborated, not proved, on the exact one, where the search is restricted to constant policies. Section 7 states the boundary in full.
 
-# 2. Two results taken as given
+# 2. Two benchmark results
 
-Neither of the following is established here. They are stated because the paper is about what happens when they are put together.
+The first result is standard. The second is the Cobb–Douglas case of the model of Section 3; it is stated here and proved in Sections 5 and 6. Both are stated first because the paper is about what happens when they are put together.
 
 **(i) The share result.** With production
 $$Y \;=\; \bigl[\theta (BK)^{\rho} + (1-\theta) L^{\rho}\bigr]^{1/\rho}, \qquad \rho \le 1,\; \rho \ne 0,\; \sigma = \tfrac{1}{1-\rho},$$
@@ -40,10 +44,10 @@ whose derivative in $B$, at a fixed capital–labour ratio, is
 $$\frac{\partial}{\partial B}\,\frac{wL}{Y} \;=\; -\,\rho\;\frac{\theta(1-\theta)\,(BK/L)^{\rho}}{B\,\bigl[\theta\,(BK/L)^{\rho} + (1-\theta)\bigr]^{2}}$$
 and so has the sign of $-\rho$, every other factor being positive. Capital-augmenting progress lowers the wage share when $\sigma>1$, raises it when $\sigma<1$, and leaves it alone at $\sigma=1$. This is standard.
 
-**(ii) Capital’s preferred rate under Cobb–Douglas.** On the generational face of the two-class model used below — full depreciation of both stocks, logarithmic objectives, value functions affine in the logs — the owner’s and the worker’s payoffs in the tax are each of the form $M\ln(1-\tau)+N\ln\tau$ plus a constant, hence strictly concave with a unique interior peak at $N/(M+N)$. The peaks, which are those of Galindo Escajeda (2026, Proposition 4) with capital accumulated at unit elasticity, are
+**(ii) Capital’s preferred rate under Cobb–Douglas.** On the generational face of the two-class model used below — full depreciation of both stocks, logarithmic objectives, value functions affine in the logs — the owner’s and the worker’s payoffs in the tax are each of the form $M\ln(1-\tau)+N\ln\tau$ plus a constant, hence strictly concave with a unique interior peak at $N/(M+N)$. The peaks, which are the case $a_1=a_2=\alpha$ of Proposition 3 below, are
 $$\tau_C \;=\; \frac{\beta^{2}\gamma(1-\alpha)(1-\theta_R)}{1-\beta+\beta\gamma\bigl(1-\theta_R+\alpha\theta_R\bigr)}, \qquad
 \tau_W \;=\; \frac{(1-\theta_R)(1-\alpha\beta)}{1-\theta_R+\alpha\theta_R},$$
-with $\alpha$ the capital share, $\beta$ the discount factor, $\gamma$ the elasticity of the reproduction technology and $\theta_R$ the weight of the worker’s own income in it. Both are interior, $\tau_C<\tau_W$, and the Pareto set in the tax is exactly $[\tau_C,\tau_W]$: every rate below $\tau_C$ is dominated, because *both* classes strictly prefer a larger one. Capital’s own preferred rate falls in $\alpha$ and vanishes as $\alpha\to1$; the worker’s does not, tending to $(1-\theta_R)(1-\beta)>0$.
+with $\alpha$ the capital share, $\beta$ the discount factor, $\gamma$ the elasticity of the reproduction technology and $\theta_R$ the weight of the worker’s own income in it. Both are interior, $\tau_C<\tau_W$ (the case $a_1=a_2=\alpha$ of Proposition 6), and the Pareto set in the tax is exactly $[\tau_C,\tau_W]$: every rate below $\tau_C$ is dominated, because *both* classes strictly prefer a larger one. Capital’s own preferred rate falls in $\alpha$ and vanishes as $\alpha\to1$; the worker’s does not, tending to $(1-\theta_R)(1-\beta)>0$.
 
 *So what.* Result (ii) is a comparative static in a parameter. In a Cobb–Douglas world $\alpha$ is a number chosen by the modeller, not an object technical change can move, so (ii) on its own says nothing about automation. Result (i) supplies an economy in which the share does move — and it is written in a technology under which (ii) has never been derived. Everything below is about that gap.
 
@@ -51,7 +55,7 @@ with $\alpha$ the capital share, $\beta$ the discount factor, $\gamma$ the elast
 
 # 3. The model
 
-The environment is the generational face of the two-class game, restated with constant-elasticity production and nothing else changed. Both stocks depreciate fully within a generation, and both classes have logarithmic period objectives.
+The environment is the generational face of a two-class game with constant-elasticity production. Both stocks depreciate fully within a generation, and both classes have logarithmic period objectives.
 
 Effective labour is the worker stock, $L = N_W$; the object being reproduced is capacity, not headcount. Write $k=\ln K$, $n=\ln N_W$, $g=\ln G$ for the logged capital stock, worker stock and public stock, and
 $$x \;\equiv\; \ln B + k - n$$
@@ -69,7 +73,7 @@ g' &= \ln(\phi\tau) + \ln s_K(x) + n + \psi(x),
 \end{aligned}$$
 with owner felicity $(1-\omega)\ln C_C + \omega k$ and worker felicity $n$. Throughout, $\beta,\gamma,\theta,\theta_R,\omega\in(0,1)$ and $\rho\le1$, $\rho\ne0$; the controls satisfy $i,\tau\in(0,1)$ and $\phi\in(0,1]$. Every sign statement below is read on that open box and nowhere else, and a parameter is called *admissible* when it lies in it. The endpoint $\rho=1$ is admissible: it is perfect substitutability, it is one of the two elasticities at which the model closes exactly, and results that need the effective shares of Section 5 to be interior name $\rho<1$ for that reason.
 
-The public stock $G$ is the in-kind input to the reproduction of the workforce: it is built from the taxed proceeds through $g'$, it enters the worker transition through $g-n$, and that is the whole of its definition here. It is a primitive of this model. It is not identified with the public stock of the paper from which Section 2(i) is taken, whose law of motion is a different object and is used nowhere below.
+The public stock $G$ is the in-kind input to the reproduction of the workforce: it is built from the taxed proceeds through $g'$, it enters the worker transition through $g-n$, and that is the whole of its definition here. It is a primitive of this model.
 
 Three derivatives of the technology are used repeatedly and are recorded here once:
 $$\psi'' = \rho\, s_K s_L, \qquad (\ln s_K)'' = (\ln s_L)'' = -\rho^{2} s_K s_L,$$
@@ -133,6 +137,8 @@ $$\tau_C \;=\; \frac{\beta^{2}\gamma(1-\theta_R)(1-a_1)}{1-\beta+\beta\gamma(1-\
 *At $a_1=a_2=\alpha$ both collapse to the Cobb–Douglas expressions of Section 2(ii) identically. For $\rho\in(0,1)$, where $a_1=\rho+(1-\rho)\bar s_K$ and $a_2=(1-\rho)\bar s_K$ both lie in $(0,1)$, both rates are interior:* $\tau_C\in(0,1)$ *because its numerator is positive and*
 $$\bigl[1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R a_2\bigr] - \beta^{2}\gamma(1-\theta_R)(1-a_1) \;=\; (1-\beta)+\beta\gamma(1-\theta_R)\bigl(1-\beta(1-a_1)\bigr)+\beta\gamma\theta_R a_2 \;>\;0,$$
 *and* $\tau_W\in(0,1)$ *because* $1-\beta a_1>0$ *and* $\bigl(1-\theta_R+\theta_R a_2\bigr) - (1-\theta_R)(1-\beta a_1) = \theta_R a_2 + \beta a_1(1-\theta_R) > 0$. *The restriction to $\rho\in(0,1)$ is not decorative. At $\rho=1$, $a_1=1$ and $\tau_C=0$ exactly, as the proof of Proposition 4 records. For $\rho<0$ the coefficient $a_1$ can be negative and both brackets can change sign: at $\rho=-3$, $\bar s_K=\tfrac12$, $\beta=\gamma=\tfrac9{10}$ and $\theta_R=\tfrac1{10}$, (5.2) returns $\tau_C=6561/4955>1$ and $\tau_W=171/110>1$.*
+
+*Proof.* Under (5.1) at $\phi=1$ every transition is affine in $(k,n,g)$. Since $x=\ln B+k-n$, the channels $\ln C_C$, $k'$ and $g'$ load $a_1$ on $k$ and $1-a_1$ on $n$, and $n'$ loads $\gamma\theta_R a_2$ on $k$, $1-D$ on $n$ and $\gamma(1-\theta_R)$ on $g$. Substituting $V_C=v+ak+bn+cg$ into $(1-\omega)\ln C_C+\omega k+\beta V_C(k',n',g')$ and matching the coefficients of $k$, $n$ and $g$ gives the owner’s system; the worker’s, with felicity $n$ and continuation $p k+q n+r g$, follows in the same way. The controls enter additively: the owner’s payoff carries $\bigl[(1-\omega)+\beta a\bigr]\ln(1-\tau)$ through $\ln C_C$ and $k'$ and $\beta c\ln\tau$ through $g'$, and the worker’s carries $\beta p\ln(1-\tau)$ and $\beta r\ln\tau$, so each peak is the stated ratio. Solving the owner’s system gives $b=(1-a_1)(1-\omega+\beta\omega)/\bigl[(1-\beta)(1-\beta a_1+\beta D)\bigr]$, $c=\beta\gamma(1-\theta_R)\,b$ and $(1-\omega)+\beta a+\beta c=(1-\omega+\beta\omega)(1-\beta+\beta D)/\bigl[(1-\beta)(1-\beta a_1+\beta D)\bigr]$. Their ratio is the first expression in (5.2), since $1-\beta+\beta D$ is its denominator. The worker’s system gives $q=(1-\beta a_1)/\bigl[(1-\beta)(1-\beta a_1+\beta D)\bigr]$, $r=\beta\gamma(1-\theta_R)\,q$ and $p+r=\beta\gamma(1-\theta_R+\theta_R a_2)/\bigl[(1-\beta)(1-\beta a_1+\beta D)\bigr]$, whose ratio is the second. Setting $a_1=a_2=\alpha$ returns the expressions of Section 2(ii). The interiority claims are the two displayed inequalities. $\square$
 
 The systems are linear because $a_1$ and $a_2$ are constants once $\bar x$ is fixed — which is precisely what $s_K(x)$ and $s_L(x)$ are not, and precisely why Proposition 1 holds. The spectral condition needed before any coefficient is read off a guess-and-verify solution is satisfied for a reason worth naming rather than asserting: the transition matrix in $(k,n,g)$ has unit row sums for every $(\bar s_K,\gamma,\theta_R)\in(0,1)^{3}$ and, for $\rho\in(0,1]$, is entrywise non-negative as well, so its spectral radius is exactly one by Perron–Frobenius — from the non-negativity, not from the row sums alone — and $\beta\cdot1<1$. The spectrum can also be read directly: the $k$- and $g$-rows of the matrix coincide, so its eigenvalues are exactly $\{0,1,a_1-D\}$, and $|a_1-D|<1$ for $\rho\in(0,1]$. For $\rho<0$ both routes still give $\beta\lvert a_1-D\rvert<1$ wherever the matrix stays non-negative, $a_1\ge0$ and $D\le1$; off that set the condition can fail outright: at the cell just displayed the third eigenvalue is $-199/100$ and $\beta\cdot199/100>1$, so the coefficients that solve the two linear systems there are not discounted sums of anything.
 
@@ -224,8 +230,6 @@ The following bound the results above and are not conjectures about them.
 
 -   Acemoglu, D., A. A. Gitmez, and M. Shadmehr (2026). “Automation and Repression.” NBER Working
     Paper 35336. DOI 10.3386/w35336.
--   Galindo Escajeda, C. (2026). “The Unowned Factor: Who Prices the Reproduction of Labour.” Working paper,
-    <https://rhombictriacontahedron.github.io/research-portfolio/papers/cg_2026_unowned_factor.html>.
 -   Marx, K. *Capital*, Volume I, chapter 23 (Moore–Aveling translation).
 -   Straub, L., and I. Werning (2020). “Positive Long-Run Capital Taxation: Chamley-Judd Revisited.”
     *American Economic Review* 110(1): 86–119. DOI 10.1257/aer.20150210.
