@@ -29,6 +29,11 @@ interior compromise, and short of it at most three stationary employment
 rates exist, at most one where labour is pinned to its ceiling, which is
 an equilibrium wherever the law of motion survives at full employment.
 
+**JEL.** C73, E24, E25, O33, B51
+
+**Keywords.** differential games; class conflict; unemployment;
+mechanisation; work effort; multiple equilibria; Goodwin model
+
 # 1. Introduction
 
 If accumulation employs labour, why does an economy that grows for
