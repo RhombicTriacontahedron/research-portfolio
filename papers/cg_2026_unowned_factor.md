@@ -95,7 +95,7 @@ zero-long-run-tax result already fails under logarithmic capitalist utility, a f
 attribute to Lansing (1999). This paper reproduces their number as a nesting check in §5 and claims
 nothing from it.
 
-What is added is four things a reader of that literature does not have.
+What is added is five things a reader of that literature does not have.
 
 *The cross, and it is the two-sidedness that is claimed.* With logarithmic objectives, each class’s preferred rate on capital
 income carries the other class’s reproduction elasticity and never its own: the owner’s carries the
@@ -143,6 +143,8 @@ that share goes to one, while the worker’s tends to a strictly positive limit.
 which the classes agree therefore collapses as production becomes capital-intensive, while the
 interval over which they disagree swallows the range.
 
+*A distributional sign set by what reproduction produces.* The same laws of motion can be read with the workforce as capacity in classes of fixed size, as here, or as persons in two dynasties, as in the companion paper (Galindo Escajeda 2026). At the provision corner the worker’s higher preferred rate favours workers under the first reading and, per head, owners under the second (Proposition 11). Whether a tax spent on reproduction redistributes towards labour is therefore not a property of the tax: it turns on whether reproduction yields more capable workers or more of them.
+
 ## The price of tractability, paid in §3
 
 The results above are obtained on a restricted face of the model: one period is a generation,
@@ -171,7 +173,7 @@ Sections 3 to 6 state results proved for this economy. Where a statement reprodu
 it is marked as a nesting check and the source is named: the owner’s investment share in the
 exogenous-workforce limit (§2), the worker’s preferred rate in the cash-only economy (§5), and the
 degeneracy of the equilibrium concept on this face (§3), which is a property of a named class of
-games and is cited, not claimed.
+games and is cited, not claimed. The persons reading of Proposition 11 rests on the stationary incidence result of a companion paper by the same author (Galindo Escajeda 2026). That paper studies the economy at general depreciation and without preferences over policy. The two papers share their laws of motion at full depreciation, and this paper uses no other result from it.
 
 # 2. The economy
 
@@ -725,6 +727,44 @@ taxed consumption. A tax on capital income takes a share of what he would have c
 investment does not, so with no taste for wealth only the first makes him want a smaller state than a
 worker who values consumption. Appendix A.6 gives the proof.
 
+## 5.6 Whose head the tax favours: persons or capacity
+
+Section 2.1 reads $N_t$ as effective labour in classes of fixed size. The same laws can be read with
+$N_t$ counting persons. The companion paper (Galindo Escajeda 2026) studies that economy: two
+dynasties whose numbers grow at $g_{W}=B_W\bigl(c_W^{\theta}z^{1-\theta}\bigr)^{\gamma}$ and
+$g_C=B_C\,c_C^{\gamma}$, with $c_j$ consumption per head and $z$ the public stock per worker. At full
+depreciation its laws of motion are those of §2.2 at $\gamma_K=B_K=1$, term by term, and owner
+numbers enter no law and no objective of this paper. The two papers therefore study one economy, and
+the reading of $N_t$ is the only thing that separates them. At the provision corner that reading
+decides which class the higher rate favours.
+
+**Proposition 11 (persons or capacity).** *On the face of §2.4, at $\phi=1$ and with the owner’s
+investment share held at a value that does not move with the tax (Proposition 1), compare the
+stationary states under two rates $\tau<\tau'$ in $(0,1)$.*
+
+-   *(i) Capacity. With class sizes fixed, the owner’s consumption relative to the worker’s is
+    $C^C/C^W=(1-i)(1-\tau)\alpha/(1-\alpha)$, strictly decreasing in $\tau$.*
+-   *(ii) Persons. At an interior stationary class ratio, consumption per owner relative to consumption
+    per worker satisfies*
+    $$\frac{d\ln(c_C/c_W)}{d\tau}=(1-\theta)\left[\frac{1-Q(1-\theta)}{\tau}+\frac{Q\,\alpha}{(1-\alpha)(1-\tau)}\right]>0,
+    \qquad Q\equiv\frac{\gamma}{H_0},\quad H_0\equiv 1+\frac{\alpha\gamma}{1-\alpha}+\gamma(1-\theta).$$
+-   *(iii) Hence, since $\tau_C<\tau_W$ (Proposition 6), the worker’s preferred rate leaves each worker
+    a larger share of consumption relative to the owner than the owner’s preferred rate does when the
+    workforce is capacity, and a smaller one per head when it is persons.*
+
+In words, the same tax that transfers towards workers when reproduction builds capacity transfers per
+head towards owners when reproduction builds people. At a stationary class ratio the two dynasties
+grow at the same rate, so their reproduction indices stand in a fixed ratio: $c_C=\chi\,c_W^{\theta}z^{1-\theta}$
+with $\chi=(B_W/B_C)^{1/\gamma}$. A higher rate raises the public input relative to the worker’s own
+consumption, $z/c_W$, so the worker’s index is met more by the public stock and less by private
+consumption, and consumption per owner rises relative to consumption per worker. The part of the
+stationary growth response that works against this, $-(1-\theta)^2Q/\tau$, is always smaller than the
+direct effect $(1-\theta)/\tau$. Nothing in the tax or its incidence differs between the two economies. What
+differs is what the public stock produces. Hence the sign of the tax’s distributional effect is not a
+property of the instrument, and the choice of reading made in §2.1 is a substantive assumption, not a
+matter of interpretation. Appendix A.8 gives the proof. Off the provision corner, where the worker’s
+rate is re-taken along the common split, the persons-reading sign is not established.
+
 # 6. Capital’s share and the collapse of the agreed range
 
 ## 6.1 The comparative static
@@ -1117,6 +1157,29 @@ elasticity (Proposition 4$'$), so that elasticity reaches the balanced-path rate
 $\hat g$. The second-order condition of the isoelastic problem is not this argument, and a best
 constant tax from a fixed initial state is not this object. $\qquad\blacksquare$
 
+## A.8 Proof of Proposition 11
+
+1.  With $\phi=1$, $C^W=(1-\alpha)Y$ and $C^C=(1-i)(1-\tau)\alpha Y$, so the ratio is
+    $(1-i)(1-\tau)\alpha/(1-\alpha)$. With $i$ not moving with $\tau$, its logarithmic derivative is
+    $-1/(1-\tau)<0$.
+
+2.  Under the persons reading, at an interior stationary class ratio the companion paper’s
+    Theorem 1 gives $c_C/c_W=\chi\bigl(\alpha\varpi/(\kappa_W(g-1+\delta_G))\bigr)^{1-\theta}$, with
+    $\varpi=\phi\tau$ and $\kappa_W=(1-\alpha)+\alpha(\tau-\varpi)$. At $\phi=1$ and $\delta=\delta_G=1$
+    this is $c_C/c_W=\chi\bigl(\alpha\tau/((1-\alpha)g)\bigr)^{1-\theta}$. Its stationary growth factor
+    solves $g=D\,g^{-\alpha\gamma/(1-\alpha)}g^{-\gamma(1-\theta)}$, that is $g^{H_0}=D$, with
+    $$D=B_W\bigl((1-\alpha)A\bigr)^{\gamma\theta}(\tau\alpha A)^{\gamma(1-\theta)}\bigl(i(1-\tau)\alpha A\bigr)^{\alpha\gamma/(1-\alpha)} .$$
+    Since $H_0>0$ the root is unique and $\ln g=\ln D/H_0$, so
+    $$\frac{d\ln g}{d\tau}=\frac{1}{H_0}\left[\frac{\gamma(1-\theta)}{\tau}-\frac{\alpha\gamma}{(1-\alpha)(1-\tau)}\right].$$
+    Then
+    $$\frac{d\ln(c_C/c_W)}{d\tau}=(1-\theta)\left[\frac1\tau-\frac{d\ln g}{d\tau}\right]
+    =(1-\theta)\left[\frac{1-Q(1-\theta)}{\tau}+\frac{Q\alpha}{(1-\alpha)(1-\tau)}\right],\qquad Q=\frac{\gamma}{H_0}.$$
+    Finally $1-Q(1-\theta)=\bigl(1+\alpha\gamma/(1-\alpha)\bigr)/H_0>0$, so both terms in the bracket
+    are strictly positive, and so is $1-\theta$.
+
+3.  Proposition 6 gives $\tau_C<\tau_W$. By (i) the capacity ratio is strictly lower at $\tau_W$;
+    by (ii) the per-head ratio is strictly higher at $\tau_W$. $\qquad\blacksquare$
+
 # References
 
 -   Acemoglu, D., A. A. Gitmez, and M. Shadmehr (2026). “Automation and Repression.” NBER Working
@@ -1130,6 +1193,8 @@ constant tax from a fixed initial state is not this object. $\qquad\blacksquare$
 -   Fershtman, C. (1987). “Identification of Classes of Differential Games for Which the Open Loop is
     a Degenerate Feedback Nash Equilibrium.” *Journal of Optimization Theory and Applications* 55(2):
     217–231. DOI 10.1007/bf00939082.
+-   Galindo Escajeda, C. (2026). “The Inert Transfer: Redistribution in an Economy That Produces Its
+    Own Workforce.” Working paper.
 -   Galor, O., and O. Moav (2006). “Das Human-Kapital: A Theory of the Demise of the Class Structure.”
     *Review of Economic Studies* 73(1): 85–117. DOI 10.1111/j.1467-937x.2006.00370.x.
 -   Jones, L. E., R. E. Manuelli, and P. E. Rossi (1997). “On the Optimal Taxation of Capital Income.”
