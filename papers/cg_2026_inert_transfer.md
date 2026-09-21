@@ -104,6 +104,19 @@ function whose input is the recipients’ own consumption, and the transfer move
 The reason provision in kind works lies on the *payer’s* side, in the technology rather than in
 anyone’s preferences. §6 returns to the distinction.
 
+Part of what follows is shared with two companion papers by the same author, and the overlap is
+stated here so that the contribution can be read against it. Galindo Escajeda (2026b) works in the
+economy of §2 with a common reproduction technology, $B_W=B_C$. Its index-equalisation lemma and its
+Proposition 1, which gives the stationary ratio of per-head claims and finds cash inert at $\theta=1$,
+cover this paper’s Lemma 1, Proposition 1 and Theorem 1 at that value. Galindo Escajeda (2026a) states
+the same three results, in its Appendix A, inside an argument about the social wage as a claim on
+capital. What is new here at that layer is its reach: reproduction efficiencies that differ across
+classes without restriction, the boundary result that inertness fails once the elasticities differ
+(Proposition 2), and the exact condition for reproduction maps of any shape (Proposition 5). A third
+paper (Galindo Escajeda 2026c) reads the laws of motion of §2 at full depreciation with the workforce
+as effective labour in classes of fixed size, and adds the two classes’ preferences over the tax. Section
+4 sets its sign against this paper’s.
+
 Section 2 sets out the economy. Section 3 proves that cash is inert and shows exactly which hypothesis
 carries it. Section 4 proves the incidence of provision in kind. Section 5 draws the consequence for
 the second welfare theorem. Section 6 states the scope and the boundary.
@@ -454,7 +467,7 @@ it.
 
 The sign of the tax’s distributional effect belongs to what reproduction produces, not to the
 instrument. At full depreciation these laws of motion coincide, term by term, with those of a companion
-paper by the same author (Galindo Escajeda 2026), which reads the workforce as effective labour in
+paper by the same author (Galindo Escajeda 2026c), which reads the workforce as effective labour in
 classes of fixed size and adds the two classes’ preferences over the tax. Its Proposition 11 compares
 stationary states at the provision corner, at full depreciation and with the reinvestment share held
 fixed: a higher tax rate raises the worker’s consumption relative to the owner’s under that reading,
@@ -889,7 +902,12 @@ ratio, and leaves $c_C/c_W$ at $4/9$.
 Currie, Janet, and Firouz Gahvari. 2008. “Transfers in Cash and In-Kind: Theory Meets the Data.”
 *Journal of Economic Literature* 46 (2): 333–383.
 
-Galindo Escajeda, Carlos. 2026. “The Unowned Factor: Who Prices the Reproduction of Labour.”
+Galindo Escajeda, Carlos. 2026a. “The Social Wage as a Claim on Capital.” Working paper.
+
+Galindo Escajeda, Carlos. 2026b. “Two-Input Continuation and the Labour-Accounting Interval.” Working
+paper.
+
+Galindo Escajeda, Carlos. 2026c. “The Unowned Factor: Who Prices the Reproduction of Labour.”
 Working paper.
 
 Galor, Oded, and Omer Moav. 2006. “Das Human-Kapital: A Theory of the Demise of the Class Structure.”
