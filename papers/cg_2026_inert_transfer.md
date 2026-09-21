@@ -101,20 +101,6 @@ function whose input is the recipients’ own consumption, and the transfer move
 The reason provision in kind works lies on the *payer’s* side, in the technology rather than in
 anyone’s preferences. §6 returns to the distinction.
 
-Part of what follows is shared with three companion papers by the same author, and the overlap is
-stated here so that the contribution can be read against it. Galindo Escajeda (2026b) works in the
-economy of §2 with a common reproduction technology, $B_W=B_C$. Its index-equalisation lemma and its
-Proposition 1, which gives the stationary ratio of per-head claims and finds cash inert at $\theta=1$,
-cover this paper’s Lemma 1, Proposition 1 and Theorem 1 at that value. Galindo Escajeda (2026a) states
-the same three results, in its Appendix A, inside an argument about the social wage as a claim on
-capital. What is new here at that layer is its reach: reproduction efficiencies that differ across
-classes without restriction, the boundary result that inertness fails once the elasticities differ
-(Proposition 2), and the exact condition for reproduction maps of any shape (Proposition 5). A third
-paper (Galindo Escajeda 2026c) reads the laws of motion of §2 at full depreciation with the workforce
-as effective labour in classes of fixed size, and adds the two classes’ preferences over the tax. It
-re-derives Theorem 1 at full depreciation in an appendix and cites Proposition 4(iii) for a sign. Section
-4 sets its sign against this paper’s.
-
 Section 2 sets out the economy. Section 3 proves that cash is inert and shows exactly which hypothesis
 carries it. Section 4 proves the incidence of provision in kind. Section 5 draws the consequence for
 the second welfare theorem. Section 6 states the scope and the boundary.
@@ -463,14 +449,10 @@ nowhere in (8). The asymmetry that §3 showed the cash instrument cannot touch i
 that leaves the in-kind instrument’s *rate* of action untouched: it shifts the gap, it does not tilt
 it.
 
-The sign of the tax’s distributional effect belongs to what reproduction produces, not to the
-instrument. At full depreciation these laws of motion coincide, term by term, with those of a companion
-paper by the same author (Galindo Escajeda 2026c), which reads the workforce as effective labour in
-classes of fixed size and adds the two classes’ preferences over the tax. Its Proposition 11 compares
-stationary states at the provision corner, at full depreciation and with the reinvestment share held
-fixed: a higher tax rate raises the worker’s consumption relative to the owner’s under that reading,
-and raises consumption per owner relative to consumption per worker under this one. Proposition 4(iii)
-shows that the second sign holds at every pair of depreciation rates.
+Proposition 4(iii) signs the tax’s distributional effect with the workforce read as persons: a
+higher tax rate raises consumption per owner relative to consumption per worker at every pair of
+depreciation rates. The sign is a property of that reading of what reproduction produces, and this
+paper claims it for no other.
 
 A reader will object that a smaller private claim reads as a worse-off worker, so that Theorem 1 is a
 welfare result in distributional clothing. It is not, and the reason is the funding route rather than
@@ -918,14 +900,6 @@ Endogenous Fertility.” *Review of Economic Studies* 77 (1): 154–187.
 
 Currie, Janet, and Firouz Gahvari. 2008. “Transfers in Cash and In-Kind: Theory Meets the Data.”
 *Journal of Economic Literature* 46 (2): 333–383.
-
-Galindo Escajeda, Carlos. 2026a. “The Social Wage as a Claim on Capital.” Working paper.
-
-Galindo Escajeda, Carlos. 2026b. “Two-Input Continuation and the Labour-Accounting Interval.” Working
-paper.
-
-Galindo Escajeda, Carlos. 2026c. “The Unowned Factor: Who Prices the Reproduction of Labour.”
-Working paper.
 
 Galor, Oded, and Omer Moav. 2006. “Das Human-Kapital: A Theory of the Demise of the Class Structure.”
 *Review of Economic Studies* 73 (1): 85–117.
