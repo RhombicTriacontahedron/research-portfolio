@@ -77,9 +77,9 @@ that no agent may hold is nobody’s endowment to transfer.
 
 The first welfare theorem is untouched here, and so are the efficiency results
 proved for economies in which a dynasty’s reproduction is decided and paid for within the dynasty (Golosov, Jones and Tertilt 2007): there
-the input to reproduction is the dynasty’s own consumption, whereas here the input to one class’s
-reproduction is set by the division of output between the classes, and that is the whole of the
-difference. The two theorems have different hypotheses and this paper engages only the second. The
+the dynasty chooses its reproduction and pays for it out of its own consumption, whereas here the
+input to the workers’ reproduction, their own consumption, is fixed by the division of output between
+the classes rather than chosen by them, and that is the whole of the difference. The two theorems have different hypotheses and this paper engages only the second. The
 second has been extended to endogenous fertility by Conde-Ruiz, Giménez and Pérez-Nievas (2010), whose
 decentralisation covers the efficient allocations that treat every member of a generation alike, and an
 allocation of that kind has no per-head gap between two classes to set. No two
