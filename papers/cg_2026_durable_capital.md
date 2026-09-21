@@ -12,7 +12,7 @@ Carlos Galindo Escajeda
 
 A tax on capital income fills a public stock that reproduces labour nobody owns. A fraction of capital survives each period. The law that fills the public stock does not use depreciation. A zero tax still means a zero public stock.
 
-When capital lasts, log-affine owner values disappear, so the owner’s preferred tax can no longer be read off a closed form. At Cobb–Douglas driving the tax to zero drives capital income to zero with it, and the owner’s preferred tax never falls below a floor written in the discount factor, the weight the owner puts on holding capital, labour’s share and the reproduction weight, and that floor holds at every state whatever the rate of wear. At a tax that leaves the capital stock unchanged a sharper floor applies, and that one rises as capital becomes more durable. In Judd (1985) the revenue is a transfer to workers who hold no assets. Straub and Werning (2020) show that inside that model the long-run tax is positive when the intertemporal elasticity of substitution is below one. This paper changes what the revenue is.
+When capital lasts, log-affine owner values disappear, so the owner’s preferred tax can no longer be read off a closed form. At Cobb–Douglas driving the tax to zero drives capital income to zero with it, and the owner’s preferred tax never falls below a floor written in the discount factor, the weight the owner puts on holding capital, labour’s share and the reproduction weight, and that floor holds at every state whatever the rate of wear. Whenever the owner’s chosen tax does not raise the capital stock a sharper floor applies, and that one rises as capital becomes more durable. In Judd (1985) the revenue is a transfer to workers who hold no assets. Straub and Werning (2020) show that inside that model the long-run tax is positive when the intertemporal elasticity of substitution is below one. This paper changes what the revenue is.
 
 ------------------------------------------------------------------------
 
@@ -26,11 +26,11 @@ $$
 
 The public-stock law is $G'=\varphi\tau e^{E_C}$. Hence $\tau=0$ implies $G'=0$ for every $\delta$. At $\delta=1$ capital is rebuilt in full from after-tax profit.
 
-The map $k\mapsto\ln\bigl((1-\delta)e^{k}+i(1-\tau)e^{E_C}\bigr)$ is not affine in $k$ when $\delta<1$. Affine-in-logs closure of the owner’s Bellman equation therefore fails even at $\sigma=1$. One-generation closed-form peaks are not exact constants for $\delta<1$.
+The map $k\mapsto\ln\bigl((1-\delta)e^{k}+i(1-\tau)e^{E_C}\bigr)$ is not affine in $k$ when $\delta<1$. Affine-in-logs closure of the owner’s Bellman equation therefore fails even at $\sigma=1$. The closed forms that make the one-generation peaks constants are not available for $\delta<1$.
 
 At a stationary ratio the owner’s first-order condition in $\tau$, holding $(d,i)$ fixed, equates the marginal loss on the after-tax pie to the marginal value of $G'$ through future $L$. On the domain $\theta_R<1$, $\gamma>0$ that second term is positive, and at $\sigma=1$ it is at least $\beta^2(1-\omega)(1-\alpha)\gamma(1-\theta_R)$ (Proposition 7). The candidate is therefore interior.
 
-**Theorem (paths).** At $\sigma\ge1$, on a compact share set there is no assigned owner path with $\tau_t\to 0$ and bounded composites (Proposition 3). At $\sigma=1$ neither qualifier is needed: every path with $\tau_t\to 0$ carries labour and capital income to zero (Proposition 5), and every assigned-optimal path stays above $\bar\tau$ (Proposition 10), so a convergent assigned-optimal path has $\tau_\infty\ge\bar\tau$. At $\sigma=1$ permanent shut-down is not assigned-optimal (Proposition 4).
+**Theorem (paths).** At $\sigma\ge1$, on a compact share set there is no assigned owner path with $\tau_t\to 0$ and bounded composites (Proposition 3 above the Cobb–Douglas face, Proposition 5 on it). At $\sigma=1$ neither qualifier is needed: every path with $\tau_t\to 0$ carries labour and capital income to zero (Proposition 5), and every assigned-optimal path stays above $\bar\tau$ (Proposition 10), so a convergent assigned-optimal path has $\tau_\infty\ge\bar\tau$. At $\sigma=1$ a zero tax at any single date is not assigned-optimal (Proposition 4).
 
 The long-run zero of the durable-capital benchmark is therefore unavailable here, and not for either of the two reasons a reader might expect. The owner is not constrained, and the tax has not become cheap. The revenue is an input into the labour he hires.
 
@@ -40,7 +40,7 @@ $$
 c=\frac{\beta^2(1-\omega)(1-\alpha)\gamma(1-\theta_R)}{(1-\omega)+\dfrac{\beta}{1-\beta}}
 $$
 
-(Proposition 10). At a capital-stationary state the denominator is $(1-\omega)+\beta\delta/(1-\beta)$, so the floor is strictly decreasing in $\delta$, and in odds form it tends to $\beta^2(1-\alpha)\gamma(1-\theta_R)$ as $\delta\to 0$ (Proposition 11). Durability raises the floor rather than lowering it.
+(Proposition 10). At a best response that does not raise the capital stock the denominator can be replaced by $(1-\omega)+\beta\delta/(1-\beta)$, so that floor is strictly decreasing in $\delta$, and in odds form it tends to $\beta^2(1-\alpha)\gamma(1-\theta_R)$ as $\delta\to 0$ (Proposition 11). Along an assigned-optimal path on which capital settles, the long-run tax obeys the sharper floor. Durability raises the floor rather than lowering it.
 
 ------------------------------------------------------------------------
 
@@ -64,7 +64,7 @@ Two classes of fixed measure. Owners hold $K$. Workers supply $L$ and hold no as
 $$
 \psi(x)=\rho_\sigma^{-1}\ln\bigl(\theta e^{\rho_\sigma x}+1-\theta\bigr),\qquad \rho_\sigma=\frac{\sigma-1}{\sigma},\qquad s_K(x)=\psi'(x),\qquad s_L=1-s_K,
 $$
-where $\theta$ is the distribution parameter of the technology, $a$ is constant given the direction $d$, and $\bar x$ is the ratio at which the shares are reported. At $\sigma=1$, $\psi(x)=\alpha x$ and $(s_K,s_L)=(\alpha,1-\alpha)$; for $\sigma>1$ the shares move with the state. Logged income composites $E_C=\ln s_K+\psi+a+n$ and $E_W=\ln s_L+\psi+a+n$. Direction $d$, investment share $i$, capital-income tax $\tau$, in-kind share $\varphi$. Worker felicity $n$. Owner felicity $(1-\omega)\ln C_C+\omega k$. Common discount factor $\beta\in(0,1)$. Labour law:
+where $\theta$ is the distribution parameter of the technology, $a$ is constant given the direction $d$, and $\bar x$ is the ratio at which the shares are reported. At $\sigma=1$, $\psi(x)=\alpha x$ and $(s_K,s_L)=(\alpha,1-\alpha)$, and the $\sigma=1$ displays below also set $a=0$.[^1] for $\sigma>1$ the shares move with the state. Logged income composites $E_C=\ln s_K+\psi+a+n$ and $E_W=\ln s_L+\psi+a+n$. Direction $d$, investment share $i$, capital-income tax $\tau$, in-kind share $\varphi$. Worker felicity $n$. Owner felicity $(1-\omega)\ln C_C+\omega k$. Common discount factor $\beta\in(0,1)$. Labour law:
 
 $$
 n'=n+\gamma\theta_R(E_W-n)+\gamma(1-\theta_R)(g-n).
@@ -135,7 +135,7 @@ $$
 V(K,n,g)=\max_{\tau\in(0,1)}\bigl\{(1-\omega)\ln C_C+\omega\ln K+\beta V(K',n',g')\bigr\}.
 $$
 
-$V$ is the value of the sequence problem: the supremum over $\{\tau_t\}\subset(0,1)$ of $\sum_t\beta^t[(1-\omega)\ln C_{C,t}+\omega k_t]$ from the given state. The transition map is monotone and additively homogeneous, so every plan satisfies $\max(k_t,n_t,g_t)\le\max(k_0,n_0,g_0)+t\bar M^+$ with $\bar M$ the constant of Appendix A.4. Each plan’s payoff is therefore bounded above by an affine function of $t$, its discounted sum is well defined in $[-\infty,\infty)$, and at a finite state the supremum is finite. Theorems 4.2 and 4.4 of Stokey, Lucas and Prescott (1989) then give the Bellman equation above, and give for every optimal plan that $\tau_t$ maximises its right-hand side at the date-$t$ state — which is what the path statements use.
+$V$ is the value of the sequence problem: the supremum over $\{\tau_t\}\subset(0,1)$ of $\sum_t\beta^t[(1-\omega)\ln C_{C,t}+\omega k_t]$ from the given state. The transition map is monotone and additively homogeneous, so every plan satisfies $\max(k_t,n_t,g_t)\le\max(k_0,n_0,g_0)+t\bar M^+$ with $\bar M$ the constant of Appendix A.4 at $\sigma=1$ and of Appendix A.1 above it. Each plan’s payoff is therefore bounded above by an affine function of $t$, its discounted sum is well defined in $[-\infty,\infty)$, and at a finite state the supremum is finite. Theorems 4.2 and 4.4 of Stokey, Lucas and Prescott (1989) then give the Bellman equation above, and give for every optimal plan that $\tau_t$ maximises its right-hand side at the date-$t$ state — which is what the path statements use. Those statements are not empty: at $\sigma=1$, choosing a maximiser at each date, which Proposition 6 supplies, generates an optimal plan from every finite state (end of Appendix A.4).
 
 **Proposition 1 (Exact first-order condition).** At an interior optimum at which $V$ is differentiable at the continuation state, with $I:=i(1-\tau)e^{E_C}$,
 
@@ -147,11 +147,13 @@ The envelope is $V_g(K,n,g)=\beta\gamma(1-\theta_R)V_n(K',n',g')$. On the licens
 
 *Proof.* Current utility contributes $-(1-\omega)/(1-\tau)$. State derivatives: $K_\tau'=-I/(1-\tau)$, $g_\tau'=1/\tau$, $n_\tau'=0$. Multiply through by $\tau(1-\tau)$. The envelope in $g$ uses $n'_g=\gamma(1-\theta_R)$ and $K'_g=g'_g=0$. $\square$
 
-At a tax that leaves capital stationary, $I/K'=\delta$, so the capital term of the denominator carries the weight $\delta$; that is the channel Proposition 11 prices. Away from such a tax nothing here signs the comparative static, because $V_g$ and $V_K$ move with $\delta$ as well.
+In the denominator $\beta IV_K=\beta\chi\,K'V_K$, with $\chi:=I/K'$ the share of next period’s capital bought out of after-tax profit. At $\delta<1$ that share equals $\delta$ when the tax leaves capital stationary and is below $\delta$ when capital falls; at $\delta=1$ it is one. That is the channel Proposition 11 prices. Nothing here signs the comparative static of the maximiser itself in $\delta$, because $V_g$ and $V_K$ move with $\delta$ as well.
 
 **Proposition 2 (Recovery).** At $\delta=1$ the stationary condition of Proposition 1 coincides with the first-order condition that yields the displayed $\tau_C$ under the log-affine expansion. On the domain $\theta_R\in(0,1)$, $\gamma\in(0,1)$ that peak is strictly positive.
 
-**Conjecture 1.** For every $\delta\in(0,1]$ there exists a stationary assigned peak $\tau_C(\delta)\in(0,1)$ on that domain.
+**Conjecture 1.** For every $\delta\in(0,1]$ at which some stationary point has $i\in(0,1)$, there exists a stationary assigned peak $\tau_C(\delta)\in(0,1)$ on that domain.
+
+The qualifier binds. With the constants of its displays, Lemma 6 below leaves no stationary point with $i<1$ once $\delta\ge\alpha$, and in particular none at $\delta=1$.
 
 **Conjecture 2.** $\liminf_{\delta\to 0}\tau_C(\delta)>0$ whenever $\theta_R$ is bounded away from $1$ and $\gamma>0$. At $\sigma=1$, Propositions 10 and 11 below settle this, with an explicit constant and without passing to the limit.
 
@@ -200,7 +202,7 @@ where $x_t:=k_t-n_t$ and $\eta=\gamma(1-\theta_R)>0$, so a vanishing tax enters 
 $$
 \frac{K_{t+1}}{K_t}=1-\delta+i(1-\tau_t)\alpha e^{-(1-\alpha)x_t}.
 $$
-A vanishing tax therefore pushes labour down through the public stock, while depreciation caps how far capital deepening can push it back up. The two cannot be balanced. Appendix A.3 measures the three logged stocks in units that turn the transition into a strict contraction, and reads the conclusion off a linear rate. The argument uses $\delta>0$ twice: depreciation dominates under capital deepening, and there is no AK residual at $\sigma=1$.[^1]
+A vanishing tax therefore pushes labour down through the public stock, while depreciation caps how far capital deepening can push it back up. The two cannot be balanced. Appendix A.3 measures the three logged stocks in units that turn the transition into a strict contraction, and reads the conclusion off a linear rate. The argument uses $\delta>0$ twice: depreciation dominates under capital deepening, and there is no AK residual at $\sigma=1$.[^2]
 
 **Corollary (No qualifier at Cobb–Douglas).** At $\sigma=1$ and $\delta\in(0,1]$, neither the bounded-composite and bounded-capital qualifiers of Proposition 3 nor its share hypothesis is needed: a vanishing tax carries capital income down with it whatever the composites do (Proposition 5), and Proposition 10 below puts every assigned-optimal path above a positive constant.
 
@@ -208,9 +210,9 @@ A vanishing tax therefore pushes labour down through the public stock, while dep
 
 *Proof.* Proposition 10 gives $\tau_t\ge\bar\tau$ at every date and every state, so any limit lies in $[\bar\tau,1]$. $\square$
 
-**Proposition 4 (Permanent shut-down at Cobb–Douglas).** Let $\sigma=1$ and extend the control set to $[0,1)$ with $\ln 0=-\infty$. A path with $\tau_t=0$ for all $t\ge T$ has $g_t=-\infty$ for $t>T$, hence $n_t=-\infty$, and labour being essential at $\sigma=1$ it has $C_{C,t}=0$ from $t>T+1$, so its value is $-\infty$; at a finite state any constant $\tau\in(0,1)$ has finite value (Proposition 6). Permanent shut-down is therefore not assigned-optimal.[^2]
+**Proposition 4 (Shut-down at Cobb–Douglas).** Let $\sigma=1$ and extend the control set to $[0,1)$ with $\ln 0=-\infty$. A path with $\tau_T=0$ at a single date $T$ has $g_{T+1}=-\infty$, hence $n_t=-\infty$ for every $t>T+1$, since labour’s own lag then carries $-\infty$ whatever the public stock does afterwards. Labour being essential at $\sigma=1$, the path has $C_{C,t}=0$ from $t>T+1$, so its value is $-\infty$, while at a finite state any constant $\tau\in(0,1)$ has finite value (Proposition 6). Shut-down, at a single date or for ever, is therefore not assigned-optimal.[^3]
 
-Proposition 10 is the contact with Chamley–Judd’s conclusion on this face: at $\sigma=1$ no assigned-optimal path has $\tau_t\to 0$, and none goes below $\bar\tau$. Proposition 3 adds that on a compact share set no *feasible* path at all combines a vanishing tax with bounded composites.
+Proposition 10 is the contact with Chamley–Judd’s conclusion on this face: at $\sigma=1$ no assigned-optimal path has $\tau_t\to 0$, and none goes below $\bar\tau$. Off this face, Proposition 3 says that on a compact share set no *feasible* path at all combines a vanishing tax with bounded composites.
 
 ------------------------------------------------------------------------
 
@@ -226,7 +228,7 @@ $$
 
 Here $n'$ does not depend on $\tau$.
 
-**Proposition 6 (Interior policy at a given state).** Let $\sigma=1$, $\varphi=1$, $\theta_R\in(0,1)$, $\gamma\in(0,1)$, $\omega\in[0,1)$, $\delta\in(0,1]$ and $i\in(0,1)$. At every finite state $(K,n,g)$, $W$ is continuous on $(0,1)$ and $W(\tau)\to-\infty$ as $\tau\to 1^-$ and as $\tau\to 0^+$. A maximiser $\tau^*(K,n,g)\in(0,1)$ therefore exists.[^3]
+**Proposition 6 (Interior policy at a given state).** Let $\sigma=1$, $\varphi=1$, $\theta_R\in(0,1)$, $\gamma\in(0,1)$, $\omega\in[0,1)$, $\delta\in(0,1]$ and $i\in(0,1)$. At every finite state $(K,n,g)$, $W$ is continuous on $(0,1)$ and $W(\tau)\to-\infty$ as $\tau\to 1^-$ and as $\tau\to 0^+$. A maximiser $\tau^*(K,n,g)\in(0,1)$ therefore exists.[^4]
 
 Nothing here is assumed that the model does not deliver. Finiteness and Lipschitz continuity of $V$ come from the same non-expansiveness that gives Lemma 7, and the two endpoints are lost for the two reasons the economics names: confiscation destroys the owner’s consumption, and a vanishing rate destroys the stock that reproduces his workforce. Appendix A.4 has the proof.
 
@@ -248,11 +250,11 @@ A fully intensive-stationary point at fixed $i$ exists only when $x_L(\tau)=x_K(
 $$
 i(\tau,\delta)=\frac{\delta}{\alpha(1-\tau)}\,e^{(1-\alpha)x_L(\tau)}.
 $$
-The scale $n$ is not pinned. As $\tau\to 0^+$, $x_L(\tau)\to+\infty$.
+The scale $n$ is not pinned. As $\tau\to 0^+$, $x_L(\tau)\to+\infty$. With the constants of these displays $x_L(\tau)>0$ for every $\tau\in(0,1)$, because both logarithms are negative, so $i(\tau,\delta)>\delta/\alpha$: the curve meets the licensed box $i<1$ only if $\delta<\alpha$. At $\delta\ge\alpha$ no stationary point has $i<1$. In particular the constant tax $\tau_C$ of Proposition 2 at $\delta=1$ is a constant policy and not a stationary peak in the sense of this section.
 
 *Proof.* Substitute the Cobb–Douglas composites into $n'=(1-\gamma)n+\gamma\theta_R E_W+\eta g$ and set $n'=n$. Capital stationarity divides by $L$. $\square$
 
-**Proposition 7 (What a fixed point still needs).** Let $\sigma=1$ and maintain the hypotheses of Proposition 6. Lemma 6 does not give a state $(K,n,g)$ for every $\tau$ at fixed $i$. It gives a curve $i=i(\tau,\delta)$ on which intensive stationarity holds; the scale $n$ remains a state. Proposition 6 still gives $\tau^*(K,n,g)\subset(0,1)$ at each given state. A stationary peak is a pair $(\tau,i(\tau,\delta))$ that is a best response at some scale of that intensive point.[^4]
+**Proposition 7 (What a fixed point still needs).** Let $\sigma=1$ and maintain the hypotheses of Proposition 6. Lemma 6 does not give a state $(K,n,g)$ for every $\tau$ at fixed $i$. It gives a curve $i=i(\tau,\delta)$ on which intensive stationarity holds; the scale $n$ remains a state. Proposition 6 still gives $\tau^*(K,n,g)\subset(0,1)$ at each given state. A stationary peak is a pair $(\tau,i(\tau,\delta))$ that is a best response at some scale of that intensive point.[^5]
 
 *One-step bound, if $V$ is differentiable.* Raise current $g$ by $\Delta>0$ and hold subsequent instruments fixed. Then $n'$ rises by $\eta\Delta$ and, at $\sigma=1$, $E_C'$ rises by $(1-\alpha)\eta\Delta$. Hence
 $$
@@ -274,11 +276,11 @@ Comparing $W(\lambda\tau)$ with $W(\tau)$ at that state, the public-stock gain i
 $$
 (1-\omega)\ln\frac{1-\tau}{1-\lambda\tau}=O(\tau)
 $$
-as $\tau\to 0^+$, and by Lemma 7 below the capital loss is at most $\beta u/(1-\beta)$ with $u=(\lambda-1)\tau/(1-\lambda\tau)$, which vanishes as $\tau\to 0^+$ at fixed $\lambda$. Hence there exists $\tau_\dagger(I)>0$ such that $W(\lambda\tau)>W(\tau)$ for all $\tau\in(0,\tau_\dagger(I))$. No maximiser at that state lies in $(0,\tau_\dagger(I))$.
+as $\tau\to 0^+$, and by Lemma 7 below the capital loss is at most $\beta u/(1-\beta)$ with $u=(\lambda-1)\tau/(1-\lambda\tau)$, which vanishes as $\tau\to 0^+$ at fixed $\lambda$. Hence there exists $\tau_\dagger>0$, depending on $\lambda$ and the parameters but not on the state, such that $W(\lambda\tau)>W(\tau)$ for all $\tau\in(0,\tau_\dagger)$. No maximiser at any state lies in $(0,\tau_\dagger)$.
 
 *Proof.* Raising $g$ by $\ln\lambda$ raises $n'$ by $\eta\ln\lambda$ and $E_C'$ by $(1-\alpha)\eta\ln\lambda$. Next-period log consumption, at unchanged $(\tau',i')$, rises by that amount. That is the displayed lower bound. The consumption loss is the Taylor expansion of $\ln(1-\tau)$; the capital loss is priced by Lemma 7, which is proved independently of this result. The in-kind share enters $g'$ only as the additive level $\ln\varphi$, which cancels in every increment of $g$ used here, so the bound is the same at each fixed $\varphi\in(0,1]$. $\square$
 
-Proposition 8 does not need $V$ differentiable. Combined with Proposition 6, the assigned owner at any finite-$I$ state rejects both $\tau=0$ and every sufficiently small $\tau$. The threshold there is written in levels of $I$. Measured in logs it is not: that is the content of the next two results, which turn $\bar\tau$ into a constant of the parameters alone.
+Proposition 8 does not need $V$ differentiable. Combined with Proposition 6, the assigned owner at any finite-$I$ state rejects both $\tau=0$ and every sufficiently small $\tau$. Because Lemma 7 prices the capital loss in logs, that threshold is already uniform in the state; the next two results optimise over $\lambda$ and make it the explicit constant $\bar\tau$.
 
 ------------------------------------------------------------------------
 
@@ -305,32 +307,46 @@ c:=\frac{P}{Q},\qquad
 \bar\tau:=\frac{c}{1+c}\in(0,1).
 $$
 
-Then no maximiser $\tau^*(K,n,g)$ of $W$ lies in $(0,\bar\tau)$ — at any state, for every $\delta\in(0,1]$ and every $i\in(0,1)$.[^5]
+Then no maximiser $\tau^*(K,n,g)$ of $W$ lies in $(0,\bar\tau)$ — at any state, for every $\delta\in(0,1]$ and every $i\in(0,1)$.[^6]
 
 The proof is a variation, in Appendix A.2. Raise $\tau$ to $\lambda\tau$ with $\lambda>1$. The public stock rises by $\ln\lambda$ and is worth at least $P\ln\lambda$; consumption and capital fall by at most $Qu$ with $u=(\lambda-1)\tau/(1-\lambda\tau)$. The single step that makes $Q$ a constant is to measure the capital loss in logs rather than in levels: the inherited stock $(1-\delta)K$ sits in the denominator, so the loss is at most $u$ whatever $K$, $i$, $Y$ and $\delta$ are. That is the uniform bound on $\beta IV_K$ Proposition 7 asked for.
 
-**Proposition 11 (Durability raises the floor).** Let a state and an $i$ be such that the tax $\tau$ leaves capital stationary, $K'=K$ and hence $i(1-\tau)e^{E_C}=\delta K$. Then the argument of Proposition 10 runs at that tax with $Q$ replaced by $Q(\delta):=(1-\omega)+\beta\delta/(1-\beta)$. Writing $c(\delta):=P/Q(\delta)$, if such a $\tau$ is a maximiser of $W$ at that state then
+**Proposition 11 (Durability raises the floor).** Under the hypotheses of Proposition 10, let $\tau^*$ maximise $W$ at some state, and write $\chi^*:=I(\tau^*)/K'(\tau^*)\in(0,1]$ for the share of next period’s capital bought out of this period’s after-tax profit. Then
+
+$$
+\frac{\tau^*}{1-\tau^*}\ \ge\ \frac{P}{(1-\omega)+\beta\chi^*/(1-\beta)} .
+$$
+
+If $\tau^*$ does not raise the capital stock, $K'(\tau^*)\le K$, then $\chi^*\le\delta$ and
 
 $$
 \frac{\tau^*}{1-\tau^*}\ \ge\ c(\delta)
 =\frac{\beta^2(1-\omega)(1-\alpha)\gamma(1-\theta_R)}{(1-\omega)+\dfrac{\beta\delta}{1-\beta}},
 $$
 
-and $c(\delta)$ is strictly decreasing in $\delta$, with $c(1)=c$ and
+where $c(\delta)$ is strictly decreasing in $\delta$, with $c(1)=c$ and
 
 $$
 \lim_{\delta\to 0^+}c(\delta)=\beta^2(1-\alpha)\gamma(1-\theta_R)>0 .
 $$
 
-*Proof.* At such a state $B(1-\tau)=\delta K$ and $R=(1-\delta)K$, so $k'(\tau)-k'(\lambda\tau)=\ln\bigl(1+\delta(\lambda-1)\tau/(1-\tau-\delta(\lambda-1)\tau)\bigr)$. Only the capital term of Appendix A.2 changes: $u$ becomes that quantity there, and dividing by $\lambda-1$ and letting $\lambda\downarrow 1$ replaces $\beta/(1-\beta)$ by $\beta\delta/(1-\beta)$ in $Q$. Monotonicity and the limit are read off $Q(\delta)$. Capital stationarity pins $ie^{E_C}$, so the substitution is exact at that tax and at no other tax of the same state; below it the capital term is larger and the bound that applies is Proposition 10’s, which holds at every state and every tax whatever $\delta$ is. $\square$
+*Proof.* Write $R:=(1-\delta)K$ and $B:=ie^{E_C}$, so that $I(\tau)=B(1-\tau)$ and $K'(\tau)=R+B(1-\tau)$. Appendix A.2 bounds the capital loss $k'(\tau)-k'(\lambda\tau)$ by $u$. Use instead its exact value $\ln\bigl(1+B(\lambda-1)\tau/(R+B(1-\lambda\tau))\bigr)$, which Lemma 7 prices in the same way and whose derivative in $\lambda$ at $\lambda=1$ is $B\tau/(R+B(1-\tau))=\chi\,\tau/(1-\tau)$ with $\chi=B(1-\tau)/K'(\tau)$. Dividing A.2’s lower bound on $W(\lambda\tau)-W(\tau)$ by $\lambda-1$ and letting $\lambda\downarrow 1$ then gives $P-[(1-\omega)+\beta\chi/(1-\beta)]\,\tau/(1-\tau)$, and a $\tau$ at which this is positive is not a maximiser. For $\delta<1$, $\chi\le\delta$ is equivalent to $B(1-\tau)\le\delta K$, that is to $K'\le K$; at $\delta=1$, $R=0$ and $\chi=1=\delta$. Monotonicity and the limit are read off $c(\delta)$. $\square$
+
+The restriction is the one the economics names. A best response that accumulates capital buys more than a fraction $\delta$ of next period’s stock out of after-tax profit, so the tax touches more of it, and the floor guaranteed there lies between Proposition 10’s and the sharper one.
 
 **Corollary (Conjecture 2, wherever its object exists).** At $\sigma=1$, Conjecture 2 holds in a form that does not wait for the limit: whenever a stationary assigned peak $\tau_C(\delta)$ exists it satisfies $\tau_C(\delta)\ge c(\delta)/(1+c(\delta))\ge\bar\tau>0$, at every $\delta\in(0,1]$ (Proposition 11, then Proposition 10); and along every sequence $\delta_j\downarrow 0$ for which such peaks exist, $\liminf_j\tau_C(\delta_j)\ge c_0/(1+c_0)$ with $c_0=\beta^2(1-\alpha)\gamma(1-\theta_R)$. Existence at a given $\delta$ is Conjecture 1, so the bound is a statement about the peaks there are and not a claim that there is one at every $\delta$.
 
 **Corollary (paths, second route).** Under the hypotheses of Proposition 10, every assigned-optimal path satisfies $\tau_t\ge\bar\tau$ for all $t$. In particular no assigned-optimal path has $\tau_t\to 0$. Propositions 3 and 5 reach a wider class — every *feasible* path — by a divergence argument, and say what a vanishing tax does along one; Proposition 10 reaches the optimal paths by a variation, and puts a number on how far from zero they stay.
 
-The economics of the constant is the accounting of the two channels. $P$ is what one log point of public stock is worth to the owner: it reaches him after two periods, through the reproduction weight $\eta=\gamma(1-\theta_R)$ and labour’s share $1-\alpha$. $Q$ is what the same log point costs: consumption today, plus the value of the capital it is bought out of. The second half of that cost is the whole of the durability question, and Proposition 11 answers it. As $\delta$ falls, a smaller share of next period’s capital is purchased out of after-tax profit, so the tax bites a smaller part of it and $Q(\delta)$ falls. Durability does not release the owner from funding the stock. It makes the funding cheaper.
+**Corollary (durable long run).** Under the hypotheses of Proposition 10, every assigned-optimal path along which $K_{t+1}/K_t\to1$, in particular one along which capital converges to a positive level, satisfies $\liminf_t\tau_t\ge c(\delta)/(1+c(\delta))$, with $c(\delta)$ the constant of Proposition 11; and along an assigned-optimal path on which capital does not rise from some date on, $\tau_t\ge c(\delta)/(1+c(\delta))$ from that date.
 
-Conjecture 1 at $\sigma=1$ remains a fixed point on the curve $i=i(\tau,\delta)$ of Lemma 6, not the Theorem of the Maximum on $(0,1)$. What Propositions 10 and 11 add is that any such fixed point, and indeed any best response at any state, is bounded away from zero by a constant of the parameters.
+*Proof.* Each $\tau_t$ maximises $W$ at the date-$t$ state, and $\chi_t=1-(1-\delta)K_t/K_{t+1}$, which tends to $\delta$ when $K_{t+1}/K_t\to1$ and is at most $\delta$ when $K_{t+1}\le K_t$. Apply Proposition 11 and use that $t\mapsto t/(1-t)$ is increasing. $\square$
+
+This is the counterpart of Chamley and Judd’s long-run statement, and it does not wait for Conjecture 1: wherever the owner’s own path lets capital settle, the long-run tax is bounded below by the durable floor and not only by $\bar\tau$.
+
+The economics of the constant is the accounting of the two channels. $P$ is what one log point of public stock is worth to the owner: it reaches him after two periods, through the reproduction weight $\eta=\gamma(1-\theta_R)$ and labour’s share $1-\alpha$. $Q$ is what the same log point costs: consumption today, plus the value of the capital it is bought out of. The second half of that cost is the whole of the durability question, and Proposition 11 answers it. As $\delta$ falls, a smaller share of next period’s capital is purchased out of after-tax profit wherever capital is not being accumulated, so the tax bites a smaller part of it and $Q(\delta)$ falls. Durability does not release the owner from funding the stock. It makes the funding cheaper.
+
+Conjecture 1 at $\sigma=1$ remains a fixed point on the part of the curve $i=i(\tau,\delta)$ of Lemma 6 that lies in the licensed box, not the Theorem of the Maximum on $(0,1)$. What Propositions 10 and 11 add is that any such fixed point, and indeed any best response at any state, is bounded away from zero by a constant of the parameters.
 
 ------------------------------------------------------------------------
 
@@ -372,7 +388,7 @@ Lemma 1 keeps $G$ tied to $\tau$ at every $\delta$. Proposition 1 keeps $V_g$ lo
 
 A representative-agent public-share formula (Barro 1990) is one number. At $\delta=1$ this economy has a tax interval $[\tau_C,\tau_W]$.
 
-Galor and Moav (2006), the nearest neighbour on mechanism, have the owner’s motive without a floor. Their capitalists support a tax spent on workers’ schooling because educated workers complement their capital, but their capital depreciates fully in each generation and their tax is zero until capital per worker passes a critical level. On the Cobb–Douglas face both papers share, this paper replaces that threshold with a floor where capital lasts: the owner’s tax never falls below $\bar\tau$, at any state and any rate of depreciation. The reason is placement. The public stock here is an essential input into reproducing the workforce, not an addition to basic skills that workers have without it.
+Galor and Moav (2006), the nearest neighbour on mechanism, have the owner’s motive without a floor. Their capitalists support a tax spent on workers’ schooling because educated workers complement their capital, but their capital depreciates fully in each generation and their tax is zero until capital per worker passes a critical level. On the Cobb–Douglas face both papers share, this paper replaces that threshold with a floor where capital lasts: the owner’s tax never falls below $\bar\tau$, at any state and any rate of depreciation. The reason is how the stock enters. Here it is an essential input into reproducing the workforce, and next period’s labour responds to it with the constant elasticity $\eta=\gamma(1-\theta_R)$ however small it is, so a log point of it is always worth at least $P$ to the owner; it is not an addition to basic skills that workers have without it.
 
 ------------------------------------------------------------------------
 
@@ -388,7 +404,7 @@ A public stock (G), filled by a tax on capital income, is an input into the repr
 
 Durability splits a take from current profit from a capital-income tax. The public stock remains $G'=\varphi\tau e^{E_C}$. Log-affine owner values die, so assigned programmes need no longer be constant. The exact interior first-order condition still loads $V_g$ through $\gamma(1-\theta_R)$. On a compact share set a path with $\tau_t\to 0$ and bounded composites is impossible (Proposition 3). At Cobb–Douglas a tax driven to zero takes labour and capital income to zero with it (Proposition 5): labour growth carries $\eta\ln\tau$, and capital deepening is trapped by depreciation. At Cobb–Douglas, Proposition 10 puts every assigned-optimal path above $\bar\tau>0$ at every date, so none of them has a vanishing long-run tax.
 
-At Cobb–Douglas the answer to the question the paper opens with is a number and not only a sign. The assigned owner’s tax never falls below $\bar\tau=c/(1+c)$, with $c$ the ratio of what one log point of public stock is worth to him — two periods away, through the reproduction weight and labour’s share — to what it costs him in consumption and in capital. That floor holds at every state and at every rate of wear. At a tax that leaves the capital stock unchanged, durability enters only the cost, and it lowers it: the more of next period’s capital he inherits rather than buys, the smaller the part of it the tax touches. At the durable limit that sharper floor is $\beta^2(1-\alpha)\gamma(1-\theta_R)$ in odds form. At Cobb–Douglas, when the revenue reproduces labour nobody owns, the durability that separates a capital-income tax from a take out of current profit does not release the assigned owner from funding the stock; at a tax that keeps the capital stock unchanged it raises the floor.
+At Cobb–Douglas the answer to the question the paper opens with is a number and not only a sign. The assigned owner’s tax never falls below $\bar\tau=c/(1+c)$, with $c$ the ratio of what one log point of public stock is worth to him — two periods away, through the reproduction weight and labour’s share — to what it costs him in consumption and in capital. That floor holds at every state and at every rate of wear. At a tax that does not raise the capital stock, durability enters only the cost, and it lowers it: the more of next period’s capital he inherits rather than buys, the smaller the part of it the tax touches. At the durable limit that sharper floor is $\beta^2(1-\alpha)\gamma(1-\theta_R)$ in odds form. At Cobb–Douglas, when the revenue reproduces labour nobody owns, the durability that separates a capital-income tax from a take out of current profit does not release the assigned owner from funding the stock; at a tax that does not raise the capital stock it raises the floor.
 
 ------------------------------------------------------------------------
 
@@ -460,7 +476,7 @@ $$
 $$
 If $\tau_t\to0$ then $\tau_t\le\tau_c$ from some $t_0$ on, so $\tilde z_t\le\tilde z_{t_0}-\kappa(t-t_0)\to-\infty$. Therefore $n_t\to-\infty$ and $k_t\to-\infty$, and $E_{C,t}=\ln\alpha+\alpha k_t+(1-\alpha)n_t\to-\infty$: labour and capital income go to zero together. $\square$
 
-The rate is linear, and the argument needs nothing about $x_t$. It also shows that the collapse is not a property of *vanishing* taxes in particular: at a fixed investment share, any constant $\tau<\tau_c$ empties the economy at the same rate, and any constant tax above Lemma 6’s stationary value grows it.
+The rate is linear, and the argument needs nothing about $x_t$. It also shows that the collapse is not a property of *vanishing* taxes in particular: at a fixed investment share, any constant $\tau<\tau_c$ empties the economy at the same rate. A constant tax grows the economy exactly when $i>i(\tau,\delta)$, Lemma 6’s curve. Since $\ln i(\tau,\delta)$ is strictly convex in $\tau$ and $i(\tau,\delta)\to\infty$ at both ends of $(0,1)$, that happens on an interval of taxes if at all, and never at a tax close enough to one.[^7]
 
 ### A.4 Proof of Proposition 6
 
@@ -480,14 +496,16 @@ Three steps. Write $T_\tau$ for the map carrying $(k,n,g)$ to $(k',n',g')$ at ta
     $$
     A continuous function diverging to $-\infty$ at both ends of $(0,1)$ attains a maximum in $(0,1)$. $\square$
 
+*Optimal paths exist at $\sigma=1$.* From a finite state $s_0$ choose at each date a maximiser $\tau_t$ of $W$ at $s_t$, which (iii) supplies. With $u_t$ the period payoff, $V(s_t)=u_t+\beta V(s_{t+1})$ at every date, so $V(s_0)=\sum_{t<T}\beta^tu_t+\beta^TV(s_T)$ for every $T$. The payoff and the transitions are additively homogeneous, so $V(s+c\mathbf1)=V(s)+c/(1-\beta)$; with $V$ non-decreasing and the bound of (i), $\beta^TV(s_T)\le\beta^T\bigl[V(0)+(\max_js_{j,0}+T\bar M^+)/(1-\beta)\bigr]\to0$. The path’s payoff, the limit of the partial sums, is therefore at least $V(s_0)$, and the path is optimal.
+
 ### A.5 Closure failure at $\delta<1$: the step Lemma 2 needs
 
-Suppose an affine $V=a_kk+a_nn+a_gg+h$ solved the Bellman equation at $\sigma=1$ and some $\delta<1$. $V$ is non-decreasing in each state, because the transitions are monotone and the payoff is increasing in $k$ and $n$; the first period alone gives $a_k\ge(1-\omega)\alpha+\omega>0$ and $a_g\ge 0$. All the $\tau$-dependence of the right-hand side then sits in
+Suppose an affine $V=a_kk+a_nn+a_gg+h$ solved the Bellman equation at $\sigma=1$ and some $\delta<1$. All the $\tau$-dependence of the right-hand side sits in
 $$
 m(k)=\max_{\tau\in(0,1)}\bigl\{(1-\omega)\ln(1-\tau)+\beta a_k\ln\bigl(R+B(1-\tau)\bigr)+\beta a_g\ln\tau\bigr\},
 \qquad R=(1-\delta)e^{k},\quad B=i\alpha e^{\alpha k+(1-\alpha)n}.
 $$
-As $k\to+\infty$, $B/R\to 0$ uniformly in $\tau$ and $m(k)/k\to\beta a_k$. As $k\to-\infty$, $\ln B+\ln(1-\tau)\le\ln(R+B(1-\tau))\le\ln B+\ln(1+R/B)$ gives $m(k)/k\to\alpha\beta a_k$. The two limits differ by $\beta a_k(1-\alpha)>0$, so $m$ is not affine in $k$ and neither is the right-hand side — a contradiction. Affine-in-logs closure therefore fails for every $\delta<1$. At $\delta=1$, $R=0$ and both limits are $\alpha\beta a_k$, which is why the closed forms of the previous section exist there and only there.
+Three cases dispose of every candidate other than $a_k>0$, $a_g\ge0$. If $a_g<0$, the term $\beta a_g\ln\tau$ sends the right-hand side to $+\infty$ as $\tau\to0^+$. If $a_k=0$, $m$ does not depend on the state, and matching the coefficients of $k$ and $g$ gives $\gamma\theta_Ra_n+a_g=-[(1-\omega)\alpha+\omega]/(\beta\alpha)$ and $a_g=\beta\eta a_n$, hence $a_g<0$, which is the first case. If $a_k<0$, $m(k)/k$ tends to $\beta a_k$ as $k\to+\infty$ and, as $k\to-\infty$, to $\alpha\beta a_k$ when $(1-\omega)+\beta a_k\ge0$ and to $\alpha\beta a_k+(1-\alpha)[(1-\omega)+\beta a_k]$ otherwise; neither equals $\beta a_k$, so $m$ is not affine in $k$. There remains $a_k>0$, $a_g\ge0$. As $k\to+\infty$, $B/R\to 0$ uniformly in $\tau$ and $m(k)/k\to\beta a_k$. As $k\to-\infty$, $\ln B+\ln(1-\tau)\le\ln(R+B(1-\tau))\le\ln B+\ln(1+R/B)$ gives $m(k)/k\to\alpha\beta a_k$. The two limits differ by $\beta a_k(1-\alpha)>0$, so $m$ is not affine in $k$ and neither is the right-hand side — a contradiction. Affine-in-logs closure therefore fails for every $\delta<1$. At $\delta=1$, $R=0$ and both limits are $\alpha\beta a_k$, which is why the closed forms of the previous section exist there and only there.
 
 ------------------------------------------------------------------------
 
@@ -511,12 +529,16 @@ Stokey, N. L., R. E. Lucas, and E. C. Prescott (1989). *Recursive Methods in Eco
 
 Straub, L., and I. Werning (2020). Positive long-run capital taxation: Chamley–Judd revisited. *American Economic Review* 110(1): 86–119.
 
-[^1]: At $\sigma>1$, $Y/K$ tends to a positive constant as $x\to+\infty$: capital income is at least $\underline AK$, and the proof’s choice of $\bar X$ then requires $i\underline A<\delta$.
+[^1]: Restoring $a$ adds it to $E_C$ and $E_W$. It shifts Lemma 6’s $x_L$ by $-a/\alpha$ and $x_K$ by $a/(1-\alpha)$, multiplies $i(\tau,\delta)$ by $e^{-a/\alpha}$, and moves the constants of Appendix A.3–A.5. It changes no statement except Lemma 6’s formulas and the threshold on $\delta$ that Lemma 6 attaches to Conjecture 1.
 
-[^2]: Essential labour is what this uses, so the Cobb–Douglas hypothesis here is the one Lemma 5 and Proposition 6 already carry, doing one job in three places rather than three restrictions. Off that face it is not available: $\psi(x)+n=\rho_\sigma^{-1}\ln\bigl(\theta e^{\rho_\sigma k}+(1-\theta)e^{\rho_\sigma n}\bigr)\to k+\rho_\sigma^{-1}\ln\theta$ as $n\to-\infty$, with $s_K\to1$, so capital income is never below $\underline AK$ and a permanent zero tax leaves $K_{t+1}\ge(1-\delta+i\underline A)K_t$ and consumption at least $(1-i)\underline AK_t>0$. The payoff is then affine in $t$ and its discounted sum is finite, so at $\sigma>1$ the comparison with a positive constant tax is between two finite numbers and is one this paper does not make.
+[^2]: At $\sigma>1$, $Y/K$ tends to a positive constant as $x\to+\infty$: capital income is at least $\underline AK$, and the proof’s choice of $\bar X$ then requires $i\underline A<\delta$.
 
-[^3]: At $\sigma>1$ step (iii) below fails, and not for want of an argument. Capital income is at least $\underline AK$ with $\underline A>0$ (the remark after Lemma 5), so with the instruments held fixed the continuation is a pure accumulation economy whose value is bounded below by a constant that does not contain $g$ at all, however far the public stock has fallen. Whether the assigned owner’s optimum is interior at $\sigma>1$ is open.
+[^3]: Essential labour is what this uses, so the Cobb–Douglas hypothesis here is the one Lemma 5 and Proposition 6 already carry, doing one job in three places rather than three restrictions. Off that face it is not available: $\psi(x)+n=\rho_\sigma^{-1}\ln\bigl(\theta e^{\rho_\sigma k}+(1-\theta)e^{\rho_\sigma n}\bigr)\to k+\rho_\sigma^{-1}\ln\theta$ as $n\to-\infty$, with $s_K\to1$, so capital income is never below $\underline AK$ and a permanent zero tax leaves $K_{t+1}\ge(1-\delta+i\underline A)K_t$ and consumption at least $(1-i)\underline AK_t>0$. The payoff is then affine in $t$ and its discounted sum is finite, so at $\sigma>1$ the comparison with a positive constant tax is between two finite numbers and is one this paper does not make.
 
-[^4]: A continuous self-map of a compact interval would give existence by Brouwer; uniqueness of $\tau^*$ would need concavity of $W$.
+[^4]: At $\sigma>1$ step (iii) below fails, and not for want of an argument. Capital income is at least $\underline AK$ with $\underline A>0$ (the remark after Lemma 5), so with the instruments held fixed the continuation is a pure accumulation economy whose value is bounded below by a constant that does not contain $g$ at all, however far the public stock has fallen. Whether the assigned owner’s optimum is interior at $\sigma>1$ is open.
 
-[^5]: Why the in-kind share is free here. The variation uses $\varphi$ only through $g'(\lambda\tau)-g'(\tau)=\ln\lambda$, in which $\ln\varphi$ cancels, and $\varphi$ enters neither $\ln C_C$ nor the capital law; so the same $\bar\tau$ bounds every maximiser at each fixed $\varphi\in(0,1]$ under the transitions of the Environment.
+[^5]: A continuous self-map of a compact interval would give existence by Brouwer; uniqueness of $\tau^*$ would need concavity of $W$.
+
+[^6]: Why the in-kind share is free here. The variation uses $\varphi$ only through $g'(\lambda\tau)-g'(\tau)=\ln\lambda$, in which $\ln\varphi$ cancels, and $\varphi$ enters neither $\ln C_C$ nor the capital law; so the same $\bar\tau$ bounds every maximiser at each fixed $\varphi\in(0,1]$ under the transitions of the Environment.
+
+[^7]: For constant $\tau$, $T_\tau(v)=v+\mu\mathbf1$ at the state $v$ whose ratios $x=k-n$ and $g-n$ the labour and public-stock laws fix, with $\mu$ the unique root of $e^{\mu}=1-\delta+i(1-\tau)\alpha e^{-(1-\alpha)x(\mu)}$ and $x(\mu)=[\mu(1+\eta)/\gamma-\theta_R\ln(1-\alpha)-(1-\theta_R)\ln(\alpha\tau)]/\alpha$. At $\mu=0$ the root condition is $i=i(\tau,\delta)$, and the right-hand side falls in $\mu$, so $\mu>0$ exactly when $i>i(\tau,\delta)$. A monotone, additively homogeneous map is non-expansive in the sup norm, since $T(s)\le T(s'+\lVert s-s'\rVert_\infty\mathbf1)=T(s')+\lVert s-s'\rVert_\infty\mathbf1$, so every path from a finite state has $s_t/t\to\mu\mathbf1$.
