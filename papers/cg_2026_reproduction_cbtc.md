@@ -36,7 +36,9 @@ Neither of the following is established here. They are stated because the paper 
 $$Y \;=\; \bigl[\theta (BK)^{\rho} + (1-\theta) L^{\rho}\bigr]^{1/\rho}, \qquad \rho \le 1,\; \rho \ne 0,\; \sigma = \tfrac{1}{1-\rho},$$
 competitive factor payment gives the wage share
 $$\frac{wL}{Y} \;=\; \frac{1-\theta}{\theta\,(B\,K/L)^{\rho} + (1-\theta)},$$
-whose derivative in $B$, at a fixed capital–labour ratio, has the sign of $-\rho$. Capital-augmenting progress lowers the wage share when $\sigma>1$, raises it when $\sigma<1$, and leaves it alone at $\sigma=1$. This is standard, and it is derived in the companion note to this one.
+whose derivative in $B$, at a fixed capital–labour ratio, is
+$$\frac{\partial}{\partial B}\,\frac{wL}{Y} \;=\; -\,\rho\;\frac{\theta(1-\theta)\,(BK/L)^{\rho}}{B\,\bigl[\theta\,(BK/L)^{\rho} + (1-\theta)\bigr]^{2}}$$
+and so has the sign of $-\rho$, every other factor being positive. Capital-augmenting progress lowers the wage share when $\sigma>1$, raises it when $\sigma<1$, and leaves it alone at $\sigma=1$. This is standard.
 
 **(ii) Capital’s preferred rate under Cobb–Douglas.** On the generational face of the two-class model used below — full depreciation of both stocks, logarithmic objectives, value functions affine in the logs — the owner’s and the worker’s payoffs in the tax are each of the form $M\ln(1-\tau)+N\ln\tau$ plus a constant, hence strictly concave with a unique interior peak at $N/(M+N)$. The peaks are
 $$\tau_C \;=\; \frac{\beta^{2}\gamma(1-\alpha)(1-\theta_R)}{1-\beta+\beta\gamma\bigl(1-\theta_R+\alpha\theta_R\bigr)}, \qquad
