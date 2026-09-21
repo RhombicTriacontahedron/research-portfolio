@@ -40,7 +40,7 @@ whose derivative in $B$, at a fixed capital–labour ratio, is
 $$\frac{\partial}{\partial B}\,\frac{wL}{Y} \;=\; -\,\rho\;\frac{\theta(1-\theta)\,(BK/L)^{\rho}}{B\,\bigl[\theta\,(BK/L)^{\rho} + (1-\theta)\bigr]^{2}}$$
 and so has the sign of $-\rho$, every other factor being positive. Capital-augmenting progress lowers the wage share when $\sigma>1$, raises it when $\sigma<1$, and leaves it alone at $\sigma=1$. This is standard.
 
-**(ii) Capital’s preferred rate under Cobb–Douglas.** On the generational face of the two-class model used below — full depreciation of both stocks, logarithmic objectives, value functions affine in the logs — the owner’s and the worker’s payoffs in the tax are each of the form $M\ln(1-\tau)+N\ln\tau$ plus a constant, hence strictly concave with a unique interior peak at $N/(M+N)$. The peaks are
+**(ii) Capital’s preferred rate under Cobb–Douglas.** On the generational face of the two-class model used below — full depreciation of both stocks, logarithmic objectives, value functions affine in the logs — the owner’s and the worker’s payoffs in the tax are each of the form $M\ln(1-\tau)+N\ln\tau$ plus a constant, hence strictly concave with a unique interior peak at $N/(M+N)$. The peaks, which are those of Galindo Escajeda (2026, Proposition 4) with capital accumulated at unit elasticity, are
 $$\tau_C \;=\; \frac{\beta^{2}\gamma(1-\alpha)(1-\theta_R)}{1-\beta+\beta\gamma\bigl(1-\theta_R+\alpha\theta_R\bigr)}, \qquad
 \tau_W \;=\; \frac{(1-\theta_R)(1-\alpha\beta)}{1-\theta_R+\alpha\theta_R},$$
 with $\alpha$ the capital share, $\beta$ the discount factor, $\gamma$ the elasticity of the reproduction technology and $\theta_R$ the weight of the worker’s own income in it. Both are interior, $\tau_C<\tau_W$, and the Pareto set in the tax is exactly $[\tau_C,\tau_W]$: every rate below $\tau_C$ is dominated, because *both* classes strictly prefer a larger one. Capital’s own preferred rate falls in $\alpha$ and vanishes as $\alpha\to1$; the worker’s does not, tending to $(1-\theta_R)(1-\beta)>0$.
@@ -224,6 +224,8 @@ The following bound the results above and are not conjectures about them.
 
 -   Acemoglu, D., A. A. Gitmez, and M. Shadmehr (2026). “Automation and Repression.” NBER Working
     Paper 35336. DOI 10.3386/w35336.
+-   Galindo Escajeda, C. (2026). “The Unowned Factor: Who Prices the Reproduction of Labour.” Working paper,
+    <https://rhombictriacontahedron.github.io/research-portfolio/papers/cg_2026_unowned_factor.html>.
 -   Marx, K. *Capital*, Volume I, chapter 23 (Moore–Aveling translation).
 -   Straub, L., and I. Werning (2020). “Positive Long-Run Capital Taxation: Chamley-Judd Revisited.”
     *American Economic Review* 110(1): 86–119. DOI 10.1257/aer.20150210.
