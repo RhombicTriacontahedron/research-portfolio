@@ -8,7 +8,8 @@ An economy has two produced stocks. Capital is accumulated out of investment and
 the return; the workforce’s productive capacity is produced by consumption and by a public good, and
 no agent holds a claim on it. With one period a generation, full depreciation and logarithmic
 objectives, each class’s policy is a constant share that is its best reply to every constant-share
-policy of the other, from every state.[^1] Five results follow. First, with logarithmic objectives
+policy of the other, from every state.[^1] Five results follow at the provision corner, where all
+revenue is spent in kind, a split both classes choose whenever the tax is small enough. First, with logarithmic objectives
 each class’s preferred capital-income tax is a function of the **other** class’s reproduction
 elasticity and never of its own, and symmetrising the two stocks’ laws of motion does not symmetrise
 this. Off the logarithm, an interior best constant tax from a state on that tax’s balanced path equals
@@ -19,13 +20,13 @@ and the worker’s, and below the owner’s own optimum both classes strictly pr
 Counting the investment share as an instrument, every rate but the owner’s is dominated by a joint
 rise in investment, an under-investment that needs no strategic interaction. The rate that maximises
 any weighted sum of the two payoffs is strictly increasing in the weight on workers and strictly
-positive at every weight, the owner’s own included. Third, at the provision corner, where all revenue
-is spent in kind, the tax is linear and the elasticity of substitution is one. These are the two
+positive at every weight, the owner’s own included. Third, the tax is linear and the elasticity of
+substitution is one. These are the two
 features to which Galor and Moav attribute their unanimity, and the classes still disagree. Unownedness alone does
 not open the gap: either of two primitives suffices, where the tax falls and what workers value. With a tax on what the owner invests, workers who value
 consumption and an owner with no taste for wealth, the two classes want the same rate, although the
-workforce is still produced and still owned by nobody. Fourth, comparing stationary states at the
-provision corner, the worker’s higher rate favours workers when reproduction builds capacity and, per
+workforce is still produced and still owned by nobody. Fourth, comparing stationary states, the
+worker’s higher rate favours workers when reproduction builds capacity and, per
 head, favours owners when it builds persons, so the sign of the tax’s distributional effect is not a
 property of the tax. Fifth, the owner’s preferred rate carries labour’s share as a factor, is strictly
 decreasing in capital’s share, and vanishes as that share goes to one, while the worker’s does not.
@@ -148,7 +149,9 @@ interval over which they disagree swallows the range.
 ## Inefficiency without strategy
 
 The results above are proved on a face of the model: one period is a generation, capital and the
-public stock depreciate fully, and both objectives are logarithmic. The cross of §4 is stated with the
+public stock depreciate fully, and both objectives are logarithmic. The results on the tax also hold
+the split at the provision corner, which both classes choose for every tax up to a bound given in
+§5.3; §7 says which of them survive above it. The cross of §4 is stated with the
 logarithm, and Proposition 4$''$ gives the object that replaces it off the logarithm; the results of
 §§5–6 do not use the cross. On that face each class’s policy is a constant share containing none of the
 other’s instruments, so each class’s rule is its best reply to every constant-share rule of the other,
@@ -633,8 +636,10 @@ kind; only a large one warrants a cash rebate.
 ## 5.4 The bargained rate
 
 Proposition 7 is what makes the next statement well posed. Because the two classes agree on the
-split and each class’s total derivative along $\phi(\tau)$ equals its partial, a bargain over fiscal
-policy is a bargain over one number, and a Pareto weight selects a point rather than a frontier.
+split and each class’s total derivative along $\phi^{\star}(\tau)$ equals its partial, a bargain over
+fiscal policy is a bargain over one number. Proposition 8 holds the split where Proposition 7 puts it
+for every tax up to $\beta(1-\theta)(1-\alpha)/(\alpha\theta)$, and there a Pareto weight selects a
+point rather than a frontier.
 
 **Proposition 8 (the weighted peak).** *Hold the split at the provision corner $\phi=1$, and let
 $\lambda\in[0,1]$ be the Pareto weight on workers. The rate that maximises $\lambda U^{W}+(1-\lambda)U^{C}$ is*
@@ -1109,13 +1114,14 @@ the path are then $\beta^t e^{(1-\sigma)x_t}=e^{(1-\sigma)x_0}\tilde\beta^t$ wit
 $\tilde\beta=\beta e^{(1-\sigma)\hat g}$. An interior first-order condition in $\tau$ is therefore
 $\sum_t\tilde\beta^t\,\partial x_t/\partial\tau=0$ whenever $\tilde\beta<1$, which is the
 logarithmic first-order condition at discount $\tilde\beta$. Differentiating the sum term by term is
-legitimate. On the box of §4 the matrix $T$ is entrywise non-negative (A.3), so each power $T^j$ is
-stochastic and $\partial s_t/\partial\tau=\sum_{j<t}T^j\,\partial d/\partial\tau$ is bounded entrywise by
-$t\,\lVert\partial d/\partial\tau\rVert_\infty$; hence $|\partial x_t/\partial\tau|\le Lt$, with $L$ bounded
-on any closed interval of taxes inside $(0,1)$. On such an interval of half-width $\varepsilon$ around
-the tax in question, $x_t$ moves by at most $L\varepsilon t$ off the ray, so the weights
+legitimate. On the box of §4 the matrix $T$ is entrywise non-negative (A.3) and its rows sum to one,
+so each power $T^j$ is stochastic and $\partial s_t/\partial\tau=\sum_{j<t}T^j\,\partial d/\partial\tau$ is
+bounded entrywise by $t\,\lVert\partial d/\partial\tau\rVert_\infty$. The owner’s felicity also carries
+$(1-\omega)\ln(1-\tau)$ directly, so $|\partial x_t/\partial\tau|\le L(1+t)$, with $L$ bounded on any
+closed interval of taxes inside $(0,1)$. On such an interval of half-width $\varepsilon$ around the tax
+in question, $x_t$ moves by at most $L\varepsilon(1+t)$ off the ray, so the weights
 $\beta^te^{(1-\sigma)x_t}$ are at most $Cr^t$ with $r=\tilde\beta e^{|1-\sigma|L\varepsilon}$, which is below
-one for $\varepsilon$ small. The differentiated terms are then bounded by $CLt\,r^t$, which is summable,
+one for $\varepsilon$ small. The differentiated terms are then bounded by $CL(1+t)\,r^t$, which is summable,
 and the Weierstrass M-test makes the differentiated series converge uniformly. That condition is Proposition 4 with
 $\beta$ replaced by $\tilde\beta$, for both classes and with $\gamma_K$ free (the coefficient
 system of A.2 at a free discount). The closed form at any discount is free of the class’s own
