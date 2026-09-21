@@ -30,7 +30,7 @@ The map $k\mapsto\ln\bigl((1-\delta)e^{k}+i(1-\tau)e^{E_C}\bigr)$ is not affine 
 
 At a stationary ratio the owner’s first-order condition in $\tau$, holding $(d,i)$ fixed, equates the marginal loss on the after-tax pie to the marginal value of $G'$ through future $L$. On the domain $\theta_R<1$, $\gamma>0$ that second term is positive, and at $\sigma=1$ it is at least $\beta^2(1-\omega)(1-\alpha)\gamma(1-\theta_R)$ (Proposition 7). The candidate is therefore interior.
 
-**Theorem (paths).** On a compact share set there is no assigned owner path with $\tau_t\to 0$ and bounded composites (Proposition 3). At $\sigma=1$ neither qualifier is needed: every path with $\tau_t\to 0$ carries labour and capital income to zero (Proposition 5), and every assigned-optimal path stays above $\bar\tau$ (Proposition 10), so a convergent assigned-optimal path has $\tau_\infty\ge\bar\tau$. At $\sigma=1$ permanent shut-down is not assigned-optimal (Proposition 4).
+**Theorem (paths).** At $\sigma\ge1$, on a compact share set there is no assigned owner path with $\tau_t\to 0$ and bounded composites (Proposition 3). At $\sigma=1$ neither qualifier is needed: every path with $\tau_t\to 0$ carries labour and capital income to zero (Proposition 5), and every assigned-optimal path stays above $\bar\tau$ (Proposition 10), so a convergent assigned-optimal path has $\tau_\infty\ge\bar\tau$. At $\sigma=1$ permanent shut-down is not assigned-optimal (Proposition 4).
 
 The long-run zero of the durable-capital benchmark is therefore unavailable here, and not for either of the two reasons a reader might expect. The owner is not constrained, and the tax has not become cheap. The revenue is an input into the labour he hires.
 
@@ -81,6 +81,8 @@ g'&=\ln(\varphi\tau)+E_C.
 $$
 
 At $\delta=1$, $K'=i(1-\tau)e^{E_C}$. Tax formulas below that recover a one-generation peak are written at $\varphi=1$. The same corner is used here unless a sentence names the split.
+
+Throughout, $\alpha,\beta,\gamma,\theta_R,i\in(0,1)$, $\omega\in[0,1)$ and $\delta\in(0,1]$. This is the *licensed box*. A statement that names a narrower range, as Lemma 2 does for $\delta$, restricts it. The box is not a convenience: at $\theta_R=1$ or $\gamma=0$ the public stock drops out of the labour law and every floor below is zero.
 
 **Who chooses.** One player sets one instrument. The owner chooses $\tau$ each period, knowing the state $(K,n,g)$. The direction $d$, the investment share $i$ and the in-kind share $\varphi$ are held fixed, and workers choose nothing: they hold no assets, and their stock $n$ moves by the labour law. The owner’s problem is therefore a single-agent dynamic programme, and the *assigned* tax is its solution — a policy $\tau(K,n,g)$, or the path that policy generates from a given start. It is not the equilibrium set of a game in which workers or a government also choose, and it is not a Ramsey plan. The worker peak $\tau_W$ displayed below is the one-generation analogue with the instrument assigned to workers; it is displayed for comparison and not derived here.
 
@@ -200,7 +202,7 @@ $$
 $$
 A vanishing tax therefore pushes labour down through the public stock, while depreciation caps how far capital deepening can push it back up. The two cannot be balanced. Appendix A.3 measures the three logged stocks in units that turn the transition into a strict contraction, and reads the conclusion off a linear rate. The argument uses $\delta>0$ twice: depreciation dominates under capital deepening, and there is no AK residual at $\sigma=1$.[^1]
 
-**Corollary.** At $\sigma=1$ and $\delta\in(0,1]$, neither the bounded-composite and bounded-capital qualifiers of Proposition 3 nor its share hypothesis is needed: a vanishing tax carries capital income down with it whatever the composites do, and Proposition 10 below puts every assigned-optimal path above a positive constant.
+**Corollary (No qualifier at Cobb–Douglas).** At $\sigma=1$ and $\delta\in(0,1]$, neither the bounded-composite and bounded-capital qualifiers of Proposition 3 nor its share hypothesis is needed: a vanishing tax carries capital income down with it whatever the composites do (Proposition 5), and Proposition 10 below puts every assigned-optimal path above a positive constant.
 
 **Corollary (convergent paths).** At $\sigma=1$ and $\delta\in(0,1]$, if an assigned-optimal path satisfies $\tau_t\to\tau_\infty$, then $\tau_\infty\ge\bar\tau>0$, with $\bar\tau$ the constant of Proposition 10. In particular there is no convergent assigned-owner path with a zero long-run capital-income tax.
 
@@ -322,7 +324,7 @@ $$
 
 *Proof.* At such a state $B(1-\tau)=\delta K$ and $R=(1-\delta)K$, so $k'(\tau)-k'(\lambda\tau)=\ln\bigl(1+\delta(\lambda-1)\tau/(1-\tau-\delta(\lambda-1)\tau)\bigr)$. Only the capital term of Appendix A.2 changes: $u$ becomes that quantity there, and dividing by $\lambda-1$ and letting $\lambda\downarrow 1$ replaces $\beta/(1-\beta)$ by $\beta\delta/(1-\beta)$ in $Q$. Monotonicity and the limit are read off $Q(\delta)$. Capital stationarity pins $ie^{E_C}$, so the substitution is exact at that tax and at no other tax of the same state; below it the capital term is larger and the bound that applies is Proposition 10’s, which holds at every state and every tax whatever $\delta$ is. $\square$
 
-**Corollary (Conjecture 2, wherever its object exists).** At $\sigma=1$, Conjecture 2 holds in a form that does not wait for the limit: whenever a stationary assigned peak $\tau_C(\delta)$ exists it satisfies $\tau_C(\delta)\ge c(\delta)/(1+c(\delta))\ge\bar\tau>0$, at every $\delta\in(0,1]$; and along every sequence $\delta_j\downarrow 0$ for which such peaks exist, $\liminf_j\tau_C(\delta_j)\ge c_0/(1+c_0)$ with $c_0=\beta^2(1-\alpha)\gamma(1-\theta_R)$. Existence at a given $\delta$ is Conjecture 1, so the bound is a statement about the peaks there are and not a claim that there is one at every $\delta$.
+**Corollary (Conjecture 2, wherever its object exists).** At $\sigma=1$, Conjecture 2 holds in a form that does not wait for the limit: whenever a stationary assigned peak $\tau_C(\delta)$ exists it satisfies $\tau_C(\delta)\ge c(\delta)/(1+c(\delta))\ge\bar\tau>0$, at every $\delta\in(0,1]$ (Proposition 11, then Proposition 10); and along every sequence $\delta_j\downarrow 0$ for which such peaks exist, $\liminf_j\tau_C(\delta_j)\ge c_0/(1+c_0)$ with $c_0=\beta^2(1-\alpha)\gamma(1-\theta_R)$. Existence at a given $\delta$ is Conjecture 1, so the bound is a statement about the peaks there are and not a claim that there is one at every $\delta$.
 
 **Corollary (paths, second route).** Under the hypotheses of Proposition 10, every assigned-optimal path satisfies $\tau_t\ge\bar\tau$ for all $t$. In particular no assigned-optimal path has $\tau_t\to 0$. Propositions 3 and 5 reach a wider class — every *feasible* path — by a divergence argument, and say what a vanishing tax does along one; Proposition 10 reaches the optimal paths by a variation, and puts a number on how far from zero they stay.
 
