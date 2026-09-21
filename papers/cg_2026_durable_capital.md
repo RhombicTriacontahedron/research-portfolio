@@ -32,7 +32,7 @@ At a stationary ratio the owner’s first-order condition in $\tau$, holding $(d
 
 **Theorem (paths).** At $\sigma\ge1$, on a compact share set there is no feasible path, and so no assigned owner path, with $\tau_t\to 0$ and bounded composites; no optimality condition is used (Proposition 3 above the Cobb–Douglas face, Proposition 5 on it). At $\sigma=1$ neither qualifier is needed: there is a threshold $\tau_c\in(0,1)$ such that every path whose tax stays at or below $\tau_c$ from some date on, and in particular every path with $\tau_t\to 0$, carries capital, labour and capital income to zero (Proposition 5), and every assigned-optimal path stays above $\bar\tau$ (Proposition 10), so a convergent assigned-optimal path has $\tau_\infty\ge\bar\tau$. Above that face the qualifiers can be dropped as well, on a domain stated in the primitives. With the investment share $i$ held fixed and $\underline A$ the limit of $Y/K$ as capital deepens, every feasible path with $\tau_t\to0$ carries capital income to zero exactly when $i\underline A<\delta$; when $i\underline A\ge\delta$, every path with summable taxes keeps capital bounded away from zero and capital income above $\underline AK_t$ (Proposition 5$'$). At $\sigma=1$ a zero tax at any single date is not assigned-optimal (Proposition 4).
 
-The long-run zero of the durable-capital benchmark is therefore unavailable here, and not for either of the two reasons a reader might expect. The owner is not constrained, and the tax has not become cheap. The revenue is an input into the labour he hires.
+At Cobb–Douglas the long-run zero of the durable-capital benchmark is therefore unavailable to the assigned owner, and not for either of the two reasons a reader might expect. The owner is not constrained, and the tax has not become cheap. The revenue is an input into the labour he hires. Above that face Proposition 5$'$ classifies feasible vanishing-tax paths, not the assigned owner’s optimum.
 
 **Theorem (floor).** At $\sigma=1$, with the direction $d$ and the investment share $i\in(0,1)$ held fixed, so that the owner chooses the tax and nothing else, the assigned owner’s best response at *any* state exists (Proposition 6) and, for every $\delta\in(0,1]$, satisfies $\tau^*\ge\bar\tau=c/(1+c)>0$ with
 
@@ -92,7 +92,7 @@ Throughout, $\alpha,\beta,\gamma,\theta_R,i\in(0,1)$, $\omega\in[0,1)$ and $\del
 
 ## Laws that survive
 
-**Lemma 1 (Public stock).** $G'=\varphi\tau e^{E_C}$ does not depend on $\delta$. At $\varphi=1$, $\tau=0$ implies $G'=0$ for every $\delta\in(0,1]$.
+**Lemma 1 (Public stock).** $G'=\varphi\tau e^{E_C}$ does not depend on $\delta$. For every fixed $\varphi\in(0,1]$, $\tau=0$ implies $G'=0$ for every $\delta\in(0,1]$.
 
 **Lemma 2 (Loss of affinity).** For $\delta\in(0,1)$,
 
