@@ -175,7 +175,7 @@ Sections 3 to 6 state results proved for this economy. Where a statement reprodu
 it is marked as a nesting check and the source is named: the owner’s investment share in the
 exogenous-workforce limit (§2), the worker’s preferred rate in the cash-only economy (§5), and the
 degeneracy of the equilibrium concept on this face (§3), which is a property of a named class of
-games and is cited, not claimed. The persons reading of Proposition 11 is the full-depreciation case of the stationary incidence result of a companion paper by the same author (Galindo Escajeda 2026), re-derived in Appendix A.8. That paper studies the economy at general depreciation and without preferences over policy. The two papers share their laws of motion at full depreciation, and this paper uses no result from it.
+games and is cited, not claimed. The persons reading of Proposition 11 is the full-depreciation case of the stationary incidence result of a companion paper by the same author (Galindo Escajeda 2026), re-derived in Appendix A.8; that paper’s Proposition 4(iii) signs the same derivative at the provision corner at every pair of depreciation rates. That paper studies the economy at general depreciation and without preferences over policy. The two papers share their laws of motion at full depreciation, and this paper uses no result from it.
 
 # 2. The economy
 
