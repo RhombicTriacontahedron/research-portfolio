@@ -1443,17 +1443,23 @@ up to the $v_c$ of (v), which there lies below full employment.
 
 *(v) Capital, wherever the economy’s law of motion holds.* Suppose also
 that the stationary wage lies below the extractable day at full
-employment, $\omega^\ast < \hat e$ — as it does at every pinned
-compromise short of full employment under Proposition 12’s hypotheses.
-Then capital’s stationary path is optimal against labour’s over every
-deviation that keeps the economy’s law of motion up to and at full
-employment, including deviations that carry labour’s committed path
-outside its feasible set, and capital’s best reply to the stationary
-wage moves the employment rate monotonically to $v^\ast$ from every
-initial employment rate up to $v_c$, the first employment rate above
-$v^\ast$ at which, at capital’s shadow price, accumulation stops paying
-($v_c = 1$ if it pays all the way to full employment). $v_c$ can lie
-below full employment: it does whenever
+employment, $\omega^\ast < \hat e$. That holds at every compromise short
+of full employment, pinned or bargained, wherever
+$\hat e \ge \hat\omega$ — the Domain’s $\bar e > \bar\omega$ read across
+the whole interval, as in Proposition 12 — because the wage never
+exceeds labour’s ceiling and the ceiling lies below $\hat\omega$ short
+of full employment. The supposition therefore restricts the result only
+where the ceilings cross below full employment, and there it is a real
+restriction: it fails at some pinned compromises on the first branch
+(A.12$''$(v)). Then capital’s stationary path is optimal against
+labour’s over every deviation that keeps the economy’s law of motion up
+to and at full employment, including deviations that carry labour’s
+committed path outside its feasible set, and capital’s best reply to the
+stationary wage moves the employment rate monotonically to $v^\ast$ from
+every initial employment rate up to $v_c$, the first employment rate
+above $v^\ast$ at which, at capital’s shadow price, accumulation stops
+paying ($v_c = 1$ if it pays all the way to full employment). $v_c$ can
+lie below full employment: it does whenever
 $\beta\hat e - \omega^\ast < \rho\kappa/(1+\lambda)$, and it does at
 some compromises that meet all of Proposition 12’s hypotheses
 (A.12$''$(v)). It does at two of the four compromises (iv) reads, both
@@ -3019,7 +3025,20 @@ continuation needed on the sub-class $E \le 0$.
 
 *(v) Capital: a verification through the stable manifold.* Fix the
 compromise as in (iii), interior, so $0 < s^\ast < 1$ and
-$\omega^\ast > 0$, and suppose $\omega^\ast < \hat e$. Write
+$\omega^\ast > 0$, and suppose $\omega^\ast < \hat e$. The supposition
+is automatic wherever $\hat e \ge \hat\omega$: every compromise has
+$\omega^\ast \le \bar\omega(v^\ast) = \hat\omega\,(v^\ast)^\eta < \hat\omega \le \hat e$,
+since $\eta > 0$ and $v^\ast < 1$. Where $\hat\omega > \hat e$ it can
+fail at a pinned compromise on the first branch. At $\kappa = 1$,
+$\rho = 1/10$, $\lambda = c = n = 0$, $b = 1/2$, $\zeta = 4$,
+$\eta = 1$, $\hat e = 3/5$, $\hat\omega = 1$ and $m_0 = 31/100$,
+$\beta = 1/3$; the pinned drift has its unique zero at
+$v^\ast \approx 0.685$, below the ceilings’ crossing at
+$(\hat e/\hat\omega)^{1/(\eta+\zeta)} \approx 0.903$; there
+$N(v^\ast) > 0$, $s^\ast \approx 0.060$ and
+$\bar\omega(v^\ast)s^\ast \le \kappa\rho$, so the compromise is interior
+and pinned, and its wage
+$\omega^\ast = \bar\omega(v^\ast) \approx 0.685$ exceeds $\hat e$. Write
 $\gamma \equiv (1-c)/\kappa$, $\sigma \equiv c(1+\lambda)/(\rho\kappa)$
 and $q \equiv \sigma + \gamma p = P/\kappa$, with $P$ as in (iii);
 $D(x) \equiv \bar e(x) - \omega^\ast$, which is at least
