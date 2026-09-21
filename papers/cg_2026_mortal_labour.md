@@ -6,19 +6,22 @@ Carlos Galindo Escajeda
 
 Which class wants the next working generation reared more is decided by
 one inequality, and the inequality splits exactly into a term for
-horizon and a term for ownership. A working cohort whose only stake in
-the next generation is its old-age claim wants a larger levy for rearing
-the next generation than capital does, everywhere on Cobb–Douglas
-production and, off it, at a state stationary under capital’s own policy
-and at horizons where capital’s stationary problem is concave, if and
-only if
+horizon and a term for the division of the product. A working cohort
+whose only stake in the next generation is its old-age claim wants a
+larger levy for rearing the next generation than capital does,
+everywhere on Cobb–Douglas production and, off it, than capital’s
+stationary preferred levy, at a state stationary under capital’s own
+policy and at horizons where capital’s stationary problem is strictly
+concave, if and only if
 $\beta\lambda_C\,[1+s(1-\gamma)]+\beta\lambda_C\,\frac{1-\sigma}{\sigma}\,[s(1-\gamma\theta)+\gamma(1-\theta)(1-s)]<1$,
 where $\beta\lambda_C$ is capital’s generational horizon, $s$ the
 capital share, $\sigma$ the elasticity of substitution, and $\gamma$ and
 $\theta$ describe rearing. The first term is the threshold of a single
 planner with capital’s horizon, and at a given capital share no
-elasticity enters it. The second is the weight of capital’s claims on
-profits, and it vanishes only at unit elasticity.
+elasticity enters it. The second is the weight of the factor shares in
+capital’s problem, its claims on profits less the smaller part the wage
+share plays in private rearing, and whenever capital cares about its
+successors at all it vanishes only at unit elasticity.
 
 Workers live two periods, and their old age is a claim on the product of
 the generation they rear. Capitalist generations are linked by altruism,
@@ -54,19 +57,19 @@ the next generation, and each supplies half of the answer. In
 representative-agent models in which public capital accumulates as a
 stock, the growth-maximising tax rate exceeds the welfare-maximising
 one, because consumption is forgone while the stock is built (surveyed
-in Misch, Gemmell and Kneller 2013, p. 11). That gap is a gap in
-horizon, and there are no classes to assign it to. In Galor and Moav
-(2006) a tax funds public schooling and rich and poor agree on its rate.
-Their footnote 42 attributes the agreement to the linear tax and unit
-elasticity, and states that above unit elasticity the poor would prefer
-higher taxes and below it the rich. The rate they agree on maximises
-next period’s output per worker. Here only the working cohort’s
-preferred levy maximises next period’s output (Proposition 1); capital’s
-generally does not. In their model the classes are divided by what they
-own, and the elasticity signs the division. A reader of the first
-expects classes to disagree about the next generation only as far as
-they discount it differently. A reader of the second expects them to
-agree at unit elasticity.
+in Misch, Gemmell and Kneller 2013, p. 11). Read through Proposition 6
+below, that gap is a gap in horizon, and there are no classes to assign
+it to. In Galor and Moav (2006) a tax funds public schooling and rich
+and poor agree on its rate. Their footnote 42 attributes the agreement
+to the linear tax and unit elasticity, and states that above unit
+elasticity the poor would prefer higher taxes and below it the rich. The
+rate they agree on maximises next period’s output per worker. Here only
+the working cohort’s preferred levy maximises next period’s output
+(Proposition 1); capital’s generally does not. In their model the
+classes are divided by what they own, and the elasticity signs the
+division. A reader of the first expects classes to disagree about the
+next generation only as far as they discount it differently. A reader of
+the second expects them to agree at unit elasticity.
 
 This paper shows that the two answers are the two terms of one
 inequality. When workers are mortal cohorts whose old age is a claim on
@@ -80,15 +83,18 @@ $\beta\lambda_C[1+s(1-\gamma)]+\beta\lambda_C\frac{1-\sigma}{\sigma}[s(1-\gamma\
 one horizon assigned to each class. At a given capital share no
 elasticity enters it, and on Cobb–Douglas production it is the whole
 threshold, so there the classes disagree through horizon alone, at the
-elasticity at which Galor and Moav’s agree. The second term is capital’s
-claims on profits: its valuation of the capital share, its accumulation
-out of it and the base on which the levy is raised. It has the sign of
-their footnote, positive below unit elasticity, where it can make the
-owner the class that wants more, and negative above. Each literature
-therefore carries one of the two terms and lacks the other. Off unit
-elasticity the levy compared is capital’s stationary preferred levy
-(Proposition 7). That this levy is also capital’s optimum in its full
-dynamic programme is not established.
+elasticity at which Galor and Moav’s agree. The second term is the
+weight of the factor shares in capital’s problem. It is capital’s claims
+on profits (its valuation of the capital share, its accumulation out of
+it and the base on which the levy is raised), less the part the wage
+share plays in private rearing, which enters with the opposite sign and
+is always the smaller of the two. Net, the term has the sign of their
+footnote, positive below unit elasticity, where it can make the owner
+the class that wants more, and negative above. Each literature therefore
+has an analogue of one of the two terms, and neither states the
+inequality that joins them. Off unit elasticity the levy compared is
+capital’s stationary preferred levy (Proposition 7). That this levy is
+also capital’s optimum in its full dynamic programme is not established.
 
 Marx put the question in two consecutive sentences of chapter 23 of
 *Capital*: *“The maintenance and reproduction of the working class is,
@@ -161,21 +167,23 @@ is the premise of the pension–fertility literature, where a planner
 designs the child-related benefit to internalise the fiscal externality
 children create under pay-as-you-go (Meier and Wrede 2005). Here that
 stake is set against the stake of the owner being levied. In
-representative-agent public-capital models the growth-maximising rate
-exceeds the welfare-maximising one (surveyed in Misch, Gemmell and
-Kneller 2013, p. 11). Proposition 6 shows that on unit elasticity the
-class comparison is that comparison, relabelled, so nothing here
-contradicts it in its own model. What that model does not deliver is an
-answer to *which class* wants the levy. Off unit elasticity the
-relabelling fails, and the gap between the two is exactly capital’s
-claims on profits. That finite-lived decision makers under-fund forward
-goods relative to an infinitely lived one is Kahn and Lim’s (2001)
-finding for representative agents. What is claimed here is the
-assignment of the two horizons to two classes, the closed-form threshold
-that divides them, its invariance to the pension institution, the timing
-reversal, the form of the fund, and, off unit elasticity, the preferred
-levy, the horizon bound free of the rearing technology and the necessity
-of capital’s claims on profits.
+representative-agent models in which public capital accumulates as a
+stock, the growth-maximising rate exceeds the welfare-maximising one
+(surveyed in Misch, Gemmell and Kneller 2013, p. 11). Proposition 6
+shows that on unit elasticity the class comparison is that comparison,
+relabelled, so nothing here contradicts it in its own model. What that
+model does not deliver is an answer to *which class* wants the levy. Off
+unit elasticity the relabelling fails. The gap between the two is
+exactly the weight of the factor shares, and where horizon alone favours
+labour and substitution is at most unit, capital’s claims on profits are
+the only part of it that can reverse the ordering. That finite-lived
+decision makers under-fund forward goods relative to an infinitely lived
+one is Kahn and Lim’s (2001) finding for representative agents. What is
+claimed here is the assignment of the two horizons to two classes, the
+closed-form threshold that divides them, its invariance to the pension
+institution, the timing reversal, the form of the fund, and, off unit
+elasticity, the preferred levy, the horizon bound free of the rearing
+technology and the necessity of capital’s claims on profits.
 
 **Whose belief it displaces.** Two readers hold beliefs these results
 cost them. The first reads the reproduction of the working class as
@@ -503,12 +511,15 @@ Consider a decider with capital’s horizon $L$ and none of the three,
 compared at a state stationary under its own policy. (i) If $\sigma\le1$
 and $L(1+s(1-\gamma))<1$, it never wants a larger levy than the working
 cohort. (ii) At every $\sigma$, if $L\le1/2$, it never wants a larger
-levy than the working cohort. (iii) Capital’s threshold differs from
-that of the one-agent planner of Proposition 6, for whom the factor
-shares move nothing, by*
+levy than the working cohort. (iii) At a common capital share, capital’s
+threshold differs from that of the one-agent planner of Proposition 6,
+for whom the factor shares move nothing, by*
 $$T_{\text{capital}}-T_{\text{planner}}=\frac{1-\sigma}{\sigma}\,\bigl[s(1-\gamma\theta)+p(1-s)\bigr],$$
-*whose bracket is positive. So the class comparison is a relabelled
-one-agent comparison only at $\sigma=1$.*
+*whose bracket is positive. Of it, capital’s three claims contribute
+$\frac{1-\sigma}{\sigma}[s+p(1-s)]$ and labour’s wage base in private
+rearing contributes $-\frac{1-\sigma}{\sigma}\gamma\theta s$. So the
+class comparison is a relabelled one-agent comparison only at
+$\sigma=1$.*
 
 Proposition 10 locates the reversal of Proposition 8. With substitution
 at most unit, horizon alone favours labour wherever
@@ -839,9 +850,12 @@ and $M=s-G<1$ gives $1-LM>0$, so the decider’s stationary valuation is
 finite at every $\sigma$. For (ii),
 $T=1+s(1-\gamma)+\varepsilon w\gamma\theta s<1+s(1-\gamma)+\gamma\theta s\le1+s<2$
 at every $\varepsilon<1$, so $L\le1/2$ gives $LT<1$. For (iii),
-subtracting gives $e[s(1-\gamma\theta)+p(1-s)]$. The bracket is positive
-on the unit box because $s(1-\gamma\theta)>0$ and $p(1-s)\ge0$. The
-difference therefore vanishes if and only if $\sigma=1$.
+subtracting at a common $s$ gives $e[s(1-\gamma\theta)+p(1-s)]$. Because
+$T$ is affine in the markers, the channels separate: switching $f$, $a$
+and $c$ on with $w=0$ gives $e[s+p(1-s)]$, and switching $w$ on gives
+$-e\gamma\theta s$ whatever the other markers are. The bracket is
+positive on the unit box because $s(1-\gamma\theta)>0$ and $p(1-s)\ge0$.
+The difference therefore vanishes if and only if $\sigma=1$.
 
 # References
 
