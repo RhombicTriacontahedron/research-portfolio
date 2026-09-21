@@ -620,12 +620,13 @@ $$\phi(\tau)=\frac{\beta(1-\theta)\,\kappa(\tau,0)}{\alpha\tau\bigl(\beta(1-\the
 \qquad \kappa(\tau,0)=1-\alpha+\alpha\tau ,$$
 
 *is their common unconstrained optimum. Both classes’ first-order conditions in $\phi$ vanish at the
-same point, so each class’s total derivative in $\tau$ along $\phi^{\star}(\tau)$ equals its partial. The bargaining problem is
+same point, and $\phi^{\star}$ is constant where the corner binds, so each class’s total derivative in
+$\tau$ along $\phi^{\star}(\tau)$ equals its partial. The bargaining problem is
 one-dimensional in $\tau$, and which class holds $\phi$ does not matter.*
 
 This answers the natural objection that the assignment of the fiscal instruments is an unexplained
 primitive. On this face it is not load-bearing: only the tax is contested. The unconstrained common
-split exceeds one — so the provision corner $\phi=1$ binds and nothing is rebated in cash — exactly
+split is at least one — so the provision corner $\phi=1$ binds and nothing is rebated in cash — exactly
 when $\tau\le\beta(1-\theta)(1-\alpha)/(\alpha\theta)$. A small state should be spent entirely in
 kind; only a large one warrants a cash rebate.
 
@@ -1074,14 +1075,26 @@ $$\tau_W^{\text{cons}}=\frac{c_0}{a_0+c_0},\qquad
 \tau_C=\frac{\beta c}{(1-\omega)+\beta a+\beta c},\qquad
 \tau_C^{\text{inv}}=\frac{c}{a+c},\qquad \tau_W=\frac{r}{p+r}.$$
 
-At $\omega=0$, $\tau_C^{\text{inv}}=c_0/(a_0+c_0)=\tau_W^{\text{cons}}$, which is (iv). At $\omega=0$,
-(ii) is immediate: $\beta c_0/(1+\beta a_0+\beta c_0)<c_0/(a_0+c_0)$ because
-$\beta(a_0+c_0)<1+\beta(a_0+c_0)$. For (ii) and (iii) at every $\omega\in[0,1)$, substitute the
-coefficients of A.1 and write each parameter in $(0,1)$ as $x=X/(1+X)$ with $X>0$, and $\omega$ as
-$W/(1+W)$ with $W\ge0$. The numerators and denominators of $\tau_W^{\text{cons}}-\tau_C$ and of
-$\tau_W-\tau_C^{\text{inv}}$ then become polynomials in $(X,W)$ whose coefficients all share one sign,
-each with a term free of $W$, so both differences are strictly positive on the whole box. The
-expansion was carried out by computer algebra. $\qquad\blacksquare$
+At $\omega=0$, $\tau_C^{\text{inv}}=c_0/(a_0+c_0)=\tau_W^{\text{cons}}$, which is (iv). For (ii) and
+(iii), write $Q\equiv\beta\gamma\bigl(1-\theta(1-\alpha)\bigr)$, so that $D_0=1-\alpha\beta+Q$ and
+$D_\tau=1-\beta+Q$. From A.1,
+
+$$(a_0+c_0)\Delta=\alpha(1-\beta)+Q,\qquad
+(a+c)\Delta=(1-\beta)\bigl[\alpha+\omega(1-\alpha)\bigr]+Q,\qquad (p+r)\Delta=Q,$$
+
+and $\tau_C$ and $\tau_W$ are Proposition 4’s rates at $\gamma_K=1$, $\tau_C$ carrying no $\omega$.
+Substituting,
+
+$$\tau_W^{\text{cons}}-\tau_C=\frac{\beta\gamma(1-\alpha)(1-\beta)(1-\theta)\,D_0}
+{\bigl[\alpha(1-\beta)+Q\bigr]\bigl[1-\beta+Q\bigr]},$$
+
+$$\tau_W-\tau_C^{\text{inv}}=\frac{(1-\beta)(1-\theta)\bigl[\alpha+\omega(1-\alpha)\bigr]D_0}
+{\bigl[1-\theta(1-\alpha)\bigr]\bigl[(1-\beta)\bigl(\alpha+\omega(1-\alpha)\bigr)+Q\bigr]},$$
+
+the first because $(1-\beta+Q)-\beta\bigl[\alpha(1-\beta)+Q\bigr]=(1-\beta)D_0$. Every factor is strictly
+positive for parameters in $(0,1)$ and $\omega\in[0,1)$, which proves (ii) and (iii). The first
+difference does not depend on $\omega$ at all, since under the tax on capital income neither rate
+does. $\qquad\blacksquare$
 
 ## A.7 Proof of Proposition 4$''$
 
@@ -1095,7 +1108,15 @@ Replace log felicity by $e^{(1-\sigma)x}/(1-\sigma)$ at $\sigma\neq 1$. The disc
 the path are then $\beta^t e^{(1-\sigma)x_t}=e^{(1-\sigma)x_0}\tilde\beta^t$ with
 $\tilde\beta=\beta e^{(1-\sigma)\hat g}$. An interior first-order condition in $\tau$ is therefore
 $\sum_t\tilde\beta^t\,\partial x_t/\partial\tau=0$ whenever $\tilde\beta<1$, which is the
-logarithmic first-order condition at discount $\tilde\beta$. That condition is Proposition 4 with
+logarithmic first-order condition at discount $\tilde\beta$. Differentiating the sum term by term is
+legitimate. On the box of §4 the matrix $T$ is entrywise non-negative (A.3), so each power $T^j$ is
+stochastic and $\partial s_t/\partial\tau=\sum_{j<t}T^j\,\partial d/\partial\tau$ is bounded entrywise by
+$t\,\lVert\partial d/\partial\tau\rVert_\infty$; hence $|\partial x_t/\partial\tau|\le Lt$, with $L$ bounded
+on any closed interval of taxes inside $(0,1)$. On such an interval of half-width $\varepsilon$ around
+the tax in question, $x_t$ moves by at most $L\varepsilon t$ off the ray, so the weights
+$\beta^te^{(1-\sigma)x_t}$ are at most $Cr^t$ with $r=\tilde\beta e^{|1-\sigma|L\varepsilon}$, which is below
+one for $\varepsilon$ small. The differentiated terms are then bounded by $CLt\,r^t$, which is summable,
+and the Weierstrass M-test makes the differentiated series converge uniformly. That condition is Proposition 4 with
 $\beta$ replaced by $\tilde\beta$, for both classes and with $\gamma_K$ free (the coefficient
 system of A.2 at a free discount). The closed form at any discount is free of the class’s own
 elasticity (Proposition 4$'$), so that elasticity reaches the balanced-path rate only through
