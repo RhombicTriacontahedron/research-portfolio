@@ -8,7 +8,7 @@ An economy has two produced stocks. Capital is accumulated out of investment and
 the return; the workforce’s productive capacity is produced by consumption and by a public good, and
 no agent holds a claim on it. With one period a generation, full depreciation and logarithmic
 objectives, each class’s policy is a constant share that is its best reply to every constant-share
-policy of the other, from every state.[^1] Five results follow at the provision corner, where all
+policy of the other, from every state. Five results follow at the provision corner, where all
 revenue is spent in kind, a split both classes choose whenever the tax is small enough. First, with logarithmic objectives
 each class’s preferred capital-income tax is a function of the **other** class’s reproduction
 elasticity and never of its own, and symmetrising the two stocks’ laws of motion does not symmetrise
@@ -33,6 +33,10 @@ decreasing in capital’s share, and vanishes as that share goes to one, while t
 The range over which the two classes agree therefore collapses as production becomes capital-intensive, and
 the fiscal question turns from a joint investment into a pure distributive conflict.
 
+**Keywords.** reproduction of labour; capital income taxation; unowned factor; class conflict; dynamic games; fiscal incidence
+
+**JEL.** H22, H23, H41, J13, E25, C73
+
 # 1. Introduction
 
 Two factors are produced, and only one of them is owned.
@@ -50,7 +54,7 @@ fund for providing the necessaries of life, or the labour-fund which the laboure
 the maintenance of himself and family, and which, whatever be the system of social production, he
 must himself produce and reproduce” (*Capital* I, ch. 23). A tax on capital income that fills a
 public stock is another form of appearance of the same fund: an incidence statement in this
-instrument set, not a claim about whose labour produced the output. “The maintenance and
+instrument set, in which a single tax on capital income is the only instrument that funds the public stock, not a claim about whose labour produced the output. “The maintenance and
 reproduction of the working class is, and must ever be, a necessary condition to the reproduction of
 capital” (same chapter). Here that condition is the strictly positive loading of the public stock in
 the owner’s continuation. The map from this period’s spending to next period’s labour is this
@@ -144,7 +148,7 @@ that share goes to one, while the worker’s tends to a strictly positive limit.
 which the classes agree therefore collapses as production becomes capital-intensive, while the
 interval over which they disagree swallows the range.
 
-*A distributional sign set by what reproduction produces.* The same laws of motion can be read with the workforce as capacity in classes of fixed size, as here, or as persons in two dynasties, as in the companion paper (Galindo Escajeda 2026). At the provision corner the worker’s higher preferred rate favours workers under the first reading and, per head, owners under the second (Proposition 11). Whether a tax spent on reproduction redistributes towards labour is therefore not a property of the tax: it turns on whether reproduction yields more capable workers or more of them.
+*A distributional sign set by what reproduction produces.* The same laws of motion can be read with the workforce as capacity in classes of fixed size, as here, or as persons in two dynasties. At the provision corner the worker’s higher preferred rate favours workers under the first reading and, per head, owners under the second (Proposition 11). Whether a tax spent on reproduction redistributes towards labour is therefore not a property of the tax: it turns on whether reproduction yields more capable workers or more of them.
 
 ## Inefficiency without strategy
 
@@ -175,7 +179,7 @@ Sections 3 to 6 state results proved for this economy. Where a statement reprodu
 it is marked as a nesting check and the source is named: the owner’s investment share in the
 exogenous-workforce limit (§2), the worker’s preferred rate in the cash-only economy (§5), and the
 degeneracy of the equilibrium concept on this face (§3), which is a property of a named class of
-games and is cited, not claimed. The persons reading of Proposition 11 is the full-depreciation case of the stationary incidence result of a companion paper by the same author (Galindo Escajeda 2026), re-derived in Appendix A.8; that paper’s Proposition 4(iii) signs the same derivative at the provision corner at every pair of depreciation rates. That paper studies the economy at general depreciation and without preferences over policy. The two papers share their laws of motion at full depreciation, and this paper uses no result from it.
+games and is cited, not claimed.[^1] The persons reading of Proposition 11 is proved in Appendix A.8.
 
 # 2. The economy
 
@@ -719,7 +723,7 @@ worker who values consumption. Appendix A.6 gives the proof.
 ## 5.6 Whose head the tax favours: persons or capacity
 
 Section 2.1 reads $N_t$ as effective labour in classes of fixed size. The same laws can be read with
-$N_t$ counting persons. The companion paper (Galindo Escajeda 2026) studies that economy: two
+$N_t$ counting persons. The economy then has two
 dynasties whose numbers grow at $g_{W}=B_W\bigl(c_W^{\theta}z^{1-\theta}\bigr)^{\gamma}$ and
 $g_C=B_C\,c_C^{\gamma}$, with $c_j$ consumption per head and $z$ the public stock per worker. At full
 depreciation its laws of motion are those of §2.2 at $\gamma_K=B_K=1$, term by term, and owner
@@ -1141,8 +1145,7 @@ constant tax from a fixed initial state is not this object. $\qquad\blacksquare$
     $c_C/c_W=\chi\,(z/c_W)^{1-\theta}$. At $\phi=1$, $c_W=(1-\alpha)Y_t/N_t$ and
     $z=G_t/N_t=\tau\alpha Y_{t-1}/N_t$. With capital and the public stock per worker at rest, output grows
     at the common factor $g$, so $z/c_W=\alpha\tau/((1-\alpha)g)$ and
-    $c_C/c_W=\chi\bigl(\alpha\tau/((1-\alpha)g)\bigr)^{1-\theta}$, the full-depreciation case of the
-    companion paper’s stationary incidence formula. Its stationary growth factor
+    $c_C/c_W=\chi\bigl(\alpha\tau/((1-\alpha)g)\bigr)^{1-\theta}$. The stationary growth factor
     solves $g=D\,g^{-\alpha\gamma/(1-\alpha)}g^{-\gamma(1-\theta)}$, that is $g^{H_0}=D$, with
     $$D=B_W\bigl((1-\alpha)A\bigr)^{\gamma\theta}(\tau\alpha A)^{\gamma(1-\theta)}\bigl(i(1-\tau)\alpha A\bigr)^{\alpha\gamma/(1-\alpha)} .$$
     Since $H_0>0$ the root is unique and $\ln g=\ln D/H_0$, so
@@ -1193,8 +1196,6 @@ elasticity rather than the curvature gives the same verdict.
 -   Fershtman, C. (1987). “Identification of Classes of Differential Games for Which the Open Loop is
     a Degenerate Feedback Nash Equilibrium.” *Journal of Optimization Theory and Applications* 55(2):
     217–231. DOI 10.1007/bf00939082.
--   Galindo Escajeda, C. (2026). “The Inert Transfer: Redistribution in an Economy That Produces Its
-    Own Workforce.” Working paper.
 -   Galor, O., and O. Moav (2006). “Das Human-Kapital: A Theory of the Demise of the Class Structure.”
     *Review of Economic Studies* 73(1): 85–117. DOI 10.1111/j.1467-937x.2006.00370.x.
 -   Jones, L. E., R. E. Manuelli, and P. E. Rossi (1997). “On the Optimal Taxation of Capital Income.”
