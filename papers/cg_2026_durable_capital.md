@@ -46,7 +46,7 @@ $$
 
 ## Nontechnical introduction
 
-Capital is owned. Successor labour is not. A tax on capital income fills a public stock that helps reproduce that labour. Chamley (1986) and Judd (1985) send a capital-income tax to zero in the long run. This paper asks what becomes of that benchmark when the revenue is not a payment out of production but an input into it, and when the rate is set by the owner himself.
+Capital is owned. Successor labour is not. A tax on capital income fills a public stock that helps reproduce that labour. In their optimal programmes Chamley (1986) and Judd (1985) send a capital-income tax to zero in the long run. This paper asks what becomes of that benchmark when the revenue is not a payment out of production but an input into it, and when the rate is set by the owner himself.
 
 Their planner is not the assigned owner. Their revenue does not rebuild an unowned labour stock. When capital lasts one generation, a take from current profit and a capital-income tax are the same map into next period’s consumption, capital, and public stock. When some capital survives, that map splits. The tax still funds the public stock. Surviving machines no longer have to be rebuilt in full from after-tax profit.
 
@@ -213,6 +213,8 @@ A vanishing tax therefore pushes labour down through the public stock, while dep
 **Proposition 4 (Shut-down at Cobb–Douglas).** Let $\sigma=1$ and extend the control set to $[0,1)$ with $\ln 0=-\infty$. A path with $\tau_T=0$ at a single date $T$ has $g_{T+1}=-\infty$, hence $n_t=-\infty$ for every $t>T+1$, since labour’s own lag then carries $-\infty$ whatever the public stock does afterwards. Labour being essential at $\sigma=1$, the path has $C_{C,t}=0$ from $t>T+1$, so its value is $-\infty$, while at a finite state any constant $\tau\in(0,1)$ has finite value (Proposition 6). Shut-down, at a single date or for ever, is therefore not assigned-optimal.[^3]
 
 Proposition 10 is the contact with Chamley–Judd’s conclusion on this face: at $\sigma=1$ no assigned-optimal path has $\tau_t\to 0$, and none goes below $\bar\tau$. Off this face, Proposition 3 says that on a compact share set no *feasible* path at all combines a vanishing tax with bounded composites.
+
+Proposition 5 has a relative in the planner literature. Straub and Werning (2020) show that in Chamley’s representative-agent economy with recursive, non-additive preferences, a steady state with a zero capital tax and slack tax bounds must carry either zero private wealth, so that the tax base has vanished, or a zero labour tax (the page cited is p. 4 of the 2015 working-paper version). Here the zero tax base arrives by another route and needs no restriction on preferences: the revenue rebuilds the labour that capital employs, so a vanishing tax takes capital income down with it.
 
 ------------------------------------------------------------------------
 
@@ -382,7 +384,7 @@ Under the one-generation expansion, $\tau_C\to 0$ as $s_K\to 1$ when $\sigma>1$.
 3.  Labour is not an unowned factor reproduced from a public stock filled by the capital-income tax.
 4.  In *this* model at $\delta=1$ the assigned programme is a constant, so its time limit and its stationary value coincide; for $\delta<1$ the closure that delivers constancy fails (Lemma 2).
 
-Commitment turns on a fact of the Environment rather than on that list: whether any other agent’s current choice reacts to the taxes the owner is expected to set later. Chamley and Judd’s zero is the long-run limit of a plan chosen once, at date zero, by a planner who takes into account how savers respond to the taxes they expect. Such a plan is in general not time-consistent: re-solved later, with capital already in place, it calls for a higher tax on that capital, so it is optimal only if the planner can commit to it. The assigned owner faces no such response. The investment share is held fixed and workers do not save, so no other agent’s current choice depends on the taxes the owner is expected to set later. With a single decision-maker and geometric discounting, the plan the owner would choose at date zero is the plan he carries out when he chooses afresh each period. Proposition 10 is a statement about his choice at every state, so its floor does not rest on commitment. The price of that robustness is scope: holding $i$ fixed shuts the saving margin through which the planner’s commitment problem arises, and the paper says nothing about that problem.
+Commitment turns on a fact of the Environment rather than on that list: whether any other agent’s current choice reacts to the taxes the owner is expected to set later. Chamley and Judd’s zero is the long-run limit of a plan chosen once, at date zero, by a planner who takes into account how savers respond to the taxes they expect. Such a plan is in general not time-consistent: re-solved later, with capital already in place, it calls for a higher tax on that capital, so it is optimal only if the planner can commit to it. The assigned owner faces no such response. The investment share is held fixed and workers do not save, so no other agent’s current choice depends on the taxes the owner is expected to set later. With a single decision-maker and geometric discounting, the plan the owner would choose at date zero is the plan he carries out when he chooses afresh each period. Proposition 10 is a statement about his choice at every state, so its floor does not rest on commitment. The price of that robustness is scope: holding $i$ fixed shuts the saving margin through which the planner’s commitment problem arises, and the paper says nothing about that problem. Judd (1985) himself reaches a positive long-run tax only by removing commitment: when worker-dominated legislatures control only short-term rates, their equilibrium generally carries substantial long-run taxation. The floor here runs the other way, from what the revenue buys, and holds with the owner choosing afresh at every state.
 
 Lemma 1 keeps $G$ tied to $\tau$ at every $\delta$. Proposition 1 keeps $V_g$ loaded through $\gamma(1-\theta_R)$ at every $\delta$ on the licensed box. Those facts, Proposition 5, and above all Proposition 10, are the contact.
 
@@ -529,7 +531,7 @@ Marx, K. *Capital*, Volume I, chapter 23 (Moore–Aveling translation).
 
 Stokey, N. L., R. E. Lucas, and E. C. Prescott (1989). *Recursive Methods in Economic Dynamics*. Harvard University Press.
 
-Straub, L., and I. Werning (2020). Positive long-run capital taxation: Chamley–Judd revisited. *American Economic Review* 110(1): 86–119.
+Straub, L., and I. Werning (2020). Positive long-run capital taxation: Chamley–Judd revisited. *American Economic Review* 110(1): 86–119. Working-paper version, MIT, February 2015.
 
 [^1]: Restoring $a$ adds it to $E_C$ and $E_W$. It shifts Lemma 6’s $x_L$ by $-a/\alpha$ and $x_K$ by $a/(1-\alpha)$, multiplies $i(\tau,\delta)$ by $e^{-a/\alpha}$, and moves the constants of Appendix A.3–A.5. It changes no statement except Lemma 6’s formulas and the threshold on $\delta$ that Lemma 6 attaches to Conjecture 1.
 
