@@ -20,14 +20,15 @@ classes strictly prefer it to every other interior equilibrium, though
 nothing selects it. Third, a closed-form threshold on the accumulation
 share decides whether the pool persists, so the preferred compromise can
 be the one that exhausts it. Exhausting it costs neither class anything
-where the boundary leaves the binding bounds unchanged; a boundary
-rationing capital’s accumulation can reverse labour’s half of the
-ranking or capital’s, as labour’s wage is held or re-optimised. Where
-the ceilings move with the pool, the separation breaks; past a threshold
-in the ceilings’ response no extractable day admits any interior
-compromise, and short of it at most three stationary employment rates
-exist, at most one where labour is pinned to its ceiling, which is an
-equilibrium wherever the law of motion survives full employment.
+where the full-employment boundary leaves the binding bounds unchanged;
+a boundary rationing capital’s accumulation can reverse labour’s half of
+the ranking or capital’s, as labour’s wage is held or re-optimised.
+Where the ceilings move with the pool, the separation breaks; past a
+threshold in the extraction ceiling’s response no extractable day admits
+any interior compromise, and short of it at most three stationary
+employment rates exist, at most one where labour is pinned to its
+ceiling, which is an equilibrium wherever its wage lies below the
+extractable day at full employment and the law of motion survives there.
 
 # 1. Introduction
 
@@ -120,26 +121,27 @@ an arbitrary pair of effective prices together with the accumulation
 rate it carries, the dichotomy in which no extractable day whatever
 admits an interior compromise, the uniqueness of the compromise where
 the pool pins labour to its ceiling together with the two-sided shape of
-the set where it does, the global count of at most three stationary
-employment rates on that branch, at most two of them where labour
-bargains and at most one where the pool pins it to its ceiling, and the
-identity that closes the stationary layer on the employment rate itself
-in that case — existence and uniqueness of the regime’s stationary
-employment rate under two closed-form inequalities in the primitives,
-one placing the drift’s zero in the state space and a second,
-independent one making the compromise there interior; and, for that
-layer, both halves of the equilibrium claim — labour’s by concavity, and
-capital’s, whose maximised Hamiltonian is convex in log-employment
-wherever capital accumulates, through the stable manifold of its own
-problem wherever the economy’s law of motion holds at full employment.
-**Whose belief it displaces.** Two readers hold beliefs these results
-cost them. The first, in the Goodwin lineage, puts the employment rate
-into the wage equation by postulate: the unemployment pool regulates the
-wage, and the cycle runs on that regulation. Here that regulation is a
-property not of the economy but of what labour’s organisation counts.
-Where each class values what happens to its whole class, the compromise
-is decided without reference to the pool and the pool is its residual;
-the postulate returns, changed, only where organised labour counts its
+the set where it does, the global count, wherever some extractable day
+admits a compromise, of at most three stationary employment rates, at
+most two of them where labour bargains and at most one where the pool
+pins it to its ceiling, and the identity that closes the stationary
+layer on the employment rate itself in that case — existence and
+uniqueness of the regime’s stationary employment rate under two
+closed-form inequalities in the primitives, one placing the drift’s zero
+in the state space and a second, independent one making the compromise
+there interior; and, for that layer, both halves of the equilibrium
+claim — labour’s by concavity, and capital’s, whose maximised
+Hamiltonian is convex in log-employment wherever capital accumulates,
+through the stable manifold of its own problem wherever the economy’s
+law of motion holds at full employment. **Whose belief it displaces.**
+Two readers hold beliefs these results cost them. The first, in the
+Goodwin lineage, puts the employment rate into the wage equation by
+postulate: the unemployment pool regulates the wage, and the cycle runs
+on that regulation. Here that regulation is a property not of the
+economy but of what labour’s organisation counts. Where each class
+values what happens to its whole class, the compromise is decided
+without reference to the pool and the pool is its residual; the
+postulate returns, changed, only where organised labour counts its
 employed members alone or where the pool bounds what it can enforce. The
 second, in the Lancaster lineage, expects the conflict to be over a
 capital stock with labour never limiting, and — reading Mehrling — its
@@ -759,8 +761,9 @@ concavity on both branches; capital’s cannot be reached that way,
 because wherever capital accumulates its maximised Hamiltonian is
 strictly convex in log-employment, and is reached instead through the
 stable manifold of capital’s own problem, wherever the economy’s law of
-motion holds at full employment. **Markov perfection is not claimed in
-the regime**, and non-stationary paths are not characterised. **And one
+motion holds at full employment and the stationary wage lies below the
+extractable day there. **Markov perfection is not claimed in the
+regime**, and non-stationary paths are not characterised. **And one
 scope line matters throughout: Propositions 8 to 11 characterise the
 compromise subsystem in $(s,\omega)$ at a given employment rate.** A
 full rest point of the canonical system requires $\dot x = 0$ as well,
