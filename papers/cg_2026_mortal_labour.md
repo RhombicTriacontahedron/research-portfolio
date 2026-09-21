@@ -77,7 +77,7 @@ the product of the generation they rear, and capitalists are generations
 whose capital outlives them, labour wants the larger levy for rearing
 the next generation, on Cobb–Douglas production at every state and off
 it at a state stationary under capital’s own policy where capital’s
-stationary problem is concave, if and only if
+stationary problem is strictly concave, if and only if
 $\beta\lambda_C[1+s(1-\gamma)]+\beta\lambda_C\frac{1-\sigma}{\sigma}[s(1-\gamma\theta)+\gamma(1-\theta)(1-s)]<1$
 (Propositions 3, 8 and 10). The first term is the planner’s wedge with
 one horizon assigned to each class. At a given capital share no
@@ -854,8 +854,9 @@ subtracting at a common $s$ gives $e[s(1-\gamma\theta)+p(1-s)]$. Because
 $T$ is affine in the markers, the channels separate: switching $f$, $a$
 and $c$ on with $w=0$ gives $e[s+p(1-s)]$, and switching $w$ on gives
 $-e\gamma\theta s$ whatever the other markers are. The bracket is
-positive on the unit box because $s(1-\gamma\theta)>0$ and $p(1-s)\ge0$.
-The difference therefore vanishes if and only if $\sigma=1$.
+positive on the model’s domain, where $s>0$ and $0<\gamma,\theta<1$,
+because $s(1-\gamma\theta)>0$ and $p(1-s)\ge0$. The difference therefore
+vanishes if and only if $\sigma=1$.
 
 # References
 
