@@ -18,17 +18,16 @@ distributionist, unless a wage bound excludes one, and below it none;
 where the accumulationist compromise leaves an unemployment pool, both
 classes strictly prefer it to every other interior equilibrium, though
 nothing selects it. Third, a closed-form threshold on the accumulation
-share decides whether the pool persists, so the preferred compromise can
-be the one that exhausts it. Exhausting it costs neither class anything
-where the full-employment boundary leaves the binding bounds unchanged;
-a boundary rationing capital’s accumulation can reverse labour’s half of
-the ranking or capital’s, as labour’s wage is held or re-optimised.
-Where the ceilings move with the pool, the separation breaks; past a
-threshold in the extraction ceiling’s response no extractable day admits
-any interior compromise, and short of it at most three stationary
-employment rates exist, at most one where labour is pinned to its
-ceiling, which is an equilibrium wherever the law of motion survives at
-full employment.
+share decides whether the pool persists, so the preferred compromise may
+exhaust it. Exhausting it costs neither class anything where the
+full-employment boundary leaves the binding bounds unchanged; a boundary
+rationing capital’s accumulation can reverse labour’s half of the
+ranking or capital’s, as labour’s wage is held or re-optimised. Where
+the ceilings move with the pool, the separation breaks; past a threshold
+in the extraction ceiling’s response no extractable day admits any
+interior compromise, and short of it at most three stationary employment
+rates exist, at most one where labour is pinned to its ceiling, which is
+an equilibrium wherever the law of motion survives at full employment.
 
 # 1. Introduction
 
