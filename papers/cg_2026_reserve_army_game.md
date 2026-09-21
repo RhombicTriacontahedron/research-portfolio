@@ -761,9 +761,8 @@ concavity on both branches; capital’s cannot be reached that way,
 because wherever capital accumulates its maximised Hamiltonian is
 strictly convex in log-employment, and is reached instead through the
 stable manifold of capital’s own problem, wherever the economy’s law of
-motion holds at full employment and the stationary wage lies below the
-extractable day there. **Markov perfection is not claimed in the
-regime**, and non-stationary paths are not characterised. **And one
+motion holds at full employment. **Markov perfection is not claimed in
+the regime**, and non-stationary paths are not characterised. **And one
 scope line matters throughout: Propositions 8 to 11 characterise the
 compromise subsystem in $(s,\omega)$ at a given employment rate.** A
 full rest point of the canonical system requires $\dot x = 0$ as well,
@@ -772,8 +771,11 @@ Proposition 12 closes that where labour sits on its own ceiling
 throughout — the pinned case, $\hat\omega \le \kappa\rho$ — with
 existence and uniqueness under two closed-form conditions in the
 primitives — one placing the drift’s zero in the state space, a second,
-independent one making the compromise there interior; where labour
-bargains it remains open. All of these are recorded in Appendix B.
+independent one making the compromise there interior. Where labour
+bargains, Proposition 13 counts the rest points instead: at most two,
+with existence on each arm an explicit sign condition on the drift. On
+Proposition 9’s first branch the regime therefore rests at no more than
+three employment rates. All of these are recorded in Appendix B.
 
 **Proposition 7 (the regime’s shadow prices, and where the separation
 breaks).** Write $P_i \equiv (1-c)p^i_x + c\,p^i_y$ for the price class
