@@ -46,7 +46,11 @@ the unemployment pool is not what the game determines. In Mehrling it
 is: the employment ratio is a state of his game, labour’s wage growth is
 bounded by a Phillips inequality in it, and where capital is organised
 and labour is not, capital holds employment below full so that wages
-cannot rise.
+cannot rise. Osborne (1984) had reached that conclusion without
+dynamics: a capitalist who chooses how many workers to bargain with
+leaves some of them unemployed, because the unemployed are the
+strike-breakers that strengthen his hand in the bargain, and wages are
+held down.
 
 This paper shows that once the employment rate is the state of a
 two-class differential game, and once the classes are organised enough
@@ -3733,6 +3737,9 @@ of Political Economy* 81(5): 1092–1109.
 Mehrling, P. G. (1986). A classical model of the class struggle: a
 game-theoretic approach. *Journal of Political Economy* 94(6):
 1280–1303.
+
+Osborne, M. J. (1984). Capitalist-worker conflict and involuntary
+unemployment. *Review of Economic Studies* 51(1): 111–127.
 
 Pohjola, M. (1983). Nash and Stackelberg solutions in a differential
 game model of capitalism. *Journal of Economic Dynamics and Control* 6:
