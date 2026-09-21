@@ -43,6 +43,10 @@ technology. And for elasticities at most one, where horizon alone
 favours labour, only capital’s own claims on profits can reverse the
 ordering.
 
+**Keywords:** reproduction of labour; old-age claims; overlapping
+generations; capital income taxation; public investment in children;
+elasticity of substitution.
+
 # 1. Introduction
 
 Two literatures answer the question of who wants public money spent on
@@ -555,12 +559,21 @@ accumulation at a given wage and the rearing of the workforce is not an
 instrument. Sasaki (2021) embeds the same pair. Here the capitalist
 horizon is a parameter and the reproduction levy is the object.
 
-**The pensioner’s stake.** In the pension–fertility literature the
-child-related benefit is designed by a planner to internalise the fiscal
-externality children create under pay-as-you-go (Meier and Wrede 2005).
-That stake is the literature’s premise, and Proposition 1 inherits it.
-What is added is its comparison with the owner being levied, and its
-survival when the pension is a claim on profits.
+**The pensioner’s stake.** That a pay-as-you-go pension gives the old a
+stake in investment in the young is an old idea, which Boldrin and
+Montes (2005) trace to Pogue and Sgontz (1977). In their model public
+schooling is a loan from the middle-aged to the young, repaid through
+the tax that finances pensions. Rangel (2003) shows that among selfish
+generations investment in a forward good is inefficiently low unless it
+is linked to a backward one such as social security. In the
+pension–fertility literature the child-related benefit is designed by a
+planner to internalise the fiscal externality children create under
+pay-as-you-go (Meier and Wrede 2005). That stake is the premise of all
+three, and Proposition 1 inherits it. None of them sets the pensioner
+against a class that owns capital: in Boldrin and Montes capital is the
+life-cycle wealth of the old, and Rangel’s agents are generations, not
+classes. What is added is the stake’s comparison with the owner being
+levied, and its survival when the pension is a claim on profits.
 
 **The pension institution and class alignment.** Rada (2012) finds that
 the pension institution aligns retirees with capital under full funding
@@ -573,7 +586,10 @@ ordering.
 forward goods relative to an infinitely lived one in Kahn and Lim
 (2001), for representative agents. Proposition 4 assigns the two
 horizons to two classes, and finds that the finite-lived class wants
-none of a good whose return falls after its lifetime.
+none of a good whose return falls after its lifetime. That cohort is
+Rangel’s (2003) selfish generation facing a forward good with no
+backward claim attached. The owner of capital, whose capital outlives
+it, still wants the good whenever it cares about its successors.
 
 **Public-input arithmetic.** The wedge between growth-maximising and
 welfare-maximising public-capital shares is the representative-agent
@@ -844,6 +860,9 @@ Mattauch, L., D. Klenert, J. E. Stiglitz and O. Edenhofer (2018).
 Overcoming wealth inequality by capital taxes that finance public
 investment. NBER Working Paper 25126.
 
+Boldrin, M. and A. Montes (2005). The intergenerational state: Education
+and pensions. *Review of Economic Studies* 72(3): 651–664.
+
 Meier, V. and M. Wrede (2005). Pension, fertility, and education. CESifo
 Working Paper 1521.
 
@@ -854,9 +873,16 @@ Misch, F., N. Gemmell and R. Kneller (2013). Growth and welfare
 maximization in models of public finance and endogenous growth. *Journal
 of Public Economic Theory* 15(6): 939–967.
 
+Pogue, T. F. and L. G. Sgontz (1977). Social security and investment in
+human capital. *National Tax Journal* 30(2): 157–169.
+
 Rada, C. (2012). The economics of pensions. Remarks on growth, policy
 and class conflict. University of Utah Department of Economics Working
 Paper 2012-02.
+
+Rangel, A. (2003). Forward and backward intergenerational goods: Why is
+social security good for the environment? *American Economic Review*
+93(3): 813–834.
 
 Sasaki, H. (2021). Automation technology, economic growth, and income
 distribution in an economy with dynasties and overlapping generations.
