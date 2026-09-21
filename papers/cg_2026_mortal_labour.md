@@ -8,9 +8,10 @@ Which class wants the next working generation reared more is decided by
 one inequality, and the inequality splits exactly into a term for
 horizon and a term for ownership. A working cohort whose only stake in
 the next generation is its old-age claim wants a larger levy for rearing
-than capital does, everywhere on Cobb–Douglas production and, off it, at
-a state stationary under capital’s own policy and at horizons where
-capital’s stationary problem is concave, if and only if
+the next generation than capital does, everywhere on Cobb–Douglas
+production and, off it, at a state stationary under capital’s own policy
+and at horizons where capital’s stationary problem is concave, if and
+only if
 $\beta\lambda_C\,[1+s(1-\gamma)]+\beta\lambda_C\,\frac{1-\sigma}{\sigma}\,[s(1-\gamma\theta)+\gamma(1-\theta)(1-s)]<1$,
 where $\beta\lambda_C$ is capital’s generational horizon, $s$ the
 capital share, $\sigma$ the elasticity of substitution, and $\gamma$ and
@@ -65,10 +66,10 @@ the second expects them to agree at unit elasticity.
 This paper shows that the two answers are the two terms of one
 inequality. When workers are mortal cohorts whose old age is a claim on
 the product of the generation they rear, and capitalists are generations
-whose capital outlives them, labour wants the larger levy for rearing,
-on Cobb–Douglas production at every state and off it at a state
-stationary under capital’s own policy where capital’s stationary problem
-is concave, if and only if
+whose capital outlives them, labour wants the larger levy for rearing
+the next generation, on Cobb–Douglas production at every state and off
+it at a state stationary under capital’s own policy where capital’s
+stationary problem is concave, if and only if
 $\beta\lambda_C[1+s(1-\gamma)]+\beta\lambda_C\frac{1-\sigma}{\sigma}[s(1-\gamma\theta)+\gamma(1-\theta)(1-s)]<1$
 (Propositions 3, 8 and 10). The first term is the planner’s wedge with
 one horizon assigned to each class. No elasticity enters it, and on
@@ -78,11 +79,10 @@ Moav’s agree. The second term is capital’s claims on profits: its
 valuation of the capital share, its accumulation out of it and the base
 on which the levy is raised. It has the sign of their footnote, positive
 below unit elasticity, where it can make the owner the class that wants
-more, and negative above. Each literature therefore omits a term that
-the other does not supply. Off unit elasticity the levy compared is
-capital’s preferred levy at that state (Proposition 7). That this levy
-is also capital’s optimum in its full dynamic programme is not
-established.
+more, and negative above. Each literature therefore carries one of the
+two terms and lacks the other. Off unit elasticity the levy compared is
+capital’s stationary preferred levy (Proposition 7). That this levy is
+also capital’s optimum in its full dynamic programme is not established.
 
 Marx put the question in two consecutive sentences of chapter 23 of
 *Capital*: *“The maintenance and reproduction of the working class is,
@@ -142,8 +142,8 @@ Capital’s own claims on profits are what drive a reversal. They enter
 its problem through what it values, what it accumulates and the base on
 which the levy is raised. A decider with capital’s horizon and none of
 those claims never out-demands the pensioner where horizon alone favours
-labour. The one-agent relabelling fails at every elasticity other than
-one (Proposition 10).
+labour and substitution is at most unit. The one-agent relabelling fails
+at every elasticity other than one (Proposition 10).
 
 **Contribution statement.** The class structure is Michl and Foley’s
 (2004): capitalist dynasties beside life-cycle workers, which Sasaki
@@ -444,8 +444,8 @@ preferred levy is well defined at every elasticity where the two
 hypotheses hold. What is not established is that it is capital’s optimum
 in its full programme: the valuation fixes the slope of the continuation
 at $k^*$, not its curvature away from it. The hypotheses restrict the
-horizon. They hold whenever $\sigma\ge1$ and $L\le1/2$, and whenever
-$\sigma=1/2$ and $L\le1/3$.
+horizon only below unit elasticity. They hold at every horizon when
+$\sigma\ge1$, and whenever $\sigma=1/2$ and $L\le1/3$.
 
 **Proposition 8 (the ordering off unit elasticity).** *Let
 $\lambda_C>0$. At $k^*$ stationary under capital’s own policy, with
@@ -748,8 +748,8 @@ differentiable at $k^*$, the envelope theorem makes $v'(u^*)$ the $V^*$
 above, so the first-order condition of capital’s own problem at $r^*$ is
 $J'(r^*)=0$, and $r^*=r_C$. The hypotheses hold in the two stated cases.
 For $\sigma\ge1$, $\varepsilon\in[0,1)$ gives $G\ge0$ and
-$M\le s+\varepsilon(1-s)<1$, so $1-L+LG\ge1-L>0$ and $1-LM>0$. For
-$\sigma=1/2$, $\varepsilon=-1$ gives
+$M\le s+\varepsilon(1-s)<1$, so $1-L+LG\ge1-L>0$ and $1-LM>0$ at every
+$L\in(0,1)$. For $\sigma=1/2$, $\varepsilon=-1$ gives
 $G=\gamma[s(1+\theta)-(1-\theta)(1-s)]>-1$ and $M=2s-1-G<s$, so
 $L\le1/3$ gives $1-L+LG>1-2L>0$ and $1-LM>0$.
 
