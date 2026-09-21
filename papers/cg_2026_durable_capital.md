@@ -117,7 +117,7 @@ $$
 \tau_W=\frac{(1-\theta_R)\bigl(1-\beta+\beta s_L/\sigma\bigr)}{1-\theta_R+\theta_R(s_K/\sigma)}
 $$
 
-were derived under log-affine transitions at $\delta=1$. For $\delta<1$ the closure that made the assigned tax a constant is gone, so constancy can no longer be read off a closed form. The convention $V_j=M_j\ln(1-\tau)+N_j\ln\tau+H_j$ requires those transitions.
+were derived under log-affine transitions at $\delta=1$ (Galindo Escajeda 2026). For $\delta<1$ the closure that made the assigned tax a constant is gone, so constancy can no longer be read off a closed form. The convention $V_j=M_j\ln(1-\tau)+N_j\ln\tau+H_j$ requires those transitions.
 
 ------------------------------------------------------------------------
 
@@ -518,6 +518,8 @@ Acemoglu, D. (2002). Directed technical change. *Review of Economic Studies* 69(
 Barro, R. J. (1990). Government spending in a simple model of endogenous growth. *Journal of Political Economy* 98(5): S103–S125.
 
 Chamley, C. (1986). Optimal taxation of capital income in general equilibrium with infinite lives. *Econometrica* 54(3): 607.
+
+Galindo Escajeda, C. (2026). Reproduction under capital-biased technical change. Working paper, <https://rhombictriacontahedron.github.io/research-portfolio/papers/cg_2026_reproduction_cbtc.html>.
 
 Galor, O., and O. Moav (2006). Das human-kapital: a theory of the demise of the class structure. *Review of Economic Studies* 73(1): 85–117.
 
