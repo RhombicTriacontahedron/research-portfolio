@@ -30,7 +30,7 @@ The map $k\mapsto\ln\bigl((1-\delta)e^{k}+i(1-\tau)e^{E_C}\bigr)$ is not affine 
 
 At a stationary ratio the owner’s first-order condition in $\tau$, holding $(d,i)$ fixed, equates the marginal loss on the after-tax pie to the marginal value of $G'$ through future $L$. On the domain $\theta_R<1$, $\gamma>0$ that second term is positive, and at $\sigma=1$ it is at least $\beta^2(1-\omega)(1-\alpha)\gamma(1-\theta_R)$ (Proposition 7). The candidate is therefore interior.
 
-**Theorem (paths).** On a compact share set there is no assigned owner path with $\tau_t\to 0$ and bounded composites (Proposition 3). At $\sigma=1$ neither qualifier is needed: every path with $\tau_t\to 0$ carries labour and capital income to zero (Proposition 5), and every assigned-optimal path stays above $\bar\tau$ (Proposition 10), so a convergent assigned-optimal path has $\tau_\infty\ge\bar\tau$. Permanent shut-down is not assigned-optimal (Proposition 4).
+**Theorem (paths).** On a compact share set there is no assigned owner path with $\tau_t\to 0$ and bounded composites (Proposition 3). At $\sigma=1$ neither qualifier is needed: every path with $\tau_t\to 0$ carries labour and capital income to zero (Proposition 5), and every assigned-optimal path stays above $\bar\tau$ (Proposition 10), so a convergent assigned-optimal path has $\tau_\infty\ge\bar\tau$. At $\sigma=1$ permanent shut-down is not assigned-optimal (Proposition 4).
 
 The long-run zero of the durable-capital benchmark is therefore unavailable here, and not for either of the two reasons a reader might expect. The owner is not constrained, and the tax has not become cheap. The revenue is an input into the labour he hires.
 
@@ -64,7 +64,7 @@ Two classes of fixed measure. Owners hold $K$. Workers supply $L$ and hold no as
 $$
 \psi(x)=\rho_\sigma^{-1}\ln\bigl(\theta e^{\rho_\sigma x}+1-\theta\bigr),\qquad \rho_\sigma=\frac{\sigma-1}{\sigma},\qquad s_K(x)=\psi'(x),\qquad s_L=1-s_K,
 $$
-where $\theta$ is the distribution parameter of the technology, $a$ is constant given the direction $d$, and $\bar x$ is the ratio at which the shares are reported. At $\sigma=1$, $\psi(x)=\alpha x$ and $(s_K,s_L)=(\alpha,1-\alpha)$; for $\sigma>1$ the shares move with the state. Logged income composites $E_C=\ln s_K+\psi+a+n$ and $E_W=\ln s_L+\psi+a+n$. Direction $d$, investment share $i$, capital-income tax $\tau$, in-kind share $\varphi$. Worker felicity $n$. Owner felicity $(1-\omega)\ln C_C+\omega k$. Common discount $\beta$. Labour law:
+where $\theta$ is the distribution parameter of the technology, $a$ is constant given the direction $d$, and $\bar x$ is the ratio at which the shares are reported. At $\sigma=1$, $\psi(x)=\alpha x$ and $(s_K,s_L)=(\alpha,1-\alpha)$; for $\sigma>1$ the shares move with the state. Logged income composites $E_C=\ln s_K+\psi+a+n$ and $E_W=\ln s_L+\psi+a+n$. Direction $d$, investment share $i$, capital-income tax $\tau$, in-kind share $\varphi$. Worker felicity $n$. Owner felicity $(1-\omega)\ln C_C+\omega k$. Common discount factor $\beta\in(0,1)$. Labour law:
 
 $$
 n'=n+\gamma\theta_R(E_W-n)+\gamma(1-\theta_R)(g-n).
@@ -179,7 +179,7 @@ $$
 
 For $\sigma>1$ there is no such statement to be had, and the reason is the one recorded in the footnote to Proposition 5. Write $h(x)=\ln s_K(x)+\psi(x)-x$, so that capital income is $e^{a+h(x)}K$. Then $h'(x)=s_L(x)(\rho_\sigma-1)<0$, so $h$ decreases to $\rho_\sigma^{-1}\ln\theta$ and capital income is at least $\underline AK$ with $\underline A=\theta^{1/\rho_\sigma}e^{a}>0$ at *every* state. A collapsing labour input therefore does not carry capital income down at a bounded capital stock, and $\lim_{L\to0}Y=\theta^{1/\rho_\sigma}K>0$: labour is inessential. What replaces Lemma 5 in Proposition 3 is the compact share set.
 
-**Proposition 3 (Zero terminal tax is not an assigned owner path with bounded composites).** Assume $\varphi=1$, $\theta_R\in(0,1)$, $\gamma\in(0,1)$, $\sigma\in[1,\infty)$, $\omega\in[0,1)$, that the factor shares $(s_K,s_L)$ stay in a compact subset of $(0,1)^2$ along the path, and that $\{k_t\}$ is bounded above. There is no assigned owner path along which $\tau_t\to 0$ and $\{E_{C,t}\}$ is bounded.
+**Proposition 3 (No feasible vanishing-tax path with bounded composites).** Assume $\varphi=1$, $\theta_R\in(0,1)$, $\gamma\in(0,1)$, $\sigma\in[1,\infty)$, $\omega\in[0,1)$, that the factor shares $(s_K,s_L)$ stay in a compact subset of $(0,1)^2$ along the path, and that $\{k_t\}$ is bounded above. There is no *feasible* path along which $\tau_t\to 0$ and $\{E_{C,t}\}$ is bounded — in particular no assigned owner path. No optimality condition enters the proof.
 
 *Proof.* Lemma 3 sends $g\to-\infty$. On a compact share set $\ln(s_L/s_K)$ is bounded, and $E_W-E_C$ is that quantity plus a bounded function of $d$; so $E_C$ bounded above gives $E_W$ bounded above, and Lemma 4 sends $n\to-\infty$. For $\sigma>1$, $s_K$ is continuous and strictly increasing in $x=k-n$, so a compact share set confines $x$ to a compact interval and $E_{C,t}-n_t=\ln s_K(x_t)+\psi(x_t)+a$ is bounded; hence $E_{C,t}\to-\infty$. For $\sigma=1$, $\{k_t\}$ bounded above and Lemma 5 give the same. Either way this contradicts boundedness of $\{E_{C,t}\}$ from below. $\square$
 
@@ -206,7 +206,7 @@ A vanishing tax therefore pushes labour down through the public stock, while dep
 
 *Proof.* Proposition 10 gives $\tau_t\ge\bar\tau$ at every date and every state, so any limit lies in $[\bar\tau,1]$. $\square$
 
-**Proposition 4 (Permanent shut-down).** Extend the control set to $[0,1)$ with $\ln 0=-\infty$. A path with $\tau_t=0$ for all $t\ge T$ has $g_t=-\infty$ for $t>T$, hence $n_t=-\infty$ and $C_{C,t}=0$ from $t>T+1$, so its value is $-\infty$; at a finite state any constant $\tau\in(0,1)$ has finite value (Proposition 6). Permanent shut-down is therefore not assigned-optimal.
+**Proposition 4 (Permanent shut-down at Cobb–Douglas).** Let $\sigma=1$ and extend the control set to $[0,1)$ with $\ln 0=-\infty$. A path with $\tau_t=0$ for all $t\ge T$ has $g_t=-\infty$ for $t>T$, hence $n_t=-\infty$, and labour being essential at $\sigma=1$ it has $C_{C,t}=0$ from $t>T+1$, so its value is $-\infty$; at a finite state any constant $\tau\in(0,1)$ has finite value (Proposition 6). Permanent shut-down is therefore not assigned-optimal.[^2]
 
 Proposition 10 is the contact with Chamley–Judd’s conclusion on this face: at $\sigma=1$ no assigned-optimal path has $\tau_t\to 0$, and none goes below $\bar\tau$. Proposition 3 adds that on a compact share set no *feasible* path at all combines a vanishing tax with bounded composites.
 
@@ -224,7 +224,7 @@ $$
 
 Here $n'$ does not depend on $\tau$.
 
-**Proposition 6 (Interior policy at a given state).** Let $\sigma=1$, $\varphi=1$, $\theta_R\in(0,1)$, $\gamma\in(0,1)$, $\omega\in[0,1)$, $\delta\in(0,1]$ and $i\in(0,1)$. At every finite state $(K,n,g)$, $W$ is continuous on $(0,1)$ and $W(\tau)\to-\infty$ as $\tau\to 1^-$ and as $\tau\to 0^+$. A maximiser $\tau^*(K,n,g)\in(0,1)$ therefore exists.[^2]
+**Proposition 6 (Interior policy at a given state).** Let $\sigma=1$, $\varphi=1$, $\theta_R\in(0,1)$, $\gamma\in(0,1)$, $\omega\in[0,1)$, $\delta\in(0,1]$ and $i\in(0,1)$. At every finite state $(K,n,g)$, $W$ is continuous on $(0,1)$ and $W(\tau)\to-\infty$ as $\tau\to 1^-$ and as $\tau\to 0^+$. A maximiser $\tau^*(K,n,g)\in(0,1)$ therefore exists.[^3]
 
 Nothing here is assumed that the model does not deliver. Finiteness and Lipschitz continuity of $V$ come from the same non-expansiveness that gives Lemma 7, and the two endpoints are lost for the two reasons the economics names: confiscation destroys the owner’s consumption, and a vanishing rate destroys the stock that reproduces his workforce. Appendix A.4 has the proof.
 
@@ -250,7 +250,7 @@ The scale $n$ is not pinned. As $\tau\to 0^+$, $x_L(\tau)\to+\infty$.
 
 *Proof.* Substitute the Cobb–Douglas composites into $n'=(1-\gamma)n+\gamma\theta_R E_W+\eta g$ and set $n'=n$. Capital stationarity divides by $L$. $\square$
 
-**Proposition 7 (What a fixed point still needs).** Let $\sigma=1$ and maintain the hypotheses of Proposition 6. Lemma 6 does not give a state $(K,n,g)$ for every $\tau$ at fixed $i$. It gives a curve $i=i(\tau,\delta)$ on which intensive stationarity holds; the scale $n$ remains a state. Proposition 6 still gives $\tau^*(K,n,g)\subset(0,1)$ at each given state. A stationary peak is a pair $(\tau,i(\tau,\delta))$ that is a best response at some scale of that intensive point.[^3]
+**Proposition 7 (What a fixed point still needs).** Let $\sigma=1$ and maintain the hypotheses of Proposition 6. Lemma 6 does not give a state $(K,n,g)$ for every $\tau$ at fixed $i$. It gives a curve $i=i(\tau,\delta)$ on which intensive stationarity holds; the scale $n$ remains a state. Proposition 6 still gives $\tau^*(K,n,g)\subset(0,1)$ at each given state. A stationary peak is a pair $(\tau,i(\tau,\delta))$ that is a best response at some scale of that intensive point.[^4]
 
 *One-step bound, if $V$ is differentiable.* Raise current $g$ by $\Delta>0$ and hold subsequent instruments fixed. Then $n'$ rises by $\eta\Delta$ and, at $\sigma=1$, $E_C'$ rises by $(1-\alpha)\eta\Delta$. Hence
 $$
@@ -284,15 +284,17 @@ Proposition 8 does not need $V$ differentiable. Combined with Proposition 6, the
 
 The quantity Proposition 7 needs is an upper bound on $\beta IV_K$ that holds at every state and every $\delta$. Since $I\le K'$ by construction, it is enough to bound $K'V_{K'}$ — the sensitivity of owner value to capital measured in logs. That bound is a constant.
 
-**Lemma 7 (Value sensitivity in capital).** Let $\sigma=1$, $\varphi=1$, and fix $(d,i)$. For every state $(k,n,g)$ and every $\Delta>0$,
+**Lemma 7 (Value sensitivity in capital).** Let $\sigma\in[1,\infty)$, $\varphi\in(0,1]$, and fix $(d,i)$. For every state $(k,n,g)$ and every $\Delta>0$,
 
 $$
 V(k+\Delta,n,g)-V(k,n,g)\le\frac{\Delta}{1-\beta}.
 $$
 
-Neither $\delta$, nor $i$, nor the state appears on the right. Two paths run from states that differ only in capital never diverge: the gap in every state variable is a weighted average of gaps already present, and each set of weights sums to one. Appendix A.1 has the proof.
+Neither $\delta$, nor $i$, nor the state, nor the elasticity of substitution appears on the right. Two paths run from states that differ only in capital never diverge: the gap in every state variable is a weighted average of gaps already present, and each set of weights sums to one. Away from Cobb–Douglas that survives for a reason the three logged composites share: $\ln Y$, $E_C$ and $E_W$ are each of the form $f(k-n)+n$, so each has partial derivatives in $(k,n)$ summing to one, and at $\sigma\ge1$ those derivatives are also non-negative, $(1-s_L/\sigma,\,s_L/\sigma)$ for $E_C$ and $(s_K/\sigma,\,1-s_K/\sigma)$ for $E_W$. The three gaps coincide only at $\sigma=1$; each is at most the largest gap in the state at every $\sigma\ge1$, which is all the argument uses. Appendix A.1 has the proof.
 
-**Proposition 10 (Uniform floor).** Assume $\varphi=1$, $\sigma=1$, $\alpha\in(0,1)$, $\theta_R\in(0,1)$, $\gamma\in(0,1)$, $\omega\in[0,1)$, and that $V$ is finite at finite states. Put
+The widening pays on the cost side of the floor below and not on the gain side. $Q$ is assembled from this lemma and from the payoff, so no part of it is a Cobb–Douglas artefact. $P$ is another matter: labour’s share enters it as the constant $1-\alpha$, which off that face is $s_L/\sigma$ two periods on, and that quantity is not bounded away from zero along a path of unbounded deepening. Proposition 10 is therefore stated at $\sigma=1$, and what the lemma now adds is that its one uniform ingredient never needed the restriction.
+
+**Proposition 10 (Uniform floor).** Assume a fixed $\varphi\in(0,1]$, $\sigma=1$, $\alpha\in(0,1)$, $\beta\in(0,1)$, $\theta_R\in(0,1)$, $\gamma\in(0,1)$, $\omega\in[0,1)$, and that $V$ is finite at finite states. Put
 
 $$
 P:=\beta^2(1-\omega)(1-\alpha)\eta,\qquad
@@ -301,7 +303,7 @@ c:=\frac{P}{Q},\qquad
 \bar\tau:=\frac{c}{1+c}\in(0,1).
 $$
 
-Then no maximiser $\tau^*(K,n,g)$ of $W$ lies in $(0,\bar\tau)$ — at any state, for every $\delta\in(0,1]$ and every $i\in(0,1)$.[^4]
+Then no maximiser $\tau^*(K,n,g)$ of $W$ lies in $(0,\bar\tau)$ — at any state, for every $\delta\in(0,1]$ and every $i\in(0,1)$.[^5]
 
 The proof is a variation, in Appendix A.2. Raise $\tau$ to $\lambda\tau$ with $\lambda>1$. The public stock rises by $\ln\lambda$ and is worth at least $P\ln\lambda$; consumption and capital fall by at most $Qu$ with $u=(\lambda-1)\tau/(1-\lambda\tau)$. The single step that makes $Q$ a constant is to measure the capital loss in logs rather than in levels: the inherited stock $(1-\delta)K$ sits in the denominator, so the loss is at most $u$ whatever $K$, $i$, $Y$ and $\delta$ are. That is the uniform bound on $\beta IV_K$ Proposition 7 asked for.
 
@@ -320,7 +322,7 @@ $$
 
 *Proof.* At such a state $B(1-\tau)=\delta K$ and $R=(1-\delta)K$, so $k'(\tau)-k'(\lambda\tau)=\ln\bigl(1+\delta(\lambda-1)\tau/(1-\tau-\delta(\lambda-1)\tau)\bigr)$. Only the capital term of Appendix A.2 changes: $u$ becomes that quantity there, and dividing by $\lambda-1$ and letting $\lambda\downarrow 1$ replaces $\beta/(1-\beta)$ by $\beta\delta/(1-\beta)$ in $Q$. Monotonicity and the limit are read off $Q(\delta)$. Capital stationarity pins $ie^{E_C}$, so the substitution is exact at that tax and at no other tax of the same state; below it the capital term is larger and the bound that applies is Proposition 10’s, which holds at every state and every tax whatever $\delta$ is. $\square$
 
-**Corollary (Conjecture 2).** At $\sigma=1$, Conjecture 2 holds, and in a form that does not wait for the limit: whenever a stationary assigned peak $\tau_C(\delta)$ exists it satisfies $\tau_C(\delta)\ge c(\delta)/(1+c(\delta))\ge\bar\tau>0$ for every $\delta\in(0,1]$, and $\liminf_{\delta\to 0}\tau_C(\delta)\ge c_0/(1+c_0)$ with $c_0=\beta^2(1-\alpha)\gamma(1-\theta_R)$.
+**Corollary (Conjecture 2, wherever its object exists).** At $\sigma=1$, Conjecture 2 holds in a form that does not wait for the limit: whenever a stationary assigned peak $\tau_C(\delta)$ exists it satisfies $\tau_C(\delta)\ge c(\delta)/(1+c(\delta))\ge\bar\tau>0$, at every $\delta\in(0,1]$; and along every sequence $\delta_j\downarrow 0$ for which such peaks exist, $\liminf_j\tau_C(\delta_j)\ge c_0/(1+c_0)$ with $c_0=\beta^2(1-\alpha)\gamma(1-\theta_R)$. Existence at a given $\delta$ is Conjecture 1, so the bound is a statement about the peaks there are and not a claim that there is one at every $\delta$.
 
 **Corollary (paths, second route).** Under the hypotheses of Proposition 10, every assigned-optimal path satisfies $\tau_t\ge\bar\tau$ for all $t$. In particular no assigned-optimal path has $\tau_t\to 0$. Propositions 3 and 5 reach a wider class — every *feasible* path — by a divergence argument, and say what a vanishing tax does along one; Proposition 10 reaches the optimal paths by a variation, and puts a number on how far from zero they stay.
 
@@ -390,21 +392,27 @@ At Cobb–Douglas the answer to the question the paper opens with is a number an
 
 ### A.1 Proof of Lemma 7
 
-Run a tax path $\{\tau_t\}$ that is $\varepsilon$-optimal at $(k+\Delta,n,g)$ from both states; it is feasible at both, since $\tau_t\in(0,1)$ is unconstrained by $K$. Write $\Delta_t$, $\nu_t$, $\xi_t$ for the gaps in $k$, $n$, $g$ and $\mu_t:=\alpha\Delta_t+(1-\alpha)\nu_t$ for the gap in $\ln Y_t$, which is the gap in $E_{C,t}$ and in $E_{W,t}$ as well. Then $\xi_{t+1}=\mu_t$ and
+Run a tax path $\{\tau_t\}$ that is $\varepsilon$-optimal at $(k+\Delta,n,g)$ from both states; it is feasible at both, since $\tau_t\in(0,1)$ is unconstrained by $K$. Write $\Delta_t$, $\nu_t$, $\xi_t$ for the gaps in $k$, $n$, $g$, and $D^C_t$, $D^W_t$ for the gaps in the composites $E_{C,t}$ and $E_{W,t}$.
+
+Each composite is a function of the state of the form $f(k-n)+n$: $\ln Y=a+n+\psi(x)$, $E_C=\ln s_K+\psi+a+n$ and $E_W=\ln s_L+\psi+a+n$. The two partial derivatives of such a function sum to one identically, and with $s_K'=\rho_\sigma s_Ks_L$ they are $(1-s_L/\sigma,\,s_L/\sigma)$ for $E_C$ and $(s_K/\sigma,\,1-s_K/\sigma)$ for $E_W$. At $\sigma\ge1$ both pairs are non-negative, since $s_L\le1\le\sigma$ and $s_K\le1\le\sigma$. Integrating along the segment joining the two states therefore gives
+$$
+D^C_t\le\max(\Delta_t,\nu_t),\qquad D^W_t\le\max(\Delta_t,\nu_t),
+$$
+and the same for the gap in $\ln Y_t$, whose weights are $(s_K,s_L)$. At $\sigma=1$ the three gaps coincide in the single object $\alpha\Delta_t+(1-\alpha)\nu_t$; for $\sigma>1$ they differ, and only the bound is used below. Since $g'=\ln(\varphi\tau)+E_C$ with the same $\tau_t$ at both states, $\xi_{t+1}=D^C_t$, and
 
 $$
-\nu_{t+1}=\rho\nu_t+\gamma\theta_R\mu_t+\eta\xi_t ,
+\nu_{t+1}=\rho\nu_t+\gamma\theta_R D^W_t+\eta\xi_t ,
 $$
 
 a convex combination because $\rho+\gamma\theta_R+\eta=(1-\gamma)+\gamma\theta_R+\gamma(1-\theta_R)=1$. Capital gives
 
 $$
-e^{\Delta_{t+1}}=\frac{(1-\delta)K_t}{K_{t+1}}\,e^{\Delta_t}+\frac{i(1-\tau_t)e^{E_{C,t}}}{K_{t+1}}\,e^{\mu_t},
+e^{\Delta_{t+1}}=\frac{(1-\delta)K_t}{K_{t+1}}\,e^{\Delta_t}+\frac{i(1-\tau_t)e^{E_{C,t}}}{K_{t+1}}\,e^{D^C_t},
 $$
 
 again a convex combination, since the two weights are non-negative and sum to one by the capital law. Hence $z_t:=\max(\Delta_t,\nu_t,\xi_t)$ satisfies $z_{t+1}\le z_t$, and $z_t\le z_0=\Delta$ for all $t$.
 
-The period-$t$ payoff gap is $(1-\omega)\mu_t+\omega\Delta_t$, a convex combination of $\mu_t$ and $\Delta_t$, hence at most $z_t\le\Delta$. Summing with weights $\beta^t$ bounds the value of that path from the lower state by $\Delta/(1-\beta)$ below the value at the upper state. The left-hand side of the lemma is no larger, because the path is $\varepsilon$-optimal above and merely feasible below; letting $\varepsilon\downarrow 0$ gives the stated bound. $\square$
+The period-$t$ payoff gap is $(1-\omega)D^C_t+\omega\Delta_t$, since the constants in $\ln C_C=\ln(1-i)+\ln(1-\tau)+E_C$ cancel; it is a convex combination of $D^C_t$ and $\Delta_t$, hence at most $z_t\le\Delta$. Summing with weights $\beta^t$ bounds the value of that path from the lower state by $\Delta/(1-\beta)$ below the value at the upper state. The left-hand side of the lemma is no larger, because the path is $\varepsilon$-optimal above and merely feasible below; letting $\varepsilon\downarrow 0$ gives the stated bound. $\square$
 
 ### A.2 Proof of Proposition 10
 
@@ -501,8 +509,10 @@ Straub, L., and I. Werning (2020). Positive long-run capital taxation: Chamley�
 
 [^1]: At $\sigma>1$, $Y/K$ tends to a positive constant as $x\to+\infty$: capital income is at least $\underline AK$, and the proof’s choice of $\bar X$ then requires $i\underline A<\delta$.
 
-[^2]: At $\sigma>1$ step (iii) below fails, and not for want of an argument. Capital income is at least $\underline AK$ with $\underline A>0$ (the remark after Lemma 5), so with the instruments held fixed the continuation is a pure accumulation economy whose value is bounded below by a constant that does not contain $g$ at all, however far the public stock has fallen. Whether the assigned owner’s optimum is interior at $\sigma>1$ is open.
+[^2]: Essential labour is what this uses, so the Cobb–Douglas hypothesis here is the one Lemma 5 and Proposition 6 already carry, doing one job in three places rather than three restrictions. Off that face it is not available: $\psi(x)+n=\rho_\sigma^{-1}\ln\bigl(\theta e^{\rho_\sigma k}+(1-\theta)e^{\rho_\sigma n}\bigr)\to k+\rho_\sigma^{-1}\ln\theta$ as $n\to-\infty$, with $s_K\to1$, so capital income converges to $\underline AK$ and a permanent zero tax leaves $K_{t+1}=(1-\delta+i\underline A)K_t$ and consumption at $(1-i)\underline AK_t>0$. The payoff is then affine in $t$ and its discounted sum is finite, so at $\sigma>1$ the comparison with a positive constant tax is between two finite numbers and is one this paper does not make.
 
-[^3]: A continuous self-map of a compact interval would give existence by Brouwer; uniqueness of $\tau^*$ would need concavity of $W$.
+[^3]: At $\sigma>1$ step (iii) below fails, and not for want of an argument. Capital income is at least $\underline AK$ with $\underline A>0$ (the remark after Lemma 5), so with the instruments held fixed the continuation is a pure accumulation economy whose value is bounded below by a constant that does not contain $g$ at all, however far the public stock has fallen. Whether the assigned owner’s optimum is interior at $\sigma>1$ is open.
 
-[^4]: The in-kind corner is not needed for this one. The variation uses $\varphi$ only through $g'(\lambda\tau)-g'(\tau)=\ln\lambda$, in which $\ln\varphi$ cancels, and $\varphi$ enters neither $\ln C_C$ nor the capital law; so the same $\bar\tau$ bounds every maximiser at each fixed $\varphi\in(0,1]$ under the transitions of the Environment.
+[^4]: A continuous self-map of a compact interval would give existence by Brouwer; uniqueness of $\tau^*$ would need concavity of $W$.
+
+[^5]: Why the in-kind share is free here. The variation uses $\varphi$ only through $g'(\lambda\tau)-g'(\tau)=\ln\lambda$, in which $\ln\varphi$ cancels, and $\varphi$ enters neither $\ln C_C$ nor the capital law; so the same $\bar\tau$ bounds every maximiser at each fixed $\varphi\in(0,1]$ under the transitions of the Environment.
