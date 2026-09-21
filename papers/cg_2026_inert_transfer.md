@@ -4,30 +4,24 @@ Carlos Galindo Escajeda
 
 # Abstract
 
-The second fundamental theorem of welfare economics licenses the division of labour between markets and
-policy: any Pareto-efficient allocation can be reached as a competitive equilibrium once wealth has been
-transferred lump sum. This paper shows that where the workforce is produced out of the workers’ own
-consumption, that lump-sum instrument moves nothing per head.
-When private consumption is the sole input to reproduction, at every interior stationary class ratio the
-two classes’ per-head consumptions stand in a fixed ratio set by the reproduction technology alone, free
-of the tax rate, the composition of public
-spending, the reinvestment rate and either class’s objective. The per-head distributions a transfer can
-reach form a single point; the transfer moves the relative number of people on each side instead. For
-reproduction maps of any shape with a positive slope, the per-head gap is invariant over a range of
-stationary states exactly when the two classes’ reproduction *elasticities* agree at the consumptions each class has at
-each of them, which for power maps is a common exponent. It does not require them to share a reproduction
-*technology*. When a public input enters reproduction alongside private
-consumption, its provision in kind is not inert: its incidence is a closed form in the stationary
-quantities, into which the two classes’ reproduction levels and their common elasticity enter only as a
-single multiplicative constant, and the rate at which, along the equalised-reproduction locus with the
-owner’s claim held fixed, it displaces the worker’s private consumption is a constant of the composite,
-free of both. There, cash reaches the per-head gap only relative to provision per worker, and the
-instrument that supplies that provision is the one the theory classifies as a distortion. Neither the
-first welfare theorem nor efficiency results for dynasties that decide and pay for their own
-reproduction are at issue: here the input to one class’s reproduction is set by the division of output
-between the classes. Where workers are reproduced by private consumption alone, the second theorem’s
-remedy is void in the per-head coordinate rather than second-best, because a produced factor that no
-agent may hold is nobody’s endowment to transfer.
+The second welfare theorem holds that any Pareto-efficient allocation can be reached as a competitive equilibrium once wealth has been transferred lump sum.
+This paper shows that where the workforce is produced out of the workers’ own consumption, that lump-sum instrument
+moves nothing per head. When private consumption is the sole input to reproduction, at every interior stationary
+class ratio the two classes’ per-head consumptions stand in a fixed ratio set by the reproduction technology alone,
+free of the tax rate, the composition of public spending, the reinvestment rate and either class’s objective. A
+transfer can reach a single per-head distribution; it moves the relative number of people on each side instead. For reproduction maps of any shape with a positive slope, the per-head gap is invariant over a
+range of stationary states exactly when the two classes’ reproduction elasticities agree at the consumptions each
+class has there, which for power maps is a common exponent; the classes need not share a reproduction technology.
+When a public input enters reproduction alongside private consumption, its provision in kind is not inert, and cash
+reaches the per-head gap only relative to provision per worker. Neither the first welfare theorem nor efficiency
+results for dynasties that pay for their own reproduction are at issue. Where workers are reproduced by private
+consumption alone, the second theorem’s remedy is void in the per-head coordinate rather than second-best, because a
+produced factor that no agent may hold is nobody’s endowment to transfer.
+
+**Keywords:** second welfare theorem; lump-sum transfers; in-kind transfers; endogenous population;
+reproduction of labour; incidence.
+
+**JEL codes:** D61, D63, H22, H42, H53, J11.
 
 # 1. Introduction
 
@@ -85,7 +79,10 @@ The first welfare theorem is untouched here, and so are the efficiency results
 proved for economies in which a dynasty’s reproduction is decided and paid for within the dynasty (Golosov, Jones and Tertilt 2007): there
 the input to reproduction is the dynasty’s own consumption, whereas here the input to one class’s
 reproduction is set by the division of output between the classes, and that is the whole of the
-difference. The two theorems have different hypotheses and this paper engages only the second. No two
+difference. The two theorems have different hypotheses and this paper engages only the second. The
+second has been extended to endogenous fertility by Conde-Ruiz, Giménez and Pérez-Nievas (2010), whose
+decentralisation covers the efficient allocations that treat every member of a generation alike, and an
+allocation of that kind has no per-head gap between two classes to set. No two
 populations are compared, so no welfare ranking is written: every comparison is between two instruments
 at a given stationary class ratio. The economy carries one tax base, no credit market and no uncertainty,
 and §6 prices each of those.
@@ -104,7 +101,7 @@ function whose input is the recipients’ own consumption, and the transfer move
 The reason provision in kind works lies on the *payer’s* side, in the technology rather than in
 anyone’s preferences. §6 returns to the distinction.
 
-Part of what follows is shared with two companion papers by the same author, and the overlap is
+Part of what follows is shared with three companion papers by the same author, and the overlap is
 stated here so that the contribution can be read against it. Galindo Escajeda (2026b) works in the
 economy of §2 with a common reproduction technology, $B_W=B_C$. Its index-equalisation lemma and its
 Proposition 1, which gives the stationary ratio of per-head claims and finds cash inert at $\theta=1$,
@@ -114,7 +111,8 @@ capital. What is new here at that layer is its reach: reproduction efficiencies 
 classes without restriction, the boundary result that inertness fails once the elasticities differ
 (Proposition 2), and the exact condition for reproduction maps of any shape (Proposition 5). A third
 paper (Galindo Escajeda 2026c) reads the laws of motion of §2 at full depreciation with the workforce
-as effective labour in classes of fixed size, and adds the two classes’ preferences over the tax. Section
+as effective labour in classes of fixed size, and adds the two classes’ preferences over the tax. It
+re-derives Theorem 1 at full depreciation in an appendix and cites Proposition 4(iii) for a sign. Section
 4 sets its sign against this paper’s.
 
 Section 2 sets out the economy. Section 3 proves that cash is inert and shows exactly which hypothesis
@@ -555,10 +553,16 @@ because there is nothing to choose.
 Proposition 3 is a statement about the coordinate the second theorem’s transfer is used to set. The
 theorem’s own objects — preferences, a Pareto set over a produced population, supporting prices — are
 not assembled in this economy, and the construction that uses them is idle once that coordinate has no
-range.
+range. They can be assembled elsewhere. Golosov, Jones and Tertilt (2007) define Pareto efficiency over
+a produced population, and Conde-Ruiz, Giménez and Pérez-Nievas (2010) support the efficient symmetric
+allocations of such an economy by prices. Neither reaches the coordinate at issue here. The first
+concerns efficiency, and its authors set optimal redistribution among agents aside as a further
+question; the second admits only
+allocations in which every member of a generation is alike, so there is no gap between classes for it to
+set.
 
 To be sure, the transfer is not idle. It moves the class ratio, and with it each class’s aggregate
-share of consumption: at a stationary state with $\theta=1$ the owners’ share of total consumption is
+share of consumption: at a stationary state with $\theta=1$ the owners’ share of total private consumption is
 $\chi\nu/(1+\chi\nu)$, which rises with $\nu$ and moves whenever the class ratio does. What the transfer cannot
 move is what each person receives relative to a member of the other class. The claim of this section
 is confined to that per-head coordinate. Whether a distributional aim should be read per head or per
@@ -571,7 +575,9 @@ before. In this economy the factor whose per-head return is at issue is the work
 workforce is produced. It is manufactured period by period out of consumption by a technology, at a
 rate the reproduction map fixes, and no agent holds a claim on it: it appears in no budget as an asset,
 carries no price, and is transferable by no instrument in $(\star)$. A produced factor that nobody may
-hold is nobody’s endowment. There is accordingly no endowment of it to redistribute, and cash handed
+hold is nobody’s endowment. That is a different bar from the inalienable human capital of Hart and Moore
+(1994), whose entrepreneur cannot pledge his human capital but keeps it, and can withdraw it; here no
+agent holds the workforce at all. There is accordingly no endowment of it to redistribute, and cash handed
 to the class that produces it is converted, at the technology’s own exchange rate, into more of the
 class. The transfer’s incidence falls on the denominator.
 
@@ -907,6 +913,9 @@ ratio, and leaves $c_C/c_W$ at $4/9$.
 
 # References
 
+Conde-Ruiz, J. Ignacio, Eduardo L. Giménez, and Mikel Pérez-Nievas. 2010. “Millian Efficiency with
+Endogenous Fertility.” *Review of Economic Studies* 77 (1): 154–187.
+
 Currie, Janet, and Firouz Gahvari. 2008. “Transfers in Cash and In-Kind: Theory Meets the Data.”
 *Journal of Economic Literature* 46 (2): 333–383.
 
@@ -923,6 +932,9 @@ Galor, Oded, and Omer Moav. 2006. “Das Human-Kapital: A Theory of the Demise o
 
 Golosov, Mikhail, Larry E. Jones, and Michèle Tertilt. 2007. “Efficiency with Endogenous Population
 Growth.” *Econometrica* 75 (4): 1039–1071.
+
+Hart, Oliver, and John Moore. 1994. “A Theory of Debt Based on the Inalienability of Human Capital.”
+*Quarterly Journal of Economics* 109 (4): 841–879.
 
 Malthus, T. R. 1798. *An Essay on the Principle of Population*. London: J. Johnson.
 
