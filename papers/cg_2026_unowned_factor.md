@@ -49,16 +49,10 @@ There is no asset whose price capitalises the improvement, and therefore no agen
 reports it.
 
 This paper’s object is that unownedness, and what it does to a tax that funds the public part of
-reproduction. Marx treats the wage bill as “only a particular historical form of appearance of the
-fund for providing the necessaries of life, or the labour-fund which the labourer requires for
-the maintenance of himself and family, and which, whatever be the system of social production, he
-must himself produce and reproduce” (*Capital* I, ch. 23). A tax on capital income that fills a
-public stock is another form of appearance of the same fund: an incidence statement in this
-instrument set, in which a single tax on capital income is the only instrument that funds the public stock, not a claim about whose labour produced the output. “The maintenance and
-reproduction of the working class is, and must ever be, a necessary condition to the reproduction of
-capital” (same chapter). Here that condition is the strictly positive loading of the public stock in
-the owner’s continuation. The map from this period’s spending to next period’s labour is this
-model’s, not his.
+reproduction.[^1] In this instrument set a single tax on capital income is the only instrument that
+funds the public stock, so the public part of the workforce’s upkeep is paid out of capital’s income.
+The public stock enters the owner’s continuation with a strictly positive loading. The upkeep of
+labour he does not own is worth something to him.
 
 This paper asks what that asymmetry does to fiscal preferences. With logarithmic objectives the
 answer is a cross-structure, and it is sharp: **each class’s preferred tax on capital income is a
@@ -179,7 +173,7 @@ Sections 3 to 6 state results proved for this economy. Where a statement reprodu
 it is marked as a nesting check and the source is named: the owner’s investment share in the
 exogenous-workforce limit (§2), the worker’s preferred rate in the cash-only economy (§5), and the
 degeneracy of the equilibrium concept on this face (§3), which is a property of a named class of
-games and is cited, not claimed.[^1] The persons reading of Proposition 11 is proved in Appendix A.8.
+games and is cited, not claimed.[^2] The persons reading of Proposition 11 is proved in Appendix A.8.
 
 # 2. The economy
 
@@ -821,7 +815,7 @@ capital’s own reason for wanting one.
 ## 6.3 What a higher capital share does to the policy set
 
 The familiar reading of a rising capital share is distributional — it moves income from
-one class to the other at given policy.[^2] This section adds a second and less obvious effect on the
+one class to the other at given policy.[^3] This section adds a second and less obvious effect on the
 *policy set itself*: it destroys the range over which the two classes’ interests in public
 provision coincide.
 
@@ -879,7 +873,7 @@ Jones, Manuelli and Rossi (1997) accumulate physical and human capital together,
 is a Ramsey planner’s over a single representative family, the human capital is owned by its bearer,
 and a footnote of theirs sets aside the heterogeneous-agent case in which a planner would weight
 distinct individuals. A two-factor Chamley–Judd setting does not, then, already deliver the cross,
-and the two models differ in a stated primitive rather than in a result.[^3]
+and the two models differ in a stated primitive rather than in a result.[^4]
 
 **The worker’s objective.** Workers value effective labour and not consumption. This primitive is
 load-bearing for §4: it is what makes maintenance the only route
@@ -1210,16 +1204,27 @@ elasticity rather than the curvature gives the same verdict.
 -   Straub, L., and I. Werning (2020). “Positive Long-Run Capital Taxation: Chamley-Judd Revisited.”
     *American Economic Review* 110(1): 86–119. DOI 10.1257/aer.20150210.
 
-[^1]: In logarithms the economy is a linear-state game, and this degeneracy is the known property
+[^1]: The question has a long history in classical political economy. Marx put it in chapter 23 of
+    *Capital*. Variable capital is “only a particular historical form of appearance of the fund for
+    providing the necessaries of life, or the labour-fund which the labourer requires for the maintenance
+    of himself and family, and which, whatever be the system of social production, he must himself
+    produce and reproduce”, and a tax-funded public stock is another form of appearance of the same fund.
+    In this model that is a statement of incidence, not a claim about whose labour produced the output.
+    And “the maintenance and reproduction of the working class is, and must ever be, a necessary
+    condition to the reproduction of capital”; the positive loading of the public stock in the owner’s
+    continuation is that condition in this model. The map from this period’s spending to next period’s
+    labour is the model’s, not his.
+
+[^2]: In logarithms the economy is a linear-state game, and this degeneracy is the known property
     of that class rather than a feature of this economy (Dockner, Jørgensen, Van Long and Sorger 2000,
     §7.2–§7.3). No unilateral deviation to a Markov rule that keeps the instruments away from the edges of
     their ranges gains (Proposition 2).
 
-[^2]: In a Cobb–Douglas technology $\alpha$ is a parameter, so Proposition 9 is a comparative
+[^3]: In a Cobb–Douglas technology $\alpha$ is a parameter, so Proposition 9 is a comparative
     static in an output elasticity: nothing here makes $\alpha$ move. Endogenising the share requires an
     elasticity of substitution away from unity, which is outside this paper’s face.
 
-[^3]: Barro (1990) and Jones, Manuelli and Rossi (1997) are cited from their National Bureau working
+[^4]: Barro (1990) and Jones, Manuelli and Rossi (1997) are cited from their National Bureau working
     papers, w2588 (1988) and w4525 (1993); Straub and Werning (2020) and Galor and Moav (2006) from their
     working papers of February 2015 and August 2005, and every locator given for them is working-paper
     pagination.
