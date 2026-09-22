@@ -249,7 +249,7 @@ K_{t+1} = (1-\delta)K_t + i_t(1-\tau_t)\alpha Y_t.
 \tag{A.4}
 $$
 
-Later steps cite the source by its own assumption numbers, and all four are the material just displayed: its Assumption 1 is the technology and the instrument ranges given above through (A.4); its Assumption 2 is the pair of reproduction maps (A.0); its Assumption 3 is the preference parameters $\beta\in(0,1)$ and $\sigma_W,\sigma_C>1$, which enter only from Proposition A.7 onward; and its Assumption 4 is what this note calls *interiority*, strictly positive gross investment in both stocks, $g>1-\delta$ and $g>1-\delta_G$. An appeal below to one of them by number is an appeal to this page and needs nothing further.
+Later steps cite the source by its own assumption numbers, and all four are the material just displayed: its Assumption 1 is the technology and the instrument ranges given above through (A.4); its Assumption 2 is the pair of reproduction maps (A.0); its Assumption 3 is the preference parameters $\beta\in(0,1)$ and $\sigma_W,\sigma_C>1$ and the two objectives written out at (E.1) below; and its Assumption 4 is what this note calls *interiority*, strictly positive gross investment in both stocks, $g>1-\delta$ and $g>1-\delta_G$. An appeal below to one of them by number is an appeal to this page and needs nothing further.
 
 **Lemma A.1 (index equalisation).** Let each class reproduce through a scalar index of its own inputs, $g_j=F(x_j)$, with $F$ strictly increasing. Then at any interior stationary class ratio, $x_W=x_C$, whatever $F$ is and whatever the policy.
 
@@ -296,6 +296,73 @@ The right-hand side carries no instrument. At any such state whose class ratio i
 
 *Proof.* At $\phi=0$, (A.4) loses $\phi\tau\alpha y$ and reads $z'=(1-\delta_G)z/g_W$. If $\delta_G=1$, then $z_1=0$; $\theta<1$ makes $g_W$ vanish at $z=0$. If $\delta_G<1$ and $z'=z>0$, then $(1-\delta_G)/g_W=1$. Stationarity of the class ratio equalises the two growth factors at each date, so $g_C=g_W$ wherever it holds. $\square$
 
+Nothing so far uses preferences: the statements hold at any interior stationary class ratio, whatever either class maximises. From here the two classes choose, and the block that follows states the game and proves the three facts about it that the rest of this appendix uses: that levels scale out, that the rest point is unique and explicit, and what the worker’s margins are at it. It restates the source’s preferences, admissibility condition, equilibrium concept, rest-point condition and envelope conditions, with proofs, and its numbering stands outside the A-series. The worker sets the tax and the split, the capitalist the reinvestment rate, and each values a different object:
+$$
+V_W=\sum_{t\ge0}\beta^{t}\,\frac{N_{W,t}^{1-\sigma_W}}{1-\sigma_W},
+\qquad
+V_C=\sum_{t\ge0}\beta^{t}\,\frac{P_t^{1-\sigma_C}}{1-\sigma_C},
+\qquad
+P_t=C_{C,t}^{1-\omega}K_t^{\omega},
+\tag{E.1}
+$$
+with $\beta\in(0,1)$, $\sigma_W,\sigma_C>1$ and $\omega\in[0,1)$. The worker values the numbers his class sustains and nothing else; the capitalist values a composite of his consumption and his capital, not his dynasty’s size. A profile is *proper* if both sums converge along the path it generates. For a class with exponent $\sigma$ write $\tilde\beta=\beta g^{1-\sigma}$; unsubscripted, as in (A.5)–(A.6) below, it is the worker’s.
+
+**Definition E.1 (constant-share stationary equilibrium).** Write $x=K/N_W$, $\nu=N_C/N_W$ and $z=G/N_W$, and call (A.0)–(A.4) under fixed shares the *constant-share system*. Fix an initial state $(x_0,\nu_0,z_0)$. A profile $(\tau,\phi,i)\in[0,\bar\tau]\times[0,1]^2$ of constant shares is a *constant-share stationary equilibrium* from that state if it is proper, it induces an interior rest point of the constant-share system, and neither class can raise its payoff (E.1), evaluated along the path the profile generates from $(x_0,\nu_0,z_0)$, by a unilateral deviation to another constant share.
+
+**Lemma E.1 (levels scale out).** Fix constant shares and write $\iota=i(1-\tau)\alpha$, $\varsigma=\phi\tau\alpha$ and $\kappa_W=(1-\alpha)+(1-\phi)\tau\alpha$.
+
+1.  The map carrying $(K_t,G_t,N_{W,t})$ to $(K_{t+1},G_{t+1},N_{W,t+1})$ is homogeneous of degree one, and the per-worker state evolves on its own,
+    $$
+    x'=\frac{(1-\delta)x+\iota Ax^{\alpha}}{g_W},
+    \qquad
+    z'=\frac{(1-\delta_G)z+\varsigma Ax^{\alpha}}{g_W},
+    \qquad
+    g_W=B\big(\kappa_W Ax^{\alpha}\big)^{\theta\gamma}z^{(1-\theta)\gamma},
+    \tag{E.2}
+    $$
+    with the class ratio following $\nu'=\nu\,g_C/g_W$ and entering neither law in (E.2).
+
+2.  $P=\big[(1-i)(1-\tau)\alpha A\big]^{1-\omega}x^{\Lambda}N_W$ with $\Lambda=\alpha+\omega(1-\alpha)$, so $P$ is homogeneous of degree one in $(K,N_W)$ and, at a rest point, grows at the workers’ factor.
+
+3.  As functions of the initial levels $(K,G,N_W)$ under the profile, $V_W$ and $V_C$ are homogeneous of degrees $1-\sigma_W$ and $1-\sigma_C$ wherever they are finite, and neither depends on $N_C$; $V_C$ is finite only if $i<1$, since $i=1$ leaves $P_t=0$ and $\sigma_C>1$. At a rest point with growth factor $g$, properness is $\beta g^{1-\sigma_W}<1$ and $\beta g^{1-\sigma_C}<1$.
+
+*Proof.* (i) $Y=AK^{\alpha}N_W^{1-\alpha}$ is homogeneous of degree one, hence so are $C_W=\kappa_W Y$, $C_C$ and the two inflows; $c_W=C_W/N_W$ and $z$ are of degree zero, so $g_W$ is, and $N_W'=g_WN_W$, $K'$ and $G'$ are of degree one. Dividing the stock laws (A.4) by $N_W'=g_WN_W$ gives (E.2). Since $c_C=C_C/N_C=(1-i)(1-\tau)\alpha Ax^{\alpha}/\nu$, (A.0) gives $g_C$ and the law for $\nu$; nothing in (E.2) contains $\nu$. (ii) Substituting $Y$, $C_C^{1-\omega}K^{\omega}=\big[(1-i)(1-\tau)\alpha A\big]^{1-\omega}K^{\alpha(1-\omega)+\omega}N_W^{(1-\alpha)(1-\omega)}$, whose exponents sum to one; divide by $N_W$. At a rest point $x$ is constant, so $P_{t+1}/P_t=N_{W,t+1}/N_{W,t}$. (iii) By induction on $t$, (i) makes every date-$t$ level homogeneous of degree one in the initial levels, so by (ii) $N_{W,t}$ and $P_t$ are, and neither contains $N_C$; raising to $1-\sigma_j$ and summing gives the degrees. At a rest point both $N_{W,t}$ and $P_t$ grow at $g$, so the two sums are geometric with ratios $\beta g^{1-\sigma_W}$ and $\beta g^{1-\sigma_C}$. $\square$
+
+So the capitalist’s admissibility turns on the workers’ growth factor and not on his own class’s, a consequence of valuing $P$ rather than $N_C$.
+
+**Lemma E.2 (the rest point).** Let $\theta\in(0,1)$ and fix constant shares with $i\in(0,1)$ and $\phi\tau>0$. Write $m=g-1+\delta$, $m_G=g-1+\delta_G$ and
+$$
+\mathcal{H}(g)=\ln g+\frac{\gamma\alpha}{1-\alpha}\ln m+\gamma(1-\theta)\ln m_G,
+\qquad
+\mathcal{P}=\ln B+\gamma\theta\ln(\kappa_W A)+\gamma(1-\theta)\ln(\phi\tau\alpha A)+\frac{\gamma\alpha}{1-\alpha}\ln\big(i(1-\tau)\alpha A\big).
+\tag{E.3}
+$$
+
+1.  $(x,\nu,z)\in(0,\infty)^3$ is a rest point of the constant-share system if and only if its common growth factor solves $\mathcal{H}(g)=\mathcal{P}$ and
+    $$
+    x=\Big(\frac{i(1-\tau)\alpha A}{m}\Big)^{1/(1-\alpha)},
+    \qquad
+    z=\frac{\phi\tau\alpha A\,x^{\alpha}}{m_G},
+    \qquad
+    \nu=\frac{(1-i)(1-\tau)\alpha}{\kappa_W^{\theta}}\Big(\frac{m_G}{\phi\tau\alpha}\Big)^{1-\theta};
+    \tag{E.4}
+    $$
+    and every such rest point is interior, $g>1-\delta$ and $g>1-\delta_G$.
+
+2.  $\mathcal{H}$ is a strictly increasing bijection of $\big(\max\{1-\delta,1-\delta_G\},\infty\big)$ onto $\mathbb{R}$, with $\mathcal{H}'(g)=1/g+\gamma\alpha/\big((1-\alpha)m\big)+\gamma(1-\theta)/m_G>0$. So the rest point exists, it is unique, and $g=\mathcal{H}^{-1}(\mathcal{P})$ is continuous and strictly increasing in $\mathcal{P}$.
+
+3.  $\mathcal{P}$ is a function of the shares and the technology alone — it carries neither depreciation rate, nor $\beta$, $\sigma_W$, $\sigma_C$ or $\omega$ — and
+    $$
+    \frac{\partial\mathcal{P}}{\partial\phi}=\gamma\Big[\frac{1-\theta}{\phi}-\frac{\theta\tau\alpha}{\kappa_W}\Big],
+    \qquad
+    \frac{\partial\mathcal{P}}{\partial i}=\frac{\gamma\alpha}{(1-\alpha)\,i}>0 .
+    \tag{E.5}
+    $$
+
+*Proof.* (i) At a rest point $x'=x$ and $z'=z$ with $g_W=g$. The first law of (E.2) is then $m\,x^{1-\alpha}=\iota A$; $\iota>0$ forces $m>0$, and $\alpha<1$ gives the first member of (E.4). The second is $m_Gz=\varsigma Ax^{\alpha}$; $\varsigma>0$ and $z>0$ force $m_G>0$ and give the second member. So interiority holds at every rest point. Substituting both into $\ln g=\ln B+\gamma\theta\ln(\kappa_WAx^{\alpha})+\gamma(1-\theta)\ln z$, the $\ln x$ terms collect with coefficient $\gamma\alpha$, and $\ln x=\big[\ln(\iota A)-\ln m\big]/(1-\alpha)$; moving every term in $g$ to the left gives $\mathcal{H}(g)=\mathcal{P}$. Stationarity of $\nu$ is $g_C=g_W$, which by Lemma A.1 is $c_C=c_W^{\theta}z^{1-\theta}$; with $c_W=\kappa_WAx^{\alpha}$, $c_C=(1-i)(1-\tau)\alpha Ax^{\alpha}/\nu$ and $i<1$, this is the third member. Conversely, a root of $\mathcal{H}=\mathcal{P}$ with $m,m_G>0$ defines positive $(x,\nu,z)$ by (E.4), and reversing the substitution returns $g_W=g=g_C$, $x'=x$, $z'=z$ and $\nu'=\nu$. (ii) Each term of $\mathcal{H}'$ is strictly positive on the interval, whose left endpoint is non-negative. As $g$ falls to that endpoint, the margin that vanishes there sends its logarithm to $-\infty$ with a strictly positive coefficient — $\gamma\alpha/(1-\alpha)$ for $m$, and $\gamma(1-\theta)$ for $m_G$, positive because $\theta<1$ — while the other terms stay bounded above; as $g\to\infty$ all three diverge to $+\infty$. A continuous, strictly increasing function with those limits is a bijection onto $\mathbb{R}$. (iii) Inspection of (E.3), and $\kappa_W'(\phi)=-\tau\alpha$. $\square$
+
+The growth factor is thus set by one scalar of the shares, and the rest point it settles on is locally asymptotically stable by Proposition A.5 below, whose proof uses nothing from this block. By (E.5) the growth factor rises with the reinvested share, and moves with the split as the bracket there, which falls strictly in $\phi$ and is positive near $\phi=0$.
+
 The public-stock and capital-stock wedges, at a balanced-growth factor $g$ and effective discount $\tilde\beta=\beta g^{1-\sigma}$, are
 $$
 \Omega = \frac{\tilde\beta(g-1+\delta_G)}{g-\tilde\beta(1-\delta_G)},
@@ -306,6 +373,59 @@ J = \frac{\tilde\beta(g-1+\delta)}{g-\tilde\beta(1-\delta)-\tilde\beta\alpha(g-1
 \tag{A.6}
 $$
 Write $N=\tilde\beta(g-1+\delta_G)$ and $D=g-\tilde\beta(1-\delta_G)$, so $\Omega=N/D$. Interiority gives $N>0$, so the sign of $\Omega$ is the sign of $D$. If $\tilde\beta<1$ then either $\delta_G=1$ and $D=g>0$, or $\delta_G<1$ and $D>(1-\delta_G)(1-\tilde\beta)>0$; then $\Omega<1$ is $\tilde\beta g<g$. At $\tilde\beta=1$, $\Omega=1$. If $\tilde\beta>1$ the identity $\Omega-1=g(\tilde\beta-1)/D$ puts $\Omega$ outside $(0,1)$ wherever $D\neq 0$, and $\Omega$ is undefined at $D=0$. Setting $\alpha=0$ in $J$ returns $\Omega$ with $\delta$ in place of $\delta_G$. The capital wedge needs no separate hypothesis to be defined: its denominator decomposes as $(g-1+\delta)(1-\tilde\beta\alpha)+(1-\delta)(1-\tilde\beta)$, whose first term is positive by interiority and whose second is non-negative by properness, so $J>0$ follows from conditions already in force. Neither wedge contains $\gamma$.
+
+**Lemma E.3 (the wedges are discounted resolvents).** At an interior rest point with growth factor $g$, let $\tilde\beta<1$, and write $\varrho=(1-\delta)/g$ and $\varrho_G=(1-\delta_G)/g$ for the two survival shares and $A_x=\varrho+\alpha(1-\varrho)$. Then $1-\tilde\beta A_x=D_x/g$, where $D_x=g-\tilde\beta(1-\delta)-\tilde\beta\alpha(g-1+\delta)$ is the denominator of (A.6), and
+$$
+\Omega=\tilde\beta(1-\varrho_G)\sum_{t\ge0}\big(\tilde\beta\varrho_G\big)^{t}=\frac{\tilde\beta(1-\varrho_G)}{1-\tilde\beta\varrho_G},
+\qquad
+J=\tilde\beta(1-\varrho)\sum_{t\ge0}\big(\tilde\beta A_x\big)^{t}=\frac{\tilde\beta(1-\varrho)}{1-\tilde\beta A_x},
+\tag{E.6}
+$$
+both series converging. At the rest point $\varrho_G$ and $A_x$ are the elasticities of next period’s public and private stock in their own current values, and $1-\varrho_G$ and $1-\varrho$ are their elasticities in their inflows.
+
+*Proof.* Divide the numerator and denominator of (A.5) by $g$; do the same for (A.6), using $1-\varrho=(g-1+\delta)/g$, which gives $1-\tilde\beta A_x=D_x/g$. Interiority puts $\varrho,\varrho_G\in[0,1)$, hence $A_x\in[\alpha,1)$, and with $\tilde\beta<1$ both ratios $\tilde\beta\varrho_G$ and $\tilde\beta A_x$ lie in $[0,1)$. At a rest point the private inflow is $i(1-\tau)\alpha Y=(g-1+\delta)K=(1-\varrho)K'$ and the public one is $(1-\varrho_G)G'$ by (E.4), so $K'=(1-\delta)K+i(1-\tau)\alpha Y$ has elasticity $\varrho+\alpha(1-\varrho)=A_x$ in $K$, output carrying elasticity $\alpha$ in $K$, and elasticity $1-\varrho$ in its inflow; the public stock, whose inflow does not contain $G$, has $\varrho_G$ and $1-\varrho_G$. $\square$
+
+Each wedge is therefore the discounted sum of what a one-period one-per-cent rise in a stock’s inflow adds to that stock over the future: one period’s discount, times the share of next period’s stock the inflow buys, times the stock’s discounted persistence thereafter. Capital’s persistence exceeds its bare survival, $A_x-\varrho=\alpha(1-\varrho)>0$, because capital feeds its own inflow through output, and that is the one respect in which $J$ is not $\Omega$ with $\delta$ in place of $\delta_G$.
+
+**Proposition E.1 (the worker’s stationary conditions).** Let $\theta\in(0,1)$, fix a constant-share profile at its interior rest point with growth factor $g$, let the worker’s problem be proper, $\tilde\beta<1$, and consider a deviation in the worker’s two instruments for one period, after which the profile resumes. Write $p=\alpha\theta\gamma$ and $q=(1-\theta)\gamma$.
+
+1.  $V_W$ is continuously differentiable in the levels near the rest-point path, and its value shares $a_S=S\,\partial V_W/\partial S$, $S\in\{K,G,N_W\}$, satisfy
+    $$
+    a_G=\frac{q\,\Omega}{1-\varrho_G}\,a_{N_W},
+    \qquad
+    a_K=\frac{\alpha\gamma\big[\theta+(1-\theta)\Omega\big]J}{1-\varrho}\,a_{N_W},
+    \qquad
+    a_K+a_G+a_{N_W}=\frac{N_W^{1-\sigma_W}}{1-\tilde\beta},
+    \tag{E.7}
+    $$
+    and all three are strictly positive.
+
+2.  The marginal value of the split is $\tilde\beta\gamma\,a_{N_W}\,\Psi(\phi)$, with
+    $$
+    \Psi(\phi)=\frac{(1-\theta)\Omega}{\phi}-\frac{\theta\tau\alpha}{\kappa_W(\phi)} .
+    \tag{E.8}
+    $$
+
+3.  The marginal value of the tax is $\tilde\beta\gamma\alpha\,a_{N_W}$ times
+    $$
+    \frac{\theta(1-\phi)}{\kappa_W(\phi)}+\frac{(1-\theta)\Omega}{\tau\alpha}-\frac{J\big[\theta+(1-\theta)\Omega\big]}{1-\tau},
+    \tag{E.9}
+    $$
+    which at $\phi=1$ is strictly decreasing in $\tau$ on $(0,1)$ and diverges to $+\infty$ as $\tau\to0^{+}$.
+
+*Proof.* (i) By Lemma E.1(i), $\ln N_{W,t}=\ln N_{W,0}+\sum_{s<t}\ln g_W(x_s,z_s)$, and $\ln g_W$ is affine in $y=(\ln x,\ln z)$ with coefficients $(p,q)$. The per-worker map (E.2) is smooth, and its Jacobian at the rest point $y^{\ast}$ is the matrix $\mathcal{J}$ of Proposition A.5, whose eigenvalues lie strictly inside the unit disc under interiority. So there are a norm, a $\kappa<1$ and a closed ball $U$ about $y^{\ast}$ on which the map’s derivative has norm at most $\kappa$; $U$ is mapped into itself, $\|y_s-y^{\ast}\|\le\kappa^{s}\|y_0-y^{\ast}\|$, and $\|\partial y_s/\partial y_0\|\le\kappa^{s}$. Hence $\ln N_{W,t}-\ln N_{W,0}-t\ln g$ and its derivatives in $(y_0,\ln N_{W,0})$ are bounded uniformly in $t$ on $U$, each term $\beta^{t}N_{W,t}^{1-\sigma_W}$ and its derivatives are dominated by a constant times $\tilde\beta^{t}$, and properness makes the dominating series converge. So $V_W$ is continuously differentiable there and may be differentiated term by term. Under the profile $V_W(S)=N_W^{1-\sigma_W}/(1-\sigma_W)+\beta V_W(S')$. Along the rest-point path $S'=gS$, and $\partial V_W/\partial S$ is homogeneous of degree $-\sigma_W$ by Lemma E.1(iii), so $\beta\,a_S(S')=\tilde\beta\,a_S(S)$. By Lemma E.3 the elasticities of the transition at the rest point are: for $K'$, $A_x$ in $K$, $0$ in $G$ and $(1-\alpha)(1-\varrho)$ in $N_W$; for $G'$, $\alpha(1-\varrho_G)$, $\varrho_G$ and $(1-\alpha)(1-\varrho_G)$; and for $N_W'=g_WN_W$, $p$, $q$ and $1-p-q$. Differentiating the Bellman identity in $\ln G$ and in $\ln K$ gives
+$$
+a_G=\tilde\beta\big[\varrho_G\,a_G+q\,a_{N_W}\big],
+\qquad
+a_K=\tilde\beta\big[A_x\,a_K+\alpha(1-\varrho_G)\,a_G+p\,a_{N_W}\big].
+$$
+By (E.6), $\tilde\beta/(1-\tilde\beta\varrho_G)=\Omega/(1-\varrho_G)$ and $\tilde\beta/(1-\tilde\beta A_x)=J/(1-\varrho)$; the first equation solves as (E.7), and substituting it into the second leaves $a_K(1-\tilde\beta A_x)=\tilde\beta\alpha\gamma\big[\theta+(1-\theta)\Omega\big]a_{N_W}$, which is the second member. By Euler’s theorem and Lemma E.1(iii), $a_K+a_G+a_{N_W}=(1-\sigma_W)V_W$, and on the rest-point path $N_{W,t}=N_Wg^{t}$, so the geometric sum gives the third member. Properness makes $\Omega$ and $J$ strictly positive (the paragraph after (A.6)), so $a_G$ and $a_K$ are positive multiples of $a_{N_W}$; the third member’s right-hand side is positive, hence $a_{N_W}>0$, and the other two follow.
+
+1.  The split moves $G'$ and $N_W'$ and not $K'$. By the rest-point identity $\phi\tau\alpha Y=(1-\varrho_G)G'$, $\partial\ln G'/\partial\phi=(1-\varrho_G)/\phi$, and $\partial\ln N_W'/\partial\phi=\partial\ln g_W/\partial\phi=-\gamma\theta\tau\alpha/\kappa_W$. So the marginal value is $\tilde\beta\big[a_G(1-\varrho_G)/\phi-\gamma\theta\tau\alpha\,a_{N_W}/\kappa_W\big]$, which (E.7) turns into (E.8).
+
+2.  The tax moves all three: $\partial\ln K'/\partial\tau=-(1-\varrho)/(1-\tau)$, $\partial\ln G'/\partial\tau=(1-\varrho_G)/\tau$, and $\partial\ln N_W'/\partial\tau=\gamma\theta(1-\phi)\alpha/\kappa_W$. Substituting (E.7) into $\tilde\beta\sum_S a_S\,\partial\ln S'/\partial\tau$ gives $\tilde\beta\gamma\alpha\,a_{N_W}$ times (E.9). At $\phi=1$ its first term vanishes, its second is strictly decreasing in $\tau$ and diverges at $0$, and its third is strictly decreasing because $J\big[\theta+(1-\theta)\Omega\big]>0$. $\square$
+
+Call a share of the worker’s *stationary* at $g$ when its marginal value vanishes where the share is interior and is non-negative where it sits at its upper bound. Since $\tilde\beta\gamma\,a_{N_W}>0$, the split’s margin carries the sign of $\Psi$ and the tax’s the sign of (E.9), and Proposition A.3 solves them. Both are margins of a one-period deviation at a held growth factor. That they agree with the margin of a permanent deviation to another constant share, which is what Definition E.1 grades, is neither used nor claimed in this appendix.
 
 **Proposition A.3 (stationary split).** Under $\tilde\beta<1$ and $\theta\in(0,1)$, the unique stationary split is the corner $\phi=1$ when
 $$
@@ -327,17 +447,13 @@ $$
 $$
 Set $J=0$ and the condition returns $\tau^{\ast}=1$, which interiority excludes. Nothing in the assumption list forces $\tau^{\ast}\le\bar\tau$: (A.7) is the worker’s stationary tax exactly where it clears the ceiling, and where it does not the constrained tax is $\bar\tau$.
 
-*Proof.* Write $\kappa_W(\phi)=(1-\alpha)+(1-\phi)\tau\alpha>0$ on $[0,1]$ and
-$$
-\Psi(\phi)=\frac{(1-\theta)\Omega}{\phi}-\frac{\theta\tau\alpha}{\kappa_W(\phi)}.
-$$
-Then $\kappa_W'=-\tau\alpha$, so
+*Proof.* By Proposition E.1(ii) the split’s margin carries the sign of $\Psi$ in (E.8), where $\kappa_W(\phi)=(1-\alpha)+(1-\phi)\tau\alpha>0$ on $[0,1]$. Then $\kappa_W'=-\tau\alpha$, so
 $$
 \Psi'(\phi)=-\frac{(1-\theta)\Omega}{\phi^{2}}-\frac{\theta\tau^{2}\alpha^{2}}{\kappa_W(\phi)^{2}}<0
 $$
-once $\Omega>0$. As $\phi\to 0^{+}$ the first term diverges to $+\infty$. Hence $\Psi$ has at most one zero and can only cross from above. $\Psi\ge 0$ on $(0,1]$ iff $\Psi(1)\ge 0$, and $\Psi(1)=(1-\theta)\Omega-\theta\tau\alpha/(1-\alpha)$, which is the displayed corner threshold. If $\Psi(1)<0$ then $\Psi(0^{+})>0>\Psi(1)$ gives a unique interior root; clearing the identity $\Psi(\phi)=0$ gives $\phi^{\dagger}$. At $\phi=1$ the tax envelope reduces to $(1-\theta)\Omega/(\tau\alpha)=J[\theta+(1-\theta)\Omega]/(1-\tau)$, which is linear in $\tau$ and solves as (A.7). Rearrangement is (A.7$'$): the numerator of $1-\tau^{\ast}$ is exactly the $J$ term of the denominator of (A.7), so $J=0$ forces $\tau^{\ast}=1$. $\square$
+once $\Omega>0$. As $\phi\to 0^{+}$ the first term diverges to $+\infty$. Hence $\Psi$ has at most one zero and can only cross from above. $\Psi\ge 0$ on $(0,1]$ iff $\Psi(1)\ge 0$, and $\Psi(1)=(1-\theta)\Omega-\theta\tau\alpha/(1-\alpha)$, which is the displayed corner threshold. If $\Psi(1)<0$ then $\Psi(0^{+})>0>\Psi(1)$ gives a unique interior root; clearing the identity $\Psi(\phi)=0$ gives $\phi^{\dagger}$. At $\phi=1$ the first term of (E.9) vanishes and the tax condition of Proposition E.1(iii) reduces to $(1-\theta)\Omega/(\tau\alpha)=J[\theta+(1-\theta)\Omega]/(1-\tau)$, which is linear in $\tau$ and solves as (A.7); the margin there is strictly decreasing in $\tau$, so (A.7) is its only zero, and where $\tau^{\ast}>\bar\tau$ the margin is positive on the whole of $(0,\bar\tau]$ and the constrained tax is $\bar\tau$. Rearrangement is (A.7$'$): the numerator of $1-\tau^{\ast}$ is exactly the $J$ term of the denominator of (A.7), so $J=0$ forces $\tau^{\ast}=1$. $\square$
 
-The capitalist’s payoff object is
+The capitalist’s payoff object, from (E.1), is
 $$
 P_t = C_{C,t}^{1-\omega} K_t^{\omega},
 \qquad \omega\in[0,1).
@@ -401,7 +517,7 @@ $$
 =\frac{N_{W,0}^{1-\sigma_W}\,\beta\,g^{-\sigma_W}}{\big(1-\beta g^{1-\sigma_W}\big)^{2}}\;>\;0,
 \tag{A.10}
 $$
-in which the factor $1-\sigma_W$ has cancelled. The sign is bought by the curvature normalisation and not by the felicity, which is negative throughout: drop the $1/(1-\sigma_W)$ and the surviving factor $1-\sigma_W<0$ reverses (A.10). For (ii), $P$ is homogeneous of degree one in $(K,N_W)$, so at a rest point it grows at the workers’ factor (Galindo 2026, §2); with $P_0=N_{W,0}\psi$ the same computation returns the display, and $\partial V_C/\partial\psi>0$ because $1-\sigma_C$ cancels there too. (iii) follows from (i) and (ii). For (iv), $B>0$ and $\gamma>0$ make $u\mapsto Bu^{\gamma}$ a strictly increasing bijection of $(0,\infty)$, Lemma A.1 identifies its argument across the two classes, and (A.1) evaluates that argument at $c_C$. (v) is the displayed path with $g$ held. Properness is inherited upward: $1-\sigma_j<0$ makes $g\mapsto\beta g^{1-\sigma_j}$ strictly decreasing, so raising $g$ never leaves the admissible set. $\square$
+in which the factor $1-\sigma_W$ has cancelled. The sign is bought by the curvature normalisation and not by the felicity, which is negative throughout: drop the $1/(1-\sigma_W)$ and the surviving factor $1-\sigma_W<0$ reverses (A.10). For (ii), $P$ is homogeneous of degree one in $(K,N_W)$, so at a rest point it grows at the workers’ factor (Lemma E.1(ii)); with $P_0=N_{W,0}\psi$ the same computation returns the display, and $\partial V_C/\partial\psi>0$ because $1-\sigma_C$ cancels there too. (iii) follows from (i) and (ii). For (iv), $B>0$ and $\gamma>0$ make $u\mapsto Bu^{\gamma}$ a strictly increasing bijection of $(0,\infty)$, Lemma A.1 identifies its argument across the two classes, and (A.1) evaluates that argument at $c_C$. (v) is the displayed path with $g$ held. Properness is inherited upward: $1-\sigma_j<0$ makes $g\mapsto\beta g^{1-\sigma_j}$ strictly decreasing, so raising $g$ never leaves the admissible set. $\square$
 
 **Corollary A.1 (the equalised-index locus carries no welfare content, and the hypothesis that buys it).** Two interior rest points sharing a value of $c_C$ lie on one locus of Theorem A.1, share the reproduction index $x_W$ by (A.1), hence share $g$ by (A.0), hence by A.7(v) have identical worker dynasty paths at every date. The elasticity $-(1-\theta)/\theta$ of (A.3) therefore describes a recomposition at constant continuation, and the welfare content of the fiscal split lies entirely in whether it moves $x_W$. The locus itself is a stationarity relation rather than a set of attainable rest points, so the corollary binds on the pairs of rest points that lie on it and is silent about the rest.
 
