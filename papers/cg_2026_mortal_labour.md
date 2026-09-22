@@ -245,9 +245,13 @@ The elasticity $\gamma$ says how strongly resources per child move the
 next generation, and $\theta$ how the two inputs share that effect. The
 map is a modelling device and is attributed to no one. It is log-linear,
 and its value is that every result below is a closed form in its two
-parameters. Two timings of the public input are compared. Under
-*services* ($S$) the input spent at $t$ rears $N_{t+1}$. Under *durable*
-provision ($D$) it builds a stock that rears $N_{t+2}$, entering
+parameters. Nothing except Proposition 12 uses the fact that $N$ counts
+heads: elsewhere $N$ enters only through the rearing map, production and
+the fixed size of the retiring cohort, so $N$ may equally be read as
+effective labour, headcount times quality, produced by the same map. Two
+timings of the public input are compared. Under *services* ($S$) the
+input spent at $t$ rears $N_{t+1}$. Under *durable* provision ($D$) it
+builds a stock that rears $N_{t+2}$, entering
 $N_{t+2}=BN_{t+1}(W_{t+1}/N_{t+1})^{\gamma\theta}(G_t/N_{t+1})^{\gamma(1-\theta)}$.[^1]
 
 **Workers.** Cohort $t$ works and rears at $t$ and retires at $t+1$. Its
