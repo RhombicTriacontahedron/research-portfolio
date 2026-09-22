@@ -30,10 +30,11 @@ the other class’s tax truthfully, and it will not report a compromise
 tax truthfully wherever that compromise moves with the report. The
 private-ownership recipe that sets the tax to zero after a reshuffle of
 capital shuts the public stock. In the log payoffs used below that
-shut-down is ruin for both classes. A reshuffle of capital does not make
-the classes agree on the tax, because the tax falls on income the owner
-consumes and the two classes value capital differently. A single
-statutory tax is not two personalised prices for the public stock.
+shut-down is ruin for both classes. A reshuffle of capital that leaves
+workers without capital income does not make the classes agree on the
+tax, because the tax falls on income the owner consumes and the two
+classes value capital differently. A single statutory tax is not two
+personalised prices for the public stock.
 
 ------------------------------------------------------------------------
 
@@ -84,9 +85,9 @@ is the named holder of $\theta_R$. Own-programme incentive compatibility
 is Proposition 4. The ratified mediant is Proposition 11. Constant taxes
 are incentive-compatible; a strictly decreasing selection above $\tau_C$
 is not, for the owner (Propositions 6$'$ and 7$'$). In general, at fixed
-direction, a differentiable tax schedule that is locally
-incentive-compatible for the holder of the type is, at each type, flat
-or equal to the holder’s own peak (Corollary 1).
+direction and investment share, a differentiable tax schedule that is
+locally incentive-compatible for the holder of the type is, at each
+type, flat or equal to the holder’s own peak (Corollary 1).
 
 ------------------------------------------------------------------------
 
@@ -112,11 +113,11 @@ tax impossible over-claims what is proved. Own-programme incentive
 compatibility holds under both institutions (Proposition 4). A
 type-contingent compromise that moves with the report fails under
 ratification (Proposition 11). At unit elasticity it also fails under a
-mandate, because every listed chooser wants the same direction and the
-remaining instrument is the tax (Proposition 13). Off that face, a
-report that moves tax and direction together is not signed from the two
-loadings alone. Leaving the machine mix to firms is therefore not what
-dooms the compromise.
+mandate, because every listed chooser wants the same direction and, with
+the investment share held fixed, the remaining instrument is the tax
+(Proposition 13). Off that face, a report that moves tax and direction
+together is not signed from the two loadings alone. Leaving the machine
+mix to firms is therefore not what dooms the compromise.
 
 The weight $\theta_R$ is how much of labour’s reproduction is paid from
 wages rather than from the public stock. That stock is filled from
@@ -461,17 +462,24 @@ $G'=\tau e^{E_C}$. Every point of $\bar{\mathcal{X}}$ funds $G$ from
 capital income only: the owner’s statutory contribution is
 $\tau e^{E_C}$ and the worker’s statutory contribution is $0$. On the
 licensed box $N_W>0$, so $V_{W,\tau}>0$ on $(0,\tau_W)$. A Lindahl
-equilibrium for $G$ requires a personalized price $p_W$ at which the
-worker demands the implemented $G'$, and $p_W=0$ only if that demand is
-satiated. Satiation fails on $(0,\tau_W)$. Hence no point of
-$\bar{\mathcal{X}}$ is a Lindahl equilibrium for $G$.
+equilibrium for $G$ requires personalized prices at which both classes
+demand the implemented $G'$. At the statutory prices that
+$\bar{\mathcal{X}}$ carries, the worker demands the level of $G'$
+produced by $\tau_W$, and the owner the level produced by
+$\tau_C<\tau_W$. Hence no point of $\bar{\mathcal{X}}$ is a Lindahl
+equilibrium for $G$.
 
 *Proof.* Personalized prices $(p_C,p_W)$ are not coordinates of
 $\bar{\mathcal{X}}$. The implied statutory pair is $(p_C,0)$ in units of
-capital income. Lemma 0 and $N_W>0$ give a finite peak $\tau_W\in(0,1)$
-and $V_W\to-\infty$ as $\tau\to 0^+$, so the worker is not satiated at
-$G'=0$ and is not satiated at any $G'$ produced by $\tau\in(0,\tau_W)$.
-A zero worker price is then not a Lindahl price. $\square$
+capital income, with the owner bearing the whole cost. At that pair each
+class’s most preferred $G'$ is the one produced by its assigned tax
+peak, because the assigned programme is the choice of $\tau$ by one
+class under exactly this incidence. On $(0,\tau_W)$ the worker wants
+more, since $V_{W,\tau}>0$ there (Lemma 0 and $N_W>0$), and
+$V_W\to-\infty$ as $\tau\to 0^+$ rules out $G'=0$. On $(\tau_W,1)$ the
+worker wants less. At $\tau_W$ the owner, whose peak is $\tau_C<\tau_W$
+(Lemma A.2), wants less. No $\tau\in[0,1)$ is demanded by both classes
+at these prices. $\square$
 
 A mandate that selects a point of $[\tau_C,\tau_W]$ funds $G$. It does
 not construct $(p_C,p_W)$.
@@ -712,8 +720,8 @@ The argument uses strict concavity of $V_j$ in $\tau$ and an interior
 peak, and nothing else about the payoff. The logarithmic form of the
 licensed box is one case. With
 $V_j=M_j(1-\tau)^{1-\eta}/(1-\eta)+N_j\tau^{1-\eta}/(1-\eta)$, $\eta>0$,
-$\eta\neq 1$, whose limit at $\eta=1$ is the logarithmic form, the
-conclusion is the same.
+$\eta\neq 1$, and $M_j$, $N_j$ as in Lemma A.2, whose limit at $\eta=1$
+is the logarithmic form, the conclusion is the same.
 
 At $\sigma=1$ the same statement holds under a mandate for a schedule
 that names the common direction $1-\alpha$, because Proposition 13
@@ -727,6 +735,17 @@ $\underline\tau$ receives its peak, and a type whose peak lies below
 receives $\underline\tau$, the lowest tax on offer, which it prefers to
 every higher one because $V_C$ decreases above its peak.
 
+This is a delegation problem. A decision maker who cannot use transfers
+elicits information from an informed party (Melumad and Shibano 1991),
+and the design problem reduces to choosing a set of decisions from which
+the informed party picks its preferred one (Alonso and Matouschek 2008).
+Corollary 1 is the first-order form of that reduction for a
+one-dimensional type, and the censored peak is an interval delegated to
+the owner. The reduction belongs to that literature. Here it sorts the
+rules that the classes and a planner would name: the holder’s own
+programme passes, and the other class’s programme and every compromise
+that moves with the report fail.
+
 Under a mandate a report of $f_\lambda$ moves $\tau$ and $d$ together.
 
 ------------------------------------------------------------------------
@@ -736,8 +755,11 @@ Under a mandate a report of $f_\lambda$ moves $\tau$ and $d$ together.
 The information structure used is a one-dimensional private type and a
 direct mechanism (Myerson 1979). Complete-information implementation is
 selection on a named feasible set (Dasgupta, Hammond and Maskin 1979).
-Menus that are not own-programme paths lack a monotone-difference
-condition along the menu.
+Without transfers, a direct mechanism that the holder answers truthfully
+hands each type its preferred point of the rule’s image, so a truthful
+rule is a set of taxes delegated to the holder (Melumad and Shibano
+1991; Alonso and Matouschek 2008). Corollary 1 is the local form of that
+fact.
 
 Foley (1970) puts personalized prices on a public good in the commodity
 space. Proposition 12 is the statement that no point of
@@ -769,17 +791,20 @@ second fact of the Theorem, the third claim of Proposition 10).
 Proposition 9 uses it as well. For any payoff that is strictly concave
 in $\tau$ on $[0,1)$ with the same interior peaks, both values rise on
 $[0,\tau_C]$, so every tax in $(0,\tau_C]$ strictly Pareto-dominates
-$\tau=0$ at the same companions. Proposition 12 needs only
-$V_{W,\tau}>0$ below $\tau_W$.
+$\tau=0$ at the same companions. Proposition 12 needs only interior tax
+peaks ordered $\tau_C<\tau_W$.
 
 The incentive results for interior rules, Propositions 4, 6, 6$'$, 7,
 7$'$, 11 and 13 and Corollary 1, use four properties of the tax payoffs.
 Each is differentiable and strictly concave in $\tau$ with an interior
 peak; the peaks are ordered $\tau_C<\tau_W$; each peak falls in
-$\theta_R$; and both tend to $0$ as $\theta_R\to1$. None of the
-incentive results uses the value of $V_j$ at $\tau=0$. The logarithmic
-form of the licensed box is one payoff with these four properties, and
-the family in the remark after Corollary 1 is another.
+$\theta_R$; and both tend to $0$ as $\theta_R\to1$. Propositions 4 and
+13 work in the mandate space and use two further facts: the payoff
+separates into terms in $\tau$, $d$ and $i$ (Lemma A.1), and the
+direction peaks are interior, and common at $\sigma=1$ (Lemma A.3). None
+of the incentive results uses the value of $V_j$ at $\tau=0$. The
+logarithmic form of the licensed box is one payoff with these four
+properties, and the family in the remark after Corollary 1 is another.
 
 ------------------------------------------------------------------------
 
@@ -796,24 +821,24 @@ under a mandate, of its fiscal projection at $d_M$ under ratification
 (Propositions 1 and 2). Beyond that, four conclusions follow.
 
 First, the second welfare theorem’s separation fails here, and a
-transfer of capital does not repair it. The classes disagree about the
-tax because it is paid out of capital income, which the owner consumes
-and the worker does not, and because the owner’s felicity counts capital
-while the worker’s counts only labour. Each source is strictly signed on
-the licensed box (Lemma A.5). The private-ownership recipe $f_0$ sets
-$\tau=0$ and so $G'=0$. With log payoffs that recipe is ruin for both
-classes, and every interior tax strictly Pareto-dominates it (Lemma 0,
-Proposition 8). Under Premise P a reshuffle of $K$ moves each class’s
-level $H_j(\kappa)$ and leaves the tax Pareto interval $[\tau_C,\tau_W]$
-where it was (Proposition 10). Bergstrom–Cornes independence of the
-*set* therefore holds, and unanimity fails: no reshuffle of $K$ brings
-$\tau_C$ onto $\tau_W$ or selects $\tau=0$. Under P, then,
-redistributing capital cannot stand in for the public instrument. That
-no one owns successor labour removes an instrument, but it is not the
-source of the disagreement. P is a restriction, not a consequence: a
-transfer that gave workers capital income would change who bears the
-tax, and would leave the two-class environment in which the peaks are
-derived.
+transfer of capital that preserves the classes does not repair it. The
+classes disagree about the tax because it is paid out of capital income,
+which the owner consumes and the worker does not, and because the
+owner’s felicity counts capital while the worker’s counts only labour.
+Each source is strictly signed on the licensed box (Lemma A.5). The
+private-ownership recipe $f_0$ sets $\tau=0$ and so $G'=0$. With log
+payoffs that recipe is ruin for both classes, and every interior tax
+strictly Pareto-dominates it (Lemma 0, Proposition 8). Under Premise P a
+reshuffle of $K$ moves each class’s level $H_j(\kappa)$ and leaves the
+tax Pareto interval $[\tau_C,\tau_W]$ where it was (Proposition 10).
+Bergstrom–Cornes independence of the *set* therefore holds, and
+unanimity fails: no reshuffle of $K$ brings $\tau_C$ onto $\tau_W$ or
+selects $\tau=0$. Under P, then, redistributing capital cannot stand in
+for the public instrument. That no one owns successor labour removes an
+instrument, but it is not the source of the disagreement. P is a
+restriction, not a consequence: a transfer that gave workers capital
+income would change who bears the tax, and would leave the two-class
+environment in which the peaks are derived.
 
 Second, ratification narrows the outcome space, and it is not what
 defeats a compromise. When firms set the machine mix at the
@@ -849,20 +874,24 @@ not signed by the loadings alone (Proposition 5).
 
 Fourth, a uniform tax on capital income cannot be read as a system of
 Lindahl prices. Every point of $\bar{\mathcal{X}}$ funds $G$ from
-capital income alone, so the worker’s statutory price of $G$ is zero.
-The worker is not satiated on $(0,\tau_W)$, where $V_{W,\tau}>0$, so a
-zero price is not a Lindahl price and no point of $\bar{\mathcal{X}}$ is
-a Lindahl equilibrium (Proposition 12). Foley’s repair needs
-personalised prices, which this instrument set does not contain. Under P
-the Pareto interval does not move with $\kappa$ and contains no
-unanimous point (Proposition 10). A mandate that selects a point of
-$[\tau_C,\tau_W]$ funds $G$ at a single statutory price. Which point it
-selects is a choice between the classes, and neither a price system nor
-a transfer of capital makes that choice for it.
+capital income alone, so the worker’s statutory price of $G$ is zero. At
+those prices the worker demands the level of $G$ produced by $\tau_W$,
+and the owner, who pays the whole cost, the level produced by $\tau_C$,
+so no point of $\bar{\mathcal{X}}$ is a Lindahl equilibrium (Proposition
+12). Foley’s repair needs personalised prices, which this instrument set
+does not contain. Under P the Pareto interval does not move with
+$\kappa$ and contains no unanimous point (Proposition 10). A mandate
+that selects a point of $[\tau_C,\tau_W]$ funds $G$ at a single
+statutory price. Which point it selects is a choice between the classes,
+and neither a price system nor a transfer of capital makes that choice
+for it.
 
 ------------------------------------------------------------------------
 
 ## References
+
+Alonso, R., and N. Matouschek (2008). Optimal delegation. *Review of
+Economic Studies* 75(1): 259–293.
 
 Arrow, K. J. (1951). An extension of the basic theorems of classical
 welfare economics. In J. Neyman (ed.), *Proceedings of the Second
@@ -882,11 +911,11 @@ Debreu, G. (1959). *Theory of Value*. Yale University Press.
 Foley, D. K. (1970). Lindahl’s solution and the core of an economy with
 public goods. *Econometrica* 38(1): 66–72.
 
+Melumad, N. D., and T. Shibano (1991). Communication in settings with no
+transfers. *RAND Journal of Economics* 22(2): 173.
+
 Myerson, R. B. (1979). Incentive compatibility and the bargaining
 problem. *Econometrica* 47(1): 61–73.
-
-Samuelson, P. A. (1954). The pure theory of public expenditure. *Review
-of Economics and Statistics* 36(4): 387–389.
 
 ## Appendix A. The assigned programmes
 
