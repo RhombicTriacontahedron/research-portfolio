@@ -37,43 +37,17 @@ response, not merely second-best: absent from the distribution it is supposed to
 per-head distributions between the two classes that the whole admissible range of transfers can reach
 is a single point, and the point is fixed by the reproduction technology.
 
-Three things follow, and they are the paper.
-
-**The result is objective-free.** Nothing below asks what either class maximises, or whether the state
-it describes is an equilibrium of any game. The argument runs on two objects only: the accounting
-identity that a stationary class ratio requires equal growth, and the injectivity of a reproduction
-map. That is what makes the statement a property of the environment rather than of a solution concept,
-and it is why a reader who dislikes the strategic apparatus one would naturally build on top of this
-economy is not thereby released from the conclusion.
-
-**The hypothesis is an elasticity, not a technology.** The obvious objection to a result of this kind
-is that it was assumed: give both classes the same reproduction technology and of course they end up
-alike. The objection fails. The two classes may differ arbitrarily in reproduction *efficiency* — one
-may convert consumption into numbers at any multiple of the other’s rate — and the transfer is still
-inert. What equal efficiency buys is only the numerical value of a constant that no instrument
-touches. Inertness needs the two classes to share the *elasticity* of the reproduction technology within the power maps of Assumption 2 and the
-public input to be absent from it, and nothing else; if that elasticity differs across classes, inertness
-fails, which is stated here as
-a boundary rather than left as a hope. The requirement falls short of a common technology for
-reproduction maps of any shape, not only for power maps: Proposition 5, in the appendix, gives the exact
-condition for the per-head gap to take one value.
-
-**Provision in kind is the exception, and its incidence is a closed form.** Where the state supplies an
-input to reproduction directly instead of paying cash, the per-head gap becomes a function of policy, and in particular of how the
-receipt is split between that provision and cash.
-The exchange rate between public provision and private consumption along the equalised-reproduction
-locus with the owner’s claim held fixed is a constant of the composite, free of the reproduction technology’s level and of every
-instrument; the reproduction efficiencies that set the cash-economy gap drop out of it entirely.
-
 That a subsidy to a class whose numbers respond to income is absorbed by those numbers is
-the classical argument against poor relief (Malthus 1798, ch. 5). What this paper adds to it is three things. The first is that the absorption is
+the classical argument against poor relief (Malthus 1798, ch. 5). What this paper adds to it is
+exactness, invariance and a consequence. Where private consumption is the only input to reproduction
+the absorption is
 *exact* — the transfer is not merely diluted but removed from the distributional coordinate
-altogether, which is a statement about a reachable set rather than about a sign. The second is the
-invariance just described: the absorption survives arbitrary asymmetry in the classes’ reproduction
-efficiencies, so it is not an artefact of treating the two classes as interchangeable. The third is
-the reading of §5: what the result does to the second welfare theorem is not to contradict it but to
-empty it, because the factor whose per-head return is in question is *produced*, and a produced factor
-that no agent may hold is nobody’s endowment to transfer.
+altogether, which is a statement about a reachable set rather than about a sign. The invariance is
+that the absorption survives arbitrary asymmetry in the classes’ reproduction
+efficiencies, so it is not an artefact of treating the two classes as interchangeable. The
+consequence, drawn in §5, is that what the result does to the second welfare theorem is not to
+contradict it but to empty it, because the factor whose per-head return is in question is *produced*,
+and a produced factor that no agent may hold is nobody’s endowment to transfer.
 
 The first welfare theorem is untouched here, and so are the efficiency results
 proved for economies in which a dynasty’s reproduction is decided and paid for within the dynasty (Golosov, Jones and Tertilt 2007): there
@@ -88,22 +62,71 @@ at a given stationary class ratio. The economy carries one tax base, no credit m
 and §6 prices each of those.
 
 There is a literature on cash versus in-kind transfers, and it is not this one. Currie and Gahvari
-(2008) survey it. In every mechanism they assemble the set of recipients is fixed and incomes are
+(2008) survey it, and the difference is at the primitive rather than at the result. In every mechanism
+they assemble the set of recipients is fixed and incomes are
 exogenous, so the wedge between the two instruments lives on the intensive margin of a given
 population. Cash there is fully potent — it moves the recipient’s bundle — and merely mis-composed. The
 case for in-kind rests on naming a friction on the *recipient’s* side: paternalism, self-selection under
-unobserved type, pecuniary effects, agency within the household. The survey states the bare comparative outright —
+unobserved type, pecuniary effects, dynamic incentives, agency within the household, the politics of the
+programme. The survey states the bare comparative outright —
 lump-sum cash transfers “cannot support” the allocations that in-kind transfers support (p. 340) — so
 what is claimed here is not that comparative but its mechanism and its strength: an extensive margin
 rather than an information or externality friction, and a reachable set that is a point rather than a
 second best. Here the headcount is an output of a production
-function whose input is the recipients’ own consumption, and the transfer moves its own denominator.
+function whose input is the recipients’ own consumption, the transfer moves its own denominator, and
+the per-head claim is a fixed point invariant to it.
 The reason provision in kind works lies on the *payer’s* side, in the technology rather than in
-anyone’s preferences. §6 returns to the distinction.
+anyone’s preferences: it is an input to that production function, not a good in anybody’s utility
+function. The difference is one of kind and not of degree — suboptimal there, void here where private
+consumption is the only input to reproduction — and none of the mechanisms the survey assembles is of
+that kind. The survey’s own conclusion notes the gap from the other side: in-kind programmes plausibly
+“increase productivity and labor supply in the long run”, and this “investment role for in-kind
+transfers may provide a more important reason to supply transfers in-kind, although it has not been a
+focus of the theoretical literature” (p. 377). What is formalised below is one version of that
+investment role, in which the thing being invested in is the workforce itself.
+
+The nearest two-class model on the other side — the theorem’s side rather than the survey’s — is Galor
+and Moav (2006), in which a tax on capital funds schooling, provision in kind with no cash instrument
+at all, and the two classes agree on its rate; their §4.4 sets direct transfers aside on the ground
+that a conflict between the classes “would emerge”. Their public input enters production, and ours
+reproduction; and here, where private consumption is the only input to reproduction, the cash
+instrument raises no conflict in the per-head coordinate for the opposite reason, that it reaches
+nothing.
+
+Three things follow, and they are the paper.
+
+The result is objective-free. Nothing below asks what either class maximises, or whether the state
+it describes is an equilibrium of any game. The argument runs on two objects only: the accounting
+identity that a stationary class ratio requires equal growth, and the injectivity of a reproduction
+map. That is what makes the statement a property of the environment rather than of a solution concept,
+and it is why a reader who dislikes the strategic apparatus one would naturally build on top of this
+economy is not thereby released from the conclusion.
+
+The hypothesis is an elasticity, not a technology. The obvious objection to a result of this kind
+is that it was assumed: give both classes the same reproduction technology and of course they end up
+alike. The objection fails. The two classes may differ arbitrarily in reproduction *efficiency* — one
+may convert consumption into numbers at any multiple of the other’s rate — and the transfer is still
+inert. What equal efficiency buys is only the numerical value of a constant that no instrument
+touches. Inertness needs the two classes to share the *elasticity* of the reproduction technology within the power maps of Assumption 2 and the
+public input to be absent from it, and nothing else; if that elasticity differs across classes, inertness
+fails, which is stated here as
+a boundary rather than left as a hope. The requirement falls short of a common technology for
+reproduction maps of any shape, not only for power maps: Proposition 5, in the appendix, gives the exact
+condition for the per-head gap to take one value.
+
+Provision in kind is the exception, and its incidence is a closed form. Where the state supplies an
+input to reproduction directly instead of paying cash, the per-head gap becomes a function of policy, and in particular of how the
+receipt is split between that provision and cash.
+The exchange rate between public provision and private consumption along the equalised-reproduction
+locus with the owner’s claim held fixed is a constant of the composite, free of the reproduction technology’s level and of every
+instrument; the reproduction efficiencies that set the cash-economy gap drop out of it entirely.
 
 Section 2 sets out the economy. Section 3 proves that cash is inert and shows exactly which hypothesis
 carries it. Section 4 proves the incidence of provision in kind. Section 5 draws the consequence for
-the second welfare theorem. Section 6 states the scope and the boundary.
+the second welfare theorem. Section 6 states the scope of each result and the boundary at which it
+fails, and proves that the economy with a public input has exactly one full rest point, at which a
+larger share in kind raises the owners’ per-head consumption relative to the workers’. Section 7
+concludes.
 
 # 2. The economy
 
@@ -183,7 +206,7 @@ Assumption 3 is used only where it is named — in the rest-point form (10) of T
 the two stock laws, and in the numerical witness of Appendix A.2 that shows the hypothesis set is not
 empty. Neither Lemma 1 nor Proposition 1 needs it.
 
-**So what.** The setup buys two things that the rest of the paper spends. Reproduction is a technology
+The setup buys two things that the rest of the paper spends. Reproduction is a technology
 and not a decision, so numbers move with consumption without anyone choosing family size — which is
 why every result below holds whatever either class is taken to want, and equally why nothing here
 speaks to fertility behaviour. And the workforce, though produced, is held by nobody: no agent owns
@@ -340,8 +363,8 @@ gap takes one value across a range of stationary states exactly when, over that 
 is the owners’ map applied to a fixed multiple of the workers’ consumption. A common technology is the
 case in which the multiple is one, and for power maps the condition is a common exponent.
 
-**So what.** An economist now knows that the per-head distribution between two classes in this economy
-is not a policy variable, and that the familiar reading of a cash transfer’s incidence — someone bears
+The per-head distribution between two classes in this economy
+is not a policy variable, and the familiar reading of a cash transfer’s incidence — someone bears
 it, the question is who — has no application here, because the transfer does not reach the object. The
 transfer has an incidence all the same, and (5) names it: it falls on relative numbers. That is a
 different dependent variable, measured in people rather than in consumption, and a policy evaluated on
@@ -463,7 +486,7 @@ dynastic sizes and a price for the transfer, and this paper writes neither; nor 
 settle the matter, because any ranking must price the transfer on both sides rather than read the
 worker’s private claim alone.
 
-**So what.** Measured private inequality and reproduced class condition are different objects, and a
+Measured private inequality and reproduced class condition are different objects, and a
 settled class structure separates them completely. An economy can equalise what reproduces its classes
 while running whatever private consumption gap the composition of the worker’s claim implies — and the
 state sets that composition. Redistribution here works by displacing the wage, not by supplementing
@@ -621,7 +644,7 @@ explanation, and not a ranking of the two instruments: at a given tax rate they 
 since whatever is not provided in kind is paid in cash. Cash’s effect is exactly zero when the public input is absent from reproduction ($\theta=1$, Proposition 1); when it is present, it reaches the gap at fixed provision only through the private claim, with the elasticity $-(1-\theta)$ of Theorem 1. At the full rest point a shift of the receipt toward cash at a given tax rate also withdraws provision, and the shift strictly lowers $c_C/c_W$ (Proposition 4(ii)). At that rest point, then, provision in kind is the instrument that raises the owner’s per-head
 consumption relative to the worker’s, and cash is the one that lowers it.
 
-**So what.** The division of labour between markets and policy that the second theorem licenses
+The division of labour between markets and policy that the second theorem licenses
 requires an instrument with range. Where the workforce is produced out of the workers’ private
 consumption alone, the instrument has none in the per-head coordinate, so the division of labour is
 unavailable to any aim stated per head, and no composition of public spending moves the gap there
@@ -757,35 +780,48 @@ vanishes and the root is forced above $1-\delta$ but not above $1-\delta_G$, so 
 $\delta_G<\delta$, remains a witness rather than an instance of a theorem. When $\delta_G\ge\delta$, (i)
 holds at $\theta=1$ as well, while (ii) does not for $c_C/c_W$: there the gap is $\chi$ whatever $\phi$ is.
 
-**Where this sits, and where it does not.** The question of cash versus provision in kind has a large
-literature, surveyed by Currie and Gahvari (2008). Its mechanisms are not the one here, and the
-difference is at the primitive rather than at the result. There the set of recipients is fixed and
-incomes are exogenous, so cash is fully potent — it moves the recipient’s bundle, and the case for
-in-kind rests on naming a friction that makes the movement the wrong one: interdependent or
-paternalistic preferences, unobserved type and self-selection, pecuniary effects, dynamic incentives,
-agency within the household, the politics of the programme. Every one of those reasons is a reason on
-the *recipient’s* side. Here the headcount is an endogenous output of a production function whose
-input is the recipients’ own consumption; the transfer moves its own denominator; the per-head claim is
-a fixed point invariant to it; and the reason provision in kind works is that it is an input to that
-production function, not a good in anybody’s utility function. The difference is one of kind and not
-of degree — suboptimal there, void here where private consumption is the only input to reproduction — and none of the mechanisms the survey assembles is of that kind. The survey’s
-own conclusion notes the gap from the other side: in-kind programmes plausibly “increase productivity
-and labor supply in the long run”, and this “investment role for in-kind transfers may provide a more
-important reason to supply transfers in-kind, although it has not been a focus of the theoretical
-literature” (p. 377). What is formalised above is one version of that investment role, in which the
-thing being invested in is the workforce itself. The nearest two-class model on the other side — the
-theorem’s side rather than the survey’s — is Galor and Moav (2006), in which a tax on capital funds
-schooling, provision in kind with no cash instrument at all, and the two classes agree on its rate;
-their §4.4 sets direct transfers aside on the ground that a conflict between the classes “would
-emerge”. Their public input enters production, and ours reproduction; and here, where private consumption is the only input to reproduction, the cash instrument
-raises no conflict in the per-head coordinate for the opposite reason, that it reaches nothing.
+# 7. Conclusion
 
-**So what.** The result is narrow in its hypotheses and wide in what it removes. It does not require
-the two classes to be alike, it does not require anyone to be maximising anything in particular, and it
-does not require the state to be an equilibrium. It does require a stationary class ratio, a
-workforce produced out of its own private consumption alone, and one shared elasticity — and where those hold, Proposition 3 says the instrument on
-which the standard separation of efficiency from distribution rests is not a blunt tool but an absent
-one.
+Where a class is produced out of its own consumption, a transfer to that class is a transfer of
+numbers rather than of per-head claims. At a stationary class ratio the two classes grow at one rate,
+equal growth pins the ratio of their reproduction inputs to a constant of the technology, and when
+private consumption is the only such input that constant is the per-head gap. The tax rate, the split
+between cash and public provision, the reinvestment share, productivity, the capital share and both
+depreciation rates are all absent from it. So are the class ratio itself and every property of
+either class’s objective (Proposition 1). The image of the whole admissible
+instrument set in the distributional coordinate is a single point (Proposition 3). The
+transfer is not attenuated; it is absorbed by the denominator it creates, and what it moves instead is
+the relative size of the two classes.
+
+That conclusion holds on an elasticity rather than on a common technology. Two classes may convert
+consumption into numbers at any multiple of one another’s rate and the gap is still constant; it is
+constant if and only if the two elasticities coincide, and where they differ the gap moves with the
+level at the rate $1-\gamma_C/\gamma_W$; at such states with the capital stock also at rest and both
+the reinvestment rate and the tax rate positive, the cash instrument reaches that level
+(Proposition 2). The
+hypothesis that carries inertness is therefore observable: a per-head gap that varies with the level
+of provision is a gap that a transfer can move.
+
+What does move the gap is an input to reproduction that only provision in kind supplies. With such an
+input the per-head gap is a closed form in public provision per worker relative to the private claim,
+rising in the first and falling in the second with elasticity $-(1-\theta)$ (Theorem 1). At the
+full rest point a shift of the receipt towards cash at a given tax rate and reinvestment share
+strictly lowers the owners’
+per-head consumption relative to the workers’ (Proposition 4(ii)). The instrument the theory treats as
+a second-best expedient is the one with range here, and it has that range for a reason on the payer’s
+side: it enters the production function for workers as an input of its own, where cash enters only
+through the private claim.
+
+For the second welfare theorem the consequence is a loss of range rather than a counterexample. The
+theorem redistributes endowments, and the factor whose per-head return is at issue is produced by a
+technology, held by no agent, priced in no market and transferable by no instrument in $(\star)$. A
+produced factor that nobody may hold is nobody’s endowment, so the compensation the theorem promises
+is unavailable in the per-head coordinate, and the division of labour between prices and transfers
+that the theorem licenses is unavailable with it. The result is narrow in its hypotheses and wide in
+what it removes: it needs a stationary class ratio, a workforce produced out of its own private
+consumption alone, and one shared elasticity, and it needs nothing of what either class maximises or
+of whether the state it describes is an equilibrium. Where those three hold, the instrument on which
+the standard separation of efficiency from distribution rests is not a blunt tool but an absent one.
 
 # Appendix
 
