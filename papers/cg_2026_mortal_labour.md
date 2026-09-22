@@ -4,30 +4,30 @@ Carlos Galindo Escajeda
 
 # Abstract
 
-Which class wants the next working generation reared more is decided by
-one inequality, which splits exactly into a term for horizon and a term
-for the division of the product. Workers live two periods, and their old
-age is a claim on the product of the generation they rear. Capitalist
-generations are linked by altruism, and their capital outlives them. A
-levy on capital income finances a public input to rearing. A working
-cohort whose only stake in the next generation is its old-age claim
-wants a larger levy than capital does, everywhere on Cobb–Douglas
-production and, off it, than capital’s stationary preferred levy, at a
-state stationary under capital’s own policy and at horizons where
-capital’s stationary problem is strictly concave, if and only if
-$\beta\lambda_C\,[1+s(1-\gamma)]+\beta\lambda_C\,\frac{1-\sigma}{\sigma}\,[s(1-\gamma\theta)+\gamma(1-\theta)(1-s)]<1$,
-where $\beta\lambda_C$ is capital’s generational horizon, $s$ the
-capital share, $\sigma$ the elasticity of substitution, and $\gamma$ and
-$\theta$ describe rearing. The first term is the threshold of a single
-planner with capital’s horizon, and at a given capital share no
-elasticity enters it. The second is the weight of the factor shares in
-capital’s problem: its claims on profits, less the smaller part the wage
-share plays in private rearing. Whenever capital cares about its
-successors it vanishes only at unit elasticity. On Cobb–Douglas
-production the working cohort prefers the levy that maximises the next
-generation’s output, which depends on no preference parameter. Where
-horizon alone favours labour and $\sigma\le1$, only capital’s own claims
-on profits can reverse the ordering.
+Workers live two periods, and their old age is a claim on the product of
+the generation they rear. Capitalist generations are linked by altruism,
+and their capital outlives them. A levy on capital income finances a
+public input to rearing. On Cobb–Douglas production a working cohort
+whose only stake in the next generation is its old-age claim wants the
+levy that maximises next period’s output, however it discounts, and it
+wants a larger levy than capital does if and only if
+$\beta\lambda_C[1+\alpha(1-\gamma)]<1$, where $\beta\lambda_C$ is
+capital’s generational horizon, $\alpha$ the capital share and $\gamma$
+the elasticity of rearing. The ordering holds at every technology when
+$\beta\lambda_C\le1/2$, does not depend on the pension institution, and
+reverses when the levy rears the generation after next. Neither class
+wants the levy that maximises balanced growth. Off Cobb–Douglas, the
+comparison is with capital’s stationary preferred levy, at a state
+stationary under capital’s own policy and at horizons where capital’s
+stationary problem is strictly concave. There the threshold is
+$\beta\lambda_C[1+s(1-\gamma)]+\beta\lambda_C\frac{1-\sigma}{\sigma}[s(1-\gamma\theta)+\gamma(1-\theta)(1-s)]<1$,
+with $s$ the stationary capital share and $\sigma$ the elasticity of
+substitution. At a given share the first term contains no elasticity.
+The second weighs capital’s claims on profits and, whenever capital
+cares about its successors, vanishes only at unit elasticity. A bound on
+the horizon in $\sigma$ and $s$ alone secures the ordering for every
+rearing technology, and it is sharp. Charging the levy to wages adds one
+term to the threshold, and worker altruism lowers the cohort’s demand.
 
 **Keywords:** reproduction of labour; old-age claims; overlapping
 generations; capital income taxation; public investment in children;
@@ -146,8 +146,8 @@ reversal. They enter its problem through what it values, what it
 accumulates and the base on which the levy is raised. A decider with
 capital’s horizon and none of those claims never out-demands the
 pensioner where horizon alone favours labour and substitution is at most
-unit. The one-agent relabelling fails at every elasticity other than one
-(Proposition 10).
+unit. Compared at a common capital share, the one-agent relabelling
+fails at every elasticity other than one (Proposition 10).
 
 Section 5 takes up three objections on the Cobb–Douglas face. When the
 levy is also charged to wages, the threshold gains one additive term,
@@ -232,11 +232,12 @@ income $\alpha Y_t$. A reproduction levy $\rho_t$ finances a public
 input to rearing, $G_t=\rho_t\alpha Y_t$, and a cash transfer $c_t$ goes
 to the working cohort. Two institutions carry the pension and are held
 fixed: a pension levy $\psi\in[0,1)$ on capital income and a
-pay-as-you-go share $\pi\in[0,1)$ of the wage bill. The working cohort’s
-income is $W_t=[(1-\pi)(1-\alpha)+\alpha c_t]\,Y_t$. What remains of
-capital income, $(1-\rho_t-\psi-c_t)\alpha Y_t$, the capitalist
-generation divides between its consumption $C_t$ and next period’s
-capital $K_{t+1}$.
+pay-as-you-go share $\pi\in[0,1)$ of the wage bill, not both zero, so
+that the pension $\psi\alpha+\pi(1-\alpha)$ is positive. The working
+cohort’s income is $W_t=[(1-\pi)(1-\alpha)+\alpha c_t]\,Y_t$. What
+remains of capital income, $(1-\rho_t-\psi-c_t)\alpha Y_t$, the
+capitalist generation divides between its consumption $C_t$ and next
+period’s capital $K_{t+1}$.
 
 **Rearing.** The next working generation is produced by the cohort’s
 income and the public input,
@@ -388,9 +389,9 @@ $c\in[0,\tau)$, so its preferred split is unique. Where it is interior
 it is*
 $$c_C=\frac{\theta\alpha\tau-(1-\theta)(1-\pi)(1-\alpha)}{\alpha},$$
 *and otherwise it is the corner $c=0$. It does not depend on
-$\lambda_C$. At $\mu=0$ it coincides with the working cohort’s. For
-$\mu>0$ the cohort’s objective is concave in $c$, and its marginal value
-of cash at $c_C$ is
+$\lambda_C$. For a working cohort with $\lambda_W=0$: at $\mu=0$ its
+split coincides with capital’s. For $\mu>0$ the cohort’s objective is
+concave in $c$, and its marginal value of cash at $c_C$ is
 $\alpha\mu/\bigl(\theta[(1-\alpha)(1-\pi)+\alpha\tau]\bigr)>0$, so the
 cohort wants more cash than capital wherever capital’s split is
 interior. At $\lambda_C=0$ capital is indifferent across splits, and the
@@ -521,9 +522,10 @@ command.
 **Proposition 9 (a horizon bound free of the rearing technology).**
 *$LT\le1$ at every $(\gamma,\theta)\in[0,1]^2$ if and only if
 $L\le\min\bigl(\sigma,\;\sigma/(\sigma+s)\bigr)$, and $LT<1$ there when
-the inequality is strict. Wherever the hypotheses of Proposition 8 hold,
-labour’s preferred levy is then at least $r_C$, and strictly above it
-under the strict inequality. The bound is sharp: for every
+the inequality is strict. If $L\le\min(\sigma,\sigma/(\sigma+s))$, both
+hypotheses of Proposition 7 hold at every $(\gamma,\theta)\in(0,1)^2$,
+and labour’s preferred levy strictly exceeds $r_C$ there, the boundary
+value of $L$ included. The bound is sharp: for every
 $L\in\bigl(\min(\sigma,\sigma/(\sigma+s)),\,1\bigr)$, $r_C$ exceeds
 labour’s preferred levy on a non-empty open set of rearing technologies
 $(\gamma,\theta)\in(0,1)^2$ at which both hypotheses hold strictly. At
@@ -559,12 +561,15 @@ Proposition 10 locates the reversal of Proposition 8. With substitution
 at most unit, horizon alone favours labour wherever
 $L(1+s(1-\gamma))<1$, and there only capital’s own claims on profits can
 make the owner the class that wants the larger levy. At $\sigma<1$ those
-claims raise capital’s threshold by a positive amount. At $\sigma=1$
-they are invisible, which is why Proposition 6 holds there and only
-there. “Horizon, not ownership” is the Cobb–Douglas statement. Off unit
-elasticity the statement is this: where horizon alone favours labour and
-substitution is at most unit, only capital’s ownership can reverse the
-ordering.
+claims raise capital’s threshold by a positive amount, at a common
+capital share. At $\sigma=1$ they are invisible, which is why
+Proposition 6 holds there. Off unit elasticity the two thresholds differ
+at every common share. Whether capital and the one-agent planner, each
+at a state stationary under its own policy, share a capital share is not
+established. “Horizon, not ownership” is the Cobb–Douglas statement. Off
+unit elasticity the statement is this: where horizon alone favours
+labour and substitution is at most unit, only capital’s ownership can
+reverse the ordering.
 
 # 5. Incidence, altruism and who pays the pension
 
@@ -963,19 +968,25 @@ is affine in $\theta$. Its maximum over $[0,1]^2$ is therefore attained
 at a corner. The corner values are $T(0,\theta)=1+s/\sigma$,
 $T(1,0)=1/\sigma$ and $T(1,1)=1$. Hence
 $\sup T=\max(1+s/\sigma,1/\sigma)$, and $L\sup T\le1$ if and only if
-$L\le\sigma/(\sigma+s)$ and $L\le\sigma$. For sharpness, note that
-$T=1+s/\sigma-G$ and $M=1-(1-s)/\sigma-G$. So $LT>1$ reads
-$G<1+s/\sigma-1/L$, the hypothesis $1-L+LG>0$ reads $G>1-1/L$, and the
-hypothesis $1-LM>0$ reads $G>1-(1-s)/\sigma-1/L$, which the previous
-inequality implies. All three hold if and only if $G$ lies in the open
-interval $I=(1-1/L,\;1+s/\sigma-1/L)$. On the open box $(0,1)^2$, $G$ is
-continuous and bilinear, so its image is the open interval between the
-least and the greatest of its corner values $0$, $G(1,0)=1-(1-s)/\sigma$
-and $G(1,1)=s/\sigma$. The lower end of $I$ is negative, hence below the
-supremum of that image. The upper end exceeds $0$ if and only if
-$L>\sigma/(\sigma+s)$, and exceeds $G(1,0)$ if and only if $L>\sigma$.
-So $I$ meets the image of the open box if and only if
-$L>\min(\sigma,\sigma/(\sigma+s))$, and then the set of
+$L\le\sigma/(\sigma+s)$ and $L\le\sigma$. On the open box the bound
+gives more. Being bilinear, $T$ equals
+$(1-\gamma)(1-\theta)T(0,0)+(1-\gamma)\theta\,T(0,1)+\gamma(1-\theta)T(1,0)+\gamma\theta\,T(1,1)$,
+with every weight positive. One corner, $T(1,1)=1$, lies strictly below
+$\sup T$, so $T<\sup T$, and $L\le1/\sup T$ gives $LT<1$ at every
+interior point. The hypotheses then hold automatically, because
+$1-L+LG=1-LT+Ls/\sigma>0$ and $1-LM=(1-L+LG)+L(1-s)/\sigma>0$. For
+sharpness, note that $T=1+s/\sigma-G$ and $M=1-(1-s)/\sigma-G$. So
+$LT>1$ reads $G<1+s/\sigma-1/L$, the hypothesis $1-L+LG>0$ reads
+$G>1-1/L$, and the hypothesis $1-LM>0$ reads $G>1-(1-s)/\sigma-1/L$,
+which the previous inequality implies. All three hold if and only if $G$
+lies in the open interval $I=(1-1/L,\;1+s/\sigma-1/L)$. On the open box
+$(0,1)^2$, $G$ is continuous and bilinear, so its image is the open
+interval between the least and the greatest of its corner values $0$,
+$G(1,0)=1-(1-s)/\sigma$ and $G(1,1)=s/\sigma$. The lower end of $I$ is
+negative, hence below the supremum of that image. The upper end exceeds
+$0$ if and only if $L>\sigma/(\sigma+s)$, and exceeds $G(1,0)$ if and
+only if $L>\sigma$. So $I$ meets the image of the open box if and only
+if $L>\min(\sigma,\sigma/(\sigma+s))$, and then the set of
 $(\gamma,\theta)$ at which $G$ lies in $I$ is open and non-empty, being
 the preimage of an open interval under a continuous map. At $\sigma=1$,
 $\min(1,1/(1+s))=1/(1+\alpha)$.
