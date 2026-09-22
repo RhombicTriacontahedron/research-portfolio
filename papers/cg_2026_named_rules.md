@@ -9,7 +9,7 @@ ratification; assigned programmes as primitives
 
 ------------------------------------------------------------------------
 
-## Nontechnical abstract
+## Abstract
 
 A tax on capital income funds a public stock that reproduces labour
 nobody owns. The owner of capital and the worker want different rates.
@@ -38,7 +38,7 @@ personalised prices for the public stock.
 
 ------------------------------------------------------------------------
 
-## Technical abstract
+## Summary of results
 
 Outcome space $\mathcal{X}$ is the set of constant instruments. Under a
 mandate $\mathcal{X}=\{(\tau,d,i)\}$. Under ratification
@@ -862,11 +862,11 @@ current-output point $d_M=s_L$, direction leaves $\mathcal{X}$
 $d_C<d_M$, and below the worker’s exactly when $\theta_R>\bar\theta$.
 The tax and the investment share remain political. A compromise fails
 without ratification as well: at $\sigma=1$ under a mandate every listed
-chooser wants the same direction, and the mediant fails exactly as it
-does under ratification (Proposition 13). The hybrid $f_\times$, which
-pairs the owner’s tax with the worker’s direction, satisfies no single
-programme’s first-order conditions and is not a programme (Proposition
-3).
+chooser wants the same direction, and, with the investment share held
+fixed, the mediant fails exactly as it does under ratification
+(Proposition 13). The hybrid $f_\times$, which pairs the owner’s tax
+with the worker’s direction, satisfies no single programme’s first-order
+conditions and is not a programme (Proposition 3).
 
 Third, private information confines a truthful tax schedule to flat
 stretches and the holder’s own peak. With direction fixed, a
@@ -905,35 +905,6 @@ a transfer of capital makes that choice for it.
 
 ------------------------------------------------------------------------
 
-## References
-
-Alonso, R., and N. Matouschek (2008). Optimal delegation. *Review of
-Economic Studies* 75(1): 259–293.
-
-Arrow, K. J. (1951). An extension of the basic theorems of classical
-welfare economics. In J. Neyman (ed.), *Proceedings of the Second
-Berkeley Symposium on Mathematical Statistics and Probability*.
-University of California Press.
-
-Bergstrom, T. C., and R. C. Cornes (1983). Independence of allocative
-efficiency from distribution in the theory of public goods.
-*Econometrica* 51(6): 1753–1765.
-
-Dasgupta, P., P. Hammond, and E. Maskin (1979). The implementation of
-social choice rules: some general results on incentive compatibility.
-*Review of Economic Studies* 46(2): 185–216.
-
-Debreu, G. (1959). *Theory of Value*. Yale University Press.
-
-Foley, D. K. (1970). Lindahl’s solution and the core of an economy with
-public goods. *Econometrica* 38(1): 66–72.
-
-Melumad, N. D., and T. Shibano (1991). Communication in settings with no
-transfers. *RAND Journal of Economics* 22(2): 173.
-
-Myerson, R. B. (1979). Incentive compatibility and the bargaining
-problem. *Econometrica* 47(1): 61–73.
-
 ## Appendix A. The assigned programmes
 
 Throughout, the parameters lie in the licensed box and the instruments
@@ -953,7 +924,10 @@ a_g&=\beta a_n\gamma(1-\theta_R), &\qquad r&=\beta q\gamma(1-\theta_R),
 \end{aligned}
 $$ *with $m_C=(1-\omega)+\beta(a_k+a_g)$. Each system has a unique
 solution, and every coefficient is positive:* $$
-m_C=\frac{(1-\omega+\beta\omega)(1-\beta+\beta D)}{(1-\beta)(1-\beta a_1+\beta D)},\quad a_n=\frac{m_C(1-a_1)}{1-\beta+\beta D},\quad q=\frac{1-\beta a_1}{(1-\beta)(1-\beta a_1+\beta D)},\quad p+r=\frac{\beta qD}{1-\beta a_1}.
+\begin{gathered}
+m_C=\frac{(1-\omega+\beta\omega)(1-\beta+\beta D)}{(1-\beta)(1-\beta a_1+\beta D)},\quad a_n=\frac{m_C(1-a_1)}{1-\beta+\beta D},\\
+q=\frac{1-\beta a_1}{(1-\beta)(1-\beta a_1+\beta D)},\quad p+r=\frac{\beta qD}{1-\beta a_1}.
+\end{gathered}
 $$
 
 *Proof.* Substitute the transitions into felicity plus $\beta$ times the
@@ -986,9 +960,10 @@ $(M_C,N_C)\propto(1-\omega+\beta a_k,\ \beta a_g)$ for the owner and
 $(M_W,N_W)\propto(\beta p,\ \beta r)$ for the worker, all positive. Each
 $V_j$ is strictly concave in $\tau$ with peak $N_j/(M_j+N_j)$, which is
 the display for $\tau_C$ and $\tau_W$ in the Primitives. Moreover* $$
-\tau_W-\tau_C=\frac{(1-\theta_R)(1-\beta)\bigl[1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R s_K/\sigma+\beta s_L/\sigma\bigr]}{\bigl(1-\theta_R+\theta_R s_K/\sigma\bigr)\bigl(1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R s_K/\sigma\bigr)}>0,
-\qquad
+\begin{gathered}
+\tau_W-\tau_C=\frac{(1-\theta_R)(1-\beta)\bigl[1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R s_K/\sigma+\beta s_L/\sigma\bigr]}{\bigl(1-\theta_R+\theta_R s_K/\sigma\bigr)\bigl(1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R s_K/\sigma\bigr)}>0,\\
 \frac{\partial\tau_C}{\partial\theta_R}=-\frac{\beta^2\gamma\,(s_L/\sigma)\bigl[(1-\beta)+\beta\gamma s_K/\sigma\bigr]}{\bigl(1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R s_K/\sigma\bigr)^2}<0 .
+\end{gathered}
 $$
 
 *Proof.* The tax enters $\ln C_C$ and $k'$ through $\ln(1-\tau)$ and
@@ -1008,9 +983,16 @@ strictly concave, with peak* $$
 d=\frac{s_L}{\sigma}+\rho\,w,\qquad w=\frac{N}{M+N}.
 $$ *The current-output point is $d_M=s_L$, since $\ln Y$ loads $b$ with
 $s_K$ and $a$ with $s_L$. The owner’s and the worker’s weights are* $$
-w_C=\frac{\beta\gamma\theta_R\,s_L/\sigma}{\Lambda},\quad \Lambda=(1-\beta)+\beta\gamma(1-\rho\theta_R);\qquad w_W=\frac{\theta_R(1-\beta a_1)}{H},\quad H=\beta(1-\theta_R)+\theta_R(1-\beta\rho),
+\begin{aligned}
+w_C&=\frac{\beta\gamma\theta_R\,s_L/\sigma}{\Lambda}, &\quad \Lambda&=(1-\beta)+\beta\gamma(1-\rho\theta_R);\\
+w_W&=\frac{\theta_R(1-\beta a_1)}{H}, &\quad H&=\beta(1-\theta_R)+\theta_R(1-\beta\rho),
+\end{aligned}
 $$ *and they satisfy* $$
-(w_W-w_C)H\Lambda=(1-\beta)\theta_RQ,\qquad (s_L-w_C)\Lambda=s_L\bigl[(1-\beta)+\beta\gamma(1-\theta_R)\bigr],\qquad (w_W-s_L)H=\bigl(\beta s_L+(1-\beta)s_K\bigr)(\theta_R-\bar\theta),
+\begin{aligned}
+(w_W-w_C)H\Lambda&=(1-\beta)\theta_RQ,\\
+(s_L-w_C)\Lambda&=s_L\bigl[(1-\beta)+\beta\gamma(1-\theta_R)\bigr],\\
+(w_W-s_L)H&=\bigl(\beta s_L+(1-\beta)s_K\bigr)(\theta_R-\bar\theta),
+\end{aligned}
 $$ *with $Q=(1-\beta a_1)+\beta\gamma\bigl(1-\theta_R(1-a_2)\bigr)>0$,
 and
 $\partial w_C/\partial\theta_R=\beta\gamma(s_L/\sigma)(1-\beta+\beta\gamma)/\Lambda^2>0$.*
@@ -1071,6 +1053,37 @@ capital income and $\omega$ directly. The worker’s felicity $n$ loads
 capital with zero. Even with the tax’s bite on consumption removed, the
 owner values capital against the public stock more than the worker does.
 Neither term is a statement about who owns successor labour.
+
+------------------------------------------------------------------------
+
+## References
+
+Alonso, R., and N. Matouschek (2008). Optimal delegation. *Review of
+Economic Studies* 75(1): 259–293.
+
+Arrow, K. J. (1951). An extension of the basic theorems of classical
+welfare economics. In J. Neyman (ed.), *Proceedings of the Second
+Berkeley Symposium on Mathematical Statistics and Probability*.
+University of California Press.
+
+Bergstrom, T. C., and R. C. Cornes (1983). Independence of allocative
+efficiency from distribution in the theory of public goods.
+*Econometrica* 51(6): 1753–1765.
+
+Dasgupta, P., P. Hammond, and E. Maskin (1979). The implementation of
+social choice rules: some general results on incentive compatibility.
+*Review of Economic Studies* 46(2): 185–216.
+
+Debreu, G. (1959). *Theory of Value*. Yale University Press.
+
+Foley, D. K. (1970). Lindahl’s solution and the core of an economy with
+public goods. *Econometrica* 38(1): 66–72.
+
+Melumad, N. D., and T. Shibano (1991). Communication in settings with no
+transfers. *RAND Journal of Economics* 22(2): 173.
+
+Myerson, R. B. (1979). Incentive compatibility and the bargaining
+problem. *Econometrica* 47(1): 61–73.
 
 [^1]: The local tax arguments hold $i$ fixed.
 
