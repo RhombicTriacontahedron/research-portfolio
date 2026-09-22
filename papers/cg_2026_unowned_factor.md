@@ -54,6 +54,22 @@ funds the public stock, so the public part of the workforce’s upkeep is paid o
 The public stock enters the owner’s continuation with a strictly positive loading. The upkeep of
 labour he does not own is worth something to him.
 
+The claim that an owner of capital may prefer a strictly positive tax on capital income when the
+proceeds are spent in kind is **not** this paper’s. Galor and Moav (2006) prove a stronger version
+of it: in an economy where a tax on intergenerational transfers funds public schooling, the optimal
+rate is *unanimous* across classes and the redistribution is Pareto-improving. Their own §4.4 marks
+the boundary of that result — *“if the government would be engaged in direct transfers from the rich
+to the poor in addition to the provision of public schooling, then a conflict would emerge between
+the classes”* — and they do not model the conflict. Acemoglu, Gitmez and Shadmehr (2026) give the
+owner a different reason to want a positive tax spent in kind: a state acting for the owners of
+capital that redistributes rather than represses sets a strictly positive tax on income at every
+labour share and spends it on a public good for workers, because what a worker would forfeit by
+joining a revolt lowers the risk that the regime falls. Nor is the sign of a worker-preferred capital
+tax news: Straub and Werning (2020), revisiting Judd (1985) and Chamley (1986), show that the
+zero-long-run-tax result already fails under logarithmic capitalist utility, a failure they
+attribute to Lansing (1999). This paper reproduces their number as a nesting check in §5 and claims
+nothing from it.
+
 This paper asks what that asymmetry does to fiscal preferences. With logarithmic objectives the
 answer is a cross-structure, and it is sharp: **each class’s preferred tax on capital income is a
 function of the other class’s reproduction elasticity, and of its own never.** The owner’s preferred
@@ -76,25 +92,7 @@ in form to the workforce’s, with its own elasticity $\gamma_K$, so that the tw
 nothing but who owns them. The cross-structure is unchanged, and setting $\gamma_K = 1$ recovers the
 baseline exactly. Symmetrising the laws does not symmetrise the taxes.
 
-## What this paper adds, and to whom it is news
-
-The claim that an owner of capital may prefer a strictly positive tax on capital income when the
-proceeds are spent in kind is **not** this paper’s. Galor and Moav (2006) prove a stronger version
-of it: in an economy where a tax on intergenerational transfers funds public schooling, the optimal
-rate is *unanimous* across classes and the redistribution is Pareto-improving. Their own §4.4 marks
-the boundary of that result — *“if the government would be engaged in direct transfers from the rich
-to the poor in addition to the provision of public schooling, then a conflict would emerge between
-the classes”* — and they do not model the conflict. Acemoglu, Gitmez and Shadmehr (2026) give the
-owner a different reason to want a positive tax spent in kind: a state acting for the owners of
-capital that redistributes rather than represses sets a strictly positive tax on income at every
-labour share and spends it on a public good for workers, because what a worker would forfeit by
-joining a revolt lowers the risk that the regime falls. Nor is the sign of a worker-preferred capital
-tax news: Straub and Werning (2020), revisiting Judd (1985) and Chamley (1986), show that the
-zero-long-run-tax result already fails under logarithmic capitalist utility, a failure they
-attribute to Lansing (1999). This paper reproduces their number as a nesting check in §5 and claims
-nothing from it.
-
-What is added is five things a reader of that literature does not have.
+Five things follow that a reader of the literature above does not have.
 
 *The cross, and it is the two-sidedness that is claimed.* With logarithmic objectives, each class’s preferred rate on capital
 income carries the other class’s reproduction elasticity and never its own: the owner’s carries the
@@ -144,8 +142,6 @@ interval over which they disagree swallows the range.
 
 *A distributional sign set by what reproduction produces.* The same laws of motion can be read with the workforce as capacity in classes of fixed size, as here, or as persons in two dynasties. At the provision corner the worker’s higher preferred rate favours workers under the first reading and, per head, owners under the second (Proposition 11). Whether a tax spent on reproduction redistributes towards labour is therefore not a property of the tax: it turns on whether reproduction yields more capable workers or more of them.
 
-## Inefficiency without strategy
-
 The results above are proved on a face of the model: one period is a generation, capital and the
 public stock depreciate fully, and both objectives are logarithmic. The results on the tax also hold
 the split at the provision corner, which both classes choose for every tax up to a bound given in
@@ -167,7 +163,7 @@ own preferred rate a small rise in investment, paired with a move of the tax tow
 both classes better off (§3.3). Cooperation over investment would cure an inefficiency that no
 strategy created.
 
-## Attribution
+Section 2 sets out the economy. Section 3 solves for the equilibrium policies and draws the inefficiency that follows from them, Section 4 derives the cross, Section 5 the Pareto interval, the bargained rate and the primitives that open the gap, and Section 6 what a rising capital share does to the range over which the classes agree. Section 7 states the scope of each result and its nearest neighbours in the literature, and Section 8 concludes.
 
 Sections 3 to 6 state results proved for this economy. Where a statement reproduces a known result
 it is marked as a nesting check and the source is named: the owner’s investment share in the
@@ -270,7 +266,7 @@ rests on that change and on the face of this section. It also rests on where the
 what workers value: with an owner who has no taste for wealth, either of these two primitives
 suffices to open the class disagreement, and without both the classes agree (Proposition 10).
 
-# 3. The face closes in constant shares
+# 3. Equilibrium policies and their inefficiency
 
 ## 3.1 The structure, and its name
 
@@ -883,6 +879,34 @@ for the workforce breaks it (§4.3). A model in which workers valued consumption
 re-derived, not re-interpreted. The objective is not load-bearing for the sign of §5’s gap at the
 provision corner: with workers who value consumption, the worker’s preferred rate still strictly exceeds
 the owner’s (Proposition 10(ii)).
+
+# 8. Conclusion
+
+Two produced stocks, one of them owned and one of them not, are enough to set the classes against
+each other over a tax whose proceeds are spent on reproduction. The disagreement is not the familiar
+one. It does not come from a non-linear tax or from an elasticity of substitution away from unity,
+the two features to which Galor and Moav attribute their unanimity, and it does not come from
+unownedness on its own: in an economy where the tax falls on what the owner invests, workers value
+consumption and the owner has no taste for wealth, the workforce is still produced and owned by
+nobody and the two classes want the same rate. What opens the gap is where the tax falls and what workers value, and either primitive suffices.
+
+What the classes disagree about is the level of a joint investment whose form they agree on. With
+logarithmic objectives each side’s preferred rate on capital income is a function of the other
+side’s reproduction elasticity and never of its own. Below the owner’s own optimum both sides
+strictly prefer a larger state, so the rates a bargain can reach are the closed interval between the
+two peaks. As capital’s share of output rises the owner’s peak falls to zero and the worker’s does
+not, and what collapses is the range over which the two classes agree in wanting a larger state: the
+coalition that funds the reproduction of the workforce, capital itself included, dissolves, and the
+fiscal question turns from a joint investment into a pure distributive conflict. What
+capital-intensity destroys is not the state, since the bargained rate stays strictly positive in the
+limit at every weight on labour, but capital’s own reason for wanting one.
+
+The tax results are proved at the provision corner, where every pound of revenue is spent in kind
+and which both classes choose for every tax up to the bound of §5.3; §7 says which of them survive
+above that bound, and in the capital-intensive limit the corner is not the common choice. The
+persons reading of the distributional sign is proved at the corner only. Whether a tax spent on
+reproduction redistributes towards labour is settled there not by the tax but by what reproduction
+produces, capacity or persons.
 
 # Appendix A. Proofs
 
