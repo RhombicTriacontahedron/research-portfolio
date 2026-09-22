@@ -29,9 +29,10 @@ the other class’s tax truthfully, and it will not report a compromise
 tax truthfully wherever that compromise moves with the report. The
 private-ownership recipe that sets the tax to zero after a reshuffle of
 capital shuts the public stock. In the log payoffs used below that
-shut-down is ruin for both classes. A reshuffle of capital still does
-not transfer next period’s labour, and a single statutory tax is not two
-personalised prices for the public stock.
+shut-down is ruin for both classes. A reshuffle of capital does not make
+the classes agree on the tax, because the tax falls on income the owner
+consumes and the two classes value capital differently. A single
+statutory tax is not two personalised prices for the public stock.
 
 ------------------------------------------------------------------------
 
@@ -399,25 +400,35 @@ owned endowments to separate a production-and-provision plan from
 distribution (Arrow 1951; Debreu 1959). In this environment three facts
 hold.
 
-1.  Successor labour $L'$ is not an owned endowment. No coordinate of
-    $\bar{\mathcal{X}}$ transfers it.
+1.  The classes disagree about the tax for two reasons, each strictly
+    signed on the licensed box (Lemma A.5). The tax is paid out of
+    capital income, which the owner consumes and the worker does not.
+    And the owner’s felicity loads capital, with weight
+    $a_1(1-\omega)+\omega$, while the worker’s loads it with none. Hence
+    $\tau_C(\theta_R)<\tau_W(\theta_R)$ at every $\theta_R$.
 2.  The dropped-hypothesis recipe $f_0$ sets $\tau=0$ and $G'=0$. By
     Lemma 0 and Proposition 8 every interior tax strictly
     Pareto-dominates that recipe for the two assigned objectives.
-3.  Under Premise P the assigned peaks satisfy
-    $\tau_C(\theta_R)<\tau_W(\theta_R)$ independently of the owners’
-    share of $K$. The interval $[\tau_C,\tau_W]$ is therefore the same
-    at every such $\kappa$. No class-preserving reshuffle of $K$
+3.  Under Premise P a reshuffle of $K$ moves only the levels
+    $H_j(\kappa)$, so the interval $[\tau_C,\tau_W]$ is the same at
+    every owners’ share $\kappa$. No class-preserving reshuffle of $K$
     produces a unanimous tax. Every two-class Pareto tax, once a public
     instrument is restored, lies in that interval.
+
+Successor labour $L'$ is not an owned endowment, so no coordinate of
+$\bar{\mathcal{X}}$ transfers it. That removes an instrument a planner
+might want, but it is not what separates the peaks. Facts 1 and 3 rest
+on who pays the tax and on what each class’s felicity counts, and
+neither is a statement about who owns $L'$. Premise P is where the
+incidence is held fixed: a reshuffle that gave workers capital income
+would change who bears the tax, and that is the transfer P excludes.
 
 Bergstrom and Cornes (1983) independence of the *set* of efficient
 public quantities from private-good distribution holds under P: the set
 does not move with $\kappa$. Separation still fails: there is no unique
-efficient plan to hold fixed while transferring $K$, successor labour is
-not transferable, and the dropped-hypothesis recipe is shut-down of $G$.
-Class-specific Lindahl prices (Foley 1970) are a different instrument
-set.
+efficient plan to hold fixed while transferring $K$, and the
+dropped-hypothesis recipe is shut-down of $G$. Class-specific Lindahl
+prices (Foley 1970) are a different instrument set.
 
 **Proposition 12 (Uniform tax is not Lindahl).** At $\varphi=1$,
 $G'=\tau e^{E_C}$. Every point of $\bar{\mathcal{X}}$ funds $G$ from
@@ -722,19 +733,24 @@ under a mandate, of its fiscal projection at $d_M$ under ratification
 (Propositions 1 and 2). Beyond that, four conclusions follow.
 
 First, the second welfare theorem’s separation fails here, and a
-transfer of capital does not repair it. Successor labour is not an owned
-endowment, so no coordinate of $\bar{\mathcal{X}}$ transfers it. The
-private-ownership recipe $f_0$ sets $\tau=0$ and so $G'=0$. With log
-payoffs that recipe is ruin for both classes, and every interior tax
-strictly Pareto-dominates it (Lemma 0, Proposition 8). Under Premise P a
-reshuffle of $K$ moves each class’s level $H_j(\kappa)$ and leaves the
-tax Pareto interval $[\tau_C,\tau_W]$ where it was (Proposition 10).
-Bergstrom–Cornes independence of the *set* therefore holds, and
-unanimity fails: no reshuffle of $K$ brings $\tau_C$ onto $\tau_W$ or
-selects $\tau=0$. Under P, then, redistributing capital cannot stand in
-for the public instrument. P is a restriction, not a consequence: a
-transfer that gave workers capital income would leave the two-class
-environment in which the peaks are derived.
+transfer of capital does not repair it. The classes disagree about the
+tax because it is paid out of capital income, which the owner consumes
+and the worker does not, and because the owner’s felicity counts capital
+while the worker’s counts only labour. Each source is strictly signed on
+the licensed box (Lemma A.5). The private-ownership recipe $f_0$ sets
+$\tau=0$ and so $G'=0$. With log payoffs that recipe is ruin for both
+classes, and every interior tax strictly Pareto-dominates it (Lemma 0,
+Proposition 8). Under Premise P a reshuffle of $K$ moves each class’s
+level $H_j(\kappa)$ and leaves the tax Pareto interval $[\tau_C,\tau_W]$
+where it was (Proposition 10). Bergstrom–Cornes independence of the
+*set* therefore holds, and unanimity fails: no reshuffle of $K$ brings
+$\tau_C$ onto $\tau_W$ or selects $\tau=0$. Under P, then,
+redistributing capital cannot stand in for the public instrument. That
+no one owns successor labour removes an instrument, but it is not the
+source of the disagreement. P is a restriction, not a consequence: a
+transfer that gave workers capital income would change who bears the
+tax, and would leave the two-class environment in which the peaks are
+derived.
 
 Second, ratification narrows the outcome space, and it is not what
 defeats a compromise. When firms set the machine mix at the
@@ -909,6 +925,39 @@ objective as $(1-\omega)\ln(1-i)+\beta a_k\ln i$, so $V_{C,i}=0$ at
 $i_C=\beta a_k/(1-\omega+\beta a_k)$, and the worker’s as $\beta p\ln i$
 with $p>0$, so $V_{W,i}>0$ at every $i$.* The proof is Lemma A.1.
 $\square$
+
+**Lemma A.5 (Incidence and felicity).** *Let $\tau^\ast=a_g/(a_k+a_g)$,
+the owner’s tax peak with the current-consumption weight $1-\omega$
+deleted. Write $X=a_1(1-\omega)+\omega$, $\Omega=1-\beta a_1+\beta D$
+and $\Psi=(1-\beta)X+\beta D$. Then $\tau_C<\tau^\ast<\tau_W$, with* $$
+\tau^\ast-\tau_C=\frac{\beta\gamma(1-\theta_R)(1-\beta)(1-\omega)(s_L/\sigma)\,\Omega}{(1-\beta+\beta D)\,\Psi},\qquad
+\tau_W-\tau^\ast=\frac{(1-\beta)(1-\theta_R)\,X\,\Omega}{(1-\theta_R+\theta_R s_K/\sigma)\,\Psi}.
+$$
+
+*Proof.* By Lemma A.2, $\tau_C=\beta a_g/(1-\omega+\beta a_k+\beta a_g)$
+and $\tau^\ast=\beta a_g/(\beta a_k+\beta a_g)$ differ only by the
+weight $1-\omega$ that the owner’s current consumption puts on
+$\ln(1-\tau)$, so
+$\tau^\ast-\tau_C=(1-\omega)\beta a_g/[(\beta a_k+\beta a_g)(1-\omega+\beta a_k+\beta a_g)]$,
+and Lemma A.1 gives the first display. For the second,
+$r=\beta q\gamma(1-\theta_R)$ and $a_g=\beta a_n\gamma(1-\theta_R)$ give
+$\tau_W-\tau^\ast=\beta\gamma(1-\theta_R)(qa_k-a_np)/[(p+r)(a_k+a_g)]$,
+and Lemma A.1 gives $qa_k-a_np=X/[(1-\beta)\Omega]$. With
+$s_L/\sigma=1-a_1$ and $s_K/\sigma=a_2$, every expression here is a
+function of $(a_1,a_2)$, and $(\sigma,s_K)\mapsto(a_1,a_2)$ maps the
+licensed box onto $(0,1)^2$, so every factor is positive for either sign
+of $\rho$. $\square$
+
+The first gap is incidence. The tax is paid out of capital income, which
+the owner consumes and the worker does not, so the owner’s peak carries
+the weight $1-\omega$ of current consumption and the worker’s carries
+nothing in its place. The gap vanishes only at $\omega=1$, outside the
+box. The second gap is felicity. $X$ is the loading of the owner’s
+current felicity on capital: $(1-\omega)a_1$ through consumption of
+capital income and $\omega$ directly. The worker’s felicity $n$ loads
+capital with zero. Even with the tax’s bite on consumption removed, the
+owner values capital against the public stock more than the worker does.
+Neither term is a statement about who owns successor labour.
 
 [^1]: The local tax arguments hold $i$ fixed.
 
