@@ -84,10 +84,11 @@ upward misreport raises $V_C$. The dual statements hold when the worker
 is the named holder of $\theta_R$. Own-programme incentive compatibility
 is Proposition 4. The ratified mediant is Proposition 11. Constant taxes
 are incentive-compatible; a strictly decreasing selection above $\tau_C$
-is not, for the owner (Propositions 6$'$ and 7$'$). In general, at fixed
-direction and investment share, a differentiable tax schedule that is
-locally incentive-compatible for the holder of the type is, at each
-type, flat or equal to the holder’s own peak (Corollary 1).
+that is continuous at the true type is not, for the owner (Propositions
+6$'$ and 7$'$). In general, at fixed direction and investment share, a
+differentiable tax schedule that is locally incentive-compatible for the
+holder of the type is, at each type, flat or equal to the holder’s own
+peak (Corollary 1).
 
 ------------------------------------------------------------------------
 
@@ -466,8 +467,8 @@ equilibrium for $G$ requires personalized prices at which both classes
 demand the implemented $G'$. At the statutory prices that
 $\bar{\mathcal{X}}$ carries, the worker demands the level of $G'$
 produced by $\tau_W$, and the owner the level produced by
-$\tau_C<\tau_W$. Hence no point of $\bar{\mathcal{X}}$ is a Lindahl
-equilibrium for $G$.
+$\tau_C<\tau_W$. Hence no point of $\bar{\mathcal{X}}$, at the statutory
+prices it carries, is a Lindahl equilibrium for $G$.
 
 *Proof.* Personalized prices $(p_C,p_W)$ are not coordinates of
 $\bar{\mathcal{X}}$. The implied statutory pair is $(p_C,0)$ in units of
@@ -482,7 +483,9 @@ worker wants less. At $\tau_W$ the owner, whose peak is $\tau_C<\tau_W$
 at these prices. $\square$
 
 A mandate that selects a point of $[\tau_C,\tau_W]$ funds $G$. It does
-not construct $(p_C,p_W)$.
+not construct $(p_C,p_W)$. Whether the allocation at some point of
+$\bar{\mathcal{X}}$ could be supported by personalised prices outside it
+is a different question, which Proposition 12 does not address.
 
 ------------------------------------------------------------------------
 
@@ -538,13 +541,18 @@ problem for $f_\lambda$ in $(\tau,d)$ reduces to the ratified problem in
 $\tau$ at that common direction. Proposition 11 therefore applies under
 a mandate: for $\lambda\in(0,1)$, $\tau_C<\tau_\lambda<\tau_W$,
 $\tau_\lambda$ is not constant on $\Theta$, and at every type where
-$\tau_\lambda'\neq 0$ the direct mechanism is not locally
-incentive-compatible for either named holder of $\theta_R$.
+$\tau_\lambda'\neq 0$ the direct mechanism for
+$(\tau_\lambda(\theta_R),1-\alpha,i)$, with $i$ held fixed, is not
+locally incentive-compatible for either named holder of $\theta_R$.
 
 *Proof.* At $\sigma=1$ directional disagreement is deleted. The common
 peak equals $d_M=1-\alpha$. A report cannot gain on $d$. The remaining
 instrument is $\tau$ at companions $(d_M,i)$. That is Proposition 11.
 $\square$
+
+For $f_\lambda$ itself, whose investment coordinate moves with the
+report, the sign of $V_{j,i}\,i_\lambda'$ is not established, and
+Proposition 13 says nothing about it.
 
 ------------------------------------------------------------------------
 
@@ -622,15 +630,17 @@ $i$ be fixed. Let the owner privately observe $\theta_R$.
     incentive-compatible.
 2.  The direct mechanism for $\tau_C(\cdot)$ is incentive-compatible
     (Proposition 6).
-3.  If $s:\Theta\to(0,1)$ is strictly decreasing and
-    $s(\theta_R)>\tau_C(\theta_R)$, the direct mechanism for $s$ is not
-    locally incentive-compatible for the owner at $\theta_R$.
+3.  If $s:\Theta\to(0,1)$ is strictly decreasing and continuous at
+    $\theta_R$, and $s(\theta_R)>\tau_C(\theta_R)$, the direct mechanism
+    for $s$ is not locally incentive-compatible for the owner at
+    $\theta_R$.
 
 *Proof.* Claim 1: the implemented tax does not depend on the report.
 Claim 2 is Proposition 6. Claim 3: $V_C$ is strictly decreasing in
-$\tau$ on $(\tau_C(\theta_R),1)$. Because $s'<0$, a small upward
-misreport lowers the implemented tax. For a small enough lie the new tax
-remains in $(\tau_C(\theta_R),s(\theta_R)]$, so $V_C$ rises. $\square$
+$\tau$ on $(\tau_C(\theta_R),1)$. Because $s$ is strictly decreasing and
+continuous at $\theta_R$, a small upward misreport lowers the
+implemented tax. For a small enough lie the new tax remains in
+$(\tau_C(\theta_R),s(\theta_R)]$, so $V_C$ rises. $\square$
 
 **Proposition 7$'$ (Dual elicitation).** Let $d=d_M$ and let $i$ be
 fixed. Let the worker privately observe $\theta_R$.
@@ -639,20 +649,25 @@ fixed. Let the worker privately observe $\theta_R$.
     incentive-compatible.
 2.  The direct mechanism for $\tau_W(\cdot)$ is incentive-compatible
     (Proposition 7).
-3.  If $s:\Theta\to(0,1)$ is strictly decreasing and
-    $s(\theta_R)<\tau_W(\theta_R)$, the direct mechanism for $s$ is not
-    locally incentive-compatible for the worker at $\theta_R$.
+3.  If $s:\Theta\to(0,1)$ is strictly decreasing and continuous at
+    $\theta_R$, and $s(\theta_R)<\tau_W(\theta_R)$, the direct mechanism
+    for $s$ is not locally incentive-compatible for the worker at
+    $\theta_R$.
 
 *Proof.* Claim 1 as in Proposition 6$'$. Claim 2 is Proposition 7. Claim
 3: $V_W$ is strictly increasing in $\tau$ on $(0,\tau_W(\theta_R))$.
-Because $s'<0$, a small downward misreport raises the implemented tax.
-For a small enough lie the new tax remains in
-$[s(\theta_R),\tau_W(\theta_R))$, so $V_W$ rises. $\square$
+Because $s$ is strictly decreasing and continuous at $\theta_R$, a small
+downward misreport raises the implemented tax. For a small enough lie
+the new tax remains in $[s(\theta_R),\tau_W(\theta_R))$, so $V_W$ rises.
+$\square$
 
-A constant compromise can be imposed without using the type. Where a
-differentiable schedule moves with the report, truth-telling at first
-order puts it on the holder’s own peak (Corollary 1 below). The tax
-interval is the set of undominated constant taxes.
+Continuity matters in claim 3. A strictly decreasing schedule that jumps
+across the holder’s peak at $\theta_R$ can make truth locally optimal
+there, and the differentiability hypothesis of Corollary 1 is what
+excludes such jumps. A constant compromise can be imposed without using
+the type. Where a differentiable schedule moves with the report,
+truth-telling at first order puts it on the holder’s own peak (Corollary
+1 below). The tax interval is the set of undominated constant taxes.
 
 If a ratified rule also names $i(\theta_R)$ as a non-constant
 coordinate, $V_{C,i}=0$ and $V_{W,i}>0$ at interior $i_C$.[^1]
@@ -864,27 +879,29 @@ to pull $\tau_W$ down toward $\tau_C$, and a worker under-reports it to
 push $\tau_C$ up toward $\tau_W$ (Propositions 6 and 7). The compromise
 $\tau_\lambda$ lies strictly between the peaks, moves on $\Theta$, and
 fails local incentive compatibility for either holder at every type
-where it moves (Propositions 11 and 13). A constant tax is
-incentive-compatible for either holder (Propositions 6$'$ and 7$'$). A
-state that does not observe $\theta_R$ can therefore let a tax schedule
-respond to it only by handing the holder its own peak, and must hold the
-tax fixed elsewhere. For $\sigma>1$ under a mandate a report moves tax
-and direction together, and whether a compromise can then be elicited is
-not signed by the loadings alone (Proposition 5).
+where it moves, with the investment share held fixed (Propositions 11
+and 13). A constant tax is incentive-compatible for either holder
+(Propositions 6$'$ and 7$'$). A state that does not observe $\theta_R$
+can therefore let a tax schedule respond to it only by handing the
+holder its own peak, and must hold the tax fixed elsewhere. For
+$\sigma>1$ under a mandate a report moves tax and direction together,
+and whether a compromise can then be elicited is not signed by the
+loadings alone (Proposition 5).
 
 Fourth, a uniform tax on capital income cannot be read as a system of
 Lindahl prices. Every point of $\bar{\mathcal{X}}$ funds $G$ from
 capital income alone, so the worker’s statutory price of $G$ is zero. At
 those prices the worker demands the level of $G$ produced by $\tau_W$,
 and the owner, who pays the whole cost, the level produced by $\tau_C$,
-so no point of $\bar{\mathcal{X}}$ is a Lindahl equilibrium (Proposition
-12). Foley’s repair needs personalised prices, which this instrument set
-does not contain. Under P the Pareto interval does not move with
-$\kappa$ and contains no unanimous point (Proposition 10). A mandate
-that selects a point of $[\tau_C,\tau_W]$ funds $G$ at a single
-statutory price. Which point it selects is a choice between the classes,
-and neither a price system nor a transfer of capital makes that choice
-for it.
+so no point of $\bar{\mathcal{X}}$, at those prices, is a Lindahl
+equilibrium (Proposition 12). Foley’s repair needs personalised prices,
+which this instrument set does not contain, and whether some allocation
+in $\bar{\mathcal{X}}$ could be supported by such prices is left open.
+Under P the Pareto interval does not move with $\kappa$ and contains no
+unanimous point (Proposition 10). A mandate that selects a point of
+$[\tau_C,\tau_W]$ funds $G$ at a single statutory price. Which point it
+selects is a choice between the classes, and neither a price system nor
+a transfer of capital makes that choice for it.
 
 ------------------------------------------------------------------------
 
