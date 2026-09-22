@@ -25,9 +25,9 @@ capital’s problem: its claims on profits, less the smaller part the wage
 share plays in private rearing. Whenever capital cares about its
 successors it vanishes only at unit elasticity. On Cobb–Douglas
 production the working cohort prefers the levy that maximises the next
-generation’s output, which depends on no preference parameter. For
-elasticities at most one, only capital’s own claims on profits can
-reverse the ordering.
+generation’s output, which depends on no preference parameter. Where
+horizon alone favours labour and $\sigma\le1$, only capital’s own claims
+on profits can reverse the ordering.
 
 **Keywords:** reproduction of labour; old-age claims; overlapping
 generations; capital income taxation; public investment in children;
