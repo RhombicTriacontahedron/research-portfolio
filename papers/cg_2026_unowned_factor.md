@@ -68,7 +68,14 @@ joining a revolt lowers the risk that the regime falls. Nor is the sign of a wor
 tax news: Straub and Werning (2020), revisiting Judd (1985) and Chamley (1986), show that the
 zero-long-run-tax result already fails under logarithmic capitalist utility, a failure they
 attribute to Lansing (1999). This paper reproduces their number as a nesting check in §5 and claims
-nothing from it.
+nothing from it. Theirs is not the only route away from the zero result, and neither of the two
+below is taken here. Saez (2013) recovers a large role for capital taxation by dropping linearity: in the same
+infinite-horizon model, a two-bracket schedule redistributes accumulated wealth far more effectively
+than any single rate, and he names non-linearity as the critical departure from Chamley and Judd.
+Jacobs and Schindler (2012) obtain a non-zero optimal capital tax from uninsurable labour-income risk
+among households who are otherwise identical before the shock. The tax below is a single linear rate,
+nothing in the model is stochastic, and the two classes are distinguished by what they own rather
+than by what happens to them.
 
 This paper asks what that asymmetry does to fiscal preferences. With logarithmic objectives the
 answer is a cross-structure, and it is sharp: **each class’s preferred tax on capital income is a
@@ -828,7 +835,22 @@ growth.
 **Owner numbers.** The effective-labour reading of $N_t$ holds the number of persons in each class
 fixed, and every result except Proposition 11(ii) is proved under it. The reading matters for
 distribution: with $N_t$ counting persons and owner numbers free to move, the same laws reverse the
-per-head incidence of the worker’s higher rate (Proposition 11).
+per-head incidence of the worker’s higher rate (Proposition 11). Under neither reading does a
+household choose the number. The law of motion is the same one either way, and the persons reading
+changes what the stock counts rather than what anyone decides. The economy is therefore not one of
+the endogenous-fertility settings in which the instrument is designed around a parent’s choice, as
+in Cremer, Gahvari and Pestieau (2006), where the number of children is in part chosen through
+investment and the pension contract must reach the per-head claim through that choice. Nothing
+above bears on that margin.
+
+**Linearity.** The tax on capital income is a single linear rate. That is one of the two features
+Galor and Moav’s footnote names as carrying their unanimity (§1), and holding it fixed is what makes
+the disagreement here theirs to explain rather than an artefact of the schedule; but it also means
+that nothing above speaks to a schedule with more than one rate. The margin is not idle. Saez (2013)
+shows that in the infinite-horizon model whose zero-long-run result is stated for a linear tax, a
+two-bracket schedule redistributes accumulated wealth far more powerfully than any single rate, and
+names non-linearity as the critical departure from Chamley and Judd. A class’s preferred *schedule*
+is a different object from its preferred *rate*, and the cross of §4 is a statement about rates.
 
 **The split.** The tax results of §§4–6 are stated at the provision corner $\phi=1$. §5.3 gives the
 condition under which that corner is the classes’ common choice; outside it the split is interior
@@ -1209,6 +1231,8 @@ elasticity rather than the curvature gives the same verdict.
     Political Economy* 98(5, Part 2): S103–S125. DOI 10.1086/261726.
 -   Chamley, C. (1986). “Optimal Taxation of Capital Income in General Equilibrium with Infinite
     Lives.” *Econometrica* 54(3): 607. DOI 10.2307/1911310.
+-   Cremer, H., F. Gahvari, and P. Pestieau (2006). “Pensions with Endogenous and Stochastic
+    Fertility.” *Journal of Public Economics* 90(12): 2303–2321. DOI 10.1016/j.jpubeco.2006.03.007.
 -   Dockner, E. J., S. Jørgensen, N. Van Long, and G. Sorger (2000). *Differential Games in Economics
     and Management Science.* Cambridge: Cambridge University Press. DOI 10.1017/cbo9780511805127.
 -   Fershtman, C. (1987). “Identification of Classes of Differential Games for Which the Open Loop is
@@ -1216,6 +1240,9 @@ elasticity rather than the curvature gives the same verdict.
     217–231. DOI 10.1007/bf00939082.
 -   Galor, O., and O. Moav (2006). “Das Human-Kapital: A Theory of the Demise of the Class Structure.”
     *Review of Economic Studies* 73(1): 85–117. DOI 10.1111/j.1467-937x.2006.00370.x.
+-   Jacobs, B., and D. Schindler (2012). “On the Desirability of Taxing Capital Income in Optimal
+    Social Insurance.” *Journal of Public Economics* 96(9–10): 853–868.
+    DOI 10.1016/j.jpubeco.2012.05.008.
 -   Jones, L. E., R. E. Manuelli, and P. E. Rossi (1997). “On the Optimal Taxation of Capital Income.”
     *Journal of Economic Theory* 73(1): 93–117. DOI 10.1006/jeth.1996.2238.
 -   Judd, K. L. (1985). “Redistributive Taxation in a Simple Perfect Foresight Model.” *Journal of
@@ -1225,6 +1252,9 @@ elasticity rather than the curvature gives the same verdict.
 -   Lansing, K. J. (1999). “Optimal Redistributive Capital Taxation in a Neoclassical Growth Model.”
     *Journal of Public Economics* 73(3): 423–453. DOI 10.1016/s0047-2727(99)00016-x.
 -   Marx, K. *Capital*, Volume I, chapter 23 (Moore–Aveling translation).
+-   Saez, E. (2013). “Optimal Progressive Capital Income Taxes in the Infinite Horizon Model.”
+    *Journal of Public Economics* 97: 61–74. DOI 10.1016/j.jpubeco.2012.09.002. Cited from National
+    Bureau of Economic Research Working Paper 9046 (2002), DOI 10.3386/w9046.
 -   Straub, L., and I. Werning (2020). “Positive Long-Run Capital Taxation: Chamley-Judd Revisited.”
     *American Economic Review* 110(1): 86–119. DOI 10.1257/aer.20150210.
 
@@ -1250,5 +1280,5 @@ elasticity rather than the curvature gives the same verdict.
 
 [^4]: Barro (1990) and Jones, Manuelli and Rossi (1997) are cited from their National Bureau working
     papers, w2588 (1988) and w4525 (1993); Straub and Werning (2020) and Galor and Moav (2006) from their
-    working papers of February 2015 and August 2005, and every locator given for them is working-paper
-    pagination.
+    working papers of February 2015 and August 2005; and Saez (2013) from National Bureau Working Paper
+    9046 (July 2002). Every locator given for them is working-paper pagination.
