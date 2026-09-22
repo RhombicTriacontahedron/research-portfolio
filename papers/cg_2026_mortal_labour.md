@@ -26,8 +26,9 @@ substitution. At a given share the first term contains no elasticity.
 The second weighs capital’s claims on profits and, whenever capital
 cares about its successors, vanishes only at unit elasticity. A bound on
 the horizon in $\sigma$ and $s$ alone secures the ordering for every
-rearing technology, and it is sharp. Charging the levy to wages adds one
-term to the threshold, and worker altruism lowers the cohort’s demand.
+rearing technology, and it is sharp. On Cobb–Douglas, charging the levy
+to wages adds one term to the threshold, and worker altruism lowers the
+cohort’s demand.
 
 **Keywords:** reproduction of labour; old-age claims; overlapping
 generations; capital income taxation; public investment in children;
@@ -42,9 +43,9 @@ stock, the growth-maximising tax rate exceeds the welfare-maximising
 one, because consumption is forgone while the stock is built (surveyed
 in Misch, Gemmell and Kneller 2013, working-paper version, p. 11). Read
 through Proposition 6 below, that gap is a gap in horizon, between a
-finite horizon and an infinite one, and there are no classes to assign
-it to. In Galor and Moav (2006) a tax funds public schooling and rich
-and poor agree on its rate. A footnote (n. 42 of the working-paper
+discounted horizon and an undiscounted one, and there are no classes to
+assign it to. In Galor and Moav (2006) a tax funds public schooling and
+rich and poor agree on its rate. A footnote (n. 42 of the working-paper
 version) attributes the agreement to the linear tax and unit elasticity,
 and states that above unit elasticity the poor would prefer higher taxes
 and below it the rich. The rate they agree on maximises next period’s
@@ -132,22 +133,22 @@ exactly the two public-input shares of a one-agent economy with the same
 technologies (Proposition 6). The pensioner’s share maximises
 next-period output; capital’s is the share a planner discounting at
 $\beta\lambda_C$ chooses. Neither is the levy that maximises balanced
-growth: that levy is the limit of capital’s as its horizon becomes
-infinite, and it lies above both. On that face, then, the division is
-set by horizon and not by ownership. Off unit elasticity it is not. At a
-state stationary under capital’s own policy, an interior levy of
-capital’s must be its first-order levy (Proposition 7), and the ordering
-turns on a threshold that now involves the stationary capital share
-(Proposition 8). A bound on capital’s horizon in terms of the elasticity
-and the capital share alone guarantees that labour wants the larger
-levy, whatever the rearing technology, and the bound is sharp
-(Proposition 9). Capital’s own claims on profits are what drive a
-reversal. They enter its problem through what it values, what it
-accumulates and the base on which the levy is raised. A decider with
-capital’s horizon and none of those claims never out-demands the
-pensioner where horizon alone favours labour and substitution is at most
-unit. Compared at a common capital share, the one-agent relabelling
-fails at every elasticity other than one (Proposition 10).
+growth: that levy is the limit of capital’s as $\beta\lambda_C$ tends to
+one, and it lies above both. On that face, then, the division is set by
+horizon and not by ownership. Off unit elasticity it is not. At a state
+stationary under capital’s own policy, an interior levy of capital’s
+must be its first-order levy (Proposition 7), and the ordering turns on
+a threshold that now involves the stationary capital share (Proposition
+8). A bound on capital’s horizon in terms of the elasticity and the
+capital share alone guarantees that labour wants the larger levy,
+whatever the rearing technology, and the bound is sharp (Proposition 9).
+Capital’s own claims on profits are what drive a reversal. They enter
+its problem through what it values, what it accumulates and the base on
+which the levy is raised. A decider with capital’s horizon and none of
+those claims never out-demands the pensioner where horizon alone favours
+labour and substitution is at most unit. Compared at a common capital
+share, the one-agent relabelling fails at every elasticity other than
+one (Proposition 10).
 
 Section 5 takes up three objections on the Cobb–Douglas face. When the
 levy is also charged to wages, the threshold gains one additive term,
@@ -158,46 +159,45 @@ head (Proposition 12). And capital would pay a given pension out of
 wages unless it cares about its successors and the pension is large
 enough that a wage charge would cut rearing (Proposition 13).
 
-**Contribution statement.** The class structure is Michl and Foley’s
-(2004): capitalist dynasties beside life-cycle workers, which Sasaki
-(2021) also embeds. In neither is the rearing of the workforce an
-instrument. Here the capitalist’s horizon is a parameter, the workforce
-is produced, and the levy that rears it is the object compared. The
-pensioner’s stake in the number and productivity of the next generation
-is the premise of the pension–fertility literature, where a planner
-designs the child-related benefit to internalise the fiscal externality
-children create under pay-as-you-go (Meier and Wrede 2005). Here that
-stake is set against the stake of the owner being levied. In
-representative-agent models in which public capital accumulates as a
-stock, the growth-maximising rate exceeds the welfare-maximising one
-(surveyed in Misch, Gemmell and Kneller 2013, working-paper version,
-p. 11). Proposition 6 shows that on unit elasticity the class comparison
-is a one-agent comparison relabelled, but not that one. It sets a
-planner discounting at capital’s horizon against a decider who maximises
-one period’s output, and the growth-maximising rate lies above both.
-Nothing here contradicts that literature in its own model. What that
-model does not deliver is an answer to *which class* wants the levy. Off
-unit elasticity the relabelling fails. The gap between the two is
-exactly the weight of the factor shares, and where horizon alone favours
-labour and substitution is at most unit, capital’s claims on profits are
-the only part of it that can reverse the ordering. That finite-lived
-decision makers under-fund forward goods relative to an infinitely lived
-one is Kahn and Lim’s (2001) finding for representative agents. What is
-claimed here is the assignment of the two horizons to two classes, the
-closed-form threshold that divides them, its invariance to the pension
-institution, the timing reversal, the form of the fund, the price of
-charging the levy to wages, the sign of worker altruism and capital’s
-preferred incidence of a given pension, and, off unit elasticity, the
-preferred levy, the sharp horizon bound free of the rearing technology
-and the necessity of capital’s claims on profits.
+The class structure is Michl and Foley’s (2004): capitalist dynasties
+beside life-cycle workers, which Sasaki (2021) also embeds. In neither
+is the rearing of the workforce an instrument. Here the capitalist’s
+horizon is a parameter, the workforce is produced, and the levy that
+rears it is the object compared. The pensioner’s stake in the number and
+productivity of the next generation is the premise of the
+pension–fertility literature, where a planner designs the child-related
+benefit to internalise the fiscal externality children create under
+pay-as-you-go (Meier and Wrede 2005). Here that stake is set against the
+stake of the owner being levied. In representative-agent models in which
+public capital accumulates as a stock, the growth-maximising rate
+exceeds the welfare-maximising one (surveyed in Misch, Gemmell and
+Kneller 2013, working-paper version, p. 11). Proposition 6 shows that on
+unit elasticity the class comparison is a one-agent comparison
+relabelled, but not that one. It sets a planner discounting at capital’s
+horizon against a decider who maximises one period’s output, and the
+growth-maximising rate lies above both. Nothing here contradicts that
+literature in its own model. What that model does not deliver is an
+answer to *which class* wants the levy. Off unit elasticity the
+relabelling fails. The gap between the two is exactly the weight of the
+factor shares, and where horizon alone favours labour and substitution
+is at most unit, capital’s claims on profits are the only part of it
+that can reverse the ordering. That finite-lived decision makers
+under-fund forward goods relative to an infinitely lived one is Kahn and
+Lim’s (2001) finding for representative agents. What is claimed here is
+the assignment of the two horizons to two classes, the closed-form
+threshold that divides them, its invariance to the pension institution,
+the timing reversal, the form of the fund, the price of charging the
+levy to wages, the sign of worker altruism and capital’s preferred
+incidence of a given pension, and, off unit elasticity, the preferred
+levy, the sharp horizon bound free of the rearing technology and the
+necessity of capital’s claims on profits.
 
-**Whose belief it displaces.** Two readers hold beliefs these results
-cost them. The first reads the reproduction of the working class as
-capital’s standing interest. On this reading, whatever the state spends
-on rearing the next generation is spent in capital’s interest, and
-labour’s support for it is solidarity. On the Cobb–Douglas face, with
-the levy charged to capital income, whenever
-$\beta\lambda_C(1+\alpha(1-\gamma))<1$, and so at every
+Two readers hold beliefs these results cost them. The first reads the
+reproduction of the working class as capital’s standing interest. On
+this reading, whatever the state spends on rearing the next generation
+is spent in capital’s interest, and labour’s support for it is
+solidarity. On the Cobb–Douglas face, with the levy charged to capital
+income, whenever $\beta\lambda_C(1+\alpha(1-\gamma))<1$, and so at every
 $\beta\lambda_C\le1/2$, the class that wants the larger levy is labour.
 It wants it selfishly, through a claim on the product of the workers it
 helps to rear, and altruism toward those workers would lower its demand,
@@ -216,9 +216,9 @@ the owner whose income is levied, not with a planner’s.
 The rest of the paper is organised as follows. Section 2 sets out the
 model. Section 3 solves the Cobb–Douglas economy. Section 4 leaves unit
 elasticity. Section 5 returns to the Cobb–Douglas economy for incidence,
-worker altruism and the incidence of the pension. Section 6 says what
-the results do to the question, and Section 7 places them. Proofs are in
-Appendix A.
+worker altruism and the incidence of the pension. Section 6 relates the
+results to the literature, and Section 7 says what they do to the
+question. Proofs are in Appendix A.
 
 # 2. The model
 
@@ -258,11 +258,12 @@ $N_{t+2}=BN_{t+1}(W_{t+1}/N_{t+1})^{\gamma\theta}(G_t/N_{t+1})^{\gamma(1-\theta)
 **Workers.** Cohort $t$ works and rears at $t$ and retires at $t+1$. Its
 objective is
 $$U^W_t=\mu\ln c^y_t+\nu\beta\ln c^o_{t+1}+\eta\ln N_{t+1}+\lambda_W\beta\,U^W_{t+1},\qquad c^y_t=\frac{W_t}{N_t},\quad c^o_{t+1}=\frac{[\psi\alpha+\pi(1-\alpha)]\,Y_{t+1}}{N_t},$$
-with $\mu,\eta,\lambda_W\ge0$ and $\nu>0$. The weight $\nu$ is the
-cohort’s stake in its retirement, $\eta$ a direct concern for the size
-of the next generation, and $\lambda_W$ altruism toward it. The pension
-is a share of the next generation’s product. It is divided among the
-retiring cohort, whose size $N_t$ was fixed when it was itself reared.
+with $\mu,\eta,\lambda_W\ge0$, $\lambda_W\beta<1$ and $\nu>0$. The
+weight $\nu$ is the cohort’s stake in its retirement, $\eta$ a direct
+concern for the size of the next generation, and $\lambda_W$ altruism
+toward it. The pension is a share of the next generation’s product. It
+is divided among the retiring cohort, whose size $N_t$ was fixed when it
+was itself reared.
 
 **Capitalists.** Generation $t$ of capitalists has the objective
 $$U^C_t=(1-\omega)\ln C_t+\omega\ln K_{t+1}+\lambda_C\beta\,U^C_{t+1},\qquad C_t+K_{t+1}=(1-\rho_t-\psi-c_t)\,\alpha Y_t ,$$
@@ -433,15 +434,15 @@ Galor and Moav’s classes agree: their agreed rate “maximizes output
 per-worker in the following period” (working-paper version, Corollary
 1). Capital wants the levy of a planner who discounts at its
 generational horizon. Neither wants the growth-maximising levy of the
-public-capital literature. That levy is the limit of capital’s as its
-horizon becomes infinite, and it lies above both. The wedge that
+public-capital literature. That levy is the limit of capital’s as
+$\beta\lambda_C$ tends to one, and it lies above both. The wedge that
 literature documents, a growth-maximising rate above the
 welfare-maximising one (Misch, Gemmell and Kneller 2013, working-paper
-version, p. 11), is therefore capital’s own wedge between its horizon
-and an infinite one. The class comparison sets that horizon against a
-different one, a single period long. On this face the division is set by
-horizon, not by ownership. Section 4 shows that the identity in (i) is
-special to unit elasticity, and says what replaces it.
+version, p. 11), is therefore capital’s own wedge between its discounted
+horizon and an undiscounted one. The class comparison sets that horizon
+against a different one, a single period long. On this face the division
+is set by horizon, not by ownership. Section 4 shows that the identity
+in (i) is special to unit elasticity, and says what replaces it.
 
 # 4. Off unit elasticity
 
@@ -651,51 +652,7 @@ would choose, not the economic incidence after prices move. Capital pays
 for the reproduced workforce, through the channel of Propositions 2 and
 5, and not for the pensioners.
 
-# 6. What the results do to the question
-
-The question posed by chapter 23 was whose condition the next working
-generation is, and who can be left to provide it. On Cobb–Douglas
-production the answer divides by the timing of the return. For
-reproduction whose return arrives within the working cohort’s lifetime,
-labour wants it financed through its claim on the next generation’s
-product, and it wants it without any altruism toward the children it
-rears. Altruism toward them would lower its demand, not raise it
-(Proposition 12). When the levy is a charge on capital income, labour
-wants more than capital does whenever $\beta\lambda_C\le1/2$. When the
-levy is also a charge on wages, the comparison acquires one additive
-term, the cohort’s weight on consumption while young (Proposition 11).
-That ordering survives at every elasticity of substitution of at least
-one, and it can fail with strong complements: at an elasticity of one
-half, with $\beta\lambda_C=\gamma=\theta=1/2$, it reverses once the
-stationary capital share exceeds three quarters (Proposition 8). For
-reproduction whose return arrives after the cohort has died, a cohort
-without altruism toward its successors wants none of it, and capital
-wants it exactly when it cares about its successors, and more the more
-it cares. A capitalist generation that does not care about the next
-wants no levy at all. What the owner leaves to others is the part of
-reproduction whose return it will not see.
-
-Two things do not decide the division. The pension institution does not:
-a claim on wages and a claim on profits scale both levies alike. Nor, on
-Cobb–Douglas, does ownership as such. There the classes differ only by
-horizon, exactly as a one-period output maximiser and a discounted
-planner differ in a one-agent economy (Proposition 6). Ownership returns
-off unit elasticity, and in a precise place. Where horizon alone favours
-labour and substitution is at most unit, capital’s claims on profits are
-the only channel through which the owner can come to want more of the
-next generation than the pensioner does. Those claims are its valuation
-of the capital share, its accumulation out of it, and the base on which
-the levy is raised. With complements a larger workforce per unit of
-capital raises the capital share, since
-$\mathrm d\ln s_K/\mathrm d\ln k=\varepsilon(1-s_K)<0$ when $\sigma<1$,
-so every one of those claims grows with the generation reared. Ownership
-also shapes how capital would pay for the pension it does not want to
-fund. A capitalist generation that does not care about its successors
-would put the whole of a given pension on wages, and one that does takes
-part of it on profits only once a wage charge would cut the rearing of
-the next workforce (Proposition 13).
-
-# 7. Placement, by one primitive each
+# 6. Related literature
 
 **The class structure.** Capitalist dynasties beside life-cycle workers
 are Michl and Foley’s (2004), where the labour force accommodates
@@ -742,7 +699,7 @@ the stock is built (Futagami, Morita and Shibata 1993, as surveyed in
 Misch, Gemmell and Kneller 2013, working-paper version, p. 11).
 Proposition 6 locates both rates here. The welfare-maximising rate at
 capital’s horizon is capital’s preferred levy, and the growth-maximising
-rate is that levy’s limit as the horizon becomes infinite, so the
+rate is that levy’s limit as $\beta\lambda_C$ tends to one, so the
 literature’s wedge is a wedge within capital. The working cohort’s levy
 is neither: it maximises one period’s output and lies below the
 growth-maximising rate as well. Proposition 10 measures how far the
@@ -773,6 +730,50 @@ ranking by itself: at $\sigma=1/2$ labour’s preferred levy exceeds
 capital’s whenever $L\le1/3$, and capital’s stationary preferred levy
 exceeds labour’s once the stationary capital share passes three quarters
 at $L=\gamma=\theta=1/2$ (Proposition 8).
+
+# 7. Conclusion
+
+The question posed by chapter 23 was whose condition the next working
+generation is, and who can be left to provide it. On Cobb–Douglas
+production the answer divides by the timing of the return. For
+reproduction whose return arrives within the working cohort’s lifetime,
+labour wants it financed through its claim on the next generation’s
+product, and it wants it without any altruism toward the children it
+rears. Altruism toward them would lower its demand, not raise it
+(Proposition 12). When the levy is a charge on capital income, labour
+wants more than capital does whenever $\beta\lambda_C\le1/2$. That
+ordering survives at every elasticity of substitution of at least one,
+and it can fail with strong complements: at an elasticity of one half,
+with $\beta\lambda_C=\gamma=\theta=1/2$, it reverses once the stationary
+capital share exceeds three quarters (Proposition 8). On Cobb–Douglas
+production, when the levy is also a charge on wages, the comparison
+acquires one additive term, the cohort’s weight on consumption while
+young (Proposition 11). For reproduction whose return arrives after the
+cohort has died, a cohort without altruism toward its successors wants
+none of it, and capital wants it exactly when it cares about its
+successors, and more the more it cares. A capitalist generation that
+does not care about the next wants no levy at all. What the owner leaves
+to others is the part of reproduction whose return it will not see.
+
+Two things do not decide the division. The pension institution does not:
+a claim on wages and a claim on profits scale both levies alike. Nor, on
+Cobb–Douglas, does ownership as such. There the classes differ only by
+horizon, exactly as a one-period output maximiser and a discounted
+planner differ in a one-agent economy (Proposition 6). Ownership returns
+off unit elasticity, and in a precise place. Where horizon alone favours
+labour and substitution is at most unit, capital’s claims on profits are
+the only channel through which the owner can come to want more of the
+next generation than the pensioner does. Those claims are its valuation
+of the capital share, its accumulation out of it, and the base on which
+the levy is raised. With complements a larger workforce per unit of
+capital raises the capital share, since
+$\mathrm d\ln s_K/\mathrm d\ln k=\varepsilon(1-s_K)<0$ when $\sigma<1$,
+so every one of those claims grows with the generation reared. Ownership
+also shapes how capital would pay for the pension it does not want to
+fund. A capitalist generation that does not care about its successors
+would put the whole of a given pension on wages, and one that does takes
+part of it on profits only once a wage charge would cut the rearing of
+the next workforce (Proposition 13).
 
 # Appendix A. Proofs
 
@@ -1055,7 +1056,7 @@ $S_j=\sum_{i<j}A^i$. Up to constants, $\ln c^y_t=\alpha(\kappa_t-n_t)$
 and $\ln c^o_{t+1}=\ln Y_{t+1}-n_t$. So the cohort’s flow at $t+j$ is
 $r_0x_{t+j}+r_1x_{t+j+1}$, with $r_0=(\mu\alpha,\,-\mu\alpha-\nu\beta)$
 and $r_1=(\nu\beta\alpha,\,\nu\beta(1-\alpha))$. Summing with weight
-$\delta^j$, where $\delta=\lambda_W\beta$, and using
+$\delta^j$, where $\delta=\lambda_W\beta<1$, and using
 $\sum_j\delta^jS_j=\delta(I-\delta A)^{-1}/(1-\delta)$ and
 $\sum_j\delta^jS_{j+1}=(I-\delta A)^{-1}/(1-\delta)$, the objective is
 $(\delta r_0+r_1)(I-\delta A)^{-1}\mathbf c/(1-\delta)$. That is, it is
@@ -1096,7 +1097,7 @@ University Press.
 
 Futagami, K., Y. Morita and A. Shibata (1993). Dynamic analysis of an
 endogenous growth model with public capital. *Scandinavian Journal of
-Economics* 95(4): 607.
+Economics* 95(4): 607–625.
 
 Galor, O. and O. Moav (2006). Das Human-Kapital: A theory of the demise
 of the class structure. *Review of Economic Studies* 73(1): 85–117.
