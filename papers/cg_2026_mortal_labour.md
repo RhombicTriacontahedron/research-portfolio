@@ -14,21 +14,21 @@ wants a larger levy than capital does if and only if
 $\beta\lambda_C[1+\alpha(1-\gamma)]<1$, where $\beta\lambda_C$ is
 capital’s generational horizon, $\alpha$ the capital share and $\gamma$
 the elasticity of rearing. The ordering holds at every technology when
-$\beta\lambda_C\le1/2$, does not depend on the pension institution, and
+$\beta\lambda_C\le1/2$, is independent of the pension institution, and
 reverses when the levy rears the generation after next. Neither class
 wants the levy that maximises balanced growth. Off Cobb–Douglas, the
 comparison is with capital’s stationary preferred levy, at a state
-stationary under capital’s own policy and at horizons where capital’s
-stationary problem is strictly concave. There the threshold is
+stationary under capital’s own policy and where capital’s stationary
+problem is strictly concave. There the threshold is
 $\beta\lambda_C[1+s(1-\gamma)]+\beta\lambda_C\frac{1-\sigma}{\sigma}[s(1-\gamma\theta)+\gamma(1-\theta)(1-s)]<1$,
 with $s$ the stationary capital share and $\sigma$ the elasticity of
 substitution. At a given share the first term contains no elasticity.
 The second weighs capital’s claims on profits and, whenever capital
-cares about its successors, vanishes only at unit elasticity. A bound on
-the horizon in $\sigma$ and $s$ alone secures the ordering for every
-rearing technology, and it is sharp. On Cobb–Douglas, charging the levy
-to wages adds one term to the threshold, and worker altruism lowers the
-cohort’s demand.
+cares about its successors, vanishes only at unit elasticity. A sharp
+bound on the horizon in $\sigma$ and $s$ alone secures the ordering for
+every rearing technology. On Cobb–Douglas, charging the levy to wages
+adds one term to the threshold, and worker altruism lowers the cohort’s
+demand, or raises it if successors count in total.
 
 **Keywords:** reproduction of labour; old-age claims; overlapping
 generations; capital income taxation; public investment in children;
@@ -154,10 +154,11 @@ Section 5 takes up three objections on the Cobb–Douglas face. When the
 levy is also charged to wages, the threshold gains one additive term,
 the cohort’s weight on consumption while young relative to old age
 (Proposition 11). When the working cohort cares about its successors, it
-wants a smaller levy, not a larger one, because its successors count per
-head (Proposition 12). And capital would pay a given pension out of
-wages unless it cares about its successors and the pension is large
-enough that a wage charge would cut rearing (Proposition 13).
+wants a smaller levy if they count per head, because a larger generation
+dilutes them, and a larger one if they count in total (Proposition 12).
+And capital would pay a given pension out of wages unless it cares about
+its successors and the pension is large enough that a wage charge would
+cut rearing (Proposition 13).
 
 The class structure is Michl and Foley’s (2004): capitalist dynasties
 beside life-cycle workers, which Sasaki (2021) also embeds. In neither
@@ -187,10 +188,10 @@ Lim’s (2001) finding for representative agents. What is claimed here is
 the assignment of the two horizons to two classes, the closed-form
 threshold that divides them, its invariance to the pension institution,
 the timing reversal, the form of the fund, the price of charging the
-levy to wages, the sign of worker altruism and capital’s preferred
-incidence of a given pension, and, off unit elasticity, the preferred
-levy, the sharp horizon bound free of the rearing technology and the
-necessity of capital’s claims on profits.
+levy to wages, what sets the sign of worker altruism and capital’s
+preferred incidence of a given pension, and, off unit elasticity, the
+preferred levy, the sharp horizon bound free of the rearing technology
+and the necessity of capital’s claims on profits.
 
 Two readers hold beliefs these results cost them. The first reads the
 reproduction of the working class as capital’s standing interest. On
@@ -200,8 +201,9 @@ solidarity. On the Cobb–Douglas face, with the levy charged to capital
 income, whenever $\beta\lambda_C(1+\alpha(1-\gamma))<1$, and so at every
 $\beta\lambda_C\le1/2$, the class that wants the larger levy is labour.
 It wants it selfishly, through a claim on the product of the workers it
-helps to rear, and altruism toward those workers would lower its demand,
-not raise it. The pension institution, funded from wages or from
+helps to rear. Altruism toward those workers is not what moves it:
+counted per head, altruism would lower its demand, and counted in total
+it would raise it. The pension institution, funded from wages or from
 profits, makes no difference to that ordering. This is not a claim about
 distribution. Rada (2012) finds that the pension institution aligns
 retirees with capital under full funding and with labour under
@@ -229,15 +231,16 @@ $\beta\in(0,1)$.
 
 **Instruments and institutions.** Every instrument is a share of capital
 income $\alpha Y_t$. A reproduction levy $\rho_t$ finances a public
-input to rearing, $G_t=\rho_t\alpha Y_t$, and a cash transfer $c_t$ goes
-to the working cohort. Two institutions carry the pension and are held
-fixed: a pension levy $\psi\in[0,1)$ on capital income and a
-pay-as-you-go share $\pi\in[0,1)$ of the wage bill, not both zero, so
-that the pension $\psi\alpha+\pi(1-\alpha)$ is positive. The working
-cohort’s income is $W_t=[(1-\pi)(1-\alpha)+\alpha c_t]\,Y_t$. What
-remains of capital income, $(1-\rho_t-\psi-c_t)\alpha Y_t$, the
-capitalist generation divides between its consumption $C_t$ and next
-period’s capital $K_{t+1}$.
+input to rearing, such as childcare, schooling or child health,
+$G_t=\rho_t\alpha Y_t$, and a cash transfer $c_t$ goes to the working
+cohort. Two institutions carry the pension and are held fixed: a pension
+levy $\psi\in[0,1)$ on capital income and a pay-as-you-go share
+$\pi\in[0,1)$ of the wage bill, not both zero, so that the pension
+$\psi\alpha+\pi(1-\alpha)$ is positive. The working cohort’s income is
+$W_t=[(1-\pi)(1-\alpha)+\alpha c_t]\,Y_t$. What remains of capital
+income, $(1-\rho_t-\psi-c_t)\alpha Y_t$, the capitalist generation
+divides between its consumption $C_t$ and next period’s capital
+$K_{t+1}$.
 
 **Rearing.** The next working generation is produced by the cohort’s
 income and the public input,
@@ -272,9 +275,11 @@ values its own consumption and the capital it leaves. The weight
 $\lambda_C$ is its altruism toward the generation that inherits the
 capital: $\lambda_C=1$ is the dynasty, and $\lambda_C=0$ a generation
 that cares only about itself. Write $L=\beta\lambda_C$ for capital’s
-effective horizon. Under logarithmic objectives the capitalist invests a
-constant share $i$ of what it retains, so
-$K_{t+1}=i\,(1-\rho_t-\psi-c_t)\,\alpha Y_t$.
+effective horizon. Capital’s preferred instruments below depend on
+$\beta$ and $\lambda_C$ only through $L$: they do not distinguish a
+patient capitalist generation from an altruistic one. Under logarithmic
+objectives the capitalist invests a constant share $i$ of what it
+retains, so $K_{t+1}=i\,(1-\rho_t-\psi-c_t)\,\alpha Y_t$.
 
 **Two modelling choices.** The levy is raised on capital income, so it
 costs the working cohort nothing today, and the pension is divided by
@@ -607,23 +612,51 @@ price to the cohort, and Proposition 11 prices it.
 
 **Proposition 12 (worker altruism).** *Under the capital-income levy of
 Section 2, let the working cohort care about its successors,
-$\lambda_W>0$, with $\eta=0$, and compare constant levy paths. The
-cohort’s objective in the levy is $c_1\ln(1-\rho-\psi)+c_2\ln\rho$ plus
-terms free of $\rho$, with $c_1$ and $c_2$ rational in the parameters.
+$\lambda_W>0$, with $\eta=0$, and compare constant levy paths.*
+
+*(i) If its successors count per head, as in Section 2, the cohort’s
+objective in the levy is $c_1\ln(1-\rho-\psi)+c_2\ln\rho$ plus terms
+free of $\rho$, with $c_1$ and $c_2$ rational in the parameters.
 Wherever its preferred levy is interior, the odds $c_2/c_1$ of that levy
 satisfy*
 $$\frac{\partial(c_2/c_1)}{\partial\lambda_W}=-\frac{\gamma\nu(1-\theta)\,[\alpha\beta\nu(1-\gamma)+\beta\gamma\nu+\mu]}{\alpha\,(\beta\gamma\lambda_W\nu+\lambda_W\mu+\nu)^2}<0 .$$
-*So a cohort that cares about its successors wants a smaller levy than a
-selfish one. At $\lambda_W=0$ its levy is $\rho_Y$.*
+*So a cohort that cares about its successors per head wants a smaller
+levy than a selfish one.*
 
-The successors enter the cohort’s objective per head. Their consumption
-while young is their income per worker, and their pension is divided by
-their number, so a larger next generation dilutes both. Altruism toward
-the next generation therefore works against the levy that rears it,
-while a direct concern for its numbers works for it (Proposition 1). The
-selfish cohort is not a lower bound on labour’s demand. What makes the
-working cohort want the next generation reared is its claim on that
-generation’s product.
+*(ii) If its successors count in total, so that each successor cohort’s
+consumption per head, young and old, is replaced by that cohort’s total
+consumption, the cohort’s preferred levy is unique and interior, with
+odds*
+$$\frac{\rho}{1-\psi-\rho}=\frac{\gamma(1-\alpha)(1-\theta)}{\alpha\,[1-\beta\lambda_W(1-\gamma)]} .$$
+*It is strictly increasing in $\lambda_W$, lies strictly between
+$\rho_Y$ and the balanced-growth levy $\rho_g$ of Proposition 6, and
+tends to $\rho_g$ as $\beta\lambda_W\to1$. It exceeds capital’s
+preferred levy if and only if
+$\beta\lambda_C[1+\alpha(1-\gamma)(1-\beta\lambda_W)]<1$.*
+
+*At $\lambda_W=0$ both levies are $\rho_Y$.*
+
+Counted per head, the successors’ consumption while young is their
+income per worker, and their pension is divided by their number, so a
+larger next generation dilutes both. Altruism toward the next
+generation, counted that way, works against the levy that rears it,
+while a direct concern for its numbers works for it (Proposition 1).
+Counted in total, nothing is diluted. Each successor cohort’s
+consumption is then a fixed share of output, so the altruistic cohort
+values the discounted stream of future output, over a horizon its
+altruism sets, and its levy runs from the one-period maximiser of
+Proposition 1 toward the growth maximiser of Proposition 6. In this
+model counting in total is the same as adding a concern for numbers,
+$\eta=\beta\lambda_W(\mu+\nu\beta)$, to (i). It is therefore the
+per-head count, not altruism as such, that lowers the levy. With
+successors counted in total and weighted at capital’s own horizon,
+$\beta\lambda_W=\beta\lambda_C$, the threshold in (ii) holds at every
+horizon, because a levy on capital income costs the cohort nothing
+today, while capital pays it at once, out of the income it would consume
+or leave to its successors. The selfish cohort is thus neither a lower
+nor an upper bound on labour’s demand. What makes the working cohort
+want the next generation reared is its claim on that generation’s
+product.
 
 **Proposition 13 (capital’s preferred incidence of a given pension).**
 *Fix the levy $\rho$ and the total pension share
@@ -657,24 +690,32 @@ for the reproduced workforce, through the channel of Propositions 2 and
 **The class structure.** Capitalist dynasties beside life-cycle workers
 are Michl and Foley’s (2004), where the labour force accommodates
 accumulation at a given wage and the rearing of the workforce is not an
-instrument. Sasaki (2021) embeds the same pair. Here the capitalist
-horizon is a parameter and the reproduction levy is the object.
+instrument. Michl (2007) studies social security in the same pair and
+finds a planner’s power to raise workers’ welfare restricted by the
+capitalists’ control of accumulation. Sasaki (2021) embeds the same
+pair. Here the capitalist horizon is a parameter and the reproduction
+levy is the object.
 
 **The pensioner’s stake.** That a pay-as-you-go pension gives the old a
 stake in investment in the young is an old idea, which Boldrin and
 Montes (2005) trace to Pogue and Sgontz (1977). In their model public
 schooling is a loan from the middle-aged to the young, repaid through
-the tax that finances pensions. Rangel (2003) shows that among selfish
-generations investment in a forward good is inefficiently low unless it
-is linked to a backward one such as social security. In the
-pension–fertility literature the child-related benefit is designed by a
-planner to internalise the fiscal externality children create under
-pay-as-you-go (Meier and Wrede 2005). That stake is the premise of all
-three, and Proposition 1 inherits it. None of them sets the pensioner
-against a class that owns capital: in Boldrin and Montes capital is the
-life-cycle wealth of the old, and Rangel’s agents are generations, not
-classes. What is added is the stake’s comparison with the owner being
-levied, and its survival when the pension is a claim on profits.
+the tax that finances pensions. In Kemnitz (2000) workers may favour
+public education for its effect on their later pensions, and the
+political conflict is between workers and pensioners. Rangel (2003)
+shows that among selfish generations investment in a forward good is
+inefficiently low unless it is linked to a backward one such as social
+security. In the pension–fertility literature a child allowance is
+paired with the pay-as-you-go pension (van Groezen, Leers and Meijdam
+2003), and the child-related benefit is designed by a planner to
+internalise the fiscal externality children create under pay-as-you-go
+(Meier and Wrede 2005). That stake is the premise of this literature,
+and Proposition 1 inherits it. None of them sets the pensioner against a
+class that owns capital: in Boldrin and Montes capital is the life-cycle
+wealth of the old, Kemnitz’s conflict is between generations, and
+Rangel’s agents are generations, not classes. What is added is the
+stake’s comparison with the owner being levied, and its survival when
+the pension is a claim on profits.
 
 **The pension institution and class alignment.** Rada (2012) finds that
 the pension institution aligns retirees with capital under full funding
@@ -739,12 +780,13 @@ production the answer divides by the timing of the return. For
 reproduction whose return arrives within the working cohort’s lifetime,
 labour wants it financed through its claim on the next generation’s
 product, and it wants it without any altruism toward the children it
-rears. Altruism toward them would lower its demand, not raise it
-(Proposition 12). When the levy is a charge on capital income, labour
-wants more than capital does whenever $\beta\lambda_C\le1/2$. That
-ordering survives at every elasticity of substitution of at least one,
-and it can fail with strong complements: at an elasticity of one half,
-with $\beta\lambda_C=\gamma=\theta=1/2$, it reverses once the stationary
+rears. Altruism toward them would lower its demand if they count per
+head and raise it if they count in total (Proposition 12). When the levy
+is a charge on capital income, labour wants more than capital does
+whenever $\beta\lambda_C\le1/2$. That ordering survives at every
+elasticity of substitution of at least one, and it can fail with strong
+complements: at an elasticity of one half, with
+$\beta\lambda_C=\gamma=\theta=1/2$, it reverses once the stationary
 capital share exceeds three quarters (Proposition 8). On Cobb–Douglas
 production, when the levy is also a charge on wages, the comparison
 acquires one additive term, the cohort’s weight on consumption while
@@ -770,10 +812,16 @@ capital raises the capital share, since
 $\mathrm d\ln s_K/\mathrm d\ln k=\varepsilon(1-s_K)<0$ when $\sigma<1$,
 so every one of those claims grows with the generation reared. Ownership
 also shapes how capital would pay for the pension it does not want to
-fund. A capitalist generation that does not care about its successors
-would put the whole of a given pension on wages, and one that does takes
-part of it on profits only once a wage charge would cut the rearing of
-the next workforce (Proposition 13).
+fund. Marx placed *“people who have passed the normal age of the
+labourer”* among the paupers, and wrote of the costs of pauperism that
+*“capital knows how to throw these, for the most part, from its own
+shoulders on to those of the working class and the lower middle class”*
+(chapter 25). Asked of a statutory pension, the claim holds without
+qualification for a capitalist generation that does not care about its
+successors, which would put the whole of a given pension on wages. One
+that does takes part of it on profits only once a wage charge would cut
+the rearing of the next workforce, and the part it takes can exceed one
+half (Proposition 13).
 
 # Appendix A. Proofs
 
@@ -1065,6 +1113,38 @@ Differentiating $c_2/c_1$ in $\lambda_W$ gives the displayed expression,
 and every factor in it is signed on the domain. At $\lambda_W=0$ the
 odds are $\gamma(1-\alpha)(1-\theta)/\alpha$, those of Proposition 1.
 
+For (ii), each successor cohort’s young consumption is its wage bill, a
+fixed share of output, and its old-age consumption a fixed share of the
+next period’s output; the cohort’s own consumption differs from (i) only
+by constants, because $N_t$ is fixed. Up to constants the objective is
+therefore $(\mu\delta+\nu\beta)\sum_{j\ge1}\delta^{j-1}\ln Y_{t+j}$, and
+with $e_Y=(\alpha,\,1-\alpha)$ and
+$\sum_{j\ge1}\delta^{j-1}S_j=(I-\delta A)^{-1}/(1-\delta)$ its part in
+$\rho$ is
+$(\mu\delta+\nu\beta)\,e_Y(I-\delta A)^{-1}\mathbf c/(1-\delta)$. The
+determinant of $I-\delta A$ is $(1-\delta)(1-\delta\alpha(1-\gamma))$,
+and
+$e_Y(I-\delta A)^{-1}=(\alpha[1-\delta(1-\gamma)],\,1-\alpha)/[(1-\delta)(1-\delta\alpha(1-\gamma))]$.
+So the objective is a positive multiple of
+$\alpha[1-\delta(1-\gamma)]\ln(1-\rho-\psi)+(1-\alpha)\gamma(1-\theta)\ln\rho$,
+which is strictly concave, tends to $-\infty$ at both ends and has the
+stated odds. These exceed the odds of $\rho_Y$ by
+$\delta\gamma(1-\alpha)(1-\gamma)(1-\theta)/(\alpha[1-\delta(1-\gamma)])>0$
+and fall short of the odds $(1-\alpha)(1-\theta)/\alpha$ of $\rho_g$
+(A.6) by
+$(1-\alpha)(1-\gamma)(1-\theta)(1-\delta)/(\alpha[1-\delta(1-\gamma)])>0$;
+they increase in $\delta$ and tend to those of $\rho_g$ as $\delta\to1$,
+where the objective’s coefficients become those of A.6’s growth rate.
+Against capital’s odds $L\gamma(1-\alpha)(1-\theta)/(1-L+L\gamma\alpha)$
+(A.3), the cohort’s are larger if and only if
+$1-L+L\gamma\alpha>L\alpha[1-\delta(1-\gamma)]$, that is
+$L[1+\alpha(1-\gamma)(1-\delta)]<1$; at $\delta=L$ the difference
+$1-L[1+\alpha(1-\gamma)(1-L)]$ equals $(1-L)(1-L\alpha(1-\gamma))>0$.
+Finally, written through the per-head flows of (i), counting in total
+adds $(\mu+\nu\beta)\,n_{t+j}$ at every $j\ge1$, with weight $\delta^j$,
+which is the term $\eta\ln N_{t+1}$ summed over generations with
+$\eta=\delta(\mu+\nu\beta)$.
+
 ## A.13 Proposition 13.
 
 With $\pi=(P-\psi\alpha)/(1-\alpha)$, we have
@@ -1107,7 +1187,11 @@ version.
 Kahn, J. A. and J.-S. Lim (2001). Finite horizons, political economy,
 and growth. *Review of Economic Dynamics* 4(1): 1–25.
 
-Marx, K. *Capital*, Volume I, chapters 6, 10 and 23 (Moore–Aveling
+Kemnitz, A. (2000). Social security, public education, and growth in a
+representative democracy. *Journal of Population Economics* 13(3):
+443–462.
+
+Marx, K. *Capital*, Volume I, chapters 6, 10, 23 and 25 (Moore–Aveling
 translation).
 
 Mattauch, L., D. Klenert, J. E. Stiglitz and O. Edenhofer (2018).
@@ -1119,6 +1203,9 @@ and pensions. *Review of Economic Studies* 72(3): 651–664.
 
 Meier, V. and M. Wrede (2005). Pension, fertility, and education. CESifo
 Working Paper 1521.
+
+Michl, T. R. (2007). Capitalists, workers and social security.
+*Metroeconomica* 58(2): 244–268.
 
 Michl, T. R. and D. K. Foley (2004). Social security in a Classical
 growth model. *Cambridge Journal of Economics* 28(1): 1–20.
@@ -1143,6 +1230,10 @@ social security good for the environment? *American Economic Review*
 Sasaki, H. (2021). Automation technology, economic growth, and income
 distribution in an economy with dynasties and overlapping generations.
 MPRA Paper 105446.
+
+van Groezen, B., T. Leers and L. Meijdam (2003). Social security and
+endogenous fertility: pensions and child allowances as Siamese twins.
+*Journal of Public Economics* 87(2): 233–251.
 
 [^1]: The two timings are the endpoints of a general lag between
     financing and return. Section 3 shows that the lag reverses which
