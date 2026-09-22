@@ -195,8 +195,8 @@ no novelty for the constant-strategy equilibrium as such; what it adds
 is the employment rate as the object the game places, with the
 persistence theorem, the fold and the dominance result that follow.
 
-Two features of that lineage are worth naming exactly, because both look
-like the results here and are not. First, its payoffs are *linear* in
+Three features of that lineage are worth naming exactly, because each
+looks like a result here and is not. First, its payoffs are *linear* in
 each class’s consumption over a *finite, undiscounted* horizon — this is
 Lancaster’s formulation as Pohjola takes it up and as de Zeeuw (1992)
 restates it — so equilibrium controls are bang-bang and the multiplicity
@@ -206,12 +206,26 @@ fact one of infinitely many whenever workers’ consumption floor is low
 enough, and that the objective values are identical across all of them.
 The fold of Proposition 4 is a different object: two interior
 compromises with *strictly different* payoffs, which the log objective
-and the infinite discounted horizon are what produce. Second, a payoff
-ranking in a capitalism game already exists. Başar, Haurie and Ricci
-(1985) show that feedback-Stackelberg leadership by capitalists weakly
-Pareto-dominates the feedback Nash outcome of a modified Lancaster game,
-workers’ leadership collapsing to Nash. That is a ranking *across
-information structures*, it is weak, and it is again finite-horizon and
+and the infinite discounted horizon are what produce. Second, the
+lineage has a branch that repairs the inefficiency rather than ranking
+it. Haurie and Pohjola (1987) characterise the feedback Nash equilibria
+and the Pareto-optimal solutions of the Lancaster game at an infinite
+horizon, and combine a Pareto-optimal solution with the feedback Nash
+pair acting as a threat to obtain an efficient equilibrium that is
+subgame perfect; they present the result as modifying the received
+reading of capitalism’s inherent inefficiency. Kaitala and Pohjola
+(1990) sustain cooperation by grim trigger strategies between a class
+that controls redistribution and a class that controls accumulation in a
+two-class neoclassical growth model. Both equilibria are held up by a
+punishment off the path. The two compromises of Proposition 4 are
+equilibria of the game as written, and Proposition 4$'$ ranks one
+against the other rather than a cooperative solution against a
+non-cooperative one. Third, a payoff ranking in a capitalism game
+already exists. Başar, Haurie and Ricci (1985) show that
+feedback-Stackelberg leadership by capitalists weakly Pareto-dominates
+the feedback Nash outcome of a modified Lancaster game, workers’
+leadership collapsing to Nash. That is a ranking *across information
+structures*, it is weak, and it is again finite-horizon and
 undiscounted; Proposition 4$'$ ranks two Nash equilibria of one game
 strictly, and Proposition 4$''$ says when the higher-ranked one cannot
 be sustained. Sorger (1997) makes redistribution in a two-class growing
@@ -3289,8 +3303,17 @@ University Press.
 Goodwin, R. M. (1967). A growth cycle. In C. H. Feinstein (ed.),
 *Socialism, Capitalism and Economic Growth*. Cambridge University Press.
 
+Haurie, A. and M. Pohjola (1987). Efficient equilibria in a differential
+game of capitalism. *Journal of Economic Dynamics and Control* 11(1):
+65–78.
+
 Hoel, M. (1978). Distribution and growth as a differential game between
 workers and capitalists. *International Economic Review* 19(2): 335–350.
+
+Kaitala, V. and M. Pohjola (1990). Economic development and agreeable
+redistribution in capitalism: efficient game equilibria in a two-class
+neoclassical growth model. *International Economic Review* 31(2):
+421–438.
 
 Lancaster, K. (1973). The dynamic inefficiency of capitalism. *Journal
 of Political Economy* 81(5): 1092–1109.
