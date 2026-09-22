@@ -51,15 +51,24 @@ and a produced factor that no agent may hold is nobody’s endowment to transfer
 
 The first welfare theorem is untouched here, and so are the efficiency results
 proved for economies in which a dynasty’s reproduction is decided and paid for within the dynasty (Golosov, Jones and Tertilt 2007): there
-the dynasty chooses its reproduction and pays for it out of its own consumption, whereas here the
+the dynasty chooses its reproduction and pays for it out of its own consumption, as the altruistic
+parents of Barro and Becker (1989) choose family size alongside their consumption and their transfers, whereas here the
 input to the workers’ reproduction, their own consumption, is fixed by the division of output between
 the classes rather than chosen by them, and that is the whole of the difference. The two theorems have different hypotheses and this paper engages only the second. The
 second has been extended to endogenous fertility by Conde-Ruiz, Giménez and Pérez-Nievas (2010), whose
 decentralisation covers the efficient allocations that treat every member of a generation alike, and an
-allocation of that kind has no per-head gap between two classes to set. No two
+allocation of that kind has no per-head gap between two classes to set; the same symmetry restriction
+binds the efficiency concepts Pérez-Nievas, Conde-Ruiz and Giménez (2019) study. No two
 populations are compared, so no welfare ranking is written: every comparison is between two instruments
 at a given stationary class ratio. The economy carries one tax base, no credit market and no uncertainty,
 and §6 prices each of those.
+
+Public finance has set instruments in economies whose numbers respond to them, and the design problem
+there is a problem of contracting on a choice. Cremer, Gahvari and Pestieau (2006) link a
+pay-as-you-go pension to the number of children and to the investment that produces them, and their
+optimal rule tilts with what the state can observe of that investment; the instrument reaches the
+per-head claim because the parents’ choice carries it there. No choice carries it here. Reproduction
+is a technology at every $\theta$, and at $\theta=1$ the channel closes altogether.
 
 There is a literature on cash versus in-kind transfers, and it is not this one. Currie and Gahvari
 (2008) survey it, and the difference is at the primitive rather than at the result. In every mechanism
@@ -494,9 +503,9 @@ it, and the quantity it moves is the one the previous section proved a transfer 
 
 # 5. What this does to the second welfare theorem
 
-The second fundamental theorem of welfare economics says that in a convex economy with continuous,
-convex and strongly monotone preferences, every Pareto-efficient allocation can be supported as a
-competitive equilibrium after a lump-sum redistribution of endowments. Its content is constructive,
+The second fundamental theorem of welfare economics, due to Arrow (1951) and Debreu (1954), says that
+in a convex economy with continuous, convex and strongly monotone preferences, every Pareto-efficient
+allocation can be supported as a competitive equilibrium after a lump-sum redistribution of endowments. Its content is constructive,
 and the construction is what economists use: it is the licence for treating efficiency and
 distribution as separable problems, the first to be settled by prices and the second afterwards by
 transfers. The separation is the theorem’s practical payload. Take it away and the theorem still
@@ -931,11 +940,24 @@ ratio, and leaves $c_C/c_W$ at $4/9$.
 
 # References
 
+Arrow, Kenneth J. 1951. “An Extension of the Basic Theorems of Classical Welfare Economics.” In
+*Proceedings of the Second Berkeley Symposium on Mathematical Statistics and Probability*, 507–532.
+Berkeley: University of California Press.
+
+Barro, Robert J., and Gary S. Becker. 1989. “Fertility Choice in a Model of Economic Growth.”
+*Econometrica* 57 (2): 481–501.
+
 Conde-Ruiz, J. Ignacio, Eduardo L. Giménez, and Mikel Pérez-Nievas. 2010. “Millian Efficiency with
 Endogenous Fertility.” *Review of Economic Studies* 77 (1): 154–187.
 
+Cremer, Helmuth, Firouz Gahvari, and Pierre Pestieau. 2006. “Pensions with Endogenous and Stochastic
+Fertility.” *Journal of Public Economics* 90 (12): 2303–2321.
+
 Currie, Janet, and Firouz Gahvari. 2008. “Transfers in Cash and In-Kind: Theory Meets the Data.”
 *Journal of Economic Literature* 46 (2): 333–383.
+
+Debreu, Gerard. 1954. “Valuation Equilibrium and Pareto Optimum.” *Proceedings of the National Academy
+of Sciences* 40 (7): 588–592.
 
 Galor, Oded, and Omer Moav. 2006. “Das Human-Kapital: A Theory of the Demise of the Class Structure.”
 *Review of Economic Studies* 73 (1): 85–117.
@@ -947,6 +969,9 @@ Hart, Oliver, and John Moore. 1994. “A Theory of Debt Based on the Inalienabil
 *Quarterly Journal of Economics* 109 (4): 841–879.
 
 Malthus, T. R. 1798. *An Essay on the Principle of Population*. London: J. Johnson.
+
+Pérez-Nievas, Mikel, J. Ignacio Conde-Ruiz, and Eduardo L. Giménez. 2019. “Efficiency and Endogenous
+Fertility.” *Theoretical Economics* 14 (2): 475–512.
 
 [^1]: Counted in efficiency units, a transfer of persons
     would be a redistribution of those units, which Lemma 1 would absorb like any other.
