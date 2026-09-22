@@ -150,19 +150,35 @@ The peaks and payoffs used below are stated in this paper.
 ## Primitives
 
 Two classes of fixed measure. Owners hold $K$. Workers supply $L$ and
-hold no assets. Production is CES with elasticity $\sigma$. Factor
-shares $s_K$, $s_L$ are evaluated at a reference effective
-capital–labour ratio $\bar x$. A public stock $G$ is filled by an
-in-kind tax on capital income: $G'=\tau e^{E_C}$ at the corner
-$\varphi=1$. Labour evolves as $$
+hold no assets. Production is CES with elasticity $\sigma$,
+$\rho=1-1/\sigma$, and technology is a point
+$(A,B)=(d^{\varepsilon},(1-d)^{\varepsilon})$ of a frontier indexed by
+the direction $d\in(0,1)$, $\varepsilon>0$. Write $k,n,g$ for the logs
+of $K$, $L$ and the public stock $G$, $a=\ln A$, $b=\ln B$, and
+$x=b+k-a-n$ for the logged effective capital–labour ratio.
+$E_C=\ln(s_KY)$ and $E_W=\ln(s_LY)$ are the logs of capital’s and
+labour’s incomes. They are taken to first order about a reference ratio
+$\bar x$, at which the factor shares $s_K$, $s_L$ are evaluated: $$
+E_C=\text{const}+a_1(b+k)+(1-a_1)(a+n),\qquad E_W=\text{const}+a_2(b+k)+(1-a_2)(a+n),
+$$ with $a_1=\rho+(1-\rho)s_K$ and $a_2=(1-\rho)s_K$, the slopes of
+$\ln(s_KY)$ and $\ln(s_LY)$ in $x$ at $\bar x$. Under Cobb–Douglas
+($\rho=0$) both equal capital’s share and the expansion is exact. The
+owner saves a share $i$ of after-tax capital income, and a public stock
+$G$ is filled by an in-kind tax on capital income at the corner
+$\varphi=1$: $$
+\ln C_C=\ln(1-i)+\ln(1-\tau)+E_C,\qquad k'=\ln i+\ln(1-\tau)+E_C,\qquad g'=\ln\tau+E_C .
+$$ Labour evolves as $$
 n'=n+\gamma\theta_R(E_W-n)+\gamma(1-\theta_R)(g-n).
 $$ Worker felicity is $n$. Owner felicity is
-$(1-\omega)\ln C_C+\omega k$. Common discount $\beta\in(0,1)$. Assigned
-programmes are the constant policies each class would hold. At
-$\varphi=1$ and fixed companions the tax payoffs are strictly concave in
-$\tau$ with peaks $\tau_C<\tau_W$ displayed below. For $\sigma>1$ and
-$\theta_R>0$, $s_L/\sigma<d_C<d_M$ and $d_W>d_C$. The worker lies above
-$d_M$ if and only if
+$(1-\omega)\ln C_C+\omega k$. Common discount $\beta\in(0,1)$. The
+*licensed box* is $\beta,\gamma,\theta_R,\omega\in(0,1)$ with
+$a_1,a_2\in(0,1)$: every $s_K\in(0,1)$ when $\sigma\ge1$, and
+$s_K\in(1-\sigma,\sigma)$ when $\tfrac12<\sigma<1$. Assigned programmes
+are the constant policies each class would hold. At $\varphi=1$ and
+fixed companions the tax payoffs are strictly concave in $\tau$ with
+peaks $\tau_C<\tau_W$ displayed below (all proved in Appendix A). For
+$\sigma>1$ and $\theta_R>0$, $s_L/\sigma<d_C<d_M$ and $d_W>d_C$. The
+worker lies above $d_M$ if and only if
 $\theta_R>\bar\theta:=\beta s_L/[s_K(1-\beta)+\beta s_L]$. Loadings:
 $\partial\tau_C/\partial\theta_R<0$; $\partial d_C/\partial\theta_R>0$
 only for $\sigma>1$; at $\sigma=1$ every listed chooser wants
@@ -221,7 +237,8 @@ mechanism designer know only $\Theta$ and the named rule.
 of $\theta_R$ for a report $\hat\theta_R\in\Theta$ and enforces
 $f(\hat\theta_R)$. No other message set is used.
 
-Imported peaks used below, at $\varphi=1$ and at fixed shares,
+The assigned tax peaks, at $\varphi=1$ and at fixed shares, are
+(Appendix A, Lemma A.2)
 
 $$
 \begin{aligned}
@@ -231,13 +248,13 @@ $$
 $$
 
 On the licensed box both payoffs are strictly concave in $\tau$ at fixed
-companions, with unique peaks $\tau_C<\tau_W$. Holding $d$ and $i$
-fixed, $[\tau_C,\tau_W]$ is the tax Pareto interval. For $\sigma>1$ and
-$\theta_R>0$, $s_L/\sigma<d_C<d_M$ and $d_W>d_C$. The worker lies above
-$d_M$ if and only if $\theta_R>\bar\theta$. Complementary loadings:
-$\partial\tau_C/\partial\theta_R<0$; $\partial d_C/\partial\theta_R>0$
-only for $\sigma>1$; at $\sigma=1$ every listed chooser wants
-$d=1-\alpha$ and the tax gap remains.
+companions, with unique peaks $\tau_C<\tau_W$ (Lemma A.2). Holding $d$
+and $i$ fixed, $[\tau_C,\tau_W]$ is the tax Pareto interval. For
+$\sigma>1$ and $\theta_R>0$, $s_L/\sigma<d_C<d_M$ and $d_W>d_C$. The
+worker lies above $d_M$ if and only if $\theta_R>\bar\theta$ (Lemma
+A.3). Complementary loadings: $\partial\tau_C/\partial\theta_R<0$;
+$\partial d_C/\partial\theta_R>0$ only for $\sigma>1$; at $\sigma=1$
+every listed chooser wants $d=1-\alpha$ and the tax gap remains.
 
 ------------------------------------------------------------------------
 
@@ -791,6 +808,107 @@ problem. *Econometrica* 47(1): 61–73.
 
 Samuelson, P. A. (1954). The pure theory of public expenditure. *Review
 of Economics and Statistics* 36(4): 387–389.
+
+## Appendix A. The assigned programmes
+
+Throughout, the parameters lie in the licensed box and the instruments
+are constant. Write $D=\gamma(1-\theta_R)+\gamma\theta_Ra_2$, and note
+$1-a_1=s_L/\sigma$ and $a_2=s_K/\sigma$. In the state $(k,n,g)$ the
+transitions have the rows $(a_1,1-a_1,0)$ for $k'$ and $g'$ and
+$(\gamma\theta_Ra_2,1-D,\gamma(1-\theta_R))$ for $n'$, each non-negative
+and summing to one, so with $\beta<1$ every discounted sum below
+converges.
+
+**Lemma A.1 (Value coefficients).** *Write the owner’s value as
+$v_C+a_kk+a_nn+a_gg$ and the worker’s as $v_W+pk+qn+rg$. Then* $$
+\begin{aligned}
+a_k&=\omega+m_Ca_1+\beta a_n\gamma\theta_Ra_2, &\qquad p&=\beta\bigl[(p+r)a_1+q\gamma\theta_Ra_2\bigr],\\
+a_n&=m_C(1-a_1)+\beta a_n(1-D), &\qquad q&=1+\beta\bigl[(p+r)(1-a_1)+q(1-D)\bigr],\\
+a_g&=\beta a_n\gamma(1-\theta_R), &\qquad r&=\beta q\gamma(1-\theta_R),
+\end{aligned}
+$$ *with $m_C=(1-\omega)+\beta(a_k+a_g)$. Each system has a unique
+solution, and every coefficient is positive:* $$
+m_C=\frac{(1-\omega+\beta\omega)(1-\beta+\beta D)}{(1-\beta)(1-\beta a_1+\beta D)},\quad a_n=\frac{m_C(1-a_1)}{1-\beta+\beta D},\quad q=\frac{1-\beta a_1}{(1-\beta)(1-\beta a_1+\beta D)},\quad p+r=\frac{\beta qD}{1-\beta a_1}.
+$$
+
+*Proof.* Substitute the transitions into felicity plus $\beta$ times the
+conjectured value. Apart from terms in the instruments, the owner’s
+objective loads $E_C$ with weight $m_C$ (through $\ln C_C$, $k'$ and
+$g'$) and $E_W$ with weight $\beta\gamma\theta_Ra_n$ (through $n'$); the
+worker’s loads $E_C$ with $\beta(p+r)$ and $E_W$ with
+$\beta\gamma\theta_Rq$. Matching the coefficients on $k$, $n$ and $g$
+gives the two systems. For the owner, adding the $k$- and $g$-equations
+gives $m_C(1-\beta a_1)=1-\omega+\beta\omega+\beta^2a_nD$, and the
+$n$-equation gives $a_n(1-\beta+\beta D)=m_C(1-a_1)$; eliminating $a_n$
+gives $m_C$. For the worker, adding the $p$- and $r$-equations gives
+$(p+r)(1-\beta a_1)=\beta qD$, and substituting into the $q$-equation
+gives $q$. Every factor is positive on the box, and
+$p=\beta[(p+r)a_1+q\gamma\theta_Ra_2]>0$. $\square$
+
+Because the coefficients do not depend on the instruments, the terms in
+each instrument are the same in every period, and a constant policy’s
+payoff is those terms divided by $1-\beta$ plus terms free of the
+instrument. Each peak below is therefore the maximiser of one period’s
+terms.
+
+**Lemma A.2 (Tax peaks).** *At fixed $d$ and $i$,
+$V_j=M_j\ln(1-\tau)+N_j\ln\tau+H_j$ with
+$(M_C,N_C)\propto(1-\omega+\beta a_k,\ \beta a_g)$ for the owner and
+$(M_W,N_W)\propto(\beta p,\ \beta r)$ for the worker, all positive. Each
+$V_j$ is strictly concave in $\tau$ with peak $N_j/(M_j+N_j)$, which is
+the display for $\tau_C$ and $\tau_W$ in the Primitives. Moreover* $$
+\tau_W-\tau_C=\frac{(1-\theta_R)(1-\beta)\bigl[1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R s_K/\sigma+\beta s_L/\sigma\bigr]}{\bigl(1-\theta_R+\theta_R s_K/\sigma\bigr)\bigl(1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R s_K/\sigma\bigr)}>0,
+\qquad
+\frac{\partial\tau_C}{\partial\theta_R}=-\frac{\beta^2\gamma\,(s_L/\sigma)\bigl[(1-\beta)+\beta\gamma s_K/\sigma\bigr]}{\bigl(1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R s_K/\sigma\bigr)^2}<0 .
+$$
+
+*Proof.* The tax enters $\ln C_C$ and $k'$ through $\ln(1-\tau)$ and
+$g'$ through $\ln\tau$. For the owner,
+$\tau_C=\beta a_g/(1-\omega+\beta a_k+\beta a_g)=\beta a_g/m_C=\beta^2\gamma(1-\theta_R)(1-a_1)/(1-\beta+\beta D)$
+by Lemma A.1, which is the display. For the worker,
+$\tau_W=r/(p+r)=\gamma(1-\theta_R)(1-\beta a_1)/D$, which is the display
+after dividing by $\gamma$. The difference and the derivative follow on
+clearing denominators. $\square$
+
+**Lemma A.3 (Directions).** *The direction enters only through
+$a=\varepsilon\ln d$ and $b=\varepsilon\ln(1-d)$. For an objective that
+loads $E_C$ with weight $M>0$ and $E_W$ with weight $N>0$, the terms in
+$d$ are
+$\varepsilon\bigl[(Ma_1+Na_2)\ln(1-d)+(M(1-a_1)+N(1-a_2))\ln d\bigr]$,
+strictly concave, with peak* $$
+d=\frac{s_L}{\sigma}+\rho\,w,\qquad w=\frac{N}{M+N}.
+$$ *The current-output point is $d_M=s_L$, since $\ln Y$ loads $b$ with
+$s_K$ and $a$ with $s_L$. The owner’s and the worker’s weights are* $$
+w_C=\frac{\beta\gamma\theta_R\,s_L/\sigma}{\Lambda},\quad \Lambda=(1-\beta)+\beta\gamma(1-\rho\theta_R);\qquad w_W=\frac{\theta_R(1-\beta a_1)}{H},\quad H=\beta(1-\theta_R)+\theta_R(1-\beta\rho),
+$$ *and they satisfy* $$
+(w_W-w_C)H\Lambda=(1-\beta)\theta_RQ,\qquad (s_L-w_C)\Lambda=s_L\bigl[(1-\beta)+\beta\gamma(1-\theta_R)\bigr],\qquad (w_W-s_L)H=\bigl(\beta s_L+(1-\beta)s_K\bigr)(\theta_R-\bar\theta),
+$$ *with $Q=(1-\beta a_1)+\beta\gamma\bigl(1-\theta_R(1-a_2)\bigr)>0$,
+and
+$\partial w_C/\partial\theta_R=\beta\gamma(s_L/\sigma)(1-\beta+\beta\gamma)/\Lambda^2>0$.*
+
+*Proof.* The peak is that of $A\ln(1-d)+B\ln d$ with $A,B>0$, namely
+$B/(A+B)$, and $B/(A+B)=(1-a_1)+(a_1-a_2)w$ with $a_1-a_2=\rho$. The
+owner’s weights are $m_C$ and $\beta\gamma\theta_Ra_n$, the worker’s
+$\beta(p+r)$ and $\beta\gamma\theta_Rq$ (proof of Lemma A.1);
+substituting Lemma A.1 gives $w_C$ and $w_W$, using
+$\beta D+\beta\gamma\theta_R(1-a_1)=\beta\gamma(1-\rho\theta_R)$. The
+three identities and the derivative follow on expanding with
+$a_2=a_1-\rho$. $\square$
+
+Every ranking of directions in the text follows. Since
+$d_j-d_k=\rho(w_j-w_k)$, $d_j-s_L/\sigma=\rho w_j$ and
+$d_M=s_L/\sigma+\rho s_L$, for $\sigma>1$ Lemma A.3 gives
+$s_L/\sigma<d_C<d_M$, $d_W>d_C$, and $d_W>d_M$ if and only if
+$\theta_R>\bar\theta$;
+$\partial d_C/\partial\theta_R=\rho\,\partial w_C/\partial\theta_R$ is
+positive exactly when $\sigma>1$; and at $\sigma=1$ every direction
+equals $s_L=1-\alpha$.
+
+**Lemma A.4 (Investment).** *The investment share enters the owner’s
+objective as $(1-\omega)\ln(1-i)+\beta a_k\ln i$, so $V_{C,i}=0$ at
+$i_C=\beta a_k/(1-\omega+\beta a_k)$, and the worker’s as $\beta p\ln i$
+with $p>0$, so $V_{W,i}>0$ at every $i$.* The proof is Lemma A.1.
+$\square$
 
 [^1]: The local tax arguments hold $i$ fixed.
 
