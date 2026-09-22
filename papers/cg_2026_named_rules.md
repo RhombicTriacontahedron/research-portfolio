@@ -17,9 +17,10 @@ This paper asks a narrower question. Once a rule has named one of those
 rates — or a compromise between them — can a mechanism produce that rate
 when the weight that indexes it is known only to one class?
 
-Assigned programmes exist before any mechanism. A rule is a map from
-that weight to a feasible policy. Implementation is whether some
-mechanism produces the image of the map.
+Assigned programmes exist before any mechanism: each is the constant
+value of one instrument that a class would choose if it alone chose that
+instrument. A rule is a map from that weight to a feasible policy.
+Implementation is whether some mechanism produces the image of the map.
 
 If everyone sees the weight, any feasible named rule is implemented by
 selecting its image. If firms keep control of the machine mix, only the
@@ -47,7 +48,7 @@ named party. Named rules
 $$
 \begin{aligned}
 f_C(\theta_R)&=(\tau_C,d_C,i_C)(\theta_R),\\
-f_W(\theta_R)&=(\tau_W,d_W,i_W)(\theta_R),\\
+f_W(\theta_R)&=(\tau_W(\theta_R),d_W(\theta_R),\bar\imath),\\
 f_\lambda(\theta_R)&=(\tau(\lambda),d(\lambda),i(\lambda))(\theta_R),\\
 f_\times(\theta_R)&=(\tau_C,d_W,i_\star)(\theta_R),\\
 f_0(\theta_R)&=(0,d_M,i_C(\theta_R)).
@@ -174,12 +175,29 @@ $$ Worker felicity is $n$. Owner felicity is
 $(1-\omega)\ln C_C+\omega k$. Common discount $\beta\in(0,1)$. The
 *licensed box* is $\beta,\gamma,\theta_R,\omega\in(0,1)$ with
 $a_1,a_2\in(0,1)$: every $s_K\in(0,1)$ when $\sigma\ge1$, and
-$s_K\in(1-\sigma,\sigma)$ when $\tfrac12<\sigma<1$. Assigned programmes
-are the constant policies each class would hold. At $\varphi=1$ and
-fixed companions the tax payoffs are strictly concave in $\tau$ with
-peaks $\tau_C<\tau_W$ displayed below (all proved in Appendix A). For
-$\sigma>1$ and $\theta_R>0$, $s_L/\sigma<d_C<d_M$ and $d_W>d_C$. The
-worker lies above $d_M$ if and only if
+$s_K\in(1-\sigma,\sigma)$ when $\tfrac12<\sigma<1$.
+
+**Assigned programmes.** An assigned programme is the solution of a
+restricted game with one player and one instrument. Class $j$ alone
+chooses a constant value of one instrument to maximise $V_j$, subject to
+the laws of motion above, with every other instrument held at a given
+constant. It is not a Nash equilibrium of a game in which both classes
+choose at once, and it is not a Ramsey plan. The value coefficients do
+not depend on the instruments (Lemma A.1), so $V_j$ is a sum of separate
+terms in $\tau$, $d$ and $i$, and a class’s peak in one instrument does
+not depend on where the others are held. The same terms are maximised in
+every period and in every state, so the restriction to a constant value
+is without loss: a choice that varied with the date or with the state
+would do no better (Appendix A). The tax and the direction have interior
+peaks for both classes. The investment share has one only for the owner,
+$i_C$. The worker’s value rises in $i$ at every $i$ (Lemma A.4), so the
+worker’s programme holds $i$ at a given constant $\bar\imath\in(0,1)$
+that no report moves.
+
+At $\varphi=1$ and fixed companions the tax payoffs are strictly concave
+in $\tau$ with peaks $\tau_C<\tau_W$ displayed below (all proved in
+Appendix A). For $\sigma>1$ and $\theta_R>0$, $s_L/\sigma<d_C<d_M$ and
+$d_W>d_C$. The worker lies above $d_M$ if and only if
 $\theta_R>\bar\theta:=\beta s_L/[s_K(1-\beta)+\beta s_L]$. Loadings:
 $\partial\tau_C/\partial\theta_R<0$; $\partial d_C/\partial\theta_R>0$
 only for $\sigma>1$; at $\sigma=1$ every listed chooser wants
@@ -213,7 +231,7 @@ type is introduced.
 $$
 \begin{aligned}
 f_C(\theta_R)&=(\tau_C(\theta_R),d_C(\theta_R),i_C(\theta_R)),\\
-f_W(\theta_R)&=(\tau_W(\theta_R),d_W(\theta_R),i_W(\theta_R)),\\
+f_W(\theta_R)&=(\tau_W(\theta_R),d_W(\theta_R),\bar\imath),\\
 f_\lambda(\theta_R)&=\arg\max_{x\in\mathcal{X}}\bigl\{\lambda V_W(x;\theta_R)+(1-\lambda)V_C(x;\theta_R)\bigr\},\\
 f_\times(\theta_R)&=\bigl(\tau_C(\theta_R),d_W(\theta_R),i_\star(\theta_R)\bigr),\\
 f_0(\theta_R)&=\bigl(0,d_M,i_C(\theta_R)\bigr).
@@ -226,7 +244,11 @@ in $\bar{\mathcal{X}}$ and not in $\mathcal{X}$.
 Under ratification the direction coordinate is deleted and each rule is
 read as its fiscal projection, with $d\equiv d_M$. The symbol $i_\star$
 is any feasible investment share named by the hybrid; no first-order
-condition is attached to it.
+condition is attached to it. The worker’s investment coordinate
+$\bar\imath$ is the given constant of the worker’s programme. The
+mediant $f_\lambda$ is taken for $\lambda\in(0,1)$, where its investment
+coordinate is interior. At $\lambda=0$ its peaks are the owner’s, and at
+$\lambda=1$ its peaks in $(\tau,d)$ are the worker’s.
 
 **Information.** Either $\theta_R$ is common knowledge, or $\theta_R$ is
 privately observed by one named party and the other party and the
@@ -283,10 +305,14 @@ $[\tau_C,\tau_W]$ together with a feasible $i$, at that locked
 direction.
 
 Ratification is an institutional restriction on $\mathcal{X}$, not a
-restriction on preferences. The assigned programmes $f_C$ and $f_W$ are
-not available in their direction coordinate. A mediant equals $d_M$ if
-and only if $\theta_R>\bar\theta$, and only at one $\lambda$. That fact
-is not used as an incentive constraint.
+restriction on preferences. For $\sigma\neq1$ the owner’s programme is
+not available in its direction coordinate, since $d_C\neq d_M$, and the
+worker’s is available only at $\theta_R=\bar\theta$. A mediant with
+$\lambda\in(0,1)$ then equals $d_M$ if and only if
+$\theta_R>\bar\theta$, and at exactly one $\lambda$. At $\sigma=1$ every
+listed chooser wants $d_M$, and ratification removes no direction that
+any of them would choose. That fact is not used as an incentive
+constraint.
 
 ------------------------------------------------------------------------
 
@@ -474,7 +500,11 @@ $f_C(\theta_R)\in\arg\max_{x\in\mathcal{X}}V_C(x;\theta_R)$ on the
 licensed domain. The menu $\{f_C(\hat\theta_R):\hat\theta_R\in\Theta\}$
 is a subset of $\mathcal{X}$ that contains the maximiser
 $f_C(\theta_R)$. The owner therefore does not gain by naming any other
-type. The worker case is identical. $\square$
+type. For the worker, $f_W(\theta_R)$ maximises $V_W(\cdot;\theta_R)$
+over the points of $\mathcal{X}$ with $i=\bar\imath$, because the terms
+in $\tau$ and $d$ are separate from the term in $i$ (Lemmas A.1–A.3).
+Every report yields a point with $i=\bar\imath$, and the same argument
+applies. $\square$
 
 The argument is the single-agent revelation principle applied to an
 assigned peak (Myerson 1979). It does not use a crossing condition in
@@ -720,6 +750,39 @@ current-output peaks. The Second Welfare Theorem (Arrow 1951; Debreu
 
 ------------------------------------------------------------------------
 
+## Scope
+
+Two restrictions carry the statements about private ownership, and the
+incentive results for interior rules use neither.
+
+Premise P is used by Proposition 10 and by the third fact of the Theorem
+(Separation), and by nothing else. It is the restriction under which a
+reshuffle of $K$ moves each class’s level $H_j(\kappa)$ and leaves the
+tax terms $M_j$ and $N_j$, and with them the peaks, where they were. The
+first fact of the Theorem, the tax gap and its two sources in Lemma A.5,
+holds without it.
+
+Essentiality of $G$ in the log class, $V_j\to-\infty$ as $\tau\to0^+$,
+gives the shut-down result its global reach: every interior tax, and not
+only a small one, strictly Pareto-dominates $\tau=0$ (Proposition 8, the
+second fact of the Theorem, the third claim of Proposition 10).
+Proposition 9 uses it as well. For any payoff that is strictly concave
+in $\tau$ on $[0,1)$ with the same interior peaks, both values rise on
+$[0,\tau_C]$, so every tax in $(0,\tau_C]$ strictly Pareto-dominates
+$\tau=0$ at the same companions. Proposition 12 needs only
+$V_{W,\tau}>0$ below $\tau_W$.
+
+The incentive results for interior rules, Propositions 4, 6, 6$'$, 7,
+7$'$, 11 and 13 and Corollary 1, use four properties of the tax payoffs.
+Each is differentiable and strictly concave in $\tau$ with an interior
+peak; the peaks are ordered $\tau_C<\tau_W$; each peak falls in
+$\theta_R$; and both tend to $0$ as $\theta_R\to1$. None of the
+incentive results uses the value of $V_j$ at $\tau=0$. The logarithmic
+form of the licensed box is one payoff with these four properties, and
+the family in the remark after Corollary 1 is another.
+
+------------------------------------------------------------------------
+
 ## Conclusion
 
 A public stock $G$, filled by a tax on capital income, enters the law of
@@ -865,7 +928,11 @@ Because the coefficients do not depend on the instruments, the terms in
 each instrument are the same in every period, and a constant policy’s
 payoff is those terms divided by $1-\beta$ plus terms free of the
 instrument. Each peak below is therefore the maximiser of one period’s
-terms.
+terms. The same substitution writes the payoff of any sequence of
+instruments as the discounted sum of those one-period terms plus terms
+free of the instruments. No sequence therefore does better than the
+constant peak, and in this deterministic environment neither does a rule
+that makes the instrument depend on the state.
 
 **Lemma A.2 (Tax peaks).** *At fixed $d$ and $i$,
 $V_j=M_j\ln(1-\tau)+N_j\ln\tau+H_j$ with
