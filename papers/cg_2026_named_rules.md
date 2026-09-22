@@ -38,116 +38,160 @@ personalised prices for the public stock.
 
 ------------------------------------------------------------------------
 
-## Summary of results
+## Introduction
 
-Outcome space $\mathcal{X}$ is the set of constant instruments. Under a
-mandate $\mathcal{X}=\{(\tau,d,i)\}$. Under ratification
-$\mathcal{X}=\{(\tau,i)\}$ with $d\equiv d_M$. Type space $\Theta=(0,1)$
-for $\theta_R$, either common knowledge or privately observed by one
-named party. Named rules
+Capital is owned. The labour that will work it in the next period is
+not. When a tax on capital income fills a public stock from which that
+labour is reproduced, the owner of capital and the worker want different
+rates. The tax is paid out of capital income, which the owner consumes
+and the worker does not, and the owner values capital against the public
+stock more than the worker does. Public finance offers three ways to
+settle such a conflict. A planner can weigh the two classes and choose a
+compromise. The second welfare theorem can separate provision from
+distribution, holding provision at an efficient level and settling
+distribution by a transfer of endowments (Arrow 1951; Debreu 1959).
+Lindahl prices can charge each class its own price for the public good
+(Foley 1970). This paper asks what is left of these answers when the tax
+is set by a named rule, and when the weight that indexes the classes’
+preferred rates, the share of labour’s reproduction paid from wages
+rather than from the public stock, may be seen by only one class.
 
-$$
-\begin{aligned}
-f_C(\theta_R)&=(\tau_C,d_C,i_C)(\theta_R),\\
-f_W(\theta_R)&=(\tau_W(\theta_R),d_W(\theta_R),\bar\imath),\\
-f_\lambda(\theta_R)&=(\tau(\lambda),d(\lambda),i(\lambda))(\theta_R),\\
-f_\times(\theta_R)&=(\tau_C,d_W,i_\star)(\theta_R),\\
-f_0(\theta_R)&=(0,d_M,i_C(\theta_R)).
-\end{aligned}
-$$
+This paper shows three things. First, a class that alone sees the weight
+reports its own preferred programme truthfully, and does not report the
+other class’s tax truthfully. An owner who holds the weight overstates
+it to pull the worker’s preferred tax down, and a worker understates it
+to push the owner’s up. With the investment share held fixed, a
+planner’s compromise fails too wherever it moves with the report. It
+fails under ratification, where firms choose the mix of machines and
+only the tax remains political, and under a mandate when the elasticity
+of substitution is one. With the mix of machines and the investment
+share fixed, a differentiable tax schedule against which the holder of
+the weight has no profitable small misreport is, at each value of the
+weight, either flat or equal to the holder’s own peak. A state that does
+not see the weight can therefore let the tax respond to it only by
+handing the holder what the holder would choose, and must hold the tax
+fixed elsewhere.
 
-The last map is the private-ownership recipe written as a social-choice
-rule. Its tax coordinate is identically zero, so $G'=0$. On the domain
-$\tau_C(\theta_R)>0$, hence $f_0(\theta_R)$ is not a point of
-$[\tau_C,\tau_W]$.
+Second, the separation that the second welfare theorem promises fails
+here. The private-ownership recipe (reshuffle capital, let markets pay
+the factors, and use no public instrument) sets the tax to zero and so
+shuts the public stock. With the logarithmic payoffs used here, every
+tax strictly between zero and confiscation makes both classes better off
+than that recipe. Under a restriction stated below, Premise P, a
+reshuffle of capital that leaves workers without capital income does not
+bring the two preferred rates together, and it leaves the interval of
+Pareto-efficient taxes where it was. The disagreement comes from who
+pays the tax and from what each class values, and not from the fact that
+no one owns the labour the stock reproduces.
 
-On the domain used below each of $f_C$, $f_W$, and $f_\lambda$ lands in
-$\mathcal{X}$. The map $f_\times$ is a feasible function and is not the
-programme of either assigned chooser or of any $\lambda\in[0,1]$.
+Third, a uniform tax on capital income cannot be read as a system of
+Lindahl prices. The worker’s statutory price of the public stock is
+zero, so at those prices the classes demand different amounts of it, and
+no point of the instrument set is a Lindahl equilibrium.
 
-Complete information implements any feasible named $f$ by selection. No
-incentive constraint appears.
+The first result applies a known reduction to a new object. Melumad and
+Shibano (1991) study an uninformed decision maker who elicits
+information from an informed party without transfers, and Alonso and
+Matouschek (2008) show that the design problem then reduces to choosing
+a set of decisions from which the informed party picks its preferred
+one. The characterisation above is the first-order form of that
+reduction for a one-dimensional type, and the reduction belongs to that
+literature. That literature asks which set an uninformed principal
+should offer, given the principal’s own objective. This paper instead
+takes the rules as named in advance (each class’s own programme, the
+other class’s, a planner’s compromise, a hybrid of the two, and the
+private-ownership recipe), with the classes’ programmes derived from a
+dynamic model in which a public stock reproduces labour that no one
+owns, and asks which of them a mechanism can produce. At a fixed mix of
+machines the reduction sorts them: the holder’s own programme passes,
+and the other class’s programme and every compromise that moves with the
+report fail. The sorting also shows that leaving the mix of machines to
+firms is not what defeats a compromise, since at unit elasticity the
+compromise fails under a mandate as well.
 
-Let the owner observe $\theta_R$ privately. The direct mechanism for
-$f_C$ satisfies
+The second and third results concern public finance. Conflict between
+owners of capital and workers over the taxation of capital is familiar
+from the political economy of growth. In Alesina and Rodrik (1994)
+agents differ in their endowments of capital and labour, the tax that
+results turns on the factor ownership of the median individual, and
+greater inequality of wealth and income brings a higher tax. There a
+change in the distribution of wealth changes the tax. Here the two
+classes are fixed, and the question is whether a transfer of capital
+could make them agree. Under Premise P it cannot. The zero tax of the
+private-ownership recipe is also distinct from the zero of Judd (1985)
+and Chamley (1986), where the tax on capital income vanishes in the
+steady state of a programme that finances a given level of government
+spending. Here the tax is zero because the recipe has no public
+instrument, and what it leaves unfunded is the stock from which labour
+is reproduced.
 
-$$
-V_C\bigl(f_C(\hat\theta_R),\theta_R\bigr)\;\le\;V_C\bigl(f_C(\theta_R),\theta_R\bigr)
-\qquad\text{for all }\theta_R,\hat\theta_R\in\Theta.
-$$
+The model has two classes of fixed measure. Owners hold capital; workers
+supply labour and hold no assets. The public stock is filled from
+capital income, and the weight $\theta_R$ is the share of labour’s
+reproduction that is paid from wages rather than from that stock.[^1]
+Each class, if it held the instruments as a constant policy, would
+choose a different tax and, when machines can substitute for labour, a
+different mix of machines. Those assigned programmes are primitives
+here. A social-choice rule names one feasible policy for each value of
+$\theta_R$, and implementation asks whether a mechanism produces that
+policy. The question is empty until the rule, the institution and the
+information structure are named.
 
-Under ratification, at fixed $d=d_M$ and fixed $i$, the same inequality
-holds with $\tau_C$ in place of $f_C$. It fails for $\tau_W$:
-$\partial\tau_W/\partial\theta_R<0$ at fixed shares, $\tau_C<\tau_W$,
-and $V_C$ is strictly decreasing in $\tau$ on $(\tau_C,1)$, so a small
-upward misreport raises $V_C$. The dual statements hold when the worker
-is the named holder of $\theta_R$. Own-programme incentive compatibility
-is Proposition 4. The ratified mediant is Proposition 11. Constant taxes
-are incentive-compatible; a strictly decreasing selection above $\tau_C$
-that is continuous at the true type is not, for the owner (Propositions
-6$'$ and 7$'$). In general, at fixed direction and investment share, a
-differentiable tax schedule that is locally incentive-compatible for the
-holder of the type is, at each type, flat or equal to the holder’s own
-peak (Corollary 1).
+Two institutions are compared. A mandate leaves the mix of machines
+political. Under ratification firms set the mix that maximises current
+output, and only the tax remains political. Two information structures
+are compared as well. The weight may be common knowledge, in which case
+no one has an incentive to lie and any feasible named rule is
+implemented by selecting it. Or it may be seen only by one named class,
+which is the case the results above concern.
 
-------------------------------------------------------------------------
+Two further rules are written down because they test the others. A
+hybrid pairs the owner’s tax with the worker’s mix of machines, because
+the two instruments load different channels; it satisfies no single
+programme’s first-order conditions (Proposition 3). The
+private-ownership recipe is what the second welfare theorem would do in
+this environment, and naming it as a rule lets that operation be
+accepted or rejected without any extra message space.
 
-## Nontechnical introduction
+Three limits should be stated at the outset. For elasticities of
+substitution above one under a mandate, a report moves the tax and the
+mix of machines together, and whether a compromise can then be elicited
+is not signed by the two loadings alone (Proposition 5). The results
+about private ownership use a restriction, Premise P, under which a
+reshuffle of capital changes each class’s level of welfare and leaves
+its preferred tax where it was; a transfer that gave workers capital
+income would change who bears the tax, and falls outside it. The
+incentive results for interior rules do not use it. Finally, the paper
+does not derive the interval that a planner who cannot see $\theta_R$
+should delegate to the holder, for which Alonso and Matouschek (2008)
+and Amador and Bagwell (2013) give conditions.
 
-Capital is owned. Successor labour is not. A tax on capital income fills
-a public stock that helps reproduce that labour. Each class, if it held
-the instruments as a constant policy, would choose a different tax and,
-when machines can substitute for labour, a different mix of machines.
-Those assigned programmes are primitives here.
+The primitives come next. Complete information, the hybrid and the
+private-ownership rule follow; the last of these carries the separation
+theorem and the comparison with Lindahl prices. Two sections then treat
+a privately observed weight, under a mandate and under ratification. A
+section on scope states which restrictions each result uses, the
+conclusion follows, and Appendix A derives the assigned programmes.
 
-A social-choice rule names one feasible policy for each value of the
-private-reproduction weight. Implementation asks whether a mechanism
-produces that policy. The question is empty until the rule, the
-institution, and the information structure are named.
+### Related literature
 
-Two institutions. A mandate leaves the machine mix political.
-Ratification has firms set the mix that maximises current output; only
-the tax remains political.
+The information structure is a one-dimensional private type and a direct
+mechanism (Myerson 1979). Complete-information implementation is
+selection on a named feasible set (Dasgupta, Hammond and Maskin 1979).
+Without transfers, a direct mechanism that the holder answers truthfully
+hands each type its preferred point of the rule’s image, so a truthful
+rule is a set of taxes delegated to the holder (Melumad and Shibano
+1991; Alonso and Matouschek 2008). Corollary 1 is the local form of that
+fact.
 
-A reading that treats ratification as the device that makes a compromise
-tax impossible over-claims what is proved. Own-programme incentive
-compatibility holds under both institutions (Proposition 4). A
-type-contingent compromise that moves with the report fails under
-ratification (Proposition 11). At unit elasticity it also fails under a
-mandate, because every listed chooser wants the same direction and, with
-the investment share held fixed, the remaining instrument is the tax
-(Proposition 13). Off that face, a report that moves tax and direction
-together is not signed from the two loadings alone. Leaving the machine
-mix to firms is therefore not what dooms the compromise.
-
-The weight $\theta_R$ is how much of labour’s reproduction is paid from
-wages rather than from the public stock. That stock is filled from
-capital income. Marx treats the wage bill as “only a particular
-historical form of appearance of the fund which he must himself produce
-and reproduce” (*Capital* I, ch. 23). A tax on capital income that fills
-the public stock is another form of appearance of the same fund: an
-incidence statement, not a claim about whose labour produced the output.
-A mechanism that elicits $\theta_R$ is asking a class to report that
-split. “Capital is reckless of the health or length of life of the
-labourer, unless under compulsion from society” (*Capital* I, ch. 10). A
-named rule is that compulsion in this instrument set. The proofs do not
-use the quotation; they use incentive compatibility of assigned
-programmes.
-
-Two information structures. The weight may be common knowledge, or it
-may be seen only by one named class. Common knowledge creates no
-incentive to lie. Private observation does.
-
-A hybrid that pairs the owner’s tax with the worker’s mix is written
-down because the two instruments load different channels. Proposition 3
-records that the pairing satisfies no single programme’s first-order
-conditions.
-
-The private-ownership recipe — reshuffle capital, then markets, with the
-tax off — is written down because it is what the second welfare theorem
-would do in this environment. Naming it as a rule lets that operation be
-accepted or rejected. No extra message space is required for the test.
-The peaks and payoffs used below are stated in this paper.
+The second welfare theorem (Arrow 1951; Debreu 1959) is the theorem
+whose recipe is $f_0$. Bergstrom and Cornes (1983) study when the set of
+efficient public quantities is independent of the distribution of
+private goods. Under Premise P that independence holds here for the set
+of efficient taxes, and unanimity fails (Proposition 10). Foley (1970)
+puts personalized prices on a public good in the commodity space.
+Proposition 12 is the statement that no point of $\bar{\mathcal{X}}$
+carries those prices: the worker’s statutory price of $G$ is zero.
 
 ------------------------------------------------------------------------
 
@@ -670,7 +714,7 @@ truth-telling at first order puts it on the holder’s own peak (Corollary
 1 below). The tax interval is the set of undominated constant taxes.
 
 If a ratified rule also names $i(\theta_R)$ as a non-constant
-coordinate, $V_{C,i}=0$ and $V_{W,i}>0$ at interior $i_C$.[^1]
+coordinate, $V_{C,i}=0$ and $V_{W,i}>0$ at interior $i_C$.[^2]
 
 **Proposition 11 (Ratified mediant, local first-order condition).** Let
 $d=d_M$ and let $i$ be fixed. Let $\lambda\in(0,1)$, and write
@@ -712,7 +756,7 @@ Where $\tau_\lambda'=0$, the local first-order condition holds and a
 separate comparison is required. The small upward (owner) or downward
 (worker) misreport is licensed only on the set where $\tau_\lambda'<0$.
 That set is nonempty, because $\tau_\lambda$ is not constant and
-$\tau_\lambda\to 0$ as $\theta_R\to 1$.[^2]
+$\tau_\lambda\to 0$ as $\theta_R\to 1$.[^3]
 
 Propositions 6$'$, 7$'$ and 11 test particular schedules. The same
 first-order argument applies to every schedule.
@@ -762,28 +806,6 @@ programme passes, and the other class’s programme and every compromise
 that moves with the report fail.
 
 Under a mandate a report of $f_\lambda$ moves $\tau$ and $d$ together.
-
-------------------------------------------------------------------------
-
-## Neighbouring objects
-
-The information structure used is a one-dimensional private type and a
-direct mechanism (Myerson 1979). Complete-information implementation is
-selection on a named feasible set (Dasgupta, Hammond and Maskin 1979).
-Without transfers, a direct mechanism that the holder answers truthfully
-hands each type its preferred point of the rule’s image, so a truthful
-rule is a set of taxes delegated to the holder (Melumad and Shibano
-1991; Alonso and Matouschek 2008). Corollary 1 is the local form of that
-fact.
-
-Foley (1970) puts personalized prices on a public good in the commodity
-space. Proposition 12 is the statement that no point of
-$\bar{\mathcal{X}}$ carries those prices: the worker’s statutory price
-of $G$ is zero.
-
-Directed-technique points $d_M$, $d_C$, and $d_W$ are assigned or
-current-output peaks. The Second Welfare Theorem (Arrow 1951; Debreu
-1959) is the theorem whose recipe is $f_0$.
 
 ------------------------------------------------------------------------
 
@@ -1058,8 +1080,14 @@ Neither term is a statement about who owns successor labour.
 
 ## References
 
+Alesina, A., and D. Rodrik (1994). Distributive politics and economic
+growth. *Quarterly Journal of Economics* 109(2): 465–490.
+
 Alonso, R., and N. Matouschek (2008). Optimal delegation. *Review of
 Economic Studies* 75(1): 259–293.
+
+Amador, M., and K. Bagwell (2013). The theory of optimal delegation with
+an application to tariff caps. *Econometrica* 81(4): 1541–1599.
 
 Arrow, K. J. (1951). An extension of the basic theorems of classical
 welfare economics. In J. Neyman (ed.), *Proceedings of the Second
@@ -1070,6 +1098,9 @@ Bergstrom, T. C., and R. C. Cornes (1983). Independence of allocative
 efficiency from distribution in the theory of public goods.
 *Econometrica* 51(6): 1753–1765.
 
+Chamley, C. (1986). Optimal taxation of capital income in general
+equilibrium with infinite lives. *Econometrica* 54(3): 607–622.
+
 Dasgupta, P., P. Hammond, and E. Maskin (1979). The implementation of
 social choice rules: some general results on incentive compatibility.
 *Review of Economic Studies* 46(2): 185–216.
@@ -1079,12 +1110,25 @@ Debreu, G. (1959). *Theory of Value*. Yale University Press.
 Foley, D. K. (1970). Lindahl’s solution and the core of an economy with
 public goods. *Econometrica* 38(1): 66–72.
 
+Judd, K. L. (1985). Redistributive taxation in a simple perfect
+foresight model. *Journal of Public Economics* 28(1): 59–83.
+
 Melumad, N. D., and T. Shibano (1991). Communication in settings with no
 transfers. *RAND Journal of Economics* 22(2): 173.
 
 Myerson, R. B. (1979). Incentive compatibility and the bargaining
 problem. *Econometrica* 47(1): 61–73.
 
-[^1]: The local tax arguments hold $i$ fixed.
+[^1]: Marx treats the wage bill as “only a particular historical form of
+    appearance of the fund which he must himself produce and reproduce”
+    (*Capital* I, ch. 23). A tax on capital income that fills the public
+    stock is another form of appearance of the same fund: an incidence
+    statement, not a claim about whose labour produced the output. A
+    mechanism that elicits $\theta_R$ is asking a class to report that
+    split. “Capital is reckless of the health or length of life of the
+    labourer, unless under compulsion from society” (*Capital* I,
+    ch. 10). A named rule is that compulsion in this instrument set.
 
-[^2]: Where $\tau_\lambda'=0$ a separate comparison is required.
+[^2]: The local tax arguments hold $i$ fixed.
+
+[^3]: Where $\tau_\lambda'=0$ a separate comparison is required.
