@@ -189,7 +189,7 @@ The capitalist must still put a price on the workforce. That requirement does no
 
 The first-order conditions of the stationary profile contain two transition wedges. The public-stock wedge is a proper fraction if and only if the worker’s discounted total stays finite; on that region it rises with the stock’s depreciation. The capital wedge is the same object read on the private stock. Neither contains the outer elasticity of continuation. Each is the discounted resolvent of a stock law: a durable stock is slow-moving, and perishability buys delivery.
 
-The growth-maximising split is the stationary split evaluated as if the wedge equalled one. It over-predicts the stationary split wherever the worker’s discounted total stays finite. That direction is Futagami, Morita and Shibata’s (1993), for a public input in production. What is this model’s own is that the gap is the wedge, that the public input sits in continuation rather than in production, and that what it moves is class composition and who funds continuation, not the marginal product of capital.
+The growth-maximising split is the stationary split evaluated as if the wedge equalled one. It over-predicts the stationary split wherever the worker’s discounted total stays finite. In Barro (1990) the public input sits in production, and the tax share that maximises growth, which is the share a competitively supplied input would earn, also maximises the representative household’s utility: the two criteria coincide. Here they do not, and the direction of the gap between them is Futagami, Morita and Shibata’s (1993), for a public stock in production. What is this model’s own is that the gap is the wedge, that the public input sits in continuation rather than in production, and that what it moves is class composition and who funds continuation, not the marginal product of capital.
 
 These objects are prices of moving the two stocks — how much of a change in a flow arrives, discounted, as a change in the intensive state. They are not generic costs of exploitation, surplus value, the length of the working day, or a moral residual.
 
@@ -1177,6 +1177,8 @@ No data were used or generated. The paper is a work of theory, and every result 
 
 # References
 
+-   Barro, R. J. (1990). “Government Spending in a Simple Model of Endogenous Growth.” *Journal of
+    Political Economy* 98(5, Part 2): S103–S125. DOI 10.1086/261726.
 -   Barro, R. J., and G. S. Becker (1989). “Fertility Choice in a Model of Economic Growth.”
     *Econometrica* 57(2): 481–501.
 -   Brezis, E. S. (2001). “Social Classes, Demographic Transition and Economic Growth.” *European
