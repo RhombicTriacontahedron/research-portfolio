@@ -30,9 +30,9 @@ the other class’s tax truthfully, and it will not report a compromise
 tax truthfully wherever that compromise moves with the report. The
 private-ownership recipe that sets the tax to zero after a reshuffle of
 capital shuts the public stock. In the log payoffs used below that
-shut-down is ruin for both classes. A reshuffle of capital that leaves
-workers without capital income does not make the classes agree on the
-tax, because the tax falls on income the owner consumes and the two
+shut-down is ruin for both classes. Under a restriction stated in the
+paper, a reshuffle of capital does not make the classes agree on the
+rate, because the tax falls on income the owner consumes and the two
 classes value capital differently. A single statutory tax is not two
 personalised prices for the public stock.
 
@@ -78,11 +78,11 @@ the factors, and use no public instrument) sets the tax to zero and so
 shuts the public stock. With the logarithmic payoffs used here, every
 tax strictly between zero and confiscation makes both classes better off
 than that recipe. Under a restriction stated below, Premise P, a
-reshuffle of capital that leaves workers without capital income does not
-bring the two preferred rates together, and it leaves the interval of
-Pareto-efficient taxes where it was. The disagreement comes from who
-pays the tax and from what each class values, and not from the fact that
-no one owns the labour the stock reproduces.
+reshuffle of capital does not bring the two preferred rates together,
+and it leaves the interval of Pareto-efficient taxes where it was. The
+disagreement comes from who pays the tax and from what each class
+values, and not from the fact that no one owns the labour the stock
+reproduces.
 
 Third, a uniform tax on capital income cannot be read as a system of
 Lindahl prices. The worker’s statutory price of the public stock is
@@ -483,7 +483,7 @@ hold.
     Pareto-dominates that recipe for the two assigned objectives.
 3.  Under Premise P a reshuffle of $K$ moves only the levels
     $H_j(\kappa)$, so the interval $[\tau_C,\tau_W]$ is the same at
-    every owners’ share $\kappa$. No class-preserving reshuffle of $K$
+    every owners’ share $\kappa$. No reshuffle of $K$ that satisfies P
     produces a unanimous tax. Every two-class Pareto tax, once a public
     instrument is restored, lies in that interval.
 
@@ -857,22 +857,22 @@ information reduces implementation to selection: of the named point
 under a mandate, of its fiscal projection at $d_M$ under ratification
 (Propositions 1 and 2). Beyond that, four conclusions follow.
 
-First, the second welfare theorem’s separation fails here, and a
-transfer of capital that preserves the classes does not repair it. The
-classes disagree about the tax because it is paid out of capital income,
-which the owner consumes and the worker does not, and because the
-owner’s felicity counts capital while the worker’s counts only labour.
-Each source is strictly signed on the licensed box (Lemma A.5). The
-private-ownership recipe $f_0$ sets $\tau=0$ and so $G'=0$. With log
-payoffs that recipe is ruin for both classes, and every interior tax
-strictly Pareto-dominates it (Lemma 0, Proposition 8). Under Premise P a
+First, the second welfare theorem’s separation fails here, and under
+Premise P a transfer of capital does not repair it. The classes disagree
+about the tax because it is paid out of capital income, which the owner
+consumes and the worker does not, and because the owner’s felicity
+counts capital while the worker’s counts only labour. Each source is
+strictly signed on the licensed box (Lemma A.5). The private-ownership
+recipe $f_0$ sets $\tau=0$ and so $G'=0$. With log payoffs that recipe
+is ruin for both classes, and every interior tax strictly
+Pareto-dominates it (Lemma 0, Proposition 8). Under Premise P a
 reshuffle of $K$ moves each class’s level $H_j(\kappa)$ and leaves the
 tax Pareto interval $[\tau_C,\tau_W]$ where it was (Proposition 10).
 Bergstrom–Cornes independence of the *set* therefore holds, and
-unanimity fails: no reshuffle of $K$ brings $\tau_C$ onto $\tau_W$ or
-selects $\tau=0$. Under P, then, redistributing capital cannot stand in
-for the public instrument. That no one owns successor labour removes an
-instrument, but it is not the source of the disagreement. P is a
+unanimity fails: no such reshuffle of $K$ brings $\tau_C$ onto $\tau_W$
+or selects $\tau=0$. Under P, then, redistributing capital cannot stand
+in for the public instrument. That no one owns successor labour removes
+an instrument, but it is not the source of the disagreement. P is a
 restriction, not a consequence: a transfer that gave workers capital
 income would change who bears the tax, and would leave the two-class
 environment in which the peaks are derived.
