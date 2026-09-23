@@ -433,7 +433,7 @@ its successors at all. Under durable provision capital’s levy is its
 services levy discounted once more. When capital does not care about its
 successors either ($\lambda_C=0$), neither class wants any of this part
 of reproduction. For this part of reproduction neither class would then
-choose the levy.\[^compel\]
+choose the levy.[^4]
 
 **Proposition 5 (the form of the fund).** *Under services timing with
 $\psi=0$, fix the total fund $\tau=\rho+c$. For $\lambda_C\in(0,1]$
@@ -461,7 +461,7 @@ of the fund as cash. The division of the fund between the family and the
 state is thus contested over the cohort’s own consumption, not over the
 next generation. About the next generation the two classes agree.
 Capital values the cohort’s cash only for what it rears, so it sets it
-at what rearing requires.\[^cares\]
+at what rearing requires.[^5]
 
 **Proposition 6 (the one-agent identity and balanced growth).** *On
 Cobb–Douglas production, under services timing at $c=0$:*
@@ -565,7 +565,7 @@ state at $k^*$, where capital’s value is differentiable, satisfies the
 same first-order condition, so it is $r_C$. The trade-off has one
 interior optimum and no corner competitor, so capital’s stationary
 preferred levy is well defined at every elasticity where the two
-hypotheses hold.[^4] The hypotheses restrict the horizon only below unit
+hypotheses hold.[^6] The hypotheses restrict the horizon only below unit
 elasticity. They hold at every horizon when $\sigma\ge1$, and whenever
 $\sigma=1/2$ and $L\le1/3$.
 
@@ -638,7 +638,7 @@ at most unit, horizon alone favours labour wherever
 $L(1+s(1-\gamma))<1$, and there only capital’s own claims on profits can
 make the owner the class that wants the larger levy. At $\sigma<1$ those
 claims raise capital’s threshold by a positive amount, at a common
-capital share.[^5] At $\sigma=1$ they are invisible, which is why
+capital share.[^7] At $\sigma=1$ they are invisible, which is why
 Proposition 6 holds there. Off unit elasticity the two thresholds differ
 at every common share. “Horizon, not ownership” is the Cobb–Douglas
 statement. Off unit elasticity the statement is this: where horizon
@@ -907,12 +907,12 @@ fund. A capitalist generation that does not care about its successors
 would put the whole of a given pension on wages. One that does takes
 part of it on profits only once a wage charge would cut the rearing of
 the next workforce, and the part it takes can exceed one half
-(Proposition 13).[^6]
+(Proposition 13).[^8]
 
 The reproduction of the working class is thus a condition common to both
 classes, and how much each wants it financed depends on which of them
 holds a claim on the reared generation’s product, and on when that claim
-falls due.[^7]
+falls due.[^9]
 
 # Appendix A. Proofs
 
@@ -1359,17 +1359,31 @@ endogenous fertility: pensions and child allowances as Siamese twins.
     enacted, needs a political closure on top of these preferences, and
     every such closure takes them as its input.
 
-[^4]: The valuation fixes the slope of capital’s continuation value at
+[^4]: The same part of reproduction turns on outside compulsion in
+    chapter 10 of *Capital*, where capital is “reckless of the health or
+    length of life of the labourer, unless under compulsion from
+    society.” In this model that compulsion is the levy, and where
+    neither class outlives the return there is no one whose own interest
+    asks for it.
+
+[^5]: The direction is the one chapter 23 of *Capital* states for the
+    margin itself: “All the capitalist cares for, is to reduce the
+    labourer’s individual consumption as far as possible to what is
+    strictly necessary”. Here what is strictly necessary is what rearing
+    requires, and the contested margin is the cohort’s own consumption
+    rather than the next generation.
+
+[^6]: The valuation fixes the slope of capital’s continuation value at
     $k^*$, not its curvature away from it. The stationary preferred levy
     is therefore the levy the stationary state’s own first-order
     condition selects; whether it also solves capital’s full dynamic
     programme is a separate question, on which the comparisons of this
     section do not rely.
 
-[^5]: Each decider’s own stationary state has its own capital share; the
+[^7]: Each decider’s own stationary state has its own capital share; the
     comparison in Proposition 10(iii) holds the share fixed.
 
-[^6]: This answers an old claim of classical political economy. Marx
+[^8]: This answers an old claim of classical political economy. Marx
     placed *“people who have passed the normal age of the labourer”*
     among the paupers and wrote that *“capital knows how to throw these,
     for the most part, from its own shoulders on to those of the working
@@ -1378,7 +1392,7 @@ endogenous fertility: pensions and child allowances as Siamese twins.
     capitalist generation that does not care about its successors, and
     “for the most part” can fail for one that does.
 
-[^7]: Three extensions change the model’s primitives: a supply of labour
+[^9]: Three extensions change the model’s primitives: a supply of labour
     outside the reared generation, the route by which chapter 25 of
     *Capital* connects accumulation to the size of the working
     population; parental time as an input to rearing; and a working life
