@@ -26,8 +26,9 @@ ranking or capital’s, as labour’s wage is held or re-optimised. Where
 the ceilings move with the pool, the separation breaks; past a threshold
 in the extraction ceiling’s response no extractable day admits any
 interior compromise, and short of it at most three stationary employment
-rates exist, at most one where labour is pinned to its ceiling, which is
-an equilibrium wherever the law of motion survives at full employment.
+rates exist, at most one where labour is pinned to its ceiling. Each of
+them, pinned or bargained, is an equilibrium wherever the economy’s
+interior law of motion survives at full employment.
 
 **JEL.** C73, E24, E25, O33, B51
 
@@ -1358,7 +1359,7 @@ $$ because $q/P < 1/(1-s)$ on $s<1$ while $\beta \le 1$ gives
 $1/(\beta-s)^2 \ge 1/(1-s)^2$. At the fold $\bar e'$ vanishes, so
 $\dot x'(s_{\text{f}}) = (1-c)A'(s_{\text{f}}) > 0$: the drift’s
 minimiser lies strictly inside the **distributionist** arm. With $b>0$
-the drift diverges to $+\infty$ at both ends of the locus. Three things
+the drift diverges to $+\infty$ at both ends of the locus. Four things
 follow, and they are a count rather than a bound.
 
 *(i)* On the accumulationist arm the drift is strictly increasing in the
@@ -1544,7 +1545,7 @@ four economies and are not claimed in general; the sign of the curvature
 in $\ln v$ is a theorem conditional on the derivative following the
 stable manifold; and that capital’s value at $v^\ast$ *equals* the
 candidate’s, rather than merely approaching it, is (v)’s and not the
-computation’s 014 at a compromise the economy does not move, so the
+computation’s — at a compromise the economy does not move, so the
 candidate’s value is its current payoff divided by the discount rate,
 which is what the value function verified there returns. What holds at
 the four holds over a deviation set larger than the generalised game
@@ -1559,17 +1560,19 @@ arrives at full employment. At two of the four, the computed closed loop
 is capital’s best reply only from starts up to the $v_c$ of (v), which
 there lies below full employment.
 
-*(v) Capital, wherever the economy’s law of motion holds.* Capital’s
-stationary path is optimal against labour’s over every deviation that
-keeps the economy’s law of motion up to and at full employment,
-including deviations that carry labour’s committed path outside its
-feasible set, and capital’s best reply to the stationary wage moves the
-employment rate monotonically to $v^\ast$ from every initial employment
-rate up to $v_c$, the first employment rate above $v^\ast$ at which, at
-capital’s shadow price, accumulation stops paying ($v_c = 1$ if it pays
-all the way to full employment). $v_c$ can lie below full employment: it
-does whenever $\beta\hat e - \omega^\ast < \rho\kappa/(1+\lambda)$, and
-it does at some compromises that meet all of Proposition 12’s hypotheses
+*(v) Capital, wherever the economy’s interior law of motion holds.*
+Capital’s stationary path is optimal against labour’s over every
+deviation along which the economy’s interior law of motion holds up to
+and at full employment — equivalently, one that never requires a share
+above the level at which the drift vanishes there — including deviations
+that carry labour’s committed path outside its feasible set, and
+capital’s best reply to the stationary wage moves the employment rate
+monotonically to $v^\ast$ from every initial employment rate up to
+$v_c$, the first employment rate above $v^\ast$ at which, at capital’s
+shadow price, accumulation stops paying ($v_c = 1$ if it pays all the
+way to full employment). $v_c$ can lie below full employment: it does
+whenever $\beta\hat e - \omega^\ast < \rho\kappa/(1+\lambda)$, and it
+does at some compromises that meet all of Proposition 12’s hypotheses
 (A.12$''$(v)). It does at two of the four compromises (iv) reads, both
 of which satisfy that inequality: at Proposition 13’s pinned rest point
 accumulation stops paying at $v_c = 0.771$, barely above
@@ -1626,22 +1629,31 @@ qualification has content. Above $v^\ast$ accumulation can stop paying
 before full employment. From a start at or above an employment rate
 where it does not pay, capital has no best reply: it would accumulate
 less than any positive share, and the share set does not contain zero.
-What (v) needs beyond the regime’s interior equations is that the law of
-motion hold at full employment. At a pinned compromise capital’s jointly
-feasible deviations run toward full employment and nowhere else, because
-labour’s committed wage is its own ceiling there; where the supremal
-drift at $v = 1$ is positive — as it is at Proposition 12’s cell — those
-deviations reach it, and the neutrality of Proposition 5$''$ does not
-price what arrives, since it needs the separation of Proposition 2,
-which fails here through the action set (Proposition 7). Where the law
-of motion continues to hold at full employment, (v) covers those
-deviations. What it does not cover is a continuation that changes the
-law there, and on the evidence in A.12$''$(iv) that is the kind that
-matters: every continuation priced there that keeps $K = \kappa a L$ at
-full employment returns the stationary share, and the one that reverses
-the verdict suspends it, letting productivity grow without the
-accumulation the technology requires. What remains open on capital’s
-side is therefore an institution, not a proof.
+What (v) needs beyond the regime’s interior equations is that the
+*interior* law of motion hold at full employment, which is to say that
+the continuation there ration capital to a share at which the economy
+stays. At a pinned compromise capital’s jointly feasible deviations run
+toward full employment and nowhere else, because labour’s committed wage
+is its own ceiling there; where the supremal drift at $v = 1$ is
+positive — as it is at Proposition 12’s cell — those deviations reach
+it, and the neutrality of Proposition 5$''$ does not price what arrives,
+since it needs the separation of Proposition 2, which fails here through
+the action set (Proposition 7). Where the interior law continues to hold
+at full employment, (v) covers those deviations. What it does not cover
+is a continuation that prices accumulation differently there. One that
+lets productivity grow at its behavioural rate whatever capital
+accumulates is such a continuation, and so is Proposition 5$''$(i)’s
+free-share one, which keeps $K = \kappa a L$ and sends the surplus
+accumulation into productivity: at full employment it pays capital the
+productivity costate for accumulation that the interior law pays at
+capital’s own, lower, value of employment, and it is the second price
+that (v)’s verification carries. A.12$''$(iv) prices those continuations
+rather than proving them, and on that evidence every one priced there
+that keeps $K = \kappa a L$ at full employment, the free-share one
+included, returns the stationary share, while the one that reverses the
+verdict suspends the technology, letting productivity grow without the
+accumulation it requires. What remains open on capital’s side is
+therefore an institution, not a proof.
 
 # 7. Scope
 
@@ -1662,16 +1674,19 @@ conditional on that class.
 
 *The equilibrium claim in Section 6.* Proposition 14 proves both halves
 of the equilibrium claim in Section 6, each class’s stationary path
-against the other’s. Capital’s half needs only the economy’s law of
-motion to hold up to and at full employment, and where no admissible
-deviation reaches full employment ($E \le 0$, which includes every
-compromise whose wage is at least the extractable day at full
+against the other’s. Capital’s half needs the economy’s interior law of
+motion to hold up to and at full employment — a continuation there that
+rations capital to a share at which the economy stays — and where no
+admissible deviation reaches full employment ($E \le 0$, which includes
+every compromise whose wage is at least the extractable day at full
 employment) even that is automatic; where one does, a continuation that
-changes the law there, such as one that lets productivity grow at its
-behavioural rate whatever capital accumulates, is not covered, and the
-regime contains no rule that selects one (A.12$''$(iv)). Markov
-perfection in the regime is not claimed, and non-stationary equilibria
-are not characterised.
+prices accumulation differently at the boundary is not covered, whether
+it suspends the fixed-coefficient technology, as one letting
+productivity grow at its behavioural rate whatever capital accumulates
+does, or keeps it, as Proposition 5$''$(i)’s free-share continuation
+does, and the regime contains no rule that selects one (A.12$''$(iv)).
+Markov perfection in the regime is not claimed, and non-stationary
+equilibria are not characterised.
 
 *Priority.* Lancaster (1973), Hoel (1978) and Pohjola (1983) have
 capital as the state and labour never limiting, and Shimomura (1991)
@@ -1872,32 +1887,36 @@ of full employment. From a start at or above a rate at which
 accumulation does not pay, capital has no best reply, only a supremum it
 approaches by accumulating ever less. The unemployment pool stabilises
 labour’s problem through curvature and capital’s through price. That
-result needs the economy’s law of motion to hold at full employment, and
-where no admissible deviation reaches full employment — the escape
-margin $E \le 0$ of A.12$''$(iv), the state space forward invariant
-under every share — it needs nothing else. Where $E > 0$ an admissible
-deviation reaches full employment in finite time, what arrives is priced
-by the continuation there, and two continuations that hold the economy
-at full employment return opposite verdicts on whether the compromise is
-a rest point of capital’s optimal feedback — at Proposition 12’s cell,
-where $E = +0.100$, one continuation returns the stationary share and
-the other a share of $0.417$ against it. The two are not on the same
-terms. The one that reverses the verdict holds productivity at the
-behavioural rate whatever the share, and its holds reverse the verdict
-only at shares below $0.162$, under the drift-zero level $0.230$:
-productivity there grows without the accumulation $K = \kappa a L$
-requires, so the technology is suspended at the boundary. Every
-continuation priced there that keeps the technology — the free-share one
-Proposition 5$''$(i) would supply included — returns the stationary
-share. So on the sub-class $E \le 0$ capital’s half is proved outright.
-On $E > 0$ it is proved for every continuation that keeps the law of
-motion at full employment, and the continuation that reverses the
-verdict is not one of them. This paper does not choose among the
-continuations that change the law, and what that choice turns on is
-narrower than it was: not whether a full-employment economy lets capital
-idle, which costs capital its retained share and buys it no
-productivity, but whether it lets productivity keep growing when capital
-accumulates less than full employment requires.
+result needs the economy’s interior law of motion to hold at full
+employment, and where no admissible deviation reaches full employment —
+the escape margin $E \le 0$ of A.12$''$(iv), the state space forward
+invariant under every share — it needs nothing else. Where $E > 0$ an
+admissible deviation reaches full employment in finite time, what
+arrives is priced by the continuation there, and two continuations that
+hold the economy at full employment return opposite verdicts on whether
+the compromise is a rest point of capital’s optimal feedback — at
+Proposition 12’s cell, where $E = +0.100$, one continuation returns the
+stationary share and the other a share of $0.417$ against it. The two
+are not on the same terms. The one that reverses the verdict holds
+productivity at the behavioural rate whatever the share, and its holds
+reverse the verdict only at shares below $0.162$, under the drift-zero
+level $0.230$: productivity there grows without the accumulation
+$K = \kappa a L$ requires, so the technology is suspended at the
+boundary. Every continuation priced there that keeps the technology —
+the free-share one Proposition 5$''$(i) would supply included — returns
+the stationary share. So on the sub-class $E \le 0$ capital’s half is
+proved outright. On $E > 0$ it is proved for every continuation that
+keeps the interior law at full employment. The free-share one is priced
+there rather than proved, because it pays capital the productivity
+costate for accumulation that the interior law pays at capital’s lower
+value of employment; and the one reversing continuation priced here
+keeps neither the interior law nor the technology. This paper does not
+choose among the continuations that price the boundary differently, and
+what that choice turns on is narrower than it was: not whether a
+full-employment economy lets capital idle, which costs capital its
+retained share and buys it no productivity, but whether it lets
+productivity keep growing when capital accumulates less than full
+employment requires.
 
 The warning is about how much weight the separation theorem can bear.
 Proposition 2 says a class that values its whole class is indifferent to
@@ -1982,10 +2001,10 @@ $\bar e$ whose zeros are $\bar e = Q(1 \pm 1/\sqrt{1+\lambda})^2$.
 Between the zeros there are no real roots. Above the larger zero both
 roots are real, lie in $(0,1)$, and satisfy $Q/s < \bar e$; below the
 smaller zero the real roots violate $Q/s < \bar e$. The last three
-sentences hold over the whole domain and are not sampled (Appendix
-A.12). At $\lambda = 0$ the quadratic is $\bar e s^2 - \bar e s + Q = 0$
-with discriminant $\bar e(\bar e - 4Q)$; the roots are as displayed and
-lie in $(0,1)$ whenever they are real, since their sum is $1$ and their
+sentences hold over the whole domain, proved at general prices in A.8.
+At $\lambda = 0$ the quadratic is $\bar e s^2 - \bar e s + Q = 0$ with
+discriminant $\bar e(\bar e - 4Q)$; the roots are as displayed and lie
+in $(0,1)$ whenever they are real, since their sum is $1$ and their
 product $Q/\bar e > 0$; and $s_- > Q/\bar e$ holds whenever the roots
 are real: with $q \equiv Q/\bar e \in (0, 1/4]$, $s_- > q$ is equivalent
 to $1 - 2q > \sqrt{1-4q}$, both sides positive, hence to $4q^2 > 0$.
@@ -2631,12 +2650,20 @@ quadratic with $Q_C = A_0 + B_0\bar e$ gives the displayed
 $\kappa A_\pm$. Differentiating, the sign of $d(\kappa A_\pm)/d\bar e$
 is the sign of $\beta \pm \Delta'/(2\sqrt{\Delta})$ with
 $\Delta' = 2\beta(\beta\bar e + Q_W - A_0) - 4Q_W$. Two facts settle
-both signs. First, $\Delta' > 0$ on the admissible set: this is a
-universal over a bounded semi-algebraic region, and it is proved over
-the whole of that region rather than sampled. It is the fold and not the
-rest of the domain that carries it — dropping the fold constraint admits
-a counterexample — while the pinned relation $A_0 \le Q_W$ is not used.
-Second, $4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0) - Q_W]$
+both signs. First, $\Delta' > 0$ on the admissible set. There
+$\Delta = (\beta\bar e + q)^2 - 4\bar e Q_W \ge 0$ and
+$\beta\bar e + q > 0$, so $\beta\bar e + q \ge 2\sqrt{\bar e Q_W}$;
+writing $t = \sqrt{\bar e}$, that is
+$\beta t^2 - 2\sqrt{Q_W}\,t + q \ge 0$, and above the fold $t$ is at or
+beyond that quadratic’s larger root
+$\big(\sqrt{Q_W} + \sqrt{Q_W - \beta q}\big)/\beta$. Now
+$Q_W - \beta q = Q_W(1-\beta) + \beta A_0 > 0$ because $\beta \le 1$ and
+$A_0 > 0$, so $\beta t > \sqrt{Q_W}$, whence
+$\Delta' = 2\beta(\beta\bar e + q) - 4Q_W \ge 4\sqrt{Q_W}\big(\beta t - \sqrt{Q_W}\big) > 0$.
+It is the fold that carries it: at the same quadratic’s smaller root
+$\beta t < \sqrt{Q_W}$ and the sign reverses. Nothing beyond
+$\beta \le 1$, $A_0 > 0$ and Proposition 13’s $q \ge 0$ enters. Second,
+$4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0) - Q_W]$
 identically, and the bracket is negative because $\beta < 1$ and
 $A_0 > 0$; hence $2\beta\sqrt{\Delta} < \Delta'$, giving
 $\beta - \Delta'/(2\sqrt\Delta) < 0$ while
@@ -2874,9 +2901,9 @@ end placed where the drift at a vanishing share is inward; three grids
 of $2{,}000$, $4{,}000$ and $8{,}000$ nodes, with the tolerance set by
 the change between the two finest. At each of the four compromises the
 optimal feedback at $v^\ast$ agrees with the stationary share to under
-$10^{-4}$, the gap between the computed value and the candidate’s 014
-the current payoff at the compromise divided by $\rho$ 014 is positive
-and shrinks with the grid, though that it closes in the limit is neither
+$10^{-4}$, the gap between the computed value and the candidate’s — the
+current payoff at the compromise divided by $\rho$ — is positive and
+shrinks with the grid, though that it closes in the limit is neither
 read off these grids nor needed: at the rest point the drift vanishes,
 so $H^\ast_C(x^\ast,p^\ast)$ is that current payoff, and (v)’s
 $W(x^\ast) = H^\ast_C(x^\ast,p^\ast)/\rho$ is the candidate’s value
@@ -2908,42 +2935,43 @@ condition every regime compromise meets, since $\Theta > 0$, while the
 first branch is where (iii) makes $\lambda_-$ real. So on the first
 branch capital’s value is strictly convex in log-employment at every
 stationary compromise at which $W'$ follows the stable manifold, and
-$\beta < 1$ is the whole of the condition: at $\beta \ge 1$ the chain
-above closes the other way. At the four cells the closed form gives
-$W''(x^\ast) = 0.964$, $1.192$, $1.167$ and $1.155$; a quadratic fitted
-to the computed value on a one-sided window below $x^\ast$, away from
-the scheme’s upwind switch at the sign change of the drift, returns
-$0.966$, $1.199$, $1.174$ and $1.162$ on the finest of those three grids
-— within $0.2$ to $0.6$ per cent of the closed form, on a window of
-fixed width in $x$ that the three grids refine — while the second
-difference read at the node itself overstates it by $28$ to $42$ per
-cent, the scheme’s artefact at the one node where the stencil straddles
-the switch. The residual is the window’s, not the scheme’s: a quadratic
-fitted on a one-sided window reads $W''$ at the window’s midpoint, so
-the fit carries a bias whose leading term is $W'''(x^\ast)$ times the
-midpoint’s offset from $x^\ast$ — $-0.0165$ here — and $W'''(x^\ast)$ is
-itself a closed form — the second derivative at $x^\ast$ of the stable
-manifold $p = P(x)$, as $W''(x^\ast)$ is its slope — between $-0.38$ and
-$+1.05$ across the five cells; the next term is $W''''(x^\ast)$ — the
-manifold’s third derivative at $x^\ast$, a closed form too — times half
-that offset squared plus a fourteenth of the window’s squared
-half-width, of which the regression below fits the first part as its
-quadratic term and leaves the second,
-$1.3 \times 10^{-5}\,W''''(x^\ast)$, in the intercept; regressing the
-fit on the midpoint across five windows of the same width returns the
-closed-form $W''(x^\ast)$ at the four cells, and at the fifth below, to
-within $0.001$ per cent on a grid sixteen times finer — at the four the
-term left in the intercept is at most $0.00005$ per cent of $W''$ and
-nothing turns on it, but the fifth’s $W''''$ is two orders larger, and
-removing its $0.002$ per cent in turn moves the reading to that figure
-rather than below it, so $0.002$ is what the decomposition certifies
-there — and the bias it removes is the one those two closed forms
-predict. The comparison with the first derivative is closed-form too:
-$W'(x^\ast) = p^\ast$, which at $c = 0$ — every exhibited cell’s case —
-is $(1+\lambda)/(\rho(1+u))$ by Proposition 7 and the stationary
-condition, so $\mathrm{d}^2W/\mathrm{d}v^2 = (W'' - p^\ast)/v^{\ast 2}$
-is negative exactly where $(\lambda_- + |F_x|)(1+\lambda) < \rho(1+u)$.
-That inequality holds at the four cells
+$\beta < 1$ is the whole of the condition: at $\beta = 1$ the chain
+above closes to $W''(x^\ast) = 0$, and at $\beta > 1$ the other way. At
+the four cells the closed form gives $W''(x^\ast) = 0.964$, $1.192$,
+$1.167$ and $1.155$; a quadratic fitted to the computed value on a
+one-sided window below $x^\ast$, away from the scheme’s upwind switch at
+the sign change of the drift, returns $0.966$, $1.199$, $1.174$ and
+$1.162$ on the finest of those three grids — within $0.2$ to $0.6$ per
+cent of the closed form, on a window of fixed width in $x$ that the
+three grids refine — while the second difference read at the node itself
+overstates it by $28$ to $42$ per cent, the scheme’s artefact at the one
+node where the stencil straddles the switch. The residual is the
+window’s, not the scheme’s: a quadratic fitted on a one-sided window
+reads $W''$ at the window’s midpoint, so the fit carries a bias whose
+leading term is $W'''(x^\ast)$ times the midpoint’s offset from $x^\ast$
+— $-0.0165$ here — and $W'''(x^\ast)$ is itself a closed form — the
+second derivative at $x^\ast$ of the stable manifold $p = P(x)$, as
+$W''(x^\ast)$ is its slope — between $-0.38$ and $+1.05$ across the five
+cells; the next term is $W''''(x^\ast)$ — the manifold’s third
+derivative at $x^\ast$, a closed form too — times half that offset
+squared plus a fourteenth of the window’s squared half-width, of which
+the regression below fits the first part as its quadratic term and
+leaves the second, $1.3 \times 10^{-5}\,W''''(x^\ast)$, in the
+intercept; regressing the fit on the midpoint across five windows of the
+same width returns the closed-form $W''(x^\ast)$ at the four cells, and
+at the fifth below, to within $0.001$ per cent on a grid sixteen times
+finer — at the four the term left in the intercept is at most $0.00005$
+per cent of $W''$ and nothing turns on it, but the fifth’s $W''''$ is
+two orders larger, and removing its $0.002$ per cent in turn moves the
+reading to that figure rather than below it, so $0.002$ is what the
+decomposition certifies there — and the bias it removes is the one those
+two closed forms predict. The comparison with the first derivative is
+closed-form too: $W'(x^\ast) = p^\ast$, which at $c = 0$ — every
+exhibited cell’s case — is $(1+\lambda)/(\rho(1+u))$ by Proposition 7
+and the stationary condition, so
+$\mathrm{d}^2W/\mathrm{d}v^2 = (W'' - p^\ast)/v^{\ast 2}$ is negative
+exactly where $(\lambda_- + |F_x|)(1+\lambda) < \rho(1+u)$. That
+inequality holds at the four cells
 ($\mathrm{d}^2W/\mathrm{d}v^2 = -10.8$, $-9.8$, $-8.9$, $-8.5$), and on
 the face $b = \lambda = c = 0$, where it reduces to $\lambda_- < \rho$,
 it holds at every first-branch compromise; on the first branch as a
@@ -3263,7 +3291,19 @@ stays in $x \le 0$ under the interior law — the state constraint (iv)’s
 scheme imposes, and the hold that rations capital’s share to the
 drift-zero level. A continuation that changes the law at $v = 1$, such
 as productivity growing at $m_0$ whatever the share, changes the running
-payoff there and is not covered; that is the residue Section 7 names.
+payoff there and is not covered. Neither is Proposition 5$''$(i)’s
+free-share continuation, which keeps $K = \kappa a L$ and sends the
+surplus accumulation into productivity: at $v = 1$ it prices that
+accumulation at capital’s productivity costate $(1+\lambda)/\rho$, where
+this verification prices it at $W'(0)$, and the two differ — at $c = 0$,
+wherever $Q_1D > 1$ up to full employment, the ordering $P < Q_1$ above
+gives
+$W'(0) < Q_1(0)/\gamma = (\rho+b)(1+\lambda)/\big(\rho[(\rho+b) + \gamma\zeta\hat e]\big)$,
+strictly below the first. Capital’s maximising hold under it,
+$s = 1 - \rho\kappa/\big((1+\lambda)D(0)\big)$, is $0.387$ at
+Proposition 12’s cell, above the drift-zero level $0.230$, so the path
+it prices does not stay in $x \le 0$ under the interior law. Both are
+the residue Section 7 names.
 
 *A wage at or above the extractable day at full employment.* Suppose
 instead $\omega^\ast \ge \hat e$. Then $D$ vanishes at
