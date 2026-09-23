@@ -25,7 +25,11 @@ reproduction of labour; incidence.
 
 # 1. Introduction
 
-If the size of a class is produced out of that class’s own consumption, what is a transfer to that
+Efficiency and distribution are treated as separable problems, and the licence for treating them so is
+the second fundamental theorem of welfare economics: any Pareto-efficient allocation can be reached as
+a competitive equilibrium once wealth has been handed round lump sum. The instrument in that sentence
+moves claims between people whose number is given. Suppose it is not given. If the size of a class is
+produced out of that class’s own consumption, what is a transfer to that
 class a transfer of? Hand it more to consume and it does not only consume more: it becomes more
 numerous, and the per-head claim is the quotient of the two. At a stationary class ratio both classes
 grow at one rate. Equal growth pins the ratio of their reproduction inputs to a constant of the
@@ -43,8 +47,9 @@ exactness, invariance and a consequence. Where private consumption is the only i
 the absorption is
 *exact* — the transfer is not merely diluted but removed from the distributional coordinate
 altogether, which is a statement about a reachable set rather than about a sign. The invariance is
-that the absorption survives arbitrary asymmetry in the classes’ reproduction
-efficiencies, so it is not an artefact of treating the two classes as interchangeable. The
+that, among reproduction maps of constant elasticity, the absorption survives arbitrary asymmetry in
+the classes’ reproduction efficiencies, so it is not an artefact of treating the two classes as
+interchangeable. The
 consequence, drawn in §5, is that what the result does to the second welfare theorem is not to
 contradict it but to empty it, because the factor whose per-head return is in question is *produced*,
 and a produced factor that no agent may hold is nobody’s endowment to transfer.
@@ -68,7 +73,8 @@ there is a problem of contracting on a choice. Cremer, Gahvari and Pestieau (200
 pay-as-you-go pension to the number of children and to the investment that produces them, and their
 optimal rule tilts with what the state can observe of that investment; the instrument reaches the
 per-head claim because the parents’ choice carries it there. No choice carries it here. Reproduction
-is a technology at every $\theta$, and at $\theta=1$ the channel closes altogether.
+is a technology whatever the state supplies to it, and where the workers’ own consumption is its only
+input the channel closes altogether.
 
 There is a literature on cash versus in-kind transfers, and it is not this one. Currie and Gahvari
 (2008) survey it, and the difference is at the primitive rather than at the result. In every mechanism
@@ -284,6 +290,21 @@ $$\frac{\partial \ln \nu^{\ast}}{\partial \tau} = -\frac{1}{1-\tau} - \frac{(1-\
 \frac{\partial \ln \nu^{\ast}}{\partial \phi} = \frac{\tau\alpha}{\kappa_W} \;>\;0
 \ \ \text{for } \tau>0. \tag{5}$$
 
+*(iv) fix the instruments at an admissible $(\tau,\phi,i)$ with $i<1$ and take any path of $(\star)$
+from $\nu_0\in(0,\infty)$ along which output is positive at every date. Then the class ratio obeys*
+
+$$\nu_{t+1} \;=\; \frac{B_C}{B_W}\,m^{\gamma}\,\nu_t^{\,1-\gamma},
+\qquad m \;\equiv\; \frac{(1-i)(1-\tau)\alpha}{\kappa_W}, \tag{5a}$$
+
+*a law in which neither capital per worker nor the public stock appears and whose unique rest point is
+the $\nu^{\ast}$ of (4); and the per-head gap satisfies*
+
+$$\ln\frac{c_{C,t}}{c_{W,t}} \;-\; \ln\chi
+\;=\; (1-\gamma)^{t}\left(\ln\frac{c_{C,0}}{c_{W,0}} - \ln\chi\right), \tag{5b}$$
+
+*so from every initial condition it converges to $\chi$, monotonically in logarithms and at the
+geometric rate $1-\gamma$.*
+
 The proof is in Appendix A.3.
 
 In words: the transfer is not idle, it is aimed elsewhere. Raising the tax and handing the receipt to
@@ -291,6 +312,16 @@ workers as cash does move something, and what it moves is the number of owners f
 says strictly and (4) says by how much. What it does not move, by any amount at any rate, is how much
 each of them gets to consume relative to the other. The transfer is absorbed by the denominator it
 creates.
+
+Part (iv) says the absorption is not confined to the rest point. The quotient of the two per-head
+claims is the owners’ share of output divided by the workers’, times the number of workers per owner,
+and output cancels from it: the gap is the constant $m$ divided by the class ratio at every date,
+whether or not anything is at rest. Numbers are the only state the gap sees, numbers move on their own
+at $\theta=1$, and their law is a contraction. So a transfer that raises worker consumption today does
+narrow $c_C/c_W$ today, and is undone at the rate $1-\gamma$: half of the narrowing is gone after
+$\ln 2/|\ln(1-\gamma)|$ periods, and none of it survives. The transfer is not a
+long-run instrument that happens to be studied at a rest point; it is an instrument whose effect
+decays from any starting position, and the rest point is where it has finished decaying.
 
 The next statement is the one that keeps Proposition 1 from being an assumption in disguise.
 
@@ -525,16 +556,27 @@ something.
 transfer redistributes claims in the ordinary way. This is the assumption the model drops, and dropping
 it is the whole exercise.
 
-*Deny that the state is at a stationary class ratio.* The result is a long-run statement and says
-nothing about transitions, where a transfer moves per-head consumption in the direction one expects.
-But the escape concedes the long run, and an instrument that works only away from the rest point is a
-transitional instrument, which is not what the theorem offers.
+*Deny that the state is at a stationary class ratio.* Away from one, a transfer does move per-head
+consumption in the direction one expects. Proposition 1(iv) prices what that buys. At $\theta=1$ the
+class ratio moves on its own — the gap is the constant $m$ divided by it at every date, so nothing
+else in the economy reaches the gap — and its law is a contraction. The gap therefore returns to
+$\chi$ from every starting position, monotonically and at the geometric rate $1-\gamma$. The escape is
+not that the result is a rest-point result, then; it is that the aim has a horizon short relative to
+$\ln 2/|\ln(1-\gamma)|$ periods, which is how long half of any transfer’s effect on the gap survives.
+An instrument whose effect decays at a known rate from the moment it is used is not the instrument the
+theorem offers.
 
 *Deny that the two classes share a reproduction elasticity.* This is the one live escape at $\theta=1$, and
-Proposition 2 prices it: the two classes may differ arbitrarily in reproduction efficiency and the
-result survives, so the escape needs a difference in the *curvature* of the map from resources to
-numbers, not merely a difference in its productivity. It is also the escape that carries an empirical
-commitment, because a difference in curvature shows up as a per-head gap that varies with the level.
+Proposition 2 prices it within the power maps of Assumption 2: there the two classes may differ
+arbitrarily in reproduction efficiency and the result survives, so inside that family the escape needs
+a difference in the *exponent* of the map from resources to numbers, not merely a difference in its
+level. Outside it the escape is cheaper. Proposition 5 says how much
+cheaper: what invariance needs is that the two elasticities agree at the consumptions the two classes
+actually have. Where the elasticity varies with consumption, the classes sit at different points of
+the same map and that agreement fails, so a difference in level alone suffices. This is why the
+general condition is that the workers’ map be the owners’ map applied to a fixed multiple of the
+workers’ consumption, rather than a multiple of the owners’ map. It is also the escape that carries an empirical commitment, in
+either family, because the failure shows up as a per-head gap that varies with the level.
 
 *Deny the fiscal architecture.* One tax base, no credit, no borrowing against the stock being built.
 §6 concedes this is a restriction and not a theorem about all funding routes.
@@ -607,13 +649,20 @@ sides.
 
 *Determinism, and the long run.* All paths are deterministic and every statement is about a stationary
 class ratio. Away from the rest point, transfers move
-per-head consumption in the ordinary way.[^2] Every statement concerns the stationary state itself; none concerns convergence to it.
+per-head consumption in the ordinary way.[^2] At $\theta=1$ the deviation of the gap from $\chi$, measured in logarithms, falls by the factor $1-\gamma$ each period from any starting position (Proposition 1(iv)), so what a transfer moves away from the rest point is dated and priced rather than unmeasured. Below $\theta=1$ the class ratio no longer moves on its own, and no rate is claimed here.
 
 *Existence.* Every statement above is conditional on an
 interior stationary class ratio. That such states exist under
 Assumptions 1–3 with $B_W \neq B_C$ is established here by exhibiting one at $\theta=1$ (Appendix A.2) and one at $\theta=\tfrac12$ on the same primitives with $(\tau,\phi,i)=(2/5,1/2,3/5)$ — $x=1.02795$, $z=0.88136$, $g=1.21014$, a per-head gap of $0.26748$ equal to (10) to twelve digits, with (A) satisfied — together with
-the monotonicity argument that makes the stationary capital stock unique at $\theta=1$. At $\theta=1$
-existence is shown by example. Below $\theta=1$, with a positive tax, a positive share in kind and partial
+the monotonicity argument that makes the stationary capital stock unique at $\theta=1$. Two objects
+are at issue here and they have different existence results. Interior stationary class ratios in the
+sense of Definition 1, which is what §§3 and 5 need, exist at $\theta=1$ for every admissible
+instrument vector with $i<1$, as Proposition 3’s proof constructs. Proposition 1(iv) adds that every
+path with positive output converges to one. A *full* rest point, at which the two stocks are at rest
+as well, is a theorem at $\theta=1$ when $\delta_G\ge\delta$ and is exhibited by example when
+$\delta_G<\delta$ (Appendix A.2); Proposition 4(i) is stated for $\theta\in(0,1)$, and the paragraph
+that follows it says why its argument needs $\theta<1$ only in the second of those two cases. Below $\theta=1$,
+with a positive tax, a positive share in kind and partial
 reinvestment, it is a theorem (Proposition 4(i)); the state at $\theta=\tfrac12$ illustrates it, and (A) is among its conclusions rather than its hypotheses.
 
 **Proposition 4 (the full rest point).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$. Then (i) there is exactly one interior state at which $x$, $z$ and $\nu$ are all stationary under $(\star)$, and (A) holds there; (ii) the value of $c_C/c_W$ at the state of (i), as a function of $\phi\in(0,1]$ with $\tau$ and $i$ fixed, is differentiable and strictly increasing, and so is the stationary public stock per worker $z$; (iii) at $\phi=1$, the value of $c_C/c_W$ at the state of (i), as a function of $\tau\in(0,\bar\tau)$ with $i$ fixed, is differentiable and strictly increasing.*
@@ -643,8 +692,10 @@ instrument set in the distributional coordinate is a single point (Proposition 3
 transfer is not attenuated; it is absorbed by the denominator it creates, and what it moves instead is
 the relative size of the two classes.
 
-That conclusion holds on an elasticity rather than on a common technology. Two classes may convert
-consumption into numbers at any multiple of one another’s rate and the gap is still constant; it is
+That conclusion holds on an elasticity rather than on a common technology. Among maps of constant
+elasticity, two classes may convert
+consumption into numbers at any multiple of one another’s rate and the gap is still the same number at
+every stationary state, though that number carries the multiple. It is
 constant if and only if the two elasticities coincide, and where they differ the gap moves with the
 level at the rate $1-\gamma_C/\gamma_W$; at such states with the capital stock also at rest and both
 the reinvestment rate and the tax rate positive, the cash instrument reaches that level
@@ -810,7 +861,21 @@ capital stock leave the statement — and $\kappa_W \ge 1-\alpha>0$ permits the 
 Taking logarithms, $\ln\nu^{\ast}$ is $\ln[(1-i)\alpha/\chi] + \ln(1-\tau) - \ln\kappa_W$, and
 differentiating in $\tau$ and in $\phi$ gives the two expressions in (5); the first is the sum of
 a strictly negative term and a non-positive one for $\tau<1$ — the second term vanishes at $\phi=1$ —
-and the second is strictly positive for $\tau>0$. $\blacksquare$
+and the second is strictly positive for $\tau>0$.
+
+**(iv)** At any date at which output is positive, $(\star)$ gives
+$c_{W,t}=\kappa_W Y_t/N_{W,t}$ and $c_{C,t}=(1-i)(1-\tau)\alpha Y_t/N_{C,t}$, so their quotient is
+$c_{C,t}/c_{W,t} = m/\nu_t$ with $m=(1-i)(1-\tau)\alpha/\kappa_W$: output, the productivity level and
+the capital stock cancel, and $\kappa_W\ge 1-\alpha>0$ permits the division. The quotient uses neither
+stock law nor any stationarity condition, so it holds on every path. At $\theta=1$, Assumption 2 gives
+$g_{C,t}/g_{W,t} = (B_C/B_W)(c_{C,t}/c_{W,t})^{\gamma}$, and $\nu_{t+1}=\nu_t g_{C,t}/g_{W,t}$ from
+the two population laws. Substituting the quotient gives (5a), in which $x$ and $z$ no longer appear.
+Taking logarithms, $\ln\nu_{t+1} = \ln[(B_C/B_W)m^{\gamma}] + (1-\gamma)\ln\nu_t$, an affine map of
+$\ln\nu$ with slope $1-\gamma\in(0,1)$ by Assumption 2. It has the unique fixed point
+$\ln\nu^{\ast} = \gamma^{-1}\ln(B_C/B_W) + \ln m$, that is $\nu^{\ast}=m/\chi$, which is (4); and
+$\ln\nu_t - \ln\nu^{\ast} = (1-\gamma)^{t}(\ln\nu_0-\ln\nu^{\ast})$ exactly, with a positive slope, so
+the approach is monotone. Since $\ln(c_{C,t}/c_{W,t}) = \ln m - \ln\nu_t$, the same difference equation
+holds for $\ln(c_{C,t}/c_{W,t})-\ln\chi$, which is (5b). $\blacksquare$
 
 **Proof of Proposition 2.** Equality of growth factors is $B_W c_W^{\gamma_W} = B_C c_C^{\gamma_C}$; solving for $c_W$
 gives (6), and back-substitution verifies it. For (a), the gap along (6) is
