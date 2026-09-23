@@ -1523,7 +1523,7 @@ Proposition 13’s — a numerical solution of capital’s problem against the
 stationary wage share returns the stationary accumulation share as
 capital’s optimal feedback at $v^\ast$, and $v^\ast$ as a rest point of
 the optimal closed loop, with the gap between the computed value and the
-candidate’s vanishing as the approximation is refined — **under the
+candidate’s falling as the approximation is refined — **under the
 continuation its own scheme supplies at $v=1$**, which at the one of
 these cells whose escape margin is positive a continuation that suspends
 the technology at the boundary reverses (A.12$''$(iv), *The boundary,
@@ -1542,17 +1542,22 @@ compromise, exhibited in A.12$''$(iv) with a steeper ceiling, the value
 is convex in $v$ as well. The share and stability readings hold at these
 four economies and are not claimed in general; the sign of the curvature
 in $\ln v$ is a theorem conditional on the derivative following the
-stable manifold. What holds at the four holds over a deviation set
-larger than the generalised game admits, since the computation lets
-capital carry the employment rate anywhere in the state space — though
-not larger in the direction that decides which deviations (v) must
-price: $\bar\omega$ is strictly increasing, so *every* upward deviation
-keeps labour’s committed path feasible — at a bargained compromise as
-much as at a pinned one — and at a pinned compromise the feasible set is
-that half and nothing else. A.12$''$(iv) shows what the core cannot
-price once such a deviation arrives at full employment. At two of the
-four, the computed closed loop is capital’s best reply only from starts
-up to the $v_c$ of (v), which there lies below full employment.
+stable manifold; and that capital’s value at $v^\ast$ *equals* the
+candidate’s, rather than merely approaching it, is (v)’s and not the
+computation’s 014 at a compromise the economy does not move, so the
+candidate’s value is its current payoff divided by the discount rate,
+which is what the value function verified there returns. What holds at
+the four holds over a deviation set larger than the generalised game
+admits, since the computation lets capital carry the employment rate
+anywhere in the state space — though not larger in the direction that
+decides which deviations (v) must price: $\bar\omega$ is strictly
+increasing, so *every* upward deviation keeps labour’s committed path
+feasible — at a bargained compromise as much as at a pinned one — and at
+a pinned compromise the feasible set is that half and nothing else.
+A.12$''$(iv) shows what the core cannot price once such a deviation
+arrives at full employment. At two of the four, the computed closed loop
+is capital’s best reply only from starts up to the $v_c$ of (v), which
+there lies below full employment.
 
 *(v) Capital, wherever the economy’s law of motion holds.* Capital’s
 stationary path is optimal against labour’s over every deviation that
@@ -1977,14 +1982,13 @@ $\bar e$ whose zeros are $\bar e = Q(1 \pm 1/\sqrt{1+\lambda})^2$.
 Between the zeros there are no real roots. Above the larger zero both
 roots are real, lie in $(0,1)$, and satisfy $Q/s < \bar e$; below the
 smaller zero the real roots violate $Q/s < \bar e$. The last three
-sentences were decided by unsatisfiability on division-free encodings
-over the whole domain, not sampled (Appendix A.12). At $\lambda = 0$ the
-quadratic is $\bar e s^2 - \bar e s + Q = 0$ with discriminant
-$\bar e(\bar e - 4Q)$; the roots are as displayed and lie in $(0,1)$
-whenever they are real, since their sum is $1$ and their product
-$Q/\bar e > 0$; and $s_- > Q/\bar e$ holds whenever the roots are real:
-with $q \equiv Q/\bar e \in (0, 1/4]$, $s_- > q$ is equivalent to
-$1 - 2q > \sqrt{1-4q}$, both sides positive, hence to $4q^2 > 0$.
+sentences hold over the whole domain and are not sampled (Appendix
+A.12). At $\lambda = 0$ the quadratic is $\bar e s^2 - \bar e s + Q = 0$
+with discriminant $\bar e(\bar e - 4Q)$; the roots are as displayed and
+lie in $(0,1)$ whenever they are real, since their sum is $1$ and their
+product $Q/\bar e > 0$; and $s_- > Q/\bar e$ holds whenever the roots
+are real: with $q \equiv Q/\bar e \in (0, 1/4]$, $s_- > q$ is equivalent
+to $1 - 2q > \sqrt{1-4q}$, both sides positive, hence to $4q^2 > 0$.
 
 ## A.4$'$ Proposition 4$'$.
 
@@ -2628,14 +2632,11 @@ $\kappa A_\pm$. Differentiating, the sign of $d(\kappa A_\pm)/d\bar e$
 is the sign of $\beta \pm \Delta'/(2\sqrt{\Delta})$ with
 $\Delta' = 2\beta(\beta\bar e + Q_W - A_0) - 4Q_W$. Two facts settle
 both signs. First, $\Delta' > 0$ on the admissible set: this is a
-universal over a bounded semi-algebraic region and is decided by `unsat`
-on a division-free encoding, with the square roots carried as
-$a^2 = Q_W$, $t^2 = Q_C$ so that nothing divides; a control that drops
-the fold constraint returns `sat`, which is what shows the fold rather
-than the box is carrying the result, and a second control that drops the
-pinned relation $A_0 \le Q_W$ leaves the verdict unchanged, so the proof
-does not lean on it. Second,
-$4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0) - Q_W]$
+universal over a bounded semi-algebraic region, and it is proved over
+the whole of that region rather than sampled. It is the fold and not the
+rest of the domain that carries it — dropping the fold constraint admits
+a counterexample — while the pinned relation $A_0 \le Q_W$ is not used.
+Second, $4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0) - Q_W]$
 identically, and the bracket is negative because $\beta < 1$ and
 $A_0 > 0$; hence $2\beta\sqrt{\Delta} < \Delta'$, giving
 $\beta - \Delta'/(2\sqrt\Delta) < 0$ while
@@ -2873,25 +2874,30 @@ end placed where the drift at a vanishing share is inward; three grids
 of $2{,}000$, $4{,}000$ and $8{,}000$ nodes, with the tolerance set by
 the change between the two finest. At each of the four compromises the
 optimal feedback at $v^\ast$ agrees with the stationary share to under
-$10^{-4}$, the gap between the computed value and the candidate’s
-$f(x^\ast,s^\ast)/\rho$ is positive and shrinks with the grid, $v^\ast$
-is a rest point of the optimal closed loop, and the price of gross
+$10^{-4}$, the gap between the computed value and the candidate’s 014
+the current payoff at the compromise divided by $\rho$ 014 is positive
+and shrinks with the grid, though that it closes in the limit is neither
+read off these grids nor needed: at the rest point the drift vanishes,
+so $H^\ast_C(x^\ast,p^\ast)$ is that current payoff, and (v)’s
+$W(x^\ast) = H^\ast_C(x^\ast,p^\ast)/\rho$ is the candidate’s value
+exactly, the computed gap being the scheme’s residual, $v^\ast$ is a
+rest point of the optimal closed loop, and the price of gross
 accumulation is positive along the whole solution, so $e = \bar e(v)$ is
 the pointwise maximiser everywhere and the substituted problem is the
 full one rather than a restriction — a sufficient condition, since
 wherever that price is non-positive the share’s supremum is at
 $s \to 0$, where the solver closes the set, and
 $\partial H_C/\partial e = 1/(e-\omega) > 0$ makes the ceiling bind
-anyway. The positive control hands the solver the core’s share with
-$\Gamma$ dropped, and the share test refutes it by three orders of
-magnitude more than the tolerance. Two further readings of the same
-solution: the optimal closed-loop drift has strictly negative slope at
-$x^\ast$ on every grid, so $v^\ast$ is stable under capital’s optimal
-feedback; and the value’s derivative follows the saddle’s stable
-manifold near $x^\ast$, which turns the value’s curvature there from a
-grid reading into a consequence of (iii). At a saddle the stable
-manifold is tangent to the stable eigenvector, so wherever $W'$ follows
-that manifold, $W''(x^\ast)$ is that eigenvector’s slope, $$
+anyway. The core’s share with $\Gamma$ dropped fails the same test by
+three orders of magnitude more than the tolerance. Two further readings
+of the same solution: the optimal closed-loop drift has strictly
+negative slope at $x^\ast$ on every grid, so $v^\ast$ is stable under
+capital’s optimal feedback; and the value’s derivative follows the
+saddle’s stable manifold near $x^\ast$, which turns the value’s
+curvature there from a grid reading into a consequence of (iii). At a
+saddle the stable manifold is tangent to the stable eigenvector, so
+wherever $W'$ follows that manifold, $W''(x^\ast)$ is that eigenvector’s
+slope, $$
 W''(x^\ast) \;=\; \frac{\lambda_- - F_x}{F_p}, \qquad \lambda_- \;=\; \frac{\rho}{2} - \sqrt{\frac{\rho^2}{4} - \det J} ,
 $$ every symbol (iii)’s. Its sign is three lines. $F_p > 0$, so
 $W'' > 0 \iff \lambda_- > F_x \iff \sqrt{\rho^2/4 - \det J} < \rho/2 + |F_x|$,
@@ -2901,50 +2907,49 @@ that is $\beta(\rho+b)u + b < (\rho+b)u + b$, which is $\beta < 1$ — a
 condition every regime compromise meets, since $\Theta > 0$, while the
 first branch is where (iii) makes $\lambda_-$ real. So on the first
 branch capital’s value is strictly convex in log-employment at every
-stationary compromise at which $W'$ follows the stable manifold — an
-`unsat` on a division-free encoding over $\rho > 0$, $b \ge 0$, $u > 0$,
-$0 < \beta < 1$, with the control that $\beta > 1$ returns a `sat`
-witness. At the four cells the closed form gives $W''(x^\ast) = 0.964$,
-$1.192$, $1.167$ and $1.155$; a quadratic fitted to the computed value
-on a one-sided window below $x^\ast$, away from the scheme’s upwind
-switch at the sign change of the drift, returns $0.966$, $1.199$,
-$1.174$ and $1.162$ on the finest of those three grids — within $0.2$ to
-$0.6$ per cent of the closed form, on a window of fixed width in $x$
-that the three grids refine — while the second difference read at the
-node itself overstates it by $28$ to $42$ per cent, the scheme’s
-artefact at the one node where the stencil straddles the switch. The
-residual is the window’s, not the scheme’s: a quadratic fitted on a
-one-sided window reads $W''$ at the window’s midpoint, so the fit
-carries a bias whose leading term is $W'''(x^\ast)$ times the midpoint’s
-offset from $x^\ast$ — $-0.0165$ here — and $W'''(x^\ast)$ is itself a
-closed form — the second derivative at $x^\ast$ of the stable manifold
-$p = P(x)$, as $W''(x^\ast)$ is its slope — between $-0.38$ and $+1.05$
-across the five cells; the next term is $W''''(x^\ast)$ — the manifold’s
-third derivative at $x^\ast$, a closed form too — times half that offset
-squared plus a fourteenth of the window’s squared half-width, of which
-the regression below fits the first part as its quadratic term and
-leaves the second, $1.3 \times 10^{-5}\,W''''(x^\ast)$, in the
-intercept; regressing the fit on the midpoint across five windows of the
-same width returns the closed-form $W''(x^\ast)$ at the four cells, and
-at the fifth below, to within $0.001$ per cent on a grid sixteen times
-finer — at the four the term left in the intercept is at most $0.00005$
-per cent of $W''$ and nothing turns on it, but the fifth’s $W''''$ is
-two orders larger, and removing its $0.002$ per cent in turn moves the
-reading to that figure rather than below it, so $0.002$ is what the
-decomposition certifies there — and the bias it removes is the one those
-two closed forms predict. The comparison with the first derivative is
-closed-form too: $W'(x^\ast) = p^\ast$, which at $c = 0$ — every
-exhibited cell’s case — is $(1+\lambda)/(\rho(1+u))$ by Proposition 7
-and the stationary condition, so
-$\mathrm{d}^2W/\mathrm{d}v^2 = (W'' - p^\ast)/v^{\ast 2}$ is negative
-exactly where $(\lambda_- + |F_x|)(1+\lambda) < \rho(1+u)$. That
-inequality holds at the four cells
+stationary compromise at which $W'$ follows the stable manifold, and
+$\beta < 1$ is the whole of the condition: at $\beta \ge 1$ the chain
+above closes the other way. At the four cells the closed form gives
+$W''(x^\ast) = 0.964$, $1.192$, $1.167$ and $1.155$; a quadratic fitted
+to the computed value on a one-sided window below $x^\ast$, away from
+the scheme’s upwind switch at the sign change of the drift, returns
+$0.966$, $1.199$, $1.174$ and $1.162$ on the finest of those three grids
+— within $0.2$ to $0.6$ per cent of the closed form, on a window of
+fixed width in $x$ that the three grids refine — while the second
+difference read at the node itself overstates it by $28$ to $42$ per
+cent, the scheme’s artefact at the one node where the stencil straddles
+the switch. The residual is the window’s, not the scheme’s: a quadratic
+fitted on a one-sided window reads $W''$ at the window’s midpoint, so
+the fit carries a bias whose leading term is $W'''(x^\ast)$ times the
+midpoint’s offset from $x^\ast$ — $-0.0165$ here — and $W'''(x^\ast)$ is
+itself a closed form — the second derivative at $x^\ast$ of the stable
+manifold $p = P(x)$, as $W''(x^\ast)$ is its slope — between $-0.38$ and
+$+1.05$ across the five cells; the next term is $W''''(x^\ast)$ — the
+manifold’s third derivative at $x^\ast$, a closed form too — times half
+that offset squared plus a fourteenth of the window’s squared
+half-width, of which the regression below fits the first part as its
+quadratic term and leaves the second,
+$1.3 \times 10^{-5}\,W''''(x^\ast)$, in the intercept; regressing the
+fit on the midpoint across five windows of the same width returns the
+closed-form $W''(x^\ast)$ at the four cells, and at the fifth below, to
+within $0.001$ per cent on a grid sixteen times finer — at the four the
+term left in the intercept is at most $0.00005$ per cent of $W''$ and
+nothing turns on it, but the fifth’s $W''''$ is two orders larger, and
+removing its $0.002$ per cent in turn moves the reading to that figure
+rather than below it, so $0.002$ is what the decomposition certifies
+there — and the bias it removes is the one those two closed forms
+predict. The comparison with the first derivative is closed-form too:
+$W'(x^\ast) = p^\ast$, which at $c = 0$ — every exhibited cell’s case —
+is $(1+\lambda)/(\rho(1+u))$ by Proposition 7 and the stationary
+condition, so $\mathrm{d}^2W/\mathrm{d}v^2 = (W'' - p^\ast)/v^{\ast 2}$
+is negative exactly where $(\lambda_- + |F_x|)(1+\lambda) < \rho(1+u)$.
+That inequality holds at the four cells
 ($\mathrm{d}^2W/\mathrm{d}v^2 = -10.8$, $-9.8$, $-8.9$, $-8.5$), and on
 the face $b = \lambda = c = 0$, where it reduces to $\lambda_- < \rho$,
-it holds at every first-branch compromise (`unsat`); on the first branch
-as a whole it does not: with the interiority bound $u > (1-\beta)/\beta$
+it holds at every first-branch compromise; on the first branch as a
+whole it does not: with the interiority bound $u > (1-\beta)/\beta$
 imposed — a positive share at a non-negative wage needs it — both signs
-are `sat`, and at a fifth, pinned, compromise —
+occur, and at a fifth, pinned, compromise —
 $(\kappa,\rho,\lambda,c,b,\zeta,\eta,\hat e,\hat\omega,m_0,n) = (1,\tfrac1{10},0,0,\tfrac9{10},3,1,\tfrac{343}{1000},\tfrac1{20},\tfrac{886}{1000},0)$,
 $v^\ast = 0.700$, a ceiling three times as steep as Proposition 13’s —
 the same computation returns the stationary share as capital’s optimal
@@ -2960,8 +2965,7 @@ $\alpha\ln v$, $\alpha = (1+\lambda) + b\,(p^C_y - p^C_x) > 0$, to the
 convex $\bar e(v)$, so
 $\mathrm{d}^2H^\ast_C/\mathrm{d}v^2 = \big[\zeta(\zeta+1)P_C\bar e/\kappa - \alpha\big]/v^2$
 at the stationary costate, whose sign is not fixed — negative at
-Proposition 12’s cell, positive at Proposition 13’s three (the same file
-reads it).
+Proposition 12’s cell, positive at Proposition 13’s three.
 
 *The boundary, and what it decides.* At a fixed share capital’s drift is
 $\dot x = (1-c)s(\bar e(x)-\omega)/\kappa - m_0 - bx - n$, and its
