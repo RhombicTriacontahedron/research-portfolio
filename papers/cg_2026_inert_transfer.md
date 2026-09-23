@@ -391,7 +391,7 @@ $\theta=1$; otherwise $z$ diverges and the gap tends to
 $\chi\big[(1-\delta_G)(\delta-\delta_G)^{\alpha\gamma/(1-\alpha)}/D_1\big]^{1/\gamma}$, where
 $D_1\equiv B_W(\kappa_W A)^{\gamma}\big(i(1-\tau)\alpha A\big)^{\alpha\gamma/(1-\alpha)}$ is the constant of
 (12) (Appendix A.3) at $\theta=1$, and that limit exceeds $\chi$ when the $\theta=1$ root of (12) lies strictly below
-$1-\delta_G$. A tax whose whole receipt is rebated
+$1-\delta_G$. Appendix A.3 derives both limits. A tax whose whole receipt is rebated
 in cash sets $\varpi=0$, and under (A) the public-stock law then forces $z=0$, so it is not an interior
 case of Theorem 1 at all.
 
@@ -956,6 +956,30 @@ $$\frac{\mathrm{d}\ln(c_C/c_W)}{\mathrm{d}\tau}
 
 and both terms are strictly positive, the first by the positivity of $1-Q(1-\theta)$ shown in (ii).
 $\blacksquare$
+
+**The limits as $\theta\to1$ in §4.** At a fixed $g$ at which (A) holds, the bracket in (10) is a
+strictly positive constant and its exponent $1-\theta$ tends to zero, so the gap tends to $\chi$. Along
+the full rest points, fix $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$, and write $g_\theta$ for
+the root of (12) given by Proposition 4(i) and $D_\theta$ for the constant of (12). That constant factors as
+$D_\theta=D_1(\alpha\varpi/\kappa_W)^{\gamma(1-\theta)}$, so solving (12) for $(g-1+\delta_G)^{-(1-\theta)}$
+and substituting into (10) gives, at every $\theta\in(0,1)$,
+
+$$\frac{c_C}{c_W}\;=\;\chi\Big[\frac{g_\theta\,(g_\theta-1+\delta)^{\alpha\gamma/(1-\alpha)}}{D_1}\Big]^{1/\gamma}.$$
+
+The gap is therefore continuous in $g_\theta$, and what remains is where $g_\theta$ goes. Let
+$G_\theta(g)\equiv\ln g+\tfrac{\alpha\gamma}{1-\alpha}\ln(g-1+\delta)+\gamma(1-\theta)\ln(g-1+\delta_G)-\ln D_\theta$.
+It is strictly increasing on $(\underline{g},\infty)$, and as $\theta\to1$ it converges pointwise there to
+$G_1(g)\equiv\ln g+\tfrac{\alpha\gamma}{1-\alpha}\ln(g-1+\delta)-\ln D_1$, which is strictly increasing on
+$(1-\delta,\infty)$ and has exactly one root $g_1$ in it. If $g_1>\underline{g}$, a full rest point exists
+at $\theta=1$; for any $\varepsilon\in(0,g_1-\underline{g})$, $G_1(g_1-\varepsilon)<0<G_1(g_1+\varepsilon)$,
+the same strict signs hold for $G_\theta$ once $\theta$ is close enough to one, and $g_\theta$ lies between
+the two points. So $g_\theta\to g_1$, the bracket tends to $e^{G_1(g_1)}=1$, and the gap tends to $\chi$.
+Otherwise $\delta_G<\delta$ and $g_1\le1-\delta_G=\underline{g}$, so $G_1>0$ on all of $(\underline{g},\infty)$;
+for any $\varepsilon>0$, $G_\theta(\underline{g}+\varepsilon)>0$ once $\theta$ is close enough to one, so
+$g_\theta\to1-\delta_G$. Then $z=\varpi\alpha Ax^{\alpha}/(g_\theta-1+\delta_G)$ diverges, because $x$ tends
+to the positive limit $\big(i(1-\tau)\alpha A/(\delta-\delta_G)\big)^{1/(1-\alpha)}$, and the display tends to
+$\chi\big[(1-\delta_G)(\delta-\delta_G)^{\alpha\gamma/(1-\alpha)}/D_1\big]^{1/\gamma}$. That limit exceeds
+$\chi$ exactly when $G_1(1-\delta_G)>0$, which, $G_1$ being increasing, is when $g_1<1-\delta_G$.
 
 # References
 
