@@ -31,15 +31,17 @@ a competitive equilibrium once wealth has been handed round lump sum. The instru
 moves claims between people whose number is given. Suppose it is not given. If the size of a class is
 produced out of that class’s own consumption, what is a transfer to that
 class a transfer of? Hand it more to consume and it does not only consume more: it becomes more
-numerous, and the per-head claim is the quotient of the two. At a stationary class ratio both classes
-grow at one rate. Equal growth pins the ratio of their reproduction inputs to a constant of the
-technology. And no tax rate appears anywhere in that chain.
+numerous, and what each of its members gets is its consumption divided by its numbers. At a stationary
+class ratio both classes grow at one rate. Equal growth pins the ratio of their reproduction inputs —
+in that case, of what the two classes consume — to a constant of the technology. And no tax rate
+appears anywhere in that chain.
 
 This paper shows that the transfer instrument on which the second fundamental theorem of welfare
 economics is built is, in such an economy, exactly inert. Not attenuated, not offset by a behavioural
 response, not merely second-best: absent from the distribution it is supposed to set. The set of
-per-head distributions between the two classes that the whole admissible range of transfers can reach
-is a single point, and the point is fixed by the reproduction technology.
+per-head distributions between the two classes — those who own the capital and those who work — that
+the whole admissible range of transfers can reach is a single point, and the point is fixed by the
+reproduction technology.
 
 That a subsidy to a class whose numbers respond to income is absorbed by those numbers is
 the classical argument against poor relief (Malthus 1798, ch. 5). What this paper adds to it is
@@ -50,9 +52,12 @@ altogether, which is a statement about a reachable set rather than about a sign.
 that, among reproduction maps of constant elasticity, the absorption survives arbitrary asymmetry in
 the classes’ reproduction efficiencies, so it is not an artefact of treating the two classes as
 interchangeable. The
-consequence, drawn in §5, is that what the result does to the second welfare theorem is not to
-contradict it but to empty it, because the factor whose per-head return is in question is *produced*,
-and a produced factor that no agent may hold is nobody’s endowment to transfer.
+consequence, drawn in §5, is that where private consumption is the only input to reproduction, a
+distributional aim stated per head is one the second welfare theorem cannot serve: the result does not
+contradict the theorem but empties it, because the factor whose per-head return is in question is
+*produced*, and a produced factor that no agent may hold is nobody’s endowment to transfer. For an aim
+stated per class the theorem keeps its use, because the transfer does move the relative size of the
+two classes, and with it each class’s share of total private consumption.
 
 The first welfare theorem is untouched here, and so are the efficiency results
 proved for economies in which a dynasty’s reproduction is decided and paid for within the dynasty (Golosov, Jones and Tertilt 2007): there
@@ -122,25 +127,30 @@ is that it was assumed: give both classes the same reproduction technology and o
 alike. The objection fails. The two classes may differ arbitrarily in reproduction *efficiency* — one
 may convert consumption into numbers at any multiple of the other’s rate — and the transfer is still
 inert. What equal efficiency buys is only the numerical value of a constant that no instrument
-touches. Inertness needs the two classes to share the *elasticity* of the reproduction technology within the power maps of Assumption 2 and the
+touches. Inertness needs the two classes to share the *elasticity* of the reproduction technology,
+among maps of constant elasticity, and the
 public input to be absent from it, and nothing else; if that elasticity differs across classes, inertness
 fails, which is stated here as
 a boundary rather than left as a hope. The requirement falls short of a common technology for
-reproduction maps of any shape, not only for power maps: Proposition 5, in the appendix, gives the exact
-condition for the per-head gap to take one value.
+reproduction maps of any shape, not only for those of constant elasticity. The per-head gap takes one
+value over a range of stationary states exactly when the workers’ map is the owners’ map applied to a
+fixed multiple of the workers’ consumption (Proposition 5, in the appendix).
 
 Provision in kind is the exception, and its incidence is a closed form. Where the state supplies an
 input to reproduction directly instead of paying cash, the per-head gap becomes a function of policy, and in particular of how the
 receipt is split between that provision and cash.
-The exchange rate between public provision and private consumption along the equalised-reproduction
-locus with the owner’s claim held fixed is a constant of the composite, free of the reproduction technology’s level and of every
-instrument; the reproduction efficiencies that set the cash-economy gap drop out of it entirely.
+Among the states at which the two classes reproduce at one rate, the rate at which public provision
+substitutes for the worker’s own consumption, with the owner’s consumption held where it is, is a
+constant of the composite: free of the reproduction technology’s level, free of every instrument, and
+free of the reproduction efficiencies that set the cash-economy gap.
 
 Section 2 sets out the economy. Section 3 proves that cash is inert and shows exactly which hypothesis
 carries it. Section 4 proves the incidence of provision in kind. Section 5 draws the consequence for
 the second welfare theorem. Section 6 states the scope of each result and the boundary at which it
-fails, and proves that the economy with a public input has exactly one full rest point, at which a
-larger share in kind raises the owners’ per-head consumption relative to the workers’. Section 7
+fails, and proves that with a positive tax, a positive share in kind and partial reinvestment the
+economy with a public input has exactly one state at which capital, the public stock and the class
+ratio are all at rest, and that at it a larger share in kind raises the owners’ per-head consumption
+relative to the workers’. Section 7
 concludes. The appendix gives the exact condition for reproduction maps of any shape (Proposition 5),
 a stationary state that satisfies every hypothesis, and the proofs.
 
@@ -325,9 +335,9 @@ decays from any starting position, and the rest point is where it has finished d
 
 The next statement is the one that keeps Proposition 1 from being an assumption in disguise.
 
-**Proposition 2 (the hypothesis is exactly the elasticity).** *Let Assumptions 1 and 2 hold with
-$\theta=1$, and replace (1) by class-specific maps $g_W = B_W c_W^{\gamma_W}$, $g_C = B_C
-c_C^{\gamma_C}$ with $B_j>0$ and $\gamma_j\in(0,1)$. Then at any interior stationary class ratio the
+**Proposition 2 (the hypothesis is exactly the elasticity).** *Replace (1) by class-specific maps with
+no public input, $g_W = B_W c_W^{\gamma_W}$ and $g_C = B_C c_C^{\gamma_C}$, with $B_j>0$ and
+$\gamma_j\in(0,1)$. Then at any interior stationary class ratio the
 two per-head claims lie on the locus*
 
 $$c_W \;=\; \Big(\frac{B_C}{B_W}\Big)^{1/\gamma_W} c_C^{\,\gamma_C/\gamma_W}, \tag{6}$$
@@ -341,9 +351,9 @@ $B_W=B_C$;*
 *(b) when $\gamma_W\neq\gamma_C$ the gap tracks the level with elasticity*
 $$\frac{\partial \ln (c_C/c_W)}{\partial \ln c_C} \;=\; 1-\frac{\gamma_C}{\gamma_W} \;\neq\; 0;$$
 
-*(c) and at states where the capital stock is also stationary and $i>0$ and $\tau>0$, the cash rebate share
+*(c) and under Assumption 1, at states where the capital stock is also stationary and $i>0$ and $\tau>0$, the cash rebate share
 $1-\phi$ strictly raises the common growth factor, hence strictly raises the level
-$c_C=(g/B_C)^{1/\gamma_C}$, so by (b) the gap is instrument-dependent and Proposition 1(ii) fails.*
+$c_C=(g/B_C)^{1/\gamma_C}$, so when $\gamma_W\neq\gamma_C$ the gap is instrument-dependent by (b) and Proposition 1(ii) fails.*
 
 The proof is in Appendix A.3.
 
@@ -382,7 +392,7 @@ stationary quantities,*
 $$\frac{c_C}{c_W} \;=\; \chi\Big(\frac{z}{c_W}\Big)^{1-\theta}
                   \;=\; \chi^{1/\theta}\Big(\frac{z}{c_C}\Big)^{(1-\theta)/\theta}, \tag{7}$$
 
-*strictly increasing in public provision per worker relative to the private claim, $z/c_W$ — so that at fixed provision the private claim alone moves the gap, with elasticity $-(1-\theta)$, and the inertness of Proposition 1 is the $\theta=1$ face of (7) rather than a property of cash as such; along the equalised-index locus — that is, holding
+*strictly increasing in public provision per worker relative to the private claim, $z/c_W$ — so that across stationary states at a given provision per worker the private claim alone moves the gap, with elasticity $-(1-\theta)$, and the inertness of Proposition 1 is the $\theta=1$ face of (7) rather than a property of cash as such; along the equalised-index locus — that is, holding
 $c_C$ fixed — the elasticity of private worker consumption with respect to public provision is constant,
 negative, and free of both reproduction levels,*
 
@@ -409,6 +419,11 @@ compatible with the same reproduction falls by $(1-\theta)/\theta$ tenths, at ev
 and whatever the two classes’ reproduction efficiencies. Which class consumes more privately is then
 read off one comparison, whether provision per worker exceeds a fixed multiple of the worker’s own
 claim, rather than off the tax rate, the split or the reinvestment rate.
+
+The elasticity $-(1-\theta)$ in (7) compares stationary states that differ in the private claim at a
+given provision per worker. What an instrument does is a different calculation, because the split
+moves both arguments of (7) at once: a larger share in kind strictly raises provision per worker, and
+it strictly raises the gap (Proposition 4(ii)).
 
 Three features of (10) are worth separating, because they are what makes the contrast with §3 a
 contrast and not a difference of degree.
@@ -456,9 +471,11 @@ it, and the quantity it moves is the one the previous section proved a transfer 
 
 # 5. What this does to the second welfare theorem
 
-Where workers are reproduced by private consumption alone, the transfer instrument of the second welfare
-theorem has no range in the per-head coordinate, and that empties the theorem’s policy use without
-contradicting the theorem.
+Where workers are reproduced by private consumption alone, the transfer instrument of the second
+welfare theorem has no range in the per-head coordinate. For a distributional aim stated per head that
+empties the theorem’s policy use without contradicting the theorem; for an aim stated per class it does
+not, because the transfer moves the class ratio and with it each class’s aggregate share of
+consumption.
 
 The second fundamental theorem of welfare economics, due to Arrow (1951) and Debreu (1954), says that
 in a convex economy with continuous, convex and strongly monotone preferences, every Pareto-efficient
@@ -469,9 +486,10 @@ transfers. The separation is the theorem’s practical payload. Take it away and
 stands as a statement about the existence of supporting prices, but the policy advice built on it has
 nothing to stand on.
 
-In the economy of §2 at $\theta=1$, where workers are reproduced by private consumption alone, the
-separation has nothing to stand on, and the reason is not that the theorem is false. It is that its instrument has no range in the per-head coordinate: what it moves is the class
-ratio (Proposition 3).
+In the economy of §2 at $\theta=1$, where workers are reproduced by private consumption alone, an aim
+stated per head leaves the separation nothing to stand on, and the reason is not that the theorem is
+false. It is that its instrument has no range in that coordinate: what it moves is the class ratio
+(Proposition 3).
 
 **Proposition 3 (the reachable set of distributions is a point).** *Let Assumptions 1 and 2 hold, fix the
 primitives $(A,\alpha,\delta,\delta_G,B_W,B_C,\gamma)$ and set $\theta=1$. Let $\mathcal{S}$ be the set of interior
@@ -581,8 +599,10 @@ either family, because the failure shows up as a per-head gap that varies with t
 *Deny the fiscal architecture.* One tax base, no credit, no borrowing against the stock being built.
 §6 concedes this is a restriction and not a theorem about all funding routes.
 
-*Deny that private consumption is the only input to reproduction.* Then $\theta<1$, and cash reaches the
-per-head gap through the private claim, with elasticity $-(1-\theta)$ at fixed provision (Theorem 1). The
+*Deny that private consumption is the only input to reproduction.* Then $\theta<1$, and cash reaches
+the per-head gap through the private claim (Theorem 1). At the full rest point a shift of the receipt
+towards cash at a given tax rate strictly lowers the gap, because it raises that claim and withdraws
+provision together (Proposition 4(ii)). The
 escape has a price: the gap is then set by provision per worker relative to that claim, so the transfer
 that reaches a given gap depends on how much the state provides in kind, and the transfer can no longer
 be sized apart from the composition of public spending.
@@ -768,7 +788,8 @@ Proposition 2 is a statement about power maps. The condition it finds has a form
 any shape. Keep the public input out of reproduction and let each class reproduce through any strictly
 increasing map.
 
-**Proposition 5 (the condition for reproduction maps of any shape).** *Let Assumption 1 hold and replace
+**Proposition 5 (the condition for reproduction maps of any shape).** *Let the population laws of
+$(\star)$ hold and replace
 (1) by maps with no public input, $g_W=h_W(c_W)$ and $g_C=h_C(c_C)$, where each $h_j$ is strictly
 increasing and strictly positive on $(0,\infty)$. Let $S$ be a set of worker consumption levels, each
 attained at some interior stationary class ratio, and let $\chi>0$. Then $c_C/c_W=\chi$ at every
