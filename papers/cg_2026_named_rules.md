@@ -13,9 +13,12 @@ ratification; assigned programmes as primitives
 
 A tax on capital income funds a public stock that reproduces labour
 nobody owns. The owner of capital and the worker want different rates.
-This paper asks a narrower question. Once a rule has named one of those
-rates — or a compromise between them — can a mechanism produce that rate
-when the weight that indexes it is known only to one class?
+Once a rule has named one of those rates — or a compromise between them
+— can a mechanism produce that rate when the weight that indexes it is
+known only to one class? This paper sorts five named rules by that test:
+each class’s own programme, the other class’s, a planner’s compromise, a
+hybrid of the two, and the private-ownership recipe of the second
+welfare theorem.
 
 Assigned programmes exist before any mechanism: each is the constant
 value of one instrument that a class would choose if it alone chose that
@@ -56,21 +59,26 @@ is set by a named rule, and when the weight that indexes the classes’
 preferred rates, the share of labour’s reproduction paid from wages
 rather than from the public stock, may be seen by only one class.
 
-This paper shows three things. First, a class that alone sees the weight
-reports its own preferred programme truthfully, and does not report the
-other class’s tax truthfully. An owner who holds the weight overstates
-it to pull the worker’s preferred tax down, and a worker understates it
-to push the owner’s up. With the investment share held fixed, a
-planner’s compromise fails too wherever it moves with the report. It
-fails under ratification, where firms choose the mix of machines and
-only the tax remains political, and under a mandate when the elasticity
-of substitution is one. With the mix of machines and the investment
-share fixed, a differentiable tax schedule against which the holder of
-the weight has no profitable small misreport is, at each value of the
-weight, either flat or equal to the holder’s own peak. A state that does
-not see the weight can therefore let the tax respond to it only by
-handing the holder what the holder would choose, and must hold the tax
-fixed elsewhere.
+Each of those three settlements fails in this environment, and each for
+its own reason: a compromise that moves with a privately held weight
+cannot be elicited under ratification, or under a mandate at unit
+elasticity of substitution; a transfer of capital leaves the
+disagreement where it is under a restriction stated below; and
+personalised prices are not in the instrument set. First, a class that
+alone sees the weight reports its own preferred programme truthfully,
+and does not report the other class’s tax truthfully. An owner who holds
+the weight overstates it to pull the worker’s preferred tax down, and a
+worker understates it to push the owner’s up. With the investment share
+held fixed, a planner’s compromise fails too wherever it moves with the
+report. It fails under ratification, where firms choose the mix of
+machines and only the tax remains political, and under a mandate when
+the elasticity of substitution is one. With the mix of machines and the
+investment share fixed, a differentiable tax schedule against which the
+holder of the weight has no profitable small misreport is, at each value
+of the weight, either flat or equal to the holder’s own peak. A state
+that does not see the weight can therefore let the tax respond to it
+only by handing the holder what the holder would choose, and must hold
+the tax fixed elsewhere.
 
 Second, the separation that the second welfare theorem promises fails
 here. The private-ownership recipe (reshuffle capital, let markets pay
@@ -166,12 +174,19 @@ does not derive the interval that a planner who cannot see $\theta_R$
 should delegate to the holder, for which Alonso and Matouschek (2008)
 and Amador and Bagwell (2013) give conditions.
 
-The primitives come next. Complete information, the hybrid and the
-private-ownership rule follow; the last of these carries the separation
-theorem and the comparison with Lindahl prices. Two sections then treat
-a privately observed weight, under a mandate and under ratification. A
-section on scope states which restrictions each result uses, the
-conclusion follows, and Appendix A derives the assigned programmes.
+The primitives come next: the two classes’ assigned programmes, the
+outcome space, and the five named rules. Complete information reduces
+implementation to selection when the weight is common knowledge.
+Coherence of the hybrid shows that the rule pairing the owner’s tax with
+the worker’s machine mix is nobody’s programme, and retires it. The
+private-ownership rule carries the separation theorem and the comparison
+with Lindahl prices. Private $\theta_R$ under a mandate sorts the rules
+that a holder of the weight reports truthfully while both instruments
+remain political; Ratification under private $\theta_R$ does the same
+once firms lock the machine mix, and characterises every differentiable
+tax schedule the holder answers truthfully. Scope states which
+restrictions each result uses, the conclusion follows, and Appendix A
+derives the assigned programmes.
 
 ### Related literature
 
@@ -364,9 +379,10 @@ constraint.
 
 ## Coherence of the hybrid
 
-$f_\times$ is a function from $\Theta$ into the mandate set
-$\mathcal{X}$ once $i_\star(\theta_R)$ is named. Feasibility of the
-function is not coherence of a programme.
+A rule can be a well-defined map from types into the feasible set and
+still be nobody’s programme. $f_\times$ is a function from $\Theta$ into
+the mandate set $\mathcal{X}$ once $i_\star(\theta_R)$ is named.
+Feasibility of the function is not coherence of a programme.
 
 **Proposition 3 (Emptiness as a programme).** There is no assigned
 chooser in $\{C,W\}$ and no weight $\lambda\in[0,1]$ such that
@@ -397,12 +413,16 @@ remainder of the paper does not use $f_\times$.
 
 ## The private-ownership rule
 
-The Second Welfare Theorem’s operation with its hypothesis on $L'$
-dropped, rather than repaired, is the private-ownership recipe: a
-reshuffle of $K$, competitive factor payments, and no public instrument.
-That recipe, written as a rule, is $f_0\in\bar{\mathcal{X}}$. A Lindahl
-scheme with class-specific tax-prices for $G$ (Foley 1970) is a repair
-of the hypothesis and is not a point of $\bar{\mathcal{X}}$.
+A state that would rather not choose a rate has three ways out: dispense
+with the public instrument, redistribute capital until the two classes
+agree, or charge each class its own price for the public stock. None of
+the three works here. The Second Welfare Theorem’s operation with its
+hypothesis on $L'$ dropped, rather than repaired, is the
+private-ownership recipe: a reshuffle of $K$, competitive factor
+payments, and no public instrument. That recipe, written as a rule, is
+$f_0\in\bar{\mathcal{X}}$. A Lindahl scheme with class-specific
+tax-prices for $G$ (Foley 1970) is a repair of the hypothesis and is not
+a point of $\bar{\mathcal{X}}$.
 
 $G'=\varphi\tau e^{E_C}$. Under $f_0$, $\tau=0$, hence $G'=0$ at every
 type.
@@ -421,6 +441,14 @@ $f_0(\theta_R)\notin[\tau_C,\tau_W]$. Zero tax and full confiscation
 are, for both classes, the same boundary value $-\infty$. The statement
 uses essentiality of $G$ in the log class. The local statement on
 $(0,\tau_C)$ is that both values rise in $\tau$ on that interval.
+
+Shut-down is therefore not a neutral baseline against which a tax is
+judged. Dispensing with the public instrument leaves unfilled the stock
+from which next period’s labour is reproduced, and the owner’s own
+capital income rises in that labour, so in the log class the recipe is
+the worst point of the tax line for the owner as much as for the worker.
+Whatever rate the two classes would fight over, each prefers it to no
+rate at all.
 
 **Proposition 9 (Implementation of $f_0$ is uninformative).** Under the
 convention of Lemma 0,
@@ -535,7 +563,11 @@ is a different question, which Proposition 12 does not address.
 
 ## Private $\theta_R$ under a mandate
 
-The holder of the type is named. The other class does not report.
+While both instruments remain political, a class that holds the weight
+answers its own programme truthfully; and at unit elasticity, where
+every chooser wants the same machine mix, no compromise that moves with
+the weight is answered truthfully. The holder of the type is named. The
+other class does not report.
 
 **Proposition 4 (Own-programme incentive compatibility).** Suppose the
 owner privately observes $\theta_R$. On the licensed domain the direct
@@ -594,36 +626,29 @@ peak equals $d_M=1-\alpha$. A report cannot gain on $d$. The remaining
 instrument is $\tau$ at companions $(d_M,i)$. That is Proposition 11.
 $\square$
 
-For $f_\lambda$ itself, whose investment coordinate moves with the
-report, the sign of $V_{j,i}\,i_\lambda'$ is not established, and
-Proposition 13 says nothing about it.
+Proposition 13 puts the compromise’s failure inside the mandate: at unit
+elasticity the state keeps both instruments and still cannot elicit a
+rate that moves with the weight, so ratification is not what defeats a
+compromise. It covers the mediant in its tax and direction coordinates,
+at a fixed investment share.[^2]
 
 ------------------------------------------------------------------------
 
 ## Ratification under private $\theta_R$
 
-Ratification deletes $d$. Companions $i$ that are not named by the
-fiscal rule are held fixed, as in the tax interval at fixed companions.
+Once firms lock the machine mix, the tax is the only instrument left,
+and every differentiable schedule in it that its holder answers
+truthfully can be described. Ratification deletes $d$. Companions $i$
+that are not named by the fiscal rule are held fixed, as in the tax
+interval at fixed companions.
 
 **Lemma (Worker’s tax declines in the type).** At fixed shares,
 $\partial\tau_W/\partial\theta_R<0$ on $\Theta$.
 
-*Proof.* Write $A=1-\beta+\beta s_L/\sigma>0$ and $B=s_K/\sigma>0$, both
-independent of $\theta_R$ at fixed shares. Then
-
-$$
-\tau_W=\frac{A(1-\theta_R)}{1-\theta_R+\theta_R B}.
-$$
-
-Differentiating,
-
-$$
-\frac{\partial\tau_W}{\partial\theta_R}
-=\frac{A\bigl[-(1-\theta_R+\theta_R B)-(1-\theta_R)(-1+B)\bigr]}{(1-\theta_R+\theta_R B)^2}
-=\frac{-AB}{(1-\theta_R+\theta_R B)^2}<0.
-$$
-
-$\square$
+The proof is in Appendix A. Both peaks therefore fall in the weight: a
+class reporting that a larger share of reproduction is paid from wages
+is reporting that less of it is paid from the public stock, and both
+classes then want a lower rate.
 
 The loading $\partial\tau_C/\partial\theta_R<0$ follows from the
 displayed formula for $\tau_C$ at fixed shares.
@@ -654,6 +679,13 @@ strictly decreasing and continuous in the report. A sufficiently small
 upward misreport therefore lowers the implemented tax while leaving it
 above $\tau_C(\theta_R)$, which raises $V_C$. $\square$
 
+The direction of the profitable lie is economic. A higher reported
+weight means a larger share of labour’s reproduction paid out of wages,
+and so a smaller worker’s tax. An owner who holds the weight therefore
+overstates it, and the implemented rate falls toward the owner’s own
+peak. The report is all the mechanism sees, and nothing in it separates
+an overstatement from a genuinely high weight.
+
 **Proposition 7 (Dual holder).** Let $d=d_M$ and let $i$ be fixed.
 Suppose the worker privately observes $\theta_R$. The direct mechanism
 for $\tau_W(\cdot)$ is incentive-compatible for the worker. The direct
@@ -666,6 +698,10 @@ raises $V_W$.
 strict concavity of $V_W$ in $\tau$ with peak $\tau_W$ implies that
 $V_W$ rises when $\tau$ rises on $(0,\tau_W)$. A downward misreport
 raises $\tau_C$ while leaving it below $\tau_W$. $\square$
+
+The worker’s lie runs the other way, and for the same reason:
+understating the weight raises the owner’s peak, and every rate below
+the worker’s own peak is one the worker would rather see raised.
 
 **Proposition 6$'$ (What ratification can elicit).** Let $d=d_M$ and let
 $i$ be fixed. Let the owner privately observe $\theta_R$.
@@ -685,6 +721,11 @@ $\tau$ on $(\tau_C(\theta_R),1)$. Because $s$ is strictly decreasing and
 continuous at $\theta_R$, a small upward misreport lowers the
 implemented tax. For a small enough lie the new tax remains in
 $(\tau_C(\theta_R),s(\theta_R)]$, so $V_C$ rises. $\square$
+
+Between a flat rate and the owner’s own peak there is nothing left to
+offer. A schedule that slopes downward in the weight and sits strictly
+above that peak invites a small overstatement, which lowers the
+implemented rate without carrying it below the peak.
 
 **Proposition 7$'$ (Dual elicitation).** Let $d=d_M$ and let $i$ be
 fixed. Let the worker privately observe $\theta_R$.
@@ -714,7 +755,7 @@ truth-telling at first order puts it on the holder’s own peak (Corollary
 1 below). The tax interval is the set of undominated constant taxes.
 
 If a ratified rule also names $i(\theta_R)$ as a non-constant
-coordinate, $V_{C,i}=0$ and $V_{W,i}>0$ at interior $i_C$.[^2]
+coordinate, $V_{C,i}=0$ and $V_{W,i}>0$ at interior $i_C$.[^3]
 
 **Proposition 11 (Ratified mediant, local first-order condition).** Let
 $d=d_M$ and let $i$ be fixed. Let $\lambda\in(0,1)$, and write
@@ -756,7 +797,7 @@ Where $\tau_\lambda'=0$, the local first-order condition holds and a
 separate comparison is required. The small upward (owner) or downward
 (worker) misreport is licensed only on the set where $\tau_\lambda'<0$.
 That set is nonempty, because $\tau_\lambda$ is not constant and
-$\tau_\lambda\to 0$ as $\theta_R\to 1$.[^3]
+$\tau_\lambda\to 0$ as $\theta_R\to 1$.[^4]
 
 Propositions 6$'$, 7$'$ and 11 test particular schedules. The same
 first-order argument applies to every schedule.
@@ -996,6 +1037,15 @@ $\tau_W=r/(p+r)=\gamma(1-\theta_R)(1-\beta a_1)/D$, which is the display
 after dividing by $\gamma$. The difference and the derivative follow on
 clearing denominators. $\square$
 
+*Proof of the Lemma (Worker’s tax declines in the type).* Write
+$A=1-\beta+\beta s_L/\sigma>0$ and $B=s_K/\sigma>0$, both independent of
+$\theta_R$ at fixed shares. Then
+$\tau_W=A(1-\theta_R)/(1-\theta_R+\theta_R B)$, and differentiating, $$
+\frac{\partial\tau_W}{\partial\theta_R}
+=\frac{A\bigl[-(1-\theta_R+\theta_R B)-(1-\theta_R)(-1+B)\bigr]}{(1-\theta_R+\theta_R B)^2}
+=\frac{-AB}{(1-\theta_R+\theta_R B)^2}<0. \qquad\square
+$$
+
 **Lemma A.3 (Directions).** *The direction enters only through
 $a=\varepsilon\ln d$ and $b=\varepsilon\ln(1-d)$. For an objective that
 loads $E_C$ with weight $M>0$ and $E_W$ with weight $N>0$, the terms in
@@ -1129,6 +1179,9 @@ problem. *Econometrica* 47(1): 61–73.
     labourer, unless under compulsion from society” (*Capital* I,
     ch. 10). A named rule is that compulsion in this instrument set.
 
-[^2]: The local tax arguments hold $i$ fixed.
+[^2]: Where the mediant’s investment coordinate moves with the report,
+    the sign of $V_{j,i}\,i_\lambda'$ is open.
 
-[^3]: Where $\tau_\lambda'=0$ a separate comparison is required.
+[^3]: The local tax arguments hold $i$ fixed.
+
+[^4]: Where $\tau_\lambda'=0$ a separate comparison is required.
