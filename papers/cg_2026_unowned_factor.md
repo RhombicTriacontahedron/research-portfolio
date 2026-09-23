@@ -8,11 +8,16 @@ An economy has two produced stocks. Capital is accumulated out of investment and
 the return; the workforce’s productive capacity is produced by consumption and by a public good, and
 no agent holds a claim on it. With one period a generation, full depreciation and logarithmic
 objectives, each class’s policy is a constant share that is its best reply to every constant-share
-policy of the other, from every state. Five results follow at the provision corner, where all
+policy of the other, from every state. The paper derives each class’s preferred tax on capital
+income in closed form, compares the two rates, and asks which primitives the gap between them
+depends on. Five results follow at the provision corner, where all
 revenue is spent in kind, a split both classes choose whenever the tax is small enough. First, with logarithmic objectives
 each class’s preferred capital-income tax is a function of the **other** class’s reproduction
 elasticity and never of its own, and symmetrising the two stocks’ laws of motion does not symmetrise
-this. Off the logarithm, an interior best constant tax from a state on that tax’s balanced path equals
+this. A class’s claim on a stock puts that stock’s accumulation on both sides of its own ledger in
+the same proportion, so its own elasticity cancels; the stock nobody holds reaches the owner only
+through the budget, and its elasticity survives.
+Off the logarithm, an interior best constant tax from a state on that tax’s balanced path equals
 the same formula at a growth-adjusted discount, so a class’s own elasticity reaches that rate only
 through growth. Second, both payoffs are strictly concave in the tax, so, with investment at the
 owner’s choice, the Pareto set in the tax is the closed interval between the owner’s preferred rate
@@ -61,7 +66,7 @@ rate is *unanimous* across classes and the redistribution is Pareto-improving. T
 the boundary of that result — *“if the government would be engaged in direct transfers from the rich
 to the poor in addition to the provision of public schooling, then a conflict would emerge between
 the classes”* — and they do not model the conflict. Acemoglu, Gitmez and Shadmehr (2026) give the
-owner a different reason to want a positive tax spent in kind: a state acting for the owners of
+owner a different reason to want a positive tax spent in kind. A state acting for the owners of
 capital that redistributes rather than represses sets a strictly positive tax on income at every
 labour share and spends it on a public good for workers, because what a worker would forfeit by
 joining a revolt lowers the risk that the regime falls. Nor is the sign of a worker-preferred capital
@@ -141,7 +146,7 @@ optimum is Pareto-dominated — a small state is not a compromise between the cl
 both of them strictly wish to leave. What a bargain over the tax selects is a point in that
 interval, and §5 gives the selection in closed form for every Pareto weight.
 
-*A comparative static with a sign, proved rather than sampled.* The owner’s preferred rate is
+*A comparative static with a sign, on the whole parameter box.* The owner’s preferred rate is
 strictly decreasing in capital’s share of output on the whole parameter box, and goes to zero as
 that share goes to one, while the worker’s tends to a strictly positive limit. The interval over
 which the classes agree therefore collapses as production becomes capital-intensive, while the
@@ -179,6 +184,12 @@ degeneracy of the equilibrium concept on this face (§3), which is a property of
 games and is cited, not claimed.[^2] The persons reading of Proposition 11 is proved in Appendix A.8.
 
 # 2. The economy
+
+Two produced stocks, a linear tax on capital income, a split of its revenue and an investment
+share are the whole of the economy below; three restrictions — one period a generation, full
+depreciation, and a unit intertemporal elasticity — are what make it solvable in closed form.
+Workers value the capacity that maintenance produces rather than the consumption that produces
+it, which is a restriction and not a normalisation.
 
 ## 2.1 Stocks, classes and technology
 
@@ -275,6 +286,11 @@ suffices to open the class disagreement, and without both the classes agree (Pro
 
 # 3. Equilibrium policies and their inefficiency
 
+Each class’s equilibrium rule is a constant share containing none of the other class’s
+instruments. That is what makes each rule a best reply from every state, and it is also what
+removes strategy as an explanation of the disagreement the rest of the paper studies. An
+inefficiency remains, and it is under-investment rather than a failure to cooperate.
+
 ## 3.1 The structure, and its name
 
 Take logarithms of the states, $k=\ln K$, $n=\ln N$, $g=\ln G$. Each transition of §2.2 becomes
@@ -295,7 +311,7 @@ open-loop equilibrium is a degenerate feedback equilibrium if and only if a sing
 controls is an equilibrium *for all possible initial conditions*.
 
 The degeneracy established below is that class’s known property, and it is cited here rather than
-claimed. Two scope markers are owed and are stated once. Dockner et al.’s theorem is
+claimed. Dockner et al.’s theorem is
 continuous-time; the citation is to the class and its mechanism, and the discrete-time facts are
 proved directly below rather than imported. And their result is *Markov perfection*, which is what
 is asserted here.
@@ -350,6 +366,11 @@ Since $h''(\phi)=-\beta q\gamma\theta(\alpha\tau)^2/\kappa(\tau,\phi)^2-\beta r/
 to the state lowers every term at which it differs from $\phi^{\star}$ and raises none: it is available to
 the worker, and he does not want it.
 
+The constancy of the split is therefore the worker’s own choice and not a restriction placed on
+him. Given the tax, he has one best split; a rule that made the public share of revenue depend on
+the state would cost him at every state at which it departed from that split, and a rule that
+never departs from it is the constant one.
+
 ## 3.3 Inefficiency without strategy
 
 Each class’s rule on this face is robust to the other’s. Each class would play the same rule against
@@ -385,11 +406,16 @@ second question, and its answers about the tax are immune to the first.
 
 # 4. Who prices whose reproduction
 
+With logarithmic objectives and at the provision corner, each class’s preferred tax rate on
+capital income carries the other class’s reproduction elasticity and never its own. Both rates
+are derived below, and §4.4 gives the object that replaces the cross off the logarithm.
+
 ## 4.1 Releasing capital’s elasticity
 
 In the baseline, capital’s law has $\gamma_K=1$ and the workforce’s has $\gamma<1$. One could
 therefore read any asymmetry in the two classes’ fiscal preferences as an artefact of that
-difference in functional form rather than of ownership. This section removes the difference.
+difference in functional form rather than of ownership. Giving capital an elasticity of its own
+removes that difference.
 
 Let capital be produced by the technology of §2.2 with its own elasticity $\gamma_K\in(0,1]$, so
 that the two stocks differ in nothing except who holds a claim on them. The face still closes: the
@@ -401,7 +427,7 @@ $\bigl[\,1-\gamma_K(1-\alpha),\ \gamma_K(1-\alpha),\ 0\,\bigr]$,
 whose entries sum to one for every $\gamma_K$ and are non-negative exactly when
 $\gamma_K\le 1/(1-\alpha)$; the declared range sits strictly inside that bound, since
 $1<1/(1-\alpha)$ at every $\alpha\in(0,1)$ (A.3). Setting $\gamma_K=1$
-recovers every baseline expression exactly, which is the positive control on this section.
+recovers every baseline expression exactly.
 
 ## 4.2 The cross-structure
 
@@ -525,6 +551,12 @@ Propositions 4 and 4$'$ are proved on the face and stand there; §§5–6 do not
 Proposition 4$''$ is the balanced-path object off that face.
 
 # 5. The Pareto interval
+
+The two preferred rates bound a closed interval that no change in the tax alone can improve on.
+Below its lower endpoint both classes want a larger state; inside it, one point is selected for
+each weight on workers; and, with an owner who has no taste for wealth, two primitives decide
+whether the interval has any width at all. Which class a higher rate favours is a separate
+question, and it is settled at the end of the section by what reproduction produces.
 
 ## 5.1 Concavity, and what it needed
 
@@ -651,7 +683,7 @@ $$\tau(\lambda)=\frac{\lambda N_W+(1-\lambda)N_C}
 *with $\tau(1)=\tau_W$ and $\tau(0)=\tau_C$. It is strictly increasing in $\lambda$, and it is
 strictly positive at **every** weight, including $\lambda=0$, whenever $\theta<1$.*
 
-Monotonicity is proved rather than sampled, and it survives the symmetrisation of §4 without
+Monotonicity survives the symmetrisation of §4 without
 qualification. The derivative’s numerator is
 
 $$\beta^{2}\gamma(1-\beta)(1-\theta)\,\Omega_K\,B,\qquad
@@ -715,7 +747,12 @@ no taste for wealth, makes them agree. The workforce is produced and owned by no
 economies, so its lack of an owner does not by itself divide them. What moves the owner’s rate is his own
 taxed consumption. A tax on capital income takes a share of what he would have consumed and a tax on
 investment does not, so with no taste for wealth only the first makes him want a smaller state than a
-worker who values consumption. Appendix A.6 gives the proof.
+worker who values consumption. That the menu of taxes is not neutral in a two-class economy is an
+old result in public economics. Seidman and Maurer (1982) reach it through the distribution of
+disposable income between savers with different propensities, comparing steady-state capital
+intensity across tax regimes that raise equal revenue per worker. Their classes do not choose a
+rate, and the object compared is the capital stock rather than the rate each class prefers.
+Appendix A.6 gives the proof.
 
 ## 5.6 Whose head the tax favours: persons or capacity
 
@@ -752,10 +789,15 @@ consumption, and consumption per owner rises relative to consumption per worker.
 stationary growth response that works against this, $-(1-\theta)^2Q/\tau$, is always smaller than the
 direct effect $(1-\theta)/\tau$. Nothing in the tax or its incidence differs between the two economies. What
 differs is what the public stock produces. Hence the sign of the tax’s distributional effect is not a
-property of the instrument, and the reading chosen in §2.1 is a substantive assumption. Appendix A.8 gives the proof. Off the provision corner, where the worker’s
-rate is re-taken along the common split, the persons-reading sign is not established.
+property of the instrument, and the reading chosen in §2.1 is a substantive
+assumption.[^3] Appendix A.8 gives the proof.
 
 # 6. Capital’s share and the collapse of the agreed range
+
+Capital’s share of output is a parameter in this economy, and raising it does something to the
+policy set as well as to the distribution of income: the range of rates over which the two
+classes agree in wanting a larger state narrows, and vanishes in the limit. The state itself does
+not vanish with it, except at the one weight where capital’s own preference is decisive.
 
 ## 6.1 The comparative static
 
@@ -785,6 +827,13 @@ proportional to labour’s share, because $\alpha$ enters $D_\tau$ as well:
 $\partial\bigl[\tau_C/(1-\alpha)\bigr]/\partial\alpha=
 \beta^{3}\gamma^{2}\theta(\theta-1)/D_\tau^{\,2}\ne0$.
 
+The three statements about $\tau_C$ hold under the symmetrisation of §4 as they do at the
+baseline, because $\tau_C$ carries no $\gamma_K$ (Proposition 4). The worker’s limit displayed
+above is its baseline value; under the symmetrisation the limit is
+$(1-\theta)(1-\beta)$ over $(1-\theta)(1-\beta)+\gamma_K\bigl[(1-\theta)\beta+\theta\bigr]$,
+which is strictly positive for every $\gamma_K\in(0,1]$ and returns the displayed value at
+$\gamma_K=1$.
+
 ## 6.2 What collapses
 
 Combining Propositions 6 and 9: as $\alpha\to1$, the unanimous interval $(0,\tau_C)$ — the rates at
@@ -812,13 +861,13 @@ on it: with the split chosen, the limit is still zero if and only if $\lambda=0$
 which labour carries any weight at all, however small, still delivers a strictly positive state in
 the fully capital-intensive limit. The state disappears at exactly one weight — the one at which
 capital’s own preference is decisive — and that is the weight at which, in a less capital-intensive
-economy, the state was positive anyway. What capital-intensity destroys is not the state; it is
-capital’s own reason for wanting one.
+economy, the state was positive anyway. Capital-intensity destroys capital’s own reason for wanting
+a state, and the state itself survives at every positive weight on labour.
 
 ## 6.3 What a higher capital share does to the policy set
 
 The familiar reading of a rising capital share is distributional — it moves income from
-one class to the other at given policy.[^3] This section adds a second and less obvious effect on the
+one class to the other at given policy.[^4] This section adds a second and less obvious effect on the
 *policy set itself*: it destroys the range over which the two classes’ interests in public
 provision coincide.
 
@@ -891,7 +940,7 @@ Jones, Manuelli and Rossi (1997) accumulate physical and human capital together,
 is a Ramsey planner’s over a single representative family, the human capital is owned by its bearer,
 and a footnote of theirs sets aside the heterogeneous-agent case in which a planner would weight
 distinct individuals. A two-factor Chamley–Judd setting does not, then, already deliver the cross,
-and the two models differ in a stated primitive rather than in a result.[^4]
+and the two models differ in a stated primitive rather than in a result.[^5]
 
 **The worker’s objective.** Workers value effective labour and not consumption. This primitive is
 load-bearing for §4: it is what makes maintenance the only route
@@ -1255,6 +1304,9 @@ elasticity rather than the curvature gives the same verdict.
 -   Saez, E. (2013). “Optimal Progressive Capital Income Taxes in the Infinite Horizon Model.”
     *Journal of Public Economics* 97: 61–74. DOI 10.1016/j.jpubeco.2012.09.002. Cited from National
     Bureau of Economic Research Working Paper 9046 (2002), DOI 10.3386/w9046.
+-   Seidman, L. S., and S. B. Maurer (1982). “Taxes and Capital Intensity in a Two-Class Disposable
+    Income Growth Model.” *Journal of Public Economics* 19(2): 243–259.
+    DOI 10.1016/0047-2727(82)90045-7.
 -   Straub, L., and I. Werning (2020). “Positive Long-Run Capital Taxation: Chamley-Judd Revisited.”
     *American Economic Review* 110(1): 86–119. DOI 10.1257/aer.20150210.
 
@@ -1274,11 +1326,14 @@ elasticity rather than the curvature gives the same verdict.
     §7.2–§7.3). No unilateral deviation to a Markov rule that keeps the instruments away from the edges of
     their ranges gains (Proposition 2).
 
-[^3]: In a Cobb–Douglas technology $\alpha$ is a parameter, so Proposition 9 is a comparative
+[^3]: The sign in (ii) is taken at the provision corner. Off it the worker’s rate is
+    re-taken along the common split of Proposition 7, and the sign there is open.
+
+[^4]: In a Cobb–Douglas technology $\alpha$ is a parameter, so Proposition 9 is a comparative
     static in an output elasticity: nothing here makes $\alpha$ move. Endogenising the share requires an
     elasticity of substitution away from unity, which is outside this paper’s face.
 
-[^4]: Barro (1990) and Jones, Manuelli and Rossi (1997) are cited from their National Bureau working
+[^5]: Barro (1990) and Jones, Manuelli and Rossi (1997) are cited from their National Bureau working
     papers, w2588 (1988) and w4525 (1993); Straub and Werning (2020) and Galor and Moav (2006) from their
     working papers of February 2015 and August 2005; and Saez (2013) from National Bureau Working Paper
     9046 (July 2002). Every locator given for them is working-paper pagination.
