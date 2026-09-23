@@ -645,10 +645,11 @@ accumulationist one, with $A = 0.32$ against $m_0 + n = 0.03$, takes the
 economy to full employment in finite time — the split case. At
 $\bar e = 1$, $\kappa = 3$, $\rho = 0.08$, $m_0 = 0.10$, $n = 0.03$,
 $b = 0.05$ the compromises are $(0.4, 0.6)$ and $(0.6, 0.4)$ and
-$\hat s_0 \approx 0.62$: both leave one. These are witnesses of two of
-the three cases. The third case is not sampled but proved: with
-$m_0 = n = 0$ the threshold is $\hat s_c = 0$, so whenever two interior
-compromises exist neither leaves a permanent unemployment pool.
+$\hat s_0 \approx 0.62$: both leave one. Two of the three cases are
+realised by these economies. The third needs no example because it is
+proved: with $m_0 = n = 0$ the threshold is $\hat s_c = 0$, so whenever
+two interior compromises exist neither leaves a permanent unemployment
+pool.
 
 In words, the direction of causation runs through $c$, and nothing else
 in the model decides it. At $c = 0$ accumulation only absorbs labour,
@@ -1516,31 +1517,32 @@ branch — where it is no longer signed, and at $b = 0$ is non-positive,
 so the saddle would be lost — no interior stationary compromise exists
 at which the determinant could be read (Proposition 9).
 
-*(iv) Witness.* At the four stationary compromises exhibited in the text
-— Proposition 12’s cell and the three rest points of Proposition 13’s —
-a numerical solution of capital’s problem against the stationary wage
-share returns the stationary accumulation share as capital’s optimal
-feedback at $v^\ast$, and $v^\ast$ as a rest point of the optimal closed
-loop, with the gap between the computed value and the candidate’s
-vanishing under grid refinement — **under the continuation its own
-scheme supplies at $v=1$**, which at the one of these cells whose escape
-margin is positive a continuation that suspends the technology at the
-boundary reverses (A.12$''$(iv), *The boundary, and what it decides*);
-$v^\ast$ is a *stable* rest point of that closed loop; and capital’s
-value function is strictly convex in log-employment at $v^\ast$. The
-last is not a grid reading: wherever the value’s derivative follows the
-saddle’s stable manifold — as it does at these cells — $W''(x^\ast)$ is
-the stable eigenvector’s slope, written out in A.12$''$(iv), and it is
-positive on the whole first branch: the sign is $\beta < 1$, which the
-model guarantees wherever the ceiling responds to employment at all. In
-the employment rate itself the value is concave at all four, and that is
-a fact about the cells: the sign of $\mathrm{d}^2W/\mathrm{d}v^2$ at
-$v^\ast$ is a closed-form comparison that goes either way on the first
-branch, and at a fifth pinned compromise, exhibited in A.12$''$(iv) with
-a steeper ceiling, the value is convex in $v$ as well. The share and
-stability readings are a witness, not a theorem; the sign of the
-curvature in $\ln v$ is a theorem conditional on the derivative
-following the stable manifold. The witness holds over a deviation set
+*(iv) Four economies.* At the four stationary compromises exhibited in
+the text — Proposition 12’s cell and the three rest points of
+Proposition 13’s — a numerical solution of capital’s problem against the
+stationary wage share returns the stationary accumulation share as
+capital’s optimal feedback at $v^\ast$, and $v^\ast$ as a rest point of
+the optimal closed loop, with the gap between the computed value and the
+candidate’s vanishing as the approximation is refined — **under the
+continuation its own scheme supplies at $v=1$**, which at the one of
+these cells whose escape margin is positive a continuation that suspends
+the technology at the boundary reverses (A.12$''$(iv), *The boundary,
+and what it decides*); $v^\ast$ is a *stable* rest point of that closed
+loop; and capital’s value function is strictly convex in log-employment
+at $v^\ast$. The last is not read off those four economies: wherever the
+value’s derivative follows the saddle’s stable manifold — as it does at
+these cells — $W''(x^\ast)$ is the stable eigenvector’s slope, written
+out in A.12$''$(iv), and it is positive on the whole first branch: the
+sign is $\beta < 1$, which the model guarantees wherever the ceiling
+responds to employment at all. In the employment rate itself the value
+is concave at all four, and that is a fact about the cells: the sign of
+$\mathrm{d}^2W/\mathrm{d}v^2$ at $v^\ast$ is a closed-form comparison
+that goes either way on the first branch, and at a fifth pinned
+compromise, exhibited in A.12$''$(iv) with a steeper ceiling, the value
+is convex in $v$ as well. The share and stability readings hold at these
+four economies and are not claimed in general; the sign of the curvature
+in $\ln v$ is a theorem conditional on the derivative following the
+stable manifold. What holds at the four holds over a deviation set
 larger than the generalised game admits, since the computation lets
 capital carry the employment rate anywhere in the state space — though
 not larger in the direction that decides which deviations (v) must
@@ -2179,7 +2181,7 @@ hitting time is $s_1(\bar e-\omega)/\kappa - n$ rather than
 $s(\bar e-\omega)/\kappa - n$, and capital’s control-only term changes
 from $\ln(1-s)$ to $\ln(1-s_1)$; the value is then the two-phase
 integral, which differs from the display in *(iii)* unless $s_1 = s$. At
-the Corollary to Proposition 5$'$’s first witness — $\bar e = 1$,
+the Corollary to Proposition 5$'$’s first economy — $\bar e = 1$,
 $\kappa = 2$, $\rho = 2/25$, $m_0 = 1/50$, $n = 1/100$, $b = 1/20$,
 $c = \lambda = 0$, whose roots are $(s_+,\omega_+) = (4/5,1/5)$ and
 $(s_-,\omega_-) = (1/5,4/5)$ with $\hat s_0 = 3/11$ between them — the
@@ -2863,8 +2865,8 @@ is positive; without $\beta > 0$ the sign can fail, already at $b = 0$.
 The eigenvalues are $\rho/2 \pm \sqrt{\rho^2/4 - \det J}$, one of each
 sign.
 
-*(iv) The witness.* Capital’s reduced problem is solved by an implicit
-upwind finite-difference scheme with policy iteration on
+*(iv) Four economies.* Capital’s reduced problem is solved by an
+implicit upwind finite-difference scheme with policy iteration on
 $x \in [x_{\text{lo}}, 0]$, full employment imposed as a state
 constraint — the drift may not be positive at $v = 1$ — and the lower
 end placed where the drift at a vanishing share is inward; three grids
