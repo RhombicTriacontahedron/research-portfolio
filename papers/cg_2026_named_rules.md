@@ -62,8 +62,8 @@ not inherit its workforce. The people who will work next period are
 raised, schooled and kept in health partly out of the wages their
 parents earn and partly out of a public stock that a tax on capital
 income fills. Three features of that arrangement are not features of the
-standard problem. Nobody owns the workforce, so it is not an endowment
-that a transfer can move. The tax that fills the stock is paid out of
+standard problem. Nobody owns the workforce, so no transfer of
+endowments can move it. The tax that fills the stock is paid out of
 capital income, which the owner of capital consumes and the worker does
 not, so the two classes do not face the same price of provision. And how
 much of the raising is done out of wages rather than out of the stock is
@@ -145,16 +145,15 @@ Melumad and Shibano (1991) and Alonso and Matouschek (2008) study an
 uninformed decision maker eliciting information from an informed party
 without transfers, and show that the design problem reduces to choosing
 a set of decisions from which the informed party takes its favourite;
-that reduction is theirs, and the description above is its first-order
-form for a one-dimensional type. What separates that literature from
-this paper is the question asked: it asks which set an uninformed
-principal should offer, given the principal’s own objective, whereas
-here the candidates are named in advance, by the two classes’ own
-preferred programmes in a dynamic economy in which a public stock
-reproduces labour that no one owns, and the question is which of them
-survives. Amador and Bagwell (2013) give conditions under which
-delegating an interval is optimal; which interval to delegate is what
-this paper does not answer.
+the description above is the first-order form of that reduction for a
+one-dimensional type. What separates that literature from this paper is
+the question asked: it asks which set an uninformed principal should
+offer, given the principal’s own objective, whereas here the candidates
+are named in advance, by the two classes’ own preferred programmes in a
+dynamic economy in which a public stock reproduces labour that no one
+owns, and the question is which of them survives. Amador and Bagwell
+(2013) give conditions under which delegating an interval is optimal;
+which interval to delegate is what this paper does not answer.
 
 The other results sit against the political economy of capital taxation.
 In Alesina and Rodrik (1994) individuals differ in what they own, the
@@ -221,18 +220,16 @@ $s_K\in(1-\sigma,\sigma)$ when $\tfrac12<\sigma<1$.
 restricted game with one player and one instrument. Class $j$ alone
 chooses a constant value of one instrument to maximise $V_j$, subject to
 the laws of motion above, with every other instrument held at a given
-constant. It is not a Nash equilibrium of a game in which both classes
-choose at once, and it is not a Ramsey plan. The value coefficients do
-not depend on the instruments (Lemma A.1), so $V_j$ is a sum of separate
-terms in $\tau$, $d$ and $i$, and a class’s peak in one instrument does
-not depend on where the others are held. The same terms are maximised in
-every period and in every state, so the restriction to a constant value
-is without loss: a choice that varied with the date or with the state
-would do no better (Appendix A). The tax and the direction have interior
-peaks for both classes. The investment share has one only for the owner,
-$i_C$. The worker’s value rises in $i$ at every $i$ (Lemma A.4), so the
-worker’s programme holds $i$ at a given constant $\bar\imath\in(0,1)$
-that no report moves.
+constant. The value coefficients do not depend on the instruments (Lemma
+A.1), so $V_j$ is a sum of separate terms in $\tau$, $d$ and $i$, and a
+class’s peak in one instrument does not depend on where the others are
+held. The same terms are maximised in every period and in every state,
+so the restriction to a constant value is without loss: a choice that
+varied with the date or with the state would do no better (Appendix A).
+The tax and the direction have interior peaks for both classes. The
+investment share has one only for the owner, $i_C$. The worker’s value
+rises in $i$ at every $i$ (Lemma A.4), so the worker’s programme holds
+$i$ at a given constant $\bar\imath\in(0,1)$ that no report moves.
 
 At $\varphi=1$ and fixed companions the tax payoffs are strictly concave
 in $\tau$ with peaks $\tau_C<\tau_W$ displayed below (all proved in
@@ -387,12 +384,12 @@ $\lambda=0$, and $d(\lambda)=d_W$ if and only if $\lambda=1$. No
 $\lambda$ satisfies both. $\square$
 
 Opposite monotonicity of $\tau_C(\theta_R)$ and $d_C(\theta_R)$ along
-$f_C$ for $\sigma>1$ is a property of the peaks. It is not an emptiness
-statement about $f_\times$, and it is not a message-space obstruction.
+$f_C$ for $\sigma>1$ is a property of the peaks alone, and says nothing
+about whether $f_\times$ is empty or about the message space.
 
-Until $f_\times$ is rewritten as the solution of a single programme, it
-is not a candidate for an incentive-compatibility statement. The
-remainder of the paper does not use $f_\times$.
+An incentive-compatibility statement about $f_\times$ needs it first
+written as the solution of a single programme. The remainder of the
+paper does not use $f_\times$.
 
 ------------------------------------------------------------------------
 
