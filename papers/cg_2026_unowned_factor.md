@@ -91,7 +91,7 @@ the tax costs a class and what it buys reach that class through a single quantit
 elasticity enters only the value of that quantity, so it cancels. For the owner the quantity is his
 after-tax capital income, which pays both for his consumption and for the investment that builds his
 capital. For the worker it is maintenance, the only input to the workforce his objective values (§7).
-Section 4.3 derives both. The cross does not survive a non-unit intertemporal elasticity (§4.4).
+Section 4.3 derives both. At every non-unit intertemporal elasticity computed in §4.4 the cross fails.
 Off the logarithm, an interior best constant tax from a state on that tax’s balanced path equals
 Proposition 4’s formula at a growth-adjusted discount; the own elasticity reaches that rate only
 through growth (Proposition 4$''$). The cross is a property of the logarithmic objective, and this
@@ -219,8 +219,11 @@ consume
 
 $$C^{W}_t=\kappa(\tau_t,\phi_t)\,Y_t,\qquad \kappa(\tau,\phi)\equiv(1-\alpha)+(1-\phi)\,\tau\,\alpha .$$
 
-Owners choose the share $i_t\in(0,1)$ of after-tax capital income they invest, and consume the rest:
-$C^{C}_t=(1-i_t)(1-\tau_t)\alpha Y_t$.
+Workers choose the tax $\tau_t$ and the split $\phi_t$. Owners choose the share $i_t\in(0,1)$ of
+after-tax capital income they invest, and consume the rest:
+$C^{C}_t=(1-i_t)(1-\tau_t)\alpha Y_t$. Proposition 7 shows that the assignment of the split is
+immaterial, since both classes want the same one at every tax, and §§5–6 treat the tax as an object
+the two classes contest rather than as the worker’s own choice.
 
 Both reproducible stocks are produced by the same functional form — the existing stock, scaled by
 the ratio of its maintenance input to itself, raised to the elasticity of its own technology:
@@ -328,8 +331,13 @@ $$i^{\star}=\frac{\beta a}{(1-\omega)+\beta a},$$
 neither $\tau$ nor $\phi$. The worker’s tax and split contain no $i$. Hence, within the class of
 value functions affine in the logs, the profile is an equilibrium in dominant strategies, from every
 initial state.* Proposition 2 removes that restriction for unilateral deviations: against the other
-class’s constant shares, no deviation to a Markov rule gains. Dominance against a state-dependent rule
-of the other class is not claimed.
+class’s constant shares, no deviation to a Markov rule gains.
+
+Under the assignment of §2.2 the equilibrium tax is the worker’s own preferred rate: $\tau_W$ of
+Proposition 4 where the split corner of Proposition 7 binds at that rate, and
+$(1-\beta)/(1-\beta+\beta\gamma_K)$ — at the baseline, $1-\beta$ — where it does not (§7). Sections 5
+and 6 put a different question to the same instrument: which rates could end a bargain between the
+two classes.
 
 The mechanism is the one the class is named for. The coefficient system that determines
 $(a,b,c)$ and $(p,q,r)$ is built from the *state* coefficients of the transitions, and no instrument
@@ -337,9 +345,10 @@ appears in any of them: instruments move only the constant terms. The value coef
 therefore policy-independent, each class’s first-order conditions are free of the other’s choices,
 and the argmax is the same at every state.
 
-**Proposition 2 (deviations outside the class).** *Let the instruments be confined to a compact
-subset of $(0,1)$ for the tax and the investment share, and of $(0,1]$ for the split. Then the constant shares are optimal among all Markov rules,
-not only within value functions affine in the logs.* Two facts give it. Under the affine guess each
+**Proposition 2 (deviations outside the class).** *Let the other class hold any constant shares, and
+let the instruments be confined to a compact subset of $(0,1)$ for the tax and the investment share,
+and of $(0,1]$ for the split. Then the deviating class’s constant shares are optimal among all Markov
+rules, not only within value functions affine in the logs.* Two facts give it. Under the affine guess each
 Bellman right-hand side separates exactly into a term in the state and a term in the instruments,
 with no product of the two, so the argmax over instruments is the same at every state. And the
 log-transition matrix is entrywise non-negative with every row summing to one, because
@@ -499,11 +508,8 @@ maintenance — part of it bought with his own tax — produces the workforce hi
 the worker, $\gamma_K$, the elasticity with which investment produces the capital stock that the tax
 shrinks.
 
-Two perturbations separate what the cancellation depends on from what it does not. Rescaling the
-owner’s valuation of the public stock — an owner who cares more, or less, about what the tax buys —
-leaves it intact: $c$ stays proportional to $b$, the common factor survives, and $M_C/N_C$ is still
-free of $\gamma_K$. The cancellation is robust to *how much* he values the fund. What breaks it is a
-change of kind. Give the owner a direct taste for the workforce, adding $\psi\ln N_t$ to his
+One perturbation of the owner’s objective shows what the cancellation depends on. Give the owner a
+direct taste for the workforce, adding $\psi\ln N_t$ to his
 felicity so that his interest in it is no longer purely instrumental, and $\gamma_K$ reappears in
 $M_C/N_C$ immediately; setting $\psi=0$ restores the cancellation.
 
@@ -569,15 +575,15 @@ whose second derivative is $-M_j/(1-\tau)^2-N_j/\tau^2$. Strict concavity is the
 positivity of four coefficients.
 
 **Proposition 5 (strict concavity).** *$M_C,N_C,M_W,N_W>0$ on the open box $\alpha,\beta,\gamma,
-\theta\in(0,1)$, $\omega\in[0,1)$, and for every $\gamma_K\in(0,1]$. Hence both payoffs are strictly
-concave in $\tau$ on $(0,1)$ and each has a unique peak, under the symmetrisation of §4 as in the
-baseline.*
+\theta\in(0,1)$, $\omega\in[0,1)$, and for every $\gamma_K\in(0,1]$. Hence at the provision corner
+$\phi=1$ both payoffs are strictly concave in $\tau$ on $(0,1)$ and each has a unique peak, under the
+symmetrisation of §4 as in the baseline.*
 
 Appendix A.3 proves it by factorisation. Three of the four coefficients are products of manifestly
 signed factors. The fourth, $M_C=(1-\omega)+\beta a$, needs the owner’s coefficient on $k$, whose
-numerator is a fifteen-term polynomial; Appendix A.3 exhibits its factorisation into three
-manifestly positive terms, so that positivity — and therefore the theorem below — rests on algebra
-and not on a decision procedure.
+numerator is a fifteen-term polynomial; Appendix A.3 exhibits its factorisation into three terms,
+the last two strictly positive and the first non-negative, so that positivity — and therefore the
+theorem below — rests on algebra and not on a decision procedure.
 
 Releasing $\gamma_K$ costs one further step, because there the four coefficients are ratios whose
 denominator $\Delta_K$ A.2 has no occasion to sign — A.2 uses only the fact that they share it.
@@ -596,7 +602,8 @@ both equal to $\beta\gamma(1-\theta)$ whatever $\gamma_K$ is, so the common spli
 
 ## 5.2 The interval
 
-**Proposition 6 (the Pareto set).** *Let $\tau_C$ and $\tau_W$ be the two peaks. Then
+**Proposition 6 (the Pareto set).** *At the provision corner $\phi=1$, let $\tau_C$ and $\tau_W$ be
+the two peaks. Then
 $\tau_C<\tau_W$, both are interior to $(0,1)$, the Pareto set in $\tau$, with the investment share at
 the owner’s choice $i^\star$, is exactly the closed interval $[\tau_C,\tau_W]$, and every $\tau<\tau_C$
 is Pareto-dominated: at such a rate both classes strictly prefer a larger state. In the tax and the
@@ -660,8 +667,20 @@ same point, and $\phi^{\star}$ is constant where the corner binds, so each class
 $\tau$ along $\phi^{\star}(\tau)$ equals its partial. The bargaining problem is
 one-dimensional in $\tau$, and which class holds $\phi$ does not matter.*
 
-This answers the natural objection that the assignment of the fiscal instruments is an unexplained
-primitive. On this face it is not load-bearing: only the tax is contested. The unconstrained common
+The split reaches each class through two channels only, the worker’s consumption composite and the
+public stock, so the owner’s condition is
+
+$$\beta\Bigl[b\,\gamma\theta\,\frac{\partial\ln\kappa(\tau,\phi)}{\partial\phi}
++\frac{c}{\phi}\Bigr]=0,$$
+
+and the worker’s is the same expression with his coefficients $(q,r)$ in place of the owner’s
+$(b,c)$. Since $\partial\kappa/\partial\phi=-\alpha\tau$ and the $g$-equations of A.1 give
+$c/b=r/q=\beta\gamma(1-\theta)$, both reduce to $\alpha\tau\theta\,\phi=\beta(1-\theta)\,
+\kappa(\tau,\phi)$, whose root is the $\phi(\tau)$ displayed above.
+
+This answers the natural objection that the assignment of the split is an unexplained primitive. On
+this face it is not load-bearing: both classes want the same split at every tax, so only the tax is
+contested. The unconstrained common
 split is at least one — so the provision corner $\phi=1$ binds and nothing is rebated in cash — exactly
 when $\tau\le\beta(1-\theta)(1-\alpha)/(\alpha\theta)$. A small state should be spent entirely in
 kind; only a large one warrants a cash rebate.
@@ -760,14 +779,21 @@ Section 2.1 reads $N_t$ as effective labour in classes of fixed size. The same l
 $N_t$ counting persons. The economy then has two
 dynasties whose numbers grow at $g_{W}=B_W\bigl(c_W^{\theta}z^{1-\theta}\bigr)^{\gamma}$ and
 $g_C=B_C\,c_C^{\gamma}$, with $c_j$ consumption per head and $z$ the public stock per worker. At full
-depreciation its laws of motion are those of §2.2 at $\gamma_K=B_K=1$, term by term, and owner
-numbers enter no law and no objective of this paper. The two formulations therefore share the laws
-of motion used for the stationary comparison below, although the persons reading adds dynasty sizes
-to the state. At the provision corner that reading
+depreciation the worker’s law is the workforce law of §2.2, term by term, and owner
+numbers enter no law and no objective elsewhere in this paper. The owner’s law is what the persons
+reading adds: owner numbers answer to owner consumption alone, with no public input, and at the same
+elasticity $\gamma$ that governs the worker’s dynasty. Equal elasticities hold the two reproduction
+indices in a fixed ratio once the class ratio is at rest, which is what the stationary comparison
+below uses. The two formulations therefore share the laws
+of motion for capital, the public stock and the workforce, although the persons reading adds dynasty
+sizes to the state and the owner’s law along with them. At the provision corner that reading
 decides which class the higher rate favours.
 
-**Proposition 11 (persons or capacity).** *On the face of §2.4, at $\phi=1$ and with the owner’s
-investment share held at a value that does not move with the tax (Proposition 1), compare the
+**Proposition 11 (persons or capacity).** *On the face of §2.4, at $\phi=1$, with the owner’s
+investment share held at a value that does not move with the tax (Proposition 1), and, in the
+persons reading of clause (ii), with the worker’s dynasty growing at
+$g_{W}=B_W\bigl(c_W^{\theta}z^{1-\theta}\bigr)^{\gamma}$ and owner numbers at $g_C=B_C\,c_C^{\gamma}$,
+the same elasticity $\gamma$ in both, compare the
 stationary states under two rates $\tau<\tau'$ in $(0,1)$.*
 
 -   *(i) Capacity. With class sizes fixed, the owner’s consumption relative to the worker’s is
@@ -801,7 +827,7 @@ not vanish with it, except at the one weight where capital’s own preference is
 
 ## 6.1 The comparative static
 
-**Proposition 9.** *On the open box, the owner’s preferred rate*
+**Proposition 9.** *At the provision corner $\phi=1$, on the open box, the owner’s preferred rate*
 
 -   *carries labour’s share $(1-\alpha)$ as a factor;*
 -   *is strictly decreasing in capital’s share, with*
@@ -811,7 +837,10 @@ $$\frac{\partial\tau_C}{\partial\alpha}
 
 -   *vanishes as capital’s share goes to one, $\tau_C\to0$;*
 
-*while the worker’s does not: $\tau_W\to(1-\beta)(1-\theta)>0$ as $\alpha\to1$.*
+*while the worker’s does not: $\tau_W\to(1-\beta)(1-\theta)>0$ as $\alpha\to1$. Along the common
+split of Proposition 7, above the capital share $\alpha^{\star}(\gamma_K)$ of §7 at which the corner
+ceases to be the classes’ choice, the worker’s preferred rate is
+$(1-\beta)/(1-\beta+\beta\gamma_K)$, which is $1-\beta$ at the baseline.*
 
 In words, labour’s share appears as a factor in the owner’s preferred rate; that rate falls as
 capital’s share rises; and it reaches zero in the limit where capital takes all of output. The
@@ -840,7 +869,8 @@ Combining Propositions 6 and 9: as $\alpha\to1$, the unanimous interval $(0,\tau
 which *both* classes would still prefer a larger state — shrinks to nothing, while the contested
 interval $[\tau_C,\tau_W]$ converges, at the provision corner, to $[0,(1-\beta)(1-\theta)]$ and comes
 to be the whole of the range below the worker’s peak. §7 records that the corner is not the classes’
-common choice in this limit; with the split chosen the worker’s endpoint is $1-\beta$, and the
+common choice in this limit; with the split chosen the worker’s endpoint is
+$(1-\beta)/(1-\beta+\beta\gamma_K)$, which at the baseline is $1-\beta$ (Lemma A.1), and the
 unanimous interval vanishes all the same.
 The coalition that funds the reproduction of the workforce, a coalition that on this face includes
 capital itself, dissolves. The fiscal question turns from a joint investment into a pure
@@ -856,7 +886,8 @@ the two peaks at every weight, the limit lies in $\bigl[0,(1-\beta)(1-\theta)\bi
 non-negative; hence it is strictly positive at every $\lambda>0$.*
 
 The corner is not the classes’ common choice in this limit (§7), but the conclusion does not rest
-on it: with the split chosen, the limit is still zero if and only if $\lambda=0$. The collapse of
+on it: along the common split the bargained rate again tends to a limit whose numerator carries the
+Pareto weight as a factor, so it is still zero if and only if $\lambda=0$ (Lemma A.1). The collapse of
 §6.2 is therefore sharper than it first appears, and it is one-sided. A bargain in
 which labour carries any weight at all, however small, still delivers a strictly positive state in
 the fully capital-intensive limit. The state disappears at exactly one weight — the one at which
@@ -877,7 +908,7 @@ provision coincide.
 capital and of the public stock, and unit intertemporal elasticity in both objectives; the face is a
 restriction on the model rather than a limiting case of a wider one. Whether the cross-structure of §4
 is a property of ownership or of the logarithmic objective is decided at a non-unit elasticity, and
-there the cross fails (§4.4). Proposition 4 is therefore stated with the logarithm, and off it
+at every one computed in §4.4 the cross fails. Proposition 4 is therefore stated with the logarithm, and off it
 Proposition 4$''$ gives the balanced-path rate, which a class’s own elasticity reaches only through
 growth.
 
@@ -910,8 +941,9 @@ since the threshold of §5.3 goes to zero as $\alpha\to1$, the worker’s limit 
 bargained limit with $\lambda>0$ in Corollary 1 are taken at a corner both classes would leave.
 Re-taken along $\phi(\tau)$, the worker’s first-order condition reduces to
 $\beta(1-\alpha+\alpha\tau)=(1-\alpha\beta)(1-\tau)$, so above that value of $\alpha$ his preferred
-rate is $1-\beta$ and not $\tau_W$. The owner’s rate, its limit of zero and the signs of Corollary 1
-survive the correction; the worker’s endpoint $(1-\beta)(1-\theta)$ does not. That threshold in
+rate is $1-\beta$ and not $\tau_W$ — at a released $\gamma_K$, $(1-\beta)/(1-\beta+\beta\gamma_K)$.
+The owner’s rate, its limit of zero and the verdict of Corollary 1 on the Pareto weight survive the
+correction, by Lemma A.1; the worker’s endpoint $(1-\beta)(1-\theta)$ does not. That threshold in
 $\alpha$ is the baseline’s, and under the symmetrisation of §4 it is available in closed form.
 Writing $P\equiv 1-\beta+\beta\gamma_K$, the worker’s rate lies outside §5.3’s condition exactly
 when
@@ -1043,9 +1075,8 @@ $\beta\gamma_K a$ into $M_C$ above — and $N_W=\beta r$ are both $\beta\gamma/\
 and $M_W/N_W$ is free of $\gamma$. Since $\tau_j=1/\bigl(1+M_j/N_j\bigr)$, each rate depends on its
 class’s coefficients only through that ratio. $\qquad\blacksquare$
 
-The cancellation is not automatic, and it is not fragile either. Replacing the owner’s $c$ by
-$\tfrac32 c$ leaves $M_C/N_C$ free of $\gamma_K$, because $c$ remains proportional to $b$. Adding a
-direct taste $\psi\ln N_t$ to the owner’s felicity does break it: the $b$-equation acquires a term
+The cancellation is not automatic. Adding a
+direct taste $\psi\ln N_t$ to the owner’s felicity breaks it: the $b$-equation acquires a term
 that is not proportional to $\Omega_K$, and $\gamma_K$ survives into the ratio. Setting $\psi=0$
 recovers the cancellation.
 
@@ -1094,6 +1125,37 @@ for $\gamma_K\le 1/(1-\alpha)$. Section 4’s $\gamma_K\le1$ implies that bound 
 stronger than it, so the box of §4 sits inside the region where Proposition 2’s argument
 runs. $\qquad\blacksquare$
 
+## A.3a Proof of Proposition 4
+
+At $\phi=1$ each class’s payoff is $M_j\ln(1-\tau)+N_j\ln\tau$ up to a constant, so by Proposition 5
+its peak is the root of $-M_j/(1-\tau)+N_j/\tau=0$, namely $\tau_j=N_j/(M_j+N_j)$. Take the four
+coefficients from A.3 over their shared $\Delta_K$.
+
+For the owner, $\Delta_K$ and $\Omega_K$ are common to $M_C$ and $N_C$ and cancel from the ratio:
+
+$$\tau_C=\frac{\beta^{2}\gamma(1-\alpha)(1-\theta)}{C+\beta^{2}\gamma(1-\alpha)(1-\theta)},$$
+
+and the denominator is $D_\tau$, because in
+
+$$C+\beta^{2}\gamma(1-\alpha)(1-\theta)
+=\beta\gamma(1-\theta)\bigl[1-\beta(1-\alpha)\bigr]+\beta^{2}\gamma(1-\alpha)(1-\theta)
++\alpha\beta\gamma\theta+(1-\beta)$$
+
+the two terms in $\beta(1-\alpha)$ cancel and $\beta\gamma(1-\theta)+\alpha\beta\gamma\theta
+=\beta\gamma\bigl(1-\theta(1-\alpha)\bigr)$, leaving
+$1-\beta+\beta\gamma\bigl(1-\theta(1-\alpha)\bigr)$. Neither $C$ nor the numerator contains
+$\gamma_K$, so the owner’s rate is free of it and is the baseline expression.
+
+For the worker, $\Delta_K$ and the factor $\beta^{2}\gamma$ are common to $M_W$ and $N_W$ and cancel:
+
+$$\tau_W=\frac{(1-\theta)\bigl[1-\beta+\beta\gamma_K(1-\alpha)\bigr]}
+{\alpha\gamma_K\bigl(\beta(1-\theta)+\theta\bigr)+(1-\theta)\bigl[1-\beta+\beta\gamma_K(1-\alpha)\bigr]},$$
+
+whose denominator collects to the displayed one: the two terms in $\beta\gamma_K(1-\theta)$, one
+carrying $\alpha$ and one carrying $1-\alpha$, sum to $\beta\gamma_K(1-\theta)$, so the denominator
+is $(1-\theta)\bigl(1-\beta+\beta\gamma_K\bigr)+\alpha\theta\gamma_K$. The elasticity $\gamma$ has
+cancelled, so the worker’s rate carries none. $\qquad\blacksquare$
+
 ## A.4 Proof of Proposition 6
 
 At $\phi=1$ the composite $\kappa(\tau,1)=1-\alpha$ is free of $\tau$, so each payoff is exactly
@@ -1114,8 +1176,12 @@ Explicitly, the worker’s denominator less his numerator is
 $\alpha\gamma_K\bigl(\theta+\beta(1-\theta)\bigr)>0$, which is §5.2’s expression times $\gamma_K$.
 For $\tau<\tau_C$ both slopes are
 strictly positive, so both payoffs strictly increase: every such $\tau$ is Pareto-dominated. For
-$\tau\in(\tau_C,\tau_W)$ the slopes have opposite signs, so no change in the tax alone is unanimous and
-the interval is the Pareto set in $\tau$ at $i^\star$.
+$\tau\in(\tau_C,\tau_W)$ the slopes have opposite signs, so no change in the tax alone is unanimous.
+For $\tau>\tau_W$ both slopes are strictly negative, so both payoffs strictly increase as the tax
+falls and every such rate is Pareto-dominated by a lower one. The two peaks are themselves
+Pareto-efficient, since by strict concavity a move away from $\tau_C$ lowers the owner’s payoff and a
+move away from $\tau_W$ lowers the worker’s. The Pareto set in $\tau$ at $i^\star$ is therefore
+exactly $[\tau_C,\tau_W]$.
 
 For the last clause, let both instruments move. At $\phi=1$ the investment share enters only the
 owner’s consumption and next period’s capital, and the capital law carries $\gamma_K\ln I_t$, so, up
@@ -1271,6 +1337,77 @@ $0.3695$, and its derivative with respect to his own elasticity $\gamma$ is $1.5
 expansion in $\sigma-1$, done symbolically and sharing no solver with the grid, gives a non-zero
 own-elasticity term for both classes at two exact rational parameter points. Reading $\sigma$ as the
 elasticity rather than the curvature gives the same verdict.
+
+## A.10 The bargain along the common split
+
+Off the provision corner the instruments reach both classes through one common function. Beyond the
+term in $\ln(1-\tau)$, the split and the tax enter class $j$’s value only through the public stock,
+whose coefficient is $c$ for the owner and $r$ for the worker, and through the maintenance composite,
+whose coefficient is $b$ for the owner and $q$ for the worker; the $g$-equations of A.1 fix
+$c/b=r/q=\beta\gamma(1-\theta)$. Writing
+$\eta\equiv\theta/\bigl(\beta(1-\theta)\bigr)$, both payoffs therefore take the form
+
+$$U^{j}(\tau,\phi)=M_j\ln(1-\tau)+N_j\,S(\tau,\phi)+\text{const},\qquad
+S(\tau,\phi)\equiv\ln\tau+\ln\phi+\eta\ln\kappa(\tau,\phi),$$
+
+with the same $S$ for $j=C$ and $j=W$. At $\phi=1$ the last two terms are constants and the
+expression collapses to the two-term shape of §5.1.
+
+Proposition 7 is this identity read once: $\partial U^{j}/\partial\phi=N_j\,\partial S/\partial\phi$,
+and $N_C,N_W>0$, so the two classes’ conditions in $\phi$ have the same roots. Where the corner does
+not bind, $\partial S/\partial\phi=0$ reads $\kappa(\tau,\phi^{\star})=\eta\,\alpha\tau\phi^{\star}$,
+so that $\phi^{\star}(\tau)=\kappa(\tau,0)/\bigl(\alpha\tau(1+\eta)\bigr)$ — the expression of
+Proposition 7 — and $\tau\phi^{\star}(\tau)=\kappa(\tau,0)/\bigl(\alpha(1+\eta)\bigr)$.
+
+Write $s(\tau)\equiv S\bigl(\tau,\phi^{\star}(\tau)\bigr)$. By the envelope property of Proposition 7
+its derivative is the partial,
+
+$$s'(\tau)=\frac{1}{\tau}+\frac{\eta\,\alpha(1-\phi^{\star})}{\kappa(\tau,\phi^{\star})}
+=\frac{1}{\tau}+\frac{1-\phi^{\star}}{\tau\phi^{\star}}=\frac{1}{\tau\phi^{\star}(\tau)}
+=\frac{\alpha(1+\eta)}{1-\alpha+\alpha\tau},$$
+
+strictly decreasing in $\tau$. On that branch the weighted objective $\lambda U^{W}+(1-\lambda)U^{C}$
+is therefore $\bar M\ln(1-\tau)+\bar N s(\tau)$ with $\bar M=\lambda M_W+(1-\lambda)M_C$ and
+$\bar N=\lambda N_W+(1-\lambda)N_C$, strictly concave by Proposition 5, and its peak is
+
+$$\tau(\lambda)=\frac{\alpha(1+\eta)\bar N-(1-\alpha)\bar M}
+{\alpha\bigl[\bar M+(1+\eta)\bar N\bigr]} .$$
+
+Where the corner binds instead, $\phi^{\star}=1$ and $s'(\tau)=1/\tau$, and the peak is the
+$\tau(\lambda)$ of Proposition 8. The two branches meet where the peak equals
+$\beta(1-\theta)(1-\alpha)/(\alpha\theta)$, the corner condition of §5.3.
+
+**Lemma A.1.** *Above the capital share $\alpha^{\star}(\gamma_K)$ of §7, where the corner does not
+bind at his peak, the worker’s preferred rate along the common split is
+$(1-\beta)/(1-\beta+\beta\gamma_K)$; and*
+
+$$\lim_{\alpha\to1}\tau(\lambda)=\frac{(1+\eta)\lambda N_W^{\infty}}
+{\bar M^{\infty}+(1+\eta)\lambda N_W^{\infty}},$$
+
+*whose numerator carries the Pareto weight as a factor. The limit is zero if and only if
+$\lambda=0$.*
+
+*Proof.* At $\lambda=1$ substitute $M_W/N_W=\alpha\gamma_K\bigl(\beta(1-\theta)+\theta\bigr)/
+\bigl[(1-\theta)Z\bigr]$ from A.3, with $Z\equiv1-\beta+\beta\gamma_K(1-\alpha)$, and use
+$1+\eta=\bigl(\beta(1-\theta)+\theta\bigr)/\bigl(\beta(1-\theta)\bigr)$: the factor
+$\alpha(1+\eta)$ cancels throughout and $\tau(1)=\bigl(Z-(1-\alpha)\beta\gamma_K\bigr)/
+\bigl(\alpha\beta\gamma_K+Z\bigr)=(1-\beta)/(1-\beta+\beta\gamma_K)$, free of $\alpha$. That rate
+exceeds the corner condition of §5.3 exactly when $\alpha>\alpha^{\star}(\gamma_K)$, since
+$\alpha\theta(1-\beta)>\beta(1-\theta)(1-\alpha)\bigl(1-\beta+\beta\gamma_K\bigr)$ rearranges to it,
+so above that capital share the interior branch is the relevant one.
+
+For the limit, read the four numerators of A.3 at $\alpha\to1$. There
+$C\to\beta\gamma+1-\beta$ and $\Delta_K\to(1-\beta)C$, so $M_C\to\Omega_K/(1-\beta)$,
+$M_W\to\beta^{2}\gamma\gamma_K\bigl(\beta(1-\theta)+\theta\bigr)/\bigl[(1-\beta)C\bigr]$ and
+$N_W\to\beta^{2}\gamma(1-\theta)/C$, all three strictly positive and finite, while
+$N_C\Delta_K=\beta^{2}\gamma(1-\alpha)(1-\theta)\Omega_K$ gives $N_C\to0$. Hence
+$(1-\alpha)\bar M\to0$ and $\bar N\to\lambda N_W^{\infty}$, and the displayed limit follows.
+Since $N_W^{\infty}>0$ and $\bar M^{\infty}>0$, it vanishes exactly at $\lambda=0$. $\qquad\blacksquare$
+
+The lemma is what carries Corollary 1’s conclusion past the corner at which it is proved: below the
+threshold of §5.3 the corner binds and Corollary 1 applies as stated, and above it the bargained rate
+is the one above, with the same verdict on $\lambda$. It also gives §7’s off-corner worker rate,
+which at the baseline is $1-\beta$.
 
 # References
 
