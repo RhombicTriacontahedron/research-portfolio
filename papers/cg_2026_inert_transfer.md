@@ -13,8 +13,7 @@ transfer can reach a single per-head distribution; it moves the relative number 
 range of stationary states exactly when the two classes’ reproduction elasticities agree at the consumptions each
 class has there, which for power maps is a common exponent; the classes need not share a reproduction technology.
 When a public input enters reproduction alongside private consumption, its provision in kind is not inert, and cash
-reaches the per-head gap only relative to provision per worker. Neither the first welfare theorem nor efficiency
-results for dynasties that pay for their own reproduction are at issue. Where workers are reproduced by private
+reaches the per-head gap only relative to provision per worker. Where workers are reproduced by private
 consumption alone, the second theorem’s remedy is void in the per-head coordinate rather than second-best, because a
 produced factor that no agent may hold is nobody’s endowment to transfer.
 
@@ -44,13 +43,12 @@ the whole admissible range of transfers can reach is a single point, and the poi
 reproduction technology.
 
 That a subsidy to a class whose numbers respond to income is absorbed by those numbers is
-the classical argument against poor relief (Malthus 1798, ch. 5). What this paper adds to it is
-exactness, invariance and a consequence. Where private consumption is the only input to reproduction
+the classical argument against poor relief (Malthus 1798, ch. 5). Where private consumption is the only input to reproduction
 the absorption is
-*exact* — the transfer is not merely diluted but removed from the distributional coordinate
-altogether, which is a statement about a reachable set rather than about a sign. The invariance is
-that, among reproduction maps of constant elasticity, the absorption survives arbitrary asymmetry in
-the classes’ reproduction efficiencies, so it is not an artefact of treating the two classes as
+*exact*: the transfer is removed from the distributional coordinate
+altogether, which is a statement about a reachable set rather than about a sign. It is also invariant:
+among reproduction maps of constant elasticity, the absorption survives arbitrary asymmetry in
+the classes’ reproduction efficiencies, so it does not depend on treating the two classes as
 interchangeable. The
 consequence, drawn in §5, is that where private consumption is the only input to reproduction, a
 distributional aim stated per head is one the second welfare theorem cannot serve: the result does not
@@ -329,8 +327,7 @@ and output cancels from it: the gap is the constant $m$ divided by the class rat
 whether or not anything is at rest. Numbers are the only state the gap sees, numbers move on their own
 at $\theta=1$, and their law is a contraction. So a transfer that raises worker consumption today does
 narrow $c_C/c_W$ today, and is undone at the rate $1-\gamma$: half of the narrowing is gone after
-$\ln 2/|\ln(1-\gamma)|$ periods, and none of it survives. The transfer is not a
-long-run instrument that happens to be studied at a rest point; it is an instrument whose effect
+$\ln 2/|\ln(1-\gamma)|$ periods, and none of it survives. The transfer is an instrument whose effect
 decays from any starting position, and the rest point is where it has finished decaying.
 
 The next statement is the one that keeps Proposition 1 from being an assumption in disguise.
@@ -366,7 +363,7 @@ requirement is tight: any difference in that curvature, however small, makes the
 function of the level, and at a state whose stocks are also at rest the cash instrument moves that
 level. The knife-edge, if one wants to call it that, is at the exponent and not at the technology, and
 Appendix A.1 bounds it: the departure from inertness is continuous in the elasticity difference and
-nil at their coincidence. That the requirement falls short of a common technology is not a feature of
+nil at their coincidence. That the requirement falls short of a common technology holds beyond
 power maps. For reproduction maps of any shape, Proposition 5 in Appendix A.1 shows that the per-head
 gap takes one value across a range of stationary states exactly when, over that range, the workers’ map
 is the owners’ map applied to a fixed multiple of the workers’ consumption. A common technology is the
@@ -459,8 +456,8 @@ welfare result in distributional clothing. It is not, and the reason is the fund
 caution. The provision is financed by taxing capital income, so a smaller private claim standing
 beside capital-funded provision may as easily register as capital financing labour’s reproduction as
 it does labour being squeezed. Ranking the two configurations would need a welfare function over two
-dynastic sizes and a price for the transfer, and this paper writes neither; nor would writing one
-settle the matter, because any ranking must price the transfer on both sides rather than read the
+dynastic sizes and a price for the transfer, which the model does not contain, and any such
+ranking must price the transfer on both sides rather than read the
 worker’s private claim alone.
 
 Measured private inequality and reproduced class condition are different objects, and a
@@ -517,9 +514,9 @@ persons between the classes is the one redistribution that escapes, because it e
 is not shown for such a rule is that its stationary states exist; Proposition 3 shows it for the
 instruments of §2.
 
-The statement is about a reachable set, and that is the whole of its strength. It is not the familiar
-observation that cash transfers are an imperfect instrument, that they fail to reach a particular
-target, or that provision in kind dominates them under some friction. Those are statements about
+The statement is about a reachable set, and that is the whole of its strength. The familiar
+observations, that cash transfers are an imperfect instrument, that they fail to reach a particular
+target, or that provision in kind dominates them under some friction, are statements about
 *direction*: the instrument works and points the wrong way, or works and is dominated. This one is a
 statement about *range*: the image of the entire admissible instrument set, under the map to the
 distributional coordinate, is a single point. Nothing is lost by choosing badly among transfers,
@@ -558,11 +555,10 @@ class. The transfer’s incidence falls on the denominator.
 
 That is the mechanism, and the identity of §3 is its exact statement. Stationarity forces equal growth;
 equal growth pins the ratio of reproduction inputs; and the per-head claims *are* the reproduction
-inputs when the input is private consumption. The transfer cannot get between them. It is worth being
-precise about how strong the absorption is: it is not a large behavioural response that happens to
-offset the transfer, in which case a bigger transfer would do, nor a general-equilibrium price effect
-that a different tax base might avoid. The gap is not a function of the instruments at all. Its
-derivative with respect to each of them is identically zero on the whole domain.
+inputs when the input is private consumption. The transfer cannot get between them. The absorption is
+stronger than a large behavioural response that offsets the transfer, which a bigger transfer would
+overcome, or a general-equilibrium price effect, which a different tax base might avoid: the gap’s
+derivative with respect to each instrument is identically zero on the whole domain.
 
 **What a reader has to give up.** Consider someone who holds the standard position: distributional
 aims are properly met by lump-sum transfers, and allocation is properly left to prices, because the
@@ -742,7 +738,7 @@ that the theorem licenses is unavailable with it. The result is narrow in its hy
 what it removes: it needs a stationary class ratio, a workforce produced out of its own private
 consumption alone, and one shared elasticity, and it needs nothing of what either class maximises or
 of whether the state it describes is an equilibrium. Where those three hold, the instrument on which
-the standard separation of efficiency from distribution rests is not a blunt tool but an absent one.
+the standard separation of efficiency from distribution rests is absent.
 
 # Appendix
 
