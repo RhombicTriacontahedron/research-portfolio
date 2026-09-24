@@ -13,7 +13,7 @@ income in closed form, compares the two rates, and asks which primitives the gap
 depends on. Five results follow at the provision corner, where all
 revenue is spent in kind, a split both classes choose whenever the tax is small enough. First, with logarithmic objectives
 each class’s preferred capital-income tax is a function of the **other** class’s reproduction
-elasticity and never of its own, and symmetrising the two stocks’ laws of motion does not symmetrise
+elasticity and not of its own, and symmetrising the two stocks’ laws of motion does not symmetrise
 this. A class’s claim on a stock puts that stock’s accumulation on both sides of its own ledger in
 the same proportion, so its own elasticity cancels; the stock nobody holds reaches the owner only
 through the budget, and its elasticity survives.
@@ -64,11 +64,11 @@ the workforce’s upkeep is paid out of capital’s income. The public stock rai
 so raises what the capital that hires them earns later. The upkeep of labour the owner
 does not own is therefore worth something to him, and he wants a strictly positive rate on his own
 income provided the proceeds are spent in kind. The worker wants a positive rate too, and the two
-rates are not the same.
+rates differ.
 
 Five things follow. First, with logarithmic objectives, and where all revenue is spent in kind, each
 class’s preferred rate on capital income is a function of the *other* class’s reproduction elasticity
-and never of its own. The owner’s rate carries the elasticity with which maintenance produces
+and not of its own. The owner’s rate carries the elasticity with which maintenance produces
 effective labour; the worker’s carries the elasticity with which investment produces capital. Neither
 carries his own, and the reason is an accounting one. A class that holds a claim on a stock has that
 stock’s accumulation on both sides of its own ledger in the same proportion. Its own elasticity
@@ -92,7 +92,7 @@ symmetrise the taxes.
 Second, both classes’ payoffs are strictly concave in the rate, so the rates that no change in the tax
 alone can improve for both classes at once are exactly the closed interval between the two preferred
 rates, and every rate below the owner’s own is one both classes strictly want to raise: a small state
-is not a compromise between them but a position both wish to leave. The rate that maximises a weighted
+is a position both wish to leave. The rate that maximises a weighted
 sum of the two payoffs rises strictly with the weight on workers and is strictly positive at every
 weight, the owner’s own included, and §5 gives it in closed form for every weight.
 
@@ -345,7 +345,7 @@ appears in it** — so deviating in $\tau$, $\phi$ or $i$ moves constants and le
 The discounted value converges on every path, equilibrium or deviation, and the one-shot deviation
 principle applies.
 
-The compactness hypothesis is doing real work and is not a formality. Nothing above bounds the
+The compactness hypothesis is needed. Nothing above bounds the
 *constants* that a deviation shifts, and a sequence of instruments approaching a boundary — $\tau_t
 \to1$, or $\phi_t\to0$ with $\theta<1$ — drives a logarithm to $-\infty$ and the comparison of two
 unbounded sums is not defined. What the hypothesis buys is that only the constants move, and that
@@ -364,8 +364,8 @@ the worker, and he does not want it.
 
 The constancy of the split is therefore the worker’s own choice and not a restriction placed on
 him. Given the tax, he has one best split; a rule that made the public share of revenue depend on
-the state would cost him at every state at which it departed from that split, and a rule that
-never departs from it is the constant one.
+the state would cost him at every state at which it departed from that split, and the only rule that
+keeps to it at every state is the constant one.
 
 ## 3.3 Inefficiency without strategy
 
@@ -403,7 +403,7 @@ second question, and its answers about the tax are immune to the first.
 # 4. Who prices whose reproduction
 
 With logarithmic objectives and at the provision corner, each class’s preferred tax rate on
-capital income carries the other class’s reproduction elasticity and never its own. Both rates
+capital income carries the other class’s reproduction elasticity and not its own. Both rates
 are derived below, and §4.4 gives the object that replaces the cross off the logarithm.
 
 ## 4.1 Releasing capital’s elasticity
@@ -458,10 +458,9 @@ of a notation in which capital has no elasticity to carry.
 
 ## 4.3 Why the elasticities cross
 
-The absence in Proposition 4 is not a coincidence of algebra, and it is worth deriving rather than
-narrating, because the obvious explanation is wrong. One is tempted to say that the owner optimises
+The absence in Proposition 4 has an economic reason, and the obvious one is wrong. One is tempted to say that the owner optimises
 over investment, so that an envelope argument at his own optimum removes $\gamma_K$ from everything
-else he chooses. It does not: the investment share never enters the coefficient system at all — it
+else he chooses. It does not: the investment share does not enter the coefficient system at all — it
 moves constants only — so the owner’s preferred rate would take the same form if $i$ were handed to
 him rather than chosen.
 
@@ -574,8 +573,7 @@ four numerators are again products of signed factors. The step matters because �
 $\tau_W$ preferred rates, and a root of a first-order condition earns that name only under
 concavity.
 
-Where this section stands on the symmetrisation is worth saying once, because the closed forms
-below are not the general statements. Propositions 5, 6, 7 and 8 hold for every
+Propositions 5, 6, 7 and 8 hold for every
 $\gamma_K\in(0,1]$; the expressions displayed in §5.2 and §5.4 are their values at the baseline
 $\gamma_K=1$. Proposition 7 is on that list because the two first-order conditions in $\phi$ reach
 the value coefficients only through the ratios $c/b$ and $r/q$, and the $g$-equations of A.1 set
@@ -916,7 +914,7 @@ $(0,1)$, because its denominator exceeds its numerator by $\theta(1-\beta)>0$. A
 $\gamma_K$: the map $x\mapsto x/\bigl(\theta(1-\beta)+x\bigr)$ is strictly increasing, and so is
 $P$. The derivative is $\beta^{2}\theta(1-\beta)(1-\theta)$ over the square of that denominator.
 So the set of parameters at which the worker’s rate lies
-outside that condition is larger off the baseline than on it, never smaller: at $\beta=0.25$,
+outside that condition is larger off the baseline than on it: at $\beta=0.25$,
 $\theta=0.75$ the threshold falls from $\alpha^{\star}=0.1$ at $\gamma_K=1$ to $0.0793$ at
 $\gamma_K=0.1$, and at $\alpha=0.08$ the corner accordingly binds at the baseline and does not at
 $\gamma_K=0.1$.
@@ -924,8 +922,7 @@ $\gamma_K=0.1$.
 # 8. Conclusion
 
 Two produced stocks, one of them owned and one of them not, are enough to set the classes against
-each other over a tax whose proceeds are spent on reproduction. The disagreement is not the familiar
-one. It does not come from a non-linear tax or from an elasticity of substitution away from unity,
+each other over a tax whose proceeds are spent on reproduction. The disagreement does not come from a non-linear tax or from an elasticity of substitution away from unity,
 the two features to which Galor and Moav attribute their unanimity, and it does not come from
 unownedness on its own: in an economy where the tax falls on what the owner invests, workers value
 consumption and the owner has no taste for wealth, the workforce is still produced and owned by
@@ -933,7 +930,7 @@ nobody and the two classes want the same rate. What opens the gap is where the t
 
 What the classes disagree about is the level of a joint investment whose form they agree on. With
 logarithmic objectives each side’s preferred rate on capital income is a function of the other
-side’s reproduction elasticity and never of its own. Below the owner’s own optimum both sides
+side’s reproduction elasticity and not of its own. Below the owner’s own optimum both sides
 strictly prefer a larger state, so the rates a bargain can reach are the closed interval between the
 two peaks. As capital’s share of output rises the owner’s peak falls to zero and the worker’s does
 not, and what collapses is the range over which the two classes agree in wanting a larger state: the
@@ -953,9 +950,9 @@ cross would have to be derived again; and, in the persons reading, a split off t
 distributional sign would have to be taken again.
 
 Whether a tax spent on reproduction redistributes towards labour is settled not by the tax but by
-what reproduction produces, capacity or persons. And what capital-intensity destroys is not the
-state, since the bargained rate stays strictly positive in the limit at every weight on labour, but
-capital’s own reason for wanting one.
+what reproduction produces, capacity or persons. And what capital-intensity destroys is
+capital’s own reason for wanting a state; the state survives, since the bargained rate stays strictly
+positive in the limit at every weight on labour.
 
 # Appendix A. Proofs
 
