@@ -150,10 +150,10 @@ elasticity of substitution and the capital share alone guarantees that
 labour wants the larger levy, whatever the rearing technology, and the
 bound is sharp (Proposition 9). Capital’s own claims on profits are what
 drive a reversal. They enter its problem through what it values, what it
-accumulates and the base on which the levy is raised. A decider with
-capital’s horizon and none of those claims never out-demands the
-pensioner where horizon alone favours labour and substitution is at most
-unit. Compared at a common capital share, the one-agent relabelling
+accumulates and the base on which the levy is raised. Where horizon
+alone favours labour and substitution is at most unit, a decider with
+capital’s horizon and none of those claims demands no more than the
+pensioner. Compared at a common capital share, the one-agent relabelling
 fails at every elasticity other than one (Proposition 10).
 
 Section 5 takes up three objections on the Cobb–Douglas face, and none
@@ -597,7 +597,7 @@ $\partial T/\partial s=(1-\gamma)/\sigma>0$. The effect is larger the
 stronger the complementarity. With strong complements ($\sigma=1/2$) and
 a horizon of one half, a stationary share above three quarters makes the
 owner the class that wants the larger levy. With substitutes, a horizon
-of one half never suffices. What decides the division is still the
+of one half does not suffice. What decides the division is still the
 horizon, joined now by the share of output that the owner’s claims
 command.
 
@@ -865,10 +865,9 @@ capital’s whenever $L\le1/3$, and capital’s stationary preferred levy
 exceeds labour’s once the stationary capital share passes three quarters
 at $L=\gamma=\theta=1/2$ (Proposition 8).
 
-Across these literatures, then, what is new here is the comparison
-itself: the pensioner’s stake in the next generation set against the
-stake of the owner who is levied to rear it, and what that comparison
-yields.
+Across these literatures, then, the comparison this paper makes is the
+pensioner’s stake in the next generation set against the stake of the
+owner who is levied to rear it.
 
 # 7. Conclusion
 
