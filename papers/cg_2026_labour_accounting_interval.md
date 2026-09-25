@@ -546,6 +546,7 @@ What a labour account can say about the making of goods, it says. What it can sa
     Radical Political Economics* 54(4): 479–500.
 -   Maniatis, T., and C. Passas (2019). “The Net Social Wage in Different Welfare Regimes.” *Capital &
     Class* 43(2): 227–250.
+-   Marx, K. *Capital*, Volume I, chapter 23 (Moore–Aveling translation).
 -   Moos, K. A., and H. Qi (2020). “How Neoliberal Is China’s Welfare State? Comparing the Chinese and US Net
     Social Wage, 1992–2017.” Preliminary paper, ASSA Annual Meeting, January 2020. Published in revised form as “The State’s Response to the Crisis of Neoliberalism: A Comparison of the Net Social Wage in China and the United States, 1992–2017,” *International Review of Applied Economics* 37(1): 23–49 (2023).
 -   Shaikh, A. M., and E. A. Tonak (1994). *Measuring the Wealth of Nations: The Political Economy of
