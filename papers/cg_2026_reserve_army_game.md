@@ -6,39 +6,27 @@ Carlos Galindo Escajeda
 
 A growing economy employs more workers every year and still has
 unemployed ones. The standard answer is that accumulation manufactures
-its own surplus of labour and that the surplus holds the wage down.
-Those are two claims, and making the employment rate the state of a
-differential game between organised capital and organised labour
-separates them. Capital picks the share of profit it reinvests and the
-effort it takes from an hour hired; labour picks the wage share;
-machinery arrives faster where labour is scarce, and part of every unit
-of accumulation displaces labour directly. When each class values what
-happens to its whole class, the bargain over accumulation and the wage
-is settled without reference to how fast machinery displaces labour, and
-the mechanisation law then sizes the unemployment pool — which makes the
-pool the bargain’s residual rather than its regulator. The classes have
-a compromise to make only where the effort capital may extract from an
-hour hired is large enough relative to impatience and the capital–output
-ratio, and where that condition holds there are two such compromises,
-one accumulationist and one distributionist, unless a bound on the wage
-share excludes one. Both classes strictly prefer the accumulationist
-compromise wherever it leaves a pool, and nothing moves an economy to
-it. Whether the pool survives is a closed-form threshold on the
-accumulation share, so the compromise both classes prefer can be the one
-that exhausts the pool — and exhausting it costs neither class anything
-where the full-employment boundary leaves the binding bounds unchanged,
-while a boundary that rations capital’s accumulation there can reverse
-one class’s half of the ranking. Letting the ceilings on the wage and on
-effort move with the pool restores the pool’s grip on the wage and
-changes it. The grip enters through one term in capital’s price of
-accumulation. Past a threshold in how sharply the extractable day
-answers to employment no ceiling supports a compromise at all, and where
+its own surplus of labour, which holds the wage down. Making the
+employment rate the state of a differential game between organised
+capital and organised labour separates those two claims. Capital picks
+the share of profit it reinvests and the effort it takes from an hour
+hired, labour the wage share; machinery arrives faster where labour is
+scarce, and part of every unit of accumulation displaces labour. When
+each class values what happens to its whole class, the bargain over
+accumulation and the wage is independent of how fast machinery displaces
+labour, and the mechanisation law then sizes the unemployment pool, the
+bargain’s residual rather than its regulator. A compromise exists only
+where the effort capital may extract per hour hired is large enough, and
+there are then two, an accumulationist and a distributionist one, unless
+a bound on the wage share excludes one. Both classes strictly prefer the
+accumulationist compromise wherever it leaves a pool, and nothing moves
+an economy to it. A closed-form threshold on the accumulation share
+decides whether the pool survives, and the accumulationist compromise
+can exhaust it while the distributionist one keeps it. When the wage and
+effort ceilings move with the pool, the pool regains its grip on the
+wage through one term in capital’s price of accumulation, and where
 compromises exist the economy rests at no more than three employment
-rates, at most one of them with labour pinned to its ceiling. Each of
-those rest points, pinned or bargained, is an equilibrium wherever the
-economy’s interior law of motion survives at full employment. Wages
-sitting at a ceiling have two opposite causes at opposite ends of the
-same branch, so they do not identify a large pool.
+rates.
 
 **JEL.** C73, E24, E25, O33, B51
 
