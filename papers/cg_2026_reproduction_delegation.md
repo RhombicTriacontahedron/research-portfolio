@@ -4,33 +4,27 @@ Carlos Galindo Escajeda
 
 # Abstract
 
-A payer funds the rearing of the next working generation, and the
-household decides how much of its budget goes into rearing. The paper
-derives the form of the fund the payer prefers at a given cost to itself
-— cash into the household’s budget, or a public input the payer provides
-directly — and asks what decides that form. When what the household
-counts as strictly necessary is fixed and the two rearing inputs combine
-at unit elasticity, the household’s discretion decides nothing: the
-payer’s preferred split is exactly the split it would choose if it set
-the split itself. Away from unit elasticity of substitution in rearing,
-the discretion relabels the weight the technology puts on the
-household’s own spending; where the two inputs are harder to substitute
-than at unit elasticity, that relabelling is all it does. Once the
-standard of necessity is inherited from the household’s own past
-consumption, the two forms stop being equivalent. The standard owed
-today can be paid only out of cash, which raises the payer’s preferred
-cash share, while cash also raises the standard owed tomorrow, which
-lowers it by the payer’s own discount factor. At unit elasticity and to
-first order in the habituation rates, a longer horizon moves the fund
-toward the public form if and only if public provision habituates the
-standard less than the cash the household does not spend on rearing, at
-the threshold $\kappa_G=(1-s)\kappa$, where $1-s$ is the household’s
-propensity to consume out of what it has above the standard; above it a
-patient payer prefers cash. A payer bound at the outset to a constant
-cash share faces no such threshold under the same conditions: its
-horizon then moves the fund toward cash whenever public provision
-habituates at all. Which side of the threshold an economy sits on is an
-empirical question the model does not answer.
+Much of what it costs to rear the next working generation is paid by
+someone who does not do the rearing, and whoever pays chooses a form at
+the same cost: cash into the household’s budget, or a public input
+provided directly. This paper derives that choice from the payer’s
+position rather than from its tastes: the payer hires the cohort the
+fund rears, and what a household counts as strictly necessary is
+inherited from its own past consumption. Where the standard of necessity
+is absent and the two rearing inputs combine at unit elasticity, the
+household’s control of the split changes nothing: the payer’s preferred
+split is the one it would choose if it set the split itself. Once the
+standard is inherited, the two forms separate: at unit elasticity and to
+first order in the habituation rates, the standard raises the payer’s
+preferred cash share at every horizon short of a full dynasty. Which way
+patience then pulls is decided by a comparison the payer’s own nature
+does not settle: a longer horizon moves the fund toward the public input
+exactly when public provision raises the future standard by less than
+unspent cash does. A payer able to bind itself at the outset faces no
+such ambiguity: it moves toward cash whenever its own provision leaves a
+mark at all. Patience therefore has a determinate direction only under
+commitment; elsewhere it points wherever the two habituation rates send
+it, and those rates are an empirical matter.
 
 **Keywords:** transfers in cash and in kind; reproduction of labour;
 habit formation; subsistence standard; public provision of private
@@ -40,103 +34,142 @@ goods; overlapping generations.
 
 # 1. Introduction
 
-Much of what it costs to rear the next working generation is paid by
-someone other than the household that rears it: employers through the
-wage bill and the levies on it, and the state through childcare,
-schooling and child health. Whoever pays has a choice of form. It can
-hand the household money and leave the household to decide how much of
-that money reaches the children, or it can provide the service itself.
-The literature on transfers in cash and in kind answers that choice from
-the donor’s tastes and the recipient’s constraints. A donor who values
-one use of the recipient’s budget more than the recipient does prefers
-to give in kind; a donor who cannot see who is poor uses the in-kind
-form to sort; and provision in kind crowds private spending on the same
-good out, or in (Peltzman 1973; Currie and Gahvari 2008 survey both
-arguments and the evidence; Singh and Thomas 2000 and Epple and Romano
-1996 work the sorting and the top-up out formally). Two things are given
-in those answers. The donor’s valuation of the recipient’s spending is a
-primitive, either paternalism or a sorting technology, and what the
-recipient counts as necessary is fixed while the transfer arrives.
+Rearing the next working generation is expensive, and most of the bill
+is not paid by the households that do it. Employers pay through the wage
+bill and the levies on it; the state pays through childcare, schooling
+and child health. Anyone in that position has a choice that is separate
+from how much to spend: whether to hand the household money and leave it
+to decide how much of that money reaches the children, or to provide the
+service itself as a public input. The two cost the same. Which is
+better?
 
-This paper takes both away. The payer here is an employer rather than a
-donor: it hires what the fund rears. Its valuation of the household’s
-spending is therefore derived, from the technology that turns that
-spending into the next workforce and from the horizon over which it
-collects the return. And what the household counts as strictly necessary
-next period is inherited from its own consumption this period, so money
-passing through the household’s own budget leaves a mark that a service
-provided directly need not leave.[^1]
+Economics has a good answer to that question, and it rests on two
+premises worth naming. In the literature on transfers in cash and in
+kind the payer is a donor, and the choice follows from what the donor
+values and what the recipient can do. A donor who thinks the recipient
+will spend too little on the children prefers to give in kind; a donor
+who cannot see who is poor uses the in-kind form to sort; and provision
+in kind crowds private spending on the same good out, or in. Peltzman
+(1973) opened the crowding question, Epple and Romano (1996) and Singh
+and Thomas (2000) worked out the sorting and the top-up, and Currie and
+Gahvari (2008) survey both the arguments and the evidence. In each case
+the donor’s valuation of how the recipient spends is a primitive —
+paternalism, or a screening technology — and what the recipient counts
+as necessary stays fixed while the transfer arrives.
 
-That the standard of necessity moves with resources is Easterlin’s
-(1976) reading of American fertility, where couples weigh aspirations
-against the resources they have to meet them, and that it is inherited
-from the parents’ consumption is de la Croix’s (1996) formalisation in
-an overlapping-generations economy. Neither has a transfer in it, and
-neither has a payer with a choice of form. Put the three together and
-the choice of form becomes a question about the payer’s horizon, because
-the mark that cash leaves is a cost the payer meets only later.
+Put an employer in the donor’s place. It hires what the fund rears, so
+its valuation of the household’s spending is not a taste: it follows
+from the technology that turns that spending into the next workforce and
+from the horizon over which it collects the return. Then let what the
+household counts as strictly necessary next period be inherited from
+what it consumed this period. Money that passes through the household’s
+own budget raises what the household consumes, and so raises what its
+successors will count as strictly necessary; a public input provided
+directly need not leave that mark.[^1] That standards of necessity move
+with resources is Easterlin’s (1976) reading of American fertility,
+where couples weigh what they aspire to against what they have; that the
+standard is inherited from the parents’ consumption is de la Croix’s
+(1996) formalisation in an overlapping-generations economy. A
+subsistence floor fixed in the utility function leaves the question
+untouched, because what is at issue is what the household’s own spending
+does to its successors’ floor. Neither antecedent has a transfer in it,
+and neither has a payer with a choice of form.
 
-This paper shows that the payer’s horizon does not fix the form of the
-fund. Two things do, and they trade off against each other. When the
-standard of necessity is fixed and the two rearing inputs combine at
-unit elasticity, the household’s discretion over the split changes
-nothing the payer decides: the payer’s preferred cash share is exactly
-the share it would choose in an economy where it set the split itself,
-and its size is the same number. Off unit elasticity the discretion
-relabels the weight the technology puts on the household’s own spending,
-which moves the preferred share up where the two inputs are easier to
-substitute for one another and down where they are harder. Where they
-are harder, the relabelling is all the discretion does: the preferred
-share moves with the size of the fund and with the pay-as-you-go share
-in the directions the economy without discretion gives. Where they are
-easier, the household’s response can make the payer’s choice jump, from
-a positive cash share to none, as the fund grows. Once the standard is
-inherited, the two forms separate, and they separate in two directions
-at once. The standard the household owes today can be met only out of
-the money it holds, which raises the payer’s preferred cash share. The
-cash the household does not spend on rearing raises the standard it will
-owe tomorrow, which lowers that share by the payer’s own discount
-factor. At unit elasticity and to first order in the habituation rates
-the net effect is always more cash: an inherited standard raises the
-payer’s preferred cash share at every horizon. Which way the horizon
-moves that share is decided by a comparison the payer’s nature does not
-settle: a longer horizon moves the fund toward the public form when
+An employer with a horizon, a choice of form, and a standard of
+necessity that the household’s own spending writes into: put the three
+together and the form of the fund — the total the payer pays, in
+whatever mixture of the two — becomes a question about the payer’s
+horizon, because the mark that cash leaves is a cost the payer meets
+only later. This paper shows that the horizon alone does not settle it.
+What settles it is the horizon together with two habituation rates — the
+rate at which the household’s own consumption raises what the next
+cohort will count as necessary, and the rate at which the payer’s
+provision does. The first result is that the obvious suspect is
+innocent. The payer and the household disagree about the split: the
+household eats out of the same budget it rears from, so it wants more of
+the fund in cash than the payer does. That disagreement decides nothing.
+With no inherited standard and with the two rearing inputs combining at
+unit elasticity, the textbook Cobb–Douglas case, the household spends a
+constant fraction of whatever it is handed, and that fraction drops out
+of the payer’s comparison. The payer’s preferred cash share is then
+exactly the share it would pick if it set the split itself — the same
+number, and one that depends on neither party’s preferences. Away from
+unit elasticity the household’s discretion is a relabelling: it is
+equivalent to changing the weight the rearing technology puts on the
+household’s own spending, upward where the two inputs substitute easily
+and downward where they do not. Where they substitute less easily than
+at unit elasticity, the relabelling is the whole of it. The preferred
+cash share moves with the size of the fund, and with the share of the
+wage bill paid to the retired, by the same formulas as in an economy
+with no discretion at all; the fund below which the payer gives no cash
+takes the same form; and the household still values cash at the margin.
+Where they substitute more easily, the household’s response can put a
+trough in the payer’s objective between the corner and an interior peak,
+and a growing fund can tip the payer from a positive cash share to none.
+
+The second result is that the payer’s patience does not settle the form
+either. Switch the inherited standard on, and the two forms stop being
+two names for the same money. The standard owed today can be met only
+out of cash, because the public input reaches the cohort only through
+rearing that has already been paid for out of a smaller purse. At unit
+elasticity in rearing, and to first order in the two habituation rates,
+that raises the payer’s preferred cash share whatever its horizon. The
+comparison does not turn on which way the horizon points: at every
+horizon short of a full dynasty — short, that is, of a payer that values
+its successors exactly as itself — an inherited standard makes the payer
+want more of the fund in cash than it would under a fixed standard.
+Where the public input leaves no mark of its own, the fund below which
+the payer gives no cash falls as well, so the standard buys cash where
+none was given before. But cash also raises the standard the next cohort
+will inherit, at a rate given by how fast the household’s own
+consumption habituates the standard times its propensity to consume out
+of what it has above the standard; and the public input that the cash
+displaced would itself have raised that standard, at its own rate. The
+payer weighs the net of those two at its own discount factor. So a
+longer horizon moves the fund toward the public input exactly when
 public provision habituates the standard less than the unspent cash
-does, and toward cash when it habituates more. The threshold sets the
-public input’s rate against the household’s own rate scaled by its
-propensity to consume out of what it has above the standard, and at it
-the horizon has no first-order effect on the decision. A payer bound at
-the outset to a constant cash share, starting from a standard of zero,
-faces no threshold under the same conditions. The ratchet then scales
-with the money that pays it, and the horizon moves such a payer toward
-cash whenever public provision habituates at all. Finally, if the
-household’s weight on its successors were known only to the household, a
-rule that made the fund’s form vary smoothly with the household’s report
-of it would draw a truthful report only by paying the household its own
-preferred cash share, which is more cash than the payer wants; under the
-payer’s own rule, which responds to that weight once the standard is
-inherited, the household understates it to be paid in cash.
+does, and toward cash when it habituates more. At equality the payer’s
+horizon drops out of the form of the fund altogether.
 
-Three literatures bear on this and each is missing one of the three
-ingredients. Miller and Neanidis (2015) compare cash with in-kind
+The third result says what that threshold belongs to: a payer that
+re-optimises. A payer bound at the outset to a constant cash share,
+starting from a standard of zero, faces a standard that scales with the
+very money that pays it: what the household is asked to owe and the
+money that pays it then move together, the household’s own habituation
+drops out of the comparison, and the only mark left is the one the
+payer’s own provision makes. Such a payer’s patience moves the fund
+toward cash whenever its provision habituates at all, and there is no
+threshold. Timing is not what does this: a payer choosing at the very
+first date, before anything has been inherited, weighs the same two
+rates in the same order as the re-optimiser. Finally, if the household’s
+own weight on the generation it rears were private, no rule that varied
+smoothly with the household’s report would draw a truthful one except a
+rule that pays the household its own preferred cash share, which is more
+cash than the payer wants; under the payer’s own rule a household asked
+to report understates, because understating is rewarded in cash.
+
+Three literatures bear on this, and each is missing one of the three
+ingredients; which one is missing is what tells a reader what the
+intersection costs. Miller and Neanidis (2015) compare cash with in-kind
 transfers to families in an overlapping-generations economy with
-fertility and child rearing, and find that cash raises fertility and
-welfare where parents value numbers while provision in kind does better
-where they value quality; the state dependence there runs through
-children’s health and the decider is a welfarist state, so no horizon of
-a payer and no standard of necessity enter. Aronsson and Schöb (2022)
-show that habituation changes the Pareto-efficient provision rule for a
-public good exactly when private and public consumption habituate at
-different rates, which is the comparison this paper’s threshold makes;
-their decider is a planner choosing a level, not a payer choosing a
-form, and the private good’s own habituation does not compete with a
-second use of the same budget. Habit formation in optimal taxation
-(Koehne and Kuhn 2015; Guo and Krause 2011; Tuomala and Tenhunen 2013)
-carries the standard but offers no in-kind instrument, and public
-provision of private goods carries the instrument without an own-past
-standard, whether provision is Pareto-improving through relative
-consumption (König and Lausen 2017) or through sorting with a private
-top-up (Epple and Romano 1996).
+fertility and child rearing. Cash raises fertility and welfare where
+parents value numbers, while provision in kind does better where they
+value quality. What carries the past forward in their economy is
+children’s health, and their decider is a welfarist state, so a reader
+who holds that paper has no payer with a horizon and no standard of
+necessity, and hence no way to ask the question here. Aronsson and Schöb
+(2022) show that habituation changes the Pareto-efficient provision rule
+for a public good exactly when private and public consumption habituate
+at different rates. That is the comparison the threshold below makes, so
+a reader who holds their result already has the two rates; what such a
+reader does not have is a payer choosing a form at a given cost, or a
+private good whose habituation competes with a second use of the same
+budget. Habit formation in optimal taxation (Koehne and Kuhn 2015; Guo
+and Krause 2011; Tuomala and Tenhunen 2013) carries the standard but
+offers no in-kind instrument. Public provision of private goods carries
+the instrument without an own-past standard, whether provision is
+Pareto-improving through relative consumption (König and Lausen 2017) or
+through sorting with a private top-up (Epple and Romano 1996).
 
 The nearest rival is the family of arguments in which the form of a
 transfer matters because the payer cannot commit. If tomorrow’s transfer
@@ -158,17 +191,18 @@ fund rears, a household that splits a budget it does not set between its
 own consumption and rearing, a rearing technology with a private and a
 public input, and a standard of necessity that the next cohort inherits.
 Section 3 works out the benchmark in which the standard is fixed, first
-on the textbook Cobb–Douglas rearing technology and then for any
-elasticity of substitution, and shows that the household’s discretion
-moves numbers without deciding anything. Section 4 switches the standard
-on: it derives the household’s rule and the stationary standard, then
-the payer’s preferred form, the threshold that signs the effect of its
-horizon, what commitment does to that threshold, and how far the answer
-depends on the payer’s own preferences over consumption. Section 5 asks
-what could be done if the household’s weight on its successors were
-private, and shows that a rule responding smoothly to the household’s
-report is truthful only if it pays the household its own preferred cash
-share. Section 6 draws the answer together. Proofs are in Appendix A.
+at unit elasticity in rearing and then for any elasticity of
+substitution. It shows that the household’s discretion moves numbers
+without deciding anything. Section 4 switches the standard on. It
+derives the household’s rule and the stationary standard, then the
+payer’s preferred form and the threshold that signs the effect of its
+horizon. It also asks what commitment does to that threshold, and how
+far the answer depends on the payer’s own preferences over consumption.
+Section 5 asks what could be done if the household’s weight on its
+successors were private, and shows that a rule responding smoothly to
+the household’s report is truthful only if it pays the household its own
+preferred cash share. Section 6 draws the answer together. Proofs are in
+Appendix A.
 
 # 2. The model
 
@@ -339,23 +373,26 @@ a lower elasticity makes the response damp cash, which the payer answers
 by giving less. Where the two inputs are harder to substitute than at
 unit elasticity, that is all the discretion does. The payer’s problem
 keeps a single peak, and every comparison the economy without discretion
-makes — how the preferred share moves with the fund and with the
-pay-as-you-go share, where the corner lies, and which class wants more
-cash — comes back with the same sign. Where they are easier to
-substitute, the amplification can put a trough in the payer’s objective
-between the corner and an interior peak. A larger fund can then tip the
-payer from a positive cash share to none (Appendix A.4 gives an
-example). A reader who wanted the household’s choice to matter would
-have to ask what else the choice touches, and the answer is the standard
-of necessity.
+makes comes back: the preferred share rises with the fund and with the
+pay-as-you-go share by that economy’s own formulas; the fund below which
+the payer gives no cash takes its form, with the location scaled by the
+relabelling factor; and the household still values cash at the margin.
+Where they are easier to substitute, the amplification can put a trough
+in the payer’s objective between the corner and an interior peak. A
+larger fund can then tip the payer from a positive cash share to none
+(Appendix A.4 gives an example). A reader who wanted the household’s
+choice to matter would have to ask what else the choice touches, and the
+answer is the standard of necessity.
 
 # 4. An inherited standard of necessity
 
-This section switches the standard on. It derives what the household
-does with it, then what it does to the payer’s preferred form, the
-threshold that signs the effect of the payer’s horizon, and what changes
-if the payer can bind itself. Results here are at unit elasticity in
-rearing and to first order in the two habituation rates.
+Switching the standard on gives the payer’s problem a second margin:
+what the household consumes today sets what its successors will count as
+strictly necessary. What follows derives the household’s rule and the
+stationary standard, then the payer’s preferred form, the threshold that
+signs the effect of the payer’s horizon, and what changes if the payer
+can bind itself. Results here are at unit elasticity in rearing and to
+first order in the two habituation rates.
 
 **Proposition 3 (the household and the stationary standard).** *At
 $\varsigma=1$, for any $\kappa\in[0,1)$ and $\kappa_G\ge0$, the
@@ -376,15 +413,20 @@ and $\mu$.*
 
 The standard costs the household a fixed amount and then leaves its
 behaviour unchanged, because logarithmic felicity over what is left
-splits that remainder in the old proportion. Two consequences matter.
-The first is that the standard reaches the next cohort only through
-rearing that has already been paid for out of a smaller purse, so the
-whole of it must be met out of the household’s budget: the public input
-cannot pay it. The second is the benchmark. Hold the rearing share at a
-number and the standard touches nothing the payer values, so the payer’s
-preferred form is what it was in Proposition 1, at every habituation
-rate and every horizon. Whatever the standard does to the payer, it does
-through the household’s discretion.
+splits that remainder in the old proportion. On a path with constant
+output per head the standard settles below the household’s budget
+exactly when what the public input adds to it falls short of the part of
+that budget the household’s own habituation leaves; this holds at every
+rate of the household’s own habituation when the public input leaves no
+mark, and where it fails no such path carries the standard at all. Two
+further consequences matter. The first is that the standard reaches the
+next cohort only through rearing that has already been paid for out of a
+smaller purse, so the whole of it must be met out of the household’s
+budget: the public input cannot pay it. The second is the benchmark.
+Hold the rearing share at a number and the standard touches nothing the
+payer values, so the payer’s preferred form is what it was in
+Proposition 1, at every habituation rate and every horizon. Whatever the
+standard does to the payer, it does through the household’s discretion.
 
 **Proposition 4 (the payer’s form, and the threshold on its horizon).**
 *At $\varsigma=1$, to first order in $(\kappa,\kappa_G)$ at zero, on the
@@ -417,8 +459,12 @@ $\kappa_G$. The payer counts the net change at its own discount factor.
 Where the first rate is the larger, cash rears less tomorrow and a
 patient payer holds back; where the second is the larger, cash rears
 more tomorrow and a patient payer adds cash. Together the two entries
-raise the preferred cash share above $c_C$ at every horizon, and the
-horizon scales the second alone. At $\kappa_G=(1-s)\kappa$ the two rates
+raise the preferred cash share above $c_C$ at every horizon short of a
+full dynasty, and the horizon scales the second alone. Where the public
+input leaves no mark of its own, the same term moves the corner: the
+fund below which the payer gives no cash falls in proportion, so an
+inherited standard buys cash at funds that would otherwise have gone
+entirely into the public input. At $\kappa_G=(1-s)\kappa$ the two rates
 are equal and the payer’s horizon drops out of the form of the fund.
 
 This is what the model answers to the question it was built for. The
@@ -510,57 +556,63 @@ for $\kappa>0$, and the household’s marginal valuation of cash at it is
 strictly positive for $(\kappa,\kappa_G)$ small enough, so a household
 asked to report $\eta$ understates it.*
 
-The household’s peak lies above the payer’s for the reason Proposition 1
-gave: the household eats out of the same budget. That gap is what makes
-reporting profitable. Because the payer’s preferred cash share falls in
-the household’s weight on its successors, a household that reports a
-smaller weight is paid more in cash, and since it values cash at the
-margin it takes the trade. Truthfulness would need the rule to sit
-exactly at the household’s own peak, which the payer does not want, or
-to ignore the report, which makes the report idle. So the
-private-information version of the question has no answer in this class
-of rules, and the payer’s problem is the one Section 4 solved, with the
-household’s weight taken as it is.
+The household’s payoff is strictly concave in the cash share at every
+elasticity of substitution in rearing, not only at unit elasticity, so
+its peak is the only candidate a rule has to beat. That peak lies above
+the payer’s for the reason Proposition 1 gave: the household eats out of
+the same budget. The gap between the two is what makes reporting
+profitable. Because the payer’s preferred cash share falls in the
+household’s weight on its successors, a household that reports a smaller
+weight is paid more in cash, and since it values cash at the margin it
+takes the trade. Truthfulness would need the rule to sit exactly at the
+household’s own peak, which the payer does not want, or to ignore the
+report, which makes the report idle. So the private-information version
+of the question has no answer in this class of rules, and the payer’s
+problem is the one Section 4 solved, with the household’s weight taken
+as it is.
 
 # 6. Conclusion
 
 An employer that funds the rearing of the generation it will hire, and
-that must leave the split to the household, faces a choice of form that
-the cash-versus-kind literature answers from the donor’s tastes. This
-paper derived the answer from the employer’s position instead, and the
-answer is a threshold rather than a direction.
+that must leave the split to the household, faces a choice of form. The
+literature on transfers in cash and in kind answers that choice from the
+donor’s tastes. Answered instead from the employer’s position — it hires
+what the fund rears, so its valuation of the household’s spending is
+derived rather than assumed — the answer is a threshold rather than a
+direction.
 
 The mechanism is a standard of necessity that the next cohort inherits
 from this one’s consumption. Where that standard is absent, the
-household’s discretion over the split decides nothing: the payer’s
-preferred form is what it would be if the payer set the split itself,
-exactly so on the textbook rearing technology and, wherever the payer’s
-choice is interior, up to a relabelling of that technology’s weight off
-it. Where the standard is present, cash does two things at once. It is
-the only source out of which the standard already owed can be met, which
+household’s control of the split decides nothing: the payer’s preferred
+form is what it would be if the payer set the split itself, exactly so
+at unit elasticity in rearing and, wherever the payer’s choice is
+interior, up to a relabelling of the technology’s weight away from it.
+Where the standard is present, cash does two things at once. It is the
+only source out of which the standard already owed can be met, which
 pushes the payer toward cash; and the part of it the household keeps
 raises the standard its successors will inherit, while the public input
-it displaces would have raised that standard too, and the payer weighs
+it displaces would have raised that standard too, so the payer weighs
 the net change at its own discount factor. Together they leave the payer
-wanting more cash than under a fixed standard, whatever its horizon. A
-long horizon strengthens the second effect, and whether that moves the
-fund toward the public input or toward cash depends on how fast the
-payer’s own provision habituates the standard compared with the
-household’s unspent money.
+wanting more cash than under a fixed standard at every horizon short of
+a full dynasty. A long horizon strengthens the second effect alone, and
+whether that moves the fund toward the public input or toward cash
+depends on which of the two habituation rates is the larger.
 
 That displaces the premise the donor-side literature shares with its
 critics: that once we know what the payer values and how patient it is,
 the form of the transfer follows. Here it does not. A payer’s patience
 asks for provision in kind in one economy and for cash in another, with
 the same technology, the same instruments and the same preferences,
-separated only by two habituation rates. The reading under which
-socialised provision of the conditions of reproduction expresses a
-far-sighted employer’s interest is therefore a claim about those rates
-and not about the employer’s horizon, and it can be had only where
-public provision habituates the standard less than the cash households
-do not spend on rearing. A payer that can bind itself at the outset
-faces no such ambiguity, and that is the one case in which patience has
-a direction.
+separated only by two habituation rates. The functionalist reading,
+under which socialised provision of the conditions of reproduction
+expresses a far-sighted employer’s interest, is therefore a claim about
+those rates rather than about the employer’s horizon. It can be had only
+where public provision habituates the standard less than the cash
+households do not spend on rearing. A payer that can bind itself at the
+outset faces no such ambiguity, and that is the one case in which
+patience has a direction: the case is institutional rather than
+temperamental, and it points toward cash whenever the payer’s own
+provision leaves a mark at all.
 
 The results hold where they are proved: at unit elasticity of
 substitution in rearing for everything involving the standard, to first
@@ -574,14 +626,13 @@ of the fund. Extending the results would take two further steps. A
 second order in the habituation rates would say how far from the
 threshold the comparison survives, and a rearing technology off unit
 elasticity would let the relabelling of Proposition 2 interact with the
-standard rather than sit beside it. The horizon that decides the form is
-the payer’s. That the payer here is the owner of capital, with a
-generational horizon and a claim on the output of the cohort the fund
-rears, is the institution written into Section 2, and any principal with
-the same horizon and the same claim faces the same comparison. What the
-model does not contain is a second payer: the threshold is one payer’s,
-and where several fund the same rearing the composition of the fund
-would have to be settled between them.
+standard rather than sit beside it. That the payer here is the owner of
+capital, with a generational horizon and a claim on the output of the
+cohort the fund rears, is the institution written into Section 2. Any
+principal with the same horizon and the same claim faces the same
+comparison. The horizon that decides the form is one payer’s; where
+several fund the same rearing, the composition of the fund would have to
+be settled between them.
 
 What the threshold leaves is an empirical question with an address. It
 asks how much of what a household comes to count as strictly necessary
