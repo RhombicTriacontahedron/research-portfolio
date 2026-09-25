@@ -16,15 +16,15 @@ household’s control of the split changes nothing: the payer’s preferred
 split is the one it would choose if it set the split itself. Once the
 standard is inherited, the two forms separate: at unit elasticity and to
 first order in the habituation rates, the standard raises the payer’s
-preferred cash share at every horizon short of a full dynasty. Which way
-patience then pulls is decided by a comparison the payer’s own nature
-does not settle: a longer horizon moves the fund toward the public input
-exactly when public provision raises the future standard by less than
-unspent cash does. A payer able to bind itself at the outset faces no
-such ambiguity: it moves toward cash whenever its own provision leaves a
-mark at all. Patience therefore has a determinate direction only under
-commitment; elsewhere it points wherever the two habituation rates send
-it, and those rates are an empirical matter.
+preferred cash share at every horizon. Which way patience then pulls is
+decided by a comparison the payer’s own nature does not settle: a longer
+horizon moves the fund toward the public input exactly when public
+provision raises the future standard by less than unspent cash does. A
+payer able to bind itself at the outset faces no such ambiguity: it
+moves toward cash whenever its own provision leaves a mark at all.
+Patience therefore has a determinate direction only under commitment;
+elsewhere it points wherever the two habituation rates send it, and
+those rates are an empirical matter.
 
 **Keywords:** transfers in cash and in kind; reproduction of labour;
 habit formation; subsistence standard; public provision of private
@@ -115,21 +115,20 @@ rearing that has already been paid for out of a smaller purse. At unit
 elasticity in rearing, and to first order in the two habituation rates,
 that raises the payer’s preferred cash share whatever its horizon. The
 comparison does not turn on which way the horizon points: at every
-horizon short of a full dynasty — short, that is, of a payer that values
-its successors exactly as itself — an inherited standard makes the payer
-want more of the fund in cash than it would under a fixed standard.
-Where the public input leaves no mark of its own, the fund below which
-the payer gives no cash falls as well, so the standard buys cash where
-none was given before. But cash also raises the standard the next cohort
-will inherit, at a rate given by how fast the household’s own
-consumption habituates the standard times its propensity to consume out
-of what it has above the standard; and the public input that the cash
-displaced would itself have raised that standard, at its own rate. The
-payer weighs the net of those two at its own discount factor. So a
-longer horizon moves the fund toward the public input exactly when
-public provision habituates the standard less than the unspent cash
-does, and toward cash when it habituates more. At equality the payer’s
-horizon drops out of the form of the fund altogether.
+horizon an inherited standard makes the payer want more of the fund in
+cash than it would under a fixed standard. Where the public input leaves
+no mark of its own, the fund below which the payer gives no cash falls
+as well, so the standard buys cash where none was given before. But cash
+also raises the standard the next cohort will inherit, at a rate given
+by how fast the household’s own consumption habituates the standard
+times its propensity to consume out of what it has above the standard;
+and the public input that the cash displaced would itself have raised
+that standard, at its own rate. The payer weighs the net of those two at
+its own discount factor. So a longer horizon moves the fund toward the
+public input exactly when public provision habituates the standard less
+than the unspent cash does, and toward cash when it habituates more. At
+equality the payer’s horizon drops out of the form of the fund
+altogether.
 
 The third result says what that threshold belongs to: a payer that
 re-optimises. A payer bound at the outset to a constant cash share,
@@ -174,7 +173,8 @@ through sorting with a private top-up (Epple and Romano 1996).
 The nearest rival is the family of arguments in which the form of a
 transfer matters because the payer cannot commit. If tomorrow’s transfer
 will respond to today’s saving, in-kind provision that cannot be resold
-does work that cash cannot (Chatterjee and Dey 2025 in a
+does work that cash cannot (Bruce and Waldman 1991, for a parent and for
+a public programme alike; Chatterjee and Dey 2025 in a
 Samaritan’s-dilemma setting; Currie and Gahvari 2008 survey the family).
 The force in this paper’s ratchet is the same force: money handed over
 today raises what has to be handed over tomorrow. Its origin is not.
@@ -459,13 +459,13 @@ $\kappa_G$. The payer counts the net change at its own discount factor.
 Where the first rate is the larger, cash rears less tomorrow and a
 patient payer holds back; where the second is the larger, cash rears
 more tomorrow and a patient payer adds cash. Together the two entries
-raise the preferred cash share above $c_C$ at every horizon short of a
-full dynasty, and the horizon scales the second alone. Where the public
-input leaves no mark of its own, the same term moves the corner: the
-fund below which the payer gives no cash falls in proportion, so an
-inherited standard buys cash at funds that would otherwise have gone
-entirely into the public input. At $\kappa_G=(1-s)\kappa$ the two rates
-are equal and the payer’s horizon drops out of the form of the fund.
+raise the preferred cash share above $c_C$ at every horizon, and the
+horizon scales the second alone. Where the public input leaves no mark
+of its own, the same term moves the corner: the fund below which the
+payer gives no cash falls in proportion, so an inherited standard buys
+cash at funds that would otherwise have gone entirely into the public
+input. At $\kappa_G=(1-s)\kappa$ the two rates are equal and the payer’s
+horizon drops out of the form of the fund.
 
 This is what the model answers to the question it was built for. The
 form of the fund is not decided by the technology of rearing, because
@@ -593,10 +593,10 @@ pushes the payer toward cash; and the part of it the household keeps
 raises the standard its successors will inherit, while the public input
 it displaces would have raised that standard too, so the payer weighs
 the net change at its own discount factor. Together they leave the payer
-wanting more cash than under a fixed standard at every horizon short of
-a full dynasty. A long horizon strengthens the second effect alone, and
-whether that moves the fund toward the public input or toward cash
-depends on which of the two habituation rates is the larger.
+wanting more cash than under a fixed standard at every horizon. A long
+horizon strengthens the second effect alone, and whether that moves the
+fund toward the public input or toward cash depends on which of the two
+habituation rates is the larger.
 
 That displaces the premise the donor-side literature shares with its
 critics: that once we know what the payer values and how patient it is,
@@ -1091,6 +1091,10 @@ Pareto-efficient provision of public goods. *Social Choice and Welfare*
 
 Barro, R. J. and G. S. Becker (1989). Fertility choice in a model of
 economic growth. *Econometrica* 57(2), 481–501.
+
+Bruce, N. and M. Waldman (1991). Transfers in kind: Why they can be
+efficient and nonpaternalistic. *American Economic Review* 81(5),
+1345–1351.
 
 Chatterjee, S. and S. Dey (2025). Conditionality matters: A Samaritan’s
 Dilemma with in-kind transfers targeting educational attainment. *IIMB
