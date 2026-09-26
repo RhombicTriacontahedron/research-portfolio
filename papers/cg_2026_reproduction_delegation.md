@@ -20,11 +20,11 @@ preferred cash share at every horizon. Which way patience then pulls is
 decided by a comparison the payer’s own nature does not settle: a longer
 horizon moves the fund toward the public input exactly when public
 provision raises the future standard by less than unspent cash does. A
-payer able to bind itself at the outset faces no such ambiguity: it
-moves toward cash whenever its own provision leaves a mark at all.
-Patience therefore has a determinate direction only under commitment;
-elsewhere it points wherever the two habituation rates send it, and
-those rates are an empirical matter.
+payer held by a rule to one cash share faces no such ambiguity: it moves
+toward cash whenever its own provision leaves a mark at all. Patience
+therefore has a determinate direction only under such a rule; elsewhere
+it points wherever the two habituation rates send it, and those rates
+are an empirical matter.
 
 **Keywords:** transfers in cash and in kind; reproduction of labour;
 habit formation; subsistence standard; public provision of private
@@ -93,19 +93,22 @@ unit elasticity, the textbook Cobb–Douglas case, the household spends a
 constant fraction of whatever it is handed, and that fraction drops out
 of the payer’s comparison. The payer’s preferred cash share is then
 exactly the share it would pick if it set the split itself — the same
-number, and one that depends on neither party’s preferences. Away from
-unit elasticity the household’s discretion is a relabelling: it is
-equivalent to changing the weight the rearing technology puts on the
-household’s own spending, upward where the two inputs substitute easily
-and downward where they do not. Where they substitute less easily than
-at unit elasticity, the relabelling is the whole of it. The preferred
-cash share moves with the size of the fund, and with the share of the
-wage bill paid to the retired, by the same formulas as in an economy
-with no discretion at all; the fund below which the payer gives no cash
-takes the same form; and the household still values cash at the margin.
-Where they substitute more easily, the household’s response can put a
-trough in the payer’s objective between the corner and an interior peak,
-and a growing fund can tip the payer from a positive cash share to none.
+number, and one that depends on neither party’s preferences. Unless
+pensions take a large enough share of the wage bill, cash at all needs a
+fund the payer would not have set: a payer choosing the size of the fund
+as well as its form puts all of it in kind. Away from unit elasticity
+the household’s discretion is a relabelling: it is equivalent to
+changing the weight the rearing technology puts on the household’s own
+spending, upward where the two inputs substitute easily and downward
+where they do not. Where they substitute less easily than at unit
+elasticity, the relabelling is the whole of it. The preferred cash share
+moves with the size of the fund, and with the share of the wage bill
+paid to the retired, by the same formulas as in an economy with no
+discretion at all; the fund below which the payer gives no cash takes
+the same form; and the household still values cash at the margin. Where
+they substitute more easily, the household’s response can put a trough
+in the payer’s objective between the corner and an interior peak, and a
+growing fund can tip the payer from a positive cash share to none.
 
 The second result is that the payer’s patience does not settle the form
 either. Switch the inherited standard on, and the two forms stop being
@@ -130,22 +133,29 @@ than the unspent cash does, and toward cash when it habituates more. At
 equality the payer’s horizon drops out of the form of the fund
 altogether.
 
-The third result says what that threshold belongs to: a payer that
-re-optimises. A payer bound at the outset to a constant cash share,
-starting from a standard of zero, faces a standard that scales with the
-very money that pays it: what the household is asked to owe and the
-money that pays it then move together, the household’s own habituation
-drops out of the comparison, and the only mark left is the one the
-payer’s own provision makes. Such a payer’s patience moves the fund
-toward cash whenever its provision habituates at all, and there is no
-threshold. Timing is not what does this: a payer choosing at the very
-first date, before anything has been inherited, weighs the same two
-rates in the same order as the re-optimiser. Finally, if the household’s
-own weight on the generation it rears were private, no rule that varied
-smoothly with the household’s report would draw a truthful one except a
-rule that pays the household its own preferred cash share, which is more
-cash than the payer wants; under the payer’s own rule a household asked
-to report understates, because understating is rewarded in cash.
+The third result says what that threshold belongs to: a payer free to
+set its cash share at every date. That is also what a payer able to bind
+itself would do, because each generation of owners maximises exactly
+what the one before it values; starting from a standard of zero, such a
+payer gives less cash at the first date than once the standard has
+settled. A rule that holds the payer to one cash share changes the
+answer. The standard then scales with the very money that pays it: what
+the household is asked to owe and the money that pays it move together,
+the household’s own habituation drops out of the comparison, and the
+only mark left is the one the payer’s own provision makes. Under such a
+rule the payer’s patience moves the fund toward cash whenever its
+provision habituates at all, and there is no threshold. Timing is not
+what does this: a payer choosing at the very first date, before anything
+has been inherited, weighs the same two rates in the same order as one
+choosing later. Finally, if the household’s own weight on the generation
+it rears were private, no rule that varied smoothly with the household’s
+report would draw a truthful one except a rule that pays the household
+its own preferred cash share, which is more cash than the payer wants;
+under the payer’s own rule a household asked to report understates,
+because understating is rewarded in cash. When the habituation rates are
+small, a menu of shares does the payer no good either. Every household
+wants more cash than the payer would give any of them, so the payer’s
+best answer is one share, set for the average household.
 
 Three literatures bear on this, and each is missing one of the three
 ingredients; which one is missing is what tells a reader what the
@@ -193,16 +203,18 @@ public input, and a standard of necessity that the next cohort inherits.
 Section 3 works out the benchmark in which the standard is fixed, first
 at unit elasticity in rearing and then for any elasticity of
 substitution. It shows that the household’s discretion moves numbers
-without deciding anything. Section 4 switches the standard on. It
-derives the household’s rule and the stationary standard, then the
-payer’s preferred form and the threshold that signs the effect of its
-horizon. It also asks what commitment does to that threshold, and how
-far the answer depends on the payer’s own preferences over consumption.
-Section 5 asks what could be done if the household’s weight on its
-successors were private, and shows that a rule responding smoothly to
-the household’s report is truthful only if it pays the household its own
-preferred cash share. Section 6 draws the answer together. Proofs are in
-Appendix A.
+without deciding anything, and what a payer that also set the size of
+the fund would choose. Section 4 switches the standard on. It derives
+the household’s rule and the stationary standard, then the payer’s
+preferred form and the threshold that signs the effect of its horizon.
+It also asks what a rule fixing the cash share does to that threshold,
+and how far the answer depends on the payer’s own preferences over
+consumption. Section 5 asks what could be done if the household’s weight
+on its successors were private, and shows that a rule responding
+smoothly to the household’s report is truthful only if it pays the
+household its own preferred cash share, and that no menu of shares beats
+a single one when the habituation rates are small. Section 6 draws the
+answer together. Proofs are in Appendix A.
 
 # 2. The model
 
@@ -210,10 +222,11 @@ This section sets out the economy and fixes what is compared: two
 preferred forms of one fund, at a given cost to the payer.
 
 **Production and time.** Output is $Y_t=AK_t^{\alpha}N_t^{1-\alpha}$
-with $0<\alpha<1$, where $N_t$ is the working cohort. Capital
-depreciates fully, a period is a generation, and the generational
-discount factor is $\beta\in(0,1)$. Production is Cobb–Douglas
-throughout.
+with $0<\alpha<1$, where $N_t$ is the working cohort measured in
+efficiency units, so that it counts both how many workers there are and
+what each has been reared to do. Capital depreciates fully, a period is
+a generation, and the generational discount factor is $\beta\in(0,1)$.
+Production is Cobb–Douglas throughout.
 
 **Instruments and institutions.** Every instrument is a share of capital
 income $\alpha Y_t$. A levy $\rho_t$ finances a public input to rearing,
@@ -335,6 +348,33 @@ generation. The corner has a reading too: below a fund of $\tau_F$ the
 wage already carries so much of the private input that the payer puts
 the whole fund into the public one.
 
+**Corollary to Proposition 1 (the payer’s own fund).** *At $\varsigma=1$
+and $\kappa=\kappa_G=0$, let the payer choose the fund $\tau\in[0,1)$ as
+well as the cash share, and write
+$\tilde\beta=L\gamma(1-\alpha)/(1-L+L\gamma\alpha)$. The payer’s
+preferred pair is unique, and its cash share is positive if and only if*
+$$\tilde\beta\bigl[\theta\alpha-(1-\theta)D\bigr]>D ;$$ *otherwise the
+payer puts the whole fund in kind, at
+$\tau^*=\tilde\beta(1-\theta)/\bigl(1+\tilde\beta(1-\theta)\bigr)\le\tau_F$.
+Unless $\pi>(1-\theta)/\bigl(1-\theta(1-\alpha)\bigr)$ the inequality
+fails at every horizon, and then every fund at which the payer gives
+cash exceeds the fund it would choose. In particular this holds at
+$\pi=0$.*
+
+In every other result the size of the fund is given. A payer that sets
+the fund weighs what it withholds from its own consumption and
+investment, at weight $1+La$ on $\ln(1-\tau)$, against the larger cohort
+the fund rears. At the size it would pick, the wage already carries so
+much of the private input that the payer wants none of the fund in cash,
+unless pensions draw more than
+$(1-\theta)/\bigl(1-\theta(1-\alpha)\bigr)$ of the wage bill. That bound
+falls as the technology leans on the household’s own spending: at a
+capital share of $0.35$ it is about three quarters with equal weights on
+the two rearing inputs, and about a quarter at $\theta=0.9$. So wherever
+the cash share of Proposition 1 is positive and pensions are below that
+bound, the fund is larger than the payer would choose, so someone other
+than the payer has set it.
+
 **Proposition 2 (the discretion relabels the technology).** *At
 $\kappa=\kappa_G=0$ and any $\varsigma>0$, let $x=R_t/G_t$ and let
 $\phi=\theta x^{\varepsilon}/(\theta x^{\varepsilon}+1-\theta)$ be the
@@ -380,7 +420,7 @@ relabelling factor; and the household still values cash at the margin.
 Where they are easier to substitute, the amplification can put a trough
 in the payer’s objective between the corner and an interior peak. A
 larger fund can then tip the payer from a positive cash share to none
-(Appendix A.4 gives an example). A reader who wanted the household’s
+(Appendix A.5 gives an example). A reader who wanted the household’s
 choice to matter would have to ask what else the choice touches, and the
 answer is the standard of necessity.
 
@@ -390,9 +430,9 @@ Switching the standard on gives the payer’s problem a second margin:
 what the household consumes today sets what its successors will count as
 strictly necessary. What follows derives the household’s rule and the
 stationary standard, then the payer’s preferred form, the threshold that
-signs the effect of the payer’s horizon, and what changes if the payer
-can bind itself. Results here are at unit elasticity in rearing and to
-first order in the two habituation rates.
+signs the effect of the payer’s horizon, and what changes if a rule
+holds the payer to one cash share. Results here are at unit elasticity
+in rearing and to first order in the two habituation rates.
 
 **Proposition 3 (the household and the stationary standard).** *At
 $\varsigma=1$, for any $\kappa\in[0,1)$ and $\kappa_G\ge0$, the
@@ -481,9 +521,9 @@ money does. A reader who wants the direction back must measure
 $\kappa_G$ against $(1-s)\kappa$, and the model says nothing about which
 side of that an economy sits on.
 
-**Proposition 5 (commitment and the first date).** *At $\varsigma=1$ and
-to first order in $(\kappa,\kappa_G)$ at zero, starting from
-$\bar X_0=0$:*
+**Proposition 5 (a fixed cash share and the first date).** *At
+$\varsigma=1$ and to first order in $(\kappa,\kappa_G)$ at zero,
+starting from $\bar X_0=0$:*
 
 *(i) a payer bound at the outset to a constant cash share prefers
 $c^*=c_C+\kappa_G L(1-\theta)w_C/(\theta\alpha)$, with no term in
@@ -495,14 +535,25 @@ accumulated, prefers
 $c^*=c_C+L(1-\theta)w_C\bigl[\kappa_G-\kappa(1-s)\bigr]/\alpha$, whose
 horizon effect is the one in Proposition 4.*
 
-Commitment removes the ratchet from the comparison. A payer who fixes
-its cash share once and for all faces a standard that scales with the
-money out of which it is paid, so the household’s consumption
-habituation washes out of the logarithm and the only mark left is the
-one the payer’s own provision makes. Such a payer’s horizon therefore
-moves the fund toward cash whenever its provision habituates at all, and
-there is no threshold. So the threshold of Proposition 4 belongs to a
-payer who re-optimises, and what it prices is the obligation that this
+A fixed cash share removes the ratchet from the comparison. A payer held
+to one cash share for ever faces a standard that scales with the money
+out of which it is paid, so the household’s consumption habituation
+washes out of the logarithm and the only mark left is the one the
+payer’s own provision makes. Under such a rule the payer’s horizon moves
+the fund toward cash whenever its provision habituates at all, and there
+is no threshold. The rule leaves the payer worse off than its own best
+policy. Its problem is time-consistent, since each generation of owners
+maximises exactly the continuation that the one before it values, so a
+payer able to bind itself at the outset would choose the policy it
+follows anyway. Starting from a standard of zero, that policy sets the
+share in (ii) at the first date and Proposition 4’s on the stationary
+path, and Proposition 4’s exceeds the share in (ii) by
+$(1-\theta)q/\alpha$, with $q$ the stationary standard of Proposition 3
+at $c_C$. The payer gives less cash at the first date, when nothing is
+owed, than once the standard has settled, because what is owed can be
+met only out of cash; a single share cannot do both. So the threshold of
+Proposition 4 belongs to the payer’s own best policy, whether or not it
+can commit, and what the threshold prices is the obligation that this
 period’s generosity leaves for the next one to meet. The timing of the
 decision does not disturb it: a payer choosing at the very first date,
 when nothing has yet been inherited, weighs the same two rates in the
@@ -535,7 +586,9 @@ own valuation of the generation it rears. This section asks what the
 payer could do if only the household knew that valuation. A rule that
 responds smoothly to the household’s report draws a truthful report only
 if it pays the household its own preferred cash share, which the payer
-does not want.
+does not want. When the habituation rates are small, no menu of shares
+does better for the payer than a single share, set for a household with
+the average propensity to consume.
 
 **Proposition 6 (a report of the household’s weight).** *At
 $\varsigma=1$ and any standard $0\le q<D$ owed at the date, the
@@ -566,10 +619,37 @@ household’s weight on its successors, a household that reports a smaller
 weight is paid more in cash, and since it values cash at the margin it
 takes the trade. Truthfulness would need the rule to sit exactly at the
 household’s own peak, which the payer does not want, or to ignore the
-report, which makes the report idle. So the private-information version
-of the question has no answer in this class of rules, and the payer’s
-problem is the one Section 4 solved, with the household’s weight taken
-as it is.
+report, which makes the report idle. A smooth rule is not the whole of
+what the payer can offer. Without transfers, any rule comes down to a
+set of shares from which the household takes the one it prefers (Alonso
+and Matouschek 2008), and with enough disagreement between the two
+parties the best such rule jumps rather than varying smoothly (Melumad
+and Shibano 1991). Here the disagreement is large where it matters, and
+the best set is a single share.
+
+**Corollary to Proposition 6 (a menu of cash shares).** *Let
+$\tau>\tau_F$, let the household’s weight $\eta$ be private and drawn
+from a distribution on a closed interval of positive weights, and let
+the payer offer at the date any non-empty closed set of cash shares in
+$[0,\tau)$, from which the household takes one it prefers. For
+$(\kappa,\kappa_G)$ small enough, no such set gives the payer a higher
+expected value of its objective in Proposition 4 than the best single
+share, and any set that does as well gives the same share to almost
+every household. To first order in $(\kappa,\kappa_G)$ the best single
+share is Proposition 4’s $c^*$ with $1-s$ replaced by its expected
+value.*
+
+Every household wants more cash than the payer would give any household,
+by a margin that does not shrink with the habituation rates, while the
+payer’s preferred shares for different households differ only by amounts
+of the order of those rates. So a household offered a menu takes either
+the largest share on offer close to the payer’s own or one well above
+it. The first choice is the same for every household that makes it, and
+the second costs the payer more than tailoring the share could gain.
+Private information about the weight therefore changes the payer’s
+answer only through an average: the payer sets one cash share,
+Proposition 4’s for a household whose propensity to consume is the
+population’s mean.
 
 # 6. Conclusion
 
@@ -587,16 +667,23 @@ household’s control of the split decides nothing: the payer’s preferred
 form is what it would be if the payer set the split itself, exactly so
 at unit elasticity in rearing and, wherever the payer’s choice is
 interior, up to a relabelling of the technology’s weight away from it.
-Where the standard is present, cash does two things at once. It is the
-only source out of which the standard already owed can be met, which
-pushes the payer toward cash; and the part of it the household keeps
-raises the standard its successors will inherit, while the public input
-it displaces would have raised that standard too, so the payer weighs
-the net change at its own discount factor. Together they leave the payer
-wanting more cash than under a fixed standard at every horizon. A long
-horizon strengthens the second effect alone, and whether that moves the
-fund toward the public input or toward cash depends on which of the two
-habituation rates is the larger.
+At unit elasticity, a payer that also set the size of the fund would
+give no cash unless pensions drew more of the wage bill than a bound set
+by the two technologies. Where they do not, any fund that pays cash is
+larger than the payer would have chosen. Where the standard is present,
+cash does two things at once. It is the only source out of which the
+standard already owed can be met, which pushes the payer toward cash;
+and the part of it the household keeps raises the standard its
+successors will inherit, while the public input it displaces would have
+raised that standard too, so the payer weighs the net change at its own
+discount factor. Together they leave the payer wanting more cash than
+under a fixed standard at every horizon. A long horizon strengthens the
+second effect alone, and whether that moves the fund toward the public
+input or toward cash depends on which of the two habituation rates is
+the larger. Private information about the household’s weight on the
+generation it rears changes the answer only through an average: when the
+habituation rates are small, the payer’s best response is one cash
+share, set for a household with the average propensity to consume.
 
 That displaces the premise the donor-side literature shares with its
 critics: that once we know what the payer values and how patient it is,
@@ -608,11 +695,12 @@ under which socialised provision of the conditions of reproduction
 expresses a far-sighted employer’s interest, is therefore a claim about
 those rates rather than about the employer’s horizon. It can be had only
 where public provision habituates the standard less than the cash
-households do not spend on rearing. A payer that can bind itself at the
-outset faces no such ambiguity, and that is the one case in which
+households do not spend on rearing. A rule that holds the payer to one
+cash share leaves no such ambiguity, and that is the one case in which
 patience has a direction: the case is institutional rather than
-temperamental, and it points toward cash whenever the payer’s own
-provision leaves a mark at all.
+temperamental, a statutory share that a payer free to choose, or to
+commit, would not adopt, and it points toward cash whenever the payer’s
+own provision leaves a mark at all.
 
 The results hold where they are proved: at unit elasticity of
 substitution in rearing for everything involving the standard, to first
@@ -622,24 +710,27 @@ economy’s steady state. Off unit elasticity the comparative statics of
 the benchmark hold where the two rearing inputs are harder to substitute
 than at unit elasticity. Where they are easier, the payer’s objective
 can have two peaks, and which of them is higher can change with the size
-of the fund. Extending the results would take two further steps. A
+of the fund. Extending the results would take three further steps. A
 second order in the habituation rates would say how far from the
 threshold the comparison survives, and a rearing technology off unit
 elasticity would let the relabelling of Proposition 2 interact with the
-standard rather than sit beside it. That the payer here is the owner of
-capital, with a generational horizon and a claim on the output of the
-cohort the fund rears, is the institution written into Section 2. Any
-principal with the same horizon and the same claim faces the same
-comparison. The horizon that decides the form is one payer’s; where
-several fund the same rearing, the composition of the fund would have to
-be settled between them.
+standard rather than sit beside it. A payer that sets its own fund once
+the standard is inherited faces a corner that the standard moves
+(Proposition 4). Whether it still gives no cash without pensions turns
+on how far that corner moves against the fund it would choose. That the
+payer here is the owner of capital, with a generational horizon and a
+claim on the output of the cohort the fund rears, is the institution
+written into Section 2. Any principal with the same horizon and the same
+claim faces the same comparison. The horizon that decides the form is
+one payer’s; where several fund the same rearing, the composition of the
+fund would have to be settled between them.
 
 What the threshold leaves is an empirical question with an address. It
 asks how much of what a household comes to count as strictly necessary
 is set by what it consumed out of its own budget, and how much by what
-it was given in kind. Those two rates decide which way a re-optimising
-payer’s patience moves the fund, and until they are measured that
-patience predicts nothing about the direction.
+it was given in kind. Those two rates decide which way the patience of a
+payer free to set its cash share moves the fund, and until they are
+measured that patience predicts nothing about the direction.
 
 # Appendix A. Proofs
 
@@ -757,7 +848,54 @@ Evaluated at $c_C$, the second term is
 $k(1-\theta)\alpha\theta/\bigl((1-\theta)w_C\bigr)=k\theta\alpha/w_C$
 and the sum is $\alpha\mu/w_C>0$. $\square$
 
-## A.4 Proof of Proposition 2
+## A.4 Proof of Corollary to Proposition 1
+
+With the fund a choice, what the owners retain at the date is
+$M_t=(1-\tau)\alpha Y_t$, so the flow of Lemma A.1 becomes
+$\ln(1-\tau)+\ln Y_t$ up to a constant, and
+$\ln K_{t+1}=\ln\bigl(\omega(1-\tau)\alpha\bigr)+\ln Y_t$. At
+$\kappa=\kappa_G=0$ the coefficient matching of Lemma A.1 goes through
+unchanged, because the instruments enter the laws of motion through
+terms free of the state; the value of a constant policy $(c,\tau)$ is
+therefore $a\ln K_t+b\ln N_t+\Phi(c,\tau)/(1-L)$ up to a constant, with,
+using $r=sw$ from Lemma A.2,
+$$\Phi(c,\tau)=(1+La)\ln(1-\tau)+Lb\gamma\bigl[\theta\ln(D+\alpha c)+(1-\theta)\ln\alpha(\tau-c)\bigr],$$
+and since the state enters with coefficients free of the policy, the
+payer’s choice at any date maximises the same $\Phi$ on
+$\{0\le c<\tau<1\}$. Its Hessian is
+$-\bigl[u\,e_1e_1^{\top}+v\,(e_1-e_2)(e_1-e_2)^{\top}+z\,e_2e_2^{\top}\bigr]$
+with $u=Lb\gamma\theta\alpha^2/(D+\alpha c)^2$,
+$v=Lb\gamma(1-\theta)/(\tau-c)^2$ and $z=(1+La)/(1-\tau)^2$, all
+positive, so $\Phi$ is strictly concave on a convex set. It tends to
+$-\infty$ as $\tau\to1$ and as $\tau-c\to0$, so it has a unique
+maximiser, characterised by its first-order conditions together with the
+constraint $c\ge0$.
+
+At $c=0$ the condition in $\tau$ is
+$(1+La)/(1-\tau)=Lb\gamma(1-\theta)/\tau$, that is
+$\tau=\tilde\beta(1-\theta)(1-\tau)$ with
+$\tilde\beta=L\gamma b/(1+La)$, and
+$L\gamma b/(1+La)=L\gamma(1-\alpha)/(1-L+L\gamma\alpha)$ by the ratio in
+Lemma A.1; this gives $\tau^*$. The corner is the maximiser if and only
+if $\partial\Phi/\partial c\le0$ there, and
+$$\frac{\partial\Phi}{\partial c}(0,\tau^*)=\frac{Lb\gamma}{D\tau^*}\bigl[\theta\alpha\tau^*-(1-\theta)D\bigr],\qquad \theta\alpha\tau^*-(1-\theta)D=\frac{(1-\theta)\bigl\{\tilde\beta\bigl[\theta\alpha-(1-\theta)D\bigr]-D\bigr\}}{1+\tilde\beta(1-\theta)} .$$
+So the cash share is positive exactly under the displayed inequality;
+otherwise $\theta\alpha\tau^*\le(1-\theta)D$, that is $\tau^*\le\tau_F$.
+
+For the bound,
+$(1-\alpha)/\alpha-\tilde\beta=(1-\alpha)(1-L)/\bigl(\alpha(1-L+L\gamma\alpha)\bigr)>0$
+because $L<1$. If the inequality holds, then
+$\theta\alpha-(1-\theta)D>0$ and hence
+$\frac{1-\alpha}{\alpha}\bigl[\theta\alpha-(1-\theta)D\bigr]>D$, which
+with $D=(1-\pi)(1-\alpha)$ rearranges to
+$\theta\alpha>(1-\pi)\bigl(1-\theta(1-\alpha)\bigr)$, that is
+$$\pi>1-\frac{\theta\alpha}{1-\theta(1-\alpha)}=\frac{1-\theta}{1-\theta(1-\alpha)},$$
+a number in $(0,1)$. Where it fails, the payer’s own fund is
+$\tau^*\le\tau_F$, and by Proposition 1 a fund carries a positive cash
+share only if it exceeds $\tau_F$. At $\pi=0$ the bound is positive, so
+the inequality fails. $\square$
+
+## A.5 Proof of Proposition 2
 
 At $q=0$ put $T=w+g=D+\alpha\tau$, a constant at a given fund, and
 parametrise by $x=r/g$. From $r=sw$, $w/g=x/s$, so $g=Ts/(s+x)$ and
@@ -857,7 +995,7 @@ $\tau=0.285$ and the corner $c=0$ at $\tau=0.315$: the corner’s value
 falls short of the interior peak’s at the smaller fund and exceeds it at
 the larger. $\square$
 
-## A.5 Proof of Proposition 3
+## A.6 Proof of Proposition 3
 
 The law of the standard does not enter the household’s problem, so Lemma
 A.2 applies with $q>0$ and gives $R_t=s(W_t-\bar X_tN_t)$ at
@@ -879,7 +1017,7 @@ by the argument of A.3; the standard appears nowhere in it, hence at
 every $\kappa$, $\kappa_G$, $L$, $\eta$ and $\mu$ the held-share
 economy’s preferred cash share is $c_C$. $\square$
 
-## A.6 Proof of Proposition 4
+## A.7 Proof of Proposition 4
 
 Write $Q(c)=\kappa(1-s)w(c)+\kappa_G\alpha(\tau-c)$, the first-order
 stationary standard produced by a constant cash share $c$: along any ray
@@ -962,9 +1100,9 @@ $\partial c_C/\partial\tau=\theta$, to first order
 $$\bar\tau-\tau_F=-\frac{\kappa(1-L)(1-\theta)(1-s)D}{\alpha\theta}=-\kappa(1-L)(1-s)\,\tau_F ,$$
 which is the displayed $\bar\tau$. $\square$
 
-## A.7 Proof of Proposition 5
+## A.8 Proof of Proposition 5
 
-Both parts use the decomposition of A.6, with the dates that carry a
+Both parts use the decomposition of A.7, with the dates that carry a
 first-order term changed.
 
 1)  A payer bound at the outset to a constant cash share, from
@@ -973,14 +1111,14 @@ first-order term changed.
     times the discounted sum of the output-per-head ratios, which on the
     stationary path is $L/(1-L)$. The first-order part is then
     $-Lb\gamma\theta\,Q(c)H(\Delta)/w(c)$ with $H(0)=L/(1-L)$, and $H$
-    is twice continuously differentiable by the bound in A.6, since
+    is twice continuously differentiable by the bound in A.7, since
     under a constant deviation the logarithm of each ratio of output per
     head again moves by $[\alpha(1-\gamma)]^{j-1}$ times a fixed
     multiple of $\Delta$; its derivative at $c_C$ is
     $\bigl[Q'(c_C)-Q(c_C)\alpha/w_C\bigr]L/\bigl((1-L)w_C\bigr)$; the
     zeroth-order part is now $Lb\,h(c,0)/(1-L)$, so its second
     derivative carries the same factor $1/(1-L)$, which cancels.
-    Dividing as in A.6,
+    Dividing as in A.7,
     $$\mathrm{d}c^*=\frac{(1-\theta)L}{\alpha}\Bigl[Q(c_C)-\frac{w_CQ'(c_C)}{\alpha}\Bigr] ,$$
     and substituting
     $Q(c_C)=\kappa(1-s)w_C+\kappa_G(1-\theta)w_C/\theta$ and
@@ -999,12 +1137,12 @@ first-order term changed.
     stationary ones, so only the date-$(t+1)$ term responds to its
     choice: the first-order part is $-Lb\gamma\theta LQ(c)/w(\bar c)$,
     whose derivative at $c_C$ is $-Lb\gamma\theta LQ'(c_C)/w_C$.
-    Dividing by the same second derivative as in A.6,
+    Dividing by the same second derivative as in A.7,
     $$\mathrm{d}c^*=-\frac{L(1-\theta)w_CQ'(c_C)}{\alpha^2}=\frac{L(1-\theta)w_C}{\alpha}\bigl[\kappa_G-\kappa(1-s)\bigr],$$
     whose derivative in $L$ is the expression in Proposition 4.
     $\square$
 
-## A.8 Proof of Proposition 6
+## A.9 Proof of Proposition 6
 
 At $\varsigma=1$, substituting the household’s rule $r=s(w-q)$ into its
 felicity gives, up to a constant,
@@ -1071,7 +1209,70 @@ household’s peak. Since $c^*$ is decreasing in the report and
 $V_H'(c^*)>0$, a household reporting $\hat\eta<\eta$ raises the cash
 share and its own payoff, so it understates $\eta$. $\square$
 
-## A.9 Proof of Remark 1
+## A.10 Proof of Corollary to Proposition 6
+
+Write $P(c;\eta)$ for the payer’s objective at the date when the
+household’s weight is $\eta$ and the date’s cash share is $c$, the rest
+of the economy’s laws being those of Proposition 4. The laws of motion
+in the proof of Lemma A.1 are linear in the logarithms, and the rearing
+term $h$ of each date enters $\ln N$ of the next date additively; a unit
+increase in the date-$(t+j)$ term therefore raises the payer’s value by
+$L^{j+1}b$. Hence
+$$P(c;\eta)=K(\eta)+Lb\,h(c,0)+E(c;\eta),\qquad E(c;\eta)=\sum_{j\ge0}L^{j+1}b\,\gamma\theta\ln\Bigl(1-\frac{q_{t+j}}{w_{t+j}}\Bigr),$$
+where $K(\eta)$ does not depend on $c$, $h(c,0)$ depends on $\eta$ only
+through an additive term (Lemma A.2), $q_{t+j}$ is the standard owed at
+date $t+j$ along the path and $w_{t+j}$ the household’s budget there,
+both shares of that date’s output. Every term of $E$ is non-positive,
+since $0\le q<w$, so $E\le0$ at every $c$. On any compact subset of
+$[0,\tau)$ each date’s standard is at most a fixed multiple of
+$|(\kappa,\kappa_G)|$, as in A.7, so $|E|\le C|(\kappa,\kappa_G)|$
+there, with $C$ independent of $\eta$ on the interval of weights.
+
+By Proposition 6 the household’s payoff is strictly concave in $c$, with
+peak $c_H(\eta,q)$, and subtracting $c_C$ from $c_H$ gives
+$$c_H(\eta,q)-c_C=\frac{(1-\theta)\bigl[\mu(\alpha\tau+D)+kq\bigr]}{\alpha(\mu+k)}\ge\frac{(1-\theta)\mu(\alpha\tau+D)}{\alpha(\mu+\gamma\bar\eta)}\equiv2\delta>0 ,$$
+with $\bar\eta$ the largest weight in the interval and $q\ge0$. Since
+$\tau>\tau_F$, $c_C>0$ and every peak is interior. Let
+$\varepsilon=Lb\bigl[h(c_C,0)-h(c_C+\delta,0)\bigr]$, positive because
+$h(\cdot,0)$ is strictly concave with its peak at $c_C$ (A.3), and let
+$N_1=\{c\ge0:Lb[h(c_C,0)-h(c,0)]\le\varepsilon/2\}$, a compact interval
+around $c_C$ that lies below $c_C+\delta$.
+
+Let $S$ be the set offered. If $S$ meets $[0,c_C+\delta]$, let $x_0$ be
+its largest point there. Every household’s peak lies above
+$c_C+2\delta$, so it prefers $x_0$ to every smaller point of $S$ and
+takes either $x_0$ or a point above $c_C+\delta$. Let $A$ be the set of
+weights whose household takes $x_0$ (empty if $S$ misses
+$[0,c_C+\delta]$) and $p$ the probability of its complement. A household
+outside $A$ takes some $c\ge c_C+\delta$, where
+$P(c;\eta)\le K(\eta)+Lb\,h(c,0)\le K(\eta)+Lb\,h(c_C,0)-\varepsilon$.
+
+If $x_0\in N_1$, compare $S$ with the single share $x_0$. On $A$ the two
+give the same share. Off $A$ the single share gives
+$P(x_0;\eta)\ge K(\eta)+Lb\,h(c_C,0)-\varepsilon/2-C|(\kappa,\kappa_G)|$.
+So the single share does better by at least
+$p\bigl(\varepsilon/2-C|(\kappa,\kappa_G)|\bigr)$, which is positive
+once $|(\kappa,\kappa_G)|<\varepsilon/(2C)$ and $p>0$, and zero when
+$p=0$. If $x_0\notin N_1$, or $A$ is empty, every household gets at most
+$K(\eta)+Lb\,h(c_C,0)-\varepsilon/2$ from $S$, while the single share
+$c_C$ gives every household at least
+$K(\eta)+Lb\,h(c_C,0)-C|(\kappa,\kappa_G)|$, which is more once
+$|(\kappa,\kappa_G)|<\varepsilon/(2C)$. Hence no set does better than
+the best single share, and a set that does as well has $x_0\in N_1$ and
+$p=0$: almost every household takes $x_0$.
+
+The best single share maximises the expectation of $P(\cdot;\eta)$,
+which is $Lb\,h(c,0)$ plus the expectation of $E$ up to a constant; by
+the bounds above its maximiser lies in $N_1$, where the expansion of A.7
+applies. The second derivative of $Lb\,h(\cdot,0)$ at $c_C$ does not
+involve $\eta$, and the first-order part of $E$ enters the shift of the
+maximiser linearly. Averaging the shift of A.7 over $\eta$ therefore
+gives the shift of the best single share, and that shift is affine in
+$1-s$, with every other term free of $\eta$. So the best single share is
+Proposition 4’s $c^*$ with $1-s$ replaced by its expected value, to
+first order. $\square$
+
+## A.11 Proof of Remark 1
 
 With $u(z)=z^{1-\sigma}/(1-\sigma)$ for $\sigma\neq1$ and
 $Y'=A(K')^{\alpha}(N')^{1-\alpha}$,
@@ -1084,6 +1285,9 @@ $K'$. At $\sigma=1$ the valuation is $L(1-\alpha)/N'$, free of $K'$.
 $\square$
 
 # References
+
+Alonso, R. and N. Matouschek (2008). Optimal delegation. *Review of
+Economic Studies* 75(1), 259–293.
 
 Aronsson, T. and R. Schöb (2022). Habit formation and the
 Pareto-efficient provision of public goods. *Social Choice and Welfare*
@@ -1128,6 +1332,9 @@ economy. *Journal of Public Economics* 122, 31–39.
 
 König, T. and T. Lausen (2017). Relative consumption preferences and
 public provision of private goods. CRC TRR 190 Discussion Paper 18.
+
+Melumad, N. D. and T. Shibano (1991). Communication in settings with no
+transfers. *RAND Journal of Economics* 22(2), 173.
 
 Miller, S. M. and K. C. Neanidis (2015). Demographic transition and
 economic welfare: the role of in-cash and in-kind transfers. *Quarterly
