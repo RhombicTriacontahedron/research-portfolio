@@ -26,9 +26,10 @@ instrument. A rule is a map from that weight to a feasible policy.
 Implementation is whether some mechanism produces the image of the map.
 
 If everyone sees the weight, any feasible named rule is implemented by
-selecting its image. If firms keep control of the machine mix, only the
-tax remains political. If one class alone sees the weight, that class
-will report its own assigned programme truthfully. Once firms lock the
+selecting its image. If firms keep control of the machine mix — how far
+the technology in use augments labour rather than capital — only the tax
+remains political. If one class alone sees the weight, that class will
+report its own assigned programme truthfully. Once firms lock the
 machine mix, so that only the tax remains political, it will not report
 the other class’s tax truthfully, and it will not report a compromise
 tax truthfully wherever that compromise moves with the report. Where the
@@ -36,11 +37,19 @@ state keeps the machine mix instead, the compromise still fails at unit
 elasticity of substitution, with the reinvested share held fixed. The
 private-ownership recipe that sets the tax to zero after a reshuffle of
 capital shuts the public stock. In the log payoffs used below that
-shut-down is ruin for both classes. Under a restriction stated in the
-paper, a reshuffle of capital does not make the classes agree on the
-rate, because the tax falls on income the owner consumes and the two
-classes value capital differently. A single statutory tax is not two
-personalised prices for the public stock.
+shut-down is ruin for both classes. Behind those cases lies one
+description: with the machine mix and the reinvested share fixed, a rate
+schedule that varies smoothly with the weight and that its holder
+answers truthfully is, at each weight, either flat or exactly that
+holder’s own preferred rate. A state that cannot see the weight may let
+the rate follow it only by conceding the holder’s own rate. Wherever the
+two classes want different machine mixes, the hybrid that pairs one
+class’s rate with the other’s choice of machines is no class’s programme
+and no planner’s. Under a restriction stated in the paper, a reshuffle
+of capital does not make the classes agree on the rate, because the tax
+falls on income the owner consumes and the two classes value capital
+differently. A single statutory tax is not two personalised prices for
+the public stock.
 
 ------------------------------------------------------------------------
 
@@ -85,23 +94,30 @@ rather than as a transfer.
 Five rates are named in advance and sorted by that test: each class’s
 own preferred rate, the other class’s, a planner’s compromise between
 them, a hybrid that pairs one class’s rate with the other’s choice of
-machines, and the second welfare theorem’s recipe. A class that alone
-sees the weight reports its own preferred rate truthfully, whether or
-not the choice of machines is left political (Proposition 4). Once firms
-fix the machine mix, so that the rate is the only political instrument
-left, that same class does not report the other class’s preferred rate
-truthfully: an owner overstates the weight, because a larger share paid
-out of wages means a smaller rate for the worker, and a worker
-understates it for the mirror reason (Propositions 6 and 7). In that
-same setting a planner’s compromise fails too — it lies strictly between
-the two preferred rates, it moves as the weight moves, and wherever it
-moves neither class answers it truthfully (Proposition 11). The
-compromise fails in the same way when the state keeps the machine mix
-but capital and labour substitute at elasticity one and the reinvested
-share is held fixed (Proposition 13), so it is not the surrender of the
-machine mix that defeats it. Above that elasticity, with both
-instruments political, a report moves the rate and the machine mix at
-once, and the two effects carry opposite signs (Proposition 5).
+machines, and the second welfare theorem’s recipe. One of the five
+leaves the queue at once. Wherever the two classes want different
+machine mixes, the hybrid is a feasible map that solves no class’s
+problem and no planner’s, so there is no programme whose incentives
+could be asked about; at unit elasticity, where every chooser wants the
+same mix, it collapses onto the owner’s own programme (Proposition 3). A
+class that alone sees the weight reports its own preferred rate
+truthfully, whether or not the choice of machines is left political
+(Proposition 4). Once firms fix the machine mix, so that the rate is the
+only political instrument left, that same class does not report the
+other class’s preferred rate truthfully: an owner overstates the weight,
+because a larger share paid out of wages means a smaller rate for the
+worker, and a worker understates it for the mirror reason (Propositions
+6 and 7). In that same setting a planner’s compromise fails too — it
+lies strictly between the two preferred rates, it moves as the weight
+moves, and wherever it moves neither class answers it truthfully
+(Proposition 11). The compromise fails in the same way when the state
+keeps the machine mix but capital and labour substitute at elasticity
+one and the reinvested share is held fixed (Proposition 13), so it is
+not the surrender of the machine mix that defeats it. Above that
+elasticity, with both instruments political, a report moves the rate and
+the machine mix at once. The owner’s two peaks then travel in opposite
+directions in the weight, and which way the package leaves the owner
+does not follow from those directions (Proposition 5).
 
 What survives is a description rather than a list of casualties. With
 the machine mix and the reinvested share fixed, any rate schedule that
@@ -182,9 +198,10 @@ The private-ownership section carries the shut-down result, the failure
 of separation, and the comparison with personalised prices. Two sections
 then make the weight private: the first with both instruments political,
 the second once firms have fixed the machine mix, where the description
-of truthful rate schedules is obtained. Scope says which restriction
-carries which result, the conclusion follows, and Appendix A derives the
-preferred rates and the two sources of the gap between them.
+of truthful rate schedules is obtained. The conclusion says which
+restriction carries which result and what a weaker one would still
+deliver, and Appendix A derives the preferred rates and the two sources
+of the gap between them.
 
 ------------------------------------------------------------------------
 
@@ -451,6 +468,10 @@ peak at companions $(0,d_M)$, which is not used here.
 not depend on the report, and by Lemma 0 the value it delivers is
 $-\infty$ whatever the report and whatever the true type. Every report
 is therefore weakly optimal. $\square$
+
+The recipe therefore passes the incentive test for a reason that is no
+recommendation: it asks nothing of the weight because it does nothing
+with it. Truthful reporting is cheap where the rule ignores the report.
 
 **Premise P.** A reshuffle of $K$, indexed by the owners’ share
 $\kappa$, enters $V_j$ only through $H_j(\kappa)$, with $H_C$ increasing
@@ -871,42 +892,6 @@ Under a mandate a report of $f_\lambda$ moves $\tau$ and $d$ together.
 
 ------------------------------------------------------------------------
 
-## Scope
-
-Two restrictions carry the statements about private ownership, and the
-incentive results for interior rules use neither.
-
-Premise P is used by Proposition 10 and by the third fact of the Theorem
-(Separation), and by nothing else. It is the restriction under which a
-reshuffle of $K$ moves each class’s level $H_j(\kappa)$ and leaves the
-tax terms $M_j$ and $N_j$, and with them the peaks, where they were. The
-first fact of the Theorem, the tax gap and its two sources in Lemma A.5,
-holds without it.
-
-Essentiality of $G$ in the log class, $V_j\to-\infty$ as $\tau\to0^+$,
-gives the shut-down result its global reach: every interior tax, and not
-only a small one, strictly Pareto-dominates $\tau=0$ (Proposition 8, the
-second fact of the Theorem, the third claim of Proposition 10).
-Proposition 9 uses it as well. For any payoff that is strictly concave
-in $\tau$ on $[0,1)$ with the same interior peaks, both values rise on
-$[0,\tau_C]$, so every tax in $(0,\tau_C]$ strictly Pareto-dominates
-$\tau=0$ at the same companions. Proposition 12 needs only interior tax
-peaks ordered $\tau_C<\tau_W$.
-
-The incentive results for interior rules, Propositions 4, 6, 6$'$, 7,
-7$'$, 11 and 13 and Corollary 1, use four properties of the tax payoffs.
-Each is differentiable and strictly concave in $\tau$ with an interior
-peak; the peaks are ordered $\tau_C<\tau_W$; each peak falls in
-$\theta_R$; and both tend to $0$ as $\theta_R\to1$. Propositions 4 and
-13 work in the mandate space and use two further facts: the payoff
-separates into terms in $\tau$, $d$ and $i$ (Lemma A.1), and the
-direction peaks are interior, and common at $\sigma=1$ (Lemma A.3). None
-of the incentive results uses the value of $V_j$ at $\tau=0$. The
-logarithmic form of the licensed box is one payoff with these four
-properties, and the family in the remark after Corollary 1 is another.
-
-------------------------------------------------------------------------
-
 ## Conclusion
 
 A public stock $G$, filled by a tax on capital income, enters the law of
@@ -948,9 +933,11 @@ The tax and the investment share remain political. A compromise fails
 without ratification as well: at $\sigma=1$ under a mandate every listed
 chooser wants the same direction, and, with the investment share held
 fixed, the mediant fails exactly as it does under ratification
-(Proposition 13). The hybrid $f_\times$, which pairs the owner’s tax
-with the worker’s direction, satisfies no single programme’s first-order
-conditions and is not a programme (Proposition 3).
+(Proposition 13). Wherever the two classes want different directions,
+the hybrid $f_\times$, which pairs the owner’s tax with the worker’s
+direction, satisfies no single programme’s first-order conditions and is
+not a programme; at $\sigma=1$ the two directions coincide and it is the
+owner’s own programme (Proposition 3).
 
 Third, private information confines a truthful tax schedule to flat
 stretches and the holder’s own peak. With direction fixed, a
@@ -986,6 +973,41 @@ unanimous point (Proposition 10). A mandate that selects a point of
 $[\tau_C,\tau_W]$ funds $G$ at a single statutory price. Which point it
 selects is a choice between the classes, and neither a price system nor
 a transfer of capital makes that choice for it.
+
+Two restrictions carry the results about private ownership, and a weaker
+payoff would still deliver most of them. Premise P carries the third
+fact of the Theorem and Proposition 10, and nothing else in the paper:
+under it a reshuffle of $K$ moves each class’s level $H_j(\kappa)$ and
+leaves the tax terms $M_j$ and $N_j$, and with them the peaks, where
+they were, while a transfer that gave workers capital income would
+change who bears the tax. The first fact, the tax gap and its two
+sources in Lemma A.5, holds without P. Essentiality of $G$ in the log
+class, $V_j\to-\infty$ as $\tau\to0^+$, is what gives shut-down its
+global reach — every interior tax, and not only a small one, strictly
+Pareto-dominates $\tau=0$ (Proposition 8, the second fact of the
+Theorem, the third claim of Proposition 10, and Proposition 9) — and a
+payoff merely strictly concave in $\tau$ on $[0,1)$ with the same
+interior peaks still puts every tax in $(0,\tau_C]$ strictly above
+$\tau=0$ for both classes at the same companions. The incentive results
+ask less again. Propositions 4, 6, 6$'$, 7, 7$'$, 11 and 13 and
+Corollary 1 use four properties of the tax payoffs: each is
+differentiable and strictly concave in $\tau$ with an interior peak, the
+peaks are ordered $\tau_C<\tau_W$, each falls in $\theta_R$, and both
+tend to $0$ as $\theta_R\to1$. The two mandate results add the
+separation of the payoff into terms in $\tau$, $d$ and $i$ (Lemma A.1)
+and interior direction peaks that coincide at $\sigma=1$ (Lemma A.3).
+None of them uses the value of $V_j$ at $\tau=0$. The logarithmic form
+of the licensed box has those properties, and so does the
+constant-elasticity family of the remark after Corollary 1; Proposition
+12 needs only interior peaks in that order. Carrying the sorting to a
+wider class of payoffs is a matter of checking those four properties.
+
+A statute can name a rate; whether an administration can produce it
+turns on who can see how much of the raising of the next generation is
+already paid out of wages. Where the state cannot see that, and the
+machine mix is not itself in play, the rates it can elicit are the
+holder’s own and a rate that does not move with the weight, so the
+choice between the classes is made in the statute itself.
 
 ------------------------------------------------------------------------
 
