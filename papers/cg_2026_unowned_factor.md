@@ -4,39 +4,26 @@ Carlos Galindo Escajeda
 
 # Abstract
 
-An economy has two produced stocks. Capital is accumulated out of investment and its owner captures
-the return; the workforce’s productive capacity is produced by consumption and by a public good, and
-no agent holds a claim on it. With one period a generation, full depreciation and logarithmic
-objectives, each class’s policy is a constant share that is its best reply to every constant-share
-policy of the other, from every state. The paper derives each class’s preferred tax on capital
-income in closed form, compares the two rates, and asks which primitives the gap between them
-depends on. Five results follow at the provision corner, where all
-revenue is spent in kind, a split both classes choose whenever the tax is small enough. First, with logarithmic objectives
-each class’s preferred capital-income tax is a function of the **other** class’s reproduction
-elasticity and not of its own, and symmetrising the two stocks’ laws of motion does not symmetrise
-this. A class’s claim on a stock puts that stock’s accumulation on both sides of its own ledger in
-the same proportion, so its own elasticity cancels; the stock nobody holds reaches the owner only
-through the budget, and its elasticity survives.
-Off the logarithm, an interior best constant tax from a state on that tax’s balanced path equals
-the same formula at a growth-adjusted discount, so a class’s own elasticity reaches that rate only
-through growth. Second, both payoffs are strictly concave in the tax, so, with investment at the
-owner’s choice, the Pareto set in the tax is the closed interval between the owner’s preferred rate
-and the worker’s, and below the owner’s own optimum both classes strictly prefer a larger state.
-Counting the investment share as an instrument, every rate but the owner’s is dominated by a joint
-rise in investment, an under-investment that needs no strategic interaction. The rate that maximises
-any weighted sum of the two payoffs is strictly increasing in the weight on workers and strictly
-positive at every weight, the owner’s own included. Third, the tax is linear and the elasticity of
-substitution is one. These are the two
-features to which Galor and Moav attribute their unanimity, and the classes still disagree. Unownedness alone does
-not open the gap: either of two primitives suffices, where the tax falls and what workers value. With a tax on what the owner invests, workers who value
-consumption and an owner with no taste for wealth, the two classes want the same rate, although the
-workforce is still produced and still owned by nobody. Fourth, comparing stationary states, the
-worker’s higher rate favours workers when reproduction builds capacity and, per
-head, favours owners when it builds persons, so the sign of the tax’s distributional effect is not a
-property of the tax. Fifth, the owner’s preferred rate carries labour’s share as a factor, is strictly
-decreasing in capital’s share, and vanishes as that share goes to one, while the worker’s does not.
-The range over which the two classes agree therefore collapses as production becomes capital-intensive, and
-the fiscal question turns from a joint investment into a pure distributive conflict.
+Capital is produced by investment and its owner captures the return. The workforce’s productive
+capacity is produced too, by consumption and by a public good, and no agent holds a claim on it. The
+paper asks what that difference does to a tax on capital income whose revenue funds the public part of
+the workforce’s upkeep. With one period a generation, full depreciation and logarithmic objectives,
+each class’s equilibrium policy is a constant share, and each class’s preferred tax has a closed form.
+Where all revenue is spent in kind, a split both classes choose whenever the tax is below a bound, each
+class’s preferred rate depends on the other class’s reproduction elasticity and not on its own. Each
+class meets the tax’s cost and its benefit through a single quantity, the owner through his after-tax
+capital income and the worker through maintenance, so its own elasticity scales both sides of its
+trade-off and cancels. The owner wants a strictly positive rate. The rates at which no change in the
+tax can make both classes better off form the closed interval between the two preferred rates, and
+both classes want any rate below the owner’s raised. As capital’s share of output rises, the owner’s
+rate falls to zero while the worker’s stays positive, so the range of rates over which the classes
+agree on a larger state shrinks to nothing. The disagreement survives a linear tax and a unit
+elasticity of substitution, the two features to which Galor and Moav attribute their unanimity. It is
+opened by where the tax falls or by what workers value: with neither, and an owner with no taste for
+wealth, the two classes want the same rate, although the workforce is still produced and owned by
+nobody. Comparing stationary states, the worker’s higher rate favours workers when reproduction builds
+capacity, and favours owners per head when it builds persons in two dynasties that reproduce at the
+same elasticity.
 
 **Keywords.** reproduction of labour; capital income taxation; unowned factor; class conflict; dynamic games; fiscal incidence
 
@@ -49,127 +36,125 @@ zero in the long run (Judd 1985; Chamley 1986). And where the proceeds are spent
 rather than handed over in cash, rich and poor want the same rate: Galor and Moav (2006) prove that
 in an economy where a tax on intergenerational transfers funds public schooling, the optimal rate is
 *unanimous* across classes and the redistribution is Pareto-improving. On either answer there is no
-fiscal conflict to explain. The economy below changes one feature of that setting and keeps the rest
-of it. Capital is produced by
-investment, and whoever forgoes consumption to build it holds a claim on it afterwards, and the return
-to that claim is a price he can read. The workforce is produced too — by what is spent feeding,
-housing, schooling and treating it — and nobody holds a claim on the result. The capacity to work is
-attached to the person who carries it, and cannot be sold away from him; there is no asset whose price
-capitalises the improvement, and therefore no agent whose portfolio reports it. Two factors are
-produced, and only one of them is owned.
+fiscal conflict to explain. Where a conflict over the tax is modelled, as in Alesina and Rodrik (1994),
+it follows what agents own: agents hold different shares of capital and labour, the level of taxation
+turns on the factor ownership of the median individual, and only a government that cares solely about
+pure capitalists chooses the growth-maximising policy.
+
+The economy below keeps the two-class structure of Judd (1985), in which workers hold no assets and
+the state taxes capital income, and changes one feature: part of what the tax pays for is an input to
+a stock that is produced but owned by nobody. Capital is built out of investment, and whoever builds it
+holds a claim on it whose return he can read. The workforce’s capacity to work is built too, out of
+private consumption and public provision, but that capacity is attached to the person who carries it:
+it cannot be sold away from him, no asset price capitalises its improvement, and no portfolio reports
+it. Two factors are produced, and only one of them is owned.
 
 What that asymmetry does to a tax funding the public part of reproduction is the question.[^1] A
 single tax on capital income is the only instrument that funds the public stock, so the public part of
-the workforce’s upkeep is paid out of capital’s income. The public stock raises what workers can do, and
-so raises what the capital that hires them earns later. The upkeep of labour the owner
-does not own is therefore worth something to him, and he wants a strictly positive rate on his own
-income provided the proceeds are spent in kind. The worker wants a positive rate too, and the two
-rates differ.
+the workforce’s upkeep is paid out of capital’s income. The public stock raises what workers can do,
+and so raises what the capital that hires them earns later. The owner therefore has an interest in a
+stock he does not own, and he wants a strictly positive rate on his own income provided the proceeds
+are spent in kind. The worker wants a higher one.
 
-Five things follow. First, with logarithmic objectives, and where all revenue is spent in kind, each
-class’s preferred rate on capital income is a function of the *other* class’s reproduction elasticity
-and not of its own. The owner’s rate carries the elasticity with which maintenance produces
-effective labour; the worker’s carries the elasticity with which investment produces capital. Neither
-carries his own, and the reason is an accounting one. A class that holds a claim on a stock has that
-stock’s accumulation on both sides of its own ledger in the same proportion. Its own elasticity
-therefore scales what the tax costs it and what the tax buys it alike, and cancels. A stock nobody
-holds reaches the other class only through the public budget, out of proportion, and its elasticity
-survives. For the owner the single quantity that carries both sides is his after-tax capital income,
-which pays for his consumption and for the investment that builds his capital. For the worker it is
-maintenance, the only input to the workforce his objective values (§4.3). Away from the logarithm the crossing
-fails at every intertemporal elasticity computed in §4.4. What stands in its place is a rate for a class
-that taxes at a constant rate and starts from a state already on that rate’s own balanced growth path:
-there the same formula returns at a discount adjusted for growth, so a class’s own elasticity reaches its
-preferred rate only by moving the growth that rate implies.
+The question is live on two fronts. The first answer has been reopened on its own ground: Straub and
+Werning (2020) show that the zero long-run tax fails once capitalists have logarithmic utility, a
+failure they attribute to Lansing (1999). And Acemoglu, Gitmez and Shadmehr (2026) give the owner a
+political reason to want a positive tax spent in kind: a state acting for the owners of capital that
+redistributes rather than represses sets a strictly positive rate at every labour share, because what a
+worker would forfeit by joining a revolt lowers the risk that the regime falls. Neither turns on the
+owner’s economic interest in the workforce’s upkeep, set beside the worker’s.
 
-One reading of the crossing is that it is an artefact of the two laws of motion having different
-shapes — capital linear in investment, the workforce with an elasticity below one. Section 4 gives
-capital a reproduction technology identical in form to the workforce’s, with an elasticity of its own,
-so that the two stocks differ in nothing but who owns them. The crossing is unchanged, and setting
-that elasticity to one recovers the original economy exactly. Symmetrising the laws does not
-symmetrise the taxes.
+Three results follow. First, with logarithmic objectives and where all revenue is spent in
+kind, each class’s preferred rate on capital income depends on the other class’s reproduction
+elasticity and not on its own: the two elasticities cross. The owner’s rate moves with how productively
+maintenance turns into effective labour; the worker’s moves with how productively investment turns into
+capital. The reason is an accounting one. Each class meets the tax’s cost and its benefit through one
+quantity, the owner through his after-tax capital income and the worker through maintenance. Its own
+elasticity therefore scales both sides of its trade-off in the same proportion and cancels, while the
+other class’s elasticity reaches it only through the public budget and survives. Giving capital a
+reproduction technology of exactly the workforce’s form, so that the two stocks differ only in who owns
+them, leaves the crossing unchanged:
+symmetrising the laws of motion does not symmetrise the taxes (§4). Away from the logarithm, what stands
+in its place is the rate of a class that taxes at a constant rate from a state already on that rate’s
+balanced growth path: there the same formula returns at a discount adjusted for growth, so a class’s own
+elasticity reaches that rate only through the growth it implies.
 
-Second, both classes’ payoffs are strictly concave in the rate, so the rates that no change in the tax
-alone can improve for both classes at once are exactly the closed interval between the two preferred
-rates, and every rate below the owner’s own is one both classes strictly want to raise: a small state
-is a position both wish to leave. The rate that maximises a weighted
-sum of the two payoffs rises strictly with the weight on workers and is strictly positive at every
-weight, the owner’s own included, and §5 gives it in closed form for every weight.
+Second, both payoffs are strictly concave in the rate. The rates that no change in the tax alone can
+improve for both classes are therefore exactly the closed interval between the owner’s preferred rate
+and the worker’s, and every rate below the owner’s is one that both classes want raised: a state
+smaller than the one capital itself would choose has no constituency. The rate that maximises any
+weighted sum of the two payoffs rises strictly with the weight on workers and is strictly positive at
+every weight, the owner’s own included (§5).
 
-Third, the absence of an owner is not what separates the classes. Two other features of the economy
-do, and either one on its own suffices. The tax falls on the owner’s capital income before he divides
-it between consumption and investment, and workers value the capacity that maintenance produces rather
-than the consumption that produces it. Move the tax to what he invests, let workers value consumption
-and take away the owner’s taste for wealth, and the two classes want exactly the same rate — in an
-economy where the workforce is still produced and still owned by nobody (§5.5).
-
-Fourth, the owner’s preferred rate carries labour’s share of output as a factor. It is strictly
-decreasing in capital’s share on the whole parameter box and goes to zero as that share goes to one,
-while the worker’s tends to a strictly positive limit. The range of rates over which both classes still
-want a larger state therefore closes as production becomes capital-intensive, and the contested range
-comes to be the whole of the range below the worker’s peak. What closes with it is capital’s own reason
-for wanting a state rather than the state itself, since a bargain in which labour carries any weight at
+Third, the owner’s preferred rate carries labour’s share of output as a factor, falls strictly as
+capital’s share rises and goes to zero as that share goes to one, while the worker’s stays positive.
+The range over which both classes want a larger state therefore closes as production becomes
+capital-intensive, and in the limit the fiscal question is purely distributive. What closes is capital’s
+own reason for wanting a state rather than the state itself: a bargain that gives labour any weight at
 all still delivers a strictly positive rate in that limit (§6).
 
-Fifth, comparing stationary states at the provision corner, the worker’s higher rate favours workers
-where reproduction builds capacity in classes of fixed size, and favours owners, per head, where it
-builds persons in two dynasties that reproduce at the same elasticity. The same laws of motion can be
-read either way. Whether a tax spent on reproduction
-redistributes towards labour is therefore not a property of the tax: it turns on whether reproduction
-yields more capable workers or more of them (§5.6).
+Two further results locate the disagreement. The workforce’s lack of an owner does not by itself divide
+the classes. Either of two other primitives does: the tax falls on the owner’s income before he divides
+it between consumption and investment, and workers value the capacity that maintenance produces rather
+than the consumption that produces it. With a tax on what the owner invests, workers who value
+consumption and an owner with no taste for wealth, the two preferred rates coincide, in an economy where
+the workforce is still produced and still owned by nobody (§5.5). And comparing stationary states, the
+worker’s higher rate favours workers when reproduction builds capacity in classes of fixed size, and
+favours owners per head when it builds persons in two dynasties that reproduce at the same elasticity.
+Whether a tax spent on reproduction redistributes towards labour therefore depends on whether
+reproduction yields more capable workers or more of them (§5.6).
 
 Galor and Moav already prove more than that the owner wants a positive rate: unanimity, and a Pareto
-improvement. Their own
-§4.4 marks the boundary of that result, and they do not model the conflict past it — *“if the
-government would be engaged in direct transfers from the rich to the poor in addition to the provision
-of public schooling, then a conflict would emerge between the classes”*. Their footnote adds a price
-list for the unanimity. It rests, they say, on the linear tax and on the unit elasticity of
-substitution between human and physical capital, and would break in a direction they give if that
+improvement. Their own §4.4 marks the boundary of that result, and they do not model the conflict past
+it — *“if the government would be engaged in direct transfers from the rich to the poor in addition to
+the provision of public schooling, then a conflict would emerge between the classes”*. Their working
+paper also prices the unanimity. It rests, they say, on the linear tax and on the unit elasticity of
+substitution between human and physical capital, and it would break in a direction they give if that
 elasticity moved away from one.[^2] The tax on capital income below is linear and the elasticity of
-substitution is one, and the classes disagree anyway. A reader who took that
-unanimity as the settled answer on capital’s fiscal interest must give up more than the
-answer. He must give up the belief that the two features the footnote names are all it rests on. Galor
-and Moav’s own tax falls on the transfer a parent leaves, out of income the parent has already divided
-between consumption and the bequest, and in this economy where the tax falls is one of the two
-primitives that open the gap (§5.5).
+substitution is one, and the classes disagree anyway. A reader who took that unanimity as the settled
+answer on capital’s fiscal interest must therefore give up more than the answer. He must give up the
+belief that those two features are all it rests on. Galor and Moav’s own tax falls on the transfer a
+parent leaves, out of income the parent has already divided between consumption and the bequest, and in
+this economy where the tax falls is one of the two primitives that open the gap (§5.5).
 
-The nearest results differ from this one in a stated feature of the economy, one each. Acemoglu, Gitmez
-and Shadmehr (2026) give the owner a political reason to want a positive tax spent in kind: a state
-acting for the owners of capital that redistributes rather than represses sets a strictly positive rate
-at every labour share, because what a worker would forfeit by joining a revolt lowers the risk that the
-regime falls. This economy has no politics. Straub and Werning (2020), revisiting Judd and Chamley, show
-that the zero-long-run result already fails under logarithmic capitalist utility, a failure they
-attribute to Lansing (1999); their number is reproduced in §5, where this economy nests theirs.
-Saez (2013) recovers a large role for capital taxation by
-dropping linearity, naming non-linearity as the critical departure from Chamley and Judd, and the tax
-here is a single linear rate. Jacobs and Schindler (2012) obtain a non-zero optimal capital tax from
-uninsurable labour-income risk among households otherwise identical, and nothing here is stochastic.
-Barro (1990) already loads a production elasticity into a tax rate: the rate maximising a
-representative household’s attained utility equals the output elasticity of the publicly financed
-input, and depends on that parameter alone. A single agent cannot carry two elasticities crosswise. Jones, Manuelli and Rossi (1997) accumulate physical and human capital together, but under
-a planner maximising the welfare of one representative family and with the human capital owned by the
-person who carries it, which is the primitive §2.4 changes. Two separately parameterised reproduction
-technologies, attached to two classes only one of which holds a claim, are what the crossing needs
-before it can be posed at all.[^3]
+The nearest results differ from this one in one stated feature each. Barro (1990) already loads a
+production elasticity into a tax rate: the rate that maximises a representative household’s attained
+utility equals the output elasticity of the publicly financed input, and depends on that parameter
+alone. One agent cannot carry two elasticities crosswise. Jones, Manuelli and Rossi (1997) accumulate
+physical and human capital together, but under a planner maximising the welfare of one representative
+family and with the human capital owned by the person who carries it, which is the primitive §2.4
+changes. Two separately parameterised reproduction technologies, attached to two classes only one of
+which holds a claim, are what the crossing needs before it can be posed at all. Saez (2013) recovers a
+large role for capital taxation by dropping linearity, naming non-linearity as the critical departure
+from Chamley and Judd, and Jacobs and Schindler (2012) obtain a non-zero optimal capital tax from
+uninsurable labour-income risk among households otherwise identical; the tax here is a single linear
+rate and nothing is stochastic.[^3]
 
-Lancaster (1973) has the same two classes and the opposite diagnosis. There the inefficiency is
-strategic: the non-cooperative path is dominated by the cooperative one, and cooperation is the cure.
-Here the disagreement over the tax is not strategic, because each class’s preferred rate contains none
-of the other class’s instruments, so a bargain over the tax alone can only select a point between the
-two rates. It is a disagreement about the level of a joint investment, held by parties who agree,
-exactly, on the form the investment should take. The equilibrium is inefficient all the same, and that
-inefficiency needs no strategic interaction either: the owner’s investment share ignores what capital is
-worth to workers, so at every tax other than his own preferred rate a small rise in investment, paired
-with a move of the tax toward that rate, makes both classes better off (§3.3). Cooperation over
-investment would cure an inefficiency that no strategy created.
+Lancaster (1973) has the same two classes and a strategic inefficiency: the non-cooperative path is
+dominated by the cooperative one, and cooperation is the cure. In Azzimonti (2011), disagreement about
+the composition of public spending leads to excessive taxation and too little investment. Here each
+class’s preferred rate contains none of the other class’s instruments, the two classes choose the same
+split of revenue between provision in kind and cash at every rate, and they differ only on the level of
+the tax, so a bargain over the tax alone can only select a point between the two preferred rates. The
+equilibrium is inefficient all the same, through ordinary under-investment with no strategic interaction
+behind it. The owner does not count what his capital is worth to workers, so at every tax other than his
+own preferred rate a small rise in investment, paired with a move of the tax toward that rate, makes
+both classes better off (§3.3).
 
 In the economy one period is a generation, capital and the public stock depreciate fully, and both
 objectives are logarithmic. Each class’s policy is then a constant share containing none of the other’s
 instruments, so each class’s rule is its best reply to every constant-share rule of the other, from
-every state and among all Markov rules that keep the instruments away from the edges of their ranges (§3). The results on the tax hold the split where all revenue is spent in kind, which both
-classes choose for every tax up to a bound given in §5.3.
+every state and among all Markov rules that keep the instruments away from the edges of their ranges
+(§3). Both classes choose to spend all revenue in kind for every tax up to a bound given in §5.3, and
+§7 gives the worker’s rate above it.
 
-Section 2 sets out the economy. Section 3 solves for the equilibrium policies and draws the inefficiency that follows from them, Section 4 derives the cross, Section 5 the Pareto interval, the bargained rate and the primitives that open the gap, and Section 6 what a rising capital share does to the range over which the classes agree. Section 7 re-takes the worker’s preferred rate above the capital share at which the provision corner stops binding at his peak, and Section 8 concludes.
+Section 2 sets out the economy. Section 3 derives each class’s equilibrium policy and the
+under-investment it leaves. Section 4 derives the two preferred rates and explains why each carries the
+other class’s elasticity. Section 5 gives the interval of rates a bargain can reach, the bargained rate
+at every weight, the primitives that open the gap, and which class a higher rate favours. Section 6
+shows what a rising capital share does to that interval. Section 7 gives the worker’s preferred rate
+above the capital share at which the classes would rather rebate part of the revenue in cash, and
+Section 8 concludes.
 
 # 2. The economy
 
@@ -512,8 +497,8 @@ here.
 An economist reading a two-class fiscal problem will normally look for the determinants
 of each class’s preferred tax among that class’s own parameters — its discount factor, its share,
 the productivity of the stock it cares about. For the capital-income tax in this economy, with logarithmic objectives, that
-search fails by construction. The parameter that moves the owner’s preferred rate is the elasticity
-of a technology he neither operates nor owns.
+search finds the share and the discount factor and misses the elasticity. The reproduction elasticity
+that moves the owner’s preferred rate is that of a technology he neither operates nor owns.
 
 ## 4.4 What a non-unit intertemporal elasticity does to the cross
 
@@ -890,7 +875,8 @@ provision coincide.
 
 The tax results of §§4–6 are stated at the provision corner $\phi=1$. §5.3 gives the condition under
 which that corner is the classes’ common choice; outside it the split is interior, and a preferred
-rate is re-taken along $\phi(\tau)$. The owner’s rate lies inside that condition everywhere on the box. In the baseline the worker’s lies
+rate is re-taken along $\phi(\tau)$. The owner’s rate lies inside that condition everywhere on the box: its ratio to the bound is
+$\beta\gamma\alpha\theta/D_\tau$, and $D_\tau$ exceeds $\beta\gamma\alpha\theta$ by $1-\beta+\beta\gamma(1-\theta)>0$. In the baseline the worker’s lies
 outside it exactly when $\alpha>\beta(1-\theta)/\bigl(\beta(1-\theta)+\theta(1-\beta)\bigr)$, and
 since the threshold of §5.3 goes to zero as $\alpha\to1$, the worker’s limit in §6.2 and every
 bargained limit with $\lambda>0$ in Corollary 1 are taken at a corner both classes would leave.
@@ -921,21 +907,31 @@ $\gamma_K=0.1$.
 
 # 8. Conclusion
 
-Two produced stocks, one of them owned and one of them not, are enough to set the classes against
-each other over a tax whose proceeds are spent on reproduction. The disagreement does not come from a non-linear tax or from an elasticity of substitution away from unity,
-the two features to which Galor and Moav attribute their unanimity, and it does not come from
-unownedness on its own: in an economy where the tax falls on what the owner invests, workers value
-consumption and the owner has no taste for wealth, the workforce is still produced and owned by
-nobody and the two classes want the same rate. What opens the gap is where the tax falls and what workers value, and either primitive suffices.
+Chamley and Judd’s zero long-run tax and Galor and Moav’s unanimity both leave no fiscal conflict over
+the workforce’s upkeep to explain. In an economy with two produced stocks, only one of them owned, the
+owner of capital wants a strictly positive tax on his own income when the proceeds are spent in kind,
+and the worker wants a higher one. The disagreement arises with the linear tax and the unit elasticity
+of substitution to which Galor and Moav attribute their unanimity, so those two features are not all
+their result rests on. It does not come from unownedness on its own: in an economy where the tax falls
+on what the owner invests, workers value consumption and the owner has no taste for wealth, the
+workforce is still produced and owned by nobody and the two classes want the same rate. What opens the
+gap is where the tax falls and what workers value, and either primitive suffices.
 
-What the classes disagree about is the level of a joint investment whose form they agree on. With
-logarithmic objectives each side’s preferred rate on capital income is a function of the other
-side’s reproduction elasticity and not of its own. Below the owner’s own optimum both sides
-strictly prefer a larger state, so the rates a bargain can reach are the closed interval between the
-two peaks. As capital’s share of output rises the owner’s peak falls to zero and the worker’s does
-not, and what collapses is the range over which the two classes agree in wanting a larger state: the
-coalition that funds the reproduction of the workforce, capital itself included, dissolves, and the
-fiscal question turns from a joint investment into a pure distributive conflict.
+The mechanism is an accounting proportion. Each class meets the tax’s cost and its benefit through one
+quantity, so its own reproduction elasticity cancels from its preferred rate, and the other class’s
+survives, reaching it only through the budget: each class prices the other’s reproduction. The two
+classes agree on the form the public spending should take and differ on its level. The rates a bargain
+can reach run from the owner’s preferred rate to the worker’s, and below the owner’s own optimum both
+classes want a larger state.
+
+Where a conflict over the tax follows what each group owns, as in Alesina and Rodrik, a class’s
+preferred rate is read off its own position. Here the reproduction
+elasticity that moves the owner’s rate is the workforce’s, and the one that moves the worker’s is
+capital’s: which stock reaches a class through its own ledger, and which through the budget, decides
+which elasticity sets its rate. As capital’s share of output rises the owner’s peak falls to zero and
+the worker’s does not, and what collapses is the range over which the two classes agree in wanting a
+larger state. The coalition that funds the reproduction of the workforce, capital itself included,
+dissolves, and the fiscal question turns from a joint investment into a pure distributive conflict.
 
 These results are proved for an economy with one period a generation, full depreciation and
 logarithmic objectives, a single linear tax on capital income, and the split at the provision corner,
@@ -943,16 +939,17 @@ where every pound of revenue is spent in kind and which both classes choose for 
 bound of §5.3. Above that bound the owner’s rate, its limit of zero and Corollary 1’s verdict on the
 Pareto weight stand, and the worker’s rate is the one of §7. Off the logarithm the cross gives way to
 the balanced-path rate of Proposition 4$''$, which a class’s own elasticity reaches only through
-growth. Three changes would each require the analysis to be redone rather than reread: a schedule
+growth. Four changes would each require the analysis to be redone rather than reread: a schedule
 with more than one rate, since a class’s preferred schedule is a different object from its preferred
 rate; workers who value consumption, for whom the gap keeps its sign (Proposition 10(ii)) but the
-cross would have to be derived again; and, in the persons reading, a split off the corner, where the
-distributional sign would have to be taken again.
+cross would have to be derived again; in the persons reading, a split off the corner, where the
+distributional sign would have to be taken again; and a capital share that moves, which needs an
+elasticity of substitution away from unity.
 
 Whether a tax spent on reproduction redistributes towards labour is settled not by the tax but by
-what reproduction produces, capacity or persons. And what capital-intensity destroys is
+what reproduction produces, capable workers or more of them. And what capital-intensity destroys is
 capital’s own reason for wanting a state; the state survives, since the bargained rate stays strictly
-positive in the limit at every weight on labour.
+positive in the limit at every positive weight on labour.
 
 # Appendix A. Proofs
 
@@ -1356,6 +1353,10 @@ which at the baseline is $1-\beta$.
 
 -   Acemoglu, D., A. A. Gitmez, and M. Shadmehr (2026). “Automation and Repression.” NBER Working
     Paper 35336. DOI 10.3386/w35336.
+-   Alesina, A., and D. Rodrik (1994). “Distributive Politics and Economic Growth.” *Quarterly Journal
+    of Economics* 109(2): 465–490. DOI 10.2307/2118470.
+-   Azzimonti, M. (2011). “Barriers to Investment in Polarized Societies.” *American Economic Review*
+    101(5): 2182–2204. DOI 10.1257/aer.101.5.2182.
 -   Barro, R. J. (1990). “Government Spending in a Simple Model of Endogenous Growth.” *Journal of
     Political Economy* 98(5, Part 2): S103–S125. DOI 10.1086/261726.
 -   Chamley, C. (1986). “Optimal Taxation of Capital Income in General Equilibrium with Infinite
@@ -1413,5 +1414,4 @@ which at the baseline is $1-\beta$.
     9046 (July 2002). Every locator given for them is working-paper pagination.
 
 [^4]: In a Cobb–Douglas technology $\alpha$ is a parameter, so Proposition 9 is a comparative
-    static in an output elasticity: nothing here makes $\alpha$ move. Endogenising the share requires an
-    elasticity of substitution away from unity, which is outside this paper’s face.
+    static in an output elasticity: nothing here makes $\alpha$ move.
