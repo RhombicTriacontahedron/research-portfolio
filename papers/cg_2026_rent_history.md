@@ -1,6 +1,6 @@
 # The Long History of Rent: From Coerced Surplus to Capitalised Claim
 Carlos Galindo Escajeda
-June 22, 2026
+September 26, 2026
 
 ## Abstract
 
@@ -24,16 +24,14 @@ counter-tradition seeking to capture that surplus without destroying
 production recurs at every phase, from the Physiocrats’ single tax to
 today’s fair-rent caps and proposals to levy National Insurance on
 rental income. The capitalisation of rent into an asset price, P = R/(r
-− g), is identified as the technical through-line that connects Marx’s
-“the price of land is nothing but capitalised ground-rent” to the modern
-asset-pricing literature on housing. The paper closes by stating, at
-calibrated strength, the open research question the history sets:
-whether the persistence of rent-as-deduction can be given a derived,
-contemporary formalism in which tenure inequality compounds into a
-structural welfare violation. That formalisation is presented as a
-conjecture, not a result, and the historical argument of the paper
-stands on its own independently of it: a reader persuaded by the history
-but unconvinced by the formal model loses nothing of the former.
+− g), is identified as the technical through-line that runs from Petty’s
+years’ purchase through Marx’s treatment of the price of land as
+capitalised ground-rent to the modern asset-pricing literature on
+housing. The rate that performs the capitalisation was anchored once, by
+Petty, in the joint lives of three generations; Marx held that the rate
+of interest has no natural level, and the literature that followed takes
+the rate from outside the theory of rent — from impatience, from the
+market, or from the growth of production.
 
 *Keywords:* rent, ground-rent, economic rent, capitalisation, fictitious
 capital, history of economic thought, housing, financialisation
@@ -56,22 +54,26 @@ The argument is historical and is organised around one claim, stated
 here at the strength the evidence warrants. The *form* of rent has
 passed through four great regimes — coerced labour, payment in kind,
 money, and capitalised financial title — and this sequence has a
-*direction*: the claim becomes steadily more abstract, more tradable,
-and more removed from the visible labour it commands, until in the
-contemporary housing market it appears as a pure asset price with no
-apparent connection to anyone’s working day. The *substance*,
-throughout, is consistent with one description: rent is a claim by title
-— rather than by production — on the social labour of the producing
-population. The fund the claim is drawn from changes with the regime:
-the direct producer’s own surplus product under serfdom, a share of
-surplus value once rent must compete with profit and wages under
-agrarian capitalism, the wage out of which labour-power reproduces
-itself once the binding rent migrates to working-class housing. What
-persists is not the fund but the relation: a portion of social labour
-commanded by title. This is not advanced as a closed theorem. It is
-advanced as a reading of the primary sources — Petty, the Physiocrats,
-Ricardo, Marx, Engels — that they themselves, in their different
-vocabularies, supply. The form/substance distinction is treated
+*direction*: its most developed form becomes steadily more abstract,
+more tradable, and more removed from the visible labour it commands,
+even across the half-century (Section 5) in which much of the housing
+stock was withdrawn from it, until in the contemporary housing market it
+appears as a pure asset price with no apparent connection to anyone’s
+working day. The *substance*, throughout, is consistent with one
+description: rent is a claim by title — rather than by production — on
+the social labour of the producing population. The fund the claim is
+drawn from changes with the regime: the direct producer’s own surplus
+product under serfdom, a share of surplus value once rent must compete
+with profit and wages under agrarian capitalism, the wage out of which
+labour-power reproduces itself once the binding rent migrates to
+working-class housing. What persists is not the fund but the relation: a
+portion of social labour commanded by title. This is not advanced as a
+closed theorem. It is advanced as a reading of the primary sources —
+Petty, the Physiocrats, Ricardo, Marx, Engels. The description of that
+substance as a claim on social labour is the Marxian tradition’s own.
+Applied to Petty, the Physiocrats and Ricardo, who lacked the concept of
+surplus value, it is an interpretation read back onto their texts, not
+their own account of rent. The form/substance distinction is treated
 throughout as a hypothesis tested against each period rather than a
 frame imposed upon it; where a period resists the continuity — most
 sharply at the transition, where the category of *economic rent* is born
@@ -103,25 +105,29 @@ the acquisition of private rental stock into social ownership, and the
 extension of National Insurance to rental income — within that long
 lineage rather than treating them as novelties.
 
-The contribution can be stated in a sentence and is twofold. First, the
-paper identifies the capitalisation of a rent stream — the operation
-$P = R/(r-g)$ — as the central technical thread running from Marx’s
-account of ground-rent and fictitious capital to the contemporary
-asset-pricing literature on housing, and shows that what that tradition
-has never settled is the *anchor* of the rate which performs the
-capitalisation. Second, it argues that the category of *economic rent*
-is not a natural kind but a historical product of the
-agrarian-capitalist transition, with the consequence that the modern
-policy distinction between a capturable surplus and a genuine return to
-provision is internal to capitalist rent rather than imposed upon it. In
-relation to the nearest syntheses the paper is deliberately narrower:
-where Harvey (1982) maps fictitious capital onto the urban secondary
-circuit, Ryan-Collins and colleagues (2017) reconstruct the land–credit
-nexus, and Christophers (2020) surveys rentier capitalism whole, this
-paper isolates the capitalisation *operation* itself and the question of
-what anchors its rate, traced across regimes. Neither of its claims
-requires the formal programme of Section 8; both are established as
-history.
+The contribution has three parts. The first is a thesis about incidence
+that states its own failure condition: the claim by title persists while
+the fund it draws on migrates, from the producer’s surplus product to a
+share of surplus value to the wage, and the thesis fails for any regime
+in which the binding rent proves to be mainly a return to the owner’s
+own labour of provision. The second is a history of the rate that
+capitalises rent. The operation $P = R/(r-g)$ runs from Petty’s years’
+purchase through Marx’s account of ground-rent and fictitious capital to
+the contemporary asset-pricing literature on housing, and its rate was
+anchored once — by Petty, in the joint lives of three generations of the
+owning family — before Marx held the rate of interest to have no natural
+level and the literature after him took the rate from outside the theory
+of rent. The third is that the category of *economic rent* is not a
+natural kind but a historical product of the agrarian-capitalist
+transition, so that the modern policy distinction between a capturable
+surplus and a genuine return to provision is internal to capitalist rent
+rather than imposed upon it. Against the nearest syntheses the scope is
+deliberately narrower: where Harvey (1982) maps fictitious capital onto
+the urban secondary circuit, Ryan-Collins and colleagues (2017)
+reconstruct the land–credit nexus, and Christophers (2020) surveys
+rentier capitalism whole, the object here is the capitalisation
+*operation* itself and the question of what anchors its rate, traced
+across regimes.
 
 A methodological note is owed at the outset, because the paper makes
 claims of very different strengths and the reader is entitled to see
@@ -130,21 +136,30 @@ standard, well-attested attribution from the history of economic thought
 or economic history. **\[contested\]** marks a genuine scholarly dispute
 reported as such, with no winner declared. **\[conj\]** marks the
 author’s own interpretive synthesis, advanced as a conjecture and not as
-a claim of the cited authorities. A check mark appended to a label (✓)
-flags a source the author has read at first hand. The paper’s organising
-thesis — rent’s history as the progressive capitalisation of one
-persistent claim — is **\[conj\]**; its periodised institutional history
-is **\[std\]** with debates flagged; its final formal proposal is
-explicitly an open problem, not a result. A word on scope completes the
-apparatus: the institutional narrative follows the English, and latterly
-British, trajectory throughout, taken as the case in which the
-financialisation of housing rent is most fully developed and best
-documented rather than as a claim to universal history. Where
-comparative paths diverged — the persistence of peasant proprietorship
-in parts of France, the longer-lived social-democratic housing
-settlements of post-war northern Europe — the pattern traced here would
-require separate treatment, and the colonial and global circuits of
-ground-rent lie wholly outside it.
+a claim of the cited authorities. The paper’s organising thesis — rent’s
+history as the progressive capitalisation of one persistent claim — is
+**\[conj\]**; its periodised institutional history is **\[std\]** with
+debates flagged. A word on scope completes the apparatus: the
+institutional narrative follows the English, and latterly British,
+trajectory throughout, taken as the case in which the financialisation
+of housing rent is most fully developed and best documented rather than
+as a claim to universal history. Where comparative paths diverged — the
+persistence of peasant proprietorship in parts of France, the
+longer-lived social-democratic housing settlements of post-war northern
+Europe — the pattern traced here would require separate treatment, and
+the colonial and global circuits of ground-rent lie wholly outside it.
+
+Section 2 sets out feudal rent, where the claim on the producer’s labour
+is the institution itself. Section 3 follows the transition to agrarian
+capitalism, in which rent becomes a competed-down residual and the
+category of economic rent is born. Section 4 traces the migration of the
+binding rent to urban land and working-class housing, and the first
+explicit statement of capitalisation. Section 5 reads the twentieth
+century’s decommodification and re-commodification of the same housing
+stock as an illustration of the double character of housing rent.
+Section 6 turns to the financialised present and to the evidence on who
+bears a regulated rent. Section 7 isolates the capitalisation operation
+and the rate it leaves unanchored, and Section 8 concludes.
 
 ------------------------------------------------------------------------
 
@@ -302,23 +317,26 @@ analytic identification of housing rent with a deduction from the means
 of reproduction.
 
 It is in this period that the technical core of the modern theory is
-stated explicitly. In *Capital*, Volume III, Marx writes that “the price
-of land is nothing but capitalised ground-rent” — that the price of a
-parcel of land is its rent divided by the rate of interest — and he
-places this within the broader category of **fictitious capital**:
-titles, including land, state debt, and shares, whose price is the
-capitalised value of an expected revenue stream **\[std\]**. Ground-rent
-is thus one species of fictitious capital alongside interest-bearing
-debt and equity; what sets it apart is that its title is to a fixed,
-non-produced condition — land and location — so the claim can be
-captured without a supply response, the property the reform tradition
-has always exploited **\[conj\]**. This is, in substance, the
-proposition that an asset is worth the present value of the income it
-commands, and it is the historical origin of the capitalisation formula
-that the rest of this paper will track. That the same formula reappears
-two generations later in the marginalist theory of capital, shorn of its
-connection to social labour, is the central irony of the history of rent
-**\[conj for the continuity claim; std for each attribution\]**.
+stated explicitly. In *Capital*, Volume III, Marx treats the price of
+land as capitalised ground-rent — the price of a parcel of land is its
+rent divided by the rate of interest — and he places this within the
+broader category of **fictitious capital**: titles, including land,
+state debt, and shares, whose price is the capitalised value of an
+expected revenue stream **\[std\]**. Ground-rent is thus one species of
+fictitious capital alongside interest-bearing debt and equity; what sets
+it apart is that its title is to a fixed, non-produced condition — land
+and location — so the claim can be captured without a supply response,
+the property the reform tradition has always exploited **\[conj\]**.
+This is, in substance, the proposition that an asset is worth the
+present value of the income it commands. The practice is far older —
+Petty (1662) had already asked how many years’ purchase land is
+“naturally worth” — but Marx is the first to class capitalised rent with
+interest-bearing debt and shares as fictitious capital, and it is in
+that form that the rest of this paper tracks it. That the same formula
+reappears two generations later in the marginalist theory of capital,
+shorn of its connection to social labour, is the central irony of the
+history of rent **\[conj for the continuity claim; std for each
+attribution\]**.
 
 Two distinctions within Marx’s theory of rent matter here, because they
 are exactly what separates his account from Ricardo’s and what carries
@@ -423,10 +441,10 @@ on Rognlie’s (2015) influential decomposition, largely attributable to
 housing: net of housing, much of the long-run rise in the net capital
 share recedes. The magnitude of that result is debated and sensitive to
 the treatment of depreciation, but its direction is robust **\[std,
-magnitude contested\]**. Modern rentier income is, to a first
-approximation, housing rent and its capitalisation. The rent question is
-no longer a question about agricultural land or even about land in
-general; it is a question about the home.
+magnitude contested\]**. The rise in rentier income is, on this
+decomposition, largely a rise in housing rent and its capitalisation.
+The rent question is no longer a question about agricultural land or
+even about land in general; it is a question about the home.
 
 The second feature is the return of rent and land to the centre of
 economic analysis after a century of marginalist neglect. The
@@ -439,29 +457,30 @@ attached to it **\[std\]**. Ryan-Collins and co-authors have traced how
 land thereby “disappeared from economic theory” and have reconstructed
 the land–credit feedback at the heart of the housing economy
 (Ryan-Collins, Lloyd, and Macfarlane, 2017) **\[std\]**. Christophers
-(2020) has named the resulting system rentier capitalism: an economy
-organised around income from the control of scarce assets **\[std\]**.
+(2020) has analysed the resulting system as rentier capitalism: an
+economy organised around income from the control of scarce assets
+**\[std\]**.
 
 The third feature is the revival, in policy, of the old
 counter-tradition. Statutory rent stabilisation has returned to the
-agenda across Europe, including Ireland’s cap on annual increases and
-the proposals of the New Economics Foundation for an emergency rent
-brake in England (Gillespie et al., 2025) **\[std, ✓\]**. Proposals to
-tax the surplus at its source have returned in modern dress, including
-the proposal to extend National Insurance to rental income on the ground
-that income from property should be treated like income from work
-**\[std, ✓\]**. Mainstream public finance reaches the same instrument by
-another road — the Henry George Theorem (Stiglitz 1977; Arnott and
-Stiglitz 1979) and the optimal-taxation treatment of a fixed factor as
-the ideal, non-distorting tax base **\[std\]**. That orthodoxy and the
-counter-tradition converge on taxing the inelastic component is itself
-evidence for this paper’s claim that the separation of a capturable
-surplus from a genuine return to provision is internal to capitalist
-rent, recognised across paradigms. But the agreement is only on the
-instrument and on the existence of a capturable inelastic surplus, not
-on what that surplus *is*: what divides the two traditions is the anchor
-of value behind it — willingness-to-pay on one side, the reproduction of
-the producing population on the other (Section 7) **\[conj\]**.
+agenda across Europe, including Ireland’s cap on annual increases
+(Gillespie et al., 2025) and proposals for an emergency rent brake in
+England **\[std\]**. Proposals to tax the surplus at its source have
+returned in modern dress, including the proposal to extend National
+Insurance to rental income on the ground that income from property
+should be treated like income from work **\[std\]**. Mainstream public
+finance reaches the same instrument by another road — the Henry George
+Theorem (Stiglitz 1977; Arnott and Stiglitz 1979) and the
+optimal-taxation treatment of a fixed factor as the ideal,
+non-distorting tax base **\[std\]**. That orthodoxy and the
+counter-tradition converge on taxing the inelastic component shows the
+separation of a capturable surplus from a genuine return to provision to
+be recognised across paradigms; Section 3 traced where it came from. But
+the agreement is only on the instrument and on the existence of a
+capturable inelastic surplus, not on what that surplus *is*: what
+divides the two traditions is the anchor of value behind it —
+willingness-to-pay on one side, the reproduction of the producing
+population on the other (Section 7) **\[conj\]**.
 
 The empirical literature on the incidence of these instruments —
 reframed since Arnott’s (1995) call for revisionism on rent control —
@@ -493,16 +512,16 @@ co-authors also measure, and the core of their net-negative assessment
 of the policy — which is precisely why the contemporary designs
 discussed above pair the cap with no-vacancy-decontrol and with the
 acquisition of exiting stock, narrowing the margin through which the
-penalty would otherwise be escaped **\[std, ✓ where read firsthand\]**.
-To act on rent is to act on the capitalised claim; the incidence falls
-where the title is held. A second escape margin is qualitative rather
-than quantitative: a cap on the gross rent of a dwelling can be borne by
-tenants through the degradation of the structure, as maintenance lapses
-on an asset whose income is now fixed — which is why a serious design
-pairs the cap with enforced minimum standards. That requirement is no
-special burden of regulation, since the unregulated sector already fails
-basic decency standards at a markedly higher rate than the social stock
-(English Housing Survey, non-decent homes by tenure) **\[std\]**;
+penalty would otherwise be escaped **\[std\]**. To act on rent is to act
+on the capitalised claim; the incidence falls where the title is held. A
+second escape margin is qualitative rather than quantitative: a cap on
+the gross rent of a dwelling can be borne by tenants through the
+degradation of the structure, as maintenance lapses on an asset whose
+income is now fixed — which is why a serious design pairs the cap with
+enforced minimum standards. That requirement is no special burden of
+regulation, since the unregulated sector already fails basic decency
+standards at a markedly higher rate than the social stock (English
+Housing Survey, non-decent homes by tenure) **\[std\]**;
 under-maintenance is a feature of the asset market the cap inherits, not
 one it creates.
 
@@ -510,11 +529,7 @@ The modern rent stream is, moreover, partly underwritten by the state:
 housing benefit floors and de-risks it, so the capitalised claim embeds
 not only the tenant’s wage but a socialised transfer, and the state
 becomes a structural guarantor of the asset’s value even as the
-title-holder keeps the gain **\[conj\]**. The applied counterparts to
-this argument — the design of such a brake for the financialised UK
-market, and a direct empirical test of whether housing benefit is itself
-captured into rents rather than reaching tenants — are developed in two
-companion working papers (Galindo Escajeda, 2026d, 2026b).
+title-holder keeps the gain **\[conj\]**.
 
 ------------------------------------------------------------------------
 
@@ -530,133 +545,57 @@ discounted at rate $r$, the price of the asset is
 
 $$ P = \frac{R}{r - g}. $$
 
-This is Marx’s “price of land is capitalised ground-rent” with a growth
-term added; it is the Gordon–Shapiro (1956) growth model of the
-dividend-discount tradition; it is the reduced form of Irving Fisher’s
-(1906, 1930) theory of capital as the present value of an expected
-income stream; and it is the spine of the modern asset-market approach
-to house prices initiated by Poterba (1984) and developed in the
-long-run housing-returns literature of Jordà and co-authors (2019)
-**\[std\]**.
+This is Marx’s capitalised ground-rent with a growth term added; it is
+the Gordon–Shapiro (1956) growth model of the dividend-discount
+tradition; it is the reduced form of Irving Fisher’s (1906, 1930) theory
+of capital as the present value of an expected income stream; and it is
+the spine of the modern asset-market approach to house prices initiated
+by Poterba (1984) and developed in the long-run housing-returns
+literature of Jordà and co-authors (2019) **\[std\]**.
 
-What this entire tradition takes as given is the discount rate $r$ that
-performs the capitalisation. Fisher posited it; the marginalist theory
-of capital derived it from time-preference; the empirical housing
-literature reads it off market data. Modern macroeconomics does tie the
-equilibrium rate to material magnitudes — in equilibrium it equals the
-marginal product of capital, and along a steady path it moves with
-population growth, technical progress, and depreciation. But the
-primitive from which value is built remains subjective time-preference,
-and the material magnitudes that enter are the technology and demography
-of *capital*, not the reproduction of the producing population as such.
-This is the gap that the classical and Marxian traditions, by contrast,
-insisted must be filled from outside: for Petty and the Physiocrats and
-Marx, the magnitude that ultimately governs the valuation of wealth is
-not a subjective rate of impatience but a material fact about the
-reproduction of the producing population. Petty’s formulation that
-“labour is the father and the land is the mother of wealth” is the
-earliest statement of that material anchor; Marx’s theory of fictitious
-capital is its most developed classical form **\[std\]**.
+The modern tradition takes as given the discount rate $r$ that performs
+the capitalisation, but the rate was not always given. Petty (1662)
+anchored it. Land, he argued, cannot be worth an infinite number of
+years’ purchase, and he fixed the natural number at the joint lives of
+three generations alive together, a grandfather, a father and a child,
+“few men having reason to take care of more remote Posterity”; in
+England that came to about twenty-one years. The natural rate of
+interest was then bounded below by the yield of land so valued, with a
+premium for insurance added where titles were insecure (*Treatise*,
+chapters 4–5) **\[std\]**. The anchor is demographic, the horizon of the
+owning family’s line rather than the reproduction of the producing
+population, but it is material. Marx, who gave the capitalised claim its
+theory, took the anchor away. The rate that capitalises ground-rent is
+the rate of interest, and Marx held that there is no natural rate of
+interest: its average level is set by competition, custom and legal
+tradition (*Capital*, Volume III, chapter 22) **\[std\]**. After Marx
+the rate is supplied from outside the theory of rent. Fisher derived it
+from impatience and the returns to investment; the empirical housing
+literature reads it off market data; and in the Ramsey benchmark of
+modern macroeconomics the steady-state rate is time preference plus the
+curvature of utility times the growth of consumption per head. The
+material magnitudes that enter are the technology of production and its
+growth, not the reproduction of any population as such. Value, for Marx,
+is labour time; the rate that turns a rent into a price is a magnitude
+his theory leaves to competition **\[std\]**.
 
-A recent line of work has proposed to close this gap by anchoring the
-rate outside the financial sphere altogether — in the conditions under
-which a society sustains its working population, so that the numéraire
-is an objective index of sustenance capacity and the rate that
-capitalises any income stream, rent included, is obtained from the
-conditions of sustenance themselves.[^1] That programme is carried
-through, at steady state, for housing rent specifically — recovering
-$P = R/(r-g)$ as the reduced form of a structurally derived valuation —
-in the theory paper (Galindo Escajeda 2026c, Propositions 6.2–6.3),[^2]
-where the formula is recovered as the steady-state reduction of the
-sustenance-grounded kernel and the market price is split into a
-sustenance-grounded fundamental and a fictitious premium, the full
-stochastic risk-premium closure remaining deferred; the historical claim
-of this paper does not depend on it. The capitalisation formula is, as a
-matter of record, the through-line from Marx to the present; what
-*anchors* the rate it contains is the unfinished business the history
-hands forward. Such an anchor would yield a *fundamental* value, not a
-forecast of the market price; the gap between the two — the premium that
-financial conditions add — is the fictitious component the capitalised
-form conceals, so the materialist rate is not refuted by failing to
-track market volatility, since that divergence is precisely its object
-**\[conj\]**.
+Closing the gap would mean restoring an anchor of Petty’s kind with a
+different population behind it. The rate that capitalises any income
+stream, rent included, would be obtained from the conditions under which
+a society sustains its working population rather than from the horizon
+of the owning family.[^1] Such an anchor would yield a *fundamental*
+value, not a forecast of the market price. The gap between the two, the
+premium that financial conditions add, is the fictitious component the
+capitalised form conceals; a materialist rate would therefore not be
+refuted by failing to track market volatility, since that divergence is
+precisely its object **\[conj\]**. The capitalisation formula is, as a
+matter of record, the through-line from Petty and Marx to the present;
+what *anchors* the rate it contains is the unfinished business the
+history hands forward.
 
 ------------------------------------------------------------------------
 
-## 8. The open conjecture the history sets
-
-*This section states a research programme, not a result. What is
-detachable is the formal model, developed in the companion theory papers
-(Galindo Escajeda 2026a, 2026c) and sketched, with its linkage to the
-argument here, in Appendix A, so that the formal claims this paper
-invokes can be checked in-document rather than taken on trust; the
-value-theoretic reading of rent as a title-claim on the social labour of
-the producing population (Sections 2–7) is part of the history and
-stands without it.*
-
-The history reconstructed above shows two things with reasonable
-confidence and points toward a third that remains unproven. It shows,
-first, that the *form* of rent has moved steadily toward the pure
-capitalised claim, and second, that the *substance* — rent as a claim by
-title on the social labour of the producing population, a deduction
-whose incidence migrates across regimes — persists beneath every change
-of form (a persistence falsifiable on the terms set out in §1, and not
-falsified by any regime examined here). It points toward, but does not
-establish, a third proposition: that this persistence can be given a
-closed, contemporary formalism.
-
-The proposition, stated as a conjecture and not as a result, is this.
-Consider an economy in which housing enters both as an input to the
-sustenance of the population and as a capitalised asset, and in which
-one group owns the housing stock and another only consumes its services.
-The conjecture is that this *tenure inequality* behaves like an initial
-inequality in productive assets: the sustenance process compounds it
-over time, with the rent flow as the channel of transmission, so that
-the gap between the sustenance trajectories of owning and renting groups
-widens persistently rather than closing. If the conjecture holds, the
-persistence of rent-as-deduction acquires a derived structural formalism
-for the contemporary regime — the modern-housing endpoint, where rent’s
-incidence falls on the wage out of which the population reproduces
-itself — and the contemporary applied literature on the rent channel
-becomes a theorem of that structure rather than an analogy to it. The
-earlier regimes, where the claim falls instead on the producer’s surplus
-product (feudal) or on a share of surplus value (agrarian capitalism),
-are joined to it by the title-claim on social labour, not by this
-sustenance-compounding mechanism. The formal ingredients of this
-conjecture are developed in the companion theory papers: the
-sustenance-grounded kernel, the welfare criterion of Sustenance-Capacity
-Dominance, and the result that an initial inequality in productive
-assets persists and compounds under competitive markets are established
-in Galindo Escajeda (2026c, *Sustenance Capacity as Numéraire*,
-Proposition 3.1); the rent-as-sustenance-cost channel — the rent flow as
-a drag on the renting population’s sustenance, and the
-sustenance-consistent rent ceiling — in Galindo Escajeda (2026a, *Rent
-as Sustenance Cost*); and the capitalisation reduced-form $P = R/(r-g)$,
-recovered as the steady-state reduction of that kernel together with the
-split into a sustenance-grounded fundamental and a fictitious premium,
-in Galindo Escajeda (2026c, Propositions 6.2–6.3).[^3] Applying these
-jointly to housing *tenure* — owners versus renters, with the rent flow
-as the transfer between them — is the synthesis this history points
-toward; what remains genuinely open is the general-equilibrium magnitude
-of the compounding and the full stochastic risk-premium closure. If the
-synthesis fails, the persistence remains a powerful historical
-regularity without a closed model — which would itself be an honest and
-reportable result.
-
-To keep the established and the conjectural distinct: what is
-established is the periodised history of the preceding sections and the
-textual identification of rent with a title-claim on social labour
-across the classical and Marxian sources; what is conjectural is the
-reading of that history as a single movement of capitalisation. The
-formal apparatus on which that reading would rest is developed, at the
-conditional and steady-state strength stated there, in the companion
-theory papers (Galindo Escajeda 2026a, 2026c); its application to
-housing tenure, the general-equilibrium *magnitude* of the compounding,
-and the full stochastic risk-premium closure remain open.
-
-------------------------------------------------------------------------
-
-## 9. Conclusion
+## 8. Conclusion
 
 Rent began as the most visible of all economic relations: a serf walking
 to the lord’s field for three days in the week. It has become the most
@@ -683,9 +622,27 @@ second is that the reform tradition which seeks to capture that surplus
 housing, or the taxation of rental income as if it were earned — is not
 a series of novelties but a single recurring response, two and a half
 centuries old, to a relation older still. The contemporary instruments
-are the latest turn of that wheel. Whether the persistence they respond
-to can be given a derived formalism is the open question this history
-sets, and it is left, deliberately, open.
+are the latest turn of that wheel.
+
+The history is that of the English and British path, where the
+financialisation of housing rent is most fully developed. Carrying it
+further would take two things: the comparative paths set aside at the
+outset, where peasant proprietorship or a durable social-housing
+settlement took hold; and, for the present regime, a model in which
+owning and renting households are sustained out of the same economy and
+the rent flow passes between them, so that whether the gap between them
+compounds or closes over time becomes a question with an answer. Such a
+model is also where the rate that capitalises rent, unanchored since
+Marx (Section 7), would have to be fixed.
+
+What the history hands to policy is a location. The claim is now held as
+a capitalised title, so insofar as a regulated or taxed rent falls on
+its inelastic, location component, the incidence evidence of Section 6
+has it borne as a write-down of the asset rather than passed on to the
+tenant. The margins that escape it, conversion and neglected
+maintenance, run through the dwelling, which is why the designs
+discussed in Section 6 pair the cap with the acquisition of exiting
+stock and with enforced minimum standards.
 
 ------------------------------------------------------------------------
 
@@ -731,21 +688,6 @@ Engels, F. \[1872\] 1979. *The Housing Question.* Progress Publishers.
 Fisher, I. 1906. *The Nature of Capital and Income.* Macmillan. (See
 also *The Theory of Interest*, 1930.)
 
-Galindo Escajeda, C. 2026a. *Rent as Sustenance Cost:
-Sustenance-Capacity Dynamics, Buy-to-Let Mispricing, and Fiscal Capture
-in the UK Private Rented Sector.* Working paper.
-
-Galindo Escajeda, C. 2026b. *The Limits of Cash: Housing Benefit, the
-LHA Freeze, and the Case for Rent Regulation.* Working paper (for
-circulation).
-
-Galindo Escajeda, C. 2026c. *Sustenance Capacity as Numéraire: A
-Structural Theory of Value, Risk, and Finance.* Working paper.
-
-Galindo Escajeda, C. 2026d. *Breaking the Benchmark: Emergency Rent
-Regulation in a Financialised UK Housing Market.* Working paper (for
-circulation).
-
 George, H. 1879. *Progress and Poverty.* Appleton.
 
 Gillespie, T., J. Kren, R. C. Lyons, and C. O’Toole. 2025. “The
@@ -759,9 +701,6 @@ Harvey, D. 1982. *The Limits to Capital.* Blackwell.
 
 Hilton, R. H. 1978. “A Crisis of Feudalism.” *Past & Present* 80: 3–19.
 (Reprinted in Aston and Philpin 1985.)
-
-Huato, J., and C. Galindo Escajeda. 2026. *Labor Power as Value Source
-and the Form of Capitalist Wealth.* Working paper.
 
 Huato, J. Forthcoming. *Fictitious Capital: The Form and Flow of
 Capitalist Wealth.*
@@ -780,7 +719,9 @@ John Murray.
 Marx, K. \[1894\] 1981. *Capital, Volume III.* Penguin. (Parts V–VI:
 interest-bearing capital, fictitious capital, and ground-rent.)
 
-Petty, W. 1662. *A Treatise of Taxes and Contributions.*
+Petty, W. 1662. *A Treatise of Taxes and Contributions.* In *The
+Economic Writings of Sir William Petty*, ed. C. H. Hull, vol. 1.
+Cambridge University Press, 1899.
 
 Piketty, T. 2014. *Capital in the Twenty-First Century.* Harvard
 University Press.
@@ -815,195 +756,6 @@ Sweezy, P. M. 1976. “A Critique.” In *The Transition from Feudalism to
 Capitalism*, ed. R. Hilton. New Left Books. (Originally *Science &
 Society*, 1950.)
 
-------------------------------------------------------------------------
-
-## Appendix A. Construction and linkage of the cited formal results
-
-*This appendix sketches how the formal results this paper relies on are
-constructed and proved in the companion theory papers — Galindo Escajeda
-(2026c), the theory paper, and Galindo Escajeda (2026a) — so that a
-reader can verify the link between the historical argument and its
-formal backing without recourse to those (as yet unpublished) sources.
-Nothing here is an original derivation: the constructions and proofs are
-the cited papers’; what follows is a referee’s-eye précis of each, with
-its exact bearing on the argument in the body. The historical argument
-of Sections 1–6 depends on none of it; Section 7’s capitalisation claim
-depends only on §A.1; Section 8 is a conjecture whose ingredients
-(§A.2–A.3) are established and whose synthesising step (§A.4) is not.*
-
-### A.1 The capitalisation rate and the fictitious premium (theory paper, §6)
-
-The theory paper takes society’s objective to be an objective physical
-index of sustenance capacity $N$, not subjective utility, with
-consumption entering *only* as an input to a constant-returns sustenance
-technology $N_{t+1}=B\,e^{\eta_t}N_t^{1-\gamma}C_t^{\gamma}$. From the
-planner’s first-order conditions it derives a stochastic discount factor
-$m_{t+1}=\beta\,\lambda_{t+1}/\lambda_t$, where $\lambda_t$ is the
-shadow value of capital — the marginal value, reckoned in sustenance
-capacity, of the resource carried across time. The consumption
-first-order condition equates that shadow value to the marginal
-sustenance-value of consumption,
-$\lambda_t=\beta\,\mathbb{E}_t[V_N\cdot\gamma N_{t+1}/C_t]$, so the
-kernel’s dynamics are governed by the sustenance problem and carry a
-demographic risk channel absent from utility-based pricing.
-
-A claim to a growing income stream — a rent $R$ growing at $g$, the
-object of Section 7 — is priced by no-arbitrage through the Euler
-recursion $P_t=\mathbb{E}_t[m_{t+1}(R_{t+1}+P_{t+1})]$. Iterated forward
-under the no-bubble (transversality) condition, at the deterministic
-steady state — where the kernel takes the constant value
-$m^{\mathrm{SS}}=\beta\,\bar g^{-\sigma}$, with $\bar g=N_{t+1}/N_t$ the
-gross steady-state growth of sustenance capacity — the recursion
-collapses to the Gordon form
-$$ P^{*}=\frac{R}{r^{*}-g},\qquad r^{*}=\frac{1}{\beta\,\bar g^{-\sigma}}-1=\frac{\bar g^{\sigma}}{\beta}-1, $$
-convergent under $r^{*}>g$ (Proposition 6.2). This is the construction
-that recovers Section 7’s formula $P=R/(r-g)$ as a reduced form rather
-than an imported identity. Every parameter of
-$r^{*}=\bar g^{\sigma}/\beta-1$ is an object of the sustenance problem:
-$\bar g$, the steady-state growth of sustenance capacity, is the one
-derived from the sustenance technology; $\beta$ and $\sigma$
-parameterise the planner’s objective *over sustenance capacity* —
-$\beta$ the rate of pure futurity (applied to $N$, not to $C$), $\sigma$
-the curvature of $u(N)=N^{1-\sigma}/(1-\sigma)$. What is *absent* is any
-subjective consumption-time-preference and any capital-technology
-primitive: the orthodox rate’s foreign primitives are absent, not
-relabelled. (Away from the deterministic steady state the discount rate
-gains the Theorem 4.1 risk premium, whose demographic channel
-$(1-\gamma)\Omega$ is itself a sustenance object — but that is the
-stochastic component of the rate, not a parameter of the deterministic
-$r^{*}$.) This is the exact content of the claim that the rate is
-“obtained from the conditions of sustenance”: every primitive is a
-preference over $N$ or a feature of the sustenance technology, none a
-consumption or capital primitive.
-
-Pricing the same stream at the rate the market actually applies,
-$r^{m}$, and differencing the two capitalisations gives
-$$ P^{m}-P^{*}=\frac{R\,(r^{*}-r^{m})}{(r^{m}-g)(r^{*}-g)}, $$ strictly
-positive exactly when $r^{m}<r^{*}$ (Proposition 6.3). The *fictitious
-component* Section 7 identifies — the premium financial conditions add
-over the sustenance-grounded fundamental — is precisely this gap; that
-the materialist rate does not track market volatility is therefore its
-object, not its refutation. The *magnitude* of the risk premium for
-housing specifically inherits a heterogeneous-agent portfolio closure
-the theory paper defers; the deterministic reduction on which Section 7
-relies is complete and is all Section 7 invokes.
-
-### A.2 The compounding of an initial asset inequality (theory paper, Proposition 3.1)
-
-For two dynasties with unequal initial capital sharing competitive
-factor prices, the theory paper proves (Proposition 3.1) that
-competitive markets do not restore equality in sustenance capacity. The
-sustenance-capacity ratio
-$$ \frac{N_{1,t}}{N_{2,t}}=\prod_{s=0}^{t-1}\frac{g_{1,s}}{g_{2,s}} $$
-accumulates every period’s growth-rate differential multiplicatively,
-and the demographic continuation term $(1-\gamma)$ amplifies the
-divergence. The proof runs through a monotone consumption policy (the
-paper’s Assumption A3): the capital map is increasing in net resources,
-so the initial ordering of the capital ratio is preserved at every date,
-whence the growth ordering and the $\liminf$ of the discounted
-sustenance-capacity difference. (Proposition 5.1 strengthens this to
-robustness against asymptotic convergence: any finite interval over
-which the capital-rich dynasty grows faster locks in $N_{1,t}/N_{2,t}>1$
-for all later $t$ even if the per-capita state subsequently converges.)
-This is the formal content of Section 8’s premise that an initial
-inequality in productive assets “behaves like” a self-compounding gap.
-
-### A.3 The rent–sustenance channel and the sustenance-consistent ceiling (Galindo Escajeda 2026a)
-
-The applied companion shows that a higher rent share $s_t$ of income
-compresses the consumption base available for sustenance and so strictly
-lowers the growth rate of sustenance capacity, and derives a
-sustenance-consistent rent ceiling $s^{*}=\underline R_t/Y_t$, the
-minimum rent share consistent with landlord participation at the
-sustenance-grounded fundamental — a ceiling set by the *linear*
-Sustenance-Capacity-Dominance ranking, and so invariant to the kernel’s
-curvature $\sigma$, which enters only through the fundamental price. It
-also identifies a *demographic-externality discount* — the excess of the
-market price over the sustenance-consistent fundamental,
-$P^{\mathrm{mkt}}-P^{\mathrm{SCD}}=(R^{\mathrm{mkt}}-\underline R)/(r-g_R)$:
-the capitalisation, at the fundamental rate, of the rent charged above
-the minimum participation rent $\underline R$ (a *level* quantity,
-well-posed only under the calibration condition $r>g_R$ and fragile as
-$r\to g_R$ — unlike the rate-cancelling ceiling $s^{*}$ above, which
-survives regardless). Like §A.1’s fictitious premium this is a
-market-versus-fundamental valuation gap, but a *complementary*
-decomposition — §A.1 holds the rent fixed and varies the discount rate,
-whereas this holds the rate fixed and varies the rent. This supplies
-Section 8’s transmission element: rent is the channel through which a
-claim by title bears on the renting population’s sustenance.
-
-### A.4 What the three results close, and what remains open
-
-Section 7’s capitalisation argument is closed by §A.1 alone: the formula
-is recovered as the steady-state reduction of a sustenance-grounded
-kernel, and the market/fundamental gap is the fictitious premium — both
-at the strength the section claims, with only the housing risk-premium
-magnitude deferred.
-
-Section 8’s conjecture combines §A.1–A.3 with one step none of them
-supplies. Proposition 3.1 (§A.2) concerns an *endowment* inequality —
-unequal initial capital; Section 8’s object is a *tenure* relation in
-which the rent flow of §A.3 is an ongoing transfer *between* an owning
-and a renting group. The same monotone-policy argument that drives
-Proposition 3.1 extends, in sign and at partial equilibrium, to that
-transfer: rent displacing the renting lineage’s net resources
-permanently below the owner’s at any shared capital ratio gives a
-strictly positive long-run gap, since uniform competitive prices move
-both groups together and so cannot neutralise a transfer targeted by
-tenure. This is a partial-equilibrium extension argument, not a stated
-proposition of the cited papers; it is the anti-convergence mechanism
-the conjecture asserts. What is *not* settled is its general-equilibrium
-*magnitude* — the wage response attenuates or amplifies the gap but, by
-the same argument, cannot close it — and the full stochastic
-risk-premium closure. It is this synthesis, established in sign at
-partial equilibrium but open in magnitude and at general equilibrium,
-that Section 8 states as a conjecture rather than a result. Were it to
-fail, the eight-century persistence the history documents would remain a
-powerful regularity without a closed contemporary model — which, as
-Section 8 notes, would itself be an honest and reportable result.
-
 [^1]: The broad materialist statement of this anchor is Huato
     (forthcoming, *Fictitious Capital: The Form and Flow of Capitalist
-    Wealth*); its value-theoretic origins — deriving the shadow value of
-    wealth in terms of labour power from a directly-allocating benchmark
-    through private ownership, markets, risk, and a safe store of value
-    — are set out in a paper co-authored with the present author (Huato
-    and Galindo Escajeda, 2026). The formal apparatus that derives the
-    capitalisation rate from the sustenance problem — the stochastic
-    discount factor, the risk premium, and the steady-state reduction to
-    $P=R/(r-g)$ — is developed in the theory paper (Galindo Escajeda
-    2026c, Propositions 6.2–6.3). The claim in the text is that this
-    steady-state reduction is established there; what remains the
-    conjecture of §8 is its application to housing tenure, and the full
-    general-equilibrium and stochastic closure.
-
-[^2]: This recovers §7’s capitalisation formula as a *reduced form*
-    rather than an imported identity. Under the sustenance-grounded
-    stochastic discount factor, the no-arbitrage price of a growing rent
-    stream reduces, at the deterministic steady state, to
-    $P=R/(r^{*}-g)$ with a rate $r^{*}=\bar g^{\sigma}/\beta-1$ every
-    parameter of which is an object of the sustenance problem — the
-    technology-derived growth $\bar g$ of sustenance capacity, and the
-    preference parameters $\beta$ (pure futurity over $N$) and $\sigma$
-    (the curvature of the objective over $N$); no subjective
-    consumption-time-preference and no capital-technology primitive
-    enters, which is the precise sense in which the rate is “obtained
-    from the conditions of sustenance.” The market price then exceeds
-    this sustenance-grounded fundamental by a strictly positive
-    *fictitious* premium exactly when the market discounts below
-    $r^{*}$. The construction, the proof, and the linkage to this
-    section are set out in Appendix A.1.
-
-[^3]: Each ingredient is a proved result of the companion theory papers:
-    the multiplicative compounding of an initial productive-asset
-    inequality (theory paper, Proposition 3.1), the rent–sustenance
-    channel and its sustenance-consistent ceiling (Galindo Escajeda
-    2026a), and the capitalisation reduced-form (theory paper,
-    Propositions 6.2–6.3). The conjecture is the single further step
-    that combines them on housing *tenure* — the rent flow as a transfer
-    between an owning and a renting group — which the theory paper’s
-    monotone-policy argument extends to in sign, at partial equilibrium
-    (an extension, not a stated proposition of the cited papers), but
-    which remains open in general-equilibrium magnitude and in the full
-    stochastic closure. Appendix A.2–A.4 set out the three constructions
-    and isolate that open step.
+    Wealth*).
