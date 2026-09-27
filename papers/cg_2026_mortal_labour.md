@@ -7,36 +7,29 @@ Carlos Galindo Escajeda
 Workers live two periods and retire on a claim to the product of the
 generation they rear; capitalist generations, linked by altruism, own
 capital that outlives them. A levy on capital income finances a public
-input to rearing. The paper derives the levy each class would choose and
-compares the two on Cobb–Douglas production and off it. It then tests
-the comparison against three objections: that workers pay part of the
-levy, that they care about their children, and that capital might choose
-how the pension is paid for. On Cobb–Douglas production a working cohort
-whose only stake in the next generation is its old-age claim wants the
-levy that maximises next period’s output, however it discounts, and
-wants more than capital if and only if
-$\beta\lambda_C[1+\alpha(1-\gamma)]<1$, where $\beta\lambda_C$ is
-capital’s generational horizon, $\alpha$ the capital share, $\gamma$ the
-elasticity of rearing and $\theta$ the share of that effect carried by
-the cohort’s own income. The ordering holds at every
+input to rearing; the paper derives the levy each class wants. On
+Cobb–Douglas production a cohort whose only stake in the next generation
+is its old-age claim wants the levy that maximises next period’s output,
+however it discounts, and more than capital exactly when
+$\beta\lambda_C[1+\alpha(1-\gamma)]<1$, with $\beta\lambda_C$ capital’s
+generational horizon, $\alpha$ the capital share, and $\gamma$ and
+$\theta$ the elasticity of rearing and the part of its effect carried by
+the cohort’s income. The ordering holds at every
 $(\alpha,\gamma,\theta)$ when $\beta\lambda_C\le1/2$, is independent of
 the pension institution, and reverses, wherever capital cares about its
 successors, when the levy rears the generation after next. Neither class
-wants the levy that maximises balanced growth. Off Cobb–Douglas, the
-comparison is with capital’s stationary preferred levy, at a state
-stationary under its own policy where its stationary problem is strictly
-concave; the threshold is
+wants the balanced-growth levy. Off Cobb–Douglas the comparison is with
+capital’s stationary preferred levy, where its stationary problem is
+strictly concave, and the threshold becomes
 $\beta\lambda_C[1+s(1-\gamma)]+\beta\lambda_C\frac{1-\sigma}{\sigma}[s(1-\gamma\theta)+\gamma(1-\theta)(1-s)]<1$,
-for stationary capital share $s$ and elasticity of substitution
-$\sigma$. At a given share the first term is elasticity-free. The second
-weighs capital’s claims on profits and, whenever capital cares about its
-successors, vanishes only at unit elasticity. A sharp horizon bound in
-$\sigma$ and $s$ alone secures the ordering for every rearing
-technology. On Cobb–Douglas, a wage charge adds one term to the
-threshold; worker altruism lowers the cohort’s demand if successors
-count per head and raises it if they count in total; and capital would
-put a given pension wholly on wages unless it cares about its successors
-and a wage charge would cut rearing.
+read at the capital share $s$ of the state compared, held stationary by
+either class’s levy, for elasticity of substitution $\sigma$. At a given
+share the first term is elasticity-free; the second weighs capital’s
+claims on profits and, where capital cares about its successors,
+vanishes only at unit elasticity. A sharp horizon bound in $\sigma$ and
+$s$ secures the ordering for every rearing technology. Worker altruism
+lowers the cohort’s demand where successors count per head and raises it
+where they count in total.
 
 **Keywords:** reproduction of labour; old-age claims; overlapping
 generations; capital income taxation; public investment in children;
@@ -121,18 +114,21 @@ discount factor, the capitalist’s altruism, the capital share and the
 elasticity of rearing (Proposition 3). When the levy is a charge on
 capital income, labour’s selfish old-age claim out-demands capital
 whenever capital’s generational discount factor, weighted by its
-altruism, is at most one half. It needs no altruism toward the children,
-and the sign does not move with the pension institution. The timing of
-the return matters as much as its size. When the levy builds a stock
-that rears the generation after next, the working cohort, which will be
-dead by then, wants none of it, and capital wants it exactly when it
-cares about its successors (Proposition 4). A capitalist generation that
-does not care about them wants none of it either, so that part of
-reproduction then has no class behind it. The same horizons decide the
-form of the fund. For a given total, capital would split it between cash
-and public input to maximise the size of the next generation, while the
-working cohort, which also consumes out of the cash, wants more cash
-(Proposition 5).
+altruism, is at most one half. Above one half some capital share and
+rearing elasticity make capital the class that wants more, so one half
+is the largest horizon at which the ordering holds at every capital
+share and every rearing technology. It needs no altruism toward the
+children, and the sign does not move with the pension institution. The
+timing of the return matters as much as its size. When the levy builds a
+stock that rears the generation after next, the working cohort, which
+will be dead by then, wants none of it, and capital wants it exactly
+when it cares about its successors (Proposition 4). A capitalist
+generation that does not care about them wants none of it either, so
+that part of reproduction then has no class behind it. The same horizons
+decide the form of the fund. For a given total, capital would split it
+between cash and public input to maximise the size of the next
+generation, while the working cohort, which also consumes out of the
+cash, wants more cash (Proposition 5).
 
 There the two preferred levies are, up to a common factor set by the
 pension levy, exactly the two public-input shares of a one-agent economy
@@ -145,16 +141,22 @@ division is set by horizon and not by ownership. Off unit elasticity it
 is not. At a state stationary under capital’s own policy, an interior
 levy of capital’s must be its first-order levy (Proposition 7), and the
 ordering turns on a threshold that now involves the stationary capital
-share (Proposition 8). A bound on capital’s horizon in terms of the
-elasticity of substitution and the capital share alone guarantees that
-labour wants the larger levy, whatever the rearing technology, and the
-bound is sharp (Proposition 9). Capital’s own claims on profits are what
-drive a reversal. They enter its problem through what it values, what it
-accumulates and the base on which the levy is raised. Where horizon
-alone favours labour and substitution is at most unit, a decider with
-capital’s horizon and none of those claims demands no more than the
-pensioner. Compared at a common capital share, the one-agent relabelling
-fails at every elasticity other than one (Proposition 10).
+share (Proposition 8). That threshold is read at the capital share of
+the state where the classes are compared, and which class’s own levy
+holds the economy there does not enter it. Every such share arises from
+the primitives, because the constant that scales rearing enters neither
+preferred levy nor any threshold. A bound on capital’s horizon in terms
+of the elasticity of substitution and the capital share alone guarantees
+that labour wants the larger levy, whatever the rearing technology, and
+the bound is sharp (Proposition 9). Capital’s own claims on profits are
+what drive a reversal. They enter its problem through what it values,
+what it accumulates and the base on which the levy is raised. Where
+horizon alone favours labour and substitution is at most unit, a decider
+with capital’s horizon and none of those claims demands no more than the
+pensioner. A horizon of one half or less does the same at every
+elasticity and every capital share. Compared at a common capital share,
+the one-agent relabelling fails at every elasticity other than one
+(Proposition 10).
 
 Section 5 takes up three objections on the Cobb–Douglas face, and none
 of them removes the old-age claim as the source of labour’s demand. When
@@ -428,15 +430,16 @@ $$\rho^D_C=(1-\psi)\,\frac{\beta^2\lambda_C^2\,\gamma(1-\alpha)(1-\theta)}{1-\be
 The ordering reverses with the timing of the return. A stock that rears
 the generation after next pays nothing to a cohort whose pension is
 drawn from the next generation. The cohort bears its cost through a
-smaller capital stock and gains nothing. Capital gains through its
-successors’ successors, because its capital outlives it. For the part of
-reproduction whose return arrives after the working cohort has retired,
-capital’s interest dominates at every horizon at which it cares about
-its successors at all. Under durable provision capital’s levy is its
-services levy discounted once more. When capital does not care about its
-successors either ($\lambda_C=0$), neither class wants any of this part
-of reproduction. For this part of reproduction neither class would then
-choose the levy.[^4]
+smaller capital stock and gains nothing, and it does so however much it
+cares directly about the size of the generation it rears, because the
+stock the levy builds rears the generation after that one. Capital gains
+through its successors’ successors, because its capital outlives it. For
+the part of reproduction whose return arrives after the working cohort
+has retired, capital’s interest dominates at every horizon at which it
+cares about its successors at all. Under durable provision capital’s
+levy is its services levy discounted once more. When capital does not
+care about its successors either ($\lambda_C=0$), neither class wants
+any of this part of reproduction.[^4]
 
 **Proposition 5 (the form of the fund).** *Under services timing with
 $\psi=0$, fix the total fund $\tau=\rho+c$. For $\lambda_C\in(0,1]$
@@ -576,7 +579,17 @@ interior optimum and no corner competitor, so capital’s stationary
 preferred levy is well defined at every elasticity where the two
 hypotheses hold.[^6] The hypotheses restrict the horizon only below unit
 elasticity. They hold at every horizon when $\sigma\ge1$, and whenever
-$\sigma=1/2$ and $L\le1/3$.
+$\sigma=1/2$ and $L\le1/3$. The second of them is implied by the first.
+
+Every stationary capital share comes from primitives. The rearing
+constant $B$ enters the law of motion only through $\ln(i/B)$, and
+neither class’s preferred levy nor any threshold below contains it, so
+for each share in $(0,1)$ there is exactly one $B$ at which the state
+with that share is stationary under $r_C$, wherever $r_C$ is defined,
+and exactly one at which it is stationary under the working cohort’s
+preferred levy. The share at which the two classes are compared is
+therefore a free parameter of the comparison and not a restriction on
+it.
 
 **Proposition 8 (the ordering off unit elasticity).** *Let
 $\lambda_C>0$. At $k^*$ stationary under capital’s own policy, with
@@ -600,6 +613,14 @@ owner the class that wants the larger levy. With substitutes, a horizon
 of one half does not suffice. What decides the division is still the
 horizon, joined now by the share of output that the owner’s claims
 command.
+
+Whose levy holds the economy at the state does not enter the comparison.
+At a state that the working cohort’s own preferred levy $r_W$ holds
+stationary, with $1-L+LG>0$ and $|LM|<1$ at that state’s share,
+capital’s payoff from a constant levy is falling at $r_W$ if and only if
+$LT<1$ there, and rising if and only if $LT>1$. The threshold is the
+same function of the same objects, read at the capital share of the
+state where the two classes are compared.
 
 **Proposition 9 (a horizon bound free of the rearing technology).**
 *$LT\le1$ at every $(\gamma,\theta)\in[0,1]^2$ if and only if
@@ -645,18 +666,20 @@ $\sigma=1$.*
 Proposition 10 locates the reversal of Proposition 8. With substitution
 at most unit, horizon alone favours labour wherever
 $L(1+s(1-\gamma))<1$, and there only capital’s own claims on profits can
-make the owner the class that wants the larger levy. At $\sigma<1$ those
-claims raise capital’s threshold by a positive amount, at a common
-capital share.[^7] At $\sigma=1$ they are invisible, which is why
-Proposition 6 holds there. Off unit elasticity the two thresholds differ
-at every common share. “Horizon, not ownership” is the Cobb–Douglas
-statement. Off unit elasticity the statement is this: where horizon
-alone favours labour and substitution is at most unit, only capital’s
-ownership can reverse the ordering. The reason is visible in the
-channels. With complements a larger workforce per unit of capital raises
-the capital share, so what capital values, what it accumulates and the
-base of the levy all grow with the generation reared, and a patient
-owner can come to want more of it than the pensioner does.
+make the owner the class that wants the larger levy. At every
+elasticity, a decider with capital’s horizon and none of those claims
+wants no more than the pensioner once that horizon is at most one half.
+At $\sigma<1$ those claims raise capital’s threshold by a positive
+amount, at a common capital share.[^7] At $\sigma=1$ they are invisible,
+which is why Proposition 6 holds there. Off unit elasticity the two
+thresholds differ at every common share. “Horizon, not ownership” is the
+Cobb–Douglas statement. Off unit elasticity the statement is this: where
+horizon alone favours labour and substitution is at most unit, only
+capital’s ownership can reverse the ordering. The reason is visible in
+the channels. With complements a larger workforce per unit of capital
+raises the capital share, so what capital values, what it accumulates
+and the base of the levy all grow with the generation reared, and a
+patient owner can come to want more of it than the pensioner does.
 
 # 5. Incidence, altruism and who pays the pension
 
@@ -1095,7 +1118,20 @@ For $\sigma\ge1$, $\varepsilon\in[0,1)$ gives $G\ge0$ and
 $M\le s+\varepsilon(1-s)<1$, so $1-L+LG\ge1-L>0$ and $1-LM>0$ at every
 $L\in(0,1)$. For $\sigma=1/2$, $\varepsilon=-1$ gives
 $G=\gamma[s(1+\theta)-(1-\theta)(1-s)]>-1$ and $M=2s-1-G<s$, so
-$L\le1/3$ gives $1-L+LG>1-2L>0$ and $1-LM>0$.
+$L\le1/3$ gives $1-L+LG>1-2L>0$ and $1-LM>0$. The second hypothesis
+follows from the first at every elasticity: $M=1-(1-s)/\sigma-G$, so
+$1-LM=(1-L+LG)+L(1-s)/\sigma$, which is positive whenever $1-L+LG$ is.
+
+In $u=\ln k$ the law of motion of Section 4 reads
+$\ln k'=\ln(i/B)+q(r)+h(u)$, with $q(r)=\ln(1-r)-p\ln r$ and
+$h(u)=(1-p)\ln s_K+(1-\gamma)\ln y-\gamma\theta\ln s_L$, whose
+derivative is $M$. A state $u$ is stationary under a constant levy $r$
+if and only if $\ln(i/B)=u-h(u)-q(r)$, whose right-hand side is free of
+$B$. So for each capital share $s$, with $u$ the state at which $s_K=s$,
+exactly one rearing constant, $B=i\,\exp\bigl(q(r)+h(u)-u\bigr)$, makes
+that state stationary under $r$; taking $r=r_C$, wherever $r_C$ is
+defined, and $r=r_W$ of A.8 gives the two constants. Neither $r_C$ nor
+$r_W$ nor $G$, $M$ and $T$ contains $B$.
 
 ## A.8 Proposition 8.
 
@@ -1117,6 +1153,32 @@ gives $LT<1$. In both cases the hypotheses hold by A.7. For (iii), at
 $\varepsilon=-1$ and $L=\gamma=\theta=1/2$ one has $G=s-1/4$, $M=s-3/4$
 and $T=5/4+s$. So $1-L+LG=3/8+s/2>0$, $1-LM=1-(s-3/4)/2>0$, and $LT>1$
 if and only if $s>3/4$.
+
+The threshold reads at the share of the state compared, whichever levy
+holds that state. Write a decider’s flow as $f(u,r)$ and its log-state
+map as $u'=g(u,r)$, let $u_0=g(u_0,r_0)$, and let $|Lg_u|<1$ at $u_0$.
+Under a constant levy $r$ from $u_0$, differentiating the map gives
+$\mathrm du_{t+1}/\mathrm dr=g_u\,\mathrm du_t/\mathrm dr+g_r$ with
+$\mathrm du_0/\mathrm dr=0$, so
+$\mathrm du_t/\mathrm dr=g_r(1-g_u^t)/(1-g_u)$, and since
+$\sum_{t\ge0}L^t(1-g_u^t)/(1-g_u)=L/[(1-L)(1-Lg_u)]$, the payoff
+$W(r)=\sum_{t\ge0}L^tf(u_t,r)$ has
+$$(1-L)\,W'(r_0)=f_r+\frac{L\,g_r\,f_u}{1-Lg_u} .$$ For capital in
+Section 4, $f=\ln(1-r)+\ln s_K+\ln y+\frac{L}{1-L}\ln(N'/N)$ and $g$ is
+the law of motion above, so $f_r=-1/(1-r)+\frac{L}{1-L}p/r$,
+$g_r=-1/(1-r)-p/r$, $f_u=E+LG/(1-L)$ and $g_u=M$. Then $f_u/(1-LM)$ is
+the $V^*$ of A.7 at the share of $u_0$, the coefficient of $1/(1-r)$ is
+$-(1+LV^*)=-a$ and that of $1/r$ is $pL\bigl(\tfrac1{1-L}-V^*\bigr)=b$,
+so $(1-L)W'(r)=-a/(1-r)+b/r=J'(r)$, with $a$, $b$, $G$, $M$ and $T$ read
+at that share. At a state stationary under the working cohort’s own
+preferred levy $r_W$, the cohort’s first-order condition above has
+$s'=s$, so $r_W/(1-r_W)=p(1-s)/s$; and $J'(r_W)$ has the sign of
+$b/a-p(1-s)/s$, which by the displayed identity is the sign of $LT-1$.
+So at any state that a constant levy holds stationary, capital’s payoff
+falls in the levy at the cohort’s preferred levy exactly when $LT<1$ at
+that state’s share. Proposition 7’s valuation is thus capital’s exact
+constant-levy margin at any such state, and the comparison does not
+depend on whose levy holds it.
 
 ## A.9 Proposition 9.
 
