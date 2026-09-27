@@ -372,13 +372,11 @@ A fourth, fiscal observation completes the picture and connects the
 history to the public accounts. Where the private rented sector has
 grown and the social sector has shrunk, an increasing share of housing
 support paid through the benefit system flows directly to private
-landlords as rent — a public subsidy to the capitalised claim, the
-magnitude of which is estimated directly in a companion working paper
-using two natural experiments in the Local Housing Allowance (Galindo
-Escajeda, 2026b). Moderating rents at source, or capturing the
-fixed-supply surplus through the tax system, is therefore not only a
-transfer between owners and tenants but a reduction in the cost to the
-state of underwriting the claim.
+landlords as rent — a public subsidy to the capitalised claim.
+Moderating rents at source, or capturing the fixed-supply surplus
+through the tax system, is therefore not only a transfer between owners
+and tenants but a reduction in the cost to the state of underwriting the
+claim.
 
 ------------------------------------------------------------------------
 
@@ -483,10 +481,7 @@ mechanics are domestic — the acquisition of exiting stock through
 existing social and community-housing channels, the closure of
 between-tenancy resets under recent tenancy reform, and the treatment of
 rental income on the same footing as earned income — and it is there
-that the design must finally be judged. The detailed construction of
-such a brake for the financialised UK market, including the second-best
-case for it and its incidence on capitalised values, is set out in a
-companion working paper (Galindo Escajeda, 2026d).
+that the design must finally be judged.
 
 An open question remains, and it is worth stating plainly rather than
 burying. The history establishes a regularity — that the gap between
@@ -564,14 +559,6 @@ Fisher, I. 1930. *The Theory of Interest.* Macmillan.
 Forrest, R., and Y. Hirayama. 2015. “The Financialisation of the Social
 Project: Embedded Liberalism, Neoliberalism and Home Ownership.” *Urban
 Studies* 52 (2): 233–244.
-
-Galindo Escajeda, C. 2026b. *The Limits of Cash: Housing Benefit, the
-LHA Freeze, and the Case for Rent Regulation.* Working paper (for
-circulation).
-
-Galindo Escajeda, C. 2026d. *Breaking the Benchmark: Emergency Rent
-Regulation in a Financialised UK Housing Market.* Working paper (for
-circulation).
 
 George, H. 1879. *Progress and Poverty.* Appleton.
 
