@@ -19,9 +19,9 @@ both classes want any rate below the owner’s raised. As capital’s share of o
 rate falls to zero while the worker’s stays positive, so the range of rates over which the classes
 agree on a larger state shrinks to nothing. The disagreement survives a linear tax and a unit
 elasticity of substitution, the two features to which Galor and Moav attribute their unanimity. It is
-opened by where the tax falls or by what workers value: with neither, and an owner with no taste for
-wealth, the two classes want the same rate, although the workforce is still produced and owned by
-nobody. Comparing stationary states, the worker’s higher rate favours workers when reproduction builds
+opened by where the tax falls, by what workers value, or by the owner’s own taste for wealth: with
+none of the three, the two classes want the same rate, although the workforce is still produced and
+owned by nobody. Comparing stationary states, the worker’s higher rate favours workers when reproduction builds
 capacity, and favours owners per head when it builds persons in two dynasties that reproduce at the
 same elasticity.
 
@@ -94,10 +94,11 @@ own reason for wanting a state rather than the state itself: a bargain that give
 all still delivers a strictly positive rate in that limit (§6).
 
 Two further results locate the disagreement. The workforce’s lack of an owner does not by itself divide
-the classes. Either of two other primitives does: the tax falls on the owner’s income before he divides
-it between consumption and investment, and workers value the capacity that maintenance produces rather
-than the consumption that produces it. With a tax on what the owner invests, workers who value
-consumption and an owner with no taste for wealth, the two preferred rates coincide, in an economy where
+the classes. Any one of three other primitives does: the tax falls on the owner’s income before he divides
+it between consumption and investment; workers value the capacity that maintenance produces rather
+than the consumption that produces it; or the owner values his stock of capital and not only what he
+consumes, and then his preferred rate falls strictly as he values it more while the worker’s does not
+move. With all three removed the two preferred rates coincide, in an economy where
 the workforce is still produced and still owned by nobody (§5.5). And comparing stationary states, the
 worker’s higher rate favours workers when reproduction builds capacity in classes of fixed size, and
 favours owners per head when it builds persons in two dynasties that reproduce at the same elasticity.
@@ -221,10 +222,10 @@ depreciation, $K_{t+1}=B_K I_t$. Section 4 releases $\gamma_K$.
 
 ## 2.3 Preferences
 
-Owners value consumption and, with weight $\omega\in[0,1)$, the capital stock itself — a
-wealth-in-the-objective term, carried so that the results can be shown not to turn on it; only the agreement of Proposition 10(iv) is stated at $\omega=0$. Both
-classes’ *preferred rates* are free of $\omega$; it survives only in the owner’s investment share
-and at interior points of the bargaining frontier:
+Owners value consumption and, with weight $\omega\in[0,1)$, the capital stock itself. Under the tax
+of §2.2 neither class’s *preferred rate* carries $\omega$: it survives only in the owner’s investment
+share and at interior points of the bargaining frontier. Under a tax on what the owner invests it
+does not drop out of his rate, and Proposition 10 turns on that:
 
 $$U^{C}=\sum_{t\ge 0}\beta^{t}\Bigl[(1-\omega)\ln C^{C}_t+\omega\ln K_t\Bigr].$$
 
@@ -255,9 +256,9 @@ model reduces to the standard one where it should.
 The economy is therefore the two-class fiscal architecture of Judd (1985) — workers hold no
 assets, the government taxes capital income to fund transfers to them — with one primitive changed:
 part of the transfer is an input to a *produced stock* that the recipients cannot sell. What follows
-rests on that change and on the face of this section. It also rests on where the tax falls and on
-what workers value: with an owner who has no taste for wealth, either of these two primitives
-suffices to open the class disagreement, and without both the classes agree (Proposition 10).
+rests on that change and on the face of this section. It also rests on where the tax falls, on what
+workers value and on whether the owner values his stock of capital: any one of the three suffices to
+open the class disagreement, and with none of them the classes agree (Proposition 10).
 
 # 3. Equilibrium policies and their inefficiency
 
@@ -526,8 +527,7 @@ logarithmic case, and §§5–6 do not use the cross.
 
 The two preferred rates bound a closed interval that no change in the tax alone can improve on.
 Below its lower endpoint both classes want a larger state; inside it, one point is selected for
-each weight on workers; and, with an owner who has no taste for wealth, two primitives decide
-whether the interval has any width at all. Which class a higher rate favours is a separate
+each weight on workers; and three primitives decide whether the interval has any width at all. Which class a higher rate favours is a separate
 question, and it is settled at the end of the section by what reproduction produces.
 
 ## 5.1 Concavity, and what it needed
@@ -709,7 +709,8 @@ and it is strictly positive.
 
 Proposition 6 holds both of the features Galor and Moav credit with their unanimity fixed, and still
 finds a strictly positive gap. The next statement locates it, changing one primitive at a time at the
-provision corner: where the tax falls, and what workers value.
+provision corner: where the tax falls, what workers value, and whether the owner values his stock of
+capital.
 
 **Proposition 10 (the tax base).** *On the face of §2.4 and at $\phi=1$, compare the tax of §2.2, which falls on the owner’s
 capital income, with a tax on what he invests: he consumes $(1-i_t)\alpha Y_t$ untaxed, invests
@@ -725,13 +726,21 @@ $\sum_{t}\beta^{t}\ln C^{W}_t$.*
     strictly exceeds the owner’s at every $\omega\in[0,1)$.*
 -   *(iv) With the tax on investment, workers who value consumption and $\omega=0$, the two preferred
     rates are identical at every parameter value.*
+-   *(v) With the tax on investment and workers who value consumption, the owner’s preferred rate falls
+    strictly as $\omega$ rises while the worker’s does not move, so the worker’s strictly exceeds the
+    owner’s at every $\omega\in(0,1)$.*
 
-In words, either primitive on its own separates the classes, and removing both, with an owner who has
-no taste for wealth, makes them agree. The workforce is produced and owned by nobody in all four
+In words, any one of the three primitives separates the classes on its own, and only with all three
+removed do they agree. The workforce is produced and owned by nobody in every one of these
 economies, so its lack of an owner does not by itself divide them. What moves the owner’s rate is his own
-taxed consumption. A tax on capital income takes a share of what he would have consumed and a tax on
+taxed consumption and his own stock. A tax on capital income takes a share of what he would have consumed and a tax on
 investment does not, so with no taste for wealth only the first makes him want a smaller state than a
-worker who values consumption. That the menu of taxes is not neutral in a two-class economy is an
+worker who values consumption. A taste for wealth reaches the same end by the other margin. It raises
+the weight the owner puts on the capital that this tax holds back and lowers the weight he puts on
+the public stock it funds. His rate falls, and a worker who values consumption stays where he is.
+Clause (v) is not clause (ii) or (iii) under another name: those two hold with an owner
+who has no taste for wealth, and (v) is the economy in which the primitives they turn on are both
+absent. That the menu of taxes is not neutral in a two-class economy is an
 old result in public economics. Seidman and Maurer (1982) reach it through the distribution of
 disposable income between savers with different propensities, comparing steady-state capital
 intensity across tax regimes that raise equal revenue per worker. Their classes do not choose a
@@ -915,7 +924,8 @@ of substitution to which Galor and Moav attribute their unanimity, so those two 
 their result rests on. It does not come from unownedness on its own: in an economy where the tax falls
 on what the owner invests, workers value consumption and the owner has no taste for wealth, the
 workforce is still produced and owned by nobody and the two classes want the same rate. What opens the
-gap is where the tax falls and what workers value, and either primitive suffices.
+gap is where the tax falls, what workers value, or whether the owner values his stock of capital, and
+any one of the three suffices.
 
 The mechanism is an accounting proportion. Each class meets the tax’s cost and its benefit through one
 quantity, so its own reproduction elasticity cancels from its preferred rate, and the other class’s
@@ -1198,7 +1208,26 @@ $$\tau_W-\tau_C^{\text{inv}}=\frac{(1-\beta)(1-\theta)\bigl[\alpha+\omega(1-\alp
 the first because $(1-\beta+Q)-\beta\bigl[\alpha(1-\beta)+Q\bigr]=(1-\beta)D_0$. Every factor is strictly
 positive for parameters in $(0,1)$ and $\omega\in[0,1)$, which proves (ii) and (iii). The first
 difference does not depend on $\omega$ at all, since under the tax on capital income neither rate
-does. $\qquad\blacksquare$
+does.
+
+For (v), read $a$ and $c$ off A.1 as functions of $\omega$:
+
+$$c=\bigl(1-\omega(1-\beta)\bigr)c_0,\qquad
+a=a_0+\frac{\omega(1-\beta)(1-\alpha)\bigl[\beta\gamma(1-\theta)+1\bigr]}{\Delta},$$
+
+so $c$ falls and $a$ rises strictly with $\omega$. The owner’s rate under the tax on investment is
+$c/(a+c)$, which rises with $c$ and falls with $a$, both of which are positive by A.3, so it falls
+strictly; the consumption worker’s rate $c_0/(a_0+c_0)$ carries no $\omega$. Their difference is
+therefore zero at $\omega=0$ by (iv) and strictly increasing thereafter:
+
+$$\tau_W^{\text{cons}}-\tau_C^{\text{inv}}=\frac{c_0a-ca_0}{(a_0+c_0)(a+c)}
+=\frac{\omega(1-\beta)\beta\gamma(1-\theta)(1-\alpha)\bigl[(1-\alpha)\bigl(\beta\gamma(1-\theta)+1\bigr)
++\alpha\bigl(\beta\gamma+1-\beta\bigr)\bigr]}
+{\bigl[\alpha(1-\beta)+Q\bigr]\bigl[(1-\beta)\bigl(\alpha+\omega(1-\alpha)\bigr)+Q\bigr]},$$
+
+using $c_0\Delta=\beta\gamma(1-\theta)(1-\alpha)$ and $a_0\Delta=\alpha(\beta\gamma+1-\beta)$ from
+A.1. Every factor is strictly positive for parameters in $(0,1)$ and $\omega\in(0,1)$, which proves
+(v). $\qquad\blacksquare$
 
 ## A.7 Proof of Proposition 4$''$
 
