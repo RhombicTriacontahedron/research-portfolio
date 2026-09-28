@@ -83,33 +83,33 @@ class to maximise the discounted logarithm of what its whole class
 consumes.
 
 This paper shows that the standard mechanism then splits in two, and the
-halves come apart. A class whose payoff weights employment and
-productivity equally is indifferent to how fast machinery displaces
-labour, because what displacement takes out of employment it puts back
-into productivity inside that class’s own consumption. So the bargain
-over the accumulation share and the wage share is settled on capital per
-member of the labour force alone, and the mechanisation law is handed
-the employment rate afterwards: the unemployment pool is what the
-bargain leaves over. Whether a bargain exists at all is a threshold
-property of the extractable working day — the effort capital may take
-from an hour it hires — and above that threshold there are two bargains
-rather than one, an accumulationist compromise with a high accumulation
-share and a low wage share and a distributionist one with the reverse,
-unless a bound on the wage share excludes one of them. That birth of two
-compromises out of none, at a threshold, is the fold. Both classes are
-strictly better off in the accumulationist compromise wherever it leaves
-a pool, labour included, and no force in the economy takes them there.
-Whether the pool persists is a one-line comparison between the
-compromise’s accumulation share and a threshold that rises with the
-labour-displacing share of accumulation, so the two compromises can fall
-on opposite sides of it; and where they do, the compromise both classes
-prefer is the one that runs the pool down to nothing. Exhausting it
-costs neither class anything so long as the full-employment boundary
-leaves alone the bounds that actually bind: labour’s wage ceiling does
-not bind at an interior compromise, so raising it at full employment
-changes nothing, while rationing capital’s accumulation there can
-reverse one class’s half of the comparison, and which half turns on
-whether labour’s wage is held or re-optimised.
+halves come apart. A class whose payoff treats employment and
+productivity alike, whatever form the payoff takes, is indifferent to
+how fast machinery displaces labour, because what displacement takes out
+of employment it puts back into productivity inside that class’s own
+consumption. So the bargain over the accumulation share and the wage
+share is settled on capital per member of the labour force alone, and
+the mechanisation law is handed the employment rate afterwards: the
+unemployment pool is what the bargain leaves over. Whether a bargain
+exists at all is a threshold property of the extractable working day —
+the effort capital may take from an hour it hires — and above that
+threshold there are two bargains rather than one, an accumulationist
+compromise with a high accumulation share and a low wage share and a
+distributionist one with the reverse, unless a bound on the wage share
+excludes one of them. That birth of two compromises out of none, at a
+threshold, is the fold. Both classes are strictly better off in the
+accumulationist compromise wherever it leaves a pool, labour included,
+and no force in the economy takes them there. Whether the pool persists
+is a one-line comparison between the compromise’s accumulation share and
+a threshold that rises with the labour-displacing share of accumulation,
+so the two compromises can fall on opposite sides of it; and where they
+do, the compromise both classes prefer is the one that runs the pool
+down to nothing. Exhausting it costs neither class anything so long as
+the full-employment boundary leaves alone the bounds that actually bind:
+labour’s wage ceiling does not bind at an interior compromise, so
+raising it at full employment changes nothing, while rationing capital’s
+accumulation there can reverse one class’s half of the comparison, and
+which half turns on whether labour’s wage is held or re-optimised.
 
 The pool’s grip on the wage returns when the ceilings themselves move
 with it: labour can enforce more where the pool is small, and capital
@@ -135,14 +135,16 @@ mechanism is operating.
 One word in the question needs its meaning fixed, because a regulator
 sounds like a feedback rule and here it is not one. Each class commits
 to a path of its own instrument, so neither reads the employment rate
-off and answers it. Regulation is a property of the equilibrium
-trajectory: the bargain fixes an accumulation rate, the accumulation
-rate and the mechanisation law fix the size of the pool, and the size of
-the pool bounds what each class can enforce. That is what the second
-half of the standard mechanism amounts to once it is written inside an
-equilibrium rather than assumed in front of one, and it is why the grip,
-when it comes back, comes back through the action sets and not through
-anyone’s payoff.
+off and answers it. With constant ceilings the commitment binds neither
+class: each compromise is also Markov perfect, so neither class would
+change course if it could condition on the state. Regulation is a
+property of the equilibrium trajectory: the bargain fixes an
+accumulation rate, the accumulation rate and the mechanisation law fix
+the size of the pool, and the size of the pool bounds what each class
+can enforce. That is what the second half of the standard mechanism
+amounts to once it is written inside an equilibrium rather than assumed
+in front of one, and it is why the grip, when it comes back, comes back
+through the action sets and not through anyone’s payoff.
 
 Two readers pay for this. The reader in the Goodwin lineage gives up
 mechanisation as a weapon of distributional struggle: under separation
@@ -450,27 +452,35 @@ equilibria are Markov perfect, verified directly rather than imported,
 so every constant equilibrium object below is a closed form in the
 primitives.[^2]
 
-**Proposition 2 (separation).** Suppose a player’s payoff weights on $x$
-and $y$ coincide. Then that player’s problem depends on the single state
-$z \equiv x + y = \ln(av)$, whose law of motion $$
+**Proposition 2 (separation).** Suppose a player’s payoff depends on the
+employment rate and productivity only through their product $av$ — as
+Section 2’s payoffs do when their weights on $x$ and $y$ coincide, and
+as a payoff of any form built on the class’s own consumption and the
+capital it commands does. Then that player’s problem depends on the
+single state $z \equiv x + y = \ln(av)$, whose law of motion $$
 \dot z = \frac{s(e-\omega)}{\kappa} - n
-$$ contains no mechanisation term, and its costate is the constant
-$a/\rho$, for *any* mechanisation law $m(\cdot)$. Capital always
-satisfies the hypothesis; labour satisfies it when $a_W = 1$.
+$$ contains no mechanisation term, for *any* mechanisation law
+$m(\cdot)$; with Section 2’s logarithmic payoffs its costate is the
+constant $a/\rho$. Capital always satisfies the hypothesis; labour
+satisfies it when $a_W = 1$.
 
 In words, an organised class that values its whole class is indifferent
 to how fast machinery displaces labour, because what displacement takes
 from employment it gives back to productivity one for one inside the
 class’s own consumption. The compromise is then decided on $z$ alone,
 and the mechanisation law is handed the unemployment pool to settle
-afterwards. Read the other way, the theorem is a reduction:
-$z = \ln(K/\kappa N)$ is the log of capital per member of the labour
-force, so the core is a game on Lancaster’s state with logarithmic
-payoffs and a linear technology, and the employment rate is recovered
-from that game by the mechanisation law. Nothing in Propositions 3 and 4
-below would surprise a reader of that lineage; what the reduction buys
-is Propositions 5 and 5$'$, which the lineage could not state because it
-had no employment rate to place.
+afterwards. The reduction asks only that the payoff see employment and
+productivity through their product, whatever its form — capital’s
+consumption, the capital it commands and labour’s wage bill are all
+proportional to $aL$ — and the logarithm adds the constant costate, and
+with it the static game of Proposition 3 and every closed form after it.
+Read the other way, the theorem is a reduction: $z = \ln(K/\kappa N)$ is
+the log of capital per member of the labour force, so the core is a game
+on Lancaster’s state with logarithmic payoffs and a linear technology,
+and the employment rate is recovered from that game by the mechanisation
+law. Nothing in Propositions 3 and 4 below would surprise a reader of
+that lineage; what the reduction buys is Propositions 5 and 5$'$, which
+the lineage could not state because it had no employment rate to place.
 
 **Proposition 3 (the compromise is a static game).** With $a_W = 1$, and
 on any horizon over which the induced employment path stays inside the
@@ -1688,13 +1698,14 @@ disciplines the wage. Held together as a description of one economy they
 over-determine it. Made to face each other inside one equilibrium object
 they come apart, and they turn out to be alternatives indexed by an
 institution rather than two halves of one mechanism. The first is the
-stronger and the more robust: it survives every organisation of labour,
-both action sets, and both directions of the mechanisation channel. The
-second is conditional, and buying it back costs the economy the very
-bargain it was supposed to discipline. An economist who wants
-unemployment to do work in a wage equation now has to say which
-institution puts it there, because in this economy nothing does it on
-its own.
+stronger and the more robust: which way accumulation acts on the pool is
+a theorem about the labour-displacing share of accumulation alone —
+where that share is zero accumulation only absorbs labour, and the
+surplus it manufactures enters through that share alone. The second is
+conditional, and buying it back costs the economy the very bargain it
+was supposed to discipline. An economist who wants unemployment to do
+work in a wage equation now has to say which institution puts it there,
+because in this economy nothing does it on its own.
 
 The mechanism is a cancellation and a wedge. The cancellation is the
 separation: where a class values what happens to its whole class,
@@ -1929,12 +1940,12 @@ accumulates less than full employment requires.
 
 Every result above is claimed on the domain of Section 2: logarithmic
 payoffs, fixed coefficients, and classes that commit to paths of their
-own instruments. The separation rests in addition on payoff weights that
-treat employment and productivity alike, and two of those assumptions
-carry most of the weight. An organisation that weighted employment above
-the wage bill would trade share for jobs, and the size of the
-unemployment pool would depend on the bargain after all, so the
-separation is a theorem about preferences before it is one about
+own instruments. The separation holds for a payoff of any form and rests
+in addition on payoffs that treat employment and productivity alike, and
+two of those assumptions carry most of the weight. An organisation that
+weighted employment above the wage bill would trade share for jobs, and
+the size of the unemployment pool would depend on the bargain after all,
+so the separation is a theorem about preferences before it is one about
 organisation, and it is the first thing to give way if that assumption
 is wrong. Constant ceilings are the second, and Section 6 is what
 happens when they go: the separation breaks there with the payoff
@@ -2033,6 +2044,22 @@ computation gives, for general weights,
 $p_x^i = (\rho a_x^i + b a_y^i)/(\rho(\rho+b))$, which reduces to
 $a/\rho$ when the weights coincide and to $b/(\rho(\rho+b))$ for the
 insider case.
+
+The logarithm enters only the constant costate. Take a payoff of any
+form that depends on the state through $z$ alone, and fix the other
+player’s path. The player then chooses its own controls against a payoff
+and a law of motion, $\dot z = s(e-\omega)/\kappa - n$, neither of which
+contains $m(\cdot)$ or $c$, so its best replies are the same for every
+mechanisation law, and the employment rate is recovered afterwards from
+$\dot x = (1-c)s(e-\omega)/\kappa - m(x) - n$. The costates say the
+same: with equal marginal payoffs in $x$ and $y$, the two costate
+equations give
+$\dot p_x^i - \dot p_y^i = (\rho + m'(x))(p_x^i - p_y^i)$, which
+$p_x^i = p_y^i$ solves for every $m(\cdot)$. Capital’s consumption
+$(1-s)(e-\omega)aL$, the capital it commands $\kappa aL$ and labour’s
+wage bill $\omega aL$ are all proportional to $aL = e^{z}N$, so a payoff
+of any form built on them satisfies the hypothesis; labour’s wage per
+employed member, $\omega a$, does not.
 
 ## A.3 Proposition 3.
 
