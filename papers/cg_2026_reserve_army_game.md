@@ -9,24 +9,24 @@ unemployed ones. The standard answer is that accumulation manufactures
 its own surplus of labour, which holds the wage down. Making the
 employment rate the state of a differential game between organised
 capital and organised labour separates those two claims. Capital picks
-the share of profit it reinvests and the effort it takes from an hour
-hired, labour the wage share; machinery arrives faster where labour is
-scarce, and part of every unit of accumulation displaces labour. When
-each class values what happens to its whole class, the bargain over
-accumulation and the wage is independent of how fast machinery displaces
-labour, and the mechanisation law then sizes the unemployment pool, the
-bargain’s residual rather than its regulator. A compromise exists only
-where the effort capital may extract per hour hired is large enough, and
+the share of profit it reinvests and the effort it takes per hour hired,
+labour the wage share; machinery arrives faster where labour is scarce,
+and part of every unit of accumulation displaces labour. When each class
+values what happens to its whole class, the bargain over accumulation
+and the wage is independent of how fast machinery displaces labour, and
+the mechanisation law sizes the unemployment pool, the bargain’s
+residual rather than its regulator. A bargained compromise exists only
+where capital’s extractable effort per hour hired is large enough, and
 there are then two, an accumulationist and a distributionist one, unless
-a bound on the wage share excludes one. Both classes strictly prefer the
+a wage bound excludes one. Both classes strictly prefer the
 accumulationist compromise wherever it leaves a pool, and nothing moves
-an economy to it. A closed-form threshold on the accumulation share
-decides whether the pool survives, and the accumulationist compromise
-can exhaust it while the distributionist one keeps it. When the wage and
-effort ceilings move with the pool, the pool regains its grip on the
-wage through one term in capital’s price of accumulation, and where
-compromises exist the economy rests at no more than three employment
-rates.
+an economy to it. Faster accumulation shrinks the pool, a closed-form
+threshold on the accumulation share decides whether it survives, and the
+accumulationist compromise can exhaust it while the distributionist one
+keeps it. When the wage and effort ceilings move with the pool, it
+regains its grip on the wage, mechanisation enters the bargain through
+one term in capital’s price of accumulation, and where compromises exist
+the economy rests at three employment rates or fewer.
 
 **JEL.** C73, E24, E25, O33, B51
 
@@ -90,47 +90,57 @@ of employment it puts back into productivity inside that class’s own
 consumption. So the bargain over the accumulation share and the wage
 share is settled on capital per member of the labour force alone, and
 the mechanisation law is handed the employment rate afterwards: the
-unemployment pool is what the bargain leaves over. Whether a bargain
-exists at all is a threshold property of the extractable working day —
-the effort capital may take from an hour it hires — and above that
-threshold there are two bargains rather than one, an accumulationist
-compromise with a high accumulation share and a low wage share and a
-distributionist one with the reverse, unless a bound on the wage share
-excludes one of them. That birth of two compromises out of none, at a
-threshold, is the fold. Both classes are strictly better off in the
-accumulationist compromise wherever it leaves a pool, labour included,
-and no force in the economy takes them there. Whether the pool persists
-is a one-line comparison between the compromise’s accumulation share and
-a threshold that rises with the labour-displacing share of accumulation,
-so the two compromises can fall on opposite sides of it; and where they
-do, the compromise both classes prefer is the one that runs the pool
-down to nothing. Exhausting it costs neither class anything so long as
-the full-employment boundary leaves alone the bounds that actually bind:
-labour’s wage ceiling does not bind at an interior compromise, so
-raising it at full employment changes nothing, while rationing capital’s
-accumulation there can reverse one class’s half of the comparison, and
-which half turns on whether labour’s wage is held or re-optimised.
+unemployment pool is what the bargain leaves over. The first half of the
+standard mechanism does not survive as stated. Wherever less than the
+whole of accumulation displaces labour, accumulation absorbs labour on
+net: a compromise that accumulates faster leaves a smaller pool, and a
+pool persists only where machinery arrives, or the labour force grows,
+independently of accumulation. Whether a bargain exists at all is a
+threshold property of the extractable working day — the effort capital
+may take from an hour it hires — and above that threshold there are two
+bargains rather than one, an accumulationist compromise with a high
+accumulation share and a low wage share and a distributionist one with
+the reverse, unless a bound on the wage share excludes one of them. That
+birth of two compromises out of none, at a threshold, is the fold; below
+it labour takes its ceiling, the most it is permitted, and that is an
+equilibrium wherever the ceiling leaves capital a positive share to
+reinvest. Both classes are strictly better off in the accumulationist
+compromise wherever it leaves a pool, labour included, and an
+equilibrium in which labour takes its ceiling comes last for both. No
+force in the economy takes them to the accumulationist compromise.
+Whether the pool persists is a one-line comparison between the
+compromise’s accumulation share and a threshold that rises with the
+labour-displacing share of accumulation, so the two compromises can fall
+on opposite sides of it; and where they do, the compromise both classes
+prefer is the one that runs the pool down to nothing. Exhausting it
+costs neither class anything so long as the full-employment boundary
+leaves alone the bounds that actually bind: labour’s wage ceiling does
+not bind at an interior compromise, so raising it at full employment
+changes nothing, while rationing capital’s accumulation there can
+reverse one class’s half of the comparison, and which half turns on
+whether labour’s wage is held or re-optimised.
 
 The pool’s grip on the wage returns when the ceilings themselves move
 with it: labour can enforce more where the pool is small, and capital
 can extract more where it is large. That restores the grip and changes
-what it is. It reaches the bargain through exactly one term, the
-discounted effort capital gives up on every worker by employing one
-more, and that term is larger the more sharply the extractable day
-answers to employment and smaller the faster the labour market
-mean-reverts. Past a threshold in that responsiveness no extractable day
-whatever supports an interior compromise — the wedge outgrows the
-ceiling — and the threshold contains no policy instrument. Short of it
-the economy is more determinate rather than less: it rests at no more
-than three employment rates, at most one of them where the pool holds
-labour at its ceiling, and an economy attaining all three can be written
-down. Each of those rest points, pinned or bargained, is an equilibrium
-of the regime wherever the economy’s interior law of motion survives at
-full employment. The same regime carries a warning for anyone reading
-wage data: labour sits at its ceiling both where the pool is large and
-where the compromise is barely viable and capital’s accumulation share
-is collapsing, so a wage at a ceiling does not say which half of the
-mechanism is operating.
+what it is. It reaches the bargain through the ceilings themselves, and
+the mechanisation law, which the bargain ignores while the ceilings are
+constant, now enters it through exactly one term: the discounted effort
+capital gives up on every worker by employing one more. That term is
+larger the more sharply the extractable day answers to employment and
+smaller the faster the labour market mean-reverts. Past a threshold in
+that responsiveness no extractable day whatever supports an interior
+compromise — the wedge outgrows the ceiling — and the threshold contains
+no policy instrument. Short of it the economy is more determinate rather
+than less: it rests at no more than three employment rates, at most one
+of them where the pool holds labour at its ceiling, and an economy
+attaining all three can be written down. Each of those rest points,
+pinned or bargained, is an equilibrium of the regime wherever the
+economy’s interior law of motion survives at full employment. The same
+regime carries a warning for anyone reading wage data: labour sits at
+its ceiling both where the pool is large and where the compromise is
+barely viable and capital’s accumulation share is collapsing, so a wage
+at a ceiling does not say which half of the mechanism is operating.
 
 One word in the question needs its meaning fixed, because a regulator
 sounds like a feedback rule and here it is not one. Each class commits
@@ -164,13 +174,13 @@ the equilibrium set, where it is an outcome.
 Section 2 sets out the model and the two classes’ problems. Section 3
 records what holds at any rest point, whatever the classes maximise.
 Section 4 solves the bargain with constant ceilings: the separation, the
-fold, the ranking of the interior equilibria, and the threshold that
-decides whether the unemployment pool persists. Section 5 treats the
-case in which mechanisation does not respond to employment, which is
-Lancaster’s world. Section 6 lets the ceilings move with the
-unemployment pool and solves it at its rest points, where every
-equilibrium object of that regime lives. Section 7 concludes. The proofs
-are in Appendix A.
+fold, the equilibria at a binding wage bound, the ranking of the whole
+equilibrium set, and the threshold that decides whether the unemployment
+pool persists. Section 5 treats the case in which mechanisation does not
+respond to employment, which is Lancaster’s world. Section 6 lets the
+ceilings move with the unemployment pool and solves it at its rest
+points, where every equilibrium object of that regime lives. Section 7
+concludes. The proofs are in Appendix A.
 
 ## Related literature
 
@@ -217,7 +227,7 @@ feedback-Stackelberg leadership by capitalists weakly Pareto-dominates
 the feedback Nash outcome of a modified Lancaster game, workers’
 leadership collapsing to Nash. That is a ranking *across information
 structures*, it is weak, and it is again finite-horizon and
-undiscounted; Proposition 4$'$ ranks two Nash equilibria of one game
+undiscounted; Proposition 4$'$ ranks the Nash equilibria of one game
 strictly, and Proposition 4$''$ says when the higher-ranked one cannot
 be sustained. Sorger (1997) makes redistribution in a two-class growing
 economy a differential game between the capitalist class and a
@@ -277,10 +287,10 @@ claimed is the separation, the fold, the split of persistence across
 equilibria, the strict ranking of the whole equilibrium set where the
 preferred compromise is sustainable and the case in which it is not,
 and, in the regime where the ceilings move with the unemployment pool,
-the single channel through which the compromise sees the pool, the
-dichotomy in which no extractable day admits an interior compromise, the
-global count of stationary employment rates, and both halves of the
-equilibrium claim at the stationary layer.
+the single term through which the pool enters capital’s price of
+accumulation, the dichotomy in which no extractable day admits an
+interior compromise, the global count of stationary employment rates,
+and both halves of the equilibrium claim at the stationary layer.
 
 # 2. The model
 
@@ -320,8 +330,9 @@ compatible, $\bar\omega < e_{\text{lo}}$, so profit is positive on the
 whole action set. In the core of the paper the bounds are constants;
 Section 6 solves the regime in which they move with the unemployment
 pool. An equilibrium is *interior* when labour’s share lies strictly
-inside its bounds; equilibria in which a bound on $\omega$ binds are not
-classified in this paper.
+inside its bounds; equilibria at a binding wage bound are classified,
+for an organisation of labour that counts the unemployed as its own
+($a_W = 1$), in the Lemma after Proposition 4.
 
 **States.** Capital accumulates at $\dot K/K = s(e-\omega)/\kappa$. With
 $K = \kappa a L$, employment grows at
@@ -461,7 +472,8 @@ single state $z \equiv x + y = \ln(av)$, whose law of motion $$
 \dot z = \frac{s(e-\omega)}{\kappa} - n
 $$ contains no mechanisation term, for *any* mechanisation law
 $m(\cdot)$; with Section 2’s logarithmic payoffs its costate is the
-constant $a/\rho$. Capital always satisfies the hypothesis; labour
+constant $w/\rho$, with $w$ the common weight, $1+\lambda$ for capital
+and $1$ for labour. Capital always satisfies the hypothesis; labour
 satisfies it when $a_W = 1$.
 
 In words, an organised class that values its whole class is indifferent
@@ -524,8 +536,8 @@ $$ Since $\omega_\pm$ falls as $s_\pm$ rises, $\omega_+ < \omega_-$: the
 accumulationist equilibrium $(s_+, \omega_+)$ has the higher
 accumulation share and the lower wage share; the distributionist
 equilibrium $(s_-, \omega_-)$ the reverse. The classification is of
-interior equilibria; whether an equilibrium with a bound on $\omega$
-binding exists below the fold is not decided here.
+interior equilibria; the Lemma below classifies the rest, and below the
+fold the only equilibrium, when one exists, holds labour at its ceiling.
 
 In words, an effort ceiling that can be stretched only a little relative
 to impatience and capital intensity admits no interior class compromise
@@ -535,17 +547,51 @@ fixed point. Raising the effort ceiling past the fold creates two
 compromises at once, and a taste for accumulation for its own sake,
 $\lambda > 0$, lowers the fold.
 
+**Lemma (equilibria at a binding wage bound).** Let $a_W = 1$ and
+$\omega_{\text{lo}} < \bar\omega$, and write
+$s(\omega) \equiv 1 - \kappa\rho/\big((1+\lambda)(\bar e - \omega)\big)$.
+Capital has a best reply to a wage share $\omega$ if and only if
+$\omega < \bar e - \kappa\rho/(1+\lambda)$, and it is then $s(\omega)$.
+The static game of Proposition 3 has an equilibrium with labour at its
+ceiling if and only if $\bar\omega < \bar e - \kappa\rho/(1+\lambda)$
+and $\bar\omega\, s(\bar\omega) \le \kappa\rho$, and one with labour at
+its floor if and only if
+$\omega_{\text{lo}}\, s(\omega_{\text{lo}}) \ge \kappa\rho$; every other
+equilibrium is interior and is a solution of Proposition 4.
+Consequently, *(i)* below the fold the static game has an equilibrium if
+and only if $\bar\omega < \bar e - \kappa\rho/(1+\lambda)$, and it is
+then unique, with labour at its ceiling; and *(ii)* above the fold, when
+both solutions of Proposition 4 are interior equilibria, no equilibrium
+holds labour at its floor, and a third equilibrium, with labour at its
+ceiling, exists if and only if
+$\bar\omega < \bar e - \kappa\rho/(1+\lambda)$. Each of these equilibria
+is a constant open-loop equilibrium of the core and is Markov perfect.
+
+In words, below the fold labour takes the most it is permitted, and that
+is an equilibrium wherever its ceiling leaves capital a positive share
+to reinvest. At every wage share capital can answer, it reinvests so
+little of profit that labour, which asks for its impatience times the
+capital–output ratio divided by the share reinvested, asks for more than
+the share it holds; so labour presses to its ceiling, and capital’s
+reply to that ceiling is the only candidate. Above the fold the same
+pressure adds a third equilibrium beyond the distributionist compromise
+wherever labour’s ceiling lies above the distributionist share and still
+leaves capital a positive share to reinvest. The fold therefore decides
+whether labour can bargain; below it, labour’s ceiling decides whether
+the two classes reach any equilibrium at all.
+
 **Proposition 4$'$ (dominance over the whole equilibrium set).** Suppose
 two admissible interior equilibria exist and the accumulationist one
-leaves an unemployment pool, $(1-c)A(s_+) \le \mu(1) + n$ —
-equivalently, by Proposition 5$'$, $\hat s_c \ge s_+$. Then from any
-common initial state and for every $\lambda \ge 0$, both classes obtain
-a strictly higher discounted payoff in the accumulationist equilibrium
-than in *any other interior* open-loop equilibrium of the core, the
-switching schedules of Proposition 3 included. As everywhere in this
-paper, the comparison is over equilibria in which the wage bounds do not
-bind; equilibria at a binding bound are unclassified. Both remain Nash
-equilibria; nothing in the model moves an economy between them.
+does not reach full employment in finite time,
+$(1-c)A(s_+) \le \mu(1) + n$ — for the linear law, by Proposition 5$'$,
+$\hat s_c \ge s_+$. Then from any common initial state and for every
+$\lambda \ge 0$, both classes obtain a strictly higher discounted payoff
+in the accumulationist equilibrium than in *any other* open-loop
+equilibrium of the core, the Lemma’s equilibrium at labour’s ceiling and
+the switching schedules of Proposition 3 included, and both classes rank
+the constant equilibria in the same order, by the wage share, the lower
+first. Each remains a Nash equilibrium; nothing in the model moves an
+economy between them.
 
 In words, capital’s consumption term is the same in the two compromises,
 so capital prefers the one that grows faster; and labour, valuing the
@@ -554,17 +600,26 @@ employment and productivity than it loses in share. The same argument
 extends to the whole set: because the state enters every payoff
 affinely, the discounted value of *any* profile is the discounted
 average of the same constant $B_i$ evaluated along it, so a ranking that
-holds at each date holds for every schedule. Each class makes this
-ranking by its own objective, and an organisation of labour that has
-settled on the distributionist compromise has no unilateral reason to
-leave it.
+holds at each date holds for every schedule. The same two facts place
+the equilibrium at labour’s ceiling. Along capital’s best reply its
+consumption term is the same at every wage share, so capital ranks
+equilibria by accumulation alone, and accumulation falls as the share
+rises; labour, at any share above $\kappa\rho$, loses more through
+slower growth than it gains in share. Every equilibrium of the static
+game lies on capital’s best reply at a share above $\kappa\rho$, so both
+classes rank the equilibria by the wage share, the lower first, and the
+one in which labour takes its ceiling comes last for both, labour
+included. Each class makes this ranking by its own objective, and an
+organisation of labour that has settled on the distributionist
+compromise has no unilateral reason to leave it.
 
 **Proposition 4$''$ (the preferred compromise can be
 self-undermining).** If instead $\hat s_c < s_+$, the hypothesis of
-Proposition 4$'$ fails, and Proposition 5$'$’s remaining two cases must
-be separated. In the split case $s_- < \hat s_c < s_+$ the two
-compromises differ in kind, not only in degree. The distributionist one
-has an interior rest point; the accumulationist one has none, and by
+Proposition 4$'$ fails, and two cases must be separated: Proposition
+5$'$’s split case with $\hat s_c$ strictly below $s_+$, and its third
+case. In the split case $s_- < \hat s_c < s_+$ the two compromises
+differ in kind, not only in degree. The distributionist one has an
+interior rest point; the accumulationist one has none, and by
 Proposition 5 it drives the economy to full employment in finite time
 from *every* interior initial state, at which point the interior law no
 longer describes it. With the boundary left unspecified the
@@ -577,18 +632,19 @@ fraction of each period stays inside the state space for ever and, by
 Proposition 4$'$’s pointwise argument, both classes strictly prefer it.
 Which of those schedules the classes would settle on would then be a
 state-constrained problem the core does not solve; under Proposition
-5$''$ the question dissolves (Appendix A.5), and it reopens only against
-a boundary that rations capital’s accumulation. In the remaining case,
-$\hat s_c \le s_-$, *both* compromises accumulate past the threshold:
-each reaches full employment in finite time from every interior start,
-and with the boundary left unspecified no infinite-horizon comparison
-would be available for either, the interior law hosting no equilibrium
-for ever. The welfare ranking of Proposition 4$'$ would then be silent
-on that third case, and the model’s three persistence regimes would
-carry two comparisons, not three. That silence is the core’s only where
-the boundary is left unspecified: Proposition 5$''$ below shows that
-wherever the boundary moves no binding bound the comparison is restored
-in both non-persisting cases, and is Proposition 4$'$’s, unchanged.
+5$''$ the question dissolves (Appendix A.4$''$), and it reopens only
+against a boundary that rations capital’s accumulation. In the remaining
+case, $\hat s_c \le s_-$, *both* compromises accumulate past the
+threshold: each reaches full employment in finite time from every
+interior start, and with the boundary left unspecified no
+infinite-horizon comparison would be available for either, the interior
+law hosting no equilibrium for ever. The welfare ranking of Proposition
+4$'$ would then be silent on that third case, and the model’s three
+persistence regimes would carry two comparisons, not three. That silence
+is the core’s only where the boundary is left unspecified: Proposition
+5$''$ below shows that wherever the boundary moves no binding bound the
+comparison is restored in both non-persisting cases, and is Proposition
+4$'$’s, unchanged.
 
 In words, the compromise both classes prefer is, in this case, the one
 that abolishes the condition under which it was computed. The
@@ -686,19 +742,24 @@ proved: with $m_0 = n = 0$ the threshold is $\hat s_c = 0$, so whenever
 two interior compromises exist neither leaves a permanent unemployment
 pool.
 
-In words, the direction of causation runs through $c$, and nothing else
-in the model decides it. At $c = 0$ accumulation only absorbs labour,
-unemployment persists where the compromise accumulates *slowly*, and the
-mechanism is Goodwin’s, or Harrod’s: a race between capital and an
-exogenously mechanising labour supply. The opposite direction — that
-accumulation manufactures its own surplus of labour — enters through
-$c$: as the labour-displacing share of accumulation rises, the threshold
-$\hat s_c$ rises with it, and in the limit no compromise, however
-accumulationist, absorbs the unemployment pool. Which direction holds is
-therefore a theorem about $c$, and Proposition 5$'$ says exactly where
-the line falls for each value of it; the compromise the classes reach is
-the same on both sides of that line, because Proposition 2 keeps $c$ out
-of it.
+In words, accumulation absorbs labour on net at every labour-displacing
+share below one. Each unit of accumulation hires labour and displaces
+the fraction $c$ of what it hires, so a compromise that accumulates
+faster rests at a higher employment rate — under the linear law
+$\mathrm{d}\ln v^\ast/\mathrm{d}A = (1-c)/b$ — and $c$ sets how much of
+the pool accumulation absorbs, with no admissible value reversing the
+sign. At $c = 0$ accumulation only absorbs labour, unemployment persists
+where the compromise accumulates *slowly*, and the mechanism is
+Goodwin’s, or Harrod’s: a race between capital and an exogenously
+mechanising labour supply. As the labour-displacing share of
+accumulation rises, the absorption per unit shrinks and the threshold
+$\hat s_c$ rises with it; in the limit accumulation displaces as much
+labour as it hires, no compromise, however accumulationist, absorbs the
+unemployment pool, and the pool that persists is the one autonomous
+mechanisation and population growth create. Proposition 5$'$ says
+exactly where the threshold falls for each value of $c$, and the
+compromise the classes reach does not move with it, because Proposition
+2 keeps $c$ out of the bargain.
 
 **Proposition 5$''$ (the full-employment boundary is payoff-neutral
 where no binding bound moves).** Let $a_W = 1$, let the control bounds
@@ -746,11 +807,11 @@ problem’s, so the boundary costs neither class anything.
 *(iv) Consequences, under the continuation of (i).* Proposition 3’s
 direct verification and its Markov perfection extend to the whole state
 space, with no hypothesis on the induced path. And the hypothesis of
-Proposition 4$'$ — that the accumulationist compromise leaves an
-unemployment pool — may be dropped: the discounted-value ranking is
-$\rho^{-1}$ times the ranking of the static game’s payoffs, identically,
-so Proposition 4$'$’s comparison holds in every case of Proposition
-5$'$, the split case of Proposition 4$''$ included.
+Proposition 4$'$ — that the accumulationist compromise does not reach
+full employment in finite time — may be dropped: the discounted-value
+ranking is $\rho^{-1}$ times the ranking of the static game’s payoffs,
+identically, so Proposition 4$'$’s comparison holds in every case of
+Proposition 5$'$, the split case of Proposition 4$''$ included.
 
 *(v) The neutrality belongs to the no-rationing class, not to
 continuation as such.* A law that instead rations capital’s accumulation
@@ -786,10 +847,10 @@ $\bar\omega$ *rises* — is **covered**, and changes nothing: an expansion
 of a bound that was not binding is invisible to the compromise and to
 both payoffs. What is not covered is a boundary that moves a *binding*
 bound: rationing capital’s accumulation, or moving the extraction
-ceiling. So in this section the unemployment pool cannot recover its
+ceiling. So in this section the unemployment pool cannot acquire a
 regulating role at the boundary merely by disappearing — a higher
 permitted wage at full employment does not raise the wage, because the
-bargain was never at the ceiling. It can only recover it through
+bargain was never at the ceiling. It can acquire one only through
 capital’s margin, which is the asymmetry Section 6 makes into a
 mechanism.
 
@@ -844,10 +905,13 @@ $\kappa\rho/(cs)$: labour-displacing accumulation gives even an insider
 organisation a stake in accumulation, through the productivity its wage
 is indexed to.
 
-In words, the unemployment pool regulates the wage only for a labour
-movement that does not count the unemployed as its own and has no
-productivity stake in accumulation; for one that does either, the
-compromise regulates the unemployment pool.
+In words, an organisation that does not count the unemployed as its own
+values employment only for the productivity it brings, so the response
+of mechanisation to employment enters its share and the bargain is no
+longer independent of the mechanisation law; as that response vanishes
+with no labour-displacing accumulation, it has no stake in accumulation
+left and asks for its ceiling. Its compromise carries no employment rate
+either, so the unemployment pool remains what the bargain leaves over.
 
 # 5. The Lancaster case
 
@@ -872,15 +936,33 @@ labour can enforce at most $\bar\omega(v)$, increasing in $v$, and
 capital can extract at most $\bar e(v)$, decreasing in $v$. With
 log-linear ceilings, $$
 \bar\omega(v) = \hat\omega\, v^{\eta}, \qquad \bar e(v) = \hat e\, v^{-\zeta}, \qquad \eta, \zeta > 0 ,
-$$ the labour ceiling binds where the unemployment pool is large and is
-slack where it is not. In the regime the reservation floor is
-$\omega_{\text{lo}} = 0$: the ceiling $\bar\omega(v)$ falls to zero with
-the employment rate, so any positive floor would empty labour’s action
-set on a neighbourhood of $v = 0$ and cut the state space at
+$$ the labour ceiling binds where the unemployment pool is large. In
+this section a compromise is *interior* when capital’s accumulation
+share lies in $(0,1)$; labour is *pinned* when its share equals its
+ceiling $\bar\omega(v)$, and *bargains* when its share lies below it. In
+the regime the reservation floor is $\omega_{\text{lo}} = 0$: the
+ceiling $\bar\omega(v)$ falls to zero with the employment rate, so any
+positive floor would empty labour’s action set on a neighbourhood of
+$v = 0$ and cut the state space at
 $(\omega_{\text{lo}}/\hat\omega)^{1/\eta}$; every limit $v \to 0^+$
 below is taken on that understanding, and Proposition 14’s proof says
-what survives a positive floor. Where the labour ceiling binds is a
-condition on the employment rate *and the accumulation share together*,
+what survives a positive floor. The ceilings’ scales are positive,
+$\hat e, \hat\omega > 0$, and labour’s organisation counts the
+unemployed as its own, $a_W = 1$, wherever a statement does not carry
+$a_W$. Section 2’s compatibility condition $\bar\omega < e_{\text{lo}}$
+is a condition on constant bounds and has no constant counterpart here,
+since no floor lies between $\hat\omega$ and $\hat e$ when
+$\hat\omega \ge \hat e$; in the regime capital’s extraction ranges
+instead over $(\omega, \bar e(v)]$ against the wage $\omega$ it faces,
+which keeps profit positive on every profile the two classes can play
+together, and labour’s wage over $(0, \bar\omega(v)]$, which at a
+deviation may exceed the extraction capital has committed to. Rest
+points are claimed where labour’s ceiling lies below capital’s,
+$\bar\omega(v) < \bar e(v)$: on the whole of $(0,1)$ when
+$\hat\omega \le \hat e$, and below the crossing
+$v_\times \equiv (\hat e/\hat\omega)^{1/(\eta+\zeta)}$ when
+$\hat\omega > \hat e$. Where the labour ceiling binds is a condition on
+the employment rate *and the accumulation share together*,
 $\bar\omega(v)\,s \le \kappa\rho$, and it is not a threshold in the
 employment rate alone: the Corollary to Proposition 11 shows that along
 the stationary locus labour is pinned to its ceiling at **both** ends of
@@ -934,9 +1016,11 @@ $$ and capital’s stationary condition is the core’s with $\kappa$
 replaced by $\kappa + \Gamma$: $$
 (1-s)\,(\bar e(v)-\omega) \;=\; \frac{\rho\,(\kappa+\Gamma)}{1+\lambda}, \qquad
 \Gamma \;\equiv\; \frac{(1-c)\,\zeta\,\bar e(v)}{\rho+b} , \qquad\text{so}\qquad Q_C = \frac{\rho(\kappa+\Gamma)}{1+\lambda} .
-$$ Labour’s shadow price is unchanged from the core,
-$p^W_x = (a_W\rho + b)/(\rho(\rho+b))$, so $Q_W = \kappa\rho$ at
-$a_W = 1$; it carries no $\zeta$. The separation of Proposition 2
+$$ Labour’s shadow price carries no $\zeta$. Where labour bargains it is
+unchanged from the core, $p^W_x = (a_W\rho + b)/(\rho(\rho+b))$, so
+$Q_W = \kappa\rho$ at $a_W = 1$; where the pool pins labour to its own
+ceiling it acquires a term in $\eta$ and exceeds the core’s except where
+the ceiling just binds (Appendix A.11). The separation of Proposition 2
 therefore fails in the regime, and it fails **through the action set and
 not through the payoff**: capital’s weights on $x$ and $y$ still
 coincide, and the entire breach is the term $\Gamma$, which closes at
@@ -947,18 +1031,19 @@ $\zeta > 0$.
 In words, capital’s extractable day falls as the labour market tightens,
 so employing one more worker costs capital some of the effort it could
 have taken from every worker later; $\Gamma$ is the discounted value of
-that loss, and it is what the compromise now sees of the unemployment
-pool. It is larger the more sharply the ceiling responds to employment,
-smaller the faster employment mean-reverts — a tighter market that will
-not last is a smaller loss — and it vanishes as $c \to 1$, when
-accumulation displaces as much labour as it hires and so adds no
-employment for the ceiling to punish. Labour’s price is untouched
-because in an open-loop equilibrium labour takes capital’s extraction as
-a path in time rather than as a function of the state. That is a joint
-property of the information structure and of the strategy space —
-Section 2 shows it fails under a utilisation-rate commitment, where
-labour’s price acquires a $\zeta$ term — and not of the economics; the
-boundary paragraph of Section 7 is where it is priced.
+that loss, and it is all that capital’s price of accumulation sees of
+the unemployment pool. It is larger the more sharply the ceiling
+responds to employment, smaller the faster employment mean-reverts — a
+tighter market that will not last is a smaller loss — and it vanishes as
+$c \to 1$, when accumulation displaces as much labour as it hires and so
+adds no employment for the ceiling to punish. Labour’s price answers to
+its own ceiling where that binds and not to capital’s, because in an
+open-loop equilibrium labour takes capital’s extraction as a path in
+time rather than as a function of the state. That is a joint property of
+the information structure and of the strategy space — Section 2 shows it
+fails under a utilisation-rate commitment, where labour’s price acquires
+a $\zeta$ term — and not of the economics; the boundary paragraph of
+Section 7 is where it is priced.
 
 **Proposition 8 (the fold at any pair of effective prices).** With the
 logarithmic objectives of Section 2, suppose labour’s share is interior,
@@ -1023,8 +1108,8 @@ to exist makes the one that does exist grow faster, and the pool harder
 to keep.
 
 **Proposition 9 (the regime’s fold, and when no extractable day admits a
-compromise).** In the regime $Q_W = \kappa\rho$ and
-$Q_C = \rho(\kappa + \Theta\bar e)/(1+\lambda)$ with
+compromise).** In the regime, where labour bargains, $Q_W = \kappa\rho$
+and $Q_C = \rho(\kappa + \Theta\bar e)/(1+\lambda)$ with
 $\Theta \equiv (1-c)\zeta/(\rho+b)$, so $Q_C$ is itself increasing in
 the ceiling. Writing $T \equiv \sqrt{Q_C} > 0$, the condition of
 Proposition 8 is equivalent to $$
@@ -1034,8 +1119,10 @@ first decides, and the dichotomy is sharp:
 
 - if $\rho\,(1-c)\,\zeta < (1+\lambda)(\rho+b)$, there is a unique
   threshold $\bar e_{\text{f}}$, and the compromise subsystem at that
-  employment rate has two interior solutions exactly where the
-  extractable day exceeds it — two compromises, as in the core;
+  employment rate has two solutions with $s \in (0,1)$ and
+  $\omega < \bar e(v)$ exactly where the extractable day exceeds it —
+  two bargained compromises, as in the core, wherever labour’s ceiling
+  admits them;
 - if $\rho\,(1-c)\,\zeta \ge (1+\lambda)(\rho+b)$, **no extractable day
   whatever admits one, at any employment rate**: the quadratic is
   negative at every $T > 0$.
@@ -1054,9 +1141,10 @@ strictly positive for every $\bar\omega > 0$. Past that threshold,
 therefore, **no interior compromise exists at any employment rate,
 whether labour is bargaining or pinned to its own ceiling** — the regime
 has no interior compromise anywhere, not merely none in the half of it
-where the bargain sets the wage. Boundary equilibria, where one of
-labour’s wage bounds binds, are outside this statement as they are
-outside Proposition 4’s.
+where the bargain sets the wage. Labour’s floor is zero in the regime
+and binds at no employment rate, since labour’s payoff falls without
+bound as its share goes to zero, so bargaining and pinned exhaust the
+cases.
 
 In words, the core says that raising the extractable day past the fold
 creates two compromises at once. In the regime that comparative static
@@ -1065,11 +1153,11 @@ ceiling is a bigger thing to lose by employing another worker, and where
 the ceiling responds sharply enough to the labour market the wedge grows
 faster than the ceiling does. Past that point no ceiling, however
 generous, supports an interior class compromise. A policy on permitted
-work intensity that in the core decides whether a compromise exists can,
-in the regime, decide that none does — and the condition separating the
-two cases contains no policy instrument at all, only impatience, the
-taste for accumulation, the labour-displacing share and the two
-responsiveness parameters.
+work intensity that in the core decides whether labour can bargain can,
+in the regime, decide that no compromise exists at all — and the
+condition separating the two cases contains no policy instrument at all,
+only impatience, the taste for accumulation, the labour-displacing share
+and the two responsiveness parameters.
 
 **Proposition 10 (the second self-undermining channel: the conjecture,
 settled one way).** Since $\Theta\bar e > 0$ whenever $\zeta > 0$, the
@@ -1133,15 +1221,17 @@ v \;\le\; \hat v \;=\; \big(\kappa\rho/(s\hat\omega)\big)^{1/\eta} ,
 $$ and this condition is **unmoved by the regime** even though labour’s
 costate at its own ceiling is not the core’s: labour’s own ceiling is
 state-dependent too, so its costate acquires an $\eta$ term, and the two
-$\eta$ effects cancel identically at $a_W = 1$. For an insider
-organisation, $a_W = 0$, they do not cancel and the condition moves.
-**$\hat v$ carries $s$, so the display is a joint condition on the
-employment rate and the accumulation share and not a threshold in the
-employment rate alone**; the Corollary below says what shape it really
-has, and it is not an interval. Where labour is pinned it has no
-interior condition, only capital optimises, and capital’s stationary
-condition is linear in $s$ once $\omega$ is pinned, so there is **at
-most one** compromise, and it is closed-form: $$
+$\eta$ effects cancel identically. They cancel for an insider
+organisation, $a_W = 0$, as well, where the condition is
+$\bar\omega(v) \le \kappa\rho(\rho+b)/\big((b + c\rho)\,s\big)$,
+Proposition 6’s share meeting the ceiling. **$\hat v$ carries $s$, so
+the display is a joint condition on the employment rate and the
+accumulation share and not a threshold in the employment rate alone**;
+the Corollary below says what shape it really has, and it is not an
+interval. Where labour is pinned it has no interior condition, only
+capital optimises, and capital’s stationary condition is linear in $s$
+once $\omega$ is pinned, so there is **at most one** compromise, and it
+is closed-form: $$
 s \;=\; 1 - \frac{\rho\,(\kappa+\Gamma)}{(1+\lambda)\,\big(\bar e(v) - \bar\omega(v)\big)} .
 $$ This root always satisfies $s < 1$, since the subtracted term is
 positive; it satisfies $s > 0$, and so is a compromise at all, if and
@@ -1234,13 +1324,14 @@ than the core, and Proposition 5’s persistence inequality is
 correspondingly harder to satisfy. The same wedge that makes an interior
 compromise harder to exist makes the unemployment pool harder to keep.
 
-**Proposition 12 (the regime has a stationary employment rate, and at
-most one — and it needs no Phillips-like stabiliser).** Suppose
-$\hat\omega \le \kappa\rho$, so that labour sits on its own ceiling at
-every employment rate in $(0,1)$; suppose $\hat e \ge \hat\omega$, which
-is the Domain’s $\bar e > \bar\omega$ read across the whole interval;
-and suppose Proposition 9’s first branch,
-$\rho(1-c)\zeta < (1+\lambda)(\rho+b)$ — equivalently
+**Proposition 12 (where the pool pins labour throughout, the regime has
+at most one stationary employment rate, and exactly one under two
+closed-form conditions — and it needs no Phillips-like stabiliser).**
+Suppose $\hat\omega \le \kappa\rho$, so that labour sits on its own
+ceiling at every employment rate in $(0,1)$; suppose
+$\hat e \ge \hat\omega$, which is the Domain’s $\bar e > \bar\omega$
+read across the whole interval; and suppose Proposition 9’s first
+branch, $\rho(1-c)\zeta < (1+\lambda)(\rho+b)$ — equivalently
 $\beta \equiv 1 - \rho\Theta/(1+\lambda) > 0$. Write $$
 N(v) \;\equiv\; \beta\,\hat e\,v^{-\zeta} \;-\; \hat\omega\,v^{\eta} \;-\; \frac{\rho\kappa}{1+\lambda} .
 $$ Equivalently, and this is the form worth reading,
@@ -1421,11 +1512,10 @@ the Domain. At that cell the accumulationist compromise carries
 **none**, and the pinned branch carries one, at $v^\ast = 0.732$.
 Because $\hat\omega > \hat e$ there, the two ceilings cross at
 $v = (\hat e/\hat\omega)^{1/(\eta+\zeta)} = 0.894$; above it labour’s
-ceiling exceeds capital’s, Section 2’s compatibility condition
-$\bar\omega < e_{\text{lo}}$ fails, and that part of the state space is
-outside the Domain. Every object exhibited at this cell — the three rest
-points, the pinned components of the Corollary to Proposition 11, and
-the bargaining band between them — lies below the crossing.
+ceiling exceeds capital’s, so the regime claims no rest point there (the
+opening of Section 6). Every object exhibited at this cell — the three
+rest points, the pinned components of the Corollary to Proposition 11,
+and the bargaining band between them — lies below the crossing.
 
 *(iv)* **The regime therefore has at most three stationary employment
 rates.** Proposition 12’s monotonicity uses $\beta > 0$ and nothing
@@ -1561,35 +1651,34 @@ these cells whose escape margin is positive a continuation that suspends
 the technology at the boundary reverses (A.12$''$(iv), *The boundary,
 and what it decides*); $v^\ast$ is a *stable* rest point of that closed
 loop; and capital’s value function is strictly convex in log-employment
-at $v^\ast$. The last is not read off those four economies: wherever the
-value’s derivative follows the saddle’s stable manifold — as it does at
-these cells — $W''(x^\ast)$ is the stable eigenvector’s slope, written
-out in A.12$''$(iv), and it is positive on the whole first branch: the
-sign is $\beta < 1$, which the model guarantees wherever the ceiling
-responds to employment at all. In the employment rate itself the value
-is concave at all four, and that is a fact about the cells: the sign of
-$\mathrm{d}^2W/\mathrm{d}v^2$ at $v^\ast$ is a closed-form comparison
-that goes either way on the first branch, and at a fifth pinned
-compromise, exhibited in A.12$''$(iv) with a steeper ceiling, the value
-is convex in $v$ as well. The share and stability readings hold at these
-four economies and are not claimed in general; the sign of the curvature
-in $\ln v$ is a theorem conditional on the derivative following the
-stable manifold; and that capital’s value at $v^\ast$ *equals* the
-candidate’s, rather than merely approaching it, is (v)’s and not the
-computation’s — at a compromise the economy does not move, so the
-candidate’s value is its current payoff divided by the discount rate,
-which is what the value function verified there returns. What holds at
-the four holds over a deviation set larger than the generalised game
-admits, since the computation lets capital carry the employment rate
-anywhere in the state space — though not larger in the direction that
-decides which deviations (v) must price: $\bar\omega$ is strictly
-increasing, so *every* upward deviation keeps labour’s committed path
-feasible — at a bargained compromise as much as at a pinned one — and at
-a pinned compromise the feasible set is that half and nothing else.
-A.12$''$(iv) shows what the core cannot price once such a deviation
-arrives at full employment. At two of the four, the computed closed loop
-is capital’s best reply only from starts up to the $v_c$ of (v), which
-there lies below full employment.
+at $v^\ast$. The last is not read off those four economies: the value’s
+derivative follows the saddle’s stable manifold, because (v) builds the
+value from it, so $W''(x^\ast)$ is the stable eigenvector’s slope,
+written out in A.12$''$(iv), and it is positive on the whole first
+branch: the sign is $\beta < 1$, which the model guarantees wherever the
+ceiling responds to employment at all. In the employment rate itself the
+value is concave at all four, and that is a fact about the cells: the
+sign of $\mathrm{d}^2W/\mathrm{d}v^2$ at $v^\ast$ is a closed-form
+comparison that goes either way on the first branch, and at a fifth
+pinned compromise, exhibited in A.12$''$(iv) with a steeper ceiling, the
+value is convex in $v$ as well. The share and stability readings are
+numerical and belong to these four economies; the sign of the curvature
+in $\ln v$ is a theorem wherever (v) applies; and that capital’s value
+at $v^\ast$ *equals* the candidate’s, rather than merely approaching it,
+is (v)’s and not the computation’s — at a compromise the economy does
+not move, so the candidate’s value is its current payoff divided by the
+discount rate, which is what the value function verified there returns.
+What holds at the four holds over a deviation set larger than the
+generalised game admits, since the computation lets capital carry the
+employment rate anywhere in the state space — though not larger in the
+direction that decides which deviations (v) must price: $\bar\omega$ is
+strictly increasing, so *every* upward deviation keeps labour’s
+committed path feasible — at a bargained compromise as much as at a
+pinned one — and at a pinned compromise the feasible set is that half
+and nothing else. A.12$''$(iv) shows what the core cannot price once
+such a deviation arrives at full employment. At two of the four, the
+computed closed loop is capital’s best reply only from starts up to the
+$v_c$ of (v), which there lies below full employment.
 
 *(v) Capital, wherever the economy’s interior law of motion holds.*
 Capital’s stationary path is optimal against labour’s over every
@@ -1640,71 +1729,76 @@ where capital accumulates it values that day at a constant price, so at
 the stationary shadow prices a mean-preserving spread of the log
 employment rate raises what capital’s Hamiltonian is worth: capital’s
 valuation prefers a labour market that alternates between slack and
-tight to one that holds still at the same average. That non-concavity is
-not imposed on the technology, as it is in the convex–concave growth
-problems of Skiba (1978) and Dechert and Nishimura (1983): the
-production side here is linear and unchanged, and the curvature is the
-extraction ceiling’s own. Labour has no such preference, because its own
-ceiling enters its valuation concavely. That is why the standard
-sufficiency argument reaches labour and stops at capital. It does not
-follow that capital gains by moving the pool, and (v) says it does not.
-What defeats the preference for variability is price rather than
-curvature. At each employment rate there is one price of accumulation at
-which capital’s valuation holds still, and the growth of employment that
-price sustains falls as employment rises — wherever capital accumulates,
-at the rate $\gamma\zeta\beta\bar e + b$ in log-employment, with
-$\gamma = (1-c)/\kappa$, which is positive on the whole of Proposition
-9’s first branch, where a compromise can exist. So the coefficient that
-decides whether the classes have a compromise also decides that capital
-cannot profit from moving the unemployment pool. Capital’s best reply to
-the stationary wage returns the economy to $v^\ast$ from every start
-below it, and from every start above it up to the employment rate at
-which accumulation stops paying. That qualification has content. Above
-$v^\ast$ accumulation can stop paying before full employment. From a
-start at or above an employment rate where it does not pay, capital has
-no best reply: it would accumulate less than any positive share, and the
-share set does not contain zero. What (v) needs beyond the regime’s
-interior equations is that the *interior* law of motion hold at full
-employment, which is to say that the continuation there ration capital
-to a share at which the economy stays. At a pinned compromise capital’s
-jointly feasible deviations run toward full employment and nowhere else,
-because labour’s committed wage is its own ceiling there; where the
-supremal drift at $v = 1$ is positive — as it is at Proposition 12’s
-cell — those deviations reach it, and the neutrality of Proposition
-5$''$ does not price what arrives, since it needs the separation of
-Proposition 2, which fails here through the action set (Proposition 7).
-Where the interior law continues to hold at full employment, (v) covers
-those deviations. What it does not cover is a continuation that prices
-accumulation differently there. One that lets productivity grow at its
-behavioural rate whatever capital accumulates is such a continuation,
-and so is Proposition 5$''$(i)’s free-share one, which keeps
-$K = \kappa a L$ and sends the surplus accumulation into productivity:
-at full employment it pays capital the productivity costate for
-accumulation that the interior law pays at capital’s own, lower, value
-of employment, and it is the second price that (v)’s verification
-carries. A.12$''$(iv) prices those continuations rather than proving
-them, and on that evidence every one priced there that keeps
-$K = \kappa a L$ at full employment, the free-share one included,
-returns the stationary share, while the one that reverses the verdict
-suspends the technology, letting productivity grow without the
+tight to one that holds still at the same average log employment rate.
+That non-concavity is not imposed on the technology, as it is in the
+convex–concave growth problems of Skiba (1978) and Dechert and Nishimura
+(1983): the production side here is linear and unchanged, and the
+curvature is the extraction ceiling’s own. Labour has no such
+preference, because its own ceiling enters its valuation concavely. That
+is why the standard sufficiency argument reaches labour and stops at
+capital. It does not follow that capital gains by moving the pool, and
+(v) says it does not. What defeats the preference for variability is
+price rather than curvature. At each employment rate there is one price
+of accumulation at which capital’s valuation holds still, and the growth
+of employment that price sustains falls as employment rises — wherever
+capital accumulates, at the rate $\gamma\zeta\beta\bar e + b$ in
+log-employment, with $\gamma = (1-c)/\kappa$, which is positive on the
+whole of Proposition 9’s first branch, where a compromise can exist. So
+the coefficient that decides whether the classes have a compromise also
+decides that capital cannot profit from moving the unemployment pool.
+Capital’s best reply to the stationary wage returns the economy to
+$v^\ast$ from every start below it, and from every start above it up to
+the employment rate at which accumulation stops paying. That
+qualification has content. Above $v^\ast$ accumulation can stop paying
+before full employment. From a start at or above an employment rate
+where it does not pay, capital has no best reply: it would accumulate
+less than any positive share, and the share set does not contain zero.
+What (v) needs beyond the regime’s interior equations is that the
+*interior* law of motion hold at full employment, which is to say that
+the continuation there ration capital to a share at which the economy
+stays. At a pinned compromise capital’s jointly feasible deviations run
+toward full employment and nowhere else, because labour’s committed wage
+is its own ceiling there; where the supremal drift at $v = 1$ is
+positive — as it is at Proposition 12’s cell — those deviations reach
+it, and the neutrality of Proposition 5$''$ does not price what arrives,
+since it needs the separation of Proposition 2, which fails here through
+the action set (Proposition 7). Where the interior law continues to hold
+at full employment, (v) covers those deviations. What it does not cover
+is a continuation that prices accumulation differently there. One that
+lets productivity grow at its behavioural rate whatever capital
+accumulates is such a continuation, and so is Proposition 5$''$(i)’s
+free-share one, which keeps $K = \kappa a L$ and sends the surplus
+accumulation into productivity: at full employment it pays capital the
+productivity costate for accumulation that the interior law pays at
+capital’s own, lower, value of employment, and it is the second price
+that (v)’s verification carries. A.12$''$(iv) prices those continuations
+rather than proving them, and on that evidence every one priced there
+that keeps $K = \kappa a L$ at full employment, the free-share one
+included, returns the stationary share, while the one that reverses the
+verdict suspends the technology, letting productivity grow without the
 accumulation it requires. What remains open on capital’s side is
 therefore an institution, not a proof.
 
 # 7. Conclusion
 
-The long-standing answer the paper opened with bundles two claims: that
-accumulation produces its own surplus of labour, and that the surplus
-disciplines the wage. Held together as a description of one economy they
-over-determine it. Made to face each other inside one equilibrium object
-they come apart, and they turn out to be alternatives indexed by an
-institution rather than two halves of one mechanism. The first is the
-stronger and the more robust: which way accumulation acts on the pool is
-a theorem about the labour-displacing share of accumulation alone —
-where that share is zero accumulation only absorbs labour, and the
-surplus it manufactures enters through that share alone. The second is
-conditional, and buying it back costs the economy the very bargain it
-was supposed to discipline. An economist who wants unemployment to do
-work in a wage equation now has to say which institution puts it there,
+The long-standing answer to why a growing economy keeps unemployed
+workers bundles two claims: that accumulation produces its own surplus
+of labour, and that the surplus disciplines the wage. Held together as a
+description of one economy they over-determine it. Made to face each
+other inside one equilibrium object they come apart, and they turn out
+to be alternatives indexed by an institution rather than two halves of
+one mechanism. The first survives only in corrected form. Wherever less
+than the whole of accumulation displaces labour, accumulation absorbs
+labour on net: a compromise that accumulates faster leaves a smaller
+pool, the labour-displacing share setting how much smaller, and as that
+share approaches one the absorption vanishes and the pool that persists
+is the one autonomous mechanisation and population growth create. What
+accumulation does decide, while the ceilings on the wage and on effort
+stay fixed, is the pool’s size, as the residual of a bargain that does
+not look at it. The second holds only where those ceilings move with the
+pool, and buying it back costs the economy the very bargain it was
+supposed to discipline. An economist who wants unemployment to do work
+in a wage equation now has to say which institution puts it there,
 because in this economy nothing does it on its own.
 
 The mechanism is a cancellation and a wedge. The cancellation is the
@@ -1712,13 +1806,14 @@ separation: where a class values what happens to its whole class,
 displacement takes as much out of employment as it puts into
 productivity inside that class’s consumption, so the bargain is decided
 on capital per member of the labour force and the unemployment pool is
-its residual. The wedge is what the pool becomes when the ceilings
-answer to it — the discounted effort capital gives up on every worker by
-employing one more — and it does three things at once. It breaks the
-separation through the action set rather than the payoff, bringing the
-response of mechanisation to employment into the bargain for the first
-time. It generalises the existence condition to a symmetric statement
-about the two classes’ effective prices of accumulation, of which the
+its residual. The wedge is the term the pool adds to capital’s price of
+accumulation when the ceilings answer to it — the discounted effort
+capital gives up on every worker by employing one more — and it does
+three things at once. It breaks the separation through the action set
+rather than the payoff, bringing the response of mechanisation to
+employment into the bargain for the first time. It generalises the
+condition under which labour can bargain to a symmetric statement about
+the two classes’ effective prices of accumulation, of which the
 constant-ceiling fold is one evaluation. And it can reverse a
 comparative static: past a threshold in how sharply the extractable day
 answers to employment, raising that day supports no bargain where before
@@ -1730,10 +1825,12 @@ First, the unemployment pool is an equilibrium object with a closed-form
 size, and its persistence is decided by an inequality in which the
 accumulation share, the wage share, extractable effort and the
 labour-displacing share of accumulation all appear. Policies on working
-time or on permitted work intensity move the fold of Proposition 4, and
-so decide whether a compromise exists, before they move anything else;
-and the direction in which accumulation acts on unemployment is set by
-one parameter, $c$, which the compromise does not see.
+time or on permitted work intensity move the extractable day against the
+fold of Proposition 4, and so decide whether a compromise in which
+labour bargains can exist, before they move anything else; and
+accumulation shrinks the pool at every labour-displacing share below
+one, the share $c$, which the compromise does not see, setting how much:
+$1-c$ of every unit of accumulation goes to employment.
 
 Second, “the same economy” has two compromises, and they disagree about
 unemployment. A programme that raises accumulation to absorb the
@@ -1748,27 +1845,35 @@ exhibited, and there the accumulationist compromise leaves none. The two
 counts are not independent: whichever way the drift at the fold falls,
 no economy has one unemployment pool under the accumulationist
 compromise and two under the distributionist one, so the multiplicity is
-bought exactly where the compromise both classes prefer has stopped
-having a rest point at all. The equilibrium the classes disagree about
-is the one whose macroeconomics is settled; the one they might otherwise
-have settled for is the one where history decides how many unemployed
-there are.
+bought exactly where the accumulationist compromise has stopped having a
+rest point at all. The equilibrium the classes disagree about is the one
+whose macroeconomics is settled; the one they might otherwise have
+settled for is the one where history decides how many unemployed there
+are.
 
-Third, whether the unemployment pool regulates the wage depends on whom
-the organisation of labour counts as its own. An organisation that
-internalises the unemployed sets the wage share by its own accumulation
-calculus and hands unemployment to technology; one that does not is
-disciplined by the unemployment pool in exactly the way the second half
-of the mechanism describes.
+Third, with constant ceilings, whether the mechanisation law enters the
+bargain depends on whom the organisation of labour counts as its own. An
+organisation that internalises the unemployed sets the wage share by its
+own accumulation calculus and hands unemployment to technology; one that
+does not values employment only for the productivity it brings, so the
+response of mechanisation to employment enters its share, and as that
+response vanishes with no labour-displacing accumulation it asks for its
+ceiling. Either way the compromise carries no employment rate, so the
+pool disciplines neither organisation until the ceilings move with it;
+then whom labour counts as its own moves the condition under which the
+pool pins labour to its ceiling.
 
 Fourth, and this is the sentence a reader of this literature will
 resist: where two compromises exist and both leave an unemployment pool,
 both classes are strictly better off in the accumulationist one, labour
 included, because for an organisation that values its whole class the
-faster growth of employment and productivity outweighs the lower share.
-That is dominance, not selection. Nothing in the model moves an economy
-from the distributionist compromise to the accumulationist one, and an
-insider organisation would not share the judgement.
+faster growth of employment and productivity outweighs the lower share;
+and where labour’s ceiling adds a third equilibrium, in which labour
+takes the most it is permitted, both classes rank that one last. That is
+dominance, not selection. Nothing in the model moves an economy from the
+distributionist compromise to the accumulationist one, and labour’s half
+of the ranking is the judgement of an organisation that counts the
+unemployed as its own.
 
 Fifth, and it is the sharpest thing the model says, the qualification in
 that last sentence is not fine print. Where the two compromises straddle
@@ -1788,27 +1893,29 @@ because a rate fast enough to do so contradicts the interior drift
 immediately below the boundary. Reopening it would need a mechanisation
 law carrying memory, which is a different model. Accumulation fast
 enough to be preferred by everyone is not accumulation fast enough to
-end the description; it is accumulation fast enough to switch the pool’s
-regulating role off. The unemployment pool is the residual of a bargain
-that does not look at it, even at the moment it is gone. What remains
-genuinely open here is not mathematics but an institution, and the model
-says exactly where to look for it. It is *not* the wage: labour’s
-ceiling does not bind at an interior compromise, so a full-employment
-economy that raises the permitted wage changes nothing, and the pool
-cannot recover its regulating role simply by vanishing. It is capital’s
-margin. If a full-employment boundary leaves capital’s accumulation and
-extraction where they were, Proposition 4$'$’s ranking stands in all
-three persistence cases; if it rations capital’s accumulation, the
-ranking can reverse at the economy this paper exhibits, and whose half
-reverses turns on whether labour’s wage is held or re-optimised. So the
-open question is precise: at full employment, is it capital’s investment
-that gets rationed? That is a fact about a full-employment economy which
-this model does not contain, and it is an institutional question rather
-than a technicality about a state constraint.
+end the description; it is accumulation fast enough to remove a pool
+that, while the ceilings are constant, regulates nothing. The
+unemployment pool is the residual of a bargain that does not look at it,
+even at the moment it is gone. What remains genuinely open here is not
+mathematics but an institution, and the model says exactly where to look
+for it. It is *not* the wage: labour’s ceiling does not bind at an
+interior compromise, so a full-employment economy that raises the
+permitted wage changes nothing, and the pool cannot acquire a regulating
+role simply by vanishing. It is capital’s margin. If a full-employment
+boundary leaves capital’s accumulation and extraction where they were,
+Proposition 4$'$’s ranking stands in all three persistence cases; if it
+rations capital’s accumulation, the ranking can reverse at the economy
+this paper exhibits, and whose half reverses turns on whether labour’s
+wage is held or re-optimised. So the open question is precise: at full
+employment, is it capital’s investment that gets rationed? That is a
+fact about a full-employment economy which this model does not contain,
+and it is an institutional question rather than a technicality about a
+state constraint.
 
 Sixth, the half of the mechanism the core suppresses does not simply
 return when the ceilings are allowed to move with the unemployment pool;
-it returns changed. The compromise sees the pool through exactly one
+it returns changed. The compromise sees the pool through the ceilings
+themselves and, in capital’s price of accumulation, through exactly one
 term, the discounted effort capital loses on every worker by employing
 one more, and that single term does three things. It breaks the
 separation — through the action set rather than the payoff, with the
@@ -1864,11 +1971,11 @@ solution, or only solutions with negative accumulation, capital’s price
 of accumulation there exceeding the whole extractable day. No pair of
 ceilings repairs that. And the growth rate at the fold, where a
 compromise is born, is the geometric mean of the two classes’ effective
-prices, so what decides whether a compromise exists is a sum and what it
-grows at is a product: an economy whose extractable day is falling
-towards the point where its compromise ceases to exist does not slow to
-a halt as it arrives, but reaches that point still growing — at the
-core’s prices, at $\rho/\sqrt{1+\lambda}$.
+prices, so what decides whether a bargained compromise exists is a sum
+and what it grows at is a product: an economy whose extractable day is
+falling towards the point where its compromise ceases to exist does not
+slow to a halt as it arrives, but reaches that point still growing — at
+the core’s prices, at $\rho/\sqrt{1+\lambda}$.
 
 Eighth, the regime’s equilibrium claim holds on both sides, and how it
 holds on capital’s side is informative. Labour’s stationary behaviour is
@@ -1882,61 +1989,63 @@ the retained share and what remains is the extractable day at a constant
 price. A mean-preserving spread of the log employment rate raises
 capital’s maximised Hamiltonian at the stationary shadow prices. The
 unemployment pool is, to capital, a convex asset — in log-employment,
-and not only at the stationary shadow prices: wherever the slope of
-capital’s value follows the saddle path into a compromise, the value’s
-curvature there is the stable eigenvector’s slope, and that slope is
-positive on the whole first branch. In the employment rate itself the
-value is concave at the four compromises exhibited and convex at a fifth
-with a steeper ceiling, so that reading belongs to the cell and the one
-in $\ln v$ to the model. That is a statement about curvature, not about
-what capital does. The rest point of capital’s problem is a saddle whose
-determinant is signed by $\beta$, the coefficient that decides whether
-any compromise exists at all, and the same coefficient signs how the
-employment growth sustained by capital’s price of accumulation responds
-to employment: it falls as employment rises wherever a compromise
-exists. So capital, whose valuation prefers a pool that varies, still
-cannot profit from making it vary. Between them those two facts make the
-*variability* of employment, and not only its level, an object of class
-conflict, and one the class that wants it cannot reach: a policy that
-stabilises the labour market is therefore not neutral between the
-classes here, even where the average employment rate it delivers is the
-same. Its best reply to the stationary wage returns the economy to the
-compromise from every start below it, and from every start above it up
-to the first employment rate at which accumulation stops paying
-(Proposition 14(v)). That rate can lie short of full employment. From a
-start at or above a rate at which accumulation does not pay, capital has
-no best reply, only a supremum it approaches by accumulating ever less.
-The unemployment pool stabilises labour’s problem through curvature and
-capital’s through price. That result needs the economy’s interior law of
-motion to hold at full employment, and where no admissible deviation
-reaches full employment — the escape margin $E \le 0$ of A.12$''$(iv),
-the state space forward invariant under every share — it needs nothing
-else. Where $E > 0$ an admissible deviation reaches full employment in
-finite time, what arrives is priced by the continuation there, and two
-continuations that hold the economy at full employment return opposite
-verdicts on whether the compromise is a rest point of capital’s optimal
-feedback — at Proposition 12’s cell, where $E = +0.100$, one
-continuation returns the stationary share and the other a share of
-$0.417$ against it. The two are not on the same terms. The one that
-reverses the verdict holds productivity at the behavioural rate whatever
-the share, and its holds reverse the verdict only at shares below
-$0.162$, under the drift-zero level $0.230$: productivity there grows
-without the accumulation $K = \kappa a L$ requires, so the technology is
-suspended at the boundary. Every continuation priced there that keeps
-the technology — the free-share one Proposition 5$''$(i) would supply
-included — returns the stationary share. So on the sub-class $E \le 0$
-capital’s half is proved outright. On $E > 0$ it is proved for every
-continuation that keeps the interior law at full employment. The
-free-share one is priced there rather than proved, because it pays
-capital the productivity costate for accumulation that the interior law
-pays at capital’s lower value of employment; and the one reversing
-continuation priced here keeps neither the interior law nor the
-technology. This paper does not choose among the continuations that
-price the boundary differently, and what that choice turns on is
-narrower than it was: not whether a full-employment economy lets capital
-idle, which costs capital its retained share and buys it no
-productivity, but whether it lets productivity keep growing when capital
-accumulates less than full employment requires.
+and not only at the stationary shadow prices: the slope of capital’s
+value follows the saddle path into every compromise over every deviation
+that keeps the interior law of motion at full employment (Proposition
+14(v)), so the value’s curvature there is the stable eigenvector’s
+slope, and that slope is positive on the whole first branch. In the
+employment rate itself the value is concave at the four compromises
+exhibited and convex at a fifth with a steeper ceiling, so that reading
+belongs to the cell and the one in $\ln v$ to the model. That is a
+statement about curvature, not about what capital does. The rest point
+of capital’s problem is a saddle whose determinant is signed by $\beta$,
+the coefficient that decides whether any compromise exists at all, and
+the same coefficient signs how the employment growth sustained by
+capital’s price of accumulation responds to employment: it falls as
+employment rises wherever a compromise exists. So capital, whose
+valuation prefers a pool that varies, still cannot profit from making it
+vary. Between them those two facts make the *variability* of
+log-employment, and not only its level, something capital values and
+cannot reach: a small mean-preserving spread of log-employment around a
+compromise raises capital’s value there over the same deviations, so
+holding log-employment still is not neutral for capital. Its best reply
+to the stationary wage returns the economy to the compromise from every
+start below it, and from every start above it up to the first employment
+rate at which accumulation stops paying (Proposition 14(v)). That rate
+can lie short of full employment. From a start at or above a rate at
+which accumulation does not pay, capital has no best reply, only a
+supremum it approaches by accumulating ever less. The unemployment pool
+stabilises labour’s problem through curvature and capital’s through
+price. That result needs the economy’s interior law of motion to hold at
+full employment, and where no admissible deviation reaches full
+employment — the escape margin $E \le 0$ of A.12$''$(iv), the state
+space forward invariant under every share — it needs nothing else. Where
+$E > 0$ an admissible deviation reaches full employment in finite time,
+what arrives is priced by the continuation there, and two continuations
+that hold the economy at full employment return opposite verdicts on
+whether the compromise is a rest point of capital’s optimal feedback —
+at Proposition 12’s cell, where $E = +0.100$, one continuation returns
+the stationary share and the other a share of $0.417$ against it. The
+two are not on the same terms. The one that reverses the verdict holds
+productivity at the behavioural rate whatever the share, and its holds
+reverse the verdict only at shares below $0.162$, under the drift-zero
+level $0.230$: productivity there grows without the accumulation
+$K = \kappa a L$ requires, so the technology is suspended at the
+boundary. Every continuation priced there that keeps the technology —
+the free-share one Proposition 5$''$(i) would supply included — returns
+the stationary share. So on the sub-class $E \le 0$ capital’s half is
+proved outright. On $E > 0$ it is proved for every continuation that
+keeps the interior law at full employment. The free-share one is priced
+there rather than proved, because it pays capital the productivity
+costate for accumulation that the interior law pays at capital’s lower
+value of employment; and the one reversing continuation priced here
+keeps neither the interior law nor the technology. This paper does not
+choose among the continuations that price the boundary differently, and
+what that choice turns on is narrower than it was: not whether a
+full-employment economy lets capital idle, which costs capital its
+retained share and buys it no productivity, but whether it lets
+productivity keep growing when capital accumulates less than full
+employment requires.
 
 Every result above is claimed on the domain of Section 2: logarithmic
 payoffs, fixed coefficients, and classes that commit to paths of their
@@ -1949,19 +2058,19 @@ so the separation is a theorem about preferences before it is one about
 organisation, and it is the first thing to give way if that assumption
 is wrong. Constant ceilings are the second, and Section 6 is what
 happens when they go: the separation breaks there with the payoff
-weights left exactly as Proposition 2 assumes them. The index $a_W$ also
-carries more in the regime than it does in the core, where it moved one
-shadow price: there it moves the employment rate at which the
-unemployment pool begins to discipline the wage, because Proposition
-11’s cancellation is a fact about $a_W = 1$ and fails at $a_W = 0$. So
-whether a labour organisation counts the unemployed among its own
-decides where the two halves of the mechanism meet. What would extend
-the results furthest is a version in which one class’s instrument is
-allowed to respond to the employment rate, since the second half of the
-received mechanism is written in feedback language even when it is
-derived in open loop; a worked case of that kind, even a restricted one,
-would show whether the separation is a property of the preferences or of
-the commitment.
+weights left exactly as Proposition 2 assumes them. In the regime the
+index $a_W$ also moves the employment rate at which the unemployment
+pool begins to discipline the wage, through the same shadow price it
+moves in the core: Proposition 11’s cancellation holds at either value,
+so labour takes its ceiling exactly where the share its own price
+commands is at least that ceiling. So whether a labour organisation
+counts the unemployed among its own decides where the two halves of the
+mechanism meet. What would extend the results furthest is a version in
+which one class’s instrument is allowed to respond to the employment
+rate, since the second half of the received mechanism is written in
+feedback language even when it is derived in open loop; a worked case of
+that kind, even a restricted one, would show whether the separation is a
+property of the preferences or of the commitment.
 
 Two results hold on narrower ground than the rest. Proposition 5$''$’s
 neutrality needs $a_W = 1$, the constant ceilings of Section 4 and a
@@ -2005,20 +2114,23 @@ indexed by class organisation; ownership of the accumulation asset as
 the seat of power is Bowles and Gintis’s; the persistence of
 exploitation under accumulation is Veneziani’s. Goodwin (1967), Bowles
 (1985), Cajas Guijarro and Vera (2022), Veneziani (2007) and Debreu
-(1952) are cited for the object each studies. Two neighbours are absent
-by construction: the model carries no incentive constraint on effort, so
-it makes no comparison with the account of equilibrium unemployment as a
-worker discipline device in Shapiro and Stiglitz (1984), and it is not
-positioned against the dynamic game of trade unions, investment and
-employment in van der Ploeg (1987).
+(1952) are cited for the object each studies. Shapiro and Stiglitz
+(1984) derive unemployment from the need to discipline effort that
+employers cannot observe without cost; the model takes that discipline
+as given, in Section 6’s extraction ceiling $\bar e(v)$, which rises as
+the pool grows, and shows that, wherever capital accumulates, the pool
+is to capital a convex asset in log-employment (Proposition 14(ii)). The
+model is not positioned against the dynamic game of trade unions,
+investment and employment in van der Ploeg (1987).
 
 The opening question has an answer, and it is not the one either
 tradition expects. Nobody decides how many are unemployed. Two organised
 classes decide how fast the economy accumulates and how its product is
 split, and the number of unemployed workers is what the technology makes
 of that decision — until the ceilings those workers’ numbers set begin
-to answer back, at which point the classes see the pool through exactly
-one price and may find that they have no bargain to make at all.
+to answer back, at which point the pool enters capital’s price of
+accumulation and the classes may find that they have no bargain to make
+at all.
 
 # Appendix A. Proofs
 
@@ -2081,14 +2193,15 @@ $\partial^2/\partial\omega^2 = -1/\omega^2 < 0$ for labour — and $e$
 enters capital’s payoff monotonically, giving the corner. Best replies
 are therefore unique, and the static Nash set consists of exactly the
 interior solutions of the displayed quadratic together with any
-equilibrium at which a bound on $\omega$ binds. That uniqueness is what
-makes the equilibrium set of the whole game the set of date-wise
-selections from a *known* finite set, which A.4$'$ then ranks.
-Substituting $\omega = Q/s$ into the latter and clearing the
-denominators $s$ and $1+\lambda$ gives the quadratic; the cleared form
-and the displayed form are proportional with factor $-(1+\lambda)$.
+equilibrium at which a bound on $\omega$ binds, which the Lemma after
+Proposition 4 classifies. That uniqueness is what makes the equilibrium
+set of the whole game the set of date-wise selections from a *known*
+finite set, which A.4$'$ then ranks. Substituting $\omega = Q/s$ into
+the latter and clearing the denominators $s$ and $1+\lambda$ gives the
+quadratic; the cleared form and the displayed form are proportional with
+factor $-(1+\lambda)$.
 
-## A.4 Proposition 4.
+## A.4 Proposition 4 and the Lemma.
 
 The discriminant of the quadratic is
 $(\bar e + \lambda Q/(1+\lambda))^2 - 4\bar e Q$, a convex quadratic in
@@ -2103,6 +2216,56 @@ in $(0,1)$ whenever they are real, since their sum is $1$ and their
 product $Q/\bar e > 0$; and $s_- > Q/\bar e$ holds whenever the roots
 are real: with $q \equiv Q/\bar e \in (0, 1/4]$, $s_- > q$ is equivalent
 to $1 - 2q > \sqrt{1-4q}$, both sides positive, hence to $4q^2 > 0$.
+
+*The Lemma.* By A.3 capital extracts $\bar e$, and its payoff is
+strictly concave in $s$ with derivative
+$-1/(1-s) + (1+\lambda)(\bar e-\omega)/Q$, which tends to
+$(1+\lambda)(\bar e-\omega)/Q - 1$ as $s \to 0$. Where that limit is
+positive the derivative vanishes once in $(0,1)$, at $s(\omega)$; where
+it is not, the payoff falls on the whole of $(0,1)$, and since the share
+ranges over an open interval capital has no best reply. Labour’s payoff
+is strictly concave in $\omega$ with derivative $1/\omega - s/Q$, so its
+best reply to $s$ is $Q/s$ projected onto
+$[\omega_{\text{lo}}, \bar\omega]$. An equilibrium is therefore a share
+$\omega < \bar e - Q/(1+\lambda)$ that is labour’s best reply to
+$s(\omega)$. Write $h(\omega) \equiv \omega\, s(\omega)$. Labour is at
+its ceiling in equilibrium exactly when
+$Q/s(\bar\omega) \ge \bar\omega$, that is $h(\bar\omega) \le Q$; at its
+floor exactly when $h(\omega_{\text{lo}}) \ge Q$; and strictly inside
+exactly when $h(\omega) = Q$, which with $s = Q/\omega$ is capital’s
+first-order condition, so these are the solutions of Proposition 4.
+Three facts about $h$ decide the rest. With
+$Q_\lambda \equiv Q/(1+\lambda)$,
+$h(\omega) = \omega - Q_\lambda\,\omega/(\bar e - \omega)$. First, $h$
+vanishes at $0$ and at $\bar e - Q_\lambda$, is positive between them
+and negative on $(\bar e - Q_\lambda, \bar e)$. Second,
+$h''(\omega) = -2Q_\lambda\bar e/(\bar e-\omega)^3 < 0$, so $h$ is
+strictly concave. Third, where $\bar e > Q_\lambda$ the maximum of $h$
+is at $\omega^\circ = \bar e - \sqrt{Q_\lambda\bar e}$, inside
+$(0, \bar e - Q_\lambda)$, and equals
+$(\sqrt{\bar e} - \sqrt{Q_\lambda})^2$, which exceeds $Q$ exactly when
+$\sqrt{\bar e} > \sqrt{Q} + \sqrt{Q_\lambda}$, that is when
+$\bar e > Q(1 + 1/\sqrt{1+\lambda})^2$: the fold. Where
+$\bar e \le Q_\lambda$, $h < 0$ on $(0, \bar e)$ by the first fact.
+
+Below the fold, therefore, $h < Q$ on the whole of $(0, \bar e)$: no
+equilibrium is interior and none holds labour at its floor, so labour at
+its ceiling is the only candidate, and it is an equilibrium exactly when
+capital has a best reply to it, $\bar\omega < \bar e - Q_\lambda$. It is
+unique because capital’s best reply is. Above the fold, $h = Q$ has two
+roots $\omega_+ < \omega_-$ in $(0, \bar e - Q_\lambda)$, the shares of
+Proposition 4, and by strict concavity $h > Q$ strictly between them and
+$h < Q$ outside. When both are interior equilibria,
+$\omega_{\text{lo}} < \omega_+$ gives $h(\omega_{\text{lo}}) < Q$, so no
+equilibrium holds labour at its floor, and $\omega_- < \bar\omega$ gives
+$h(\bar\omega) < Q$, so labour at its ceiling is an equilibrium exactly
+when $\bar\omega < \bar e - Q_\lambda$. Each of these equilibria is a
+constant profile that is a Nash equilibrium of the static game at every
+date, so by Proposition 3 it is an open-loop equilibrium and is Markov
+perfect on any horizon over which its path stays inside the state space;
+the bounds are constants, so a full-employment boundary moves none of
+them, and Proposition 5$''$ extends both properties to the whole state
+space.
 
 ## A.4$'$ Proposition 4$'$.
 
@@ -2123,6 +2286,30 @@ $B_W(s_+) > B_W(s_-)$. Both profiles satisfy both first-order
 conditions, so both are Nash; no criterion in the model orders them
 beyond this ranking.
 
+*The equilibrium at labour’s ceiling.* Every equilibrium of the static
+game lies on capital’s best reply $s(\omega)$ of the Lemma. Since
+$1 - s(\omega) = Q/((1+\lambda)(\bar e-\omega))$, capital’s payoff along
+it is $\ln\big(Q/(1+\lambda)\big) - 1 + (1+\lambda)(\bar e-\omega)/Q$:
+its consumption term $\ln(1-s) + \ln(\bar e-\omega)$ takes one value at
+every share, which extends the fact used above for the two roots to the
+whole reply, and the payoff falls strictly in $\omega$. Labour’s payoff
+along it is $\ln\omega + (\bar e-\omega)/Q - 1/(1+\lambda)$, with
+derivative $1/\omega - 1/Q < 0$ for $\omega > Q$. Under the hypothesis
+both roots are interior equilibria, so by the Lemma the static Nash set
+is $\{\omega_+, \omega_-\}$, together with $\bar\omega$ when
+$\bar\omega < \bar e - Q/(1+\lambda)$, and
+$Q < \omega_+ < \omega_- < \bar\omega$, the first inequality because
+$s_+ < 1$. Both static payoffs therefore fall strictly along the set in
+the order $\omega_+, \omega_-, \bar\omega$. Moreover $\rho B_i$ differs
+from player $i$’s static payoff by a constant common to every
+equilibrium, $-(1+\lambda)n/\rho$ for capital and
+$-\theta\bar e - n/\rho$ for labour, since every equilibrium extracts
+$\bar e$; so $B_i$ falls in the same order. The accumulation rate along
+capital’s best reply,
+$s(\omega)(\bar e-\omega)/\kappa = (\bar e - \omega - Q/(1+\lambda))/\kappa$,
+also falls in $\omega$, so $A(\sigma(t)) \le A(s_+)$ for every selection
+$\sigma$ from this set.
+
 *Extension to the whole set.* Let $\sigma$ be any measurable date-wise
 selection of the static Nash set, so an open-loop equilibrium by
 Proposition 3, and let $A(t) \equiv A(\sigma(t))$. Since
@@ -2132,11 +2319,13 @@ of integration in $\int_0^\infty e^{-\rho t} a_i z(t)\,dt$ gives $$
 J_i(\sigma) = \frac{a_i z(0)}{\rho} + \rho\int_0^\infty e^{-\rho t} B_i(\sigma(t))\,dt ,
 $$ with $B_i$ the same constant as above. The value of any equilibrium
 is therefore an $e^{-\rho t}$-average of $B_i$ along it, the weights
-integrate to $1/\rho$ whatever the schedule, and $B_i(s_+) > B_i(s_-)$
-for both classes. Hence $J_i(\sigma) \le J_i(s_+)$ with equality only if
-$\sigma = s_+$ almost everywhere. The interchange is licensed because
-$\sigma$ takes values in the finite static Nash set, so $A$ is bounded,
-$|z(t)| \le |z(0)| + Mt$ with $M = \max_\pm |A(s_\pm) - n|$, and
+integrate to $1/\rho$ whatever the schedule, and $B_i(s_+)$ exceeds
+$B_i$ at every other point of the static Nash set, for both classes.
+Hence $J_i(\sigma) \le J_i(s_+)$ with equality only if $\sigma = s_+$
+almost everywhere. The interchange is licensed because $\sigma$ takes
+values in the finite static Nash set, so $A$ is bounded,
+$|z(t)| \le |z(0)| + Mt$ with $M$ the largest $|A - n|$ over the static
+Nash set, and
 $\int_0^\infty e^{-\rho t}(|z(0)| + Mt)\,dt = |z(0)|/\rho + M/\rho^2 < \infty$.
 Nothing beyond measurability of $\sigma$ is used. The action set itself
 is not compact — $s$ ranges over the open interval $(0,1)$ — so the
@@ -2147,13 +2336,13 @@ the equilibrium set only on a horizon over which the induced path stays
 inside the state space. If $(1-c)A(s_+) > \mu(1)+n$ the constant
 accumulationist profile leaves it in finite time (A.5), so $B_C(s_+)$
 prices a path the core cannot host and the comparison above is not
-available on $[0,\infty)$. The hypothesis $(1-c)A(s_+) \le \mu(1)+n$ is
-exactly $\hat s_c \ge s_+$ by A.5$'$, so it introduces no object the
-paper does not already have. It also does the work for *every* schedule
-at once, which the extension needs and which the constant case alone
-would not give: for any selection $\sigma$, $A(\sigma(t)) \le A(s_+)$,
-so at the boundary $x = 0$,
-$\dot x = (1-c)A(\sigma) - \mu(0) - n \le (1-c)A(s_+) - \mu(1) - n \le 0$.
+available on $[0,\infty)$. For the linear law the hypothesis
+$(1-c)A(s_+) \le \mu(1)+n$ is exactly $\hat s_c \ge s_+$ by A.5$'$, so
+it introduces no object the paper does not already have. It also does
+the work for *every* schedule at once, which the extension needs and
+which the constant case alone would not give: for any selection
+$\sigma$, $A(\sigma(t)) \le A(s_+)$, so at the boundary $x = 0$,
+$\dot x = (1-c)A(\sigma) - \mu(1) - n \le (1-c)A(s_+) - \mu(1) - n \le 0$.
 The state space is therefore forward-invariant under every selection,
 not merely under the two constant ones, and Proposition 3 characterises
 the equilibrium set on the whole infinite horizon.
@@ -2173,18 +2362,23 @@ an affine contraction with slope $e^{-bP} < 1$, its unique fixed point
 is the periodic orbit, and the orbit’s peak is a continuous function of
 $\delta$ taking the value $X_- < 0$ at $\delta = 0$. Continuity alone
 therefore gives some $\delta > 0$ whose whole orbit stays strictly
-inside, while $\delta = 1$ does not, since $X_+ > 0$. Monotonicity of
-the peak in $\delta$, and hence a largest sustainable duty cycle, is not
-claimed. By the extension above every such schedule strictly dominates
-the constant distributionist profile for both classes. Whether the
-supremum over sustainable schedules is attained is not decided here.
-Under Proposition 5$''$ the restriction to sustainable schedules is
-dropped: where the boundary moves no binding bound, a schedule no longer
-has to keep the unemployment pool open to be admissible, so the supremum
-is over all interior profiles, and by Proposition 4$'$’s pointwise
-argument it is attained at the accumulationist compromise. Against a
-boundary that rations capital’s accumulation the restriction returns,
-and with it the question.
+inside, while $\delta = 1$ does not, since $X_+ > 0$. For a given
+interior start the path, and not only the orbit, stays inside once
+$\delta$ is small enough: the path differs from the orbit by a term that
+decays at rate $b$, and the orbit lies between $X_-$ and its peak, so as
+$\delta \to 0$ the path converges, uniformly in time, to the path under
+the distributionist profile, whose supremum is $\max\{x(0), X_-\} < 0$.
+Monotonicity of the peak in $\delta$, and hence a largest sustainable
+duty cycle, is not claimed. By the extension above every such schedule
+strictly dominates the constant distributionist profile for both
+classes. Whether the supremum over sustainable schedules is attained is
+not decided here. Under Proposition 5$''$ the restriction to sustainable
+schedules is dropped: where the boundary moves no binding bound, a
+schedule no longer has to keep the unemployment pool open to be
+admissible, so the supremum is over all interior profiles, and by
+Proposition 4$'$’s pointwise argument it is attained at the
+accumulationist compromise. Against a boundary that rations capital’s
+accumulation the restriction returns, and with it the question.
 
 ## A.5 Proposition 5.
 
@@ -2392,10 +2586,16 @@ the canonical system, not about arbitrary paths.
 
 *Labour.* In an open-loop equilibrium labour’s Hamiltonian carries
 capital’s extraction as a function of time, so $\partial H_W/\partial x$
-contains no term in $\zeta$ and the computation of A.2 is unchanged:
-$p^W_x = (a_W\rho + b)/(\rho(\rho+b))$. Substituting $E(x)$ into
-labour’s Hamiltonian instead — the feedback error — moves it off that
-value. The asymmetry is therefore a property of the information
+contains no term in $\zeta$. Where labour’s share lies below its ceiling
+the computation of A.2 is therefore unchanged:
+$p^W_x = (a_W\rho + b)/(\rho(\rho+b))$. Where the ceiling binds,
+$\partial H_W/\partial x$ gains the ceiling’s own term and the
+stationary price is A.11’s, which exceeds this one by
+$\eta\,\big(1 - \bar\omega sP^0_W/\kappa\big)/D \ge 0$, with
+$P^0_W = (1-c)p^W_x + c/\rho$ the price just derived and $D$ as in A.11;
+the excess vanishes exactly where the ceiling just binds. Substituting
+$E(x)$ into labour’s Hamiltonian instead — the feedback error — moves it
+off that value. The asymmetry is therefore a property of the information
 structure, and it is declared as one rather than defended as economics.
 It is equally a property of the strategy space, in the sense §2 makes
 precise: under a utilisation-rate commitment $e = q\,E(x)$ the
@@ -2534,8 +2734,13 @@ Hamiltonian, keeping capital’s extraction a path in time. Then
 $\partial H_W/\partial x = a_W + \eta - \eta\,\bar\omega\,sP_W/\kappa - b\,p^W_x + b\,p^W_y$,
 and with $p^W_y = 1/\rho$ the stationary costate satisfies
 $P_W D = (\rho+b)/\rho + (1-c)\eta$ at $a_W = 1$, where
-$D \equiv (\rho+b) + (1-c)\eta\,\bar\omega s/\kappa > 0$. The corner is
-optimal for labour iff $\partial H_W/\partial\omega \ge 0$ at
+$D \equiv (\rho+b) + (1-c)\eta\,\bar\omega s/\kappa > 0$. So
+$P_W = 1/\rho$, the core’s price, exactly where
+$\bar\omega s = \kappa\rho$, and on the ceiling
+$Q_W = \kappa/P_W = \big[(\rho+b)\kappa\rho + \rho(1-c)\eta\,\bar\omega s\big]/\big[(\rho+b) + \rho(1-c)\eta\big]$,
+an average of $\kappa\rho$ and $\bar\omega s$ that lies strictly below
+$\kappa\rho$ wherever $\bar\omega s < \kappa\rho$. The corner is optimal
+for labour iff $\partial H_W/\partial\omega \ge 0$ at
 $\omega = \bar\omega$, that is iff
 $\delta \equiv \bar\omega sP_W/\kappa \le 1$; and $$
 (1-\delta)\,D \;=\; (\rho+b)\Big(1 - \frac{\bar\omega s}{\kappa\rho}\Big)
@@ -2544,9 +2749,16 @@ the condition computed with the core’s costate, and hence $\hat v$ as
 displayed, which carries $s$ and is therefore joint. The two $\eta$
 effects cancel: labour values a tighter market because it lifts its own
 ceiling, and that same anticipation raises its shadow price by exactly
-the amount that leaves the comparison unchanged. At $a_W = 0$ the same
-computation gives a different multiplier on $\bar\omega s$ and the
-threshold moves.
+the amount that leaves the comparison unchanged. The cancellation does
+not use $a_W$: for either value the stationary costate satisfies
+$P_W D = (1-c)(a_W + \eta + b/\rho) + c(\rho+b)/\rho$, so
+$(1-\delta)D = (\rho+b)\big(1 - \bar\omega sP^0_W/\kappa\big)$ with
+$P^0_W = \big[(1-c)(a_W\rho + b) + c(\rho+b)\big]/\big(\rho(\rho+b)\big)$
+labour’s price where it bargains, and labour is pinned iff
+$\bar\omega s \le \kappa/P^0_W$. At $a_W = 0$ that is Proposition 6’s
+share meeting the ceiling,
+$\bar\omega s \le \kappa\rho(\rho+b)/(b + c\rho)$; the threshold differs
+from $a_W = 1$’s only because the insider’s price does, as in the core.
 
 *Uniqueness, and the interiority it needs.* Where labour is pinned,
 $\omega = \bar\omega(v)$ and capital’s stationary condition
@@ -2876,7 +3088,7 @@ then gives exactly two zeros on the arm and none elsewhere on the locus.
 They sit at $s = 0.3706$ and $s = 0.4387$, that is at $v^\ast = 0.7848$
 and $v^\ast = 0.8095$, and each of the six admissibility conditions is
 checked at both. The cell also carries one **pinned** rest point, at
-$v^\ast = 0.732$ with $s = 0.143$, which is stated so that the count is
+$v^\ast = 0.732$ with $s = 0.144$, which is stated so that the count is
 not read as the economy’s: three stationary employment rates in all, on
 two different branches. Raising $m_0$ to $\tfrac{320}{1000}$ turns the
 fold drift negative and returns the other side of the dichotomy — one on
@@ -2893,14 +3105,15 @@ and not because $m$ is bounded on the state space (it need not be: with
 $b > 0$, $b\ln v \to -\infty$, and with $c > 0$,
 $c\,s\,\bar e(v)/\kappa \to +\infty$ as $v \to 0^+$) but because
 $m = m_0 + bx + \tfrac{c}{1-c}\,(\dot x + m_0 + bx + n)$ is affine in
-$x$ and $\dot x$, while $x \le 0$ and $\dot x \ge -m_0-n$ there, so
-$|y(T)|$ grows at most quadratically in $T$. Each reduced problem
-therefore has the single state $x$, with the running payoff of the
-original plus $p_y\dot y$. What sufficiency needs is the chain Dockner
-et al. (2000, Theorem 3.2; Theorem 3.3(ii) and Lemma 3.1(iii) for the
-infinite horizon) write out, and it is short enough to state: for any
-feasible path $(x, u)$ and the candidate $(\hat x, \hat u)$ with costate
-$p$, $$
+$x$ and $\dot x$, while $x \le 0$ and $\dot x \ge -C$ there, with
+$C \equiv (1-c)\hat\omega/\kappa + m_0 + n$ (the chain below gives the
+bound), so $|y(T)|$ grows at most quadratically in $T$. Each reduced
+problem therefore has the single state $x$, with the running payoff of
+the original plus $p_y\dot y$. What sufficiency needs is the chain
+Dockner et al. (2000, Theorem 3.2; Theorem 3.3(ii) and Lemma 3.1(iii)
+for the infinite horizon) write out, and it is short enough to state:
+for any feasible path $(x, u)$ and the candidate $(\hat x, \hat u)$ with
+costate $p$, $$
 J(\hat u) - J(u) \;=\; \int_0^\infty e^{-\rho t}\Big[H(\hat x,\hat u,p) - H(x,u,p) - p\,(\dot{\hat x} - \dot x)\Big]dt
 \;\ge\; \int_0^\infty e^{-\rho t}\Big[H^\ast(\hat x,p) - H^\ast(x,p) - p\,(\dot{\hat x} - \dot x)\Big]dt ,
 $$ because
@@ -2913,12 +3126,17 @@ $e^{-\rho t}\big[(\rho p - \dot p)(\hat x - x) - p(\dot{\hat x} - \dot x)\big] =
 so the integral is bounded below by
 $\lim_{T\to\infty} e^{-\rho T}p(T)\,[x(T) - \hat x(T)]$, which is zero
 here: $p$ is constant along the candidate, $x \le 0$, and
-$\dot x \ge -m_0 - n$ on $x \le 0$ for every admissible share, so
-$x(T) \ge x(0) - (m_0+n)T$ and $e^{-\rho T}T \to 0$. The costate
-equation in the maximised Hamiltonian is the one A.7 and A.11 compute —
-substituting the binding ceiling and differentiating totally *is*
-$\partial H^\ast/\partial x$ — so nothing beyond concavity is needed,
-and concavity is where the two classes part.
+$\dot x \ge -C$ on $x \le 0$ for every admissible control of either
+class, so $x(T) \ge x(0) - CT$ and $e^{-\rho T}T \to 0$. On capital’s
+side the extraction exceeds the wage it faces (Section 6), so
+$s(e-\omega) > 0$ and $\dot x \ge -(m_0+n)$; on labour’s, a deviating
+wage is at most $\bar\omega(v) \le \hat\omega$ and may exceed capital’s
+committed extraction, and since $s < 1$ it lowers the drift by at most
+$(1-c)\hat\omega/\kappa$. The costate equation in the maximised
+Hamiltonian is the one A.7 and A.11 compute — substituting the binding
+ceiling and differentiating totally *is* $\partial H^\ast/\partial x$ —
+so nothing beyond concavity is needed, and concavity is where the two
+classes part.
 
 *(i) Labour.* Against capital’s paths $s(t)$ and $e(t)$, labour’s
 Hamiltonian is $\ln\omega - (sP_W/\kappa)\,\omega$ plus terms affine in
@@ -3029,8 +3247,10 @@ that is $\beta(\rho+b)u + b < (\rho+b)u + b$, which is $\beta < 1$ — a
 condition every regime compromise meets, since $\Theta > 0$, while the
 first branch is where (iii) makes $\lambda_-$ real. So on the first
 branch capital’s value is strictly convex in log-employment at every
-stationary compromise at which $W'$ follows the stable manifold, and
-$\beta < 1$ is the whole of the condition: at $\beta = 1$ the chain
+stationary compromise, over every deviation that keeps the interior law
+of motion up to and at full employment — every deviation, where
+$E \le 0$ — since (v) below builds that value from the stable manifold,
+and $\beta < 1$ is the whole of the condition: at $\beta = 1$ the chain
 above closes to $W''(x^\ast) = 0$, and at $\beta > 1$ the other way. At
 the four cells the closed form gives $W''(x^\ast) = 0.964$, $1.192$,
 $1.167$ and $1.155$; a quadratic fitted to the computed value on a
@@ -3081,11 +3301,11 @@ gives $W''(x^\ast) = 3.03 > p^\ast = 2.50$ and the computed value
 confirms it off the node, to five figures once the window’s bias is
 removed: capital’s value there is convex in the employment rate as well.
 At the compromise, then, the value’s convexity in log-employment is the
-first branch’s, conditional on the identification; its curvature in the
-employment rate is the cell’s. And (ii) is likewise a statement in
-$\ln v$: read in $v$, the maximised Hamiltonian adds the concave
-$\alpha\ln v$, $\alpha = (1+\lambda) + b\,(p^C_y - p^C_x) > 0$, to the
-convex $\bar e(v)$, so
+first branch’s; its curvature in the employment rate is the cell’s. And
+(ii) is likewise a statement in $\ln v$: read in $v$, the maximised
+Hamiltonian adds the concave $\alpha\ln v$,
+$\alpha = (1+\lambda) + b\,(p^C_y - p^C_x) > 0$, to the convex
+$\bar e(v)$, so
 $\mathrm{d}^2H^\ast_C/\mathrm{d}v^2 = \big[\zeta(\zeta+1)P_C\bar e/\kappa - \alpha\big]/v^2$
 at the stationary costate, whose sign is not fixed — negative at
 Proposition 12’s cell, positive at Proposition 13’s three.
@@ -3512,12 +3732,13 @@ van der Ploeg, F. (1987). Trade unions, investment, and employment.
 [^1]: The question has a long history in classical political economy.
     Marx put it in chapter 25 of *Capital*: “The labouring population
     therefore produces … the means by which it itself is made relatively
-    superfluous…”. The route from accumulation to numbers is the same
-    one here — part of every unit of accumulation displaces labour, and
-    machinery arrives faster where labour is scarce — while the engine
-    is not his: displacement is a parameter of the mechanisation law,
-    the wage share is an organised class’s instrument, and numbers move
-    through employment rather than through demography.
+    superfluous…”. Here part of every unit of accumulation displaces
+    labour, and machinery arrives faster where labour is scarce, but the
+    engine is not his: displacement is a parameter of the mechanisation
+    law and covers less than the whole of accumulation, so accumulation
+    absorbs labour on net; the wage share is an organised class’s
+    instrument; and numbers move through employment rather than through
+    demography.
 
 [^2]: Markov perfection is established for the constant equilibria. The
     date-wise switching profiles that are also open-loop equilibria are
