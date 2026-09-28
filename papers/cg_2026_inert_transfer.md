@@ -20,8 +20,8 @@ of reproduction, not its efficiency, which may differ without restriction; for r
 exact condition is that the workers’ map is the owners’ map applied to a fixed multiple of the workers’ consumption.
 When a public input enters reproduction alongside private consumption, the per-head gap is a closed form in provision
 per worker relative to the private claim, and at the unique state where both stocks and the class ratio are at rest a
-larger share spent in kind, at a given tax rate and reinvestment share, raises it, as does a higher tax rate where
-the whole receipt is spent in kind; and
+larger share spent in kind, at a given tax rate and reinvestment share, raises it, as does a higher tax rate at a
+given split; and
 cash reaches the per-head gap only relative to provision per worker. Where workers are reproduced by
 private consumption alone, the second theorem’s remedy is therefore void in the per-head coordinate rather than
 second-best, because a produced factor that no agent may hold is nobody’s endowment to transfer.
@@ -41,7 +41,8 @@ is given before policy acts, and what a transfer changes is which of them holds 
 Suppose the number is not given. Suppose the size of a class is produced, period by period, out of what that class
 consumes. Hand such a class more to consume and two things happen at once: its members consume more, and there are
 more of them next period. What each member gets is the class’s consumption divided by its numbers, and a transfer
-moves both. Whether it moves their quotient is the question, and this paper shows that it does not.
+moves both. Whether it moves what a member of that class gets relative to a member of the class that pays for the
+transfer is the question, and this paper shows that it does not.
 
 The question is live wherever the state pays for the conditions under which a workforce is raised — a cash rebate set
 against a public health service, a child benefit against a school place. It is also old. That a subsidy to a class
@@ -55,8 +56,11 @@ own consumption is the only input to their reproduction, the two classes’ per-
 at every state where the two classes grow at one rate, a state this paper calls an interior stationary class ratio.
 That ratio is set by the reproduction technology, the map carrying each class’s consumption into its numbers next
 period, and it holds no instrument, no production parameter, no objective and not even the relative numbers of the
-two classes. At fixed instruments that ratio is reached from any initial position, monotonically in logarithms
-and at a geometric rate, so the absorption is not a property of the rest point alone (Proposition 1). What
+two classes. At fixed instruments that ratio is approached from any initial position, monotonically in logarithms
+and at a geometric rate, so the absorption is not a property of the rest point alone (Proposition 1). Whatever path
+the instruments take, the gap’s distance from that ratio in any period is exactly proportional to how fast the class
+ratio moves in that period, so while reinvestment stays bounded below one a narrowing of the gap can be held for a
+bounded number of periods only (Proposition 1(v)). What
 the transfer does move, strictly and by a computable amount, is the number of owners per worker. Second, the
 hypothesis that carries this is a shared elasticity of that map — a shared curvature, the rate at which the return to
 an extra unit of consumption falls away — rather than a shared technology: the two classes
@@ -70,14 +74,15 @@ relative to the private claim, rising in the first and falling in the second at 
 rate at which provision substitutes for the worker’s own consumption, with the owner’s consumption held where it is,
 is free of both reproduction levels and of every instrument (Theorem 1). At the unique state where the two stocks and
 the class ratio are all at rest, a larger share spent in kind raises the gap at a given tax rate and reinvestment
-share, and so does a higher tax rate when the whole receipt is spent in kind (Proposition 4). Fourth, back at the
+share, and so does a higher tax rate at any split, while a higher reinvestment share lowers it (Proposition 4).
+Fourth, back at the
 corner where private consumption is the only input, the image of the entire admissible instrument set in the per-head
 coordinate is a single point, while the image in the class ratio is not (Proposition 3).
 
 Both of those are distributions between the two classes, and the instrument has no range in the first and wide range
 in the second. It is the per-head coordinate that the second theorem’s policy use requires, because the theorem’s
-promise is about the bundle each agent ends up holding; here a transfer has range in the number of agents instead.
-The theorem’s construction is not contradicted. Its own objects — preferences, a Pareto set over a produced
+promise is that the division of bundles among agents can be chosen. Here a transfer can change the scale of both
+classes’ bundles and the number of agents, and leaves the division where the technology puts it. The theorem’s construction is not contradicted. Its own objects — preferences, a Pareto set over a produced
 population, supporting prices — are not assembled in this economy, and what the results remove is the use to which
 the construction is put: compensation stated per head. For an aim stated per class the transfer keeps that use, since
 it moves each class’s share of total private consumption. The reason the per-head aim is out of reach lies at the
@@ -198,8 +203,8 @@ observable signature — a per-head gap that moves with the level.
 
 The public input enters per worker.
 
-**Definition 1 (interior stationary class ratio).** A state $(x,\nu,z)$ with $x,\nu,z\in(0,\infty)$ is
-an *interior stationary class ratio* if $\nu' = \nu$ under $(\star)$. Nothing is assumed about how the
+**Definition 1 (interior stationary class ratio).** A state $(x,\nu,z)$ with $x,\nu\in(0,\infty)$, and
+$z\in(0,\infty)$ when $\theta<1$, is an *interior stationary class ratio* if $\nu' = \nu$ under $(\star)$. Nothing is assumed about how the
 state was reached, about whether the remaining coordinates are stationary, or about whether the state
 is an equilibrium of any game played over the instruments.
 
@@ -207,19 +212,21 @@ The condition binds the class ratio and nothing else, and that is deliberate. It
 condition: the two dynasties grow at a common rate at this date. The results of §§3–4 are strongest
 precisely because they do not need the capital stock or the public stock to be at rest as well. Where
 the whole state is at rest the condition holds a fortiori, and Appendix A.2 exhibits such a state. Three
-statements below do concern states with the stocks at rest — Theorem 1’s closed form (10), the
+statements below do concern states with a stock at rest — Theorem 1’s closed form (10), the
 instrument half of Proposition 2, and Proposition 4 — and each says so in its own statement.
 
 **Definition 2 (reproduction index).** Class $j$’s *reproduction index* $x_j$ is the argument of its
 reproduction map: $x_W \equiv c_W^{\theta}z^{1-\theta}$ and $x_C \equiv c_C$, so that
-$g_j = B_j x_j^{\gamma}$.
+$g_j = B_j x_j^{\gamma}$. The subscripted $x_W$ and $x_C$ are these reproduction indices, not capital per worker,
+which is $x$ without a subscript.
 
 **Assumption 3 (interiority).** A state satisfies (A) if both stocks carry strictly positive gross
 investment there, $g > 1-\delta$ and $g > 1-\delta_G$, where $g$ is the common growth factor.
 
-Assumption 3 is used only where it is named — in the rest-point form (10) of Theorem 1, which inverts
-the two stock laws, and in the stationary state of Appendix A.2, which shows that the hypothesis set is
-not empty. Neither Lemma 1 nor Proposition 1 needs it.
+Assumption 3 is used only where it is named — at the full rest points of Proposition 4, where it holds,
+and in the stationary state of Appendix A.2, which shows that the hypothesis set is not empty. The
+rest-point form (10) of Theorem 1, which inverts the public-stock law, needs only its second half,
+$g>1-\delta_G$. Neither Lemma 1 nor Proposition 1 needs it.
 
 The setup buys two things that the rest of the paper spends. Reproduction is a technology
 and not a decision, so numbers move with consumption without anyone choosing family size — which is
@@ -250,7 +257,7 @@ Two remarks fix what the lemma does and does not use. It uses injectivity of eac
 fact that the two maps share an exponent; it uses neither concavity nor differentiability, and it is
 invariant to the solution concept rather than holding at the equilibria of one. It uses nothing from
 Assumption 1 either, and neither do (3) and (7)–(9): production, the stock laws and the instrument
-bounds enter only Proposition 1(i) and (iii), Proposition 2(c), (10) and Propositions 3–4. And it is strictly
+bounds enter only Proposition 1(i) and (iii)–(v), Proposition 2(c) and (d), (10) and Propositions 3–4. And it is strictly
 more general than the common-technology case, which is $B_W = B_C$ and therefore $\chi=1$: there the
 two indices are equal, here they stand in a ratio that the technology fixes and the state cannot move.
 At $\theta<1$ that special case depends on the unit in which the public stock is measured, because $\chi$
@@ -298,7 +305,26 @@ $$\ln\frac{c_{C,t}}{c_{W,t}} \;-\; \ln\chi
 \;=\; (1-\gamma)^{t}\left(\ln\frac{c_{C,0}}{c_{W,0}} - \ln\chi\right), \tag{5b}$$
 
 *so from every initial condition it converges to $\chi$, monotonically in logarithms and at the
-geometric rate $1-\gamma$.*
+geometric rate $1-\gamma$;*
+
+*(v) take any path of $(\star)$ from $\nu_0\in(0,\infty)$ under any sequence of admissible instruments
+$(\tau_t,\phi_t,i_t)$ with $i_t<1$, along which output is positive at every date. Then at every date*
+
+$$\ln\frac{c_{C,t}}{c_{W,t}} \;-\; \ln\chi \;=\; \frac{1}{\gamma}\,\ln\frac{\nu_{t+1}}{\nu_t}, \tag{5c}$$
+
+*and, summing, for every $T\ge1$*
+
+$$\sum_{t=0}^{T-1}\Big(\ln\frac{c_{C,t}}{c_{W,t}} - \ln\chi\Big) \;=\; \frac{1}{\gamma}\,\ln\frac{\nu_T}{\nu_0}. \tag{5d}$$
+
+*If moreover $i_t\le\bar\imath$ at every date for some $\bar\imath<1$, write
+$\underline{m}\equiv(1-\bar\imath)(1-\bar\tau)\alpha/\big((1-\alpha)+\bar\tau\alpha\big)$ and
+$\overline{m}\equiv\alpha/(1-\alpha)$. Then $\ln\nu_t$ stays in
+$[\underline{L},\overline{L}]\equiv\big[\min\{\ln(\underline{m}/\chi),\ln\nu_0\},\,\max\{\ln(\overline{m}/\chi),\ln\nu_0\}\big]$
+at every date, so the sum in (5d) is at most $(\overline{L}-\underline{L})/\gamma$ in absolute value for every $T$
+and the time average of $\ln(c_{C,t}/c_{W,t})$ converges to $\ln\chi$; and if
+$\ln(c_{C,t}/c_{W,t})-\ln\chi$ equals a constant $r\neq0$ at $T$ consecutive dates, then
+$T\le(\overline{L}-\underline{L})/(\gamma|r|)$, which is at most $\ln(\overline{m}/\underline{m})/(\gamma|r|)$ when
+$\nu_0\in[\underline{m}/\chi,\,\overline{m}/\chi]$.*
 
 The proof is in Appendix A.3.
 
@@ -316,6 +342,17 @@ at $\theta=1$, and their law is a contraction. So a transfer that raises worker 
 narrow $c_C/c_W$ today, and is undone at the rate $1-\gamma$: half of the narrowing is gone after
 $\ln 2/|\ln(1-\gamma)|$ periods, and none of it survives. The transfer is an instrument whose effect
 decays from any starting position, and the rest point is where it has finished decaying.
+
+Part (v) prices a transfer used every period rather than once. At each date the gap’s log-distance from
+$\chi$ is exactly $1/\gamma$ times the logarithmic growth of the class ratio over that period, on any
+path and under any sequence of instruments, so every period in which workers consume more relative to
+owners than the technology’s constant allows is a period in which owners per worker fall. Holding the
+gap a log-distance $r$ from $\chi$ for $T$ periods moves the class ratio by the factor $e^{\gamma rT}$.
+With reinvestment bounded below one the instruments keep the class ratio in a bounded range, so such a
+hold lasts at most $\ln(\overline{m}/\underline{m})/(\gamma|r|)$ periods from any class ratio that one
+of those policies holds at rest, and over a long stretch the gap averages, in logarithms, to $\ln\chi$
+whatever the policy path. Relief bought on the way is paid for exactly in relative numbers, and in the
+long run it buys nothing per head.
 
 The next statement is the one that keeps Proposition 1 from being an assumption in disguise.
 
@@ -335,9 +372,13 @@ $B_W=B_C$;*
 *(b) when $\gamma_W\neq\gamma_C$ the gap tracks the level with elasticity*
 $$\frac{\partial \ln (c_C/c_W)}{\partial \ln c_C} \;=\; 1-\frac{\gamma_C}{\gamma_W} \;\neq\; 0;$$
 
-*(c) and under Assumption 1, at states where the capital stock is also stationary and $i>0$ and $\tau>0$, the cash rebate share
+*(c) under Assumption 1, at states where the capital stock is also stationary and $i>0$ and $\tau>0$, the cash rebate share
 $1-\phi$ strictly raises the common growth factor, hence strictly raises the level
-$c_C=(g/B_C)^{1/\gamma_C}$, so when $\gamma_W\neq\gamma_C$ the gap is instrument-dependent by (b) and Proposition 1(ii) fails.*
+$c_C=(g/B_C)^{1/\gamma_C}$, so when $\gamma_W\neq\gamma_C$ the gap is instrument-dependent by (b) and Proposition 1(ii) fails;*
+
+*(d) and when $\gamma_W=\gamma_C=\gamma$, at the same states the cash rebate share $1-\phi$ strictly raises both
+per-head levels, $c_W=(g/B_W)^{1/\gamma}$ and $c_C=(g/B_C)^{1/\gamma}$, in the same proportion, and $c_C/c_W$ stays at
+$\chi$.*
 
 The proof is in Appendix A.3.
 
@@ -357,6 +398,12 @@ power maps. For reproduction maps of any shape, Proposition 5 in Appendix A.1 sh
 gap takes one value across a range of stationary states exactly when, over that range, the workers’ map
 is the owners’ map applied to a fixed multiple of the workers’ consumption. A common technology is the
 case in which the multiple is one, and for power maps the condition is a common exponent.
+
+Part (d) reads the argument of (c) at a common exponent, and it says what the cash instrument does reach
+when the gap is fixed. Comparing states with capital at rest, a larger cash share funded out of capital
+income raises every person’s consumption and the growth factor of both dynasties, and moves the two
+per-head levels together along the ray $c_C=\chi c_W$. It changes the scale of what each class gets, and
+leaves unchanged what a member of one class gets relative to a member of the other.
 
 The per-head distribution between two classes in this economy
 is not a policy variable, and the familiar reading of a cash transfer’s incidence — someone bears
@@ -390,7 +437,7 @@ $$\frac{\partial \ln c_W}{\partial \ln z}\Big|_{\,\chi\,c_W^{\theta}z^{1-\theta}
 $$c_C > c_W \iff z > \lambda\,c_W \iff z > \lambda\,c_C, \qquad
 \lambda \equiv \chi^{-1/(1-\theta)}; \tag{9}$$
 
-*and if in addition $(x,z)$ are stationary under $(\star)$ and (A) holds, the gap is a function of
+*and if in addition $z$ is stationary under $(\star)$ and $g>1-\delta_G$, the gap is a function of
 policy and growth alone,*
 
 $$\frac{c_C}{c_W} \;=\; \chi\left(\frac{\alpha\,\varpi}{\kappa_W\,(g-1+\delta_G)}\right)^{1-\theta},
@@ -425,7 +472,7 @@ $D_1\equiv B_W(\kappa_W A)^{\gamma}\big(i(1-\tau)\alpha A\big)^{\alpha\gamma/(1-
 (12) (Appendix A.3) at $\theta=1$, and that limit exceeds $\chi$ when the $\theta=1$ root of (12) lies strictly below
 $1-\delta_G$. Appendix A.3 derives both limits. A tax whose whole receipt is rebated
 in cash sets $\varpi=0$, and under (A) the public-stock law then forces $z=0$, so it is not an interior
-case of Theorem 1 at all.
+case of (10).
 
 *The productivity level, the capital stock and the class ratio are absent.* $A$, $x^{\ast}$ and
 $\nu^{\ast}$ cancel; they reach the private gap only through the common growth factor. What is left is
@@ -436,19 +483,23 @@ nowhere in (8). The asymmetry that §3 showed the cash instrument cannot touch i
 that leaves the in-kind instrument’s *rate* of action untouched: it shifts the gap, it does not tilt
 it.
 
-**Proposition 4 (the full rest point).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$. Then (i) there is exactly one interior state at which $x$, $z$ and $\nu$ are all stationary under $(\star)$, and (A) holds there; (ii) the value of $c_C/c_W$ at the state of (i), as a function of $\phi\in(0,1]$ with $\tau$ and $i$ fixed, is differentiable and strictly increasing, and so is the stationary public stock per worker $z$; (iii) at $\phi=1$, the value of $c_C/c_W$ at the state of (i), as a function of $\tau\in(0,\bar\tau)$ with $i$ fixed, is differentiable and strictly increasing.*
+**Proposition 4 (the full rest point).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, $\tau\in(0,\bar\tau]$, $\phi\in(0,1]$ and $i\in(0,1)$. Then (i) there is exactly one interior state at which $x$, $z$ and $\nu$ are all stationary under $(\star)$, and (A) holds there; with $\theta=1$ instead and the same instruments, such a state exists, and is then unique, if and only if $\delta_G\ge\delta$ or $(1-\delta_G)(\delta-\delta_G)^{\alpha\gamma/(1-\alpha)}<D_1$, with $D_1$ as above; (ii) the value of $c_C/c_W$ at the state of (i), as a function of $\phi\in(0,1]$ with $\tau$ and $i$ fixed, is differentiable and strictly increasing, and so is the stationary public stock per worker $z$; (iii) the value of $c_C/c_W$ at the state of (i) is differentiable, strictly increasing in $\tau\in(0,\bar\tau)$ with $\phi$ and $i$ fixed, and strictly decreasing in $i\in(0,1)$ with $\tau$ and $\phi$ fixed.*
 
 The proof is in Appendix A.3.
 
 In words: below $\theta=1$ every policy with a positive tax, a positive share in kind and partial
 reinvestment has exactly one full rest point, and at it, moving receipts from the public stock into cash
-at a given tax rate lowers provision per worker and the owner’s per-head consumption relative to the worker’s. At the provision
-corner a higher tax rate raises the owner’s per-head consumption relative to the worker’s, whatever the two
-depreciation rates. Part (i)’s
+at a given tax rate lowers provision per worker and the owner’s per-head consumption relative to the worker’s. A
+higher tax rate at a given split raises the owner’s per-head consumption relative to the worker’s, whatever the two
+depreciation rates, and a higher reinvestment share lowers it. The gap at the full rest point is therefore signed in
+all three instruments: more tax, more of it in kind and less reinvestment each raise the owners’ per-head consumption
+relative to the workers’. Part (i)’s
 argument needs $\theta<1$ only when $\delta_G<\delta$. At $\theta=1$ the exponent on $g-1+\delta_G$ in (12)
-(Appendix A.3) vanishes and the root is forced above $1-\delta$ but not above $1-\delta_G$, so the state of Appendix A.2, where
-$\delta_G<\delta$, is an example rather than an instance of a theorem. When $\delta_G\ge\delta$, (i)
-holds at $\theta=1$ as well, while (ii) does not for $c_C/c_W$: there the gap is $\chi$ whatever $\phi$ is.
+(Appendix A.3) vanishes and the root is forced above $1-\delta$ but not above $1-\delta_G$, and the full rest point
+then exists exactly when the public stock depreciates at least as fast as capital or, failing that, when
+$(1-\delta_G)(\delta-\delta_G)^{\alpha\gamma/(1-\alpha)}$ falls short of $D_1$. The state of Appendix A.2, where
+$\delta_G<\delta$, meets the second condition. Wherever that state exists at $\theta=1$, (ii) fails for $c_C/c_W$:
+there the gap is $\chi$ whatever $\phi$ is.
 
 Every statement so far is conditional on an interior stationary class ratio, and such states exist. At $\theta=1$
 they exist for every admissible instrument vector with $i<1$, as Proposition 3’s proof constructs; every path with
@@ -548,7 +599,8 @@ share of consumption: at a stationary state with $\theta=1$ the owners’ share 
 $\chi\nu/(1+\chi\nu)$, which rises with $\nu$ and moves whenever the class ratio does. What the transfer cannot move is what each person receives relative to a member of the other class. Both
 quantities are distributions between the two classes, and the instrument has no range in the first and wide range in
 the second; the per-head coordinate is the one the theorem’s policy use requires, because the theorem’s promise is
-about the bundle each agent ends up holding, and here a transfer has range in the number of agents instead. Whether a
+that the division of bundles among agents can be chosen. Here a transfer can change the scale of both classes’
+bundles (Proposition 2(d)) and the number of agents, and leaves the division where the technology puts it. Whether a
 distributional aim should be read per head or per class is a question the second theorem does not answer, and
 Proposition 3 settles which of the two the instrument can serve.
 
@@ -583,14 +635,17 @@ transfer redistributes claims in the ordinary way. This is the assumption the mo
 it is the whole exercise.
 
 *Deny that the state is at a stationary class ratio.* Away from one, a transfer does move per-head
-consumption in the direction one expects. Proposition 1(iv) prices what that buys. At $\theta=1$ the
-class ratio moves on its own — the gap is the constant $m$ divided by it at every date, so nothing
-else in the economy reaches the gap — and its law is a contraction. The gap therefore returns to
-$\chi$ from every starting position, monotonically and at the geometric rate $1-\gamma$. The escape is
-not that the result is a rest-point result, then; it is that the aim has a horizon short relative to
-$\ln 2/|\ln(1-\gamma)|$ periods, which is how long half of any transfer’s effect on the gap survives.
-An instrument whose effect decays at a known rate from the moment it is used is not the instrument the
-theorem offers.
+consumption in the direction one expects. Proposition 1(iv)–(v) prices what that buys. At $\theta=1$
+the per-head gap differs from $\chi$ in logarithms at a date by exactly $1/\gamma$ times that date’s
+logarithmic growth rate of the class ratio, on any path and under any instruments (5c). Holding the gap a
+log-distance $r$ from $\chi$ for $T$ periods therefore moves the class ratio by the factor
+$e^{\gamma rT}$. With reinvestment bounded below one the instruments’ range caps that movement, so a
+narrowing $r$ lasts at most $\ln(\overline{m}/\underline{m})/(\gamma|r|)$ periods from any class ratio
+some admissible policy holds at rest, while a single change of instruments loses half its effect on the
+gap in $\ln 2/|\ln(1-\gamma)|$ periods. What the escape buys, then, is a narrowing for a bounded number
+of periods, paid for in owners per worker at a rate the technology fixes. An instrument whose whole
+effect on the gap is a movement in relative numbers, within a horizon its own range sets, is not the
+instrument the theorem offers.
 
 *Deny that the two classes share a reproduction elasticity.* This is the one live escape at $\theta=1$, and
 Proposition 2 prices it within the power maps of Assumption 2: there the two classes may differ
@@ -648,7 +703,7 @@ what that composition buys.
 # 6. Conclusion
 
 Where a class is produced out of its own consumption, a transfer to that class is a transfer of numbers rather than
-of per-head claims. At a stationary class ratio the two classes grow at one rate; equal growth pins the ratio of
+of relative per-head claims. At a stationary class ratio the two classes grow at one rate; equal growth pins the ratio of
 their reproduction inputs to a constant of the technology; and when private consumption is the only such input, that
 constant is the per-head gap. The tax rate, the split between cash and public provision, the reinvestment share,
 productivity, the capital share, both depreciation rates, the class ratio and every property of either class’s
@@ -664,14 +719,19 @@ two classes may convert consumption into numbers at any multiple of one another�
 number at every stationary state, though that number carries the multiple. It is constant if and only if the two
 elasticities coincide, and where they differ the gap moves with the level at the rate $1-\gamma_C/\gamma_W$. At such
 states with the capital stock also at rest and both the reinvestment rate and the tax rate positive, the cash
-instrument reaches that level (Proposition 2). For maps of any shape the same invariance holds exactly when the
+instrument reaches that level (Proposition 2). With a common elasticity the cash instrument still raises both
+classes’ per-head consumption at those states, in the same proportion, and leaves their ratio at the constant
+(Proposition 2(d)). For maps of any shape the same invariance holds exactly when the
 workers’ map is the owners’ map applied to a fixed multiple of the workers’ consumption, which for power maps is a
-common exponent (Proposition 5). The hypothesis is therefore observable: a per-head gap that varies with the level of
-provision is a gap that a transfer can move.
+common exponent (Proposition 5). The hypothesis is therefore observable where private consumption is the only input
+to reproduction: a per-head gap that varies with the level of consumption across stationary states is a gap a
+transfer can move.
 
 Malthus’s argument against poor relief was a claim about degree, that relief achieves less than it promises because
-numbers take part of it. Here it is a claim about range: on the per-head coordinate relief achieves nothing at all,
-and the instrument’s whole effect falls on how many people stand on each side of the class line. For the second
+numbers take part of it. Here it is a claim about range: on the per-head coordinate relief achieves nothing in the
+long run while reinvestment stays bounded below one, whatever it achieves on the way is exactly the movement it
+causes in the class ratio, divided by $\gamma$ (Proposition 1(v)), and the instrument’s whole effect falls on how
+many people stand on each side of the class line. For the second
 welfare theorem the consequence is likewise a loss of range rather than a counterexample. The theorem redistributes
 endowments, and the factor whose per-head return is at issue is produced by a technology, held by no agent, priced in
 no market and transferable by no instrument in $(\star)$; a produced factor that nobody may hold is nobody’s
@@ -680,7 +740,7 @@ labour between prices and transfers that it licenses is unavailable with it for 
 have range there is an input to reproduction that only provision in kind supplies, whose incidence is a closed form
 in provision per worker relative to the private claim (Theorem 1), and which at the full rest point raises the
 owners’ per-head consumption relative to the workers’ as the share spent in kind rises (Proposition 4(ii)), and
-raises it further with the tax rate where the whole receipt is spent in kind (Proposition 4(iii)).
+raises it further with the tax rate at any split, while a higher reinvestment share lowers it (Proposition 4(iii)).
 
 The results are proved for an economy with one tax on capital income and no credit market, with the public input
 entering reproduction per worker, with both classes counted in persons, and along deterministic paths at a stationary
@@ -851,7 +911,27 @@ $\ln\nu$ with slope $1-\gamma\in(0,1)$ by Assumption 2. It has the unique fixed 
 $\ln\nu^{\ast} = \gamma^{-1}\ln(B_C/B_W) + \ln m$, that is $\nu^{\ast}=m/\chi$, which is (4); and
 $\ln\nu_t - \ln\nu^{\ast} = (1-\gamma)^{t}(\ln\nu_0-\ln\nu^{\ast})$ exactly, with a positive slope, so
 the approach is monotone. Since $\ln(c_{C,t}/c_{W,t}) = \ln m - \ln\nu_t$, the same difference equation
-holds for $\ln(c_{C,t}/c_{W,t})-\ln\chi$, which is (5b). $\blacksquare$
+holds for $\ln(c_{C,t}/c_{W,t})-\ln\chi$, which is (5b).
+
+**(v)** The quotient of (iv) holds date by date with that date’s instruments,
+$c_{C,t}/c_{W,t}=m_t/\nu_t$ with $m_t\equiv(1-i_t)(1-\tau_t)\alpha/\kappa_{W,t}$ and
+$\kappa_{W,t}\equiv(1-\alpha)+(1-\phi_t)\tau_t\alpha$, because its derivation used neither stock law nor any
+stationarity condition; and both consumptions are strictly positive, since output is, $i_t<1$,
+$\tau_t\le\bar\tau<1$ and $\kappa_{W,t}\ge1-\alpha>0$. The two population laws give
+$\nu_{t+1}/\nu_t=g_{C,t}/g_{W,t}=(B_C/B_W)(c_{C,t}/c_{W,t})^{\gamma}=\big(c_{C,t}/(\chi c_{W,t})\big)^{\gamma}$,
+because $\chi^{\gamma}=B_W/B_C$; taking logarithms gives (5c). This step uses the population laws and
+Assumption 2 at $\theta=1$ and nothing else. Summing (5c) over $t=0,\dots,T-1$ telescopes the right side
+to $\gamma^{-1}\ln(\nu_T/\nu_0)$, which is (5d). For the bound, $m_t\le\alpha/\kappa_{W,t}\le\alpha/(1-\alpha)=\overline{m}$;
+and since $\kappa_{W,t}\le(1-\alpha)+\tau_t\alpha$ and $(1-\tau)/\big((1-\alpha)+\tau\alpha\big)$ is decreasing in
+$\tau$, $m_t\ge(1-\bar\imath)(1-\bar\tau)\alpha/\big((1-\alpha)+\bar\tau\alpha\big)=\underline{m}>0$. Substituting
+the quotient into (5c) gives $\ln\nu_{t+1}=\gamma\ln(m_t/\chi)+(1-\gamma)\ln\nu_t$, a convex combination of a
+point of $[\ln(\underline{m}/\chi),\ln(\overline{m}/\chi)]$ and $\ln\nu_t$, so by induction
+$\ln\nu_t\in[\underline{L},\overline{L}]$ at every date. Then (5d) bounds the sum by $(\overline{L}-\underline{L})/\gamma$
+in absolute value, and dividing by $T$ sends the time average of $\ln(c_{C,t}/c_{W,t})-\ln\chi$ to zero.
+Finally, if $\ln(c_{C,t}/c_{W,t})-\ln\chi=r$ at the dates $s,\dots,s+T-1$, summing (5c) over them gives
+$Tr=\gamma^{-1}\ln(\nu_{s+T}/\nu_s)$, and both logarithms lie in $[\underline{L},\overline{L}]$, so
+$T|r|\le(\overline{L}-\underline{L})/\gamma$. When $\nu_0\in[\underline{m}/\chi,\overline{m}/\chi]$ the interval is
+$[\ln(\underline{m}/\chi),\ln(\overline{m}/\chi)]$, of length $\ln(\overline{m}/\underline{m})$. $\blacksquare$
 
 **Proof of Proposition 2.** Equality of growth factors is $B_W c_W^{\gamma_W} = B_C c_C^{\gamma_C}$; solving for $c_W$
 gives (6), and back-substitution verifies it. For (a), the gap along (6) is
@@ -869,11 +949,17 @@ $g = B_W(\kappa_W A x^{\alpha})^{\gamma_W}$; eliminating $g$, the left-hand side
 $B_W(\kappa_W A x^{\alpha})^{\gamma_W} = (1-\delta)+i(1-\tau)\alpha A x^{\alpha-1}$ is strictly
 increasing in $x$ while the right-hand side is strictly decreasing, running from $+\infty$ at $x\to0^+$
 to $1-\delta$ as $x\to\infty$, so the root exists and is unique. The hypothesis $i>0$ is not
-decorative: at $i=0$ the condition collapses to $g=1-\delta$ exactly, which violates (A), so no such
-state is interior. Raising the cash rebate share $1-\phi$ raises $\kappa_W$, raises the left-hand side
+decorative: at $i=0$ the condition collapses to $g=1-\delta$ exactly, so the common growth factor, and
+with it the level, is the same at every split: the cash instrument cannot reach the level, and the gap is
+fixed even when the exponents differ. Raising the cash rebate share $1-\phi$ raises $\kappa_W$, raises the left-hand side
 pointwise in $x$, and therefore lowers the root $x$ and raises $g$ — the second because $g$ equals the
 right-hand side, which is strictly decreasing in $x$. Since $c_C=(g/B_C)^{1/\gamma_C}$ is strictly
-increasing in $g$, the level moves, and by (b)’s elasticity so does the gap. $\blacksquare$
+increasing in $g$, the level moves, and by (b)’s elasticity so does the gap.
+
+For (d), set $\gamma_W=\gamma_C=\gamma$. The argument for (c) used no relation between the two exponents, so
+the cash rebate share still strictly raises $g$. Then $c_W=(g/B_W)^{1/\gamma}$ and $c_C=(g/B_C)^{1/\gamma}$ both
+rise by the factor by which $g^{1/\gamma}$ rises, and their ratio stays $(B_W/B_C)^{1/\gamma}=\chi$ by (a).
+$\blacksquare$
 
 **Proof of Theorem 1.** Under Assumption 2 the indices are $x_W=c_W^{\theta}z^{1-\theta}$ and $x_C=c_C$, so Lemma 1
 gives
@@ -906,10 +992,10 @@ is strictly increasing in $z$, it exceeds one above that threshold and falls bel
 Applying the same argument to the second form of (7) gives the threshold $z=\lambda c_C$ with the same
 constant, since $\big(\chi^{1/\theta}\big)\big(\lambda^{(1-\theta)/\theta}\big)=\chi^{1/\theta}\chi^{-1/\theta}=1$.
 
-For (10), stationarity of the two stocks under $(\star)$, divided through by $N_{W,t+1}$, inverts to
-$x(g-1+\delta) = i(1-\tau)\alpha A x^{\alpha}$ and $z(g-1+\delta_G) = \varpi\alpha A x^{\alpha}$, both
-divisions being legitimate because (A) makes $g-1+\delta$ and $g-1+\delta_G$ strictly positive. The
-second gives $z = \varpi\alpha A x^{\alpha}/(g-1+\delta_G)$, and the worker’s budget gives
+For (10), stationarity of the public stock under $(\star)$, divided through by $N_{W,t+1}$, inverts to
+$z(g-1+\delta_G) = \varpi\alpha A x^{\alpha}$, and the division is legitimate because $g>1-\delta_G$ makes
+$g-1+\delta_G$ strictly positive; the capital law is not used, so capital per worker need not be at rest.
+This gives $z = \varpi\alpha A x^{\alpha}/(g-1+\delta_G)$, and the worker’s budget gives
 $c_W = \kappa_W A x^{\alpha}$. The common factor $A x^{\alpha}$ cancels in the ratio $z/c_W$, and
 substituting into the first form of (7) gives (10). $\blacksquare$
 
@@ -954,6 +1040,15 @@ tends to $+\infty$ while the left tends to $\underline{g}$; as $g\to\infty$ the 
 and the left to $+\infty$. The difference of the two sides is continuous and strictly monotone, so it
 has exactly one zero.
 
+At $\theta=1$ with the same instruments, the correspondence between full rest points and roots of (12)
+in $(\underline{g},\infty)$ holds as before, since its derivation used $\theta<1$ nowhere, and (12) reads
+$\ln g+\tfrac{\alpha\gamma}{1-\alpha}\ln(g-1+\delta)=\ln D_1$. Its left side is strictly increasing on
+$(1-\delta,\infty)$ and runs from $-\infty$ to $+\infty$ there, so the equation has exactly one root $g_1$ there, and a
+full rest point exists, and is then unique, if and only if $g_1>\underline{g}$. When $\delta_G\ge\delta$,
+$\underline{g}=1-\delta$ and this always holds. When $\delta_G<\delta$, $\underline{g}=1-\delta_G>1-\delta$, and by
+monotonicity $g_1>1-\delta_G$ if and only if the left side at $1-\delta_G$ falls short of $\ln D_1$, that is
+$(1-\delta_G)(\delta-\delta_G)^{\alpha\gamma/(1-\alpha)}<D_1$.
+
 **(ii)** At fixed $\tau$ and $i$ the root of (12) is the zero of
 $F(g,\phi)\equiv\ln g+\tfrac{\alpha\gamma}{1-\alpha}\ln(g-1+\delta)+\gamma(1-\theta)\ln(g-1+\delta_G)-\ln D$,
 and $g\,\partial F/\partial g = H$ with
@@ -986,16 +1081,36 @@ $$\frac{\mathrm{d}\ln z}{\mathrm{d}\phi}
 the second equality using $H-\gamma(1-\theta)K=1+\theta\tfrac{\alpha\gamma}{1-\alpha}\tfrac{g}{g-1+\delta}$. Both terms are
 strictly positive whatever the sign of $\mathrm{d}\ln g/\mathrm{d}\phi$.
 
-**(iii)** At $\phi=1$, $\kappa_W=1-\alpha$ does not move with $\tau$ and $\varpi=\tau$, so
-$\partial\ln D/\partial\tau=\gamma(1-\theta)/\tau-\tfrac{\alpha\gamma}{1-\alpha}\tfrac{1}{1-\tau}$, and the implicit
-function theorem gives $\mathrm{d}\ln g/\mathrm{d}\tau=(\partial\ln D/\partial\tau)/H$ on $(0,\bar\tau)$.
-Differentiating the logarithm of (10) and substituting, with $Q$ as in (ii),
+**(iii)** At fixed $\phi$ and $i$,
+$\partial\ln D/\partial\tau=\gamma\theta(1-\phi)\alpha/\kappa_W+\gamma(1-\theta)/\tau-\tfrac{\alpha\gamma}{1-\alpha}\tfrac{1}{1-\tau}$,
+and the implicit function theorem applied to the same $F$, read as a function of $g$ and $\tau$, gives
+$\mathrm{d}\ln g/\mathrm{d}\tau=(\partial\ln D/\partial\tau)/H$ on $(0,\bar\tau)$. Differentiating the logarithm
+of (10) and substituting, with $Q$ as in (ii),
 
 $$\frac{\mathrm{d}\ln(c_C/c_W)}{\mathrm{d}\tau}
-\;=\;(1-\theta)\Big[\frac{1}{\tau}-\frac{g}{g-1+\delta_G}\,\frac{\mathrm{d}\ln g}{\mathrm{d}\tau}\Big]
-\;=\;(1-\theta)\Big[\frac{1-Q(1-\theta)}{\tau}+\frac{Q\,\alpha}{(1-\alpha)(1-\tau)}\Big],$$
+\;=\;(1-\theta)\Big[\frac{1}{\tau}-\frac{(1-\phi)\alpha}{\kappa_W}-\frac{g}{g-1+\delta_G}\,\frac{\mathrm{d}\ln g}{\mathrm{d}\tau}\Big]
+\;=\;(1-\theta)\,(s_0+s_1Q),$$
 
-and both terms are strictly positive, the first by the positivity of $1-Q(1-\theta)$ shown in (ii).
+$$s_0\equiv\frac{1}{\tau}-\frac{(1-\phi)\alpha}{\kappa_W}=\frac{1-\alpha}{\tau\kappa_W},\qquad
+s_1\equiv-\frac{1-\theta}{\tau}-\frac{\theta(1-\phi)\alpha}{\kappa_W}+\frac{\alpha}{(1-\alpha)(1-\tau)}.$$
+
+The map $Q\mapsto s_0+s_1Q$ is affine, and $Q\in\big(0,1/(1-\theta)\big)$ because $Q>0$ and $1-Q(1-\theta)>0$, as
+shown in (ii). At $Q=0$ its value is $s_0>0$. At $Q=1/(1-\theta)$ it is
+
+$$s_0+\frac{s_1}{1-\theta}\;=\;\frac{\alpha\big[(1-\alpha)\phi+(1-\phi)\tau\big]}{(1-\theta)(1-\alpha)(1-\tau)\kappa_W}\;>\;0,$$
+
+the bracket being positive because $\phi>0$ and $\tau>0$. An affine function positive at both ends of an
+interval is positive inside it, so the derivative is strictly positive at every $\phi\in(0,1]$. At
+$\phi=1$ it reduces to $(1-\theta)\big[(1-Q(1-\theta))/\tau+Q\alpha/((1-\alpha)(1-\tau))\big]$.
+
+For $i$, only $D$ moves among the objects of (12), with $\partial\ln D/\partial i=\alpha\gamma/((1-\alpha)i)$, so
+the implicit function theorem gives $\mathrm{d}\ln g/\mathrm{d}i=\alpha\gamma/((1-\alpha)iH)>0$ on $(0,1)$. The
+logarithm of (10) depends on $i$ only through $-(1-\theta)\ln(g-1+\delta_G)$, so
+
+$$\frac{\mathrm{d}\ln(c_C/c_W)}{\mathrm{d}i}
+\;=\;-(1-\theta)\,\frac{g}{g-1+\delta_G}\,\frac{\mathrm{d}\ln g}{\mathrm{d}i}
+\;=\;-(1-\theta)\,\frac{Q\,\alpha}{(1-\alpha)\,i}\;<\;0.$$
+
 $\blacksquare$
 
 **The limits as $\theta\to1$ in §4.** At a fixed $g$ at which (A) holds, the bracket in (10) is a
