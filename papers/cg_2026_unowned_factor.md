@@ -72,8 +72,7 @@ capital. The reason is an accounting one. Each class meets the tax’s cost and 
 quantity, the owner through his after-tax capital income and the worker through maintenance. Its own
 elasticity therefore scales both sides of its trade-off in the same proportion and cancels, while the
 other class’s elasticity reaches it only through the public budget and survives. Giving capital a
-reproduction technology of exactly the workforce’s form, so that the two stocks differ only in who owns
-them, leaves the crossing unchanged:
+reproduction technology of exactly the workforce’s form leaves the crossing unchanged:
 symmetrising the laws of motion does not symmetrise the taxes (§4). Away from the logarithm, what stands
 in its place is the rate of a class that taxes at a constant rate from a state already on that rate’s
 balanced growth path: there the same formula returns at a discount adjusted for growth, so a class’s own
@@ -84,7 +83,7 @@ improve for both classes are therefore exactly the closed interval between the o
 and the worker’s, and every rate below the owner’s is one that both classes want raised: a state
 smaller than the one capital itself would choose has no constituency. The rate that maximises any
 weighted sum of the two payoffs rises strictly with the weight on workers and is strictly positive at
-every weight, the owner’s own included (§5).
+every weight, the owner’s own included (§§5 and 7).
 
 Third, the owner’s preferred rate carries labour’s share of output as a factor, falls strictly as
 capital’s share rises and goes to zero as that share goes to one, while the worker’s stays positive.
@@ -97,8 +96,8 @@ Two further results locate the disagreement. The workforce’s lack of an owner 
 the classes. Any one of three other primitives does: the tax falls on the owner’s income before he divides
 it between consumption and investment; workers value the capacity that maintenance produces rather
 than the consumption that produces it; or the owner values his stock of capital and not only what he
-consumes, and then his preferred rate falls strictly as he values it more while the worker’s does not
-move. With all three removed the two preferred rates coincide, in an economy where
+consumes: under a tax on what he invests, his preferred rate then falls strictly as he values it more
+while the worker’s does not move. With all three removed the two preferred rates coincide, in an economy where
 the workforce is still produced and still owned by nobody (§5.5). And comparing stationary states, the
 worker’s higher rate favours workers when reproduction builds capacity in classes of fixed size, and
 favours owners per head when it builds persons in two dynasties that reproduce at the same elasticity.
@@ -147,15 +146,16 @@ objectives are logarithmic. Each class’s policy is then a constant share conta
 instruments, so each class’s rule is its best reply to every constant-share rule of the other, from
 every state and among all Markov rules that keep the instruments away from the edges of their ranges
 (§3). Both classes choose to spend all revenue in kind for every tax up to a bound given in §5.3, and
-§7 gives the worker’s rate above it.
+§7 gives the worker’s rate above it. Along the split the classes choose, the interval of rates, the
+bargain and the under-investment hold at every capital share.
 
 Section 2 sets out the economy. Section 3 derives each class’s equilibrium policy and the
 under-investment it leaves. Section 4 derives the two preferred rates and explains why each carries the
 other class’s elasticity. Section 5 gives the interval of rates a bargain can reach, the bargained rate
 at every weight, the primitives that open the gap, and which class a higher rate favours. Section 6
 shows what a rising capital share does to that interval. Section 7 gives the worker’s preferred rate
-above the capital share at which the classes would rather rebate part of the revenue in cash, and
-Section 8 concludes.
+above the capital share at which the classes would rather rebate part of the revenue in cash, and shows
+that the interval, the bargain and the inefficiency hold there too. Section 8 concludes.
 
 # 2. The economy
 
@@ -374,7 +374,7 @@ instruments, and for a reason that owes nothing to strategy. At his own investme
 payoff is flat in investment, while the worker’s rises with it, because capital raises output and
 output raises the maintenance of the workforce. At any tax other than $\tau_C$, a small rise in
 investment paired with a small move of the tax toward $\tau_C$ therefore makes both classes strictly
-better off (Proposition 6). This is ordinary under-investment: the owner does not count what his
+better off (Propositions 6 and 12). This is ordinary under-investment: the owner does not count what his
 capital is worth to workers. A bargain over the tax and the investment share together raises
 investment above the owner’s own choice at every weight on workers strictly between zero and one, and it leaves the
 bargained tax of Proposition 8 unchanged, because the tax’s first-order condition does not involve the
@@ -400,7 +400,7 @@ difference in functional form rather than of ownership. Giving capital an elasti
 removes that difference.
 
 Let capital be produced by the technology of §2.2 with its own elasticity $\gamma_K\in(0,1]$, so
-that the two stocks differ in nothing except who holds a claim on them. The face still closes: the
+that the two stocks are produced by laws of one functional form. The face still closes: the
 system is still log-linear, the value functions are still affine in $(k,n,g)$, the policies are
 still constant shares, and the two classes still choose the same split. Proposition 2 is carried
 too, and it is the one thing the release could have cost: $\gamma_K$ enters the log-transition
@@ -506,7 +506,8 @@ that moves the owner’s preferred rate is that of a technology he neither opera
 The cross is a statement about logarithmic objectives. With both felicities isoelastic at a common
 curvature $\sigma\neq1$, each class’s preferred rate moves with its own reproduction elasticity: at
 every economy and curvature computed in Appendix A.9, for both classes, and a first-order expansion in
-$\sigma-1$ gives a non-zero own-elasticity term for both classes. What survives off the logarithm is
+$\sigma-1$ gives a non-zero own-elasticity term for both classes at two parameter points. What survives
+off the logarithm is
 the following.
 
 **Proposition 4$''$ (balanced-path rate off the logarithm).** *Let $\sigma\neq 1$ and let
@@ -656,7 +657,7 @@ Proposition 7 is what makes the next statement well posed. Because the two class
 split and each class’s total derivative along $\phi^{\star}(\tau)$ equals its partial, a bargain over
 fiscal policy is a bargain over one number. Proposition 8 holds the split where Proposition 7 puts it
 for every tax up to $\beta(1-\theta)(1-\alpha)/(\alpha\theta)$, and there a Pareto weight selects a
-point rather than a frontier.
+point rather than a frontier. Proposition 12 in §7 carries the bargain past that bound.
 
 **Proposition 8 (the weighted peak).** *Hold the split at the provision corner $\phi=1$, and let
 $\lambda\in[0,1]$ be the Pareto weight on workers. The rate that maximises $\lambda U^{W}+(1-\lambda)U^{C}$ is*
@@ -764,34 +765,47 @@ sizes to the state and the owner’s law along with them. Under either reading n
 the size of its class: the persons reading changes what the stock counts, not what anyone decides. That
 separates the economy from the endogenous-fertility settings of Cremer, Gahvari and Pestieau (2006),
 where the number of children is in part chosen through investment and the pension contract must reach
-the per-head claim through that choice. At the provision corner the reading decides which class the
-higher rate favours.
+the per-head claim through that choice. Along the split the classes choose, the reading decides which
+class the higher rate favours.
 
-**Proposition 11 (persons or capacity).** *On the face of §2.4, at $\phi=1$, with the owner’s
+**Proposition 11 (persons or capacity).** *On the face of §2.4 with $\gamma_K\in(0,1]$, with the split
+at the classes’ common choice $\phi^{\star}(\tau)$ of Proposition 7, with the owner’s
 investment share held at a value that does not move with the tax (Proposition 1), and, in the
 persons reading of clause (ii), with the worker’s dynasty growing at
 $g_{W}=B_W\bigl(c_W^{\theta}z^{1-\theta}\bigr)^{\gamma}$ and owner numbers at $g_C=B_C\,c_C^{\gamma}$,
 the same elasticity $\gamma$ in both, compare the
-stationary states under two rates $\tau<\tau'$ in $(0,1)$.*
+stationary states under two rates $\tau<\tau'$ in $(0,1)$. Write
+$\bar\tau\equiv\beta(1-\theta)(1-\alpha)/(\alpha\theta)$ for the bound of §5.3.*
 
 -   *(i) Capacity. With class sizes fixed, the owner’s consumption relative to the worker’s is
-    $C^C/C^W=(1-i)(1-\tau)\alpha/(1-\alpha)$, strictly decreasing in $\tau$.*
+    $C^C/C^W=(1-i)(1-\tau)\alpha/\kappa\bigl(\tau,\phi^{\star}(\tau)\bigr)$, strictly decreasing in $\tau$.*
 -   *(ii) Persons. At the stationary state, in which the class ratio, capital per worker and the public
-    stock per worker are all at rest, consumption per owner relative to consumption per worker satisfies*
-    $$\frac{d\ln(c_C/c_W)}{d\tau}=(1-\theta)\left[\frac{1-Q(1-\theta)}{\tau}+\frac{Q\,\alpha}{(1-\alpha)(1-\tau)}\right]>0,
-    \qquad Q\equiv\frac{\gamma}{H_0},\quad H_0\equiv 1+\frac{\alpha\gamma}{1-\alpha}+\gamma(1-\theta).$$
--   *(iii) Hence, since $\tau_C<\tau_W$ (Proposition 6), the worker’s preferred rate leaves each worker
+    stock per worker are all at rest, consumption per owner relative to consumption per worker,
+    $c_C/c_W$, is continuous and strictly increasing in $\tau$. With
+    $H_K\equiv 1+\alpha\gamma/\bigl((1-\alpha)\gamma_K\bigr)+\gamma(1-\theta)$, its logarithmic
+    derivative is*
+    $$\frac{d\ln(c_C/c_W)}{d\tau}=\frac{1-\theta}{H_K}\left[\frac{H_K-\gamma(1-\theta)}{\tau}+\frac{\alpha\gamma}{(1-\alpha)(1-\tau)}\right]>0$$
+    *where the corner binds, $\tau<\bar\tau$, and*
+    $$\frac{d\ln(c_C/c_W)}{d\tau}=\frac{(1-\theta)\,\alpha\gamma\,\tau}{H_K(1-\alpha)(1-\tau)(1-\alpha+\alpha\tau)}>0$$
+    *where it does not, $\tau>\bar\tau$. At $\bar\tau<1$ both one-sided derivatives are strictly positive,
+    and the one from the left is the larger.*
+-   *(iii) Hence, since the owner’s preferred rate lies strictly below the worker’s along the common
+    split (Propositions 6 and 12), the worker’s preferred rate leaves each worker
     a larger share of consumption relative to the owner than the owner’s preferred rate does when the
     workforce is capacity, and a smaller one per head when it is persons.*
 
 In words, the same tax that transfers towards workers when reproduction builds capacity transfers per
 head towards owners when reproduction builds people. At a stationary class ratio the two dynasties
 grow at the same rate, so their reproduction indices stand in a fixed ratio: $c_C=\chi\,c_W^{\theta}z^{1-\theta}$
-with $\chi=(B_W/B_C)^{1/\gamma}$. A higher rate raises the public input relative to the worker’s own
-consumption, $z/c_W$, so the worker’s index is met more by the public stock and less by private
-consumption, and consumption per owner rises relative to consumption per worker. The part of the
-stationary growth response that works against this, $-(1-\theta)^2Q/\tau$, is always smaller than the
-direct effect $(1-\theta)/\tau$. Nothing in the tax or its incidence differs between the two economies. What
+with $\chi=(B_W/B_C)^{1/\gamma}$. Where all revenue is spent in kind, a higher rate raises the public
+input relative to the worker’s own consumption, $z/c_W$, so the worker’s index is met more by the public
+stock and less by private consumption, and consumption per owner rises relative to consumption per
+worker. The part of the stationary growth response that works against this,
+$-(1-\theta)^2\gamma/(H_K\tau)$, is always smaller than the direct effect $(1-\theta)/\tau$. Where part
+of the revenue is rebated in cash, the classes’ common split holds $z/c_W$ at $1/(\eta g)$, with $g$ the
+stationary growth factor and $\eta$ the constant of Appendix A.10, and the ratio rises for a different
+reason: a higher rate lowers growth, and slower growth raises the public stock inherited per worker
+relative to his consumption. Nothing in the tax or its incidence differs between the two economies. What
 differs is what the public stock produces. Hence the sign of the tax’s distributional effect is not a
 property of the instrument, and the reading chosen in §2.1 is a substantive
 assumption. Appendix A.8 gives the proof.
@@ -848,8 +862,8 @@ which *both* classes would still prefer a larger state — shrinks to nothing, w
 interval $[\tau_C,\tau_W]$ converges, at the provision corner, to $[0,(1-\beta)(1-\theta)]$ and comes
 to be the whole of the range below the worker’s peak. §7 records that the corner is not the classes’
 common choice in this limit; with the split chosen the worker’s endpoint is
-$(1-\beta)/(1-\beta+\beta\gamma_K)$, which at the baseline is $1-\beta$ (Lemma A.1), and the
-unanimous interval vanishes all the same.
+$(1-\beta)/(1-\beta+\beta\gamma_K)$, which at the baseline is $1-\beta$ (Lemma A.1 and Proposition 12),
+and the unanimous interval vanishes all the same.
 The coalition that funds the reproduction of the workforce, a coalition that on this face includes
 capital itself, dissolves. The fiscal question turns from a joint investment into a pure
 distributive conflict.
@@ -860,8 +874,9 @@ Multiplying Proposition 8 by Proposition 9 says what becomes of the bargain itse
 factor $\Delta$ shared by all four coefficients of Proposition 8 is cleared and the sign is normalised
 so that the denominator is positive, is $\beta^{2}\gamma(1-\beta)(1-\theta)\lambda$ — that is, whose
 numerator carries the Pareto weight as a factor. The limit is therefore zero if and only if $\lambda=0$. Since $\tau(\lambda)$ lies between
-the two peaks at every weight, the limit lies in $\bigl[0,(1-\beta)(1-\theta)\bigr]$ and is
-non-negative; hence it is strictly positive at every $\lambda>0$.*
+the two peaks at every weight, the limit lies between zero and the worker’s limit of §6.1, which is
+$(1-\beta)(1-\theta)$ at the baseline, and is non-negative; hence it is strictly positive at every
+$\lambda>0$.*
 
 The corner is not the classes’ common choice in this limit (§7), but the conclusion does not rest
 on it: along the common split the bargained rate again tends to a limit whose numerator carries the
@@ -893,7 +908,8 @@ Re-taken along $\phi(\tau)$, the worker’s first-order condition reduces to
 $\beta(1-\alpha+\alpha\tau)=(1-\alpha\beta)(1-\tau)$, so above that value of $\alpha$ his preferred
 rate is $1-\beta$ and not $\tau_W$ — at a released $\gamma_K$, $(1-\beta)/(1-\beta+\beta\gamma_K)$.
 The owner’s rate, its limit of zero and the verdict of Corollary 1 on the Pareto weight survive the
-correction, by Lemma A.1; the worker’s endpoint $(1-\beta)(1-\theta)$ does not. That threshold in
+correction, by Lemma A.1, and so does the rest of §5’s bargain (Proposition 12 below); the worker’s
+endpoint $(1-\beta)(1-\theta)$ does not. That threshold in
 $\alpha$ is the baseline’s, and under the symmetrisation of §4 it is available in closed form.
 Writing $P\equiv 1-\beta+\beta\gamma_K$, the worker’s rate lies outside §5.3’s condition exactly
 when
@@ -913,6 +929,33 @@ outside that condition is larger off the baseline than on it: at $\beta=0.25$,
 $\theta=0.75$ the threshold falls from $\alpha^{\star}=0.1$ at $\gamma_K=1$ to $0.0793$ at
 $\gamma_K=0.1$, and at $\alpha=0.08$ the corner accordingly binds at the baseline and does not at
 $\gamma_K=0.1$.
+
+Above $\alpha^{\star}(\gamma_K)$ the classes would leave the corner, so the question is what becomes of
+the bargain of §5 along the split they choose. All of it survives, with the worker’s endpoint moved to
+his rate along that split.
+
+**Proposition 12 (the bargain along the common split).** *Let the split be the classes’ common choice
+$\phi^{\star}(\tau)$ of Proposition 7, the investment share $i^{\star}$, and $\gamma_K\in(0,1]$. Write
+$\hat\tau_W$ for the worker’s preferred rate along $\phi^{\star}$: $\tau_W$ of Proposition 4 when
+$\alpha\le\alpha^{\star}(\gamma_K)$, and $(1-\beta)/(1-\beta+\beta\gamma_K)$ otherwise. Then at every
+$\alpha\in(0,1)$:*
+
+-   *(i) both payoffs are strictly concave in $\tau$ along $\phi^{\star}$;*
+-   *(ii) $\tau_C<\hat\tau_W$, the Pareto set in $\tau$ is exactly the closed interval
+    $[\tau_C,\hat\tau_W]$, and every $\tau<\tau_C$ is Pareto-dominated;*
+-   *(iii) in the tax and the investment share together, every profile $(\tau,\phi^{\star}(\tau),i^{\star})$
+    with $\tau\neq\tau_C$ is Pareto-dominated, the equilibrium profile of §3.2 included;*
+-   *(iv) the rate that maximises $\lambda U^{W}+(1-\lambda)U^{C}$ along $\phi^{\star}$ is strictly increasing
+    in $\lambda$, equals $\tau_C$ at $\lambda=0$ and $\hat\tau_W$ at $\lambda=1$, and is strictly positive at
+    every $\lambda\in[0,1]$.*
+
+In words, the corner carried none of §5’s account of the bargain. Where the classes rebate part of the
+revenue in cash, a rate below the owner’s is still one both classes want raised, the rates no change in
+the tax alone can improve for both still run from the owner’s preferred rate to the worker’s, and the
+bargained rate still rises with labour’s weight and stays positive when that weight is zero. The
+equilibrium is still inefficient through under-investment alone, at every capital share. The one thing
+that moves is the worker’s endpoint, which becomes his rate along the split. The proof is in Appendix
+A.11.
 
 # 8. Conclusion
 
@@ -944,16 +987,20 @@ larger state. The coalition that funds the reproduction of the workforce, capita
 dissolves, and the fiscal question turns from a joint investment into a pure distributive conflict.
 
 These results are proved for an economy with one period a generation, full depreciation and
-logarithmic objectives, a single linear tax on capital income, and the split at the provision corner,
-where every pound of revenue is spent in kind and which both classes choose for every tax up to the
-bound of §5.3. Above that bound the owner’s rate, its limit of zero and Corollary 1’s verdict on the
-Pareto weight stand, and the worker’s rate is the one of §7. Off the logarithm the cross gives way to
+logarithmic objectives, and a single linear tax on capital income. The closed forms of §4 and the
+comparisons of Proposition 10 are taken at the provision corner, where every pound of revenue is spent
+in kind and which both classes choose for every tax up to the bound of §5.3. Along the split the
+classes choose, at every capital share, the owner’s rate, its limit of zero and Corollary 1’s verdict
+on the Pareto weight stand, with the worker’s rate that of §7. So do the interval of rates, the
+dominance of every smaller state, the inefficiency without strategy, the monotone bargain and the
+incidence under both readings. Off the logarithm the cross gives way to
 the balanced-path rate of Proposition 4$''$, which a class’s own elasticity reaches only through
 growth. Four changes would each require the analysis to be redone rather than reread: a schedule
 with more than one rate, since a class’s preferred schedule is a different object from its preferred
 rate; workers who value consumption, for whom the gap keeps its sign (Proposition 10(ii)) but the
-cross would have to be derived again; in the persons reading, a split off the corner, where the
-distributional sign would have to be taken again; and a capital share that moves, which needs an
+cross would have to be derived again; a maintenance composite in which the public good is not
+essential, since the owner’s positive rate comes from the value of its first unit to a workforce that
+cannot be maintained without it; and a capital share that moves, which needs an
 elasticity of substitution away from unity.
 
 Whether a tax spent on reproduction redistributes towards labour is settled not by the tax but by
@@ -1259,29 +1306,54 @@ constant tax from a fixed initial state is not this object. $\qquad\blacksquare$
 
 ## A.8 Proof of Proposition 11
 
-1.  With $\phi=1$, $C^W=(1-\alpha)Y$ and $C^C=(1-i)(1-\tau)\alpha Y$, so the ratio is
-    $(1-i)(1-\tau)\alpha/(1-\alpha)$. With $i$ not moving with $\tau$, its logarithmic derivative is
-    $-1/(1-\tau)<0$.
+Throughout, $\phi=\phi^{\star}(\tau)$, and $\bar\tau$ is the bound of §5.3: the corner binds for
+$\tau\le\bar\tau$, and for $\tau>\bar\tau$ Appendix A.10 gives $\kappa(\tau,\phi^{\star})=\eta\,\alpha\tau\phi^{\star}$
+and $\tau\phi^{\star}=\kappa(\tau,0)/\bigl(\alpha(1+\eta)\bigr)$, so that
+$\kappa(\tau,\phi^{\star})=\eta\,\kappa(\tau,0)/(1+\eta)$ with $\kappa(\tau,0)=1-\alpha+\alpha\tau$. Since
+$\phi^{\star}(\bar\tau)=1$, every quantity below is continuous at $\bar\tau$.
+
+1.  $C^W=\kappa(\tau,\phi^{\star})Y$ and $C^C=(1-i)(1-\tau)\alpha Y$, so the ratio is
+    $(1-i)(1-\tau)\alpha/\kappa(\tau,\phi^{\star})$. With $i$ not moving with $\tau$, where the corner binds
+    $\kappa=1-\alpha$ and the logarithmic derivative is $-1/(1-\tau)<0$; where it does not, $\kappa$ is
+    proportional to $1-\alpha+\alpha\tau$, which rises with $\tau$, while $1-\tau$ falls. The ratio is
+    continuous at $\bar\tau$ and strictly decreasing on each side, hence on $(0,1)$.
 
 2.  Under the persons reading a stationary class ratio requires the two dynasties to grow at one
     rate, $B_W\bigl(c_W^{\theta}z^{1-\theta}\bigr)^{\gamma}=B_C\,c_C^{\gamma}$, so that
     $c_C=\chi\,c_W^{\theta}z^{1-\theta}$ with $\chi=(B_W/B_C)^{1/\gamma}$ and
-    $c_C/c_W=\chi\,(z/c_W)^{1-\theta}$. At $\phi=1$, $c_W=(1-\alpha)Y_t/N_t$ and
-    $z=G_t/N_t=\tau\alpha Y_{t-1}/N_t$. With capital and the public stock per worker at rest, output grows
-    at the common factor $g$, so $z/c_W=\alpha\tau/((1-\alpha)g)$ and
-    $c_C/c_W=\chi\bigl(\alpha\tau/((1-\alpha)g)\bigr)^{1-\theta}$. The stationary growth factor
-    solves $g=D\,g^{-\alpha\gamma/(1-\alpha)}g^{-\gamma(1-\theta)}$, that is $g^{H_0}=D$, with
-    $$D=B_W\bigl((1-\alpha)A\bigr)^{\gamma\theta}(\tau\alpha A)^{\gamma(1-\theta)}\bigl(i(1-\tau)\alpha A\bigr)^{\alpha\gamma/(1-\alpha)} .$$
-    Since $H_0>0$ the root is unique and $\ln g=\ln D/H_0$, so
-    $$\frac{d\ln g}{d\tau}=\frac{1}{H_0}\left[\frac{\gamma(1-\theta)}{\tau}-\frac{\alpha\gamma}{(1-\alpha)(1-\tau)}\right].$$
-    Then
-    $$\frac{d\ln(c_C/c_W)}{d\tau}=(1-\theta)\left[\frac1\tau-\frac{d\ln g}{d\tau}\right]
-    =(1-\theta)\left[\frac{1-Q(1-\theta)}{\tau}+\frac{Q\alpha}{(1-\alpha)(1-\tau)}\right],\qquad Q=\frac{\gamma}{H_0}.$$
-    Finally $1-Q(1-\theta)=\bigl(1+\alpha\gamma/(1-\alpha)\bigr)/H_0>0$, so both terms in the bracket
-    are strictly positive, and so is $1-\theta$.
+    $c_C/c_W=\chi\,(z/c_W)^{1-\theta}$. Write $x=K/N$ for capital per worker. Then
+    $c_W=\kappa(\tau,\phi)Ax^{\alpha}$ and $z=G_t/N_t=\phi\tau\alpha Y_{t-1}/N_t$; with capital and the public
+    stock per worker at rest, output grows at the common factor $g$, so $z=\phi\tau\alpha Ax^{\alpha}/g$ and
+    $z/c_W=\phi\tau\alpha/\bigl(\kappa(\tau,\phi)\,g\bigr)$. Capital per worker at rest makes capital grow
+    at $g$ too, and the capital law of §2.2 gives
+    $g=B_K\bigl(i(1-\tau)\alpha Ax^{\alpha-1}\bigr)^{\gamma_K}$; the worker’s law gives
+    $g^{1+\gamma(1-\theta)}=B_W\bigl(\kappa(\tau,\phi)A\bigr)^{\gamma\theta}(\phi\tau\alpha A)^{\gamma(1-\theta)}x^{\alpha\gamma}$.
+    Eliminating $x$, the stationary growth factor solves $g^{H_K}=D$, with
+    $$D=B_W\,B_K^{\alpha\gamma/((1-\alpha)\gamma_K)}\bigl(\kappa(\tau,\phi)A\bigr)^{\gamma\theta}(\phi\tau\alpha A)^{\gamma(1-\theta)}\bigl(i(1-\tau)\alpha A\bigr)^{\alpha\gamma/(1-\alpha)} .$$
+    Since $H_K>0$ the root is unique and $\ln g=\ln D/H_K$.
 
-3.  Proposition 6 gives $\tau_C<\tau_W$. By (i) the capacity ratio is strictly lower at $\tau_W$;
-    by (ii) the per-head ratio is strictly higher at $\tau_W$. $\qquad\blacksquare$
+Where the corner binds, $\phi=1$ and $\kappa=1-\alpha$, so
+$$\frac{d\ln g}{d\tau}=\frac{\gamma}{H_K}\left[\frac{1-\theta}{\tau}-\frac{\alpha}{(1-\alpha)(1-\tau)}\right],
+\qquad
+\frac{d\ln(c_C/c_W)}{d\tau}=(1-\theta)\left[\frac1\tau-\frac{d\ln g}{d\tau}\right],$$
+which is the first display of (ii). Both terms in its bracket are strictly positive, because
+$H_K-\gamma(1-\theta)=1+\alpha\gamma/\bigl((1-\alpha)\gamma_K\bigr)>0$.
+
+Where the corner does not bind, $\phi\tau\alpha/\kappa(\tau,\phi^{\star})=1/\eta$, so $z/c_W=1/(\eta g)$ and
+$c_C/c_W$ moves with $\tau$ only through growth. In $D$,
+$\theta\ln\kappa(\tau,\phi^{\star})+(1-\theta)\ln(\phi^{\star}\tau\alpha)=\ln(1-\alpha+\alpha\tau)$ plus a
+constant, so $H_K\ln g$ equals a constant plus $\gamma\ln(1-\alpha+\alpha\tau)+\bigl(\alpha\gamma/(1-\alpha)\bigr)\ln(1-\tau)$, and
+$$\frac{d\ln(c_C/c_W)}{d\tau}=-(1-\theta)\frac{d\ln g}{d\tau}
+=\frac{(1-\theta)\alpha\gamma}{H_K}\left[\frac{1}{(1-\alpha)(1-\tau)}-\frac{1}{1-\alpha+\alpha\tau}\right].$$
+The bracket equals $\tau/\bigl[(1-\alpha)(1-\tau)(1-\alpha+\alpha\tau)\bigr]>0$, which is the second display.
+
+The ratio is continuous at $\bar\tau$ and has a strictly positive derivative on each side of it, so it
+is strictly increasing on $(0,1)$. At $\bar\tau<1$ the left derivative exceeds the right one by
+$$\frac{1-\theta}{H_K}\left[\frac{H_K-\gamma(1-\theta)}{\bar\tau}+\frac{\alpha\gamma}{1-\alpha+\alpha\bar\tau}\right]>0 .$$
+
+1.  Propositions 6 and 12 put the owner’s preferred rate strictly below the worker’s along the common
+    split. By (i) the capacity ratio is strictly lower at the worker’s rate; by (ii) the per-head ratio is
+    strictly higher there. $\qquad\blacksquare$
 
 ## A.9 Preferred rates off the logarithm: the computation behind §4.4
 
@@ -1377,6 +1449,57 @@ The lemma is what carries Corollary 1’s conclusion past the corner at which it
 threshold of §5.3 the corner binds and Corollary 1 applies as stated, and above it the bargained rate
 is the one above, with the same verdict on $\lambda$. It also gives §7’s off-corner worker rate,
 which at the baseline is $1-\beta$.
+
+## A.11 Proof of Proposition 12
+
+Along the common split, A.10 gives each class’s payoff as
+$u_j(\tau)\equiv U^{j}\bigl(\tau,\phi^{\star}(\tau)\bigr)=M_j\ln(1-\tau)+N_j\,s(\tau)+\text{const}$, with
+the same $s(\tau)=S\bigl(\tau,\phi^{\star}(\tau)\bigr)$ for both classes; this holds at every
+$\gamma_K\in(0,1]$, because the $g$-equations fix $c/b=r/q=\beta\gamma(1-\theta)$ whatever $\gamma_K$ is
+(§5.1). Write $\bar\tau\equiv\beta(1-\theta)(1-\alpha)/(\alpha\theta)$ for the bound of §5.3. If
+$\bar\tau\ge1$ the corner binds on all of $(0,1)$, $\hat\tau_W=\tau_W$, and the proposition is
+Propositions 6 and 8; take $\bar\tau<1$.
+
+For $\tau\le\bar\tau$ the corner binds and $s'(\tau)=1/\tau$. For $\tau>\bar\tau$, A.10 gives
+$s'(\tau)=\alpha(1+\eta)/(1-\alpha+\alpha\tau)$. Each is strictly decreasing, and they agree at $\bar\tau$:
+$1-\alpha+\alpha\bar\tau=(1-\alpha)\bigl(\beta(1-\theta)+\theta\bigr)/\theta$ and
+$1+\eta=\bigl(\beta(1-\theta)+\theta\bigr)/\bigl(\beta(1-\theta)\bigr)$, so
+$\alpha(1+\eta)/(1-\alpha+\alpha\bar\tau)=\alpha\theta/\bigl(\beta(1-\theta)(1-\alpha)\bigr)=1/\bar\tau$.
+So $s'$ is continuous and strictly decreasing on $(0,1)$, and $s$ is continuously differentiable and
+strictly concave. By Proposition 5, $M_j,N_j>0$ for every $\gamma_K\in(0,1]$, so each $u_j$ is
+continuously differentiable and strictly concave, which is (i). Its slope tends to $+\infty$ as
+$\tau\to0$, where $s'=1/\tau$, and to $-\infty$ as $\tau\to1$, so each $u_j$ has a unique peak in $(0,1)$.
+
+1.  On $(0,\bar\tau]$ each class’s slope is that of A.4. The owner’s peak is therefore $\tau_C$,
+    because $\tau_C<\bar\tau$ on the whole box (§7). The worker’s is $\tau_W$ when
+    $\alpha\le\alpha^{\star}(\gamma_K)$, since then $\tau_W\le\bar\tau$, and $(1-\beta)/(1-\beta+\beta\gamma_K)$
+    otherwise, by Lemma A.1; that is $\hat\tau_W$. In the first case $\tau_C<\hat\tau_W$ is Proposition 6;
+    in the second, $\hat\tau_W>\bar\tau>\tau_C$. By strict concavity the owner’s slope has the sign of
+    $\tau_C-\tau$ and the worker’s that of $\hat\tau_W-\tau$. Below $\tau_C$ both slopes are strictly
+    positive, strictly between the peaks they have opposite signs, and above $\hat\tau_W$ both are strictly
+    negative; each peak is efficient because a move away from it lowers that class’s payoff. The Pareto set
+    in $\tau$ is therefore exactly $[\tau_C,\hat\tau_W]$.
+
+2.  This is A.4’s last paragraph with $S_j$ replaced by $u_j$, which is continuously differentiable.
+    The investment share enters the two payoffs additively, through $(1-\omega)\ln(1-i)+\beta\gamma_K a\ln i$
+    for the owner and $\beta\gamma_K p\ln i$ for the worker, and not through the split. Fix
+    $\tau_0\neq\tau_C$, so that $u_C'(\tau_0)\neq0$. Move the tax by $\varepsilon\,\mathrm{sgn}\,u_C'(\tau_0)$,
+    with the split re-chosen at $\phi^{\star}$, and the investment share by $\mu\varepsilon$ with
+    $\mu>|u_W'(\tau_0)|\,i^{\star}/(\beta\gamma_K p)$. At $i^{\star}$ the owner’s derivative in $i$ is zero
+    and the worker’s is $\beta\gamma_K p/i^{\star}>0$, so the owner gains $|u_C'(\tau_0)|\varepsilon$ and the
+    worker at least $\bigl(\beta\gamma_K p\,\mu/i^{\star}-|u_W'(\tau_0)|\bigr)\varepsilon$, both to first
+    order and both strictly positive for small $\varepsilon$. By §3.2 the equilibrium tax is $\hat\tau_W$,
+    and $\hat\tau_W\neq\tau_C$ by (ii).
+
+3.  The weighted objective along $\phi^{\star}$ is $\bar M\ln(1-\tau)+\bar N s(\tau)$, with $\bar M$ and
+    $\bar N$ as in A.10. It is strictly concave, and its peak is the unique root of
+    $s'(\tau)(1-\tau)=\bar M/\bar N$. The left side is continuous and strictly decreasing, from $+\infty$ as
+    $\tau\to0$ to $0$ as $\tau\to1$, so the root lies in $(0,1)$ at every $\lambda$ and falls as
+    $\bar M/\bar N$ rises. The derivative of $\bar M/\bar N$ in $\lambda$ is
+    $(M_WN_C-M_CN_W)/\bar N^{2}$, and the identity displayed under Proposition 8 gives
+    $(M_CN_W-M_WN_C)\,\Delta_K^{2}=\beta^{2}\gamma(1-\beta)(1-\theta)\,\Omega_K B>0$. So $\bar M/\bar N$
+    falls strictly in $\lambda$, and the peak rises strictly. At $\lambda=0$ and $\lambda=1$ it is the
+    owner’s and the worker’s peaks, $\tau_C$ and $\hat\tau_W$. $\qquad\blacksquare$
 
 # References
 
