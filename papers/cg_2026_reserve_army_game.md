@@ -3706,16 +3706,12 @@ Theory* 132(1): 189–207.
 van der Ploeg, F. (1987). Trade unions, investment, and employment.
 *European Economic Review* 31(7): 1465–1492.
 
-[^1]: The question has a long history in classical political economy.
-    Marx put it in chapter 25 of *Capital*: “The labouring population
-    therefore produces … the means by which it itself is made relatively
-    superfluous…”. Here part of every unit of accumulation displaces
-    labour, and machinery arrives faster where labour is scarce, but the
-    engine is not his: displacement is a parameter of the mechanisation
-    law and covers less than the whole of accumulation, so accumulation
-    absorbs labour on net; the wage share is an organised class’s
-    instrument; and numbers move through employment rather than through
-    demography.
+[^1]: Whether the unemployment a growing economy leaves behind also
+    keeps wages down is taken up by Marx in *Capital*, vol. I, ch. 25.
+    He argued that capitalist accumulation itself keeps making part of
+    the working population surplus to capital’s needs, on a growing
+    scale, and that the expansion and contraction of this surplus
+    regulate the general movement of wages.
 
 [^2]: Markov perfection is established for the constant equilibria. The
     date-wise switching profiles that are also open-loop equilibria are
