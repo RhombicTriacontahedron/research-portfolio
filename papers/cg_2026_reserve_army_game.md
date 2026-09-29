@@ -3206,40 +3206,29 @@ is positive; without $\beta > 0$ the sign can fail, already at $b = 0$.
 The eigenvalues are $\rho/2 \pm \sqrt{\rho^2/4 - \det J}$, one of each
 sign.
 
-*(iv) Four economies.* Capital’s reduced problem is solved by an
-implicit upwind finite-difference scheme with policy iteration on
-$x \in [x_{\text{lo}}, 0]$, full employment imposed as a state
-constraint — the drift may not be positive at $v = 1$ — and the lower
-end placed where the drift at a vanishing share is inward; three grids
-of $2{,}000$, $4{,}000$ and $8{,}000$ nodes, with the tolerance set by
-the change between the two finest. At each of the four compromises the
-optimal feedback at $v^\ast$ agrees with the stationary share to under
-$10^{-4}$, the gap between the computed value and the candidate’s — the
-current payoff at the compromise divided by $\rho$ — is positive and
-shrinks with the grid, though that it closes in the limit is neither
-read off these grids nor needed: at the rest point the drift vanishes,
-so $H^\ast_C(x^\ast,p^\ast)$ is that current payoff, and (v)’s
-$W(x^\ast) = H^\ast_C(x^\ast,p^\ast)/\rho$ is the candidate’s value
-exactly, the computed gap being the scheme’s residual, $v^\ast$ is a
-rest point of the optimal closed loop, and the price of gross
-accumulation is positive along the whole solution, so $e = \bar e(v)$ is
-the pointwise maximiser everywhere and the substituted problem is the
-full one rather than a restriction — a sufficient condition, since
-wherever that price is non-positive the share’s supremum is at
-$s \to 0$, where the solver closes the set, and
-$\partial H_C/\partial e = 1/(e-\omega) > 0$ makes the ceiling bind
-anyway. The core’s share with $\Gamma$ dropped fails the same test by
-three orders of magnitude more than the tolerance. Two further readings
-of the same solution: the optimal closed-loop drift has strictly
-negative slope at $x^\ast$ on every grid, so $v^\ast$ is stable under
-capital’s optimal feedback; and the value’s derivative follows the
-saddle’s stable manifold near $x^\ast$, which turns the value’s
-curvature there from a grid reading into a consequence of (iii). At a
+*(iv) Four economies.* Each of the four compromises is interior, and an
+interior stationary compromise exists only on Proposition 9’s first
+branch (Proposition 9, as (iii) records), so (iii) and (v) apply at
+each. The continuation at $v = 1$ that the statement names is the one
+(v) verifies: full employment is a state constraint, the drift may not
+be positive at $v = 1$, and so the interior law of motion holds there
+with capital’s share capped at the level at which the drift vanishes
+(*The boundary*, in (v)). By (v), capital’s optimal feedback at $v^\ast$
+is the stationary share, $v^\ast$ is a rest point of the optimal closed
+loop, and capital’s value at $v^\ast$ is the candidate’s exactly: at the
+rest point the drift vanishes, so $H^\ast_C(x^\ast,p^\ast)$ is the
+current payoff at the compromise, and (v)’s
+$W(x^\ast) = H^\ast_C(x^\ast,p^\ast)/\rho$ is that payoff divided by
+$\rho$. The value’s derivative follows the saddle’s stable manifold,
+because (v) builds the value from it, with $W' = p$ along it. At a
 saddle the stable manifold is tangent to the stable eigenvector, so
-wherever $W'$ follows that manifold, $W''(x^\ast)$ is that eigenvector’s
-slope, $$
+$W''(x^\ast)$ is that eigenvector’s slope, $$
 W''(x^\ast) \;=\; \frac{\lambda_- - F_x}{F_p}, \qquad \lambda_- \;=\; \frac{\rho}{2} - \sqrt{\frac{\rho^2}{4} - \det J} ,
-$$ every symbol (iii)’s. Its sign is three lines. $F_p > 0$, so
+$$ every symbol (iii)’s. Near $x^\ast$ the optimal feedback’s drift is
+$F(x, W'(x))$, so its slope at $x^\ast$ is
+$F_x + F_pW''(x^\ast) = \lambda_- < 0$, and $v^\ast$ is a stable rest
+point of capital’s optimal closed loop. The sign of $W''(x^\ast)$ is
+three lines. $F_p > 0$, so
 $W'' > 0 \iff \lambda_- > F_x \iff \sqrt{\rho^2/4 - \det J} < \rho/2 + |F_x|$,
 with $|F_x| = (\rho+b)u + b$ since $F_x < 0$; both sides are positive,
 and squaring gives $-\det J < |F_x|(|F_x|+\rho) = |F_x|(\rho+b)(1+u)$,
@@ -3253,34 +3242,7 @@ $E \le 0$ — since (v) below builds that value from the stable manifold,
 and $\beta < 1$ is the whole of the condition: at $\beta = 1$ the chain
 above closes to $W''(x^\ast) = 0$, and at $\beta > 1$ the other way. At
 the four cells the closed form gives $W''(x^\ast) = 0.964$, $1.192$,
-$1.167$ and $1.155$; a quadratic fitted to the computed value on a
-one-sided window below $x^\ast$, away from the scheme’s upwind switch at
-the sign change of the drift, returns $0.966$, $1.199$, $1.174$ and
-$1.162$ on the finest of those three grids — within $0.2$ to $0.6$ per
-cent of the closed form, on a window of fixed width in $x$ that the
-three grids refine — while the second difference read at the node itself
-overstates it by $28$ to $42$ per cent, the scheme’s artefact at the one
-node where the stencil straddles the switch. The residual is the
-window’s, not the scheme’s: a quadratic fitted on a one-sided window
-reads $W''$ at the window’s midpoint, so the fit carries a bias whose
-leading term is $W'''(x^\ast)$ times the midpoint’s offset from $x^\ast$
-— $-0.0165$ here — and $W'''(x^\ast)$ is itself a closed form — the
-second derivative at $x^\ast$ of the stable manifold $p = P(x)$, as
-$W''(x^\ast)$ is its slope — between $-0.38$ and $+1.05$ across the five
-cells; the next term is $W''''(x^\ast)$ — the manifold’s third
-derivative at $x^\ast$, a closed form too — times half that offset
-squared plus a fourteenth of the window’s squared half-width, of which
-the regression below fits the first part as its quadratic term and
-leaves the second, $1.3 \times 10^{-5}\,W''''(x^\ast)$, in the
-intercept; regressing the fit on the midpoint across five windows of the
-same width returns the closed-form $W''(x^\ast)$ at the four cells, and
-at the fifth below, to within $0.001$ per cent on a grid sixteen times
-finer — at the four the term left in the intercept is at most $0.00005$
-per cent of $W''$ and nothing turns on it, but the fifth’s $W''''$ is
-two orders larger, and removing its $0.002$ per cent in turn moves the
-reading to that figure rather than below it, so $0.002$ is what the
-decomposition certifies there — and the bias it removes is the one those
-two closed forms predict. The comparison with the first derivative is
+$1.167$ and $1.155$. The comparison with the first derivative is
 closed-form too: $W'(x^\ast) = p^\ast$, which at $c = 0$ — every
 exhibited cell’s case — is $(1+\lambda)/(\rho(1+u))$ by Proposition 7
 and the stationary condition, so
@@ -3295,17 +3257,15 @@ imposed — a positive share at a non-negative wage needs it — both signs
 occur, and at a fifth, pinned, compromise —
 $(\kappa,\rho,\lambda,c,b,\zeta,\eta,\hat e,\hat\omega,m_0,n) = (1,\tfrac1{10},0,0,\tfrac9{10},3,1,\tfrac{343}{1000},\tfrac1{20},\tfrac{886}{1000},0)$,
 $v^\ast = 0.700$, a ceiling three times as steep as Proposition 13’s —
-the same computation returns the stationary share as capital’s optimal
-feedback and $v^\ast$ as a stable rest point, while the closed form
-gives $W''(x^\ast) = 3.03 > p^\ast = 2.50$ and the computed value
-confirms it off the node, to five figures once the window’s bias is
-removed: capital’s value there is convex in the employment rate as well.
-At the compromise, then, the value’s convexity in log-employment is the
-first branch’s; its curvature in the employment rate is the cell’s. And
-(ii) is likewise a statement in $\ln v$: read in $v$, the maximised
-Hamiltonian adds the concave $\alpha\ln v$,
-$\alpha = (1+\lambda) + b\,(p^C_y - p^C_x) > 0$, to the convex
-$\bar e(v)$, so
+$E < 0$, so (v) applies with no continuation, the stationary share is
+again capital’s optimal feedback and $v^\ast$ a stable rest point, and
+the closed form gives $W''(x^\ast) = 3.03 > p^\ast = 2.50$: capital’s
+value there is convex in the employment rate as well. At the compromise,
+then, the value’s convexity in log-employment is the first branch’s; its
+curvature in the employment rate is the cell’s. And (ii) is likewise a
+statement in $\ln v$: read in $v$, the maximised Hamiltonian adds the
+concave $\alpha\ln v$, $\alpha = (1+\lambda) + b\,(p^C_y - p^C_x) > 0$,
+to the convex $\bar e(v)$, so
 $\mathrm{d}^2H^\ast_C/\mathrm{d}v^2 = \big[\zeta(\zeta+1)P_C\bar e/\kappa - \alpha\big]/v^2$
 at the stationary costate, whose sign is not fixed — negative at
 Proposition 12’s cell, positive at Proposition 13’s three.
@@ -3380,25 +3340,24 @@ Proposition 5$''$(i) rules out in the core and this section does not
 make; a continuation that keeps the technology and reverses the verdict
 has not been exhibited, and the constant-share holds priced here are not
 all the continuations there are. Two channels must be kept apart here.
-The **share cap** (iv)’s computation imposes at $v = 1$ — the share may
-not exceed the drift-zero level $0.230$ — is **slack** at that cell: the
-optimal share there is $0.017$ and the drift the optimal policy chooses
-at full employment is inward, so no reading of (iv) is the artefact of a
-binding stipulation, and $E > 0$ makes escape feasible rather than
-optimal. That cap is not either of the two laws above, which hold the
-economy at $v = 1$; it is a constraint that becomes active only when the
-optimal drift would be outward, and where it is slack the economy
-re-enters instead. And slackness of a cap is **not** independence of the
-boundary: what the two laws move is not the cap but the continuation
-*value* at $v = 1$, which the cap leaves implicit. So (iv)’s readings
-stand as computed, under the boundary treatment its own scheme supplies
-— and at this cell, which side of $0.162$ that treatment falls on is the
-law’s answer and not the core’s. What that costs is a universal over
-continuations. Capital’s optimality on the whole first branch is not a
-statement the regime’s equations can carry against every law at full
-employment; against every continuation that keeps the interior law of
-motion there it is, and (v) proves it, with no continuation needed on
-the sub-class $E \le 0$.
+The **share cap** that (iv)’s continuation places at $v = 1$ — the share
+may not exceed the drift-zero level $0.230$ — is **slack** at that cell:
+capital’s optimal share there is $0.017$ and the drift it chooses at
+full employment is inward, so no reading of (iv) turns on the cap
+binding, and $E > 0$ makes escape feasible rather than optimal. That cap
+is not either of the two laws above, which hold the economy at $v = 1$;
+it is a constraint that becomes active only when the optimal drift would
+be outward, and where it is slack the economy re-enters instead. And
+slackness of a cap is **not** independence of the boundary: what the two
+laws move is not the cap but the continuation *value* at $v = 1$, which
+the cap leaves implicit. So (iv)’s readings stand under the continuation
+the statement names — and at this cell, which side of $0.162$ that
+continuation falls on is the law’s answer and not the core’s. What that
+costs is a universal over continuations. Capital’s optimality on the
+whole first branch is not a statement the regime’s equations can carry
+against every law at full employment; against every continuation that
+keeps the interior law of motion there it is, and (v) proves it, with no
+continuation needed on the sub-class $E \le 0$.
 
 *(v) Capital: a verification through the stable manifold.* Fix the
 compromise as in (iii), interior, so $0 < s^\ast < 1$ and
@@ -3587,23 +3546,21 @@ rest point lies on $h$’s accumulating nullcline as a pinned one does,
 because on Proposition 13’s locus, where $\omega = \kappa\rho/s$,
 $\beta\bar e - \omega - \rho\kappa/(1+\lambda) = s(\bar e - \omega)$
 identically, so its stationary share is the share capital chooses
-against its wage. Traced, the stable manifold enters $PD < 1$ at
-$v_c = 0.771$ and $0.962$, and (iv)’s numerical solution sets the share
-to zero from those rates up. At Proposition 13’s other distributionist
+against its wage. Along the stable manifold $PD$ falls below one at
+$v_c = 0.771$ and $0.962$. At Proposition 13’s other distributionist
 rest point, $v^\ast = 0.8095$, and at the fifth compromise of
 A.12$''$(iv) the condition fails ($+0.032$ and $+0.105$), and there, as
-at Proposition 12’s cell ($+0.009$), the traced manifold keeps $PD > 1$
-up to full employment, with minimum $1.192$, $1.113$ and $1.017$: a
-computation, not a proof that $x_c = 0$. Nothing here uses concavity,
-and joint feasibility is not imposed, so the conclusion holds over the
-larger set.
+at Proposition 12’s cell ($+0.009$), $PD$ stays above one along the
+stable manifold up to full employment, numerically, with minimum
+$1.192$, $1.113$ and $1.017$. Nothing here uses concavity, and joint
+feasibility is not imposed, so the conclusion holds over the larger set.
 
 *The boundary.* Where $E \le 0$ the drift at $x = 0$ is below
 $\gamma D(0) - (m_0+n) = E \le 0$ under every admissible share, so no
 admissible path leaves $x \le 0$ and no continuation at full employment
 enters. Where $E > 0$ the inequality above holds for every path that
-stays in $x \le 0$ under the interior law — the state constraint (iv)’s
-scheme imposes, and the hold that rations capital’s share to the
+stays in $x \le 0$ under the interior law — the state constraint of
+(iv)’s continuation, and the hold that rations capital’s share to the
 drift-zero level. A continuation that changes the law at $v = 1$, such
 as productivity growing at $m_0$ whatever the share, changes the running
 payoff there and is not covered. Neither is Proposition 5$''$(i)’s
