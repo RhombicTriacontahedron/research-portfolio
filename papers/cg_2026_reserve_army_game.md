@@ -69,18 +69,19 @@ them idle. Both traditions do answer the opening question, and they
 answer it differently — in the first nobody decides, and in the second
 capital does.
 
-The question survives all of that because it has never been asked of an
-economy in which *both* classes are organised and labour’s organisation
-counts the unemployed among its own. Take Mehrling’s state, and let
-productivity move as well as employment, so that the employment rate
-stops being a fixed multiple of capital per member of the labour force.
-Give capital a second instrument it visibly has: how much effort it gets
-out of an hour it has hired, bounded by what the other class will bear.
-Replace the Phillips law with the thing it stands in for, a
-mechanisation rate that rises where labour is scarce and carries a
-labour-displacing share of every unit of accumulation. Then ask each
-class to maximise the discounted logarithm of what its whole class
-consumes.
+The question survives all of that because the one game in which *both*
+classes are organised and each values its whole class, Mehrling’s, ties
+labour input to the capital stock and has nothing that mechanises, so it
+cannot ask whether the bargain depends on how fast machinery displaces
+labour. Take Mehrling’s state, and let productivity move as well as
+employment, so that the employment rate stops being a fixed multiple of
+capital per member of the labour force. Give capital a second instrument
+it visibly has: how much effort it gets out of an hour it has hired,
+bounded by what the other class will bear. Replace the Phillips law with
+the thing it stands in for, a mechanisation rate that rises where labour
+is scarce and carries a labour-displacing share of every unit of
+accumulation. Then ask each class to maximise the discounted logarithm
+of what its whole class consumes.
 
 This paper shows that the standard mechanism then splits in two, and the
 halves come apart. A class whose payoff treats employment and
@@ -161,17 +162,19 @@ mechanisation as a weapon of distributional struggle, the reading on
 which the direction of innovation that firms choose fixes the employment
 rate and with it the wage share (Tavani, 2012). Under separation the
 mechanisation law does not enter the bargain at all, so a reader who
-accepts the result must either abandon that reading or locate it outside
-the model and say where. The reader in the Lancaster lineage, who
-expects the conflict to be over a capital stock with labour in unlimited
-supply and — reading Mehrling — expects multiple steady states wherever
-classes are organised, gets a ranked equilibrium set instead, and a
-multiplicity that is located rather than denied: a fold in extractable
-effort, two compromises or none, belonging to the half of the economy
-where the bargain sets the wage rather than to the economy itself.
-Neither reader loses a theorem. Both lose a location. The unemployment
-pool moves out of the wage equation, where it was a regulator, and into
-the equilibrium set, where it is an outcome.
+accepts the result must either abandon that reading or locate it where
+this model has no margin. That margin is the capital-augmenting
+direction of innovation, which the fixed capital coefficient rules out.
+The reader in the Lancaster lineage, who expects the conflict to be over
+a capital stock with labour in unlimited supply and — reading Mehrling —
+expects multiple steady states wherever classes are organised, gets a
+ranked equilibrium set instead, and a multiplicity that is located
+rather than denied: a fold in extractable effort, two compromises or
+none, belonging to the half of the economy where the bargain sets the
+wage rather than to the economy itself. Neither reader loses a theorem.
+Both lose a location. The unemployment pool moves out of the wage
+equation, where it was a regulator, and into the equilibrium set, where
+it is an outcome.
 
 Section 2 sets out the model and the two classes’ problems. Section 3
 records what holds at any rest point, whatever the classes maximise.
@@ -195,8 +198,9 @@ of factor-augmenting innovation to maximise the rate of cost reduction.
 The long-run employment rate is then the one at which capital-augmenting
 innovation stops, and the wage share follows from the bargain at that
 rate, so greater bargaining power for workers lowers long-run
-employment. When both classes value their whole class and the ceilings
-are constant, the order here is the reverse: the bargain fixes the
+employment. When both classes value their whole class, the ceilings are
+constant and mechanisation augments labour alone, at a fixed capital
+coefficient, the order here is the reverse: the bargain fixes the
 compromise, and the mechanisation law then fixes employment without
 moving the compromise.
 
