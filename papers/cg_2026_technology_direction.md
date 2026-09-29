@@ -1,4 +1,4 @@
-# Whose Technology? The Direction of Technical Change When the Workforce Is Produced
+# Who Pays to Raise the Next Workforce Shapes Which Technology Workers Want
 Carlos Galindo Escajeda
 2026-09-01
 
