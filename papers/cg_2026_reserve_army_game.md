@@ -157,8 +157,10 @@ in front of one, and it is why the grip, when it comes back, comes back
 through the action sets and not through anyone’s payoff.
 
 Two readers pay for this. The reader in the Goodwin lineage gives up
-mechanisation as a weapon of distributional struggle: under separation
-the mechanisation law does not enter the bargain at all, so a reader who
+mechanisation as a weapon of distributional struggle, the reading on
+which the direction of innovation that firms choose fixes the employment
+rate and with it the wage share (Tavani, 2012). Under separation the
+mechanisation law does not enter the bargain at all, so a reader who
 accepts the result must either abandon that reading or locate it outside
 the model and say where. The reader in the Lancaster lineage, who
 expects the conflict to be over a capital stock with labour in unlimited
@@ -186,15 +188,27 @@ concludes. The proofs are in Appendix A.
 
 Goodwin (1967) fixes the wage by a Phillips law in the employment rate;
 here the wage share is an instrument and the employment rate is what the
-instruments leave behind. Lancaster (1973), Hoel (1978) and Pohjola
-(1983) have capital as the state and labour in unlimited supply;
-Shimomura (1991) derives the feedback equilibria of that game under
-constant absolute risk aversion. Proposition 2 says plainly that this
-paper’s core is a game on that same state, capital per member of the
-labour force, with logarithmic payoffs and a linear technology, and it
-claims no novelty for the constant-strategy equilibrium as such; what it
-adds is the employment rate as the object the game places, with the
-persistence theorem, the fold and the dominance result that follow.
+instruments leave behind. Shah and Desai (1981) put induced technical
+change into Goodwin’s class model. Tavani (2012) replaces the Phillips
+law with a Nash bargain over the wage and has firms choose the direction
+of factor-augmenting innovation to maximise the rate of cost reduction.
+The long-run employment rate is then the one at which capital-augmenting
+innovation stops, and the wage share follows from the bargain at that
+rate, so greater bargaining power for workers lowers long-run
+employment. When both classes value their whole class and the ceilings
+are constant, the order here is the reverse: the bargain fixes the
+compromise, and the mechanisation law then fixes employment without
+moving the compromise.
+
+Lancaster (1973), Hoel (1978) and Pohjola (1983) have capital as the
+state and labour in unlimited supply; Shimomura (1991) derives the
+feedback equilibria of that game under constant absolute risk aversion.
+Proposition 2 says plainly that this paper’s core is a game on that same
+state, capital per member of the labour force, with logarithmic payoffs
+and a linear technology, and it claims no novelty for the
+constant-strategy equilibrium as such; what it adds is the employment
+rate as the object the game places, with the persistence theorem, the
+fold and the dominance result that follow.
 
 Three features of that lineage are worth naming exactly, because each
 looks like a result here and is not. First, its payoffs are *linear* in
@@ -1639,46 +1653,39 @@ branch — where it is no longer signed, and at $b = 0$ is non-positive,
 so the saddle would be lost — no interior stationary compromise exists
 at which the determinant could be read (Proposition 9).
 
-*(iv) Four economies.* At the four stationary compromises exhibited in
-the text — Proposition 12’s cell and the three rest points of
-Proposition 13’s — a numerical solution of capital’s problem against the
-stationary wage share returns the stationary accumulation share as
-capital’s optimal feedback at $v^\ast$, and $v^\ast$ as a rest point of
-the optimal closed loop, with the gap between the computed value and the
-candidate’s falling as the approximation is refined — **under the
-continuation its own scheme supplies at $v=1$**, which at the one of
-these cells whose escape margin is positive a continuation that suspends
-the technology at the boundary reverses (A.12$''$(iv), *The boundary,
-and what it decides*); $v^\ast$ is a *stable* rest point of that closed
-loop; and capital’s value function is strictly convex in log-employment
-at $v^\ast$. The last is not read off those four economies: the value’s
+*(iv) Capital’s closed loop.* Over every deviation that keeps the
+economy’s interior law of motion up to and at full employment — every
+deviation, where the escape margin $E$ of A.12$''$(iv) is not positive —
+the stationary accumulation share is capital’s optimal feedback at
+$v^\ast$, and $v^\ast$ is a *stable* rest point of capital’s optimal
+closed loop, which reaches it monotonically from every initial
+employment rate up to the $v_c$ of (v). Capital’s value at $v^\ast$
+equals the candidate’s: at a compromise the economy does not move, so
+the candidate’s value is its current payoff divided by the discount
+rate, which is what the value function of (v) returns there. That value
+function is strictly convex in log-employment at $v^\ast$: its
 derivative follows the saddle’s stable manifold, because (v) builds the
 value from it, so $W''(x^\ast)$ is the stable eigenvector’s slope,
 written out in A.12$''$(iv), and it is positive on the whole first
 branch: the sign is $\beta < 1$, which the model guarantees wherever the
 ceiling responds to employment at all. In the employment rate itself the
-value is concave at all four, and that is a fact about the cells: the
 sign of $\mathrm{d}^2W/\mathrm{d}v^2$ at $v^\ast$ is a closed-form
-comparison that goes either way on the first branch, and at a fifth
-pinned compromise, exhibited in A.12$''$(iv) with a steeper ceiling, the
-value is convex in $v$ as well. The share and stability readings are
-numerical and belong to these four economies; the sign of the curvature
-in $\ln v$ is a theorem wherever (v) applies; and that capital’s value
-at $v^\ast$ *equals* the candidate’s, rather than merely approaching it,
-is (v)’s and not the computation’s — at a compromise the economy does
-not move, so the candidate’s value is its current payoff divided by the
-discount rate, which is what the value function verified there returns.
-What holds at the four holds over a deviation set larger than the
-generalised game admits, since the computation lets capital carry the
-employment rate anywhere in the state space — though not larger in the
-direction that decides which deviations (v) must price: $\bar\omega$ is
-strictly increasing, so *every* upward deviation keeps labour’s
-committed path feasible — at a bargained compromise as much as at a
-pinned one — and at a pinned compromise the feasible set is that half
-and nothing else. A.12$''$(iv) shows what the core cannot price once
-such a deviation arrives at full employment. At two of the four, the
-computed closed loop is capital’s best reply only from starts up to the
-$v_c$ of (v), which there lies below full employment.
+comparison that goes either way on the first branch: the value is
+concave in $v$ at the four stationary compromises exhibited in the text
+— Proposition 12’s cell and the three rest points of Proposition 13’s —
+and convex at a fifth, pinned, compromise with a steeper ceiling,
+exhibited in A.12$''$(iv). These conclusions hold over a deviation set
+larger than the generalised game admits, since joint feasibility is not
+imposed — though not larger in the direction that decides which
+deviations (v) must price: $\bar\omega$ is strictly increasing, so
+*every* upward deviation keeps labour’s committed path feasible — at a
+bargained compromise as much as at a pinned one — and at a pinned
+compromise the feasible set is that half and nothing else. Where $E > 0$
+such a deviation reaches full employment, and the continuation there can
+decide the verdict: at Proposition 12’s cell, the one of the four whose
+escape margin is positive, a continuation that suspends the technology
+at the boundary reverses it (A.12$''$(iv), *The boundary, and what it
+decides*).
 
 *(v) Capital, wherever the economy’s interior law of motion holds.*
 Capital’s stationary path is optimal against labour’s over every
@@ -1693,7 +1700,7 @@ shadow price, accumulation stops paying ($v_c = 1$ if it pays all the
 way to full employment). $v_c$ can lie below full employment: it does
 whenever $\beta\hat e - \omega^\ast < \rho\kappa/(1+\lambda)$, and it
 does at some compromises that meet all of Proposition 12’s hypotheses
-(A.12$''$(v)). It does at two of the four compromises (iv) reads, both
+(A.12$''$(v)). It does at two of the four compromises (iv) names, both
 of which satisfy that inequality: at Proposition 13’s pinned rest point
 accumulation stops paying at $v_c = 0.771$, barely above
 $v^\ast = 0.732$, and at its distributionist rest point
@@ -3206,20 +3213,22 @@ is positive; without $\beta > 0$ the sign can fail, already at $b = 0$.
 The eigenvalues are $\rho/2 \pm \sqrt{\rho^2/4 - \det J}$, one of each
 sign.
 
-*(iv) Four economies.* Each of the four compromises is interior, and an
+*(iv) Capital’s closed loop.* The compromise is interior, and an
 interior stationary compromise exists only on Proposition 9’s first
-branch (Proposition 9, as (iii) records), so (iii) and (v) apply at
-each. The continuation at $v = 1$ that the statement names is the one
-(v) verifies: full employment is a state constraint, the drift may not
-be positive at $v = 1$, and so the interior law of motion holds there
-with capital’s share capped at the level at which the drift vanishes
-(*The boundary*, in (v)). By (v), capital’s optimal feedback at $v^\ast$
-is the stationary share, $v^\ast$ is a rest point of the optimal closed
-loop, and capital’s value at $v^\ast$ is the candidate’s exactly: at the
-rest point the drift vanishes, so $H^\ast_C(x^\ast,p^\ast)$ is the
-current payoff at the compromise, and (v)’s
-$W(x^\ast) = H^\ast_C(x^\ast,p^\ast)/\rho$ is that payoff divided by
-$\rho$. The value’s derivative follows the saddle’s stable manifold,
+branch (Proposition 9, as (iii) records), so (iii) and (v) apply; the
+four compromises exhibited in the text are interior, so everything below
+holds at each of them. The deviations the statement admits are those (v)
+verifies against: full employment is a state constraint, the drift may
+not be positive at $v = 1$, and so the interior law of motion holds
+there with capital’s share capped at the level at which the drift
+vanishes (*The boundary*, in (v)); where $E \le 0$ no admissible path
+reaches $v = 1$, and every deviation is admitted. By (v), capital’s
+optimal feedback at $v^\ast$ is the stationary share, $v^\ast$ is a rest
+point of the optimal closed loop, and capital’s value at $v^\ast$ is the
+candidate’s exactly: at the rest point the drift vanishes, so
+$H^\ast_C(x^\ast,p^\ast)$ is the current payoff at the compromise, and
+(v)’s $W(x^\ast) = H^\ast_C(x^\ast,p^\ast)/\rho$ is that payoff divided
+by $\rho$. The value’s derivative follows the saddle’s stable manifold,
 because (v) builds the value from it, with $W' = p$ along it. At a
 saddle the stable manifold is tangent to the stable eigenvector, so
 $W''(x^\ast)$ is that eigenvector’s slope, $$
@@ -3227,8 +3236,9 @@ W''(x^\ast) \;=\; \frac{\lambda_- - F_x}{F_p}, \qquad \lambda_- \;=\; \frac{\rho
 $$ every symbol (iii)’s. Near $x^\ast$ the optimal feedback’s drift is
 $F(x, W'(x))$, so its slope at $x^\ast$ is
 $F_x + F_pW''(x^\ast) = \lambda_- < 0$, and $v^\ast$ is a stable rest
-point of capital’s optimal closed loop. The sign of $W''(x^\ast)$ is
-three lines. $F_p > 0$, so
+point of capital’s optimal closed loop, which by (v) the feedback
+reaches monotonically from every start up to $v_c$. The sign of
+$W''(x^\ast)$ is three lines. $F_p > 0$, so
 $W'' > 0 \iff \lambda_- > F_x \iff \sqrt{\rho^2/4 - \det J} < \rho/2 + |F_x|$,
 with $|F_x| = (\rho+b)u + b$ since $F_x < 0$; both sides are positive,
 and squaring gives $-\det J < |F_x|(|F_x|+\rho) = |F_x|(\rho+b)(1+u)$,
@@ -3350,14 +3360,15 @@ it is a constraint that becomes active only when the optimal drift would
 be outward, and where it is slack the economy re-enters instead. And
 slackness of a cap is **not** independence of the boundary: what the two
 laws move is not the cap but the continuation *value* at $v = 1$, which
-the cap leaves implicit. So (iv)’s readings stand under the continuation
-the statement names — and at this cell, which side of $0.162$ that
-continuation falls on is the law’s answer and not the core’s. What that
-costs is a universal over continuations. Capital’s optimality on the
-whole first branch is not a statement the regime’s equations can carry
-against every law at full employment; against every continuation that
-keeps the interior law of motion there it is, and (v) proves it, with no
-continuation needed on the sub-class $E \le 0$.
+the cap leaves implicit. So (iv)’s conclusions stand under the interior
+law at full employment that the statement names — and at this cell,
+which side of $0.162$ that continuation falls on is the law’s answer and
+not the core’s. What that costs is a universal over continuations.
+Capital’s optimality on the whole first branch is not a statement the
+regime’s equations can carry against every law at full employment;
+against every continuation that keeps the interior law of motion there
+it is, and (v) proves it, with no continuation needed on the sub-class
+$E \le 0$.
 
 *(v) Capital: a verification through the stable manifold.* Fix the
 compromise as in (iii), interior, so $0 < s^\ast < 1$ and
@@ -3667,6 +3678,9 @@ Pohjola, M. (1983). Nash and Stackelberg solutions in a differential
 game model of capitalism. *Journal of Economic Dynamics and Control* 6:
 173–186.
 
+Shah, A. and M. Desai (1981). Growth cycles with induced technical
+change. *Economic Journal* 91(364): 1006–1010.
+
 Shapiro, C. and J. E. Stiglitz (1984). Equilibrium unemployment as a
 worker discipline device. *American Economic Review* 74(3): 433–444.
 
@@ -3679,6 +3693,10 @@ function. *Econometrica* 46(3): 527–539.
 Sorger, G. (1997). Efficient income redistribution in a growing economy.
 *Central European Journal for Operations Research and Economics* 5:
 41–50.
+
+Tavani, D. (2012). Wage bargaining and induced technical change in a
+linear economy: model and application to the US (1963–2003). *Structural
+Change and Economic Dynamics* 23(2): 117–126.
 
 Veneziani, R. (2007). Exploitation and time. *Journal of Economic
 Theory* 132(1): 189–207.
