@@ -504,11 +504,10 @@ that moves the owner’s preferred rate is that of a technology he neither opera
 ## 4.4 What a non-unit intertemporal elasticity does to the cross
 
 The cross is a statement about logarithmic objectives. With both felicities isoelastic at a common
-curvature $\sigma\neq1$, each class’s preferred rate moves with its own reproduction elasticity: at
-every economy and curvature computed in Appendix A.9, for both classes, and a first-order expansion in
-$\sigma-1$ gives a non-zero own-elasticity term for both classes at two parameter points. What survives
-off the logarithm is
-the following.
+curvature $\sigma\neq1$, each class’s balanced-path rate has a non-zero own-elasticity term, to first
+order in $\sigma-1$, at the two economies of Appendix A.9, and at $\sigma=1/2$ the worker’s
+balanced-path rate in a third rises with his own elasticity $\gamma$ at a rate of $1.55$. What
+survives off the logarithm is the following.
 
 **Proposition 4$''$ (balanced-path rate off the logarithm).** *Let $\sigma\neq 1$ and let
 $(\tau_j,i)$ be a constant profile whose balanced ray grows at $\hat g$ per period in logs, with
@@ -1355,29 +1354,42 @@ $$\frac{1-\theta}{H_K}\left[\frac{H_K-\gamma(1-\theta)}{\bar\tau}+\frac{\alpha\g
     split. By (i) the capacity ratio is strictly lower at the worker’s rate; by (ii) the per-head ratio is
     strictly higher there. $\qquad\blacksquare$
 
-## A.9 Preferred rates off the logarithm: the computation behind §4.4
+## A.9 Preferred rates off the logarithm: the first-order term behind §4.4
 
-Section 4.4 reports the preferred rates at a non-unit elasticity. To compute them, both
-felicities were replaced by $x^{1-\sigma}/(1-\sigma)$ at one common curvature $\sigma$, and the grid,
-the thresholds and the verdict rule were fixed before any solve. The preferred rate at $\sigma\ne1$
-is the best constant tax from a state on that tax’s own balanced-growth path, with the owner’s
-investment share at his best constant response; the best constant tax from a fixed initial state is
-a second object. Scale constants were set so that the owner’s logarithmic profile grows at $0$ or
-$0.2$ a period, and then held fixed. The grid crosses $\alpha\in\{0.3,0.6\}$, $\beta\in\{0.4,0.8\}$,
-$\gamma\in\{0.3,0.7\}$, $\theta\in\{0.3,0.7\}$, $\omega\in\{0,0.4\}$, $\gamma_K\in\{0.5,0.9\}$ and
-the two growth rates, 128 economies, at $\sigma\in\{0.5,2,5\}$. The rule: one economy at which a
-class’s preferred rate moves with its own elasticity by more than $10^{-5}$, on both objects, refutes
-the cross.
+Off the logarithm both felicities are $x^{1-\sigma}/(1-\sigma)$ at one common curvature $\sigma$.
+The preferred rate at $\sigma\ne1$ is the best constant tax from a state on that tax’s own
+balanced-growth path, with the owner’s investment share at his best constant response; the best
+constant tax from a fixed initial state is a second object.
 
-It fired at every one of the 384 economy–curvature pairs, for both classes and on both objects. At
-$\sigma=1$ the same code returns Proposition 4 to machine precision, and both own derivatives are
-below $2\times10^{-12}$. The witness with the largest own derivative on both objects is
-$\alpha=0.6$, $\beta=0.8$, $\gamma=0.3$, $\theta=0.3$, $\omega=0$, $\gamma_K=0.5$, $\sigma=0.5$,
-with scale constants calibrated to growth $0.2$: the worker’s preferred rate on the balanced path is
-$0.3695$, and its derivative with respect to his own elasticity $\gamma$ is $1.55$. A first-order
-expansion in $\sigma-1$, done symbolically and sharing no solver with the grid, gives a non-zero
-own-elasticity term for both classes at two exact rational parameter points. Reading $\sigma$ as the
-elasticity rather than the curvature gives the same verdict.
+Write $\tau_j^{\log}(b)$ for Proposition 4’s rate of class $j$ with the discount factor $\beta$
+replaced by $b$, and $e_j$ for the class’s own reproduction elasticity, $e_W=\gamma$ and
+$e_C=\gamma_K$. By Proposition 4$''$ the balanced-path rate satisfies
+$\tau_j=\tau_j^{\log}\bigl(\beta e^{(1-\sigma)\hat g}\bigr)$, where $\hat g$ is the growth of the
+profile $(\tau_j,i)$. Differentiating at $\sigma=1$, where the factor $1-\sigma$ multiplies every
+change in $\hat g$,
+$$\left.\frac{\partial\tau_j}{\partial\sigma}\right|_{\sigma=1}=-\hat g\,\beta\,\frac{\partial\tau_j^{\log}}{\partial\beta}.$$
+Proposition 4 makes $\tau_j^{\log}$ free of $e_j$ at every discount factor, so $e_j$ enters this
+term only through $\hat g$, and the own-elasticity term of the expansion is
+$$\left.\frac{\partial^2\tau_j}{\partial e_j\,\partial\sigma}\right|_{\sigma=1}
+=-\beta\,\frac{\partial\tau_j^{\log}}{\partial\beta}\,\frac{\partial\hat g}{\partial e_j},$$
+with $\partial\hat g/\partial e_j$ taken along the owner’s investment response. To first order in
+$\sigma-1$, then, a class’s own elasticity reaches its preferred rate exactly when it moves balanced
+growth and the logarithmic rate moves with the discount factor.
+
+Both factors are non-zero for both classes at $\alpha=3/10$, $\beta=4/5$, $\gamma=7/10$,
+$\theta=3/10$, $\omega=0$, $\gamma_K=1/2$, with every scale constant equal to one. For the worker
+$\beta\,\partial\tau_W^{\log}/\partial\beta=-0.348$ and $\partial\hat g/\partial\gamma=-0.571$, so
+the own term is $-0.198$; for the owner $\beta\,\partial\tau_C^{\log}/\partial\beta=0.874$ and
+$\partial\hat g/\partial\gamma_K=-0.450$, so it is $0.393$. At $\alpha=3/5$, $\beta=2/5$,
+$\gamma=3/10$, $\theta=7/10$, $\omega=2/5$, $\gamma_K=9/10$ the own terms are $-0.167$ for the worker
+and $0.0028$ for the owner. Reading $\sigma$ as the elasticity rather than the curvature reverses the
+sign of $\sigma-1$ to first order and leaves every term non-zero.
+
+The effect is not confined to the neighbourhood of $\sigma=1$. At $\alpha=0.6$, $\beta=0.8$,
+$\gamma=0.3$, $\theta=0.3$, $\omega=0$, $\gamma_K=0.5$ and $\sigma=0.5$, with scale constants set
+so that the owner’s logarithmic profile grows at $0.2$ a period, the worker’s preferred rate on the
+balanced path is $0.3695$ and its derivative with respect to his own elasticity $\gamma$ is $1.55$;
+his best constant tax from a fixed initial state also moves with $\gamma$ there.
 
 ## A.10 The bargain along the common split
 
