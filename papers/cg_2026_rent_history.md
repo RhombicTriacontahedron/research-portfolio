@@ -1,6 +1,6 @@
 # The Long History of Rent: From Coerced Surplus to Capitalised Claim
 Carlos Galindo Escajeda
-September 26, 2026
+October 1, 2026
 
 ## Abstract
 
@@ -13,25 +13,34 @@ claim, by virtue of title rather than of production, on the social
 labour of the producing population — a deduction whose incidence
 migrates (the producer’s surplus product under serfdom, a share of
 surplus value under agrarian capitalism, the wage in the financialised
-housing market) even as the title-claim on unpaid labour endures. This
-paper reconstructs that long history as a single movement: the
-**progressive abstraction and capitalisation of a claim on social
+housing market) even as the title-claim on unpaid labour endures. At the
+third stage the reading departs from Marx, for whom a deduction from
+wages paid to a landlord as lease money is not ground-rent, and from
+Engels, for whom the landlord–tenant relation is an ordinary commodity
+transaction; it takes the substance to be the relation rather than the
+fund. This paper reconstructs that long history as a single movement:
+the **progressive abstraction and capitalisation of a claim on social
 labour**. It shows that the analytical category on which the dominant
 framework of modern rent policy relies — *economic rent*, the surplus
 above a factor’s supply price — is not a natural fact but a historical
 product of the agrarian-capitalist transition, and that a
 counter-tradition seeking to capture that surplus without destroying
-production recurs at every phase, from the Physiocrats’ single tax to
-today’s fair-rent caps and proposals to levy National Insurance on
-rental income. The capitalisation of rent into an asset price, P = R/(r
-− g), is identified as the technical through-line that runs from Petty’s
+production has recurred from the Physiocrats’ single tax to today’s
+fair-rent caps and proposals to levy National Insurance on rental
+income. The capitalisation of rent into an asset price, P = R/(r − g),
+is identified as the technical through-line that runs from Petty’s
 years’ purchase through Marx’s treatment of the price of land as
 capitalised ground-rent to the modern asset-pricing literature on
-housing. The rate that performs the capitalisation was anchored once, by
-Petty, in the joint lives of three generations; Marx held that the rate
-of interest has no natural level, and the literature that followed takes
-the rate from outside the theory of rent — from impatience, from the
-market, or from the growth of production.
+housing. The rate that performs the capitalisation has a history whose
+first turn Marx traced himself: Petty anchored it in the joint lives of
+three generations of the owning family; Smith set the price of land by
+the market rate of interest and Ricardo governed interest by a profit
+rate that the wage of necessaries determines; Marx kept profit as the
+ceiling of interest but held that below it the rate has no natural
+level; and the literature that followed takes the rate from outside the
+theories of rent and profit — from impatience, from the market, or from
+the growth of production — so that Ricardo’s anchor in the cost of
+sustaining workers is the one the modern pricing of housing leaves out.
 
 *Keywords:* rent, ground-rent, economic rent, capitalisation, fictitious
 capital, history of economic thought, housing, financialisation
@@ -67,30 +76,34 @@ product under serfdom, a share of surplus value once rent must compete
 with profit and wages under agrarian capitalism, the wage out of which
 labour-power reproduces itself once the binding rent migrates to
 working-class housing. What persists is not the fund but the relation: a
-portion of social labour commanded by title. This is not advanced as a
-closed theorem. It is advanced as a reading of the primary sources —
-Petty, the Physiocrats, Ricardo, Marx, Engels. The description of that
-substance as a claim on social labour is the Marxian tradition’s own.
-Applied to Petty, the Physiocrats and Ricardo, who lacked the concept of
-surplus value, it is an interpretation read back onto their texts, not
-their own account of rent. The form/substance distinction is treated
-throughout as a hypothesis tested against each period rather than a
-frame imposed upon it; where a period resists the continuity — most
-sharply at the transition, where the category of *economic rent* is born
-rather than carried over (Section 3) — the paper says so. That
-transition refutes a naive transhistorical reading of the *category*; it
-does not, by itself, test the *substance*. The substance-claim is
-nonetheless falsifiable on its own terms: it would fail for any regime
-in which the binding rent proved to be predominantly a return to the
-title-holder’s own ongoing labour of provision — maintenance,
-improvement, the genuine costs of supply — rather than to the *bare
-title* that Section 4 isolates as the absolute and monopoly component
-(the location-monopoly tribute, distinct from any return to improvement)
-and that Section 6 shows is borne, when regulated, as a write-down of
-the capitalised asset rather than as a charge for a service. The
-operative claim — that the bare-title component dominates the provision
-component in the binding margins of the modern market — is applied in
-those sections, not assumed here.
+portion of social labour commanded by title. At the third stage that
+description parts company with Marx, who keeps a deduction from wages
+apart from ground-rent, and with Engels, for whom housing rent is a
+commodity price that enters the value of labour-power (Section 4). This
+is not advanced as a closed theorem. It is advanced as a reading of the
+primary sources — Petty, the Physiocrats, Ricardo, Marx, Engels. The
+description of that substance as a claim on social labour is the Marxian
+tradition’s own. Applied to Petty, the Physiocrats and Ricardo, who
+lacked the concept of surplus value, it is an interpretation read back
+onto their texts, not their own account of rent. The form/substance
+distinction is treated throughout as a hypothesis tested against each
+period rather than a frame imposed upon it; where a period resists the
+continuity — most sharply at the transition, where the category of
+*economic rent* is born rather than carried over (Section 3) — the paper
+says so. That transition refutes a naive transhistorical reading of the
+*category*; it does not, by itself, test the *substance*. The
+substance-claim is nonetheless falsifiable on its own terms: it would
+fail for any regime in which the binding rent proved to be predominantly
+a return to the title-holder’s own ongoing labour of provision —
+maintenance, improvement, the genuine costs of supply — rather than to
+the *bare title* that Section 4 isolates as the monopoly component (the
+price that ownership of a dwelling where people must live can command,
+distinct from any return to improvement) and that Section 6 shows is
+borne, when regulated, as a write-down of the capitalised asset rather
+than as a charge for a service. The operative claim — that the
+bare-title component dominates the provision component in the binding
+margins of the modern market — is applied in those sections, not assumed
+here.
 
 Two consequences follow that matter beyond the history of ideas. First,
 the central analytical tool of all modern rent policy — *economic rent*,
@@ -99,11 +112,11 @@ into use — is shown to be a historically specific category, born with
 agrarian capitalism and meaningless under the regime that preceded it.
 Second, a reform tradition that seeks to capture rent at its source, on
 the ground that fixed-supply rent can be taxed or capped without
-discouraging production, recurs in every epoch and is fully alive today.
-The paper places contemporary proposals — statutory rent stabilisation,
-the acquisition of private rental stock into social ownership, and the
-extension of National Insurance to rental income — within that long
-lineage rather than treating them as novelties.
+discouraging production, has recurred since the Physiocrats and is fully
+alive today. The paper places contemporary proposals — statutory rent
+stabilisation, the acquisition of private rental stock into social
+ownership, and the extension of National Insurance to rental income —
+within that long lineage rather than treating them as novelties.
 
 The contribution has three parts. The first is a thesis about incidence
 that states its own failure condition: the claim by title persists while
@@ -111,23 +124,33 @@ the fund it draws on migrates, from the producer’s surplus product to a
 share of surplus value to the wage, and the thesis fails for any regime
 in which the binding rent proves to be mainly a return to the owner’s
 own labour of provision. The second is a history of the rate that
-capitalises rent. The operation $P = R/(r-g)$ runs from Petty’s years’
-purchase through Marx’s account of ground-rent and fictitious capital to
-the contemporary asset-pricing literature on housing, and its rate was
-anchored once — by Petty, in the joint lives of three generations of the
-owning family — before Marx held the rate of interest to have no natural
-level and the literature after him took the rate from outside the theory
-of rent. The third is that the category of *economic rent* is not a
-natural kind but a historical product of the agrarian-capitalist
-transition, so that the modern policy distinction between a capturable
-surplus and a genuine return to provision is internal to capitalist rent
-rather than imposed upon it. Against the nearest syntheses the scope is
-deliberately narrower: where Harvey (1982) maps fictitious capital onto
-the urban secondary circuit, Ryan-Collins and colleagues (2017)
-reconstruct the land–credit nexus, and Christophers (2020) surveys
-rentier capitalism whole, the object here is the capitalisation
-*operation* itself and the question of what anchors its rate, traced
-across regimes.
+capitalises rent, carried from the classical economists to the modern
+asset-pricing literature on housing. The operation $P = R/(r-g)$ runs
+from Petty’s years’ purchase through Marx’s capitalised ground-rent to
+that literature. Marx traced the first turn of the rate’s history
+himself, in *Theories of Surplus Value*: Petty’s anchor in the joint
+lives of three generations of the owning family, and the reverse order,
+in which the rate of interest determines the price of land. Smith and
+Ricardo complete the classical step: the price of land follows the
+market rate of interest, and interest is governed by a profit rate that
+the wage of necessaries determines. Marx keeps profit as the ceiling of
+interest but denies the rate a natural level below it. Past Marx, the
+literature takes the rate from impatience, from market data or from the
+growth of production. The anchor Ricardo’s system gave the rate, in the
+cost of sustaining the working population, is the one the modern pricing
+of housing leaves out **\[conj\]**. The third carries Marx’s insistence
+that capitalist landed property is a historical and not an eternal
+category (*Capital*, Volume III, chapter 37) to the category modern
+policy uses. *Economic rent* is a historical product of the
+agrarian-capitalist transition, so the modern policy distinction between
+a capturable surplus and a genuine return to provision is internal to
+capitalist rent rather than imposed upon it. Against the nearest
+syntheses the scope is deliberately narrower: where Harvey (1982) maps
+fictitious capital onto the urban secondary circuit, Ryan-Collins and
+colleagues (2017) reconstruct the land–credit nexus, and Christophers
+(2020) surveys rentier capitalism whole, the object here is the
+capitalisation *operation* itself and the question of what anchors its
+rate, traced across regimes.
 
 A methodological note is owed at the outset, because the paper makes
 claims of very different strengths and the reader is entitled to see
@@ -138,7 +161,10 @@ reported as such, with no winner declared. **\[conj\]** marks the
 author’s own interpretive synthesis, advanced as a conjecture and not as
 a claim of the cited authorities. The paper’s organising thesis — rent’s
 history as the progressive capitalisation of one persistent claim — is
-**\[conj\]**; its periodised institutional history is **\[std\]** with
+**\[conj\]** in its extension across eight centuries and in its claim
+about incidence; its core, that the price of land conceals a title to a
+share of society’s surplus labour, is Marx’s (*Capital*, Volume III,
+chapter 46). Its periodised institutional history is **\[std\]** with
 debates flagged. A word on scope completes the apparatus: the
 institutional narrative follows the English, and latterly British,
 trajectory throughout, taken as the case in which the financialisation
@@ -153,13 +179,15 @@ Section 2 sets out feudal rent, where the claim on the producer’s labour
 is the institution itself. Section 3 follows the transition to agrarian
 capitalism, in which rent becomes a competed-down residual and the
 category of economic rent is born. Section 4 traces the migration of the
-binding rent to urban land and working-class housing, and the first
-explicit statement of capitalisation. Section 5 reads the twentieth
-century’s decommodification and re-commodification of the same housing
-stock as an illustration of the double character of housing rent.
-Section 6 turns to the financialised present and to the evidence on who
-bears a regulated rent. Section 7 isolates the capitalisation operation
-and the rate it leaves unanchored, and Section 8 concludes.
+binding rent to urban land and working-class housing, and Marx’s theory
+of capitalisation. Section 5 reads the twentieth century’s
+decommodification and re-commodification of the same housing stock as an
+illustration of the double character of housing rent. Section 6 turns to
+the financialised present and to the evidence on who bears a regulated
+rent. Section 7 isolates the capitalisation operation and traces the
+history of the rate that performs it, from Petty through the classical
+economists and Marx to the modern asset-pricing literature, and Section
+8 concludes.
 
 ------------------------------------------------------------------------
 
@@ -202,13 +230,17 @@ Brenner give different weights to population, markets, and seigneurial
 power — and this paper does not adjudicate between them.
 
 What the feudal regime offers the present argument is a limiting case.
-Here the claim that rent commands the labour of the producer is not an
-inference; it is the institution itself. Corvée *is* command over a
+Here the claim that rent commands the labour of the producer needs no
+inference: it is the institution itself. Corvée *is* command over a
 portion of the cultivator’s working time. There is no capitalisation, no
 discounting, no asset, no price: the claim is held directly, in time.
 Everything that the later financial form of rent will hide — the labour
 behind the title, the reproduction behind the income — feudal rent
-displays on its surface. The history that follows can be read as the
+displays on its surface. Marx describes the concealment at the
+capitalist stage: a title to a share of society’s surplus labour is
+concealed when capitalised rent appears as the price of land, to be sold
+like any other commodity (*Capital*, Volume III, chapter 46)
+**\[std\]**. The history that follows reads the stages between as the
 steady concealment of that surface relation beneath layers of market and
 financial abstraction **\[conj\]**.
 
@@ -244,13 +276,14 @@ settled by competition among capitalist tenants for the right to farm,
 into the farmer’s profit and the landlord’s rent. Rent becomes, in its
 differential form, a *competed-down residual* drawn from surplus value:
 the differential advantage of better or better-situated land over land
-at the margin of cultivation, which by definition yields no rent — the
-absolute and monopoly components Marx adds in Section 4 are drawn from
-the same surplus-value fund but are not competed away. This is the first
-migration of the claim’s incidence — under serfdom it fell on the
-producer’s whole surplus product; here it falls on a share of surplus
-value, on the profit-fund and not the wage — while the substance, a
-portion of unpaid social labour commanded by title, is unchanged.
+at the margin of cultivation, which by definition yields no rent. The
+absolute component Marx adds in Section 4 is drawn from the same
+surplus-value fund and, like the monopoly component, is not competed
+away. This is the first migration of the claim’s incidence — under
+serfdom it fell on the producer’s whole surplus product; here it falls
+on a share of surplus value, on the profit-fund and not the wage — while
+the substance, a portion of unpaid social labour commanded by title, is
+unchanged.
 
 Adam Smith (1776) had already called rent a monopoly price, and in his
 adding-up account of natural price treated it as a component that enters
@@ -270,8 +303,10 @@ share of a divided surplus. This inference is conditional on a
 property-relations account of the kind Brenner defends; it does not
 require that account to be uniquely correct, only that the tripartite
 structure — however it arose — is what first makes the surplus divisible
-**\[conj, conditional on a Brenner-type account; consistent also with
-Marx’s own historical treatment\]**.
+**\[conj, conditional on a Brenner-type account; it extends Marx’s
+charge against economists who treat capitalist landed property as an
+eternal rather than a historical category (*Capital*, Volume III,
+chapter 37) to the modern category\]**.
 
 The implication for the present is direct. Every modern instrument that
 proposes to capture the *surplus* component of rent while sparing the
@@ -304,39 +339,52 @@ The second and more lasting movement is the migration of the binding
 rent from agricultural land to urban land and, above all, to
 working-class housing. As population concentrated in industrial cities,
 the rent that pressed hardest on the producing population was no longer
-the farmer’s but the tenant’s. Engels is the indispensable source. In
-*The Condition of the Working Class in England* (1845) and *The Housing
-Question* (1872) he advanced an analytic claim that anticipates the
-thesis of this paper: the housing shortage is not a separate evil but a
-*form* of the wage relation, and rent is a deduction from wages — that
-is, from the fund out of which labour-power reproduces itself
-**\[std\]**. Engels’s *policy* conclusion, that the housing question
-could not be resolved within capitalism, is a separate matter on which
-this paper takes no position; what survives independently of it is the
-analytic identification of housing rent with a deduction from the means
-of reproduction.
+the farmer’s but the tenant’s. Engels is the indispensable source, on
+the condition of working-class housing in *The Condition of the Working
+Class in England* (1845) and on its economics in *The Housing Question*
+(1872). On the economics he takes the other side from the thesis
+advanced here. He calls the housing shortage one of the smaller,
+secondary evils of the capitalist mode of production, not a direct
+result of the exploitation of the worker as a worker. The relation
+between landlord and tenant is, for him, an ordinary commodity
+transaction, not a counterpart of the relation between worker and
+capitalist. Rent, for Engels, enters the value of labour-power: where
+workers came to live rent-free, wages would fall by the rent saved and
+the gain would pass to the employer **\[std\]**. Marx draws a related
+line from the side of ground-rent. A deduction from normal wages paid to
+the landlord as lease money is the landlord’s revenue and bears on the
+price of land as fully as ground-rent does, but economically it is not
+ground-rent. He reads the English tenant farmers’ cry that a rise in
+agricultural wages would ruin them unless ground-rent fell as a
+confession that part of what passed as ground-rent was a deduction from
+labourers’ wages (*Capital*, Volume III, chapter 37) **\[std\]**. The
+thesis departs from both by taking the substance to be the relation, a
+portion of social labour commanded by title, rather than the fund from
+which it is paid. A deduction from the means of reproduction paid by
+title to the owner of a dwelling is then the same claim drawn on a
+different fund **\[conj\]**.
 
 It is in this period that the technical core of the modern theory is
 stated explicitly. In *Capital*, Volume III, Marx treats the price of
 land as capitalised ground-rent — the price of a parcel of land is its
-rent divided by the rate of interest — and he places this within the
-broader category of **fictitious capital**: titles, including land,
-state debt, and shares, whose price is the capitalised value of an
-expected revenue stream **\[std\]**. Ground-rent is thus one species of
-fictitious capital alongside interest-bearing debt and equity; what sets
-it apart is that its title is to a fixed, non-produced condition — land
-and location — so the claim can be captured without a supply response,
-the property the reform tradition has always exploited **\[conj\]**.
-This is, in substance, the proposition that an asset is worth the
-present value of the income it commands. The practice is far older —
-Petty (1662) had already asked how many years’ purchase land is
-“naturally worth” — but Marx is the first to class capitalised rent with
-interest-bearing debt and shares as fictitious capital, and it is in
-that form that the rest of this paper tracks it. That the same formula
-reappears two generations later in the marginalist theory of capital,
-shorn of its connection to social labour, is the central irony of the
-history of rent **\[conj for the continuity claim; std for each
-attribution\]**.
+rent divided by the rate of interest, the interest on an imaginary
+capital (chapter 37) — which is the operation by which, in his account
+of **fictitious capital**, the national debt and shares acquire prices
+as capitalised values of the incomes they command (chapter 29)
+**\[std\]**. Read as one species of fictitious capital alongside
+interest-bearing debt and equity, ground-rent is set apart by a title to
+a fixed, non-produced condition — land and location — so the claim can
+be captured without a supply response, the property the reform tradition
+has always exploited **\[conj\]**. This is, in substance, the
+proposition that an asset is worth the present value of the income it
+commands. The practice is far older. English land was priced in so many
+years’ purchase, Petty (1662) had already asked how many years’ purchase
+land is “naturally worth”, and Marx credits Petty with seeing that the
+value of land is capitalised rent (*Theories of Surplus Value*, addenda
+to Part I) **\[std\]**. That the same formula reappears two generations
+later in the marginalist theory of capital, shorn of its connection to
+social labour, is the central irony of the history of rent **\[conj for
+the continuity claim; std for each attribution\]**.
 
 Two distinctions within Marx’s theory of rent matter here, because they
 are exactly what separates his account from Ricardo’s and what carries
@@ -352,19 +400,28 @@ rent because its source is not a productivity gap that competition could
 erode but the legal power to bar access until paid; landed property
 interrupts the flow of capital that would otherwise equalise returns
 across sectors, so a portion of the social surplus is withheld at the
-barrier (Marx, *Capital* III, Part VI). **Monopoly rent** is the
-limiting case, exacted where the asset is unique and demand inelastic.
-The capitalisation thesis runs through all three, but it is the absolute
-and monopoly components — rent extracted by the bare fact of ownership
-over a necessity in fixed supply — that the housing case turns on. The
-binding rent on the working-class tenant is not the differential
-advantage of a marginally better dwelling; it is the location-monopoly
-tribute that ownership of shelter, in a place where people must live, is
-able to command. It is this component, and not the differential one,
-that the contemporary instruments examined in Section 6 are built to
-capture. **\[std for Marx’s differential/absolute/monopoly distinction
-(Capital III, Part VI); conj for the identification of the
-absolute/monopoly component as the one that binds in the modern housing
+barrier. Marx ties it to a condition: agricultural capital must have a
+lower composition than the social average, so that the value of farm
+produce exceeds its price of production. Were the composition equal or
+higher, absolute rent would disappear, leaving differential rent and
+rent that rests on an actual monopoly price (*Capital*, Volume III,
+chapter 45). **Monopoly rent** rests on a price set by the buyers’
+eagerness to buy and ability to pay, independently of value and of price
+of production (chapter 46), and is exacted where the asset is unique and
+demand inelastic. In building land Marx gives location a preponderant
+influence on *differential* rent, and he finds monopoly prices prevalent
+in house-rent, where poverty is more lucrative than the mines of Potosí
+were for Spain (chapter 46). The capitalisation thesis runs through all
+three, but it is the monopoly component — rent extracted by the bare
+fact of ownership over a necessity in fixed supply — that the housing
+case turns on. The binding rent on the working-class tenant is the
+monopoly price that ownership of shelter, in a place where people must
+live, is able to command. It is this component, and not the differential
+advantage of a marginally better dwelling, that the contemporary
+instruments examined in Section 6 are built to capture. **\[std for
+Marx’s differential/absolute/monopoly distinction and its conditions
+(Capital III, chapters 45–46); conj for the identification of the
+monopoly component as the one that binds in the modern housing
 market\]**
 
 The reform counter-tradition reaches its nineteenth-century peak here.
@@ -378,8 +435,8 @@ land-value duties of Lloyd George’s “People’s Budget” of 1909, which
 precipitated a constitutional crisis with the House of Lords
 **\[std\]**. The proposal to socialise the rent while leaving production
 in private hands — to take the surplus at its source because its source
-is fixed in supply and cannot flee — is, by this point, already two
-centuries old.
+is fixed in supply and cannot flee — is, by this point, already a
+century and a half old.
 
 ------------------------------------------------------------------------
 
@@ -486,44 +543,45 @@ The empirical literature on the incidence of these instruments —
 reframed since Arnott’s (1995) call for revisionism on rent control —
 is, in the terms of this paper, consistent with the capitalisation
 thesis, provided the claim is stated with care. Insofar as it falls on
-the *inelastic* component of the asset, the ground-rent of location,
-which cannot be withdrawn or remade, the regulation or taxation of rent
-is borne by owners through a *write-down of the capitalised asset value*
-rather than by tenants through higher prices. The San Francisco evidence
-(Diamond, McQuade, and Qian, 2019) — whose authors read that episode as,
-on balance, a net cost of rent control — the wealth-redistribution
-evidence (Ahern and Giacoletti, 2026), and the decontrol evidence from
-Cambridge, Massachusetts (Autor, Palmer, and Pathak, 2014) all show the
-asset value moving in this way **\[std for the measured incidence; conj
-for the reading of it as consistent with this paper’s capitalisation
-thesis, a framing the cited authors do not use\]**. What this paper
-draws from these studies is the *measured incidence* — the direction in
-which regulation moves the asset value — not their net-welfare verdicts,
-which turn on the supply responses considered next.
+the *inelastic* component of the asset, the rent that title to the site
+commands, which cannot be withdrawn or remade, the regulation or
+taxation of rent is borne by owners through a *write-down of the
+capitalised asset value* rather than by tenants through higher prices.
+The San Francisco evidence (Diamond, McQuade, and Qian, 2019) — whose
+authors read that episode as, on balance, a net cost of rent control —
+the wealth-redistribution evidence (Ahern and Giacoletti, 2026), and the
+decontrol evidence from Cambridge, Massachusetts (Autor, Palmer, and
+Pathak, 2014) all show the asset value moving in this way **\[std for
+the measured incidence; conj for the reading of it as consistent with
+this paper’s capitalisation thesis, a framing the cited authors do not
+use\]**. What this paper draws from these studies is the *measured
+incidence* — the direction in which regulation moves the asset value —
+not their net-welfare verdicts, which turn on the supply responses
+considered next.
 
 Where supply does respond — as in the San Francisco conversions and
 redevelopments — it does so on the *elastic* margin, owners altering the
 structure or the legal status of the dwelling to escape the
-capitalisation penalty; in the terms of Section 4 this is an adjustment
-of the differential and not the absolute component, and it leaves the
-underlying location-rent in place. That same escape margin can, however,
-raise rents on the uncontrolled stock — the citywide effect Diamond and
-co-authors also measure, and the core of their net-negative assessment
-of the policy — which is precisely why the contemporary designs
-discussed above pair the cap with no-vacancy-decontrol and with the
-acquisition of exiting stock, narrowing the margin through which the
-penalty would otherwise be escaped **\[std\]**. To act on rent is to act
-on the capitalised claim; the incidence falls where the title is held. A
-second escape margin is qualitative rather than quantitative: a cap on
-the gross rent of a dwelling can be borne by tenants through the
-degradation of the structure, as maintenance lapses on an asset whose
-income is now fixed — which is why a serious design pairs the cap with
-enforced minimum standards. That requirement is no special burden of
-regulation, since the unregulated sector already fails basic decency
-standards at a markedly higher rate than the social stock (English
-Housing Survey, non-decent homes by tenure) **\[std\]**;
-under-maintenance is a feature of the asset market the cap inherits, not
-one it creates.
+capitalisation penalty. In the terms of Section 4 that adjusts the
+structure and its legal status, not the monopoly component, and it
+leaves the rent of the site in place **\[conj\]**. That same escape
+margin can, however, raise rents on the uncontrolled stock — the
+citywide effect Diamond and co-authors also measure, and the core of
+their net-negative assessment of the policy — which is precisely why the
+contemporary designs discussed above pair the cap with
+no-vacancy-decontrol and with the acquisition of exiting stock,
+narrowing the margin through which the penalty would otherwise be
+escaped **\[std\]**. To act on rent is to act on the capitalised claim;
+the incidence falls where the title is held. A second escape margin is
+qualitative rather than quantitative: a cap on the gross rent of a
+dwelling can be borne by tenants through the degradation of the
+structure, as maintenance lapses on an asset whose income is now fixed —
+which is why a serious design pairs the cap with enforced minimum
+standards. That requirement is no special burden of regulation, since
+the unregulated sector already fails basic decency standards at a
+markedly higher rate than the social stock (English Housing Survey,
+non-decent homes by tenure) **\[std\]**; under-maintenance is a feature
+of the asset market the cap inherits, not one it creates.
 
 The modern rent stream is, moreover, partly underwritten by the state:
 housing benefit floors and de-risks it, so the capitalised claim embeds
@@ -559,39 +617,59 @@ anchored it. Land, he argued, cannot be worth an infinite number of
 years’ purchase, and he fixed the natural number at the joint lives of
 three generations alive together, a grandfather, a father and a child,
 “few men having reason to take care of more remote Posterity”; in
-England that came to about twenty-one years. The natural rate of
-interest was then bounded below by the yield of land so valued, with a
-premium for insurance added where titles were insecure (*Treatise*,
+England that came to about twenty-one years. The figure is a customary
+valuation, which Petty let rise with better titles and more people and
+fall where titles were insecure. The natural rate of interest was then
+bounded below by the yield of land so valued, with a premium for
+insurance added where the security of a loan was uncertain (*Treatise*,
 chapters 4–5) **\[std\]**. The anchor is demographic, the horizon of the
 owning family’s line rather than the reproduction of the producing
-population, but it is material. Marx, who gave the capitalised claim its
-theory, took the anchor away. The rate that capitalises ground-rent is
-the rate of interest, and Marx held that there is no natural rate of
-interest: its average level is set by competition, custom and legal
-tradition (*Capital*, Volume III, chapter 22) **\[std\]**. After Marx
-the rate is supplied from outside the theory of rent. Fisher derived it
-from impatience and the returns to investment; the empirical housing
-literature reads it off market data; and in the Ramsey benchmark of
-modern macroeconomics the steady-state rate is time preference plus the
-curvature of utility times the growth of consumption per head. The
-material magnitudes that enter are the technology of production and its
-growth, not the reproduction of any population as such. Value, for Marx,
-is labour time; the rate that turns a rent into a price is a magnitude
-his theory leaves to competition **\[std\]**.
+population, but it is material.
 
-Closing the gap would mean restoring an anchor of Petty’s kind with a
-different population behind it. The rate that capitalises any income
-stream, rent included, would be obtained from the conditions under which
-a society sustains its working population rather than from the horizon
-of the owning family.[^1] Such an anchor would yield a *fundamental*
-value, not a forecast of the market price. The gap between the two, the
-premium that financial conditions add, is the fictitious component the
-capitalised form conceals; a materialist rate would therefore not be
-refuted by failing to track market volatility, since that divergence is
-precisely its object **\[conj\]**. The capitalisation formula is, as a
-matter of record, the through-line from Petty and Marx to the present;
-what *anchors* the rate it contains is the unfinished business the
-history hands forward.
+Smith reversed the direction, and Ricardo anchored the rate again. For
+Smith the price of land depends everywhere on the market rate of
+interest (*Wealth of Nations*, Book II, chapter 4). Ricardo governed the
+rate of interest, in the long run, by the rate of profit, and profit by
+wages, wages by the price of necessaries and necessaries chiefly by the
+price of food (*Principles*, the chapters “On Profits” and “Effects of
+Accumulation on Profits and Interest”) **\[std\]**. In Ricardo’s system
+the rate that capitalises rent is therefore tied, through profit, to the
+cost of sustaining the working population. Marx read the first turn of
+this history himself. Petty, he argued, started from rent as the general
+form of surplus value and so derived interest from rent, whereas the
+causation runs the other way and the price of land is set by the rate of
+interest (*Theories of Surplus Value*, addenda to Part I) **\[std\]**.
+Marx kept profit as the ceiling of interest but held that below it there
+is no natural rate of interest: its average level is set by competition,
+custom and legal tradition (*Capital*, Volume III, chapter 22)
+**\[std\]**.
+
+After Marx the rate is supplied from outside the theory of rent. Fisher
+derived it from impatience and the returns to investment; the empirical
+housing literature reads it off market data; and in the Ramsey benchmark
+of modern macroeconomics the steady-state rate is time preference plus
+the curvature of utility times the growth of consumption per head. The
+material magnitudes that enter are the technology of production and its
+growth, not the reproduction of any population as such **\[std\]**. The
+link Ricardo’s system drew from the rate to the cost of sustaining
+workers is the one the modern pricing of housing leaves out
+**\[conj\]**.
+
+Closing the gap would mean restoring an anchor of the classical kind and
+stating it directly. The rate that capitalises any income stream, rent
+included, would be obtained from the conditions under which a society
+sustains its working population rather than from the horizon of the
+owning family or the impatience of owners.[^1] Ricardo’s chain from food
+to wages to profit to interest reached that anchor only indirectly. Such
+an anchor would yield a *fundamental* value, not a forecast of the
+market price. The gap between the two, the premium that financial
+conditions add, is the fictitious component the capitalised form
+conceals; a materialist rate would therefore not be refuted by failing
+to track market volatility, since that divergence is precisely its
+object **\[conj\]**. The capitalisation formula is, as a matter of
+record, the through-line from Petty and Marx to the present. What
+*anchors* the rate it contains is a question Ricardo answered through
+profit and the modern pricing of housing has set aside.
 
 ------------------------------------------------------------------------
 
@@ -610,7 +688,10 @@ not falsified by any regime examined here — a claim by title on the
 social labour of the producing population, a deduction whose incidence
 migrates from the producer’s surplus product to a share of surplus value
 to the wage — while the form grows ever more abstract and ever more
-fully capitalised.
+fully capitalised. The third stage rests on taking that substance to be
+the relation and not the fund. Marx keeps a deduction from wages apart
+from ground-rent, and Engels treats housing rent as a commodity price
+that enters the value of labour-power.
 
 Two practical lessons follow. The first is that the analytical category
 on which modern rent policy chiefly rests, economic rent, is a
@@ -632,14 +713,15 @@ settlement took hold; and, for the present regime, a model in which
 owning and renting households are sustained out of the same economy and
 the rent flow passes between them, so that whether the gap between them
 compounds or closes over time becomes a question with an answer. Such a
-model is also where the rate that capitalises rent, unanchored since
-Marx (Section 7), would have to be fixed.
+model is also where the rate that capitalises rent, which Ricardo’s
+system tied to the cost of sustaining workers and the modern literature
+takes from outside (Section 7), would have to be fixed.
 
 What the history hands to policy is a location. The claim is now held as
 a capitalised title, so insofar as a regulated or taxed rent falls on
-its inelastic, location component, the incidence evidence of Section 6
-has it borne as a write-down of the asset rather than passed on to the
-tenant. The margins that escape it, conversion and neglected
+its inelastic component, the rent of the site, the incidence evidence of
+Section 6 has it borne as a write-down of the asset rather than passed
+on to the tenant. The margins that escape it, conversion and neglected
 maintenance, run through the dwelling, which is why the designs
 discussed in Section 6 pair the cap with the acquisition of exiting
 stock and with enforced minimum standards.
@@ -718,6 +800,9 @@ John Murray.
 
 Marx, K. \[1894\] 1981. *Capital, Volume III.* Penguin. (Parts V–VI:
 interest-bearing capital, fictitious capital, and ground-rent.)
+
+Marx, K. \[1861–63\]. *Theories of Surplus Value*, Part I, Addenda:
+Petty.
 
 Petty, W. 1662. *A Treatise of Taxes and Contributions.* In *The
 Economic Writings of Sir William Petty*, ed. C. H. Hull, vol. 1.
