@@ -1462,9 +1462,9 @@ leaves one unemployment pool or none; the distributionist compromise can
 leave two. That asymmetry has the same source as the fold itself — the
 two roots sit on opposite sides of the discriminant, so a change in the
 extractable day moves them in opposite directions — and it sharpens the
-paper’s central division: the equilibrium the classes disagree about is
-also the one whose stationary unemployment pool, where it has one, is
-unique.
+paper’s central division: the compromise both classes prefer wherever it
+leaves a pool and the ceilings are constant (Proposition 4$'$) is also
+the one whose stationary unemployment pool, where it has one, is unique.
 
 **Proposition 13 (where labour bargains, the drift is convex in the
 accumulation share, and the distributionist compromise really does admit
@@ -1602,17 +1602,18 @@ $\big((1-c)/\kappa\big)\big(sQ_C/(1-s)\big) - m_0 - b\ln v - n$ by
 capital’s stationary condition, and Proposition 13 counts its zeros by
 making that root the variable rather than the unknown.
 
-**Proposition 13$'$ (of two stationary pools, only the lower is ever
-reached).** Consider the joint canonical system of the two classes’
-necessary conditions where labour bargains, along paths that converge to
-a rest point and that take the distributionist root of the date-wise
-quadratic at every date. Labour’s own costate is autonomous with an
-unstable root, so it is constant at $1/\rho$ on any such path, the wage
-is $\omega = \kappa\rho/s$ at every date, and the system is
+**Proposition 13$'$ (along a fixed root, only the lower of two
+distributionist pools is reached).** Consider the joint canonical system
+of the two classes’ necessary conditions where labour bargains, along
+paths that converge to a rest point and that keep the same root of the
+date-wise quadratic at every date. Labour’s own costate is autonomous
+with an unstable root, so it is constant at $1/\rho$ on any such path,
+the wage is $\omega = \kappa\rho/s$ at every date, and the system is
 two-dimensional in log-employment and capital’s price of accumulation.
 Write $\mathcal{D}$ for the discriminant of Proposition 8’s quadratic,
 and $q = \kappa\rho\lambda/(1+\lambda)$ as in Proposition 13. At any
-bargained rest point the Jacobian $J$ of that system satisfies $$
+bargained rest point off the fold, where $\mathcal{D} > 0$, the Jacobian
+$J$ of that system satisfies $$
 \operatorname{tr} J \;=\; \rho\left[1 + \frac{(1-c)\,\zeta\,\bar e(v)\,(1-s)}{s\,\sqrt{\mathcal{D}}}\right], \qquad
 \det J \;=\; \left[\rho + b + \frac{(1-c)\,\zeta\,\bar e(v)}{\kappa}\right]\left[\frac{(1-c)\,\zeta\,\bar e(v)\,s\,\big(\bar e(v)\,s - q\big)}{\kappa\,\sqrt{\mathcal{D}}} \;-\; b\right]
 $$ on the distributionist arm, with both square roots entering with the
@@ -1622,8 +1623,7 @@ whole locus. Four things follow.
 
 *(i)* The trace exceeds the discount rate wherever labour bargains on
 the distributionist arm, so no rest point there attracts an open set of
-employment-rate and price pairs: it is a saddle or a source, and never a
-sink.
+employment-rate and price pairs: it is never a sink.
 
 *(ii)* The second bracket is the derivative, in log-employment, of the
 drift whose zeros Proposition 13 counts. The sign of $\det J$ is
@@ -1632,16 +1632,17 @@ stationary locus, and nothing else about the rest point decides it.
 
 *(iii)* On the accumulationist arm that derivative is negative at every
 admissible cell, so **every accumulationist rest point is a saddle**. On
-the distributionist arm the drift is convex in the accumulation share
-and the employment rate rises with the share, so where the
-distributionist compromise leaves **two** stationary pools the lower
-carries $\det J < 0$ and the upper $\det J > 0$: the lower is a saddle,
-with a one-dimensional stable manifold along which each nearby
-employment rate selects exactly one price, and the upper is a source,
-which no path of the necessary conditions reaches from any other
-employment rate near it. **At most one of the two pools is ever
-reached**, and the count of two is a count of rest points rather than of
-destinations.
+the distributionist arm the employment rate rises with the share, so a
+distributionist rest point is a saddle where the drift falls with the
+share and a source where it rises. The drift is convex in the
+accumulation share, so where the distributionist compromise leaves
+**two** stationary pools the lower carries $\det J < 0$ and the upper
+$\det J > 0$: the lower is a saddle, with a one-dimensional stable
+manifold along which each nearby employment rate selects exactly one
+price, and the upper is a source, to which no path of the necessary
+conditions converges from any other point. **At most one of the two
+pools is ever reached**, and the count of two is a count of rest points
+rather than of destinations.
 
 *(iv)* At $b = 0$ the second bracket is strictly positive on the
 distributionist arm, so the single bargained rest point the locus then
@@ -1665,20 +1666,21 @@ outside the hypothesis.
 
 In words, the two pools are not two fates. The bargain leaves the
 stationary employment rate undetermined between two values, as
-Proposition 13 says, but the economy can only ever be at the lower of
-them: at the higher one both the state and capital’s valuation run away
-from the rest point, and the only path that stays is the one that starts
-there. The dynamic layer settles what the stationary layer leaves open,
-and it settles it in the direction that makes the unemployment pool
-larger. Which is also why the multiplicity is not a weakness of the
-mechanism. The second rest point the mechanisation law buys is the lower
-one — at $b = 0$ the drift no longer diverges at the bottom of the arm,
-and that zero is the one that goes — and it is the only one of the two
-the economy can rest at; where mechanisation does not answer to the
-labour market, *(iv)* says, a bargained distributionist rest point is a
-source. The response that creates the second pool is the response that
-makes one of them reachable. So a reader who wants to know what this
-economy does where the bargain sets the wage has one employment rate to
+Proposition 13 says, but an economy that keeps to the distributionist
+compromise can only ever arrive at the lower of them: at the higher one
+both the state and capital’s valuation run away from the rest point, and
+the only path that stays is the one that starts there. The dynamic layer
+settles what the stationary layer leaves open, and it settles it in the
+direction that makes the unemployment pool larger. Which is also why the
+multiplicity is not a weakness of the mechanism. The second rest point
+the mechanisation law buys is the lower one — at $b = 0$ the drift no
+longer diverges at the bottom of the arm, and that zero is the one that
+goes — and it is the only one of the two that such an economy can reach;
+where mechanisation does not answer to the labour market, *(iv)* says, a
+bargained distributionist rest point is a source. The response that
+creates the second pool is the response that makes one of them
+reachable. So a reader who wants to know where an economy that holds to
+the distributionist compromise comes to rest has one employment rate to
 look at and not two. Everything above Proposition 14 is a statement
 about rest points of the canonical system. Whether a rest point is an
 equilibrium — whether each class’s stationary behaviour is optimal
@@ -1792,19 +1794,20 @@ full employment; $v_c = 1$ is not established there. Where the
 stationary wage leaves capital little of the extractable day at full
 employment, then, capital can be left without a best reply to that wage
 from employment rates only a little above the compromise. From a start
-at or above an employment rate at which accumulation does not pay,
-capital has no best reply: its supremum is approached as its share tends
-to zero and is not attained, because the share set is open. Where no
-admissible deviation reaches full employment — the escape margin $E$ of
-A.12$''$(iv) is not positive — this needs no assumption about full
-employment at all. Nor does it need any condition on the stationary
-wage. Wherever $\hat e \ge \hat\omega$, the wage lies below the
-extractable day at full employment at every compromise short of it,
-pinned or bargained, because the wage never exceeds labour’s ceiling and
-the ceiling lies below $\hat\omega$ short of full employment. Where the
-ceilings cross below full employment the wage can exceed that day, and
-it does at some pinned compromises on the first branch. Capital’s
-surplus against the stationary wage then vanishes at an employment rate
+at or above an employment rate at which, at capital’s shadow price,
+accumulation pays strictly less than it costs, capital has no best
+reply: its supremum is approached as its share tends to zero and is not
+attained, because the share set is open. Where no admissible deviation
+reaches full employment — the escape margin $E$ of A.12$''$(iv) is not
+positive — this needs no assumption about full employment at all. Nor
+does it need any condition on the stationary wage. Wherever
+$\hat e \ge \hat\omega$, the wage lies below the extractable day at full
+employment at every compromise short of it, pinned or bargained, because
+the wage never exceeds labour’s ceiling and the ceiling lies below
+$\hat\omega$ short of full employment. Where the ceilings cross below
+full employment the wage can exceed that day, and it does at some pinned
+compromises on the first branch. Capital’s surplus against the
+stationary wage then vanishes at an employment rate
 $v_D = (\hat e/\omega^\ast)^{1/\zeta} \le 1$ that no admissible
 deviation from below it reaches, so everything above holds for starts
 below $v_D$ and nothing in it involves full employment (A.12$''$(v)).
@@ -1935,9 +1938,9 @@ counts are not independent: whichever way the drift at the fold falls,
 no economy has one unemployment pool under the accumulationist
 compromise and two under the distributionist one, so the multiplicity is
 bought exactly where the accumulationist compromise has stopped having a
-rest point at all. The equilibrium the classes disagree about is the one
-whose stationary unemployment pool, where it has one, is unique; the one
-they might otherwise have settled for is the one that can carry two.
+rest point at all. The compromise both classes prefer where the ceilings
+are constant is the one whose stationary unemployment pool, where it has
+one, is unique; the one they rank lower is the one that can carry two.
 
 Third, with constant ceilings, whether the mechanisation law enters the
 bargain depends on whom the organisation of labour counts as its own. An
@@ -3330,16 +3333,15 @@ branch capital’s value is strictly convex in log-employment at every
 stationary compromise, over every deviation that keeps the interior law
 of motion up to and at full employment — every deviation, where
 $E \le 0$ — since (v) below builds that value from the stable manifold,
-and $\beta < 1$ is the whole of the condition: at $\beta = 1$ the chain
-above closes to $W''(x^\ast) = 0$, and at $\beta > 1$ the other way. At
-the four cells the closed form gives $W''(x^\ast) = 0.964$, $1.192$,
-$1.167$ and $1.155$. The comparison with the first derivative is
-closed-form too: $W'(x^\ast) = p^\ast$, which at $c = 0$ — every
-exhibited cell’s case — is $(1+\lambda)/(\rho(1+u))$ by Proposition 7
-and the stationary condition, so
-$\mathrm{d}^2W/\mathrm{d}v^2 = (W'' - p^\ast)/v^{\ast 2}$ is negative
-exactly where $(\lambda_- + |F_x|)(1+\lambda) < \rho(1+u)$. That
-inequality holds at the four cells
+and $\beta < 1$, which holds wherever the ceiling responds to
+employment, is the whole of the condition. At the four cells the closed
+form gives $W''(x^\ast) = 0.964$, $1.192$, $1.167$ and $1.155$. The
+comparison with the first derivative is closed-form too:
+$W'(x^\ast) = p^\ast$, which at $c = 0$ — every exhibited cell’s case —
+is $(1+\lambda)/(\rho(1+u))$ by Proposition 7 and the stationary
+condition, so $\mathrm{d}^2W/\mathrm{d}v^2 = (W'' - p^\ast)/v^{\ast 2}$
+is negative exactly where $(\lambda_- + |F_x|)(1+\lambda) < \rho(1+u)$.
+That inequality holds at the four cells
 ($\mathrm{d}^2W/\mathrm{d}v^2 = -10.8$, $-9.8$, $-8.9$, $-8.5$), and on
 the face $b = \lambda = c = 0$, where it reduces to $\lambda_- < \rho$,
 it holds at every first-branch compromise; on the first branch as a
@@ -3376,17 +3378,18 @@ writes it in the primitives that matter, $$
 \kappa E \;=\; (1-c)\Big[(\hat e - \omega^\ast) \;-\; s^\ast\big(\bar e^\ast - \omega^\ast\big)\Big] \;-\; \kappa\,b\,\lvert \ln v^\ast\rvert ,
 $$ an identity: escape needs the surplus at full employment to beat the
 compromise’s *accumulated* surplus by more than the mechanisation
-response costs over the distance $\lvert\ln v^\ast\rvert$. **A small $b$
-is what opens the boundary.** The pinned cell written out below and
-Proposition 13’s pinned one both clear the first bracket — $+0.225$ and
-$+0.008$ — and are separated by the second, $0.024$ against $0.281$ at
-eighteen times the mechanisation response; only the $\zeta = 3$ cell
-fails the bracket outright. Where $E \le 0$ no admissible control holds
-a positive drift at the boundary: the state space is forward invariant
-under every share, capital’s deviations never leave the core, and the
-comparison (ii) cannot certify is at least *well posed* inside it. Where
-$E > 0$ they leave. $E$ is negative at four of the five compromises
-above and **positive at the remaining one**, $E = +0.100$. That cell is
+response costs over the distance $\lvert\ln v^\ast\rvert$. **At these
+cells the mechanisation term decides the boundary.** The pinned cell
+written out below and Proposition 13’s pinned one both clear the first
+bracket — $+0.225$ and $+0.008$ — and are separated by the second,
+$0.024$ against $0.281$ at eighteen times the mechanisation response;
+only the $\zeta = 3$ cell fails the bracket outright. Where $E \le 0$ no
+admissible control holds a positive drift at the boundary: the state
+space is forward invariant under every share, capital’s deviations never
+leave the core, and the comparison (ii) cannot certify is at least *well
+posed* inside it. Where $E > 0$ they leave. $E$ is negative at four of
+the five compromises above and **positive at the remaining one**,
+$E = +0.100$. That cell is
 $(\kappa,\rho,\lambda,c,b,\zeta,\eta,\hat e,\hat\omega,m_0,n) = (2,\tfrac{2}{25},0,0,\tfrac1{20},\tfrac12,1,\tfrac{3}{10},\tfrac1{20},\tfrac1{50},\tfrac1{100})$,
 $v^\ast = 0.7831$, $s^\ast = 0.1185$ — pinned, since
 $\hat\omega = 0.05 \le \kappa\rho = 0.16$, which is Proposition 12’s
@@ -3622,13 +3625,13 @@ neighbourhood leftward, which takes positive time because the drift is
 bounded on bounded sets. So $J < W(x_0)$ strictly, while shares tending
 to zero wherever $PD \le 1$ bring $J$ arbitrarily close to $W(x_0)$:
 $W(x_0)$ is capital’s supremum there and is not attained. The condition
-on $\beta\hat e - \omega^\ast$ is sufficient for $x_c < 0$, not
-necessary. It fails at the pinned cell of A.12$''$(iv) where $E > 0$,
-and holds there with $(\hat e, m_0)$ changed to $(21/100, 3/100)$, where
-$E = +0.052$, or to $(1/5, 3/25)$, where $E = -0.036$: both meet all of
-Proposition 12’s hypotheses, with $v^\ast = 0.522$ and $0.234$, and
-$v_c$ below $e^{x_s} = 0.610$ and $0.650$. It holds as well at
-Proposition 13’s pinned rest point and at its distributionist rest point
+on $\beta\hat e - \omega^\ast$ is sufficient for $x_c < 0$. It fails at
+the pinned cell of A.12$''$(iv) where $E > 0$, and holds there with
+$(\hat e, m_0)$ changed to $(21/100, 3/100)$, where $E = +0.052$, or to
+$(1/5, 3/25)$, where $E = -0.036$: both meet all of Proposition 12’s
+hypotheses, with $v^\ast = 0.522$ and $0.234$, and $v_c$ below
+$e^{x_s} = 0.610$ and $0.650$. It holds as well at Proposition 13’s
+pinned rest point and at its distributionist rest point
 $v^\ast = 0.7848$, which do not meet Proposition 12’s hypothesis
 $\hat\omega \le \kappa\rho$ but meet this proof’s: there
 $\beta\hat e - \omega^\ast - \rho\kappa/(1+\lambda) = -0.106$ and
@@ -3746,9 +3749,10 @@ while $$
 $$ Adding the two diagonal entries and using $f_s - \bar e s = -Q_W/s$
 with $Q_W = \kappa\rho$ gives the displayed trace; wherever the two
 roots are distinct $\mathcal{D} > 0$, so on the distributionist arm the
-bracket exceeds one and the trace exceeds $\rho$, which is *(i)*.
-Because the two entries of the second row are proportional with factor
-$-Q_C'(x)$, $$
+bracket exceeds one and the trace exceeds $\rho$; a trace above $\rho$
+leaves at least one eigenvalue with positive real part, so the rest
+point is not a sink, which is *(i)*. Because the two entries of the
+second row are proportional with factor $-Q_C'(x)$, $$
 \det J \;=\; \Lambda Q_C\left[\frac{\partial \dot x}{\partial x} + \frac{\partial \dot x}{\partial \tilde Q}\,Q_C'(x)\right] ,
 $$ and the bracket is, by construction, the derivative of $\dot x$ along
 the curve $\tilde Q = Q_C(v)$ — the stationary locus, whose zeros are
@@ -3768,17 +3772,27 @@ Proposition 13, so $\bar e$ has one stationary point on $(0,\beta)$, and
 that point is where the two solutions of $\bar e(s) = \bar e$ merge,
 which is the fold; hence $\bar e$ falls strictly on the distributionist
 arm and $x = \zeta^{-1}\ln\big(\hat e/\bar e(s)\big)$ rises strictly
-there. The drift is strictly convex in the share (Proposition 13), so
-where it has two zeros on that arm its derivative in the share is
-negative at the lower zero and positive at the upper; dividing by
-$\mathrm{d}x/\mathrm{d}s > 0$ carries both signs to the derivative in
-log-employment, and *(ii)* carries them to $\det J$. Where $\det J < 0$
-the eigenvalues are real and of opposite sign, so the stable set is a
-one-dimensional manifold, and it is a graph over the state because
-$\partial\dot x/\partial\tilde Q \neq 0$ wherever $\mathcal{D} > 0$.
-Where $\det J > 0$ with a trace above $\rho$ both eigenvalues have
-positive real part, so the rest point has no stable direction at all.
-$\blacksquare$
+there. Dividing the drift’s derivative in the share by
+$\mathrm{d}x/\mathrm{d}s > 0$ gives its derivative in log-employment,
+and *(ii)* carries that sign to $\det J$: a distributionist rest point
+at which the drift falls with the share has $\det J < 0$, and one at
+which it rises has $\det J > 0$. The drift is strictly convex in the
+share (Proposition 13), so where it has two zeros on that arm its
+derivative in the share is negative at the lower zero and positive at
+the upper. Where $\det J < 0$ the eigenvalues are real and of opposite
+sign, so the stable set is a one-dimensional manifold, and it is a graph
+over the state because $\partial\dot x/\partial\tilde Q \neq 0$ wherever
+$\mathcal{D} > 0$. Where $\det J > 0$ with a trace above $\rho$ both
+eigenvalues have positive real part, so the rest point has no stable
+direction at all. Then, with $P$ the positive definite solution of
+$J^\top P + PJ = I$, which exists because every eigenvalue of $J$ has
+positive real part, the form $\delta^\top P\,\delta$ in the deviation
+$\delta$ from the rest point has derivative $|\delta|^2 + o(|\delta|^2)$
+along the system, which is smooth off the fold, so it rises strictly
+along every path that stays close enough to the rest point without
+starting at it; a path that converges to the rest point must eventually
+stay that close while the form falls to zero, so no such path exists
+except the one that starts there. $\blacksquare$
 
 # References
 
