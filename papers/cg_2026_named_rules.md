@@ -667,11 +667,11 @@ derivative is the chain rule applied to
 $\hat\theta_R\mapsto V_C(f_\lambda(\hat\theta_R);\theta_R)$ with the
 investment coordinate held at its value at truth; were it to move with
 the report, the term $V_{C,i}\,i_\lambda'$ would be added, and it is not
-zero in general, since the mediant’s investment share lies above the
-owner’s peak $i_C$. The mediant’s coordinates maximise a weighted sum of
-the two payoffs; they are not fixed-weight averages of the two classes’
-peaks, so the monotonicity of the endpoints does not transfer to them.
-$\square$
+zero in general: the mediant’s investment share lies above the owner’s
+peak $i_C$, so $V_{C,i}<0$ there, and that share moves with the weight.
+The mediant’s coordinates maximise a weighted sum of the two payoffs;
+they are not fixed-weight averages of the two classes’ peaks, so the
+monotonicity of the endpoints does not transfer to them. $\square$
 
 The mediant hands the owner neither of the owner’s own peaks, and away
 from unit elasticity it hands them a package: a lie that pulls the tax
@@ -1224,20 +1224,21 @@ coefficients deliver (Appendix A). The four mandate results,
 Propositions 4, 13, 5$'$ and 5$''$, add the separation of the payoff
 into terms in $\tau$, $d$ and $i$ (Lemma A.1) and interior direction
 peaks that coincide at $\sigma=1$ (Lemma A.3). Propositions 13, 5$'$ and
-5$''$ hold the investment share fixed; were the mediant’s investment
-coordinate to move with the report, the term $V_{j,i}\,i_\lambda'$ would
-join each derivative, and carrying them over would require signing it.
-Propositions 5$'$ and 5$''$ also use the power form of the frontier,
-under which the exponent multiplies the direction terms and nothing
-else, and three facts that the logarithmic value coefficients deliver:
-the machine mix of the mediant and of the worker’s programme lies beyond
-the owner’s and moves further from it as the weight rises, while that of
-the mediant and of the owner’s programme lies short of the worker’s and
-moves toward it; every direction weight vanishes as the weight goes to
-zero; and the coefficients are rational in the weight (Appendix A). None
-of them uses the value of $V_j$ at $\tau=0$. The logarithmic form of the
-licensed box has all of these properties. The constant-elasticity family
-of the remark after Corollary 1 has the four, and its planner peak is a
+5$''$ hold the investment share fixed; were a rule’s investment
+coordinate to move with the report, the term $V_{j,i}\,i_f'$ would join
+each derivative, and carrying them over turns on the sign of the tax and
+investment terms together. Propositions 5$'$ and 5$''$ also use the
+power form of the frontier, under which the exponent multiplies the
+direction terms and nothing else. They use three facts that the
+logarithmic value coefficients deliver as well: the machine mix of the
+mediant and of the worker’s programme lies beyond the owner’s and moves
+further from it as the weight rises, while that of the mediant and of
+the owner’s programme lies short of the worker’s and moves toward it;
+every direction weight vanishes as the weight goes to zero; and the
+coefficients are rational in the weight (Appendix A). None of them uses
+the value of $V_j$ at $\tau=0$. The logarithmic form of the licensed box
+has all of these properties. The constant-elasticity family of the
+remark after Corollary 1 has the four, and its planner peak is a
 strictly increasing transform of the logarithmic one, so for it too the
 compromise falls at every type and fails for either holder at every
 type; Proposition 12 needs only the owner’s interior peak and a worker’s
