@@ -1602,11 +1602,89 @@ $\big((1-c)/\kappa\big)\big(sQ_C/(1-s)\big) - m_0 - b\ln v - n$ by
 capital’s stationary condition, and Proposition 13 counts its zeros by
 making that root the variable rather than the unknown.
 
-Everything above Proposition 14 is a statement about rest points of the
-canonical system. Whether a rest point is an equilibrium — whether each
-class’s stationary behaviour is optimal against the other’s — is a
-separate question, and it is the one the method paragraph left open. It
-is answered for both classes, and not by the same argument.
+**Proposition 13$'$ (of two stationary pools, only the lower is ever
+reached).** Consider the joint canonical system of the two classes’
+necessary conditions where labour bargains, along paths that converge to
+a rest point and that take the distributionist root of the date-wise
+quadratic at every date. Labour’s own costate is autonomous with an
+unstable root, so it is constant at $1/\rho$ on any such path, the wage
+is $\omega = \kappa\rho/s$ at every date, and the system is
+two-dimensional in log-employment and capital’s price of accumulation.
+Write $\mathcal{D}$ for the discriminant of Proposition 8’s quadratic,
+and $q = \kappa\rho\lambda/(1+\lambda)$ as in Proposition 13. At any
+bargained rest point the Jacobian $J$ of that system satisfies $$
+\operatorname{tr} J \;=\; \rho\left[1 + \frac{(1-c)\,\zeta\,\bar e(v)\,(1-s)}{s\,\sqrt{\mathcal{D}}}\right], \qquad
+\det J \;=\; \left[\rho + b + \frac{(1-c)\,\zeta\,\bar e(v)}{\kappa}\right]\left[\frac{(1-c)\,\zeta\,\bar e(v)\,s\,\big(\bar e(v)\,s - q\big)}{\kappa\,\sqrt{\mathcal{D}}} \;-\; b\right]
+$$ on the distributionist arm, with both square roots entering with the
+opposite sign on the accumulationist arm, and
+$\bar e(v)\,s - q = (\kappa\rho - q\beta)/(\beta - s) > 0$ along the
+whole locus. Four things follow.
+
+*(i)* The trace exceeds the discount rate wherever labour bargains on
+the distributionist arm, so no rest point there attracts an open set of
+employment-rate and price pairs: it is a saddle or a source, and never a
+sink.
+
+*(ii)* The second bracket is the derivative, in log-employment, of the
+drift whose zeros Proposition 13 counts. The sign of $\det J$ is
+therefore the sign of $\mathrm{d}\dot x/\mathrm{d}v$ along the
+stationary locus, and nothing else about the rest point decides it.
+
+*(iii)* On the accumulationist arm that derivative is negative at every
+admissible cell, so **every accumulationist rest point is a saddle**. On
+the distributionist arm the drift is convex in the accumulation share
+and the employment rate rises with the share, so where the
+distributionist compromise leaves **two** stationary pools the lower
+carries $\det J < 0$ and the upper $\det J > 0$: the lower is a saddle,
+with a one-dimensional stable manifold along which each nearby
+employment rate selects exactly one price, and the upper is a source,
+which no path of the necessary conditions reaches from any other
+employment rate near it. **At most one of the two pools is ever
+reached**, and the count of two is a count of rest points rather than of
+destinations.
+
+*(iv)* At $b = 0$ the second bracket is strictly positive on the
+distributionist arm, so the single bargained rest point the locus then
+carries is a source where it is distributionist and, by *(iii)*, a
+saddle where it is accumulationist. The response of mechanisation to the
+employment rate, which Proposition 13 shows is what buys the second
+pool, is also what makes a distributionist pool reachable at all.
+
+To be sure, this is local and it is about the necessary conditions;
+Proposition 14 is what makes a rest point an equilibrium. The stable
+manifold in *(iii)* is the two classes’ together rather than capital’s
+alone, and the distinction has content: with the wage held at its
+stationary value, Proposition 14(iii) makes the determinant of capital’s
+*own* canonical system negative at every interior stationary compromise,
+the upper pool included. What destabilises the upper pool is therefore
+labour’s price response — the wage that rises as capital’s share falls
+along the distributionist root — and not anything in capital’s problem.
+Paths that switch date-wise between the two roots of the static
+quadratic, which Proposition 3’s logic admits in the regime too, lie
+outside the hypothesis.
+
+In words, the two pools are not two fates. The bargain leaves the
+stationary employment rate undetermined between two values, as
+Proposition 13 says, but the economy can only ever be at the lower of
+them: at the higher one both the state and capital’s valuation run away
+from the rest point, and the only path that stays is the one that starts
+there. The dynamic layer settles what the stationary layer leaves open,
+and it settles it in the direction that makes the unemployment pool
+larger. Which is also why the multiplicity is not a weakness of the
+mechanism. The second rest point the mechanisation law buys is the lower
+one — at $b = 0$ the drift no longer diverges at the bottom of the arm,
+and that zero is the one that goes — and it is the only one of the two
+the economy can rest at; where mechanisation does not answer to the
+labour market, *(iv)* says, a bargained distributionist rest point is a
+source. The response that creates the second pool is the response that
+makes one of them reachable. So a reader who wants to know what this
+economy does where the bargain sets the wage has one employment rate to
+look at and not two. Everything above Proposition 14 is a statement
+about rest points of the canonical system. Whether a rest point is an
+equilibrium — whether each class’s stationary behaviour is optimal
+against the other’s — is a separate question, and it is the one the
+method paragraph left open. It is answered for both classes, and not by
+the same argument.
 
 **Proposition 14 (sufficiency in the regime: concavity for labour, a
 stable manifold for capital).** With the logarithmic objectives of
@@ -3616,6 +3694,91 @@ supposition $\omega^\ast < \hat e$ therefore serves only to make
 $x \le 0$ the state space. The committed wage is compatible with
 capital’s ceiling below $v_D$, and the result holds there without the
 supposition.
+
+## A.13 Proposition 13$'$.
+
+*The reduction.* Where labour bargains its costate obeys
+$\dot p^W_x = (\rho+b)\,p^W_x - a_W - b\,p^W_y$ (A.7), and
+$p^W_y = 1/\rho$ is the bounded solution of its own equation, so at
+$a_W = 1$ the equation is autonomous with the single root
+$\rho + b > 0$: every solution but the stationary one $p^W_x = 1/\rho$
+leaves every compact set. A path that converges to a rest point
+therefore carries $p^W_x \equiv 1/\rho$, hence $P_W = 1/\rho$,
+$Q_W = \kappa\rho$ and, by labour’s own first-order condition,
+$\omega = Q_W/s$ at every date. Nothing in the system depends on $y$,
+and $p^C_y = (1+\lambda)/\rho$; so the state is $(x, p^C_x)$,
+equivalently $(x, \tilde Q)$ with $\tilde Q \equiv \kappa/P_C$, and the
+change of variable is a diffeomorphism wherever $P_C > 0$, which
+capital’s own condition forces (A.7), so the determinant and the trace
+do not depend on which pair is used. Given $(x,\tilde Q)$ the pair
+$(s,\omega)$ solves the two first-order conditions, which is Proposition
+8’s quadratic
+$f(s) = \bar e(v)\,s^2 - s\big(\bar e(v) + Q_W - \tilde Q\big) + Q_W = 0$;
+the distributionist branch is its smaller root.
+
+*The costate in the price of accumulation.* Substituting capital’s
+first-order condition into A.7’s bracket gives
+$\dot p^C_x = (\rho+b)\,p^C_x - b(1+\lambda)/\rho - (1+\lambda) + \zeta\,\bar e(v)\,P_C/\kappa$
+at every date and not only at a rest point, and
+$\dot P_C = (1-c)\,\dot p^C_x$ because $p^C_y$ is constant. With
+$\Theta$ as in Proposition 9, $A_0 = \rho\kappa/(1+\lambda)$,
+$B_0 = 1-\beta$ and $\Lambda \equiv (\rho+b)(1+\lambda)/(\rho\kappa)$,
+$$
+\dot{\tilde Q} \;=\; \Lambda\,\tilde Q\,\big(\tilde Q - Q_C(v)\big), \qquad Q_C(v) \;=\; A_0 + B_0\,\bar e(v) ,
+$$ whose zero is Proposition 7’s stationary condition, while
+$\omega = Q_W/s$ turns the state equation into
+$\dot x = (1-c)\big(s\,\bar e(v) - Q_W\big)/\kappa - m_0 - b x - n$.
+
+*Determinant and trace.* At a root of $f$,
+$\bar e + Q_W - \tilde Q = \bar e s + Q_W/s$, so
+$f_s = \bar e s - Q_W/s$; and for a convex quadratic the derivative at
+the smaller root is $-\sqrt{\mathcal{D}}$, so $f_s < 0$ on the
+distributionist arm and $f_s = +\sqrt{\mathcal{D}}$ on the
+accumulationist one. Implicit differentiation gives
+$s_x = -\zeta\,\bar e\,s(1-s)/f_s$ and $s_{\tilde Q} = -s/f_s$, and
+$\bar e'(x) = -\zeta\bar e$. At a rest point
+$\partial\dot{\tilde Q}/\partial\tilde Q = \Lambda Q_C = \rho + b + (1-c)\zeta\bar e/\kappa$
+and
+$\partial\dot{\tilde Q}/\partial x = \Lambda Q_C\,\zeta B_0\bar e = -\Lambda Q_C\,Q_C'(x)$,
+while $$
+\frac{\partial \dot x}{\partial x} \;=\; -\frac{(1-c)\,\zeta\,\bar e\,s}{\kappa}\left[1 + \frac{\bar e\,(1-s)}{f_s}\right] - b , \qquad
+\frac{\partial \dot x}{\partial \tilde Q} \;=\; -\frac{(1-c)\,\bar e\,s}{\kappa\,f_s} .
+$$ Adding the two diagonal entries and using $f_s - \bar e s = -Q_W/s$
+with $Q_W = \kappa\rho$ gives the displayed trace; wherever the two
+roots are distinct $\mathcal{D} > 0$, so on the distributionist arm the
+bracket exceeds one and the trace exceeds $\rho$, which is *(i)*.
+Because the two entries of the second row are proportional with factor
+$-Q_C'(x)$, $$
+\det J \;=\; \Lambda Q_C\left[\frac{\partial \dot x}{\partial x} + \frac{\partial \dot x}{\partial \tilde Q}\,Q_C'(x)\right] ,
+$$ and the bracket is, by construction, the derivative of $\dot x$ along
+the curve $\tilde Q = Q_C(v)$ — the stationary locus, whose zeros are
+the rest points Proposition 13 counts. That is *(ii)*. Collecting terms,
+$1 - s - B_0 = \beta - s$, and $\bar e\,s\,(\beta-s) = P(s)$ from
+Proposition 13’s inversion, reduce the bracket to the displayed one; and
+$\bar e s - q = (Q_W - q\beta)/(\beta-s)$ is positive because
+$Q_W - q\beta - A_0 = q(1-\beta) \ge 0$ with $A_0 > 0$, and $\beta > s$.
+
+*The pairing.* On the accumulationist arm $f_s = +\sqrt{\mathcal{D}}$,
+so the second bracket reads $-(\text{positive}) - b < 0$ and the rest
+point is a saddle, which is the first half of *(iii)*; on the
+distributionist arm at $b = 0$ it reads $+(\text{positive}) > 0$, which
+is *(iv)*. For the second half of *(iii)*:
+$\ln\bar e(s) = \ln P(s) - \ln s - \ln(\beta-s)$ is strictly convex by
+Proposition 13, so $\bar e$ has one stationary point on $(0,\beta)$, and
+that point is where the two solutions of $\bar e(s) = \bar e$ merge,
+which is the fold; hence $\bar e$ falls strictly on the distributionist
+arm and $x = \zeta^{-1}\ln\big(\hat e/\bar e(s)\big)$ rises strictly
+there. The drift is strictly convex in the share (Proposition 13), so
+where it has two zeros on that arm its derivative in the share is
+negative at the lower zero and positive at the upper; dividing by
+$\mathrm{d}x/\mathrm{d}s > 0$ carries both signs to the derivative in
+log-employment, and *(ii)* carries them to $\det J$. Where $\det J < 0$
+the eigenvalues are real and of opposite sign, so the stable set is a
+one-dimensional manifold, and it is a graph over the state because
+$\partial\dot x/\partial\tilde Q \neq 0$ wherever $\mathcal{D} > 0$.
+Where $\det J > 0$ with a trace above $\rho$ both eigenvalues have
+positive real part, so the rest point has no stable direction at all.
+$\blacksquare$
 
 # References
 
