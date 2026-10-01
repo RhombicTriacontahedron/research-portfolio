@@ -41,24 +41,24 @@ side of that elasticity it fails there too, and so does the other
 class’s programme, whichever class holds the weight, at every technology
 frontier, because a report then moves the rate and the machine mix
 together, only the machine-mix term carries the frontier’s sharpness,
-and the sharpness at which truth would pay changes with the weight.
-Under the compromise that sharpness is the same for both classes, and at
-every other sharpness one class wants the weight overstated and the
-other understated. The private-ownership recipe that sets the tax to
-zero after a reshuffle of capital shuts the public stock. In the log
-payoffs used below that shut-down is ruin for both classes. Behind those
-cases lies one description: with the machine mix and the reinvested
-share fixed, a rate schedule that varies smoothly with the weight and
-that its holder answers truthfully is, at each weight, either flat or
-exactly that holder’s own preferred rate. A state that cannot see the
-weight may let the rate follow it only by conceding the holder’s own
-rate. Wherever the two classes want different machine mixes, the hybrid
-that pairs one class’s rate with the other’s choice of machines is no
-class’s programme and no planner’s. Under a restriction stated in the
-paper, a reshuffle of capital does not make the classes agree on the
-rate, because the tax falls on income the owner consumes and the two
-classes value capital differently. A single statutory tax is not two
-personalised prices for the public stock.
+and the sharpness at which the first-order gain from a lie vanishes
+changes with the weight. Under the compromise that sharpness is the same
+for both classes, and at every other sharpness one class wants the
+weight overstated and the other understated. The private-ownership
+recipe that sets the tax to zero after a reshuffle of capital shuts the
+public stock. In the log payoffs used below that shut-down is ruin for
+both classes. Behind those cases lies one description: with the machine
+mix and the reinvested share fixed, a rate schedule that varies smoothly
+with the weight and that its holder answers truthfully is, at each
+weight, either flat or exactly that holder’s own preferred rate. A state
+that cannot see the weight may therefore let the rate follow it only by
+conceding the holder’s own rate. Wherever the two classes want different
+machine mixes, the hybrid that pairs one class’s rate with the other’s
+choice of machines is no class’s programme and no planner’s. Under a
+restriction stated in the paper, a reshuffle of capital does not make
+the classes agree on the rate, because the tax falls on income the owner
+consumes and the two classes value capital differently. A single
+statutory tax is not two personalised prices for the public stock.
 
 ------------------------------------------------------------------------
 
@@ -202,8 +202,7 @@ offer, given the principal’s own objective, whereas here the candidates
 are named in advance, by the two classes’ own preferred programmes in a
 dynamic economy in which a public stock reproduces labour that no one
 owns, and the question is which of them survives. Amador and Bagwell
-(2013) give conditions under which delegating an interval is optimal;
-which interval to delegate is what this paper does not answer.
+(2013) give conditions under which delegating an interval is optimal.
 
 The other results sit against the political economy of capital taxation.
 In Alesina and Rodrik (1994) individuals differ in what they own, the
@@ -695,7 +694,8 @@ in $d$ and of $B$ in $1-d$ — multiplies the machine-mix term of a report
 and leaves the tax term untouched, and that term is negative wherever
 the rule hands the owner a mix above the owner’s own and raises it with
 the weight, or a mix below it and lowers it. The sorting has a
-direction, then, even where its level stays open.
+direction, then, and Proposition 5$'$ finds the frontier at which it
+turns.
 
 **Proposition 5$'$ (The frontier exponent sorts a moving compromise).**
 Let $\sigma\neq1$, let the owner privately observe $\theta_R$, and hold
@@ -731,8 +731,8 @@ $f_\lambda$, where $\tau_C<\tau_\lambda$ and
 $\partial\tau_\lambda/\partial\theta_R<0$ (Proposition 11) sign it. A
 marginal overstatement of the weight raises the owner’s payoff at every
 $\varepsilon<\varepsilon^\ast(\theta_R)$ and a marginal understatement
-at every $\varepsilon>\varepsilon^\ast(\theta_R)$, so truth is a
-first-order optimum at $\varepsilon^\ast(\theta_R)$ and at no other
+at every $\varepsilon>\varepsilon^\ast(\theta_R)$, so truth is
+stationary in the report at $\varepsilon^\ast(\theta_R)$ and at no other
 exponent. At a given frontier the direct mechanism is therefore not
 locally incentive-compatible for the owner at any type whose
 $\varepsilon^\ast$ differs from $\varepsilon$. For $f_W$ and
@@ -865,13 +865,13 @@ instrument is $\tau$ at companions $(d_M,i)$. That is Proposition 11.
 $\square$
 
 Proposition 13 puts the compromise’s failure inside the mandate at unit
-elasticity: the state keeps both instruments and still cannot elicit a
-rate that moves with the weight. Propositions 5$'$ and 5$''$ put it
-there on either side of unit elasticity too, at every frontier,
-whichever class holds the weight. Ratification is therefore not what
-defeats a compromise, at any elasticity and whichever class holds the
-weight. The answers do not change when the compromise also moves its
-investment share with the report.
+elasticity: the state keeps both instruments and still cannot elicit the
+compromise’s rate, which moves with the weight. Propositions 5$'$ and
+5$''$ put it there on either side of unit elasticity too, at every
+frontier, whichever class holds the weight. Ratification is therefore
+not what defeats a compromise, at any elasticity and whichever class
+holds the weight. The answers do not change when the compromise also
+moves its investment share with the report.
 
 **Proposition 14 (The investment share free).** Let the named rule’s
 investment coordinate move with the report.
@@ -1340,10 +1340,10 @@ properties.
 
 A statute can name a rate; whether an administration can produce it
 turns on who can see how much of the raising of the next generation is
-already paid out of wages. Where the state cannot see that, and the
-machine mix is not itself in play, the rates it can elicit are the
-holder’s own and a rate that does not move with the weight, so the
-choice between the classes is made in the statute itself.
+already paid out of wages. Where the state cannot see that, and neither
+the machine mix nor the reinvested share is in play, a differentiable
+rate schedule it can elicit is, at each weight, flat or the holder’s own
+rate, so the choice between the classes is made in the statute itself.
 
 ------------------------------------------------------------------------
 
