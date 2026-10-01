@@ -27,23 +27,24 @@ Implementation is whether some mechanism produces the image of the map.
 
 If everyone sees the weight, any feasible named rule is implemented by
 selecting its image. If firms keep control of the machine mix — how far
-the technology in use augments labour rather than capital — only the tax
-remains political. If one class alone sees the weight, that class will
-report its own assigned programme truthfully. Once firms lock the
-machine mix, so that only the tax remains political, it will not report
-the other class’s tax truthfully, and it will not report a compromise
-tax truthfully at any value of the weight, because the compromise falls
-as the weight rises. Where the state keeps the machine mix instead, the
-compromise still fails at unit elasticity of substitution, with the
-reinvested share held fixed. On either side of that elasticity it fails
-there too when the owner holds the weight, at every technology frontier,
-because a report then moves the rate and the machine mix together, only
-the machine-mix term carries the frontier’s sharpness, and the sharpness
-at which truth would pay changes with the weight. The private-ownership
-recipe that sets the tax to zero after a reshuffle of capital shuts the
-public stock. In the log payoffs used below that shut-down is ruin for
-both classes. Behind those cases lies one description: with the machine
-mix and the reinvested share fixed, a rate schedule that varies smoothly
+the technology in use augments labour rather than capital — the tax and
+the reinvested share remain political. If one class alone sees the
+weight, that class will report its own assigned programme truthfully.
+Once firms lock the machine mix and the reinvested share is held fixed,
+so that only the tax moves, it will not report the other class’s tax
+truthfully, and it will not report a compromise tax truthfully at any
+value of the weight, because the compromise falls as the weight rises.
+Where the state keeps the machine mix instead, the compromise still
+fails at unit elasticity of substitution, with the reinvested share held
+fixed. On either side of that elasticity it fails there too when the
+owner holds the weight, at every technology frontier, because a report
+then moves the rate and the machine mix together, only the machine-mix
+term carries the frontier’s sharpness, and the sharpness at which truth
+would pay changes with the weight. The private-ownership recipe that
+sets the tax to zero after a reshuffle of capital shuts the public
+stock. In the log payoffs used below that shut-down is ruin for both
+classes. Behind those cases lies one description: with the machine mix
+and the reinvested share fixed, a rate schedule that varies smoothly
 with the weight and that its holder answers truthfully is, at each
 weight, either flat or exactly that holder’s own preferred rate. A state
 that cannot see the weight may let the rate follow it only by conceding
@@ -101,38 +102,38 @@ them, a hybrid that pairs one class’s rate with the other’s choice of
 machines, and the second welfare theorem’s recipe. One of the five
 leaves the queue at once. Wherever the two classes want different
 machine mixes, the hybrid is a feasible map that solves no class’s
-problem and no planner’s, so there is no programme whose incentives
-could be asked about; at unit elasticity, where every chooser wants the
-same mix, it collapses onto the owner’s own programme (Proposition 3). A
-class that alone sees the weight reports its own preferred rate
-truthfully, whether or not the choice of machines is left political
-(Proposition 4). Once firms fix the machine mix, so that the rate is the
-only political instrument left, that same class does not report the
-other class’s preferred rate truthfully: an owner overstates the weight,
-because a larger share paid out of wages means a smaller rate for the
-worker, and a worker understates it for the mirror reason (Propositions
-6 and 7). In that same setting a planner’s compromise fails too — it
-lies strictly between the two preferred rates, it falls as the weight
-rises, and at no value of the weight does either class answer it
-truthfully (Proposition 11). The compromise fails in the same way when
-the state keeps the machine mix but capital and labour substitute at
-elasticity one and the reinvested share is held fixed (Proposition 13),
-so it is not the surrender of the machine mix that defeats it. Away from
-that elasticity, with both instruments political, a report moves the
-rate and the machine mix at once. Above it the owner’s two peaks travel
-in opposite directions in the weight, and which way the package leaves
-the owner does not follow from those directions (Proposition 5). On
-either side, how sharply the technology frontier trades one machine
-coefficient against the other does settle it, because that sharpness
-multiplies the machine-mix term of a report and leaves the rate term
-alone: an owner who holds the weight overstates it below a threshold and
-understates it above, where the threshold is set by how fast the
-compromise moves the rate and the machine mix with the weight, against
-what each is worth to the owner. The first-order gain from lying
-vanishes at that one frontier and at no other. Because the threshold
-rises without bound as the weight falls toward zero, no single frontier
-makes the compromise truthful, and the same holds for the worker’s own
-programme offered to such an owner (Proposition 5$'$).
+problem and no planner’s, so no chooser would name it (Proposition 3);
+at unit elasticity, where every chooser wants the same mix, its rate and
+machine mix are the owner’s own. A class that alone sees the weight
+reports its own preferred rate truthfully, whether or not the choice of
+machines is left political (Proposition 4). Once firms fix the machine
+mix and the reinvested share is held fixed, so that the rate is the only
+instrument that moves, that same class does not report the other class’s
+preferred rate truthfully: an owner overstates the weight, because a
+larger share paid out of wages means a smaller rate for the worker, and
+a worker understates it for the mirror reason (Propositions 6 and 7). In
+that same setting a planner’s compromise fails too — it lies strictly
+between the two preferred rates, it falls as the weight rises, and at no
+value of the weight does either class answer it truthfully (Proposition
+11). The compromise fails in the same way when the state keeps the
+machine mix but capital and labour substitute at elasticity one and the
+reinvested share is held fixed (Proposition 13), so it is not the
+surrender of the machine mix that defeats it. Away from that elasticity,
+with both instruments political, a report moves the rate and the machine
+mix at once. Above it the owner’s two peaks travel in opposite
+directions in the weight, and which way the package leaves the owner
+does not follow from those directions (Proposition 5). On either side,
+how sharply the technology frontier trades one machine coefficient
+against the other does settle it, because that sharpness multiplies the
+machine-mix term of a report and leaves the rate term alone: an owner
+who holds the weight overstates it below a threshold and understates it
+above, where the threshold is set by how fast the compromise moves the
+rate and the machine mix with the weight, against what each is worth to
+the owner. The first-order gain from lying vanishes at that one frontier
+and at no other. Because the threshold rises without bound as the weight
+falls toward zero, no single frontier makes the compromise truthful, and
+the same holds for the worker’s own programme offered to such an owner
+(Proposition 5$'$).
 
 What survives is a description rather than a list of casualties. With
 the machine mix and the reinvested share fixed, any rate schedule that
@@ -208,15 +209,15 @@ The primitives come first: the two classes, their preferred rates as
 objects that exist before any mechanism, and the five named rules.
 Complete information shows that implementation is selection when the
 weight is public, and so locates where the problem bites. A short
-section retires the hybrid, which turns out to be nobody’s programme.
-The private-ownership section carries the shut-down result, the failure
-of separation, and the comparison with personalised prices. Two sections
-then make the weight private: the first with both instruments political,
-the second once firms have fixed the machine mix, where the description
-of truthful rate schedules is obtained. The conclusion says which
-restriction carries which result and what a weaker one would still
-deliver, and Appendix A derives the preferred rates and the two sources
-of the gap between them.
+section shows that, wherever the two classes want different machine
+mixes, the hybrid is nobody’s programme. The private-ownership section
+carries the shut-down result, the failure of separation, and the
+comparison with personalised prices. Two sections then make the weight
+private: the first with both instruments political, the second once
+firms have fixed the machine mix, where the description of truthful rate
+schedules is obtained. The conclusion says which restriction carries
+which result and what a weaker one would still deliver, and Appendix A
+derives the preferred rates and the two sources of the gap between them.
 
 ------------------------------------------------------------------------
 
@@ -373,9 +374,9 @@ available. Each is a well-defined map on the licensed domain.
 **Proposition 2 (Selection under ratification).** Under complete
 information and ratification, a mechanism implements $f$ if and only if
 it selects the fiscal projection of $f(\theta_R)$ at $d=d_M$. The
-political object that remains is a point of the tax interval
-$[\tau_C,\tau_W]$ together with a feasible $i$, at that locked
-direction.
+political object that remains is a tax and a feasible $i$ at that locked
+direction; with $i$ fixed, the taxes that no other tax Pareto-dominates
+form the interval $[\tau_C,\tau_W]$.
 
 Ratification is an institutional restriction on $\mathcal{X}$, not a
 restriction on preferences. For $\sigma\neq1$ the owner’s programme is
@@ -419,9 +420,8 @@ Opposite monotonicity of $\tau_C(\theta_R)$ and $d_C(\theta_R)$ along
 $f_C$ for $\sigma>1$ is a property of the peaks alone, and says nothing
 about whether $f_\times$ is empty or about the message space.
 
-An incentive-compatibility statement about $f_\times$ needs it first
-written as the solution of a single programme. The remainder of the
-paper does not use $f_\times$.
+Wherever the two classes want different directions, no listed chooser
+would name $f_\times$.
 
 ------------------------------------------------------------------------
 
@@ -429,14 +429,15 @@ paper does not use $f_\times$.
 
 A state that would rather not choose a rate has three ways out: dispense
 with the public instrument, redistribute capital until the two classes
-agree, or charge each class its own price for the public stock. None of
-the three works here. The Second Welfare Theorem’s operation with its
-hypothesis on $L'$ dropped, rather than repaired, is the
-private-ownership recipe: a reshuffle of $K$, competitive factor
-payments, and no public instrument. That recipe, written as a rule, is
-$f_0\in\bar{\mathcal{X}}$. A Lindahl scheme with class-specific
-tax-prices for $G$ (Foley 1970) is a repair of the hypothesis and is not
-a point of $\bar{\mathcal{X}}$.
+agree, or charge each class its own price for the public stock. The
+first fails here, the second fails under the restriction stated below as
+Premise P, and the third needs an instrument this set does not contain.
+The Second Welfare Theorem’s operation with its hypothesis on $L'$
+dropped, rather than repaired, is the private-ownership recipe: a
+reshuffle of $K$, competitive factor payments, and no public instrument.
+That recipe, written as a rule, is $f_0\in\bar{\mathcal{X}}$. A Lindahl
+scheme with class-specific tax-prices for $G$ (Foley 1970) is a repair
+of the hypothesis and is not a point of $\bar{\mathcal{X}}$.
 
 $G'=\varphi\tau e^{E_C}$. Under $f_0$, $\tau=0$, hence $G'=0$ at every
 type.
@@ -474,10 +475,7 @@ rate at all.
 convention of Lemma 0,
 $V_j(f_0(\hat\theta_R);\theta_R)=V_j(f_0(\theta_R);\theta_R)=-\infty$
 for both $j$ and every pair of types, so the direct mechanism for $f_0$
-is weakly incentive-compatible for either holder. If a positive
-inherited stock made $V_j(f_0)$ finite, incentive compatibility in the
-coordinate $i_C(\hat\theta_R)$ would require $i_C$ to be the holder’s
-peak at companions $(0,d_M)$, which is not used here.
+is weakly incentive-compatible for either holder.
 
 *Proof.* $f_0$ sets $\tau=0$ at every type, so the implemented tax does
 not depend on the report, and by Lemma 0 the value it delivers is
@@ -513,19 +511,21 @@ domain, at fixed $(d,i)$:
 $\lambda V_W+(1-\lambda)V_C$ does not involve $\kappa$ and returns
 $\tau_\lambda$. Proposition 11 places $\tau_\lambda$ in
 $(\tau_C,\tau_W)$ for $\lambda\in(0,1)$. The endpoints are the assigned
-peaks. Under P both $V_C$ and $V_W$ are concave in $\tau$ and additively
-separable in $\kappa$ on a convex domain, so the attainable pairs have a
-convex upper comprehensive hull and a supporting hyperplane exists at
-every Pareto point; every Pareto optimum is therefore a maximiser of
-some weighted sum. Lemma 0 excludes $\tau=0$. $\square$
+peaks. Under P both $V_C$ and $V_W$ are concave in $\tau$, concave in
+$\kappa$ and additively separable, hence jointly concave in
+$(\tau,\kappa)$ on a convex domain, so the set of utility pairs that lie
+weakly below some attainable pair is convex, and at every Pareto point
+it has a supporting line with non-negative weights, not both zero; every
+Pareto optimum is therefore a maximiser of some weighted sum. Lemma 0
+excludes $\tau=0$. $\square$
 
 $f_0$ is Pareto-dominated by every interior tax, whatever the
 distribution of $K$ under P. Restoring a single public instrument $\tau$
 puts every two-class Pareto tax in $[\tau_C,\tau_W]$. Under P that
 interval does not move with $\kappa$. Bergstrom–Cornes independence of
 the *set* therefore holds. Unanimity does not: no $\kappa$ collapses
-$\tau_C$ onto $\tau_W$. There is no unique efficient tax to fix and then
-implement by transferring $K$. A mandate that selects a point of the
+$\tau_C$ onto $\tau_W$. Which efficient tax to fix therefore stays a
+choice between the classes. A mandate that selects a point of the
 interval funds $G$.
 
 **Theorem (Separation).** The second welfare theorem uses transfers of
@@ -564,33 +564,36 @@ would change who bears the tax, and that is the transfer P excludes.
 
 Bergstrom and Cornes (1983) independence of the *set* of efficient
 public quantities from private-good distribution holds under P: the set
-does not move with $\kappa$. Separation still fails: there is no unique
-efficient plan to hold fixed while transferring $K$, and the
-dropped-hypothesis recipe is shut-down of $G$. Class-specific Lindahl
-prices (Foley 1970) are a different instrument set.
+does not move with $\kappa$. Separation still fails: no transfer of $K$
+makes the classes agree on the tax, so redistribution cannot replace the
+statutory choice of a rate, and the dropped-hypothesis recipe is
+shut-down of $G$. Class-specific Lindahl prices (Foley 1970) are a
+different instrument set.
 
 **Proposition 12 (Uniform tax is not Lindahl).** At $\varphi=1$,
 $G'=\tau e^{E_C}$. Every point of $\bar{\mathcal{X}}$ funds $G$ from
 capital income only: the owner’s statutory contribution is
 $\tau e^{E_C}$ and the worker’s statutory contribution is $0$. On the
-licensed box $N_W>0$, so $V_{W,\tau}>0$ on $(0,\tau_W)$. A Lindahl
-equilibrium for $G$ requires personalized prices at which both classes
-demand the implemented $G'$. At the statutory prices that
-$\bar{\mathcal{X}}$ carries, the worker demands the level of $G'$
-produced by $\tau_W$, and the owner the level produced by
-$\tau_C<\tau_W$. Hence no point of $\bar{\mathcal{X}}$, at the statutory
-prices it carries, is a Lindahl equilibrium for $G$.
+licensed box $N_W=\beta r>0$. A Lindahl equilibrium for $G$ requires
+personalized prices at which both classes demand the implemented $G'$.
+At the statutory prices that $\bar{\mathcal{X}}$ carries, the owner, who
+bears the whole cost, demands the level of $G'$ produced by $\tau_C$,
+while the worker, whose price is zero and whose value rises in $G'$ when
+its other successor states are held fixed, demands more than any level
+that a tax below one produces. Hence no point of $\bar{\mathcal{X}}$, at
+the statutory prices it carries, is a Lindahl equilibrium for $G$.
 
 *Proof.* Personalized prices $(p_C,p_W)$ are not coordinates of
 $\bar{\mathcal{X}}$. The implied statutory pair is $(p_C,0)$ in units of
-capital income, with the owner bearing the whole cost. At that pair each
-class’s most preferred $G'$ is the one produced by its assigned tax
-peak, because the assigned programme is the choice of $\tau$ by one
-class under exactly this incidence. On $(0,\tau_W)$ the worker wants
-more, since $V_{W,\tau}>0$ there (Lemma 0 and $N_W>0$), and
-$V_W\to-\infty$ as $\tau\to 0^+$ rules out $G'=0$. On $(\tau_W,1)$ the
-worker wants less. At $\tau_W$ the owner, whose peak is $\tau_C<\tau_W$
-(Lemma A.2), wants less. No $\tau\in[0,1)$ is demanded by both classes
+capital income, with the owner bearing the whole cost. At that pair the
+owner bears the whole cost of $G'$, so its most preferred $G'$ is the
+one produced by its assigned tax peak $\tau_C$, which is the owner’s
+choice of $\tau$ under exactly this incidence (Lemma A.2). The worker’s
+price is zero. Its value loads $g$ with $r=\beta q\gamma(1-\theta_R)>0$
+(Lemma A.1), so with its other successor states held fixed its marginal
+value of $G'$ is $\beta r/G'>0$ at every level, and at a zero price it
+demands more than any level that a tax below one produces. The owner
+demands a finite level, so no $\tau\in[0,1)$ is demanded by both classes
 at these prices. $\square$
 
 A mandate that selects a point of $[\tau_C,\tau_W]$ funds $G$. It does
@@ -643,19 +646,24 @@ extent that the peaks lie in $\mathcal{X}$.
 let the owner privately observe $\theta_R$. For $\sigma>1$ the owner’s
 two assigned peaks move in opposite directions in the weight:
 $\partial\tau_C/\partial\theta_R<0$ and
-$\partial d_C/\partial\theta_R>0$. Under a mandate the derivative of the
-owner’s payoff in the report at truth is
-$V_{C,\tau}\,\tau_\lambda'+V_{C,d}\,d_\lambda'$, where $\tau_\lambda$
-and $d_\lambda$ are the mediant’s tax and direction coordinates. Neither
-term of that sum is signed by the two peak loadings.
+$\partial d_C/\partial\theta_R>0$. Under a mandate, with the investment
+share held fixed, the derivative of the owner’s payoff in the report at
+truth is $V_{C,\tau}\,\tau_\lambda'+V_{C,d}\,d_\lambda'$, where
+$\tau_\lambda$ and $d_\lambda$ are the mediant’s tax and direction
+coordinates. Neither term of that sum is signed by the two peak
+loadings.
 
 *Proof.* The peak loadings are Lemma A.2 for $\tau_C$ and Lemma A.3 for
 $d_C$, the latter positive exactly when $\sigma>1$. The displayed
 derivative is the chain rule applied to
-$\hat\theta_R\mapsto V_C(f_\lambda(\hat\theta_R);\theta_R)$. The
-mediant’s coordinates maximise a weighted sum of the two payoffs; they
-are not fixed-weight averages of the two classes’ peaks, so the
-monotonicity of the endpoints does not transfer to them. $\square$
+$\hat\theta_R\mapsto V_C(f_\lambda(\hat\theta_R);\theta_R)$ with the
+investment coordinate held at its value at truth; were it to move with
+the report, the term $V_{C,i}\,i_\lambda'$ would be added, and it is not
+zero in general, since the mediant’s investment share lies above the
+owner’s peak $i_C$. The mediant’s coordinates maximise a weighted sum of
+the two payoffs; they are not fixed-weight averages of the two classes’
+peaks, so the monotonicity of the endpoints does not transfer to them.
+$\square$
 
 The mediant hands the owner neither of the owner’s own peaks, and away
 from unit elasticity it hands them a package: a lie that pulls the tax
@@ -788,11 +796,11 @@ share.[^2]
 
 ## Ratification under private $\theta_R$
 
-Once firms lock the machine mix, the tax is the only instrument left,
-and every differentiable schedule in it that its holder answers
-truthfully can be described. Ratification deletes $d$. Companions $i$
-that are not named by the fiscal rule are held fixed, as in the tax
-interval at fixed companions.
+Once firms lock the machine mix and the investment share is held fixed,
+the tax is the only instrument left, and every differentiable schedule
+in it that its holder answers truthfully can be described. Ratification
+deletes $d$. Companions $i$ that are not named by the fiscal rule are
+held fixed, as in the tax interval at fixed companions.
 
 **Lemma (Worker’s tax declines in the type).** At fixed shares,
 $\partial\tau_W/\partial\theta_R<0$ on $\Theta$.
@@ -975,7 +983,17 @@ $\eta>0$, $\eta\neq 1$, and $M_j$, $N_j$ as in Lemma A.2, whose limit at
 $\eta=1$ is the logarithmic form, the conclusion is the same, with
 $\tau_j$ read as that family’s own peak
 $(N_j/M_j)^{1/\eta}/\bigl[1+(N_j/M_j)^{1/\eta}\bigr]$, a strictly
-increasing transform of $N_j/M_j$.
+increasing transform of $N_j/M_j$. The compromise of this family falls
+at every type as well. Its planner peak with weight $\lambda$ solves
+$\bigl(\tau/(1-\tau)\bigr)^\eta=[\lambda N_W+(1-\lambda)N_C]/[\lambda M_W+(1-\lambda)M_C]$,
+and the right side is the odds $\tau_\lambda/(1-\tau_\lambda)$ of the
+logarithmic planner peak of Proposition 11, so the family’s planner peak
+is a strictly increasing transform of $\tau_\lambda$: it falls at every
+type and lies strictly between the family’s two peaks. Since
+$V_{j,\tau\tau}=-\eta\bigl[M_j(1-\tau)^{-\eta-1}+N_j\tau^{-\eta-1}\bigr]<0$,
+the last step of the proof of Proposition 11 applies unchanged, and at
+every type that compromise is not locally incentive-compatible for
+either holder.
 
 At $\sigma=1$ the same statement holds under a mandate for a schedule
 that names the common direction $s_L$, because Proposition 13 reduces
@@ -1050,8 +1068,8 @@ frontier exponent when the owner holds the weight (Proposition 5$'$).
 Wherever the two classes want different directions, the hybrid
 $f_\times$, which pairs the owner’s tax with the worker’s direction,
 satisfies no single programme’s first-order conditions and is not a
-programme; at $\sigma=1$ the two directions coincide and it is the
-owner’s own programme (Proposition 3).
+programme; at $\sigma=1$ the two directions coincide and its tax and
+direction are the owner’s own.
 
 Third, private information confines a truthful tax schedule to flat
 stretches and the holder’s own peak. With direction fixed, a
@@ -1066,9 +1084,11 @@ $\tau_\lambda$ lies strictly between the peaks, falls as the weight
 rises, and fails local incentive compatibility for either holder at
 every type, with the investment share held fixed (Propositions 11 and
 13). A constant tax is incentive-compatible for either holder
-(Propositions 6$'$ and 7$'$). A state that does not observe $\theta_R$
-can therefore let a tax schedule respond to it only by handing the
-holder its own peak, and must hold the tax fixed elsewhere. Away from
+(Propositions 6$'$ and 7$'$). So, weakly, is the private-ownership
+recipe, because with the stock shut its value is the same at every
+report (Proposition 9). A state that does not observe $\theta_R$ can
+therefore let a tax schedule respond to it only by handing the holder
+its own peak, and must hold the tax fixed elsewhere. Away from
 $\sigma=1$ under a mandate a report moves tax and direction together,
 and for $\sigma>1$ the two peak loadings do not sign the package
 (Proposition 5). The value coefficients give it a direction. On either
@@ -1086,12 +1106,14 @@ same holds for the worker’s own programme offered to such an owner
 Fourth, a uniform tax on capital income cannot be read as a system of
 Lindahl prices. Every point of $\bar{\mathcal{X}}$ funds $G$ from
 capital income alone, so the worker’s statutory price of $G$ is zero. At
-those prices the worker demands the level of $G$ produced by $\tau_W$,
-and the owner, who pays the whole cost, the level produced by $\tau_C$,
-so no point of $\bar{\mathcal{X}}$, at those prices, is a Lindahl
-equilibrium (Proposition 12). Foley’s repair needs personalised prices,
-which this instrument set does not contain, and whether some allocation
-in $\bar{\mathcal{X}}$ could be supported by such prices is left open.
+those prices the owner, who pays the whole cost, demands the level of
+$G$ produced by $\tau_C$, while the worker, who pays nothing and whose
+value rises in $G$ when its other successor states are held fixed,
+demands more than any tax below one provides, so no point of
+$\bar{\mathcal{X}}$, at those prices, is a Lindahl equilibrium
+(Proposition 12). Foley’s repair needs personalised prices, which this
+instrument set does not contain, and whether some allocation in
+$\bar{\mathcal{X}}$ could be supported by such prices is left open.
 Under P the Pareto interval does not move with $\kappa$ and contains no
 unanimous point (Proposition 10). A mandate that selects a point of
 $[\tau_C,\tau_W]$ funds $G$ at a single statutory price. Which point it
@@ -1135,9 +1157,11 @@ vanishes as the weight goes to zero, and the coefficients are rational
 in the weight (Appendix A). None of them uses the value of $V_j$ at
 $\tau=0$. The logarithmic form of the licensed box has all of these
 properties. The constant-elasticity family of the remark after Corollary
-1 has the four, so for it the compromise fails wherever it moves;
-Proposition 12 needs only interior peaks in that order. Carrying the
-sorting to a wider class of payoffs is a matter of checking those
+1 has the four, and its planner peak is a strictly increasing transform
+of the logarithmic one, so for it too the compromise falls at every type
+and fails for either holder at every type; Proposition 12 needs only the
+owner’s interior peak and a worker’s value that rises in $G$. Carrying
+the sorting to a wider class of payoffs is a matter of checking those
 properties.
 
 A statute can name a rate; whether an administration can produce it
