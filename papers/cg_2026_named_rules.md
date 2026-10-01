@@ -33,29 +33,32 @@ weight, that class will report its own assigned programme truthfully.
 Once firms lock the machine mix, it will not report the other class’s
 programme truthfully, and it will not report a compromise truthfully at
 any value of the weight, because the compromise’s rate falls as the
-weight rises; that holds whether or not the rule also moves the
-reinvested share with the weight. Where the state keeps the machine mix
-instead, the compromise still fails at unit elasticity of substitution.
-On either side of that elasticity it fails there too, and so does the
-other class’s programme, whichever class holds the weight, at every
-technology frontier, because a report then moves the rate and the
-machine mix together, only the machine-mix term carries the frontier’s
-sharpness, and the sharpness at which truth would pay changes with the
-weight. The private-ownership recipe that sets the tax to zero after a
-reshuffle of capital shuts the public stock. In the log payoffs used
-below that shut-down is ruin for both classes. Behind those cases lies
-one description: with the machine mix and the reinvested share fixed, a
-rate schedule that varies smoothly with the weight and that its holder
-answers truthfully is, at each weight, either flat or exactly that
-holder’s own preferred rate. A state that cannot see the weight may let
-the rate follow it only by conceding the holder’s own rate. Wherever the
-two classes want different machine mixes, the hybrid that pairs one
-class’s rate with the other’s choice of machines is no class’s programme
-and no planner’s. Under a restriction stated in the paper, a reshuffle
-of capital does not make the classes agree on the rate, because the tax
-falls on income the owner consumes and the two classes value capital
-differently. A single statutory tax is not two personalised prices for
-the public stock.
+weight rises; if the rule also moves the reinvested share with the
+weight, that movement is outweighed by the rate’s wherever the two pull
+in opposite directions. Where the state keeps the machine mix instead,
+the compromise still fails at unit elasticity of substitution. On either
+side of that elasticity it fails there too, and so does the other
+class’s programme, whichever class holds the weight, at every technology
+frontier, because a report then moves the rate and the machine mix
+together, only the machine-mix term carries the frontier’s sharpness,
+and the sharpness at which truth would pay changes with the weight.
+Under the compromise that sharpness is the same for both classes, and at
+every other sharpness one class wants the weight overstated and the
+other understated. The private-ownership recipe that sets the tax to
+zero after a reshuffle of capital shuts the public stock. In the log
+payoffs used below that shut-down is ruin for both classes. Behind those
+cases lies one description: with the machine mix and the reinvested
+share fixed, a rate schedule that varies smoothly with the weight and
+that its holder answers truthfully is, at each weight, either flat or
+exactly that holder’s own preferred rate. A state that cannot see the
+weight may let the rate follow it only by conceding the holder’s own
+rate. Wherever the two classes want different machine mixes, the hybrid
+that pairs one class’s rate with the other’s choice of machines is no
+class’s programme and no planner’s. Under a restriction stated in the
+paper, a reshuffle of capital does not make the classes agree on the
+rate, because the tax falls on income the owner consumes and the two
+classes value capital differently. A single statutory tax is not two
+personalised prices for the public stock.
 
 ------------------------------------------------------------------------
 
@@ -117,37 +120,37 @@ between the two preferred rates, it falls as the weight rises, and at no
 value of the weight does either class answer it truthfully (Proposition
 11). The compromise also names how much of capital income is reinvested,
 and a report moves that share in a direction that depends on the
-technology; but the compromise is a planner’s optimum at every reported
-weight, so to first order a lie leaves the planner’s weighted sum of the
-two payoffs unchanged: what it gains one class it costs the other, and
-the rate decides which (Proposition 14). The compromise fails in the
-same way when the state keeps the machine mix but capital and labour
-substitute at elasticity one (Proposition 13), so it is not the
-surrender of the machine mix that defeats it. Away from that elasticity,
-with both instruments political, a report moves the rate and the machine
-mix at once. Above it the owner’s two peaks travel in opposite
-directions in the weight, and which way the package leaves the owner
-does not follow from those directions (Proposition 5). On either side,
-how sharply the technology frontier trades one machine coefficient
-against the other does settle it, because that sharpness multiplies the
-machine-mix term of a report and leaves the rate term alone: an owner
-who holds the weight overstates it below a threshold and understates it
-above, where the threshold is set by how fast the compromise moves the
-rate and the machine mix with the weight, against what each is worth to
-the owner. The first-order gain from lying vanishes at that one frontier
-and at no other. Because the threshold rises without bound as the weight
-falls toward zero, no single frontier makes the compromise truthful, and
-the same holds for the worker’s own programme offered to such an owner
-(Proposition 5$'$). A worker who holds the weight faces the same report
-from the other side: a higher report lowers the compromise’s rate
-further below the worker’s own and moves its machine mix toward the
-worker’s own, so the worker understates the weight below that same
-threshold and overstates it above: at every frontier but one per value
-of the weight, the two classes want the report moved in opposite
-directions. So at every frontier, whichever class holds the weight, a
-small lie pays at all but finitely many values of the weight; for the
-worker the same holds under the owner’s own programme (Proposition
-5$''$).
+technology; where that movement works against the rate’s it is the
+smaller of the two, so each class lies in the direction it lies with the
+share held fixed. And because the compromise is a planner’s optimum at
+every reported weight, what a lie gains one class it costs the other
+(Proposition 14). The compromise fails in the same way when the state
+keeps the machine mix but capital and labour substitute at elasticity
+one (Propositions 13 and 14), so it is not the surrender of the machine
+mix that defeats it. Away from that elasticity, with both instruments
+political, a report moves the rate and the machine mix at once. Above it
+the owner’s two peaks travel in opposite directions in the weight, and
+which way the package leaves the owner does not follow from those
+directions (Proposition 5). On either side, how sharply the technology
+frontier trades one machine coefficient against the other does settle
+it, because that sharpness multiplies the machine-mix term of a report
+and leaves the rate term alone: an owner who holds the weight overstates
+it below a threshold and understates it above, where the threshold is
+set by how fast the compromise moves the rate and the machine mix with
+the weight, against what each is worth to the owner. The first-order
+gain from lying vanishes at that one frontier and at no other. Because
+the threshold rises without bound as the weight falls toward zero, no
+single frontier makes the compromise truthful, and the same holds for
+the worker’s own programme offered to such an owner (Proposition 5$'$).
+A worker who holds the weight faces the same report from the other side:
+a higher report lowers the compromise’s rate further below the worker’s
+own and moves its machine mix toward the worker’s own, so the worker
+understates the weight below that same threshold and overstates it
+above: at every frontier but one per value of the weight, the two
+classes want the report moved in opposite directions. So at every
+frontier, whichever class holds the weight, a small lie pays at all but
+finitely many values of the weight; for the worker the same holds under
+the owner’s own programme (Proposition 5$''$).
 
 What survives is a description rather than a list of casualties. With
 the machine mix and the reinvested share fixed, any rate schedule that
@@ -923,23 +926,24 @@ opposite signs at every other. $\square$
 A report moves the compromise’s reinvested share along with its rate,
 and on its own that movement can favour either class. A higher reported
 weight raises the reinvested share where
-$\kappa=a_2(1+\beta\gamma)-\beta a_1>0$, which holds at every elasticity
-up to one, and lowers it where $\sigma>s_L+s_K(1+\beta\gamma)/\beta$.
-The worker, whose value rises with the reinvested share, gains through
-that coordinate in the first case and loses in the second (Lemma A.6).
-But the compromise is a planner’s optimum at every reported weight, so
-to first order a lie leaves the planner’s weighted sum of the two
-payoffs unchanged: what the lie gains one class it costs the other, in
-the planner’s weights. The rate and the reinvested share together keep
-the sign the rate alone gives, at every licensed parameter, and where
-the reinvested share works against the rate it is the smaller of the
-two. Under ratification and at unit elasticity each class therefore lies
-in the direction it lied with the share held fixed, and so does a worker
-offered the owner’s programme. Under a mandate away from unit elasticity
-each class’s lie turns at the threshold exponent that the rate and the
-reinvested share set together, and the owner and the worker face the
-same threshold exponent: at every frontier but one per type, one class
-wants a higher report and the other a lower one.
+$\xi=a_2(1+\beta\gamma)-\beta a_1>0$, which holds at every elasticity up
+to one, and lowers it where $\sigma>s_L+s_K(1+\beta\gamma)/\beta$. The
+worker, whose value rises with the reinvested share, gains through that
+coordinate in the first case and loses in the second (Lemma A.6).
+Together, though, the rate and the reinvested share keep the sign the
+rate alone gives, at every licensed parameter: where the reinvested
+share works against the rate it is the smaller of the two (Lemma A.6).
+Under ratification and at unit elasticity each class therefore lies in
+the direction it lied with the share held fixed, and so does a worker
+offered the owner’s programme. The compromise is also a planner’s
+optimum at every reported weight, so to first order a lie leaves the
+planner’s weighted sum of the two payoffs unchanged, coordinate by
+coordinate: what the lie gains one class it costs the other, in the
+planner’s weights. Under a mandate away from unit elasticity each
+class’s lie turns at the threshold exponent that the rate and the
+reinvested share set together. By that identity the owner and the worker
+face the same threshold exponent: at every frontier but one per type,
+one class wants a higher report and the other a lower one.
 
 ------------------------------------------------------------------------
 
@@ -1260,11 +1264,11 @@ positive, so the worker understates the weight below a threshold
 exponent and overstates it above. Under the compromise it is the owner’s
 threshold: to first order a lie leaves the planner’s weighted sum of the
 two payoffs unchanged, so what it gains one class it costs the other
-(Proposition 14). That threshold also rises without bound as the weight
-falls toward zero, so at every exponent the worker too has a profitable
-lie at all but finitely many types, every type near zero among them,
-under the compromise and under the owner’s own programme (Proposition
-5$''$).
+(Proposition 14). The worker’s threshold, under the compromise and under
+the owner’s own programme, also rises without bound as the weight falls
+toward zero, so at every exponent the worker too has a profitable lie at
+all but finitely many types, every type near zero among them
+(Proposition 5$''$).
 
 Fourth, a uniform tax on capital income cannot be read as a system of
 Lindahl prices. Every point of $\bar{\mathcal{X}}$ funds $G$ from
@@ -1590,8 +1594,9 @@ $V_{j,\tau}(\tau_f)\,\tau_f'$. It is rational in $\theta_R$ and tends to
 a finite limit of the same strict sign as $\theta_R\to0$. For the
 mediant, $\lambda\Delta^F_W+(1-\lambda)\Delta^F_C=0$. For the worker
 under the mediant the investment term alone has the sign of
-$\kappa=a_2(1+\beta\gamma)-\beta a_1$, which is positive whenever
-$\sigma\le1$ and negative at some points of the box with $\sigma>1$.*
+$\xi=a_2(1+\beta\gamma)-\beta a_1$, which is positive where
+$\sigma<s_L+s_K(1+\beta\gamma)/\beta$, a bound above one, and negative
+where $\sigma$ exceeds that bound.*
 
 *Proof.* Write $c=(1-i)(1-\tau)$ and $s=i(1-\tau)$, so that
 $c+s+\tau=1$. The laws of motion and Lemma A.1 give the owner’s terms in
@@ -1634,11 +1639,13 @@ $\theta_R=0$, $\Delta^F_W$ tends to a finite negative limit, and the
 mediant identity carries the sign and the limit to the owner. For the
 investment term, $V_{W,i}=\beta p/i>0$ (Lemma A.4) and
 $i_\lambda=W_s/(W_c+W_s)$, so $i_\lambda'$ has the sign of
-$W_s'W_c-W_sW_c'$, which equals $\kappa$ times a polynomial that the
-same substitution shows positive on the box. For $\sigma\le1$,
-$a_1\le a_2$ and $\kappa\ge a_2(1-\beta+\beta\gamma)>0$; at
-$\beta=\gamma=\tfrac12$, $a_1=\tfrac34$, $a_2=\tfrac14$, that is
-$\sigma=2$ and $s_K=\tfrac12$, $\kappa=-\tfrac1{16}$. $\square$
+$W_s'W_c-W_sW_c'$, which equals $\xi$ times a polynomial that the same
+substitution shows positive on the box. Since $1-a_1=s_L/\sigma$ and
+$a_2=s_K/\sigma$, $\sigma\xi=s_K(1+\beta\gamma)+\beta s_L-\beta\sigma$,
+so $\xi<0$ exactly when $\sigma>s_L+s_K(1+\beta\gamma)/\beta$, and that
+bound exceeds $s_L+s_K=1$ because $\beta<1$. At $\beta=\gamma=\tfrac12$
+and $s_K=\tfrac12$ the bound is $\tfrac74$, and at $\sigma=2$, where
+$a_1=\tfrac34$ and $a_2=\tfrac14$, $\xi=-\tfrac1{16}$. $\square$
 
 ------------------------------------------------------------------------
 
