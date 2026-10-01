@@ -30,31 +30,32 @@ selecting its image. If firms keep control of the machine mix — how far
 the technology in use augments labour rather than capital — the tax and
 the reinvested share remain political. If one class alone sees the
 weight, that class will report its own assigned programme truthfully.
-Once firms lock the machine mix and the reinvested share is held fixed,
-so that only the tax moves, it will not report the other class’s tax
-truthfully, and it will not report a compromise tax truthfully at any
-value of the weight, because the compromise falls as the weight rises.
-Where the state keeps the machine mix instead, the compromise still
-fails at unit elasticity of substitution, with the reinvested share held
-fixed. On either side of that elasticity it fails there too, whichever
-class holds the weight, at every technology frontier, because a report
-then moves the rate and the machine mix together, only the machine-mix
-term carries the frontier’s sharpness, and the sharpness at which truth
-would pay changes with the weight. The private-ownership recipe that
-sets the tax to zero after a reshuffle of capital shuts the public
-stock. In the log payoffs used below that shut-down is ruin for both
-classes. Behind those cases lies one description: with the machine mix
-and the reinvested share fixed, a rate schedule that varies smoothly
-with the weight and that its holder answers truthfully is, at each
-weight, either flat or exactly that holder’s own preferred rate. A state
-that cannot see the weight may let the rate follow it only by conceding
-the holder’s own rate. Wherever the two classes want different machine
-mixes, the hybrid that pairs one class’s rate with the other’s choice of
-machines is no class’s programme and no planner’s. Under a restriction
-stated in the paper, a reshuffle of capital does not make the classes
-agree on the rate, because the tax falls on income the owner consumes
-and the two classes value capital differently. A single statutory tax is
-not two personalised prices for the public stock.
+Once firms lock the machine mix, it will not report the other class’s
+programme truthfully, and it will not report a compromise truthfully at
+any value of the weight, because the compromise’s rate falls as the
+weight rises; that holds whether or not the rule also moves the
+reinvested share with the weight. Where the state keeps the machine mix
+instead, the compromise still fails at unit elasticity of substitution.
+On either side of that elasticity it fails there too, and so does the
+other class’s programme, whichever class holds the weight, at every
+technology frontier, because a report then moves the rate and the
+machine mix together, only the machine-mix term carries the frontier’s
+sharpness, and the sharpness at which truth would pay changes with the
+weight. The private-ownership recipe that sets the tax to zero after a
+reshuffle of capital shuts the public stock. In the log payoffs used
+below that shut-down is ruin for both classes. Behind those cases lies
+one description: with the machine mix and the reinvested share fixed, a
+rate schedule that varies smoothly with the weight and that its holder
+answers truthfully is, at each weight, either flat or exactly that
+holder’s own preferred rate. A state that cannot see the weight may let
+the rate follow it only by conceding the holder’s own rate. Wherever the
+two classes want different machine mixes, the hybrid that pairs one
+class’s rate with the other’s choice of machines is no class’s programme
+and no planner’s. Under a restriction stated in the paper, a reshuffle
+of capital does not make the classes agree on the rate, because the tax
+falls on income the owner consumes and the two classes value capital
+differently. A single statutory tax is not two personalised prices for
+the public stock.
 
 ------------------------------------------------------------------------
 
@@ -107,17 +108,21 @@ at unit elasticity, where every chooser wants the same mix, its rate and
 machine mix are the owner’s own. A class that alone sees the weight
 reports its own preferred rate truthfully, whether or not the choice of
 machines is left political (Proposition 4). Once firms fix the machine
-mix and the reinvested share is held fixed, so that the rate is the only
-instrument that moves, that same class does not report the other class’s
-preferred rate truthfully: an owner overstates the weight, because a
-larger share paid out of wages means a smaller rate for the worker, and
-a worker understates it for the mirror reason (Propositions 6 and 7). In
-that same setting a planner’s compromise fails too — it lies strictly
+mix, that same class does not report the other class’s preferred
+programme truthfully: an owner overstates the weight, because a larger
+share paid out of wages means a smaller rate for the worker, and a
+worker understates it for the mirror reason (Propositions 6, 7 and 14).
+In that same setting a planner’s compromise fails too — it lies strictly
 between the two preferred rates, it falls as the weight rises, and at no
 value of the weight does either class answer it truthfully (Proposition
-11). The compromise fails in the same way when the state keeps the
-machine mix but capital and labour substitute at elasticity one and the
-reinvested share is held fixed (Proposition 13), so it is not the
+11). The compromise also names how much of capital income is reinvested,
+and a report moves that share in a direction that depends on the
+technology; but the compromise is a planner’s optimum at every reported
+weight, so to first order a lie leaves the planner’s weighted sum of the
+two payoffs unchanged: what it gains one class it costs the other, and
+the rate decides which (Proposition 14). The compromise fails in the
+same way when the state keeps the machine mix but capital and labour
+substitute at elasticity one (Proposition 13), so it is not the
 surrender of the machine mix that defeats it. Away from that elasticity,
 with both instruments political, a report moves the rate and the machine
 mix at once. Above it the owner’s two peaks travel in opposite
@@ -136,12 +141,13 @@ the same holds for the worker’s own programme offered to such an owner
 (Proposition 5$'$). A worker who holds the weight faces the same report
 from the other side: a higher report lowers the compromise’s rate
 further below the worker’s own and moves its machine mix toward the
-worker’s own, so the worker understates the weight below a threshold of
-its own and overstates it above, and that threshold too rises without
-bound as the weight falls toward zero. So at every frontier, whichever
-class holds the weight, a small lie pays at all but finitely many values
-of the weight; for the worker the same holds under the owner’s own
-programme (Proposition 5$''$).
+worker’s own, so the worker understates the weight below that same
+threshold and overstates it above: at every frontier but one per value
+of the weight, the two classes want the report moved in opposite
+directions. So at every frontier, whichever class holds the weight, a
+small lie pays at all but finitely many values of the weight; for the
+worker the same holds under the owner’s own programme (Proposition
+5$''$).
 
 What survives is a description rather than a list of casualties. With
 the machine mix and the reinvested share fixed, any rate schedule that
@@ -149,22 +155,23 @@ varies smoothly with the weight and that its holder answers truthfully
 is, at each value of the weight, either flat or exactly that holder’s
 own preferred rate (Corollary 1). A state that cannot see the weight may
 therefore let the rate respond to it only by conceding the holder’s own
-rate, and must otherwise hold the rate still. Two further results say
-what the standard settlements do here. The second welfare theorem’s
-recipe leaves the stock unfilled, and with the payoffs used here every
-positive rate short of confiscation leaves both classes better off than
-that recipe — the owner included, because the owner’s own income rises
-with the workforce the stock reproduces (Proposition 8). Under a
-restriction that lets a reshuffle of capital change how well off each
-class is without changing who bears the tax, no reshuffle brings the two
-preferred rates together, and the interval between them does not move at
-all (Proposition 10). The gap between those rates has two sources, both
-signed: the tax is paid out of income only the owner consumes, and the
-owner’s welfare counts capital while the worker’s counts only labour.
-And a single statutory rate is not a pair of personalised prices: the
-stock is funded out of capital income alone, so the worker’s statutory
-price of it is zero, and at that pair of prices the two classes want
-different amounts of the stock (Proposition 12).
+rate, and must otherwise hold the rate still. A rate held still is
+answered truthfully by either class (Propositions 6$'$ and 7$'$). Two
+further results say what the standard settlements do here. The second
+welfare theorem’s recipe leaves the stock unfilled, and with the payoffs
+used here every positive rate short of confiscation leaves both classes
+better off than that recipe — the owner included, because the owner’s
+own income rises with the workforce the stock reproduces (Proposition
+8). Under a restriction that lets a reshuffle of capital change how well
+off each class is without changing who bears the tax, no reshuffle
+brings the two preferred rates together, and the interval between them
+does not move at all (Proposition 10). The gap between those rates has
+two sources, both signed: the tax is paid out of income only the owner
+consumes, and the owner’s welfare counts capital while the worker’s
+counts only labour. And a single statutory rate is not a pair of
+personalised prices: the stock is funded out of capital income alone, so
+the worker’s statutory price of it is zero, and at that pair of prices
+the two classes want different amounts of the stock (Proposition 12).
 
 Two beliefs are displaced by this, and a reader who holds either pays
 for it here. The first is that redistributing capital is a substitute
@@ -618,8 +625,9 @@ answers its own programme truthfully; and at unit elasticity, where
 every chooser wants the same machine mix, no compromise that moves with
 the weight is answered truthfully. On either side of unit elasticity the
 planner’s compromise fails in the same way for whichever class holds the
-weight, at every technology frontier, with the investment share held
-fixed. The holder of the type is named. The other class does not report.
+weight, at every technology frontier, whether or not it also moves the
+investment share with the report. The holder of the type is named. The
+other class does not report.
 
 **Proposition 4 (Own-programme incentive compatibility).** Suppose the
 owner privately observes $\theta_R$. On the licensed domain the direct
@@ -832,10 +840,12 @@ holder. A higher report moves each of the compromise’s two instruments
 toward one holder’s peak and away from the other’s: it lowers the rate
 toward the owner’s peak and away from the worker’s, and moves the
 machine mix away from the owner’s peak and toward the worker’s. So below
-its threshold the owner overstates the weight and the worker understates
+the threshold the owner overstates the weight and the worker understates
 it, each for the rate; above it each lies the other way, for the machine
-mix. At unit elasticity the second instrument disappears and the
-compromise is sorted, by Proposition 13.
+mix. Under the compromise the two classes face the same threshold,
+because what a lie gains one class it costs the other (Proposition 14).
+At unit elasticity the second instrument disappears and the compromise
+is sorted, by Proposition 13.
 
 **Proposition 13 (Mandate mediant at $\sigma=1$).** At $\sigma=1$, every
 listed chooser wants $d=s_L$. Holding $i$ fixed, the mandate problem for
@@ -857,8 +867,79 @@ rate that moves with the weight. Propositions 5$'$ and 5$''$ put it
 there on either side of unit elasticity too, at every frontier,
 whichever class holds the weight. Ratification is therefore not what
 defeats a compromise, at any elasticity and whichever class holds the
-weight. All three results cover the mediant in its tax and direction
-coordinates, at a fixed investment share.
+weight. The answers do not change when the compromise also moves its
+investment share with the report.
+
+**Proposition 14 (The investment share free).** Let the named rule’s
+investment coordinate move with the report.
+
+1.  Under ratification, and under a mandate at $\sigma=1$, the direct
+    mechanism for the mediant $f_\lambda$, $\lambda\in(0,1)$, is not
+    locally incentive-compatible for either named holder of $\theta_R$
+    at any type: an owner who holds the weight gains by overstating it
+    and a worker by understating it. Nor is the direct mechanism for the
+    owner’s programme $f_C$ locally incentive-compatible for a worker
+    who holds the weight, at any type; the worker gains by understating
+    it.
+2.  For $\sigma\neq1$ under a mandate, Propositions 5$'$ and 5$''$ hold
+    for $f_\lambda$ and, with the worker as holder, for $f_C$, with the
+    tax term replaced by the fiscal term
+    $\Delta^F_j=V_{j,\tau}(\tau_f)\,\tau_f'+V_{j,i}(i_f)\,i_f'$ of Lemma
+    A.6: each threshold exponent is positive at every type, rational in
+    $\theta_R$, and tends to $+\infty$ as $\theta_R\to0$, so at every
+    frontier the direct mechanism is not locally incentive-compatible
+    for its holder at all but finitely many types, every type near zero
+    among them.
+3.  For the mediant, with its investment coordinate moving with the
+    report or held fixed, $\lambda\Delta_W+(1-\lambda)\Delta_C=0$ at
+    truth, where $\Delta_j$ is the whole derivative of the holder’s
+    payoff in the report. For $\sigma\neq1$ the owner’s threshold
+    exponent and the worker’s are therefore one number, and at every
+    other exponent one class gains by overstating the weight and the
+    other by understating it.
+
+*Proof.* Under ratification, and under a mandate at $\sigma=1$, where a
+report cannot move the direction (Proposition 13), the derivative of the
+holder’s payoff in the report at truth is $\Delta^F_j$, which Lemma A.6
+signs: positive for the owner, so a small overstatement pays, and
+negative for the worker, so a small understatement pays. For
+$\sigma\neq1$ under a mandate the payoff separates the direction from
+the fiscal coordinates (Lemma A.1), so the derivative is
+$\Delta^F_j+\varepsilon\,\Phi_j(d_f)\,d_f'$ with the direction term of
+Propositions 5$'$ and 5$''$ unchanged. The proofs of those propositions
+go through with $\Delta^F_j$ in place of the tax term, because it has
+the tax term’s strict sign on the licensed box, is rational in
+$\theta_R$, and tends to a finite limit of that sign as $\theta_R\to0$
+(Lemma A.6). The worker’s programme $f_W$ offered to the owner needs
+nothing new: its investment coordinate is $\bar\imath$, which no report
+moves. For the third claim, the mediant maximises
+$\lambda V_W+(1-\lambda)V_C$ in each of its coordinates, so at truth
+$\lambda V_{W,x}+(1-\lambda)V_{C,x}=0$ for every coordinate $x$ the rule
+moves; multiplying by that coordinate’s derivative in the report and
+summing gives $\lambda\Delta_W+(1-\lambda)\Delta_C=0$ at every
+$\varepsilon$. The two derivatives vanish at the same exponent and have
+opposite signs at every other. $\square$
+
+A report moves the compromise’s reinvested share along with its rate,
+and on its own that movement can favour either class. A higher reported
+weight raises the reinvested share where
+$\kappa=a_2(1+\beta\gamma)-\beta a_1>0$, which holds at every elasticity
+up to one, and lowers it where $\sigma>s_L+s_K(1+\beta\gamma)/\beta$.
+The worker, whose value rises with the reinvested share, gains through
+that coordinate in the first case and loses in the second (Lemma A.6).
+But the compromise is a planner’s optimum at every reported weight, so
+to first order a lie leaves the planner’s weighted sum of the two
+payoffs unchanged: what the lie gains one class it costs the other, in
+the planner’s weights. The rate and the reinvested share together keep
+the sign the rate alone gives, at every licensed parameter, and where
+the reinvested share works against the rate it is the smaller of the
+two. Under ratification and at unit elasticity each class therefore lies
+in the direction it lied with the share held fixed, and so does a worker
+offered the owner’s programme. Under a mandate away from unit elasticity
+each class’s lie turns at the threshold exponent that the rate and the
+reinvested share set together, and the owner and the worker face the
+same threshold exponent: at every frontier but one per type, one class
+wants a higher report and the other a lower one.
 
 ------------------------------------------------------------------------
 
@@ -983,7 +1064,9 @@ truth-telling at first order puts it on the holder’s own peak (Corollary
 1 below). The tax interval is the set of undominated constant taxes.
 
 If a ratified rule also names $i(\theta_R)$ as a non-constant
-coordinate, $V_{C,i}=0$ and $V_{W,i}>0$ at interior $i_C$.[^2]
+coordinate, $V_{C,i}=0$ and $V_{W,i}>0$ at interior $i_C$.[^2] For the
+owner’s programme and for the compromise, that coordinate does not
+change which way a lie pays (Proposition 14).
 
 **Proposition 11 (Ratified mediant, local first-order condition).** Let
 the companions $(d,i)$ be fixed. Let $\lambda\in(0,1)$, and write
@@ -1129,54 +1212,59 @@ current-output point $d_M=s_L$, direction leaves $\mathcal{X}$
 $d_C<d_M$, and below the worker’s exactly when $\theta_R>\bar\theta$.
 The tax and the investment share remain political. A compromise fails
 without ratification as well: at $\sigma=1$ under a mandate every listed
-chooser wants the same direction, and, with the investment share held
-fixed, the mediant fails exactly as it does under ratification
-(Proposition 13). On either side of $\sigma=1$ it fails there at every
-frontier exponent, whichever class holds the weight (Propositions 5$'$
-and 5$''$). Wherever the two classes want different directions, the
-hybrid $f_\times$, which pairs the owner’s tax with the worker’s
-direction, satisfies no single programme’s first-order conditions and is
-not a programme; at $\sigma=1$ the two directions coincide and its tax
-and direction are the owner’s own.
+chooser wants the same direction, and the mediant fails exactly as it
+does under ratification (Proposition 13). On either side of $\sigma=1$
+it fails there at every frontier exponent, whichever class holds the
+weight (Propositions 5$'$ and 5$''$). Moving the reinvested share with
+the report as well changes none of this (Proposition 14). Wherever the
+two classes want different directions, the hybrid $f_\times$, which
+pairs the owner’s tax with the worker’s direction, satisfies no single
+programme’s first-order conditions and is not a programme; at $\sigma=1$
+the two directions coincide and its tax and direction are the owner’s
+own.
 
 Third, private information confines a truthful tax schedule to flat
-stretches and the holder’s own peak. With direction fixed, a
-differentiable schedule that is locally incentive-compatible for the
-holder of $\theta_R$ is, at each type, flat or equal to the holder’s
-peak (Corollary 1). The propositions are instances. Each class reports
-its own assigned programme truthfully (Proposition 4). Neither reports
-the other’s tax truthfully: an owner who holds the type over-reports it
-to pull $\tau_W$ down toward $\tau_C$, and a worker under-reports it to
-push $\tau_C$ up toward $\tau_W$ (Propositions 6 and 7). The compromise
-$\tau_\lambda$ lies strictly between the peaks, falls as the weight
-rises, and fails local incentive compatibility for either holder at
-every type, with the investment share held fixed (Propositions 11 and
-13). A constant tax is incentive-compatible for either holder
-(Propositions 6$'$ and 7$'$). So, weakly, is the private-ownership
-recipe, because with the stock shut its value is the same at every
-report (Proposition 9). A state that does not observe $\theta_R$ can
-therefore let a tax schedule respond to it only by handing the holder
-its own peak, and must hold the tax fixed elsewhere. Away from
-$\sigma=1$ under a mandate a report moves tax and direction together,
-and for $\sigma>1$ the two peak loadings do not sign the package
-(Proposition 5). The value coefficients give it a direction. On either
-side of $\sigma=1$ the direction term of the owner’s report is negative
-at every licensed parameter, and it is the only term the frontier
-exponent multiplies, so the profitable lie turns from an overstatement
-into an understatement as that exponent rises, and the first-order gain
-from lying vanishes at one exponent per type and at no other. That
-exponent rises without bound as the weight falls toward zero. At every
-exponent, then, an owner who holds the weight has a profitable lie at
-all but finitely many types, every type near zero among them, and the
-same holds for the worker’s own programme offered to such an owner
-(Proposition 5$'$). For a worker who holds the weight the two terms
-trade signs: the tax term is negative and the direction term positive,
-so the worker understates the weight below a threshold exponent of its
-own and overstates it above. That threshold also rises without bound as
-the weight falls toward zero, so at every exponent the worker too has a
+stretches and the holder’s own peak. With direction and the investment
+share fixed, a differentiable schedule that is locally
+incentive-compatible for the holder of $\theta_R$ is, at each type, flat
+or equal to the holder’s peak (Corollary 1). The propositions are
+instances. Each class reports its own assigned programme truthfully
+(Proposition 4). Neither reports the other’s tax truthfully: an owner
+who holds the type over-reports it to pull $\tau_W$ down toward
+$\tau_C$, and a worker under-reports it to push $\tau_C$ up toward
+$\tau_W$ (Propositions 6 and 7). The compromise $\tau_\lambda$ lies
+strictly between the peaks, falls as the weight rises, and fails local
+incentive compatibility for either holder at every type (Propositions 11
+and 13), and so does the compromise as named, which moves the reinvested
+share along with the rate (Proposition 14). A constant tax is
+incentive-compatible for either holder (Propositions 6$'$ and 7$'$). So,
+weakly, is the private-ownership recipe, because with the stock shut its
+value is the same at every report (Proposition 9). A state that does not
+observe $\theta_R$ can therefore let a tax schedule respond to it only
+by handing the holder its own peak, and must hold the tax fixed
+elsewhere. Away from $\sigma=1$ under a mandate a report moves tax and
+direction together, and for $\sigma>1$ the two peak loadings do not sign
+the package (Proposition 5). The value coefficients give it a direction.
+On either side of $\sigma=1$ the direction term of the owner’s report is
+negative at every licensed parameter, and it is the only term the
+frontier exponent multiplies, so the profitable lie turns from an
+overstatement into an understatement as that exponent rises, and the
+first-order gain from lying vanishes at one exponent per type and at no
+other. That exponent rises without bound as the weight falls toward
+zero. At every exponent, then, an owner who holds the weight has a
 profitable lie at all but finitely many types, every type near zero
-among them, under the compromise and under the owner’s own programme
-(Proposition 5$''$).
+among them, and the same holds for the worker’s own programme offered to
+such an owner (Proposition 5$'$). For a worker who holds the weight the
+two terms trade signs: the tax term is negative and the direction term
+positive, so the worker understates the weight below a threshold
+exponent and overstates it above. Under the compromise it is the owner’s
+threshold: to first order a lie leaves the planner’s weighted sum of the
+two payoffs unchanged, so what it gains one class it costs the other
+(Proposition 14). That threshold also rises without bound as the weight
+falls toward zero, so at every exponent the worker too has a profitable
+lie at all but finitely many types, every type near zero among them,
+under the compromise and under the owner’s own programme (Proposition
+5$''$).
 
 Fourth, a uniform tax on capital income cannot be read as a system of
 Lindahl prices. Every point of $\bar{\mathcal{X}}$ funds $G$ from
@@ -1223,27 +1311,28 @@ planner’s peak falls in the weight, which the logarithmic value
 coefficients deliver (Appendix A). The four mandate results,
 Propositions 4, 13, 5$'$ and 5$''$, add the separation of the payoff
 into terms in $\tau$, $d$ and $i$ (Lemma A.1) and interior direction
-peaks that coincide at $\sigma=1$ (Lemma A.3). Propositions 13, 5$'$ and
-5$''$ hold the investment share fixed; were a rule’s investment
-coordinate to move with the report, the term $V_{j,i}\,i_f'$ would join
-each derivative, and carrying them over turns on the sign of the tax and
-investment terms together. Propositions 5$'$ and 5$''$ also use the
-power form of the frontier, under which the exponent multiplies the
-direction terms and nothing else. They use three facts that the
-logarithmic value coefficients deliver as well: the machine mix of the
-mediant and of the worker’s programme lies beyond the owner’s and moves
-further from it as the weight rises, while that of the mediant and of
-the owner’s programme lies short of the worker’s and moves toward it;
-every direction weight vanishes as the weight goes to zero; and the
-coefficients are rational in the weight (Appendix A). None of them uses
-the value of $V_j$ at $\tau=0$. The logarithmic form of the licensed box
-has all of these properties. The constant-elasticity family of the
-remark after Corollary 1 has the four, and its planner peak is a
-strictly increasing transform of the logarithmic one, so for it too the
-compromise falls at every type and fails for either holder at every
-type; Proposition 12 needs only the owner’s interior peak and a worker’s
-value that rises in $G$. Carrying the sorting to a wider class of
-payoffs is a matter of checking those properties.
+peaks that coincide at $\sigma=1$ (Lemma A.3). That Propositions 7, 11,
+13, 5$'$ and 5$''$ hold when a rule’s investment coordinate moves with
+the report uses one more property that the logarithmic value
+coefficients deliver: the tax and investment terms of a report together
+keep the sign of the tax term (Lemma A.6 and Proposition 14).
+Propositions 5$'$ and 5$''$ also use the power form of the frontier,
+under which the exponent multiplies the direction terms and nothing
+else. They use three facts that the logarithmic value coefficients
+deliver as well: the machine mix of the mediant and of the worker’s
+programme lies beyond the owner’s and moves further from it as the
+weight rises, while that of the mediant and of the owner’s programme
+lies short of the worker’s and moves toward it; every direction weight
+vanishes as the weight goes to zero; and the coefficients are rational
+in the weight (Appendix A). None of them uses the value of $V_j$ at
+$\tau=0$. The logarithmic form of the licensed box has all of these
+properties. The constant-elasticity family of the remark after Corollary
+1 has the four, and its planner peak is a strictly increasing transform
+of the logarithmic one, so for it too the compromise falls at every type
+and fails for either holder at every type; Proposition 12 needs only the
+owner’s interior peak and a worker’s value that rises in $G$. Carrying
+the sorting to a wider class of payoffs is a matter of checking those
+properties.
 
 A statute can name a rate; whether an administration can produce it
 turns on who can see how much of the raising of the next generation is
@@ -1487,6 +1576,69 @@ capital income and $\omega$ directly. The worker’s felicity $n$ loads
 capital with zero. Even with the tax’s bite on consumption removed, the
 owner values capital against the public stock more than the worker does.
 Neither term is a statement about who owns successor labour.
+
+**Lemma A.6 (Tax and investment together).** *Let the holder $j$ of
+$\theta_R$ face a rule $f$ whose investment coordinate moves with the
+report: the mediant $f_\lambda$, $\lambda\in(0,1)$, with $j\in\{C,W\}$,
+or the owner’s programme $f_C$ with $j=W$. At truth the derivative of
+the holder’s payoff in the report through the rule’s tax and investment
+coordinates,* $$
+\Delta^F_j=V_{j,\tau}(\tau_f)\,\tau_f'+V_{j,i}(i_f)\,i_f',
+$$ *is strictly positive for the owner and strictly negative for the
+worker on the licensed box, the signs of its tax term
+$V_{j,\tau}(\tau_f)\,\tau_f'$. It is rational in $\theta_R$ and tends to
+a finite limit of the same strict sign as $\theta_R\to0$. For the
+mediant, $\lambda\Delta^F_W+(1-\lambda)\Delta^F_C=0$. For the worker
+under the mediant the investment term alone has the sign of
+$\kappa=a_2(1+\beta\gamma)-\beta a_1$, which is positive whenever
+$\sigma\le1$ and negative at some points of the box with $\sigma>1$.*
+
+*Proof.* Write $c=(1-i)(1-\tau)$ and $s=i(1-\tau)$, so that
+$c+s+\tau=1$. The laws of motion and Lemma A.1 give the owner’s terms in
+$(\tau,i)$ as $(1-\omega)\ln c+\beta a_k\ln s+\beta a_g\ln\tau$ and the
+worker’s as $\beta p\ln s+\beta r\ln\tau$; these are the terms of Lemmas
+A.2 and A.4, regrouped. A payoff $\sum_x\alpha_x\ln x$ on the simplex
+peaks at shares proportional to its weights $\alpha_x$, so along the
+rule each share is $x=W_x/F$, with $F=W_c+W_s+W_\tau$ and
+$(W_c,W_s,W_\tau)$ the weights
+$\lambda(0,\beta p,\beta r)+(1-\lambda)(1-\omega,\beta a_k,\beta a_g)$
+multiplied by $(1-\beta)\Omega$, which leaves the shares unchanged; the
+owner’s programme is the case $\lambda=0$. By Lemma A.1 these weights
+are affine in $\theta_R$: $$
+W_c=(1-\lambda)(1-\omega)(1-\beta)\Omega,\qquad W_s=\lambda\beta^2\gamma\pi+(1-\lambda)\beta N,\qquad W_\tau=(1-\theta_R)\beta^2\gamma\bigl[\lambda(1-\beta a_1)+(1-\lambda)(1-\omega+\beta\omega)(1-a_1)\bigr],
+$$ with $\pi=\theta_Ra_2+(1-\theta_R)\beta a_1$,
+$N=(1-\beta)\Omega a_k=\omega(1-\beta)\Omega+(1-\omega+\beta\omega)\bigl[a_1E+\beta\gamma\theta_Ra_2(1-a_1)\bigr]$
+and $E=1-\beta+\beta D$. Each is positive on the box, at $\theta_R=0$ as
+well. Since $\ln c=\ln(1-i)+\ln(1-\tau)$ and $\ln s=\ln i+\ln(1-\tau)$,
+the chain rule gives $\Delta^F_j=\sum_x\alpha_{j,x}\,x'/x$, with
+$\alpha_j$ the holder’s weights at the true type and
+$x'/x=W_x'/W_x-F'/F$.
+
+For the mediant, $\lambda\alpha_W+(1-\lambda)\alpha_C$ multiplied by
+$(1-\beta)\Omega$ is $(W_c,W_s,W_\tau)$ itself, so
+$(1-\beta)\Omega\,[\lambda\Delta^F_W+(1-\lambda)\Delta^F_C]=\sum_xW_x(W_x'/W_x-F'/F)=\sum_xW_x'-F'=0$.
+It remains to sign the worker’s term. A direct calculation gives $$
+\Delta^F_W=\frac{\beta^2\gamma\,J_\lambda}{(1-\beta)\Omega\,W_sF},\qquad
+J_\lambda=\pi\,W_s'F-\frac{D}{\gamma}\,F'W_s-(1-\beta a_1)\,W_sF,
+$$ for the mediant and, at $\lambda=0$, for the owner’s programme.
+Substitute $X/(1+X)$, with $X>0$, for each of
+$\beta,\gamma,\theta_R,\omega,\lambda,a_1,a_2$ in $-J_\lambda$, which
+maps each $(0,1)$ onto $(0,\infty)$, and multiply by $(1+X)^{m}$ for
+each parameter, with $m$ the degree of $J_\lambda$ in that parameter.
+The result is a polynomial in the $X$’s whose 554 coefficients are all
+positive, so $J_\lambda<0$ on the box. The same substitution gives a
+polynomial with positive coefficients at $\lambda=0$ (413 coefficients),
+at $\theta_R=0$ (178) and at $\lambda=\theta_R=0$ (137). Since every
+factor is rational in $\theta_R$ and the denominators stay positive at
+$\theta_R=0$, $\Delta^F_W$ tends to a finite negative limit, and the
+mediant identity carries the sign and the limit to the owner. For the
+investment term, $V_{W,i}=\beta p/i>0$ (Lemma A.4) and
+$i_\lambda=W_s/(W_c+W_s)$, so $i_\lambda'$ has the sign of
+$W_s'W_c-W_sW_c'$, which equals $\kappa$ times a polynomial that the
+same substitution shows positive on the box. For $\sigma\le1$,
+$a_1\le a_2$ and $\kappa\ge a_2(1-\beta+\beta\gamma)>0$; at
+$\beta=\gamma=\tfrac12$, $a_1=\tfrac34$, $a_2=\tfrac14$, that is
+$\sigma=2$ and $s_K=\tfrac12$, $\kappa=-\tfrac1{16}$. $\square$
 
 ------------------------------------------------------------------------
 
