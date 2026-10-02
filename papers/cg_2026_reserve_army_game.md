@@ -428,14 +428,21 @@ Suppose capital committed instead to a *utilisation rate* $q \in [0,1]$,
 extracting $e = q\,\bar e(v)$. Its action set would then be fixed, and
 the game standard rather than generalised — but labour’s payoff would
 carry the state through capital’s extraction, giving
-$\partial U_W/\partial x = a_W + \theta\zeta e$ in place of $a_W$, and
-labour’s shadow price would acquire a term in $\zeta$. Proposition 7’s
-asymmetry — capital’s price answers to how the ceiling responds to
-employment and labour’s does not — is therefore a property of the
-strategy space as well as of the information structure, and the two
-spaces agree exactly when $\theta = 0$, the case in which labour is
-indifferent to effort. This paper takes the first: each class commits to
-a path of its own instrument, and feasibility is imposed on the pair.
+$\partial U_W/\partial x = a_W + \theta\zeta e$ in place of $a_W$; and
+since accumulation is $s(e-\omega)/\kappa$, the law of motion would
+carry the state through extraction as well. Labour’s shadow price would
+acquire the term $\zeta e\,(\theta - sP_W/\kappa)$, with $P_W$ the value
+labour places on a unit of accumulation. Proposition 7’s asymmetry —
+capital’s price answers to how the ceiling responds to employment and
+labour’s does not — is therefore a property of the strategy space as
+well as of the information structure. The two spaces agree where the
+ceiling does not move with employment, $\zeta = 0$; otherwise, where
+labour bargains, only on the knife-edge $\theta = sP_W/\kappa$, where
+what labour saves in effort as employment rises exactly offsets what it
+loses in accumulation. Indifference to effort, $\theta = 0$, lies on
+that knife-edge only where labour places no value on accumulation at
+all. This paper takes the first: each class commits to a path of its own
+instrument, and feasibility is imposed on the pair.
 
 **Domain.** $\bar e \ge e > \omega > 0$ with
 $\bar\omega < e_{\text{lo}}$, $\kappa, \rho > 0$, $b \ge 0$,
@@ -685,22 +692,26 @@ $A \equiv s(\bar e-\omega)/\kappa$ for its accumulation rate; the
 compromise itself does not depend on $c$. Write the employment-induced
 part of the mechanisation law as $\mu(v) \equiv m_0 + b\ln v$ **with
 $b > 0$**, or more generally any continuous strictly increasing function
-on $(0,1]$ with $(1-c)A - n$ in its range. The restriction is not
-cosmetic: at $b = 0$, which the domain admits, $\mu$ is constant rather
-than strictly increasing, the displayed $\ln v^*$ below is not defined,
-and there is no interior rest point at all. That face is Section 5’s and
-is stated there. If $(1-c)A < \mu(1) + n$, the employment rate has a
-unique rest point inside the state space, defined by
-$\mu(v^*) = (1-c)A - n$, and every path that starts inside converges to
-it monotonically; with the linear law, $\ln v^* = [(1-c)A - m_0 - n]/b$.
-If $(1-c)A > \mu(1) + n$, there is no rest point inside the state space:
-every path reaches full employment in finite time, and from that moment
-the interior law no longer describes the economy — and at $a_W = 1$
-Proposition 5$''$ supplies the continuation there, unique and
-payoff-neutral in the class of boundaries that move no binding bound. At
-equality the rest point is full employment itself and is approached
-asymptotically, not reached; under the linear law
-$\ln v(t) = \ln v(0)\,e^{-bt}$. The unemployment pool persists,
+on $(0,1]$. The restriction is not cosmetic: at $b = 0$, which the
+domain admits, $\mu$ is constant rather than strictly increasing and the
+displayed $\ln v^*$ below is not defined. The drift is then constant, so
+there is no isolated rest point for paths to converge to: the employment
+rate rises, falls, or, where $(1-c)A = m_0 + n$, stays wherever it
+started, every interior rate then being stationary. That face is Section
+5’s and is stated there. If $(1-c)A - n$ lies in the range of $\mu$ and
+$(1-c)A < \mu(1) + n$, the employment rate has a unique rest point
+inside the state space, defined by $\mu(v^*) = (1-c)A - n$, and every
+path that starts inside converges to it monotonically. With the linear
+law, $\ln v^* = [(1-c)A - m_0 - n]/b$. If $(1-c)A > \mu(1) + n$, there
+is no rest point inside the state space: every path reaches full
+employment in finite time, and from that moment the interior law no
+longer describes the economy — and at $a_W = 1$ Proposition 5$''$
+supplies the continuation there, unique and payoff-neutral in the class
+of boundaries that move no binding bound. At equality the rest point is
+full employment itself. Under the linear law it is approached
+asymptotically, not reached, $\ln v(t) = \ln v(0)\,e^{-bt}$, and so it
+is under any law that is Lipschitz at $v = 1$; a law that is merely
+continuous can reach it in finite time. The unemployment pool persists,
 $v^* < 1$, if and only if $$
 (1-c)\,A < \mu(1) + n ,
 $$ that is, if and only if the labour-absorbing part of accumulation
@@ -934,8 +945,9 @@ either, so the unemployment pool remains what the bargain leaves over.
 
 If $b = 0$ the employment-induced part of the mechanisation law is flat
 and the employment rate rises, falls, or stays where it started
-according as $(1-c)A$ exceeds, falls short of, or equals $m_0 + n$;
-there is no interior rest point to converge to. Lancaster’s one-state
+according as $(1-c)A$ exceeds, falls short of, or equals $m_0 + n$. In
+the last case every employment rate is a rest point; in none is there an
+isolated rest point for paths to converge to. Lancaster’s one-state
 world, in which labour is in unlimited supply, is the $b = 0$ face of
 this one. Under fixed coefficients $av = K/(\kappa N)$, so the drift of
 $z$ is $s(e-\omega)/\kappa - n$ whatever the split of accumulation
@@ -1405,12 +1417,13 @@ $\zeta\beta\bar e(v)$, and the divergence at $v \to 0^+$ by
 $\beta\hat e v^{-\zeta}$; both survive $b = 0$, which the domain admits.
 That difference from the core matters: Proposition 5 records that at
 $b = 0$ the core’s drift is constant in the employment rate, so the core
-has **no interior rest point at all** and the economy sits in Section
-5’s Lancaster case, rising or falling from wherever it started. In the
-regime the extraction ceiling itself moves with employment, and that
-response stabilises the employment rate on its own. The regime therefore
-does not need a mechanisation law that answers to the labour market; it
-needs an extraction ceiling that does.
+has **no isolated interior rest point** and the economy sits in Section
+5’s Lancaster case, rising or falling from wherever it started, or, on
+the knife-edge $(1-c)A = m_0 + n$, staying there. In the regime the
+extraction ceiling itself moves with employment, and that response
+stabilises the employment rate on its own. The regime therefore does not
+need a mechanisation law that answers to the labour market; it needs an
+extraction ceiling that does.
 
 Propositions 8 to 11 solve the compromise at a *given* employment rate,
 and the employment rate is itself an equilibrium object; the two are
@@ -2047,26 +2060,26 @@ must fall inside the state space, and the compromise at it must be
 interior, and neither condition implies the other — and it does so
 **without a mechanisation law that answers to the labour market**. In
 the core, that response is the whole stabiliser: switch it off and
-Proposition 5 leaves no interior rest point, which is the Lancaster case
-of Section 5. In the regime the extraction ceiling falls as employment
-rises, and that is enough on its own. The unemployment pool does not
-need a Phillips curve, and it does not need Goodwin’s mechanisation
-channel either; it needs only that what capital can take from an hour
-hired gets harder to take when labour is scarce. Proposition 9’s second
-branch acquires a different meaning: past that threshold the compromise
-fails not because the two classes cannot agree but because no
-accumulation consistent with both of their stationary conditions is
-positive. Where the pool pins labour, the one share those conditions
-determine is negative; where labour bargains, they have no real
-solution, or only solutions with negative accumulation, capital’s price
-of accumulation there exceeding the whole extractable day. No pair of
-ceilings repairs that. And the growth rate at the fold, where a
-compromise is born, is the geometric mean of the two classes’ effective
-prices, so what decides whether a bargained compromise exists is a sum
-and what it grows at is a product: an economy whose extractable day is
-falling towards the point where its compromise ceases to exist does not
-slow to a halt as it arrives, but reaches that point still growing — at
-the core’s prices, at $\rho/\sqrt{1+\lambda}$.
+Proposition 5 leaves no isolated rest point for the employment rate to
+settle at, which is the Lancaster case of Section 5. In the regime the
+extraction ceiling falls as employment rises, and that is enough on its
+own. The unemployment pool does not need a Phillips curve, and it does
+not need Goodwin’s mechanisation channel either; it needs only that what
+capital can take from an hour hired gets harder to take when labour is
+scarce. Proposition 9’s second branch acquires a different meaning: past
+that threshold the compromise fails not because the two classes cannot
+agree but because no accumulation consistent with both of their
+stationary conditions is positive. Where the pool pins labour, the one
+share those conditions determine is negative; where labour bargains,
+they have no real solution, or only solutions with negative
+accumulation, capital’s price of accumulation there exceeding the whole
+extractable day. No pair of ceilings repairs that. And the growth rate
+at the fold, where a compromise is born, is the geometric mean of the
+two classes’ effective prices, so what decides whether a bargained
+compromise exists is a sum and what it grows at is a product: an economy
+whose extractable day is falling towards the point where its compromise
+ceases to exist does not slow to a halt as it arrives, but reaches that
+point still growing — at the core’s prices, at $\rho/\sqrt{1+\lambda}$.
 
 Eighth, the regime’s equilibrium claim holds on both sides, and how it
 holds on capital’s side is informative. Labour’s stationary behaviour is
@@ -2485,9 +2498,18 @@ logarithm. If $B > \mu(0) + n$, then $\dot x \ge B - \mu(0) - n > 0$ on
 the state space, a positive lower bound, so $x$ reaches $0$ in finite
 time; this uses continuity of $\mu$. If $B = \mu(0) + n$, then
 $\dot x = \mu(0) - \mu(x) > 0$ inside with no positive lower bound near
-$0$, and $x^* = 0$ is approached asymptotically; under the linear law
-$\dot x = -bx$ and $x(t) = x(0)e^{-bt}$. Persistence is the displayed
-inequality with $\mu(1) = m_0$ in the linear case.
+$0$, and $x^* = 0$ is the drift’s zero; from $x(0) < 0$ the time to
+reach it is $\int_{x(0)}^{0} dx/\big(\mu(0) - \mu(x)\big)$. Under the
+linear law $\dot x = -bx$, so $x(t) = x(0)e^{-bt}$ and the boundary is
+approached asymptotically, not reached. The same holds whenever $\mu$ is
+Lipschitz at $0$ with constant $L$: then $\mu(0) - \mu(x) \le L|x|$ and
+the integral diverges. A law that is merely continuous need not behave
+so. In $v$, $\mu(v) = 1 - \sqrt{1-v}$ is continuous and strictly
+increasing with $\mu(1) = 1$; with $B - n = 1$ the drift is
+$\dot v = v\sqrt{1-v}$, and from $v(0) = 3/4$ the path
+$\sqrt{1 - v(t)} = (3 - e^t)/(3 + e^t)$ reaches full employment at
+$t = \ln 3$. Persistence is the displayed inequality with $\mu(1) = m_0$
+in the linear case.
 
 ## A.5$'$ Proposition 5$'$.
 
@@ -2690,12 +2712,20 @@ off that value. The asymmetry is therefore a property of the information
 structure, and it is declared as one rather than defended as economics.
 It is equally a property of the strategy space, in the sense §2 makes
 precise: under a utilisation-rate commitment $e = q\,E(x)$ the
-extraction is a function of the state even in open loop,
+extraction is a function of the state even in open loop, so it enters
+labour’s payoff,
 $\partial U_W/\partial x = a_W - \theta E'(x) q = a_W + \theta\zeta e$,
-and labour’s price carries $\zeta$ after all. The two commitments
-coincide at $\theta = 0$ and differ everywhere else, which is why the
-paper names the one it uses rather than leaving “open-loop” to carry the
-distinction.
+and the law of motion, through accumulation $s(e-\omega)/\kappa$.
+Together they add $\zeta e\,(\theta - sP_W/\kappa)$ to
+$\partial H_W/\partial x$, with $P_W = (1-c)p^W_x + c/\rho$, and where
+labour bargains its stationary price under the utilisation commitment
+differs from the one just derived by
+$\zeta e\,(\theta - sP^0_W/\kappa)\big/\big(\rho + b + (1-c)\zeta s e/\kappa\big)$;
+the denominator is positive. The two commitments therefore coincide
+where $\zeta = 0$ and, for $\zeta > 0$, only on the knife-edge
+$\theta = sP^0_W/\kappa$. Since $P^0_W > 0$ unless $a_W = b = c = 0$,
+they differ at $\theta = 0$, which is why the paper names the one it
+uses rather than leaving “open-loop” to carry the distinction.
 
 ## A.8 Proposition 8.
 
