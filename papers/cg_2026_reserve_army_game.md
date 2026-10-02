@@ -5,28 +5,29 @@ Carlos Galindo Escajeda
 # Abstract
 
 A growing economy employs more workers every year and still has
-unemployed ones. The standard answer is that accumulation manufactures
-its own surplus of labour, which holds the wage down. Making the
-employment rate the state of a differential game between organised
-capital and organised labour separates those two claims. Capital picks
-the share of profit it reinvests and the effort it takes per hour hired,
-labour the wage share; machinery arrives faster where labour is scarce,
-and part of every unit of accumulation displaces labour. When each class
-values what happens to its whole class, the bargain over accumulation
-and the wage is independent of how fast machinery displaces labour, and
-the mechanisation law sizes the unemployment pool, the bargain’s
-residual rather than its regulator. A bargained compromise exists only
-where capital’s extractable effort per hour hired is large enough, and
-there are then two, an accumulationist and a distributionist one, unless
-a wage bound excludes one. Both classes strictly prefer the
-accumulationist compromise wherever it leaves a pool, and nothing moves
-an economy to it. Faster accumulation shrinks the pool, a closed-form
-threshold on the accumulation share decides whether it survives, and the
-accumulationist compromise can exhaust it while the distributionist one
-keeps it. When the wage and effort ceilings move with the pool, it
-regains its grip on the wage, mechanisation enters the bargain through
-one term in capital’s price of accumulation, and where compromises exist
-the economy rests at three employment rates or fewer.
+unemployed ones. One long-standing answer is that accumulation
+manufactures its own surplus of labour, which holds the wage down.
+Making the employment rate the state of a differential game between
+organised capital and organised labour separates those two claims.
+Capital picks the share of profit it reinvests and the effort it takes
+per hour hired, labour the wage share; machinery arrives faster where
+labour is scarce, and part of every unit of accumulation displaces
+labour. When each class values what happens to its whole class, the
+bargain over accumulation and the wage is independent of how fast
+machinery displaces labour, and the mechanisation law sizes the
+unemployment pool, the bargain’s residual rather than its regulator. A
+bargained compromise exists only where capital’s extractable effort per
+hour hired is large enough, and there are then two, an accumulationist
+and a distributionist one, unless a wage bound excludes one. Both
+classes strictly prefer the accumulationist compromise wherever it
+leaves a pool, and nothing moves an economy to it. Faster accumulation
+shrinks the pool, a closed-form threshold on the accumulation share
+decides whether it survives, and the accumulationist compromise can
+exhaust it while the distributionist one keeps it. When the wage and
+effort ceilings move with the pool, it regains its grip on the wage,
+mechanisation enters the bargain through one term in capital’s price of
+accumulation, and where compromises exist the economy has three
+stationary employment rates or fewer.
 
 **JEL.** C73, E24, E25, O33, B51
 
@@ -131,20 +132,20 @@ capital gives up on every worker by employing one more. That term is
 larger the more sharply the extractable day answers to employment and
 smaller the faster the labour market mean-reverts. Past a threshold in
 that responsiveness no extractable day whatever supports an interior
-compromise — the wedge outgrows the ceiling — and the threshold contains
-no policy instrument. Short of it the economy rests at no more than
-three employment rates, at most one of them where the pool holds labour
-at its ceiling, and an economy attaining all three can be written down.
-Each of those rest points, pinned or bargained, is an equilibrium of the
-regime wherever the economy’s interior law of motion survives at full
-employment. Where the bargain leaves two distributionist pools, a path
-that keeps to that compromise under both classes’ necessary conditions
-can arrive only at the lower: the upper is reached from no other point.
-The same regime carries a warning for anyone reading wage data: labour
-sits at its ceiling both where the pool is large and where the
-compromise is barely viable and capital’s accumulation share is
-collapsing, so a wage at a ceiling does not say which half of the
-mechanism is operating.
+compromise — the wedge outgrows the ceiling — and neither ceiling’s
+level enters the threshold. Short of it the economy has no more than
+three stationary employment rates, at most one of them where the pool
+holds labour at its ceiling, and an economy attaining all three can be
+written down. Each of those rest points, pinned or bargained, is an
+equilibrium of the regime wherever the economy’s interior law of motion
+survives at full employment. Where the bargain leaves two
+distributionist pools, a path that keeps to that compromise under both
+classes’ necessary conditions can arrive only at the lower: the upper is
+reached from no other point. The same regime carries a warning for
+anyone reading wage data: labour sits at its ceiling both where the pool
+is large and where the compromise is barely viable and capital’s
+accumulation share is collapsing, so a wage at a ceiling does not say
+which half of the mechanism is operating.
 
 One word in the question needs its meaning fixed, because a regulator
 sounds like a feedback rule and here it is not one. Each class commits
@@ -405,27 +406,34 @@ Section 6’s regime needs one addition to that definition, because there
 the action sets move with a state both classes drive. A wage path that
 raises employment lowers the extractable day, so a unilateral deviation
 by labour can carry capital’s committed path outside capital’s own
-feasible set. The two classes share a constraint, and the object is a
-*generalised* game in Debreu’s (1952) sense rather than a game with
-fixed action sets. The concept used throughout Section 6 is the natural
-restriction: a jointly feasible profile from which no unilateral
-deviation *that keeps the profile feasible* improves the deviator. For
-**labour** the restriction does not bite: labour’s candidate solves its
-problem over the larger set that ignores joint feasibility, and a
-maximiser over a larger set which is itself feasible maximises over
-every feasible subset containing it. Capital’s deviations move the
-employment rate too, and so can carry labour’s committed path outside
-labour’s own feasible set. Excluding profitable deviations of that kind
-needs a global sufficiency argument for capital over the larger set, and
-concavity cannot supply one, because capital’s maximised Hamiltonian is
-convex in log-employment wherever it accumulates. Proposition 14
-supplies it by another route: capital’s candidate is optimal over the
-larger set as well, through the stable manifold of its own problem,
-against every deviation that keeps the economy’s law of motion up to and
-at full employment. Joint feasibility therefore binds on neither side;
-what remains on capital’s is a continuation that changes the law of
-motion at full employment (Section 7). The concept must be named
-regardless, because a different strategy space is a different theorem.
+feasible set. Each class’s action set then depends on the other’s path,
+and the object is a *generalised* game in Debreu’s (1952) sense rather
+than a game with fixed action sets. The concept used throughout Section
+6 is an equilibrium of that game: each class’s path is feasible for it
+given the other’s, and no path feasible for it given the other’s
+committed path does better. A deviation answers to the deviator’s own
+constraints and not to the other class’s, so a wage path that pushes
+capital’s committed extraction above the ceiling it implies is still a
+deviation open to labour. For **labour** this asks that its candidate
+solve its problem over its own action set, and it does. Capital’s
+deviations move the employment rate too, and so can carry labour’s
+committed path outside labour’s own feasible set; capital’s candidate
+must beat those as well. Concavity cannot supply that global argument,
+because capital’s maximised Hamiltonian is convex in log-employment
+wherever it accumulates. Proposition 14 supplies it by another route:
+capital’s candidate is optimal over its own action set, through the
+stable manifold of its own problem, against every deviation that keeps
+the economy’s law of motion up to and at full employment; what remains
+on capital’s side is a continuation that changes the law of motion at
+full employment (Section 7). The concept must be named, because a weaker
+one is a different theorem. Were deviations confined to those that keep
+*both* classes’ paths feasible, any constant wage between labour’s best
+reply and its ceiling would survive every deviation still open to
+labour, since a lower wage raises employment and lowers the extractable
+day below capital’s committed extraction.[^2] Under the concept used
+here labour’s wage is its best reply at every equilibrium, so a
+stationary equilibrium is a rest point of the two classes’ necessary
+conditions, and those are what Proposition 13 counts.
 
 Suppose capital committed instead to a *utilisation rate* $q \in [0,1]$,
 extracting $e = q\,\bar e(v)$. Its action set would then be fixed, and
@@ -488,7 +496,7 @@ Fix the control bounds as constants. The game is solved in the class of
 linear-state differential games, where the *constant* open-loop
 equilibria are Markov perfect, verified directly rather than imported,
 so every constant equilibrium object below is a closed form in the
-primitives.[^2]
+primitives.[^3]
 
 **Proposition 2 (separation).** Suppose a player’s payoff depends on the
 employment rate and productivity only through their product $av$ — as
@@ -623,22 +631,27 @@ economy between them.
 In words, capital’s consumption term is the same in the two compromises,
 so capital prefers the one that grows faster; and labour, valuing the
 wage bill of its whole class, gains more from the faster growth of
-employment and productivity than it loses in share. The same argument
-extends to the whole set: because the state enters every payoff
-affinely, the discounted value of *any* profile is the discounted
-average of the same constant $B_i$ evaluated along it, so a ranking that
-holds at each date holds for every schedule. The same two facts place
-the equilibrium at labour’s ceiling. Along capital’s best reply its
-consumption term is the same at every wage share, so capital ranks
-equilibria by accumulation alone, and accumulation falls as the share
-rises; labour, at any share above $\kappa\rho$, loses more through
-slower growth than it gains in share. Every equilibrium of the static
-game lies on capital’s best reply at a share above $\kappa\rho$, so both
-classes rank the equilibria by the wage share, the lower first, and the
-one in which labour takes its ceiling comes last for both, labour
-included. Each class makes this ranking by its own objective, and an
-organisation of labour that has settled on the distributionist
-compromise has no unilateral reason to leave it.
+employment and productivity than it loses in share. Read with the wage
+share’s sign reversed, the two instruments are strategic complements —
+capital reinvests more the lower the share labour asks, and labour asks
+less the more capital reinvests — and each class gains from the other’s
+move, which is the structure under which Cooper and John (1988) find
+multiple equilibria that can be Pareto-ranked. The same argument extends
+to the whole set: because the state enters every payoff affinely, the
+discounted value of *any* profile is the discounted average of the same
+constant $B_i$ evaluated along it, so a ranking that holds at each date
+holds for every schedule. The same two facts place the equilibrium at
+labour’s ceiling. Along capital’s best reply its consumption term is the
+same at every wage share, so capital ranks equilibria by accumulation
+alone, and accumulation falls as the share rises; labour, at any share
+above $\kappa\rho$, loses more through slower growth than it gains in
+share. Every equilibrium of the static game lies on capital’s best reply
+at a share above $\kappa\rho$, so both classes rank the equilibria by
+the wage share, the lower first, and the one in which labour takes its
+ceiling comes last for both, labour included. Each class makes this
+ranking by its own objective, and an organisation of labour that has
+settled on the distributionist compromise has no unilateral reason to
+leave it.
 
 **Proposition 4$''$ (the preferred compromise can be
 self-undermining).** If instead $\hat s_c < s_+$, the hypothesis of
@@ -816,7 +829,8 @@ with $x < 0$ the interior drift is bounded below by a positive constant,
 so $x$ must rise, while the prescription requires it to fall. So a
 modeller cannot choose how fast machinery reopens the unemployment pool;
 where the boundary is reached, the rate is $\dot x = 0$ and $m$ is the
-display. **The technology fixes it, and uniquely.**
+display. **Holding $K = \kappa a L$ at full employment fixes it, and
+uniquely.**
 
 *(ii) The separated state’s drift is the same inside and at the
 boundary.* By Proposition 2, $\dot z = s(e-\omega)/\kappa - n$ carries
@@ -965,8 +979,9 @@ wage. In the core it does not: constant ceilings and class-wide
 objectives leave the compromise blind to $v$. The regime in which it
 does is the one where the ceilings move with the unemployment pool:
 labour can enforce at most $\bar\omega(v)$, increasing in $v$, and
-capital can extract at most $\bar e(v)$, decreasing in $v$. With
-log-linear ceilings, $$
+capital can extract at most $\bar e(v)$, decreasing in $v$, the effect
+Shapiro and Stiglitz (1984) derive from effort that employers cannot
+observe without cost. With log-linear ceilings, $$
 \bar\omega(v) = \hat\omega\, v^{\eta}, \qquad \bar e(v) = \hat e\, v^{-\zeta}, \qquad \eta, \zeta > 0 ,
 $$ the labour ceiling binds where the unemployment pool is large. In
 this section a compromise is *interior* when capital’s accumulation
@@ -1035,8 +1050,8 @@ primitives — one placing the drift’s zero in the state space, a second,
 independent one making the compromise there interior. Where labour
 bargains, Proposition 13 counts the rest points instead: at most two,
 with existence on each arm an explicit sign condition on the drift. On
-Proposition 9’s first branch the regime therefore rests at no more than
-three employment rates.
+Proposition 9’s first branch the regime therefore has no more than three
+stationary employment rates.
 
 **Proposition 7 (the regime’s shadow prices, and where the separation
 breaks).** Write $P_i \equiv (1-c)p^i_x + c\,p^i_y$ for the price class
@@ -1188,7 +1203,7 @@ faster than the ceiling does. Past that point no ceiling, however
 generous, supports an interior class compromise. A policy on permitted
 work intensity that in the core decides whether labour can bargain can,
 in the regime, decide that no compromise exists at all — and the
-condition separating the two cases contains no policy instrument at all,
+condition separating the two cases contains neither ceiling’s level,
 only impatience, the taste for accumulation, the labour-displacing share
 and the two responsiveness parameters.
 
@@ -1566,8 +1581,8 @@ at most two, in total and not per arm. One where the pool sets the wage,
 two where the bargain does, and the cell above attains all three. That
 is the section’s one statement about the *economy* rather than about a
 compromise, and it is finite: on Proposition 9’s first branch, however
-the classes settle, the number of unemployment pools this economy can
-rest at is at most three. **At $b = 0$ the bound tightens to two**,
+the classes settle, the number of stationary unemployment pools this
+economy has is at most three. **At $b = 0$ the bound tightens to two**,
 since the bargained locus then carries at most one across both arms
 together while the pinned branch still carries at most one: the third
 rest point, like the multiplicity that produces it, is bought by the
@@ -1604,13 +1619,13 @@ employment rate, the bargained locus is a single curve instead of two
 roots: capital’s accumulation rate rises with its share, the extractable
 day falls to the fold and rises away from it, and the drift these two
 make is convex. So the employment rate the bargain leaves behind is one
-of at most two, and the economy as a whole rests at one of at most
-three. That is stronger than the mechanism looked capable of. An
-extraction margin that moves with the unemployment pool was the place to
-expect a continuum of rest points — a wage that answers to the pool, a
-pool that answers to accumulation, and accumulation that answers to the
-wage. It buys a count instead. And where that count is two, the classes
-are bargaining and the pool has lost its grip on the wage.
+of at most two, and the economy as a whole has at most three stationary
+employment rates. That is stronger than the mechanism looked capable of.
+An extraction margin that moves with the unemployment pool was the place
+to expect a continuum of rest points — a wage that answers to the pool,
+a pool that answers to accumulation, and accumulation that answers to
+the wage. It buys a count instead. And where that count is two, the
+classes are bargaining and the pool has lost its grip on the wage.
 
 The hypothesis $\hat\omega \le \kappa\rho$ is the pinned case: at every
 employment rate the model admits, labour’s wage ceiling stays too low
@@ -1778,17 +1793,13 @@ the four stationary compromises exhibited in the text — the three rest
 points of Proposition 13’s cell and the pinned compromise of
 A.12$''$(iv) at which $E > 0$ — and convex at a fifth, pinned,
 compromise with a steeper ceiling, exhibited in A.12$''$(iv). These
-conclusions hold over a deviation set larger than the generalised game
-admits, since joint feasibility is not imposed — though not larger in
-the direction that decides which deviations (v) must price: $\bar\omega$
-is strictly increasing, so *every* upward deviation keeps labour’s
-committed path feasible — at a bargained compromise as much as at a
-pinned one — and at a pinned compromise the feasible set is that half
-and nothing else. Where $E > 0$ such a deviation reaches full
-employment, and the continuation there can decide the verdict: at the
-one of the four whose escape margin is positive, a continuation that
-suspends the technology at the boundary reverses it (A.12$''$(iv), *The
-boundary, and what it decides*).
+conclusions hold over capital’s whole action set, joint feasibility not
+imposed, which is the deviation set the equilibrium concept of Section 2
+admits. Where $E > 0$ an upward deviation reaches full employment, and
+the continuation there can decide the verdict: at the one of the four
+whose escape margin is positive, a continuation that suspends the
+technology at the boundary reverses it (A.12$''$(iv), *The boundary, and
+what it decides*).
 
 *(v) Capital, wherever the economy’s interior law of motion holds.*
 Capital’s stationary path is optimal against labour’s over every
@@ -1867,9 +1878,8 @@ less than any positive share, and the share set does not contain zero.
 What (v) needs beyond the regime’s interior equations is that the
 *interior* law of motion hold at full employment, which is to say that
 the continuation there ration capital to a share at which the economy
-stays. At a pinned compromise capital’s jointly feasible deviations run
-toward full employment and nowhere else, because labour’s committed wage
-is its own ceiling there; where the supremal drift at $v = 1$ is
+stays. Of capital’s deviations, those toward full employment are the
+ones the boundary can decide; where the supremal drift at $v = 1$ is
 positive — as it is at the pinned compromise of A.12$''$(iv) at which
 $E > 0$ — those deviations reach it, and the neutrality of Proposition
 5$''$ does not price what arrives, since it needs the separation of
@@ -2229,12 +2239,13 @@ exploitation under accumulation is Veneziani’s. Goodwin (1967), Bowles
 (1985), Cajas Guijarro and Vera (2022), Veneziani (2007) and Debreu
 (1952) are cited for the object each studies. Shapiro and Stiglitz
 (1984) derive unemployment from the need to discipline effort that
-employers cannot observe without cost; the model takes that discipline
-as given, in Section 6’s extraction ceiling $\bar e(v)$, which rises as
-the pool grows, and shows that, wherever capital accumulates, the pool
-is to capital a convex asset in log-employment (Proposition 14(ii)). The
-model is not positioned against the dynamic game of trade unions,
-investment and employment in van der Ploeg (1987).
+employers cannot observe without cost, and Section 6’s extraction
+ceiling $\bar e(v)$, which rises as the pool grows, takes that
+discipline as given. Capital’s valuation of the pool then has the
+ceiling’s own curvature in log-employment (Proposition 14(ii)): the
+log-linear ceiling makes the pool a convex asset to capital wherever
+capital accumulates, and a ceiling concave in log-employment would make
+it a concave one.
 
 The opening question has an answer, and it is not the one either
 tradition expects. Nobody decides how many are unemployed. Two organised
@@ -3459,16 +3470,14 @@ finite — carries the economy from $v^\ast$ to full employment at
 $T = 2.41$, with discount factor $0.824$ there; that deviation in fact
 **loses** to the candidate under both laws priced below, so what the
 boundary moves is not its ranking but capital’s *optimal* feedback at
-$v^\ast$. Joint feasibility does not remove that deviation but selects
-it: at a **pinned** compromise labour’s committed wage sits exactly on
-its own ceiling, so $\omega^\ast \le \bar\omega(v)$ holds precisely for
-$v \ge v^\ast$, and the generalised game’s feasible half is the half
-containing the boundary. What arrives at $v = 1$ is then priced by a
-rule the regime’s interior equations do not contain — Proposition
-5$''$’s neutrality needs constant ceilings and Proposition 2’s
-separation, and both fail here (Proposition 7) — and the price decides
-the verdict. Two continuations that both hold the economy at full
-employment and both leave $\omega^\ast$ untouched, one rationing
+$v^\ast$. That deviation lies in capital’s own action set, so the
+equilibrium concept of Section 2 admits it, whether or not it keeps
+labour’s committed wage below labour’s ceiling. What arrives at $v = 1$
+is then priced by a rule the regime’s interior equations do not contain
+— Proposition 5$''$’s neutrality needs constant ceilings and Proposition
+2’s separation, and both fail here (Proposition 7) — and the price
+decides the verdict. Two continuations that both hold the economy at
+full employment and both leave $\omega^\ast$ untouched, one rationing
 capital’s share to the drift-zero level $0.230$ under $K = \kappa a L$,
 and one leaving the share free with productivity growing at the
 behavioural rate $m_0$ whatever the share — so that at a share below the
@@ -3707,7 +3716,8 @@ A.12$''$(iv) the condition fails ($+0.032$ and $+0.105$), and there, as
 at the pinned cell where $E > 0$ ($+0.009$), $PD$ stays above one along
 the stable manifold up to full employment, numerically, with minimum
 $1.192$, $1.113$ and $1.017$. Nothing here uses concavity, and joint
-feasibility is not imposed, so the conclusion holds over the larger set.
+feasibility is not imposed, so the conclusion holds over capital’s whole
+action set.
 
 *The boundary.* Where $E \le 0$ the drift at $x = 0$ is below
 $\gamma D(0) - (m_0+n) = E \le 0$ under every admissible share, so no
@@ -3873,6 +3883,9 @@ Cajas Guijarro, J. and L. Vera (2022). The macrodynamics of an
 endogenous business cycle model of Marxist inspiration. *Structural
 Change and Economic Dynamics* 62: 566–585.
 
+Cooper, R. and A. John (1988). Coordinating coordination failures in
+Keynesian models. *Quarterly Journal of Economics* 103(3): 441–463.
+
 Debreu, G. (1952). A social equilibrium existence theorem. *Proceedings
 of the National Academy of Sciences* 38(10): 886–893.
 
@@ -3940,9 +3953,6 @@ Change and Economic Dynamics* 23(2): 117–126.
 Veneziani, R. (2007). Exploitation and time. *Journal of Economic
 Theory* 132(1): 189–207.
 
-van der Ploeg, F. (1987). Trade unions, investment, and employment.
-*European Economic Review* 31(7): 1465–1492.
-
 [^1]: Whether the unemployment a growing economy leaves behind also
     keeps wages down is taken up by Marx in *Capital*, vol. I, ch. 25.
     He argued that capitalist accumulation itself keeps making part of
@@ -3950,7 +3960,22 @@ van der Ploeg, F. (1987). Trade unions, investment, and employment.
     scale, and that the expansion and contraction of this surplus
     regulate the general movement of wages.
 
-[^2]: Markov perfection is established for the constant equilibria. The
+[^2]: Take a stationary profile with share $s$, extraction at the
+    ceiling, $a_W = 1$, and a constant wage $\omega^\ast$ with
+    $\kappa\rho/s < \omega^\ast \le \bar\omega(v^\ast)$. A wage path
+    $\omega(t)$ keeps capital’s committed extraction feasible only if
+    log-employment stays at or below $x^\ast$ at every date, which under
+    the linear law holds if and only if
+    $F(t) \equiv \int_0^t e^{b\tau}\big(\omega(\tau)-\omega^\ast\big)\,\mathrm{d}\tau \ge 0$
+    for every $t$. Up to a constant, labour’s payoff is
+    $\int_0^\infty e^{-\rho t}\big[\ln\omega - s\omega/(\kappa\rho)\big]\,\mathrm{d}t$,
+    which is concave, so the deviation changes it by at most
+    $\big(1/\omega^\ast - s/(\kappa\rho)\big)\int_0^\infty e^{-\rho t}\big(\omega-\omega^\ast\big)\,\mathrm{d}t$.
+    Integrating by parts, that integral equals
+    $(\rho+b)\int_0^\infty e^{-(\rho+b)t}F(t)\,\mathrm{d}t \ge 0$, while
+    the bracket is negative.
+
+[^3]: Markov perfection is established for the constant equilibria. The
     date-wise switching profiles that are also open-loop equilibria are
     used below for their induced paths and their discounted payoffs — in
     Proposition 3’s multiplicity and in the rankings of Propositions
