@@ -137,9 +137,12 @@ three employment rates, at most one of them where the pool holds labour
 at its ceiling, and an economy attaining all three can be written down.
 Each of those rest points, pinned or bargained, is an equilibrium of the
 regime wherever the economy’s interior law of motion survives at full
-employment. The same regime carries a warning for anyone reading wage
-data: labour sits at its ceiling both where the pool is large and where
-the compromise is barely viable and capital’s accumulation share is
+employment. Where the bargain leaves two distributionist pools, a path
+that keeps to that compromise under both classes’ necessary conditions
+can arrive only at the lower: the upper is reached from no other point.
+The same regime carries a warning for anyone reading wage data: labour
+sits at its ceiling both where the pool is large and where the
+compromise is barely viable and capital’s accumulation share is
 collapsing, so a wage at a ceiling does not say which half of the
 mechanism is operating.
 
@@ -395,8 +398,8 @@ affinely and there is no multiplicative interaction between states and
 controls, which are their conditions (7.35) and (7.36). Open-loop Nash
 equilibria of such a game are Markov perfect. That property is stated in
 the text of their §7.2 and not as a numbered theorem, so it is cited as
-placement and verified directly here in Appendix A.3; nothing is lost by
-the open-loop restriction in the core.
+placement and verified directly in Appendix A.3 for the core’s constant
+equilibria; for those, nothing is lost by the open-loop restriction.
 
 Section 6’s regime needs one addition to that definition, because there
 the action sets move with a state both classes drive. A wage path that
@@ -993,12 +996,13 @@ $v_\times \equiv (\hat e/\hat\omega)^{1/(\eta+\zeta)}$ when
 $\hat\omega > \hat e$. Where the labour ceiling binds is a condition on
 the employment rate *and the accumulation share together*,
 $\bar\omega(v)\,s \le \kappa\rho$, and it is not a threshold in the
-employment rate alone: the Corollary to Proposition 11 shows that along
-the stationary locus labour is pinned to its ceiling at **both** ends of
-the region where a compromise exists, and bargains in a band between
-them. This section solves that regime at its **stationary layer** — the
-rest points of the canonical system, which is where every equilibrium
-object of the core lives.
+employment rate alone: along the branch on which labour takes its
+ceiling, the Corollary to Proposition 11 shows that the ceiling is
+labour’s best reply at low employment and can be so again near the end
+of that branch’s compromise, with labour preferring to bargain in
+between. This section solves that regime at its **stationary layer** —
+the rest points of the canonical system, which is where every
+equilibrium object of the core lives.
 
 **Where the extraction ceiling binds, and what settles sufficiency.**
 Nothing below imports a maximum principle for control constraints that
@@ -1294,10 +1298,14 @@ g(0^+) \;=\; 0, \qquad g(v_0^-) \;=\; 0 ,
 $$ the first because $s \to \beta$ while $\bar\omega \to 0$, the second
 because $s \to 0$ while $\bar e - \bar\omega$ stays bounded away from
 zero. Labour is therefore pinned on a right-neighbourhood of $0$ always,
-and on a left-neighbourhood of $v_0$ whenever $v_0 < 1$; and wherever
-$g$ exceeds $\kappa\rho$ at one interior point, **the pinned region is
-disconnected**, with labour bargaining in a band and pinned on both
-sides of it. Under Proposition 12’s hypothesis
+and at the top of the branch in two cases: on a left-neighbourhood of
+$v_0$ whenever $v_0 \le 1$, and at full employment whenever $v_0 > 1$,
+so that the branch covers the whole state space, and
+$g(1) \le \kappa\rho$. In either case, wherever $g$ exceeds $\kappa\rho$
+at one interior point **the pinned region is disconnected**, with labour
+bargaining in a band and pinned on both sides of it. Where $v_0 > 1$ and
+$g(1) > \kappa\rho$ the band instead runs up to full employment, which
+the domain admits. Under Proposition 12’s hypothesis
 $\hat\omega \le \kappa\rho$ this cannot happen, since $s < 1$ gives
 $g < \bar\omega \le \hat\omega \le \kappa\rho$ throughout; the
 disconnection belongs to the case $\hat\omega > \kappa\rho$ in which
@@ -1607,10 +1615,9 @@ are bargaining and the pool has lost its grip on the wage.
 The hypothesis $\hat\omega \le \kappa\rho$ is the pinned case: at every
 employment rate the model admits, labour’s wage ceiling stays too low
 for labour to prefer bargaining to taking it, so the unemployment pool
-sets the wage throughout. Where it fails there is a $\hat v$ inside the
-state space, labour bargains above it, and the accumulation share there
-is a root of Proposition 8’s quadratic rather than a closed form; the
-drift is then still
+sets the wage throughout. Where it fails labour can bargain, and where
+it bargains the accumulation share is a root of Proposition 8’s
+quadratic rather than a closed form; the drift is then still
 $\big((1-c)/\kappa\big)\big(sQ_C/(1-s)\big) - m_0 - b\ln v - n$ by
 capital’s stationary condition, and Proposition 13 counts its zeros by
 making that root the variable rather than the unknown.
@@ -1888,8 +1895,7 @@ therefore an institution, not a proof.
 
 The long-standing answer to why a growing economy keeps unemployed
 workers bundles two claims: that accumulation produces its own surplus
-of labour, and that the surplus disciplines the wage. Held together as a
-description of one economy they over-determine it. Made to face each
+of labour, and that the surplus disciplines the wage. Made to face each
 other inside one equilibrium object they come apart, and they turn out
 to be alternatives indexed by an institution rather than two halves of
 one mechanism. The first survives only in corrected form. Wherever less
@@ -2035,16 +2041,19 @@ the pool takes the wage out of the bargain. Where the pool pins labour
 to its ceiling there is at most one compromise, so even the multiplicity
 turns out to belong to the regime in which the bargain sets the wage,
 and not to the economy. And where labour is pinned is not “below a
-threshold”: it is pinned at both ends of the branch, for opposite
-reasons — by a large pool at low employment, and by a collapsing
-accumulation share near the point where the compromise stops being
-interior. Wages at a ceiling are therefore not a sufficient statistic
-for a large unemployment pool, in this model, which is a warning about
-identification and not only about algebra. And the whole regime has at
-most three stationary employment rates: at most one where the pool sets
-the wage and at most two where the bargain does, a bound an economy
-attains. A reader who expected the extraction margin to buy a continuum
-of rest points gets the opposite — it buys a count.
+threshold”: it is pinned at low employment by a large pool and, wherever
+the compromise stops being interior at or before full employment, again
+near that point by a collapsing accumulation share — the same observable
+for opposite reasons. Wages at a ceiling are therefore not a sufficient
+statistic for a large unemployment pool, in this model, which is a
+warning about identification and not only about algebra. And the whole
+regime has at most three stationary employment rates: at most one where
+the pool sets the wage and at most two where the bargain does, a bound
+an economy attains. A reader who expected the extraction margin to buy a
+continuum of rest points gets the opposite — it buys a count. And of two
+distributionist pools, an economy that keeps to that compromise can
+reach only the lower: the count is of rest points rather than of
+destinations.
 
 Seventh, in the regime the question “do the classes have a compromise?”
 and the question “does this economy grow?” are the same question. Where
@@ -2941,11 +2950,24 @@ so $g \to 0$; at $v_0$, $N = 0$ while the denominator is
 $(1-\beta)\bar e + \rho\kappa/(1+\lambda) > 0$, so $g \to 0$; and on
 $(0,v_0)$, $g$ is a product of three strictly positive factors. The
 pinned set $\{g \le \kappa\rho\}$ therefore contains a
-right-neighbourhood of $0$ and, when $v_0 < 1$, a left-neighbourhood of
-$v_0$, and is disconnected whenever $g$ exceeds $\kappa\rho$ between
+right-neighbourhood of $0$ and, when $v_0 \le 1$, a left-neighbourhood
+of $v_0$, and is disconnected whenever $g$ exceeds $\kappa\rho$ between
 them — which is a **witness** question, settled at Proposition 13’s cell
-in the Corollary’s statement, and not a universal. Under
-$\hat\omega \le \kappa\rho$ the chain
+in the Corollary’s statement, and not a universal. When $v_0 > 1$ the
+branch covers all of $(0,1]$, and by the definition of $g$ labour is
+pinned at full employment exactly when $g(1) \le \kappa\rho$; the pinned
+set is then disconnected wherever $g$ exceeds $\kappa\rho$ inside, by
+the single-peakedness below, and otherwise the band contains full
+employment. The domain admits the latter: at $\kappa = 1$,
+$\rho = \tfrac1{10}$, $\lambda = c = 0$, $b = \tfrac9{10}$,
+$\zeta = \eta = 1$, $\hat e = 2$ and $\hat\omega = 1$,
+$\beta = \tfrac9{10}$ and $N(1) = \tfrac7{10} > 0$, so $v_0 > 1$, and
+$g(1) = \hat\omega N(1)/(\hat e - \hat\omega) = \tfrac7{10} > \kappa\rho = \tfrac1{10}$;
+at $v = 1$ Proposition 8’s quadratic is
+$2s^2 - \tfrac95 s + \tfrac1{10} = 0$, whose larger root
+$s = (9+\sqrt{61})/20$ has $\bar\omega s > \kappa\rho$ and
+$\kappa A = 2s - \tfrac1{10} > 0$, so labour bargains at full employment
+itself. Under $\hat\omega \le \kappa\rho$ the chain
 $g = \bar\omega s < \bar\omega \le \hat\omega \le \kappa\rho$ closes it
 off, which is why Proposition 12 does not meet it. *Single-peakedness.*
 Multiply $N$ and $\bar e - \bar\omega$ through by $v^{\zeta}$ to clear
@@ -3070,13 +3092,21 @@ strictly between $v_0$ and $1$, which is exactly the region where
 $N < 0$. The two conditions are independent, and a statement asserting
 one from the other is false.
 
-*The Corollary.* Where $\hat\omega > \kappa\rho$ labour bargains on a
-non-empty set of employment rates — a band, by the Corollary to
-Proposition 11, and not an upper interval; on it $\omega = Q_W/s$, so
-$\kappa A = s\bar e - Q_W$, and substituting the two roots of A.8’s
-quadratic with $Q_C = A_0 + B_0\bar e$ gives the displayed
-$\kappa A_\pm$. Differentiating, the sign of $d(\kappa A_\pm)/d\bar e$
-is the sign of $\beta \pm \Delta'/(2\sqrt{\Delta})$ with
+*The Corollary.* Labour bargains only where $\hat\omega > \kappa\rho$,
+since $s < 1$ gives $\bar\omega s < \hat\omega$ at every compromise. The
+condition is necessary and not sufficient. At Proposition 13’s cell with
+$\hat\omega$ lowered from $1/2$ to $3/25$, just above
+$\kappa\rho = 1/10$, the pinned branch gives
+$\kappa\rho - g(v) = (9v^3 - 27v + 25)/\big(25(10 - 3v^2)\big)$,
+positive on $(0,1]$ because the numerator decreases to $7$ at $v = 1$;
+the bargained quadratic has real roots only where $v \le 81/100$, while
+$\bar\omega s > \kappa\rho$ with $s < \beta = 9/10$ needs $v > 25/27$.
+So labour is pinned at every compromise. Where labour bargains,
+$\omega = Q_W/s$, so $\kappa A = s\bar e - Q_W$, and substituting the
+two roots of A.8’s quadratic with $Q_C = A_0 + B_0\bar e$ gives the
+displayed $\kappa A_\pm$. Differentiating, the sign of
+$d(\kappa A_\pm)/d\bar e$ is the sign of
+$\beta \pm \Delta'/(2\sqrt{\Delta})$ with
 $\Delta' = 2\beta(\beta\bar e + Q_W - A_0) - 4Q_W$. Two facts settle
 both signs. First, $\Delta' > 0$ on the admissible set. There
 $\Delta = (\beta\bar e + q)^2 - 4\bar e Q_W \ge 0$ and
