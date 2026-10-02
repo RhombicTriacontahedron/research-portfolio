@@ -51,13 +51,13 @@ both classes. Behind those cases lies one description: with the machine
 mix and the reinvested share fixed, a rate schedule that varies smoothly
 with the weight and that its holder answers truthfully is, at each
 weight, either flat or exactly that holder’s own preferred rate. A state
-that cannot see the weight may therefore let the rate follow it only by
-conceding the holder’s own rate. Wherever the two classes want different
-machine mixes, the hybrid that pairs one class’s rate with the other’s
-choice of machines is no class’s programme and no planner’s. Under a
-restriction stated in the paper, a reshuffle of capital does not make
-the classes agree on the rate, because the tax falls on income the owner
-consumes and the two classes value capital differently. A single
+that cannot see the weight may therefore let such a rate follow it only
+by conceding the holder’s own rate. Wherever the two classes want
+different machine mixes, the hybrid that pairs one class’s rate with the
+other’s choice of machines is no class’s programme and no planner’s.
+Under a restriction stated in the paper, a reshuffle of capital does not
+make the classes agree on the rate, because the tax falls on income the
+owner consumes and the two classes value capital differently. A single
 statutory tax is not two personalised prices for the public stock.
 
 ------------------------------------------------------------------------
@@ -157,8 +157,8 @@ the machine mix and the reinvested share fixed, any rate schedule that
 varies smoothly with the weight and that its holder answers truthfully
 is, at each value of the weight, either flat or exactly that holder’s
 own preferred rate (Corollary 1). A state that cannot see the weight may
-therefore let the rate respond to it only by conceding the holder’s own
-rate, and must otherwise hold the rate still. A rate held still is
+therefore let such a rate respond to it only by conceding the holder’s
+own rate, and must otherwise hold it still. A rate held still is
 answered truthfully by either class (Propositions 6$'$ and 7$'$). Two
 further results say what the standard settlements do here. The second
 welfare theorem’s recipe leaves the stock unfilled, and with the payoffs
@@ -1152,9 +1152,9 @@ either holder.
 
 At $\sigma=1$ the same statement holds under a mandate for a schedule
 that names the common direction $s_L$, because Proposition 13 reduces
-that problem to this one. A tax schedule can therefore respond to what
-the holder of the type reports only by handing the holder its own peak.
-Wherever a differentiable schedule is not the holder’s peak, it is flat.
+that problem to this one. A differentiable tax schedule can therefore
+respond to what the holder of the type reports only by handing the
+holder its own peak; wherever it is not the holder’s peak, it is flat.
 The two can be combined. The owner’s peak censored below at a constant
 $\underline\tau$, $s=\max(\tau_C,\underline\tau)$, is
 incentive-compatible for the owner: a type whose peak lies above
@@ -1244,17 +1244,17 @@ share along with the rate (Proposition 14). A constant tax is
 incentive-compatible for either holder (Propositions 6$'$ and 7$'$). So,
 weakly, is the private-ownership recipe, because with the stock shut its
 value is the same at every report (Proposition 9). A state that does not
-observe $\theta_R$ can therefore let a tax schedule respond to it only
-by handing the holder its own peak, and must hold the tax fixed
-elsewhere. Away from $\sigma=1$ under a mandate a report moves tax and
-direction together, and for $\sigma>1$ the two peak loadings do not sign
-the package (Proposition 5). The value coefficients give it a direction.
-On either side of $\sigma=1$ the direction term of the owner’s report is
-negative at every licensed parameter, and it is the only term the
-frontier exponent multiplies, so the profitable lie turns from an
-overstatement into an understatement as that exponent rises, and the
-first-order gain from lying vanishes at one exponent per type and at no
-other. That exponent rises without bound as the weight falls toward
+observe $\theta_R$ can therefore let a differentiable tax schedule
+respond to it only by handing the holder its own peak, and must hold the
+tax fixed elsewhere. Away from $\sigma=1$ under a mandate a report moves
+tax and direction together, and for $\sigma>1$ the two peak loadings do
+not sign the package (Proposition 5). The value coefficients give it a
+direction. On either side of $\sigma=1$ the direction term of the
+owner’s report is negative at every licensed parameter, and it is the
+only term the frontier exponent multiplies, so the profitable lie turns
+from an overstatement into an understatement as that exponent rises, and
+the first-order gain from lying vanishes at one exponent per type and at
+no other. That exponent rises without bound as the weight falls toward
 zero. At every exponent, then, an owner who holds the weight has a
 profitable lie at all but finitely many types, every type near zero
 among them, and the same holds for the worker’s own programme offered to
