@@ -441,19 +441,23 @@ the game standard rather than generalised — but labour’s payoff would
 carry the state through capital’s extraction, giving
 $\partial U_W/\partial x = a_W + \theta\zeta e$ in place of $a_W$; and
 since accumulation is $s(e-\omega)/\kappa$, the law of motion would
-carry the state through extraction as well. Labour’s shadow price would
-acquire the term $\zeta e\,(\theta - sP_W/\kappa)$, with $P_W$ the value
-labour places on a unit of accumulation. Proposition 7’s asymmetry —
-capital’s price answers to how the ceiling responds to employment and
-labour’s does not — is therefore a property of the strategy space as
-well as of the information structure. The two spaces agree where the
-ceiling does not move with employment, $\zeta = 0$; otherwise, where
-labour bargains, only on the knife-edge $\theta = sP_W/\kappa$, where
-what labour saves in effort as employment rises exactly offsets what it
-loses in accumulation. Indifference to effort, $\theta = 0$, lies on
-that knife-edge only where labour places no value on accumulation at
-all. This paper takes the first: each class commits to a path of its own
-instrument, and feasibility is imposed on the pair.
+carry the state through extraction as well. Labour’s costate equation
+would acquire the term $\zeta e\,(\theta - sP_W/\kappa)$, with $P_W$ the
+value labour places on a unit of accumulation. Where labour bargains,
+its stationary price would then differ from the core’s by
+$\zeta e\,(\theta - sP^0_W/\kappa)$ over a positive denominator, $P^0_W$
+being that value at the core’s price (Appendix A.7). Proposition 7’s
+asymmetry — capital’s price answers to how the ceiling responds to
+employment and labour’s does not — is therefore a property of the
+strategy space as well as of the information structure. The two spaces
+agree where the ceiling does not move with employment, $\zeta = 0$;
+otherwise, where labour bargains, only on the knife-edge
+$\theta = sP_W/\kappa$, where what labour saves in effort as employment
+rises exactly offsets what it loses in accumulation. Indifference to
+effort, $\theta = 0$, lies on that knife-edge only where labour places
+no value on accumulation at all. This paper takes the first: each class
+commits to a path of its own instrument, and feasibility is imposed on
+the pair.
 
 **Domain.** $\bar e \ge e > \omega > 0$ with
 $\bar\omega < e_{\text{lo}}$, $\kappa, \rho > 0$, $b \ge 0$,
@@ -718,17 +722,21 @@ started, every interior rate then being stationary. That face is Section
 $(1-c)A < \mu(1) + n$, the employment rate has a unique rest point
 inside the state space, defined by $\mu(v^*) = (1-c)A - n$, and every
 path that starts inside converges to it monotonically. With the linear
-law, $\ln v^* = [(1-c)A - m_0 - n]/b$. If $(1-c)A > \mu(1) + n$, there
-is no rest point inside the state space: every path reaches full
-employment in finite time, and from that moment the interior law no
-longer describes the economy — and at $a_W = 1$ Proposition 5$''$
-supplies the continuation there, unique and payoff-neutral in the class
-of boundaries that move no binding bound. At equality the rest point is
-full employment itself. Under the linear law it is approached
-asymptotically, not reached, $\ln v(t) = \ln v(0)\,e^{-bt}$, and so it
-is under any law that is Lipschitz at $v = 1$; a law that is merely
-continuous can reach it in finite time. The unemployment pool persists,
-$v^* < 1$, if and only if $$
+law, $\ln v^* = [(1-c)A - m_0 - n]/b$. If $(1-c)A - n$ lies at or below
+every value of $\mu$, the drift is negative on the whole state space:
+there is no rest point inside it, and the employment rate falls towards
+zero. If $(1-c)A > \mu(1) + n$, there is no rest point inside the state
+space: every path reaches full employment in finite time, and from that
+moment the interior law no longer describes the economy — and at
+$a_W = 1$ Proposition 5$''$ supplies the continuation there, unique and
+payoff-neutral in the class of boundaries that move no binding bound. At
+equality the rest point is full employment itself. Under the linear law
+it is approached asymptotically, not reached,
+$\ln v(t) = \ln v(0)\,e^{-bt}$, and so it is under any law that is
+Lipschitz at $v = 1$; a law that is merely continuous can reach it in
+finite time. The unemployment pool persists — the employment rate tends
+to a limit below one: $v^*$ where that rest point exists, zero where
+$(1-c)A - n$ lies at or below every value of $\mu$ — if and only if $$
 (1-c)\,A < \mu(1) + n ,
 $$ that is, if and only if the labour-absorbing part of accumulation
 falls short of the full-employment mechanisation rate plus population
@@ -1792,14 +1800,12 @@ that goes either way on the first branch: the value is concave in $v$ at
 the four stationary compromises exhibited in the text — the three rest
 points of Proposition 13’s cell and the pinned compromise of
 A.12$''$(iv) at which $E > 0$ — and convex at a fifth, pinned,
-compromise with a steeper ceiling, exhibited in A.12$''$(iv). These
-conclusions hold over capital’s whole action set, joint feasibility not
-imposed, which is the deviation set the equilibrium concept of Section 2
-admits. Where $E > 0$ an upward deviation reaches full employment, and
-the continuation there can decide the verdict: at the one of the four
-whose escape margin is positive, a continuation that suspends the
-technology at the boundary reverses it (A.12$''$(iv), *The boundary, and
-what it decides*).
+compromise with a steeper ceiling, exhibited in A.12$''$(iv). Where
+$E > 0$ an upward deviation reaches full employment, and the
+continuation there can decide the verdict: at the one of the four whose
+escape margin is positive, a continuation that suspends the technology
+at the boundary reverses it (A.12$''$(iv), *The boundary, and what it
+decides*).
 
 *(v) Capital, wherever the economy’s interior law of motion holds.*
 Capital’s stationary path is optimal against labour’s over every
@@ -2514,22 +2520,32 @@ lies in the range of $\mu$ and $B < \mu(0) + n$, the root $x^*$ of
 $\mu(x) = B - n$ is unique and satisfies $x^* < 0$; since $\dot x$ has
 the sign of $x^* - x$, every path starting in $(-\infty, 0]$ converges
 to it monotonically, and with the linear law it is the displayed
-logarithm. If $B > \mu(0) + n$, then $\dot x \ge B - \mu(0) - n > 0$ on
-the state space, a positive lower bound, so $x$ reaches $0$ in finite
-time; this uses continuity of $\mu$. If $B = \mu(0) + n$, then
-$\dot x = \mu(0) - \mu(x) > 0$ inside with no positive lower bound near
-$0$, and $x^* = 0$ is the drift’s zero; from $x(0) < 0$ the time to
-reach it is $\int_{x(0)}^{0} dx/\big(\mu(0) - \mu(x)\big)$. Under the
-linear law $\dot x = -bx$, so $x(t) = x(0)e^{-bt}$ and the boundary is
-approached asymptotically, not reached. The same holds whenever $\mu$ is
-Lipschitz at $0$ with constant $L$: then $\mu(0) - \mu(x) \le L|x|$ and
-the integral diverges. A law that is merely continuous need not behave
-so. In $v$, $\mu(v) = 1 - \sqrt{1-v}$ is continuous and strictly
-increasing with $\mu(1) = 1$; with $B - n = 1$ the drift is
-$\dot v = v\sqrt{1-v}$, and from $v(0) = 3/4$ the path
-$\sqrt{1 - v(t)} = (3 - e^t)/(3 + e^t)$ reaches full employment at
-$t = \ln 3$. Persistence is the displayed inequality with $\mu(1) = m_0$
-in the linear case.
+logarithm. If $B - n$ lies at or below every value of $\mu$, then
+$\dot x < 0$ on the whole state space and $x \to -\infty$: where
+$B - n < \inf\mu$ the drift is at most $B - n - \inf\mu < 0$; where
+$B - n = \inf\mu$, which a strictly increasing law does not attain on
+the state space, the drift is still negative everywhere, and a path that
+stayed bounded below would converge to some $\bar x$ at which the drift
+vanishes, $\mu(\bar x) = \inf\mu$, which strict increase forbids. The
+employment rate then tends to zero. If $B > \mu(0) + n$, then
+$\dot x \ge B - \mu(0) - n > 0$ on the state space, a positive lower
+bound, so $x$ reaches $0$ in finite time; this uses continuity of $\mu$.
+If $B = \mu(0) + n$, then $\dot x = \mu(0) - \mu(x) > 0$ inside with no
+positive lower bound near $0$, and $x^* = 0$ is the drift’s zero; from
+$x(0) < 0$ the time to reach it is
+$\int_{x(0)}^{0} dx/\big(\mu(0) - \mu(x)\big)$. Under the linear law
+$\dot x = -bx$, so $x(t) = x(0)e^{-bt}$ and the boundary is approached
+asymptotically, not reached. The same holds whenever $\mu$ is Lipschitz
+at $0$ with constant $L$: then $\mu(0) - \mu(x) \le L|x|$ and the
+integral diverges. A law that is merely continuous need not behave so.
+In $v$, $\mu(v) = 1 - \sqrt{1-v}$ is continuous and strictly increasing
+with $\mu(1) = 1$; with $B - n = 1$ the drift is $\dot v = v\sqrt{1-v}$,
+and from $v(0) = 3/4$ the path $\sqrt{1 - v(t)} = (3 - e^t)/(3 + e^t)$
+reaches full employment at $t = \ln 3$. Persistence is the displayed
+inequality, with $\mu(1) = m_0$ in the linear case: the employment
+rate’s limit lies below one in the first two cases, while in the last
+two the interior path reaches full employment in finite time
+($B > \mu(0) + n$) or approaches it ($B = \mu(0) + n$).
 
 ## A.5$'$ Proposition 5$'$.
 
@@ -3716,8 +3732,9 @@ A.12$''$(iv) the condition fails ($+0.032$ and $+0.105$), and there, as
 at the pinned cell where $E > 0$ ($+0.009$), $PD$ stays above one along
 the stable manifold up to full employment, numerically, with minimum
 $1.192$, $1.113$ and $1.017$. Nothing here uses concavity, and joint
-feasibility is not imposed, so the conclusion holds over capital’s whole
-action set.
+feasibility is not imposed, so the conclusion holds over every path in
+capital’s action set that keeps the interior law of motion; *The
+boundary* below says which paths those are.
 
 *The boundary.* Where $E \le 0$ the drift at $x = 0$ is below
 $\gamma D(0) - (m_0+n) = E \le 0$ under every admissible share, so no
