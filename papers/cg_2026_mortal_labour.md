@@ -16,11 +16,12 @@ generational horizon, $\alpha$ the capital share, and $\gamma$ and
 $\theta$ the elasticity of rearing and the part of its effect carried by
 the cohort’s income. The ordering holds at every
 $(\alpha,\gamma,\theta)$ when $\beta\lambda_C\le1/2$, is independent of
-the pension institution, and reverses, wherever capital cares about its
-successors, when the levy rears the generation after next. Neither class
-wants the balanced-growth levy. Off Cobb–Douglas the comparison is with
-capital’s stationary preferred levy, where its stationary problem is
-strictly concave, and the threshold becomes
+the pension’s level and of its split between profits and wages, and
+reverses, wherever capital cares about its successors, when the levy
+rears the generation after next. Neither class wants the balanced-growth
+levy. Off Cobb–Douglas the comparison is with capital’s stationary
+preferred levy, where its stationary problem is strictly concave, and
+the threshold becomes
 $\beta\lambda_C[1+s(1-\gamma)]+\beta\lambda_C\frac{1-\sigma}{\sigma}[s(1-\gamma\theta)+\gamma(1-\theta)(1-s)]<1$,
 read at the capital share $s$ of the state compared, held stationary by
 either class’s levy, for elasticity of substitution $\sigma$. At a given
@@ -118,17 +119,17 @@ altruism, is at most one half. Above one half some capital share and
 rearing elasticity make capital the class that wants more, so one half
 is the largest horizon at which the ordering holds at every capital
 share and every rearing technology. It needs no altruism toward the
-children, and the sign does not move with the pension institution. The
-timing of the return matters as much as its size. When the levy builds a
-stock that rears the generation after next, the working cohort, which
-will be dead by then, wants none of it, and capital wants it exactly
-when it cares about its successors (Proposition 4). A capitalist
-generation that does not care about them wants none of it either, so
-that part of reproduction then has no class behind it. The same horizons
-decide the form of the fund. For a given total, capital would split it
-between cash and public input to maximise the size of the next
-generation, while the working cohort, which also consumes out of the
-cash, wants more cash (Proposition 5).
+children, and the sign is the same at every level of the pension and
+every split of it between profits and wages. The timing of the return
+matters as much as its size. When the levy builds a stock that rears the
+generation after next, the working cohort, which will be dead by then,
+wants none of it, and capital wants it exactly when it cares about its
+successors (Proposition 4). A capitalist generation that does not care
+about them wants none of it either, so that part of reproduction then
+has no class behind it. The same horizons decide the form of the fund.
+For a given total, capital would split it between cash and public input
+to maximise the size of the next generation, while the working cohort,
+which also consumes out of the cash, wants more cash (Proposition 5).
 
 There the two preferred levies are, up to a common factor set by the
 pension levy, exactly the two public-input shares of a one-agent economy
@@ -192,12 +193,12 @@ ordering. That finite-lived decision makers under-fund forward goods
 relative to an infinitely lived one is Kahn and Lim’s (2001) finding for
 representative agents. What is claimed here is the assignment of the two
 horizons to two classes, the closed-form threshold that divides them,
-its invariance to the pension institution, the timing reversal, the form
-of the fund, the price of charging the levy to wages, what sets the sign
-of worker altruism and capital’s preferred incidence of a given pension,
-and, off unit elasticity, the preferred levy, the sharp horizon bound
-free of the rearing technology and the necessity of capital’s claims on
-profits.
+its invariance to the pension’s level and to its split between profits
+and wages, the timing reversal, the form of the fund, the price of
+charging the levy to wages, what sets the sign of worker altruism and
+capital’s preferred incidence of a given pension, and, off unit
+elasticity, the preferred levy, the sharp horizon bound free of the
+rearing technology and the necessity of capital’s claims on profits.
 
 Two readers hold beliefs these results cost them. The first reads the
 reproduction of the working class as capital’s standing interest. On
@@ -213,16 +214,18 @@ wants more of is the part whose return falls after the working cohort
 has died, and capital wants it only if it cares about its successors.
 Altruism toward the reared workers is not what moves labour: counted per
 head, altruism would lower its demand, and counted in total it would
-raise it. The pension institution, funded from wages or from profits,
-makes no difference to that ordering. Rada (2012) finds that the pension
-institution aligns retirees with capital under full funding and with
-labour under pay-as-you-go over the division of income. The margin here
-is a different one, the rearing of the next generation, and on it the
-institution makes no difference. The second reader, in public finance,
-places the pensioner’s stake in the next generation in wage-financed
-pay-as-you-go. Here it survives when the pension is a claim on profits,
-and it is compared with the interest of the owner whose income is
-levied, not with a planner’s.
+raise it. The pension, at any level and however it is split between
+profits and wages, makes no difference to that ordering. Rada (2012)
+finds that the pension institution aligns retirees with capital under
+full funding and with labour under pay-as-you-go over the division of
+income. The margin here is a different one, the rearing of the next
+generation, and the institution differs too: the pension here is paid
+out of the next generation’s product, from profits or from wages, and
+none of it is funded. The second reader, in public finance, places the
+pensioner’s stake in the next generation in wage-financed pay-as-you-go.
+Here it survives when the pension is a claim on profits, and it is
+compared with the interest of the owner whose income is levied, not with
+a planner’s.
 
 The rest of the paper is organised as follows. Section 2 sets out the
 economy: mortal workers whose pension is a share of the next
@@ -837,8 +840,9 @@ the pension is a claim on profits.
 the pension institution aligns retirees with capital under full funding
 and with labour under pay-as-you-go over the division of income.
 Proposition 3 is about a different margin, the rearing of the next
-generation, and on that margin the institution does not move the
-ordering.
+generation, and a different institution, a pension paid out of the next
+generation’s product: on that margin neither the pension’s level nor its
+split between profits and wages moves the ordering.
 
 **Forward goods and horizons.** Finite-lived decision makers under-fund
 forward goods relative to an infinitely lived one in Kahn and Lim
@@ -919,18 +923,18 @@ it cares about no one after itself, and the working cohort about no one
 after its own retirement, the part whose return falls after that
 retirement is wanted by neither class.
 
-Two things do not decide the division. The pension institution does not:
-a claim on wages and a claim on profits scale both levies alike. Nor, on
-Cobb–Douglas, does ownership as such. There the classes differ only by
-horizon, exactly as a one-period output maximiser and a discounted
-planner differ in a one-agent economy (Proposition 6). Ownership returns
-off unit elasticity, and in a precise place. Where horizon alone favours
-labour and substitution is at most unit, capital’s claims on profits are
-the only channel through which the owner can come to want more of the
-next generation than the pensioner does. Those claims are its valuation
-of the capital share, its accumulation out of it, and the base on which
-the levy is raised. With complements a larger workforce per unit of
-capital raises the capital share, since
+On Cobb–Douglas production two things do not decide the division. The
+pension institution does not: a claim on wages and a claim on profits
+scale both levies alike. Nor does ownership as such. There the classes
+differ only by horizon, exactly as a one-period output maximiser and a
+discounted planner differ in a one-agent economy (Proposition 6).
+Ownership returns off unit elasticity, and in a precise place. Where
+horizon alone favours labour and substitution is at most unit, capital’s
+claims on profits are the only channel through which the owner can come
+to want more of the next generation than the pensioner does. Those
+claims are its valuation of the capital share, its accumulation out of
+it, and the base on which the levy is raised. With complements a larger
+workforce per unit of capital raises the capital share, since
 $\mathrm d\ln s_K/\mathrm d\ln k=\varepsilon(1-s_K)<0$ when $\sigma<1$,
 so every one of those claims grows with the generation reared. Ownership
 also shapes how capital would pay for the pension it does not want to
